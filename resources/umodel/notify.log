@@ -1,0 +1,1374 @@
+
+******** 00002964 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00002964.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002964 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00004247 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:99 <- ReadNameTable <- UnPackage::UnPackage:00004247.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00004247 <- Main
+
+
+******** 00005457 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:136 <- ReadNameTable <- UnPackage::UnPackage:00005457.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00005457 <- Main
+
+
+******** 00006542 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:141 <- ReadNameTable <- UnPackage::UnPackage:00006542.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006542 <- Main
+
+
+******** 00006817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00006817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006817 <- Main
+
+
+******** 00007258 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:126 <- ReadNameTable <- UnPackage::UnPackage:00007258.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007258 <- Main
+
+
+******** 00007261 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:133 <- ReadNameTable <- UnPackage::UnPackage:00007261.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007261 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00007955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007955 <- Main
+
+
+******** 00008186 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00008186.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008186 <- Main
+
+
+******** 00008927 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:143 <- ReadNameTable <- UnPackage::UnPackage:00008927.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008927 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Trying to allocate 1124073472 bytes
+appMalloc:size=1124073472 <- FArray::Empty:1124073472 x 1 <- FString<< <- Name:135 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00002964 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00002964.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002964 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00004247 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:99 <- ReadNameTable <- UnPackage::UnPackage:00004247.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00004247 <- Main
+
+
+******** 00005457 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:136 <- ReadNameTable <- UnPackage::UnPackage:00005457.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00005457 <- Main
+
+
+******** 00006542 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:141 <- ReadNameTable <- UnPackage::UnPackage:00006542.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006542 <- Main
+
+
+******** 00006817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00006817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006817 <- Main
+
+
+******** 00007258 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:126 <- ReadNameTable <- UnPackage::UnPackage:00007258.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007258 <- Main
+
+
+******** 00007261 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:133 <- ReadNameTable <- UnPackage::UnPackage:00007261.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007261 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00007955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007955 <- Main
+
+
+******** 00008186 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00008186.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008186 <- Main
+
+
+******** 00008927 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:143 <- ReadNameTable <- UnPackage::UnPackage:00008927.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008927 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Trying to allocate 1124073472 bytes
+appMalloc:size=1124073472 <- FArray::Empty:1124073472 x 1 <- FString<< <- Name:135 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:137 <- ReadNameTable <- UnPackage::UnPackage:00008955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008955 <- Main
+
+
+******** 00009164 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:124 <- ReadNameTable <- UnPackage::UnPackage:00009164.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009164 <- Main
+
+
+******** 00009268 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:125 <- ReadNameTable <- UnPackage::UnPackage:00009268.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009268 <- Main
+
+
+******** 00009664 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:158 <- ReadNameTable <- UnPackage::UnPackage:00009664.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009664 <- Main
+
+
+******** 00009851 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:126 <- ReadNameTable <- UnPackage::UnPackage:00009851.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009851 <- Main
+
+
+******** 00009923 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00009923.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009923 <- Main
+
+
+******** 00010120 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00010120.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010120 <- Main
+
+
+******** 00010202 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00010202.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010202 <- Main
+
+
+******** 00010392 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:123 <- ReadNameTable <- UnPackage::UnPackage:00010392.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010392 <- Main
+
+
+******** 00010497 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00010497.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010497 <- Main
+
+
+******** 00010497 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00010497.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010497 <- Main
+
+
+******** 00010497 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00010497.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010497 <- Main
+
+
+******** 00002964 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00002964.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002964 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00004247 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:99 <- ReadNameTable <- UnPackage::UnPackage:00004247.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00004247 <- Main
+
+
+******** 00005457 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:136 <- ReadNameTable <- UnPackage::UnPackage:00005457.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00005457 <- Main
+
+
+******** 00006542 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:141 <- ReadNameTable <- UnPackage::UnPackage:00006542.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006542 <- Main
+
+
+******** 00006817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00006817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006817 <- Main
+
+
+******** 00007258 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:126 <- ReadNameTable <- UnPackage::UnPackage:00007258.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007258 <- Main
+
+
+******** 00007261 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:133 <- ReadNameTable <- UnPackage::UnPackage:00007261.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007261 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00007955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007955 <- Main
+
+
+******** 00002964 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00002964.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002964 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00004247 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:99 <- ReadNameTable <- UnPackage::UnPackage:00004247.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00004247 <- Main
+
+
+******** 00005457 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:136 <- ReadNameTable <- UnPackage::UnPackage:00005457.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00005457 <- Main
+
+
+******** 00006542 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:141 <- ReadNameTable <- UnPackage::UnPackage:00006542.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006542 <- Main
+
+
+******** 00006817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00006817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006817 <- Main
+
+
+******** 00007258 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:126 <- ReadNameTable <- UnPackage::UnPackage:00007258.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007258 <- Main
+
+
+******** 00007261 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:133 <- ReadNameTable <- UnPackage::UnPackage:00007261.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007261 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00007955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007955 <- Main
+
+
+******** 00008186 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00008186.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008186 <- Main
+
+
+******** 00008927 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:143 <- ReadNameTable <- UnPackage::UnPackage:00008927.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008927 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Trying to allocate 1124073472 bytes
+appMalloc:size=1124073472 <- FArray::Empty:1124073472 x 1 <- FString<< <- Name:135 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:137 <- ReadNameTable <- UnPackage::UnPackage:00008955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008955 <- Main
+
+
+******** 00002964 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00002964.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002964 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00004247 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:99 <- ReadNameTable <- UnPackage::UnPackage:00004247.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00004247 <- Main
+
+
+******** 00005457 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:136 <- ReadNameTable <- UnPackage::UnPackage:00005457.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00005457 <- Main
+
+
+******** 00006542 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:141 <- ReadNameTable <- UnPackage::UnPackage:00006542.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006542 <- Main
+
+
+******** 00006817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00006817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006817 <- Main
+
+
+******** 00007258 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:126 <- ReadNameTable <- UnPackage::UnPackage:00007258.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007258 <- Main
+
+
+******** 00007261 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:133 <- ReadNameTable <- UnPackage::UnPackage:00007261.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007261 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00007955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007955 <- Main
+
+
+******** 00008186 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00008186.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008186 <- Main
+
+
+******** 00008927 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:143 <- ReadNameTable <- UnPackage::UnPackage:00008927.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008927 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Trying to allocate 1124073472 bytes
+appMalloc:size=1124073472 <- FArray::Empty:1124073472 x 1 <- FString<< <- Name:135 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:137 <- ReadNameTable <- UnPackage::UnPackage:00008955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008955 <- Main
+
+
+******** 00009164 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:124 <- ReadNameTable <- UnPackage::UnPackage:00009164.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009164 <- Main
+
+
+******** 00009268 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:125 <- ReadNameTable <- UnPackage::UnPackage:00009268.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009268 <- Main
+
+
+******** 00009664 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:158 <- ReadNameTable <- UnPackage::UnPackage:00009664.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009664 <- Main
+
+
+******** 00009851 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:126 <- ReadNameTable <- UnPackage::UnPackage:00009851.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009851 <- Main
+
+
+******** 00009923 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00009923.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009923 <- Main
+
+
+******** 00010120 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00010120.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010120 <- Main
+
+
+******** 00010202 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00010202.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010202 <- Main
+
+
+******** 00010392 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:123 <- ReadNameTable <- UnPackage::UnPackage:00010392.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010392 <- Main
+
+
+******** 00010497 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00010497.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010497 <- Main
+
+
+******** 00010497 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00010497.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010497 <- Main
+
+
+******** 00010497 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00010497.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010497 <- Main
+
+
+******** 00010699 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:120 <- ReadNameTable <- UnPackage::UnPackage:00010699.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010699 <- Main
+
+
+******** 00010894 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:101 <- ReadNameTable <- UnPackage::UnPackage:00010894.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010894 <- Main
+
+
+******** 00010900 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:119 <- ReadNameTable <- UnPackage::UnPackage:00010900.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010900 <- Main
+
+
+******** 00010900 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:119 <- ReadNameTable <- UnPackage::UnPackage:00010900.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010900 <- Main
+
+
+******** 00010900 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:119 <- ReadNameTable <- UnPackage::UnPackage:00010900.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010900 <- Main
+
+
+******** 00010900 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:119 <- ReadNameTable <- UnPackage::UnPackage:00010900.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010900 <- Main
+
+
+******** 00010903 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:120 <- ReadNameTable <- UnPackage::UnPackage:00010903.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010903 <- Main
+
+
+******** 00010903 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:120 <- ReadNameTable <- UnPackage::UnPackage:00010903.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010903 <- Main
+
+
+******** 00010903 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:120 <- ReadNameTable <- UnPackage::UnPackage:00010903.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010903 <- Main
+
+
+******** 00010919 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:144 <- ReadNameTable <- UnPackage::UnPackage:00010919.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00010919 <- Main
+
+
+******** 00011254 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:113 <- ReadNameTable <- UnPackage::UnPackage:00011254.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00011254 <- Main
+
+
+******** 00011595 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:133 <- ReadNameTable <- UnPackage::UnPackage:00011595.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00011595 <- Main
+
+
+******** 00011995 ********
+
+ERROR: Trying to allocate 1124073472 bytes
+appMalloc:size=1124073472 <- FArray::Empty:1124073472 x 1 <- FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00011995.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00011995 <- Main
+
+
+******** 00012642 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:142 <- ReadNameTable <- UnPackage::UnPackage:00012642.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00012642 <- Main
+
+
+******** 00012642 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:142 <- ReadNameTable <- UnPackage::UnPackage:00012642.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00012642 <- Main
+
+
+******** 00012840 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:142 <- ReadNameTable <- UnPackage::UnPackage:00012840.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00012840 <- Main
+
+
+******** 00012840 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:142 <- ReadNameTable <- UnPackage::UnPackage:00012840.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00012840 <- Main
+
+
+******** 00012853 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:147 <- ReadNameTable <- UnPackage::UnPackage:00012853.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00012853 <- Main
+
+
+******** 00012862 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:138 <- ReadNameTable <- UnPackage::UnPackage:00012862.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00012862 <- Main
+
+
+******** 00012882 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:146 <- ReadNameTable <- UnPackage::UnPackage:00012882.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00012882 <- Main
+
+
+******** 00013284 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:136 <- ReadNameTable <- UnPackage::UnPackage:00013284.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013284 <- Main
+
+
+******** 00013288 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00013288.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013288 <- Main
+
+
+******** 00013291 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00013291.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013291 <- Main
+
+
+******** 00013322 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:124 <- ReadNameTable <- UnPackage::UnPackage:00013322.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013322 <- Main
+
+
+******** 00013815 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:119 <- ReadNameTable <- UnPackage::UnPackage:00013815.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013815 <- Main
+
+
+******** 00013815 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:119 <- ReadNameTable <- UnPackage::UnPackage:00013815.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013815 <- Main
+
+
+******** 00013815 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:119 <- ReadNameTable <- UnPackage::UnPackage:00013815.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013815 <- Main
+
+
+******** 00013816 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:108 <- ReadNameTable <- UnPackage::UnPackage:00013816.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013816 <- Main
+
+
+******** 00013816 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:108 <- ReadNameTable <- UnPackage::UnPackage:00013816.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013816 <- Main
+
+
+******** 00013816 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:108 <- ReadNameTable <- UnPackage::UnPackage:00013816.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013816 <- Main
+
+
+******** 00013817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00013817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013817 <- Main
+
+
+******** 00013817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00013817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013817 <- Main
+
+
+******** 00013817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00013817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013817 <- Main
+
+
+******** 00013818 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:117 <- ReadNameTable <- UnPackage::UnPackage:00013818.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013818 <- Main
+
+
+******** 00013818 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:117 <- ReadNameTable <- UnPackage::UnPackage:00013818.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013818 <- Main
+
+
+******** 00013818 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:117 <- ReadNameTable <- UnPackage::UnPackage:00013818.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013818 <- Main
+
+
+******** 00013819 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:101 <- ReadNameTable <- UnPackage::UnPackage:00013819.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013819 <- Main
+
+
+******** 00013819 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:101 <- ReadNameTable <- UnPackage::UnPackage:00013819.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013819 <- Main
+
+
+******** 00013819 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:101 <- ReadNameTable <- UnPackage::UnPackage:00013819.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00013819 <- Main
+
+
+******** 00014190 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00014190.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00014190 <- Main
+
+
+******** 00014475 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00014475.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00014475 <- Main
+
+
+******** 00014475 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00014475.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00014475 <- Main
+
+
+******** 00014475 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00014475.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00014475 <- Main
+
+
+******** 00014475 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00014475.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00014475 <- Main
+
+
+******** 00014681 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:141 <- ReadNameTable <- UnPackage::UnPackage:00014681.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00014681 <- Main
+
+
+******** 00015028 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:132 <- ReadNameTable <- UnPackage::UnPackage:00015028.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00015028 <- Main
+
+
+******** 00015127 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:142 <- ReadNameTable <- UnPackage::UnPackage:00015127.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00015127 <- Main
+
+
+******** 00017055 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:117 <- ReadNameTable <- UnPackage::UnPackage:00017055.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017055 <- Main
+
+
+******** 00017055 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:117 <- ReadNameTable <- UnPackage::UnPackage:00017055.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017055 <- Main
+
+
+******** 00017055 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:117 <- ReadNameTable <- UnPackage::UnPackage:00017055.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017055 <- Main
+
+
+******** 00017055 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:117 <- ReadNameTable <- UnPackage::UnPackage:00017055.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017055 <- Main
+
+
+******** 00017100 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:114 <- ReadNameTable <- UnPackage::UnPackage:00017100.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017100 <- Main
+
+
+******** 00017100 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:114 <- ReadNameTable <- UnPackage::UnPackage:00017100.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017100 <- Main
+
+
+******** 00017100 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:114 <- ReadNameTable <- UnPackage::UnPackage:00017100.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017100 <- Main
+
+
+******** 00017100 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:114 <- ReadNameTable <- UnPackage::UnPackage:00017100.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017100 <- Main
+
+
+******** 00017241 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:123 <- ReadNameTable <- UnPackage::UnPackage:00017241.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017241 <- Main
+
+
+******** 00017461 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:109 <- ReadNameTable <- UnPackage::UnPackage:00017461.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017461 <- Main
+
+
+******** 00017461 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:109 <- ReadNameTable <- UnPackage::UnPackage:00017461.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017461 <- Main
+
+
+******** 00017461 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:109 <- ReadNameTable <- UnPackage::UnPackage:00017461.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017461 <- Main
+
+
+******** 00017461 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:109 <- ReadNameTable <- UnPackage::UnPackage:00017461.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00017461 <- Main
+
+
+******** 00020242 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:129 <- ReadNameTable <- UnPackage::UnPackage:00020242.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00020242 <- Main
+
+
+******** 00025599 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00025599.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025599 <- Main
+
+
+******** 00025599 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00025599.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025599 <- Main
+
+
+******** 00025599 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:105 <- ReadNameTable <- UnPackage::UnPackage:00025599.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025599 <- Main
+
+
+******** 00025603 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:118 <- ReadNameTable <- UnPackage::UnPackage:00025603.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025603 <- Main
+
+
+******** 00025603 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:118 <- ReadNameTable <- UnPackage::UnPackage:00025603.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025603 <- Main
+
+
+******** 00025603 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:118 <- ReadNameTable <- UnPackage::UnPackage:00025603.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025603 <- Main
+
+
+******** 00025607 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:108 <- ReadNameTable <- UnPackage::UnPackage:00025607.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025607 <- Main
+
+
+******** 00025607 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:108 <- ReadNameTable <- UnPackage::UnPackage:00025607.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025607 <- Main
+
+
+******** 00025607 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:108 <- ReadNameTable <- UnPackage::UnPackage:00025607.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025607 <- Main
+
+
+******** 00025611 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:114 <- ReadNameTable <- UnPackage::UnPackage:00025611.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025611 <- Main
+
+
+******** 00025611 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:114 <- ReadNameTable <- UnPackage::UnPackage:00025611.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025611 <- Main
+
+
+******** 00025611 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:114 <- ReadNameTable <- UnPackage::UnPackage:00025611.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025611 <- Main
+
+
+******** 00025615 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:116 <- ReadNameTable <- UnPackage::UnPackage:00025615.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025615 <- Main
+
+
+******** 00025615 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:116 <- ReadNameTable <- UnPackage::UnPackage:00025615.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025615 <- Main
+
+
+******** 00025615 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:116 <- ReadNameTable <- UnPackage::UnPackage:00025615.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025615 <- Main
+
+
+******** 00025619 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:100 <- ReadNameTable <- UnPackage::UnPackage:00025619.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025619 <- Main
+
+
+******** 00025619 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:100 <- ReadNameTable <- UnPackage::UnPackage:00025619.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025619 <- Main
+
+
+******** 00025619 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:100 <- ReadNameTable <- UnPackage::UnPackage:00025619.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00025619 <- Main
+
+
+******** 00029095 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:137 <- ReadNameTable <- UnPackage::UnPackage:00029095.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00029095 <- Main
+
+
+******** 00002680 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:43 <- ReadNameTable <- UnPackage::UnPackage:00002680.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002680 <- Main
+
+
+******** 00002683 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:48 <- ReadNameTable <- UnPackage::UnPackage:00002683.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002683 <- Main
+
+
+******** 00002691 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:38 <- ReadNameTable <- UnPackage::UnPackage:00002691.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002691 <- Main
+
+
+******** 00002792 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:24 <- ReadNameTable <- UnPackage::UnPackage:00002792.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002792 <- Main
+
+
+******** 00002776 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:53 <- ReadNameTable <- UnPackage::UnPackage:00002776.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002776 <- Main
+
+
+******** 00003058 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:24 <- ReadNameTable <- UnPackage::UnPackage:00003058.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003058 <- Main
+
+
+******** 00003196 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:34 <- ReadNameTable <- UnPackage::UnPackage:00003196.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003196 <- Main
+
+
+******** 00003196 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:34 <- ReadNameTable <- UnPackage::UnPackage:00003196.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003196 <- Main
+
+
+******** 00003438 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:38 <- ReadNameTable <- UnPackage::UnPackage:00003438.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003438 <- Main
+
+
+******** 00003458 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:24 <- ReadNameTable <- UnPackage::UnPackage:00003458.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003458 <- Main
+
+
+******** 00004048 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:96 <- ReadNameTable <- UnPackage::UnPackage:00004048.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00004048 <- Main
+
+
+******** 00006793 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:38 <- ReadNameTable <- UnPackage::UnPackage:00006793.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006793 <- Main
+
+
+******** 00006824 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:30 <- ReadNameTable <- UnPackage::UnPackage:00006824.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006824 <- Main
+
+
+******** 00008511 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:32 <- ReadNameTable <- UnPackage::UnPackage:00008511.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008511 <- Main
+
+
+******** 00008557 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:41 <- ReadNameTable <- UnPackage::UnPackage:00008557.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008557 <- Main
+
+
+******** 00008593 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:24 <- ReadNameTable <- UnPackage::UnPackage:00008593.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008593 <- Main
+
+
+******** 00008596 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:37 <- ReadNameTable <- UnPackage::UnPackage:00008596.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008596 <- Main
+
+
+******** 00008617 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:24 <- ReadNameTable <- UnPackage::UnPackage:00008617.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008617 <- Main
+
+
+******** 00008747 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:41 <- ReadNameTable <- UnPackage::UnPackage:00008747.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008747 <- Main
+
+
+******** 00008750 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:28 <- ReadNameTable <- UnPackage::UnPackage:00008750.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008750 <- Main
+
+
+******** 00008766 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:24 <- ReadNameTable <- UnPackage::UnPackage:00008766.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008766 <- Main
+
+
+******** 00008768 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:35 <- ReadNameTable <- UnPackage::UnPackage:00008768.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008768 <- Main
+
+
+******** 00008824 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:24 <- ReadNameTable <- UnPackage::UnPackage:00008824.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008824 <- Main
+
+
+******** 00002964 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:122 <- ReadNameTable <- UnPackage::UnPackage:00002964.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00002964 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00003093 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:131 <- ReadNameTable <- UnPackage::UnPackage:00003093.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00003093 <- Main
+
+
+******** 00004247 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:99 <- ReadNameTable <- UnPackage::UnPackage:00004247.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00004247 <- Main
+
+
+******** 00005457 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:136 <- ReadNameTable <- UnPackage::UnPackage:00005457.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00005457 <- Main
+
+
+******** 00006542 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:141 <- ReadNameTable <- UnPackage::UnPackage:00006542.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006542 <- Main
+
+
+******** 00006817 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00006817.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00006817 <- Main
+
+
+******** 00007258 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:126 <- ReadNameTable <- UnPackage::UnPackage:00007258.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007258 <- Main
+
+
+******** 00007261 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:133 <- ReadNameTable <- UnPackage::UnPackage:00007261.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007261 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007850 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:103 <- ReadNameTable <- UnPackage::UnPackage:00007850.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007850 <- Main
+
+
+******** 00007955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:115 <- ReadNameTable <- UnPackage::UnPackage:00007955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00007955 <- Main
+
+
+******** 00008186 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:127 <- ReadNameTable <- UnPackage::UnPackage:00008186.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008186 <- Main
+
+
+******** 00008927 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:143 <- ReadNameTable <- UnPackage::UnPackage:00008927.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008927 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Trying to allocate 1124073472 bytes
+appMalloc:size=1124073472 <- FArray::Empty:1124073472 x 1 <- FString<< <- Name:135 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008930 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:134 <- ReadNameTable <- UnPackage::UnPackage:00008930.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008930 <- Main
+
+
+******** 00008955 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:137 <- ReadNameTable <- UnPackage::UnPackage:00008955.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00008955 <- Main
+
+
+******** 00009164 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:124 <- ReadNameTable <- UnPackage::UnPackage:00009164.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009164 <- Main
+
+
+******** 00009268 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:125 <- ReadNameTable <- UnPackage::UnPackage:00009268.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009268 <- Main
+
+
+******** 00009664 ********
+
+ERROR: Serialized FString is not null-terminated
+FString<< <- Name:158 <- ReadNameTable <- UnPackage::UnPackage:00009664.upk, ver=573/1, game=801A <- UnPackage::LoadPackage:00009664 <- Main
+

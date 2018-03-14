@@ -1,0 +1,978 @@
+2018-03-13_19-08-21-7470 Json file loaded: ../../../../config/setting.json
+2018-03-13_19-08-21-8001 Json file loaded: ../../../../database/costume/data/data.json
+2018-03-13_19-08-21-8001 Json file loaded: ../../../../database/costume/data/data_invalid.json
+2018-03-13_19-08-21-8778 Json file loaded: ../../../../database/attach/data/data.json
+2018-03-13_19-08-21-8783 Json file loaded: ../../../../database/attach/data/data_invalid.json
+2018-03-13_19-08-21-9335 Json file loaded: ../../../../database/weapon/data/data.json
+2018-03-13_19-08-21-9335 Json file loaded: ../../../../database/weapon/data/data_invalid.json
+2018-03-13_19-08-21-9350 Json file loaded: ../../config/i18n-en_US.json
+2018-03-13_19-08-22-0027 [App] BladeSoulTool App start ...
+2018-03-13_19-08-22-0232 Json file loaded: ../../../../database/costume/data/origin.json
+2018-03-13_19-08-22-0763 Start to load data table ...
+2018-03-13_19-08-22-0974 [BstManager] GetCostumeDataByRace: 0
+2018-03-13_19-08-22-1621 Data table loaded, start to load icons ...
+2018-03-13_19-08-22-1646 Icon download succeeded: 
+2018-03-13_19-08-22-1651 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_20001_KunN.png
+2018-03-13_19-08-22-1651 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_21001_col1_All.png
+2018-03-13_19-08-22-1651 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50002_JinM_col1.png
+2018-03-13_19-08-22-1651 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50002_JinM_col2.png
+2018-03-13_19-08-22-1656 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_50002_KunN.png
+2018-03-13_19-08-22-1656 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_53002_JinM.png
+2018-03-13_19-08-22-1656 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_22001_JinM.png
+2018-03-13_19-08-22-1656 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_11001_col1_All.png
+2018-03-13_19-08-22-1661 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80001_col1_All.png
+2018-03-13_19-08-22-1661 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80001_col2_All.png
+2018-03-13_19-08-22-1666 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_53001_JinM_col1.png
+2018-03-13_19-08-22-1666 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_53001_JinM_col2.png
+2018-03-13_19-08-22-1666 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80007_col1_KunN.png
+2018-03-13_19-08-22-1666 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_11002_KunN.png
+2018-03-13_19-08-22-1671 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_56001_col1_All.png
+2018-03-13_19-08-22-1671 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40001_col1_All.png
+2018-03-13_19-08-22-1671 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40004_JinM_col1.png
+2018-03-13_19-08-22-1671 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40004_All.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40003_col1_All.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40003_JinM_col3.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40003_KunN_col2.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40003_JinM_col4.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40002_All.png
+2018-03-13_19-08-22-1681 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40002_col2_JinM.png
+2018-03-13_19-08-22-1681 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40002_col3_JinM.png
+2018-03-13_19-08-22-1681 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40002_col5_JinM.png
+2018-03-13_19-08-22-1681 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50001_JinM_col1.png
+2018-03-13_19-08-22-1686 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40005_JinM.png
+2018-03-13_19-08-22-1686 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40005_JinM.png
+2018-03-13_19-08-22-1686 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_20002_col1_All.png
+2018-03-13_19-08-22-1686 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80014_col1_All.png
+2018-03-13_19-08-22-1691 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80014_col4_All.png
+2018-03-13_19-08-22-1691 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80014_col2_All.png
+2018-03-13_19-08-22-1691 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80014_col3_All.png
+2018-03-13_19-08-22-1691 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_21002_col1_All.png
+2018-03-13_19-08-22-1696 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1696 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1696 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1696 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_JinM_col4.png
+2018-03-13_19-08-22-1701 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1701 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1701 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_53003_JinM_col1.png
+2018-03-13_19-08-22-1701 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_53003_JinM.png
+2018-03-13_19-08-22-1706 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_53003_JinM.png
+2018-03-13_19-08-22-1706 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40006_col1_All.png
+2018-03-13_19-08-22-1706 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40006_col1_All.png
+2018-03-13_19-08-22-1711 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60007_JinM_col4.png
+2018-03-13_19-08-22-1711 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60007_JinM_col4.png
+2018-03-13_19-08-22-1711 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60007_JinM_col4.png
+2018-03-13_19-08-22-1711 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60007_JinM_col4.png
+2018-03-13_19-08-22-1716 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60005_JinM_col1.png
+2018-03-13_19-08-22-1716 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60005_JinM_col4.png
+2018-03-13_19-08-22-1716 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60005_JinM_col1.png
+2018-03-13_19-08-22-1716 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60005_JinM_col2.png
+2018-03-13_19-08-22-1721 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_21003_col1_All.png
+2018-03-13_19-08-22-1721 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40008_GonF_col1.png
+2018-03-13_19-08-22-1721 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40008_GonF_col1.png
+2018-03-13_19-08-22-1726 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_55003_JinM_col1.png
+2018-03-13_19-08-22-1726 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_55003_JinM.png
+2018-03-13_19-08-22-1726 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80005_col1_All.png
+2018-03-13_19-08-22-1726 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80005_All_col2.png
+2018-03-13_19-08-22-1731 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80005_JinM_col3.png
+2018-03-13_19-08-22-1731 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60010_All.png
+2018-03-13_19-08-22-1731 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60010_col2_All.png
+2018-03-13_19-08-22-1731 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60010_All.png
+2018-03-13_19-08-22-1736 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60010_All.png
+2018-03-13_19-08-22-1736 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50004_col1_All.png
+2018-03-13_19-08-22-1736 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_50004_All_col2.png
+2018-03-13_19-08-22-1741 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_53005_col1_all.png
+2018-03-13_19-08-22-1741 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40011_col1_All.png
+2018-03-13_19-08-22-1741 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40011_JinF_col2.png
+2018-03-13_19-08-22-1741 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60013_GonM.png
+2018-03-13_19-08-22-1746 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40007_col1_All.png
+2018-03-13_19-08-22-1746 Icon download succeeded: 
+2018-03-13_19-08-22-1746 Icon download succeeded: 
+2018-03-13_19-08-22-1746 Icon download succeeded: 
+2018-03-13_19-08-22-1751 Icon download succeeded: 
+2018-03-13_19-08-22-1751 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40014_col1_All.png
+2018-03-13_19-08-22-1751 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40013_col1_All.png
+2018-03-13_19-08-22-1751 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40012_col1_all.png
+2018-03-13_19-08-22-1751 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40012_col1_all.png
+2018-03-13_19-08-22-1756 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41004_JinM_col1.png
+2018-03-13_19-08-22-1756 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41004_JinM_col1.png
+2018-03-13_19-08-22-1756 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1756 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1761 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1761 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1761 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1761 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1766 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41005_JinM_col1.png
+2018-03-13_19-08-22-1766 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41009_JinM_col1.png
+2018-03-13_19-08-22-1766 Icon download succeeded: 
+2018-03-13_19-08-22-1766 Icon download succeeded: 
+2018-03-13_19-08-22-1771 Icon download succeeded: 
+2018-03-13_19-08-22-1771 Icon download succeeded: 
+2018-03-13_19-08-22-1771 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41007_JinM.png
+2018-03-13_19-08-22-1771 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51002_col1_All.png
+2018-03-13_19-08-22-1776 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51002_col2_JinM.png
+2018-03-13_19-08-22-1776 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41002_JinM_col1.png
+2018-03-13_19-08-22-1776 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41006_JinM_col1.png
+2018-03-13_19-08-22-1776 Icon download succeeded: 
+2018-03-13_19-08-22-1781 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_54002_JinM_col1.png
+2018-03-13_19-08-22-1781 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_54002_JinF_col4.png
+2018-03-13_19-08-22-1781 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80008_col1_All.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80008_col3_All.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80008_JinM_col5.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51003_col1_All.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51003_col2_All.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40015_col1_All.png
+2018-03-13_19-08-22-1791 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40015_col1_All.png
+2018-03-13_19-08-22-1791 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40015_GonM_col3.png
+2018-03-13_19-08-22-1791 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40009_col1_All.png
+2018-03-13_19-08-22-1796 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40009_col1_All.png
+2018-03-13_19-08-22-1796 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40016_col1_all.png
+2018-03-13_19-08-22-1796 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40016_col1_all.png
+2018-03-13_19-08-22-1796 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41008_JinM_col1.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65023_JinM_col1.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65023_JinM_col1.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60047_JinM_col1.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60046_col1_all.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60046_JinM_col2.png
+2018-03-13_19-08-22-1806 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65045_col1_All.png
+2018-03-13_19-08-22-1806 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65045_JinM_col2.png
+2018-03-13_19-08-22-1806 Icon download succeeded: 
+2018-03-13_19-08-22-1806 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60048_JinM_col1.png
+2018-03-13_19-08-22-1811 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col1_all.png
+2018-03-13_19-08-22-1811 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col2_all.png
+2018-03-13_19-08-22-1811 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col4_all.png
+2018-03-13_19-08-22-1811 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col3_all.png
+2018-03-13_19-08-22-1816 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col1_all.png
+2018-03-13_19-08-22-1816 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60045_JinM_col1.png
+2018-03-13_19-08-22-1816 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60045_JinM_col2.png
+2018-03-13_19-08-22-1816 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60045_JinM_col3.png
+2018-03-13_19-08-22-1821 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60025_JinM_col1.png
+2018-03-13_19-08-22-1821 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60025_JinM_col3.png
+2018-03-13_19-08-22-1821 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60025_JinM_col2.png
+2018-03-13_19-08-22-1821 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60025_col4_All.png
+2018-03-13_19-08-22-1826 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60033_KunN_col1.png
+2018-03-13_19-08-22-1826 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51001_col1_All.png
+2018-03-13_19-08-22-1826 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51001_col2_All.png
+2018-03-13_19-08-22-1826 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80019_col1_KunN.png
+2018-03-13_19-08-22-1831 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80019_JinM_col2.png
+2018-03-13_19-08-22-1831 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_00002_KunN_col1.png
+2018-03-13_19-08-22-1831 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50003_col1_All.png
+2018-03-13_19-08-22-1831 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50003_col2_All.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_50003_JinM_col3.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_50003_JinM_col4.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_startzone_jeja.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_startzone_jeja.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60054_JinM_col3.png
+2018-03-13_19-08-22-1841 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_20004_col1_All.png
+2018-03-13_19-08-22-1841 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1841 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col2_JinM.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1851 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1851 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1851 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1851 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1856 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1856 Icon download succeeded: 
+2018-03-13_19-08-22-1856 Icon download succeeded: 
+2018-03-13_19-08-22-1856 Icon download succeeded: 
+2018-03-13_19-08-22-1856 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40018_col1_All.png
+2018-03-13_19-08-22-1861 Icon download succeeded: 
+2018-03-13_19-08-22-1861 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60034_col1_all.png
+2018-03-13_19-08-22-1861 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_JinM_col2.png
+2018-03-13_19-08-22-1861 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1866 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1866 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1866 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1866 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1871 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1871 Icon download succeeded: 
+2018-03-13_19-08-22-1871 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60053_JinM_col1.png
+2018-03-13_19-08-22-1871 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65032_JinM_col1.png
+2018-03-13_19-08-22-1876 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65032_jinM_col2.png
+2018-03-13_19-08-22-1876 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65032_JinM_col1.png
+2018-03-13_19-08-22-1876 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_56002_JinM_col1.png
+2018-03-13_19-08-22-1881 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_56002_JinM_col1.png
+2018-03-13_19-08-22-1881 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65026_JinM_col1.png
+2018-03-13_19-08-22-1881 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65021_col1_kunN.png
+2018-03-13_19-08-22-1881 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10001_JinF.png
+2018-03-13_19-08-22-1886 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65029_JinM_Col1.png
+2018-03-13_19-08-22-1886 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65029_jinM.png
+2018-03-13_19-08-22-1886 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60050_JinM_col1.png
+2018-03-13_19-08-22-1886 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60050_JinM_col2.png
+2018-03-13_19-08-22-1891 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60050_JinM_col3.png
+2018-03-13_19-08-22-1891 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65049_col1_All.png
+2018-03-13_19-08-22-1891 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65049_col2_All.png
+2018-03-13_19-08-22-1891 Icon download succeeded: 
+2018-03-13_19-08-22-1897 Icon download succeeded: 
+2018-03-13_19-08-22-1897 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60069_col1_All.png
+2018-03-13_19-08-22-1897 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1897 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col2_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1907 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1907 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_JinM_col9.png
+2018-03-13_19-08-22-1907 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_JinM_col10.png
+2018-03-13_19-08-22-1907 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_JinM_col11.png
+2018-03-13_19-08-22-1912 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1912 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_52002_col1_GonF.png
+2018-03-13_19-08-22-1912 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60022_JinM_col1.png
+2018-03-13_19-08-22-1912 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60022_JimM_col2.png
+2018-03-13_19-08-22-1917 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60039_JinM_col1.png
+2018-03-13_19-08-22-1917 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60039_JinM_col2.png
+2018-03-13_19-08-22-1917 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65024_JinM_col1.png
+2018-03-13_19-08-22-1917 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65024_JinM_col2.png
+2018-03-13_19-08-22-1922 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65024_JinM_col3.png
+2018-03-13_19-08-22-1922 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65031_JinF_col1.png
+2018-03-13_19-08-22-1922 Icon download succeeded: 
+2018-03-13_19-08-22-1922 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65015_JinM_col1.png
+2018-03-13_19-08-22-1927 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60044_JinM_col1.png
+2018-03-13_19-08-22-1927 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60044_JinM_col3.png
+2018-03-13_19-08-22-1927 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60044_JinM_col2.png
+2018-03-13_19-08-22-1932 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65025_JinM_col1.png
+2018-03-13_19-08-22-1932 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65025_KunN_col2.png
+2018-03-13_19-08-22-1932 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65025_KunN_col3.png
+2018-03-13_19-08-22-1932 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60074_JinM_col1.png
+2018-03-13_19-08-22-1937 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60082_KunN_col1.png
+2018-03-13_19-08-22-1937 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60070_JinM_col1.png
+2018-03-13_19-08-22-1937 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60067_JinM_col1.png
+2018-03-13_19-08-22-1937 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60067_JinM_col2.png
+2018-03-13_19-08-22-1942 Icon download succeeded: 
+2018-03-13_19-08-22-1942 Icon download succeeded: 
+2018-03-13_19-08-22-1942 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60071_JinM_col1.png
+2018-03-13_19-08-22-1947 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60061_col1_LynF.png
+2018-03-13_19-08-22-1947 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60061_JinM_col2.png
+2018-03-13_19-08-22-1947 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60077_col1_jinF.png
+2018-03-13_19-08-22-1947 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60077_KunN_col2.png
+2018-03-13_19-08-22-1952 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60077_KunN_col3.png
+2018-03-13_19-08-22-1952 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60076_col1_jinF.png
+2018-03-13_19-08-22-1952 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60076_KunN_col2.png
+2018-03-13_19-08-22-1952 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60076_KunN_col2.png
+2018-03-13_19-08-22-1957 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60075_KunN_col1.png
+2018-03-13_19-08-22-1957 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60075_KunN_col2.png
+2018-03-13_19-08-22-1957 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80003_JinF_col1.png
+2018-03-13_19-08-22-1957 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80003_JinF.png
+2018-03-13_19-08-22-1962 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65066_JinM_col1.png
+2018-03-13_19-08-22-1962 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65066_JinM_col1.png
+2018-03-13_19-08-22-1962 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65067_JinM_col1.png
+2018-03-13_19-08-22-1962 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65067_JinM_col2.png
+2018-03-13_19-08-22-1967 Icon download succeeded: 
+2018-03-13_19-08-22-1967 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_90008_JinM_col1.png
+2018-03-13_19-08-22-1967 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60094_KunN_col1.png
+2018-03-13_19-08-22-1967 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60094_KunN_col1.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60086_JinM_col1.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60089_JinM_col1.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60089_JinM_col2.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60089_JinM_col3.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60073_JinM_col1.png
+2018-03-13_19-08-22-1977 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60093_JinF_col1.png
+2018-03-13_19-08-22-1977 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60093_JinF_col2.png
+2018-03-13_19-08-22-1977 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60093_JinF_col3.png
+2018-03-13_19-08-22-1977 Icon download succeeded: 
+2018-03-13_19-08-22-1982 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60055_JinM_col1.png
+2018-03-13_19-08-22-1982 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60055_JinM_col2.png
+2018-03-13_19-08-22-1982 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60055_JinF_col3.png
+2018-03-13_19-08-22-1982 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60079_JinF_col1.png
+2018-03-13_19-08-22-1987 Icon download succeeded: 
+2018-03-13_19-08-22-1987 Icon download succeeded: 
+2018-03-13_19-08-22-1987 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60095_JinM_col1.png
+2018-03-13_19-08-22-2012 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60096_JinM_col1.png
+2018-03-13_19-08-22-2012 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_90003_col2_GonF.png
+2018-03-13_19-08-22-2017 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_90003_col2_GonF.png
+2018-03-13_19-08-22-2017 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_90003_col2_GonF.png
+2018-03-13_19-08-22-2017 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60097_JinM_col1.png
+2018-03-13_19-08-22-2022 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65074_JinM_col1.png
+2018-03-13_19-08-22-2022 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65048_JinF_col1.png
+2018-03-13_19-08-22-2022 Icon download succeeded: 
+2018-03-13_19-08-22-2022 Icon download succeeded: 
+2018-03-13_19-08-22-2027 Icon download succeeded: 
+2018-03-13_19-08-22-2027 Icon download succeeded: 
+2018-03-13_19-08-22-2027 Icon download succeeded: 
+2018-03-13_19-08-22-2027 Icon download succeeded: 
+2018-03-13_19-08-22-2032 Icon download succeeded: 
+2018-03-13_19-08-22-2032 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60100_KunN_col1.png
+2018-03-13_19-08-22-2032 Icon download succeeded: 
+2018-03-13_19-08-22-2032 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60099_JinM_col1.png
+2018-03-13_19-08-22-2037 Icon download succeeded: 
+2018-03-13_19-08-22-2037 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65050_JinF_col1.png
+2018-03-13_19-08-22-2037 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70003_col1_All.png
+2018-03-13_19-08-22-2037 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60068_JinF_col1.png
+2018-03-13_19-08-22-2042 Icon download succeeded: 
+2018-03-13_19-08-22-2042 Icon download succeeded: 
+2018-03-13_19-08-22-2042 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65055_JinM_col2.png
+2018-03-13_19-08-22-2042 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65055_JinM_col2.png
+2018-03-13_19-08-22-2047 Icon download succeeded: 
+2018-03-13_19-08-22-2047 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60098_JinM_col1.png
+2018-03-13_19-08-22-2047 Icon download succeeded: 
+2018-03-13_19-08-22-2047 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60106_JinF_col1.png
+2018-03-13_19-08-22-2052 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60108_JinM_col1.png
+2018-03-13_19-08-22-2052 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60105_KunN_col1.png
+2018-03-13_19-08-22-2052 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60105_KunN_col1.png
+2018-03-13_19-08-22-2057 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70007_col1_All.png
+2018-03-13_19-08-22-2057 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70002_col1_All.png
+2018-03-13_19-08-22-2057 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70008_JinF_col1.png
+2018-03-13_19-08-22-2057 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60114_JinF_col1.png
+2018-03-13_19-08-22-2062 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60114_JinF_col1.png
+2018-03-13_19-08-22-2062 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60107_JinF_col1.png
+2018-03-13_19-08-22-2062 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60107_JinF_col1.png
+2018-03-13_19-08-22-2062 Icon download succeeded: 
+2018-03-13_19-08-22-2067 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60060_JinM_col1.png
+2018-03-13_19-08-22-2067 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70010_JinM_col1.png
+2018-03-13_19-08-22-2067 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70006_col1_All.png
+2018-03-13_19-08-22-2067 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70006_col1_All.png
+2018-03-13_19-08-22-2072 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60104_JinM_col1.png
+2018-03-13_19-08-22-2072 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70004_JinM_col1.png
+2018-03-13_19-08-22-2072 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70004_JinM_col1.png
+2018-03-13_19-08-22-2072 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70004_JinM_col1.png
+2018-03-13_19-08-22-2077 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70013_col1_KunN.png
+2018-03-13_19-08-22-2077 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2077 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col2.png
+2018-03-13_19-08-22-2077 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col3.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2087 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2087 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2087 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2087 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2252 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70016_JinM_col1.png
+2018-03-13_19-08-22-2252 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70016_JinM_col1.png
+2018-03-13_19-08-22-2252 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70016_JinM_col1.png
+2018-03-13_19-08-22-2257 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70017_col1_KunN.png
+2018-03-13_19-08-22-2257 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70009_col1_All.png
+2018-03-13_19-08-22-2257 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70018_col1_KunN.png
+2018-03-13_19-08-22-2257 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60101_JinF_col1.png
+2018-03-13_19-08-22-2262 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60101_JinF_col1.png
+2018-03-13_19-08-22-2262 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65081_jinF_col1.png
+2018-03-13_19-08-22-2262 Icon download succeeded: 
+2018-03-13_19-08-22-2262 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60072_jinF_col1.png
+2018-03-13_19-08-22-2267 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60121_JinM_col1.png
+2018-03-13_19-08-22-2267 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65010_GonF.png
+2018-03-13_19-08-22-2267 Icon download succeeded: 
+2018-03-13_19-08-22-2267 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70027_KunN_col1.png
+2018-03-13_19-08-22-2267 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70027_KunN_col2.png
+2018-03-13_19-08-22-2273 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60122_GonF_col1.png
+2018-03-13_19-08-22-2273 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70028_KunN_col1.png
+2018-03-13_19-08-22-2273 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60123_JinF_col1.png
+2018-03-13_19-08-22-2273 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60123_JinF_col2.png
+2018-03-13_19-08-22-2278 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70026_JinM_col1.png
+2018-03-13_19-08-22-2278 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60125_JinM_col1.png
+2018-03-13_19-08-22-2278 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60125_JinM_col3.png
+2018-03-13_19-08-22-2278 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60125_JinM_col2.png
+2018-03-13_19-08-22-2283 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60127_JinM_col1.png
+2018-03-13_19-08-22-2283 Icon download succeeded: 
+2018-03-13_19-08-22-2283 Icon download succeeded: 
+2018-03-13_19-08-22-2283 Icon download succeeded: 
+2018-03-13_19-08-22-2288 Icon download succeeded: 
+2018-03-13_19-08-22-2288 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70031_JinM_col1.png
+2018-03-13_19-08-22-2288 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70036_JinF_col1.png
+2018-03-13_19-08-22-2288 Icon download succeeded: 
+2018-03-13_19-08-22-2293 Icon download succeeded: 
+2018-03-13_19-08-22-2293 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70030_JinF_col1.png
+2018-03-13_19-08-22-2293 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60117_JinM_col1.png
+2018-03-13_19-08-22-2293 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60116_JinF_col1.png
+2018-03-13_19-08-22-2298 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60116_JinM_col2.png
+2018-03-13_19-08-22-2298 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60116_JinF_col3.png
+2018-03-13_19-08-22-2298 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60116_JinF_col1.png
+2018-03-13_19-08-22-2298 Icon download succeeded: 
+2018-03-13_19-08-22-2298 Icon download succeeded: 
+2018-03-13_19-08-22-2303 Icon download succeeded: 
+2018-03-13_19-08-22-2303 Icon download succeeded: 
+2018-03-13_19-08-22-2303 Icon download succeeded: 
+2018-03-13_19-08-22-2303 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70042_JinF_col1.png
+2018-03-13_19-08-22-2313 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70043_JinM_col1.png
+2018-03-13_19-08-22-2313 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70043_JinM_col1.png
+2018-03-13_19-08-22-2313 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70043_JinM_col1.png
+2018-03-13_19-08-22-2313 Icon download succeeded: 
+2018-03-13_19-08-22-2318 Icon download succeeded: 
+2018-03-13_19-08-22-2318 Icon download succeeded: 
+2018-03-13_19-08-22-2318 Icon download succeeded: 
+2018-03-13_19-08-22-2318 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65040_JinF_col1.png
+2018-03-13_19-08-22-2318 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60142_JinM_col1.png
+2018-03-13_19-08-22-2323 Icon download succeeded: 
+2018-03-13_19-08-22-2323 Icon download succeeded: 
+2018-03-13_19-08-22-2323 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60130_jinM_col1.png
+2018-03-13_19-08-22-2323 Icon download succeeded: 
+2018-03-13_19-08-22-2328 Icon download succeeded: 
+2018-03-13_19-08-22-2328 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65085_jinF_col1.png
+2018-03-13_19-08-22-2328 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60133_JinF_col1.png
+2018-03-13_19-08-22-2333 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10009_KunN_col1.png
+2018-03-13_19-08-22-2333 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10009_KunN_col1.png
+2018-03-13_19-08-22-2333 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10014_LynF_col1.png
+2018-03-13_19-08-22-2333 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10015_jinF_col1.png
+2018-03-13_19-08-22-2338 Icon download succeeded: 
+2018-03-13_19-08-22-2338 Icon download succeeded: 
+2018-03-13_19-08-22-2338 Icon download succeeded: 
+2018-03-13_19-08-22-2343 Icon download succeeded: 
+2018-03-13_19-08-22-2343 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10016_jinF_col1.png
+2018-03-13_19-08-22-2343 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60109_JinM_col1.png
+2018-03-13_19-08-22-2343 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60109_JinM_col1.png
+2018-03-13_19-08-22-2348 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10017_JinM_col1.png
+2018-03-13_19-08-22-2348 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10017_JinM_col2.png
+2018-03-13_19-08-22-2348 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65072_jinM_col1.png
+2018-03-13_19-08-22-2348 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60132_JinF_col3.png
+2018-03-13_19-08-22-2353 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65073_jinM_col1.png
+2018-03-13_19-08-22-2353 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70029_JinF_col1.png
+2018-03-13_19-08-22-2353 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10012_JinM_col1.png
+2018-03-13_19-08-22-2358 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70047_KunN_col1.png
+2018-03-13_19-08-22-2358 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10013_JinM_col1.png
+2018-03-13_19-08-22-2358 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70039_JinM_col1.png
+2018-03-13_19-08-22-2358 Icon download succeeded: 
+2018-03-13_19-08-22-2358 Icon download succeeded: 
+2018-03-13_19-08-22-2363 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10024_JinF_col1.png
+2018-03-13_19-08-22-2363 Icon download succeeded: 
+2018-03-13_19-08-22-2363 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10025_JinM_col1.png
+2018-03-13_19-08-22-2363 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10026_JinM_col1.png
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2373 Icon download succeeded: 
+2018-03-13_19-08-22-2373 Icon download succeeded: 
+2018-03-13_19-08-22-2373 Icon download succeeded: 
+2018-03-13_19-08-22-2373 Icon download succeeded: 
+2018-03-13_19-08-22-2378 Icon download succeeded: 
+2018-03-13_19-08-22-2378 Icon download succeeded: 
+2018-03-13_19-08-22-2378 Icon download succeeded: 
+2018-03-13_19-08-22-2378 Icon download succeeded: 
+2018-03-13_19-08-22-2383 Icon download succeeded: 
+2018-03-13_19-08-22-2383 Icon download succeeded: 
+2018-03-13_19-08-22-2383 Icon download succeeded: 
+2018-03-13_19-08-22-2383 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2398 Icon download succeeded: 
+2018-03-13_19-08-22-2398 Icon download succeeded: 
+2018-03-13_19-08-22-2398 Icon download succeeded: 
+2018-03-13_19-08-22-2398 Icon download succeeded: 
+2018-03-13_19-08-22-2403 Icon download succeeded: 
+2018-03-13_19-08-22-2403 Icon download succeeded: 
+2018-03-13_19-08-22-2403 Icon download succeeded: 
+2018-03-13_19-08-22-2403 Icon download succeeded: 
+2018-03-13_19-08-22-2408 Icon download succeeded: 
+2018-03-13_19-08-22-2408 Icon download succeeded: 
+2018-03-13_19-08-22-2408 Icon download succeeded: 
+2018-03-13_19-08-22-2413 All icons downloaded ...
+2018-03-13_19-08-22-2413 [BstIconLoader] Queued works all done, thread exit ...
+2018-03-13_19-08-21-7470 Json file loaded: ../../../../config/setting.json
+2018-03-13_19-08-21-8001 Json file loaded: ../../../../database/costume/data/data.json
+2018-03-13_19-08-21-8001 Json file loaded: ../../../../database/costume/data/data_invalid.json
+2018-03-13_19-08-21-8778 Json file loaded: ../../../../database/attach/data/data.json
+2018-03-13_19-08-21-8783 Json file loaded: ../../../../database/attach/data/data_invalid.json
+2018-03-13_19-08-21-9335 Json file loaded: ../../../../database/weapon/data/data.json
+2018-03-13_19-08-21-9335 Json file loaded: ../../../../database/weapon/data/data_invalid.json
+2018-03-13_19-08-21-9350 Json file loaded: ../../config/i18n-en_US.json
+2018-03-13_19-08-22-0027 [App] BladeSoulTool App start ...
+2018-03-13_19-08-22-0232 Json file loaded: ../../../../database/costume/data/origin.json
+2018-03-13_19-08-22-0763 Start to load data table ...
+2018-03-13_19-08-22-0974 [BstManager] GetCostumeDataByRace: 0
+2018-03-13_19-08-22-1621 Data table loaded, start to load icons ...
+2018-03-13_19-08-22-1646 Icon download succeeded: 
+2018-03-13_19-08-22-1651 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_20001_KunN.png
+2018-03-13_19-08-22-1651 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_21001_col1_All.png
+2018-03-13_19-08-22-1651 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50002_JinM_col1.png
+2018-03-13_19-08-22-1651 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50002_JinM_col2.png
+2018-03-13_19-08-22-1656 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_50002_KunN.png
+2018-03-13_19-08-22-1656 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_53002_JinM.png
+2018-03-13_19-08-22-1656 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_22001_JinM.png
+2018-03-13_19-08-22-1656 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_11001_col1_All.png
+2018-03-13_19-08-22-1661 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80001_col1_All.png
+2018-03-13_19-08-22-1661 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80001_col2_All.png
+2018-03-13_19-08-22-1666 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_53001_JinM_col1.png
+2018-03-13_19-08-22-1666 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_53001_JinM_col2.png
+2018-03-13_19-08-22-1666 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80007_col1_KunN.png
+2018-03-13_19-08-22-1666 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_11002_KunN.png
+2018-03-13_19-08-22-1671 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_56001_col1_All.png
+2018-03-13_19-08-22-1671 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40001_col1_All.png
+2018-03-13_19-08-22-1671 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40004_JinM_col1.png
+2018-03-13_19-08-22-1671 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40004_All.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40003_col1_All.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40003_JinM_col3.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40003_KunN_col2.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40003_JinM_col4.png
+2018-03-13_19-08-22-1676 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40002_All.png
+2018-03-13_19-08-22-1681 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40002_col2_JinM.png
+2018-03-13_19-08-22-1681 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40002_col3_JinM.png
+2018-03-13_19-08-22-1681 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40002_col5_JinM.png
+2018-03-13_19-08-22-1681 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50001_JinM_col1.png
+2018-03-13_19-08-22-1686 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40005_JinM.png
+2018-03-13_19-08-22-1686 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40005_JinM.png
+2018-03-13_19-08-22-1686 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_20002_col1_All.png
+2018-03-13_19-08-22-1686 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80014_col1_All.png
+2018-03-13_19-08-22-1691 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80014_col4_All.png
+2018-03-13_19-08-22-1691 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80014_col2_All.png
+2018-03-13_19-08-22-1691 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80014_col3_All.png
+2018-03-13_19-08-22-1691 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_21002_col1_All.png
+2018-03-13_19-08-22-1696 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1696 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1696 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1696 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_JinM_col4.png
+2018-03-13_19-08-22-1701 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1701 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60006_All.png
+2018-03-13_19-08-22-1701 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_53003_JinM_col1.png
+2018-03-13_19-08-22-1701 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_53003_JinM.png
+2018-03-13_19-08-22-1706 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_53003_JinM.png
+2018-03-13_19-08-22-1706 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40006_col1_All.png
+2018-03-13_19-08-22-1706 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40006_col1_All.png
+2018-03-13_19-08-22-1711 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60007_JinM_col4.png
+2018-03-13_19-08-22-1711 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60007_JinM_col4.png
+2018-03-13_19-08-22-1711 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60007_JinM_col4.png
+2018-03-13_19-08-22-1711 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60007_JinM_col4.png
+2018-03-13_19-08-22-1716 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60005_JinM_col1.png
+2018-03-13_19-08-22-1716 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60005_JinM_col4.png
+2018-03-13_19-08-22-1716 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60005_JinM_col1.png
+2018-03-13_19-08-22-1716 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60005_JinM_col2.png
+2018-03-13_19-08-22-1721 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_21003_col1_All.png
+2018-03-13_19-08-22-1721 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40008_GonF_col1.png
+2018-03-13_19-08-22-1721 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40008_GonF_col1.png
+2018-03-13_19-08-22-1726 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_55003_JinM_col1.png
+2018-03-13_19-08-22-1726 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_55003_JinM.png
+2018-03-13_19-08-22-1726 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80005_col1_All.png
+2018-03-13_19-08-22-1726 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80005_All_col2.png
+2018-03-13_19-08-22-1731 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80005_JinM_col3.png
+2018-03-13_19-08-22-1731 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60010_All.png
+2018-03-13_19-08-22-1731 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60010_col2_All.png
+2018-03-13_19-08-22-1731 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60010_All.png
+2018-03-13_19-08-22-1736 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60010_All.png
+2018-03-13_19-08-22-1736 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50004_col1_All.png
+2018-03-13_19-08-22-1736 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_50004_All_col2.png
+2018-03-13_19-08-22-1741 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_53005_col1_all.png
+2018-03-13_19-08-22-1741 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40011_col1_All.png
+2018-03-13_19-08-22-1741 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40011_JinF_col2.png
+2018-03-13_19-08-22-1741 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60013_GonM.png
+2018-03-13_19-08-22-1746 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40007_col1_All.png
+2018-03-13_19-08-22-1746 Icon download succeeded: 
+2018-03-13_19-08-22-1746 Icon download succeeded: 
+2018-03-13_19-08-22-1746 Icon download succeeded: 
+2018-03-13_19-08-22-1751 Icon download succeeded: 
+2018-03-13_19-08-22-1751 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40014_col1_All.png
+2018-03-13_19-08-22-1751 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40013_col1_All.png
+2018-03-13_19-08-22-1751 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40012_col1_all.png
+2018-03-13_19-08-22-1751 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40012_col1_all.png
+2018-03-13_19-08-22-1756 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41004_JinM_col1.png
+2018-03-13_19-08-22-1756 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41004_JinM_col1.png
+2018-03-13_19-08-22-1756 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1756 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1761 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1761 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1761 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1761 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41001_JinM.png
+2018-03-13_19-08-22-1766 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41005_JinM_col1.png
+2018-03-13_19-08-22-1766 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41009_JinM_col1.png
+2018-03-13_19-08-22-1766 Icon download succeeded: 
+2018-03-13_19-08-22-1766 Icon download succeeded: 
+2018-03-13_19-08-22-1771 Icon download succeeded: 
+2018-03-13_19-08-22-1771 Icon download succeeded: 
+2018-03-13_19-08-22-1771 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41007_JinM.png
+2018-03-13_19-08-22-1771 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51002_col1_All.png
+2018-03-13_19-08-22-1776 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51002_col2_JinM.png
+2018-03-13_19-08-22-1776 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_41002_JinM_col1.png
+2018-03-13_19-08-22-1776 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41006_JinM_col1.png
+2018-03-13_19-08-22-1776 Icon download succeeded: 
+2018-03-13_19-08-22-1781 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_54002_JinM_col1.png
+2018-03-13_19-08-22-1781 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_54002_JinF_col4.png
+2018-03-13_19-08-22-1781 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80008_col1_All.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80008_col3_All.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80008_JinM_col5.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51003_col1_All.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51003_col2_All.png
+2018-03-13_19-08-22-1786 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40015_col1_All.png
+2018-03-13_19-08-22-1791 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40015_col1_All.png
+2018-03-13_19-08-22-1791 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_40015_GonM_col3.png
+2018-03-13_19-08-22-1791 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40009_col1_All.png
+2018-03-13_19-08-22-1796 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40009_col1_All.png
+2018-03-13_19-08-22-1796 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40016_col1_all.png
+2018-03-13_19-08-22-1796 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40016_col1_all.png
+2018-03-13_19-08-22-1796 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_41008_JinM_col1.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65023_JinM_col1.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65023_JinM_col1.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60047_JinM_col1.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60046_col1_all.png
+2018-03-13_19-08-22-1801 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60046_JinM_col2.png
+2018-03-13_19-08-22-1806 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65045_col1_All.png
+2018-03-13_19-08-22-1806 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65045_JinM_col2.png
+2018-03-13_19-08-22-1806 Icon download succeeded: 
+2018-03-13_19-08-22-1806 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60048_JinM_col1.png
+2018-03-13_19-08-22-1811 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col1_all.png
+2018-03-13_19-08-22-1811 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col2_all.png
+2018-03-13_19-08-22-1811 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col4_all.png
+2018-03-13_19-08-22-1811 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col3_all.png
+2018-03-13_19-08-22-1816 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60002_col1_all.png
+2018-03-13_19-08-22-1816 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60045_JinM_col1.png
+2018-03-13_19-08-22-1816 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60045_JinM_col2.png
+2018-03-13_19-08-22-1816 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60045_JinM_col3.png
+2018-03-13_19-08-22-1821 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60025_JinM_col1.png
+2018-03-13_19-08-22-1821 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60025_JinM_col3.png
+2018-03-13_19-08-22-1821 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60025_JinM_col2.png
+2018-03-13_19-08-22-1821 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60025_col4_All.png
+2018-03-13_19-08-22-1826 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60033_KunN_col1.png
+2018-03-13_19-08-22-1826 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51001_col1_All.png
+2018-03-13_19-08-22-1826 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_51001_col2_All.png
+2018-03-13_19-08-22-1826 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80019_col1_KunN.png
+2018-03-13_19-08-22-1831 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80019_JinM_col2.png
+2018-03-13_19-08-22-1831 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_00002_KunN_col1.png
+2018-03-13_19-08-22-1831 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50003_col1_All.png
+2018-03-13_19-08-22-1831 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_50003_col2_All.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_50003_JinM_col3.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_50003_JinM_col4.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_startzone_jeja.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_startzone_jeja.png
+2018-03-13_19-08-22-1836 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60054_JinM_col3.png
+2018-03-13_19-08-22-1841 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_20004_col1_All.png
+2018-03-13_19-08-22-1841 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1841 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col2_JinM.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1846 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1851 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1851 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1851 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1851 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1856 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65051_col1_All.png
+2018-03-13_19-08-22-1856 Icon download succeeded: 
+2018-03-13_19-08-22-1856 Icon download succeeded: 
+2018-03-13_19-08-22-1856 Icon download succeeded: 
+2018-03-13_19-08-22-1856 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_40018_col1_All.png
+2018-03-13_19-08-22-1861 Icon download succeeded: 
+2018-03-13_19-08-22-1861 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60034_col1_all.png
+2018-03-13_19-08-22-1861 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_JinM_col2.png
+2018-03-13_19-08-22-1861 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1866 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1866 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1866 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1866 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1871 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60018_jinM_col10.png
+2018-03-13_19-08-22-1871 Icon download succeeded: 
+2018-03-13_19-08-22-1871 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60053_JinM_col1.png
+2018-03-13_19-08-22-1871 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65032_JinM_col1.png
+2018-03-13_19-08-22-1876 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65032_jinM_col2.png
+2018-03-13_19-08-22-1876 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65032_JinM_col1.png
+2018-03-13_19-08-22-1876 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_56002_JinM_col1.png
+2018-03-13_19-08-22-1881 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_56002_JinM_col1.png
+2018-03-13_19-08-22-1881 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65026_JinM_col1.png
+2018-03-13_19-08-22-1881 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65021_col1_kunN.png
+2018-03-13_19-08-22-1881 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10001_JinF.png
+2018-03-13_19-08-22-1886 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65029_JinM_Col1.png
+2018-03-13_19-08-22-1886 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65029_jinM.png
+2018-03-13_19-08-22-1886 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60050_JinM_col1.png
+2018-03-13_19-08-22-1886 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60050_JinM_col2.png
+2018-03-13_19-08-22-1891 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60050_JinM_col3.png
+2018-03-13_19-08-22-1891 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65049_col1_All.png
+2018-03-13_19-08-22-1891 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65049_col2_All.png
+2018-03-13_19-08-22-1891 Icon download succeeded: 
+2018-03-13_19-08-22-1897 Icon download succeeded: 
+2018-03-13_19-08-22-1897 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60069_col1_All.png
+2018-03-13_19-08-22-1897 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1897 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col2_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1902 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1907 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1907 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_JinM_col9.png
+2018-03-13_19-08-22-1907 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_JinM_col10.png
+2018-03-13_19-08-22-1907 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_JinM_col11.png
+2018-03-13_19-08-22-1912 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60078_col1_All.png
+2018-03-13_19-08-22-1912 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_52002_col1_GonF.png
+2018-03-13_19-08-22-1912 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60022_JinM_col1.png
+2018-03-13_19-08-22-1912 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60022_JimM_col2.png
+2018-03-13_19-08-22-1917 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60039_JinM_col1.png
+2018-03-13_19-08-22-1917 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60039_JinM_col2.png
+2018-03-13_19-08-22-1917 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65024_JinM_col1.png
+2018-03-13_19-08-22-1917 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65024_JinM_col2.png
+2018-03-13_19-08-22-1922 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65024_JinM_col3.png
+2018-03-13_19-08-22-1922 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65031_JinF_col1.png
+2018-03-13_19-08-22-1922 Icon download succeeded: 
+2018-03-13_19-08-22-1922 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65015_JinM_col1.png
+2018-03-13_19-08-22-1927 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60044_JinM_col1.png
+2018-03-13_19-08-22-1927 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60044_JinM_col3.png
+2018-03-13_19-08-22-1927 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60044_JinM_col2.png
+2018-03-13_19-08-22-1932 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65025_JinM_col1.png
+2018-03-13_19-08-22-1932 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65025_KunN_col2.png
+2018-03-13_19-08-22-1932 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65025_KunN_col3.png
+2018-03-13_19-08-22-1932 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60074_JinM_col1.png
+2018-03-13_19-08-22-1937 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60082_KunN_col1.png
+2018-03-13_19-08-22-1937 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60070_JinM_col1.png
+2018-03-13_19-08-22-1937 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60067_JinM_col1.png
+2018-03-13_19-08-22-1937 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60067_JinM_col2.png
+2018-03-13_19-08-22-1942 Icon download succeeded: 
+2018-03-13_19-08-22-1942 Icon download succeeded: 
+2018-03-13_19-08-22-1942 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60071_JinM_col1.png
+2018-03-13_19-08-22-1947 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60061_col1_LynF.png
+2018-03-13_19-08-22-1947 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60061_JinM_col2.png
+2018-03-13_19-08-22-1947 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60077_col1_jinF.png
+2018-03-13_19-08-22-1947 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60077_KunN_col2.png
+2018-03-13_19-08-22-1952 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60077_KunN_col3.png
+2018-03-13_19-08-22-1952 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60076_col1_jinF.png
+2018-03-13_19-08-22-1952 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60076_KunN_col2.png
+2018-03-13_19-08-22-1952 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60076_KunN_col2.png
+2018-03-13_19-08-22-1957 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60075_KunN_col1.png
+2018-03-13_19-08-22-1957 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60075_KunN_col2.png
+2018-03-13_19-08-22-1957 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_80003_JinF_col1.png
+2018-03-13_19-08-22-1957 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_80003_JinF.png
+2018-03-13_19-08-22-1962 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65066_JinM_col1.png
+2018-03-13_19-08-22-1962 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65066_JinM_col1.png
+2018-03-13_19-08-22-1962 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65067_JinM_col1.png
+2018-03-13_19-08-22-1962 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65067_JinM_col2.png
+2018-03-13_19-08-22-1967 Icon download succeeded: 
+2018-03-13_19-08-22-1967 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_90008_JinM_col1.png
+2018-03-13_19-08-22-1967 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60094_KunN_col1.png
+2018-03-13_19-08-22-1967 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60094_KunN_col1.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60086_JinM_col1.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60089_JinM_col1.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60089_JinM_col2.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60089_JinM_col3.png
+2018-03-13_19-08-22-1972 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60073_JinM_col1.png
+2018-03-13_19-08-22-1977 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60093_JinF_col1.png
+2018-03-13_19-08-22-1977 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60093_JinF_col2.png
+2018-03-13_19-08-22-1977 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60093_JinF_col3.png
+2018-03-13_19-08-22-1977 Icon download succeeded: 
+2018-03-13_19-08-22-1982 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60055_JinM_col1.png
+2018-03-13_19-08-22-1982 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60055_JinM_col2.png
+2018-03-13_19-08-22-1982 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60055_JinF_col3.png
+2018-03-13_19-08-22-1982 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60079_JinF_col1.png
+2018-03-13_19-08-22-1987 Icon download succeeded: 
+2018-03-13_19-08-22-1987 Icon download succeeded: 
+2018-03-13_19-08-22-1987 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60095_JinM_col1.png
+2018-03-13_19-08-22-2012 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60096_JinM_col1.png
+2018-03-13_19-08-22-2012 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_90003_col2_GonF.png
+2018-03-13_19-08-22-2017 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_90003_col2_GonF.png
+2018-03-13_19-08-22-2017 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_90003_col2_GonF.png
+2018-03-13_19-08-22-2017 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60097_JinM_col1.png
+2018-03-13_19-08-22-2022 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65074_JinM_col1.png
+2018-03-13_19-08-22-2022 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65048_JinF_col1.png
+2018-03-13_19-08-22-2022 Icon download succeeded: 
+2018-03-13_19-08-22-2022 Icon download succeeded: 
+2018-03-13_19-08-22-2027 Icon download succeeded: 
+2018-03-13_19-08-22-2027 Icon download succeeded: 
+2018-03-13_19-08-22-2027 Icon download succeeded: 
+2018-03-13_19-08-22-2027 Icon download succeeded: 
+2018-03-13_19-08-22-2032 Icon download succeeded: 
+2018-03-13_19-08-22-2032 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60100_KunN_col1.png
+2018-03-13_19-08-22-2032 Icon download succeeded: 
+2018-03-13_19-08-22-2032 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60099_JinM_col1.png
+2018-03-13_19-08-22-2037 Icon download succeeded: 
+2018-03-13_19-08-22-2037 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65050_JinF_col1.png
+2018-03-13_19-08-22-2037 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70003_col1_All.png
+2018-03-13_19-08-22-2037 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60068_JinF_col1.png
+2018-03-13_19-08-22-2042 Icon download succeeded: 
+2018-03-13_19-08-22-2042 Icon download succeeded: 
+2018-03-13_19-08-22-2042 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65055_JinM_col2.png
+2018-03-13_19-08-22-2042 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_65055_JinM_col2.png
+2018-03-13_19-08-22-2047 Icon download succeeded: 
+2018-03-13_19-08-22-2047 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60098_JinM_col1.png
+2018-03-13_19-08-22-2047 Icon download succeeded: 
+2018-03-13_19-08-22-2047 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60106_JinF_col1.png
+2018-03-13_19-08-22-2052 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60108_JinM_col1.png
+2018-03-13_19-08-22-2052 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60105_KunN_col1.png
+2018-03-13_19-08-22-2052 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60105_KunN_col1.png
+2018-03-13_19-08-22-2057 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70007_col1_All.png
+2018-03-13_19-08-22-2057 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70002_col1_All.png
+2018-03-13_19-08-22-2057 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70008_JinF_col1.png
+2018-03-13_19-08-22-2057 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60114_JinF_col1.png
+2018-03-13_19-08-22-2062 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60114_JinF_col1.png
+2018-03-13_19-08-22-2062 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60107_JinF_col1.png
+2018-03-13_19-08-22-2062 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60107_JinF_col1.png
+2018-03-13_19-08-22-2062 Icon download succeeded: 
+2018-03-13_19-08-22-2067 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60060_JinM_col1.png
+2018-03-13_19-08-22-2067 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70010_JinM_col1.png
+2018-03-13_19-08-22-2067 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70006_col1_All.png
+2018-03-13_19-08-22-2067 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70006_col1_All.png
+2018-03-13_19-08-22-2072 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_60104_JinM_col1.png
+2018-03-13_19-08-22-2072 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70004_JinM_col1.png
+2018-03-13_19-08-22-2072 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70004_JinM_col1.png
+2018-03-13_19-08-22-2072 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70004_JinM_col1.png
+2018-03-13_19-08-22-2077 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70013_col1_KunN.png
+2018-03-13_19-08-22-2077 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2077 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col2.png
+2018-03-13_19-08-22-2077 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col3.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2082 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2087 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2087 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2087 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2087 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/costume_70015_JinM_col1.png
+2018-03-13_19-08-22-2252 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70016_JinM_col1.png
+2018-03-13_19-08-22-2252 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70016_JinM_col1.png
+2018-03-13_19-08-22-2252 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70016_JinM_col1.png
+2018-03-13_19-08-22-2257 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70017_col1_KunN.png
+2018-03-13_19-08-22-2257 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70009_col1_All.png
+2018-03-13_19-08-22-2257 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70018_col1_KunN.png
+2018-03-13_19-08-22-2257 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60101_JinF_col1.png
+2018-03-13_19-08-22-2262 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60101_JinF_col1.png
+2018-03-13_19-08-22-2262 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65081_jinF_col1.png
+2018-03-13_19-08-22-2262 Icon download succeeded: 
+2018-03-13_19-08-22-2262 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60072_jinF_col1.png
+2018-03-13_19-08-22-2267 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60121_JinM_col1.png
+2018-03-13_19-08-22-2267 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65010_GonF.png
+2018-03-13_19-08-22-2267 Icon download succeeded: 
+2018-03-13_19-08-22-2267 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70027_KunN_col1.png
+2018-03-13_19-08-22-2267 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70027_KunN_col2.png
+2018-03-13_19-08-22-2273 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60122_GonF_col1.png
+2018-03-13_19-08-22-2273 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70028_KunN_col1.png
+2018-03-13_19-08-22-2273 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60123_JinF_col1.png
+2018-03-13_19-08-22-2273 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60123_JinF_col2.png
+2018-03-13_19-08-22-2278 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70026_JinM_col1.png
+2018-03-13_19-08-22-2278 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60125_JinM_col1.png
+2018-03-13_19-08-22-2278 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60125_JinM_col3.png
+2018-03-13_19-08-22-2278 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60125_JinM_col2.png
+2018-03-13_19-08-22-2283 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60127_JinM_col1.png
+2018-03-13_19-08-22-2283 Icon download succeeded: 
+2018-03-13_19-08-22-2283 Icon download succeeded: 
+2018-03-13_19-08-22-2283 Icon download succeeded: 
+2018-03-13_19-08-22-2288 Icon download succeeded: 
+2018-03-13_19-08-22-2288 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70031_JinM_col1.png
+2018-03-13_19-08-22-2288 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70036_JinF_col1.png
+2018-03-13_19-08-22-2288 Icon download succeeded: 
+2018-03-13_19-08-22-2293 Icon download succeeded: 
+2018-03-13_19-08-22-2293 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70030_JinF_col1.png
+2018-03-13_19-08-22-2293 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60117_JinM_col1.png
+2018-03-13_19-08-22-2293 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60116_JinF_col1.png
+2018-03-13_19-08-22-2298 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60116_JinM_col2.png
+2018-03-13_19-08-22-2298 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60116_JinF_col3.png
+2018-03-13_19-08-22-2298 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60116_JinF_col1.png
+2018-03-13_19-08-22-2298 Icon download succeeded: 
+2018-03-13_19-08-22-2298 Icon download succeeded: 
+2018-03-13_19-08-22-2303 Icon download succeeded: 
+2018-03-13_19-08-22-2303 Icon download succeeded: 
+2018-03-13_19-08-22-2303 Icon download succeeded: 
+2018-03-13_19-08-22-2303 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: 
+2018-03-13_19-08-22-2308 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70042_JinF_col1.png
+2018-03-13_19-08-22-2313 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70043_JinM_col1.png
+2018-03-13_19-08-22-2313 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70043_JinM_col1.png
+2018-03-13_19-08-22-2313 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70043_JinM_col1.png
+2018-03-13_19-08-22-2313 Icon download succeeded: 
+2018-03-13_19-08-22-2318 Icon download succeeded: 
+2018-03-13_19-08-22-2318 Icon download succeeded: 
+2018-03-13_19-08-22-2318 Icon download succeeded: 
+2018-03-13_19-08-22-2318 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65040_JinF_col1.png
+2018-03-13_19-08-22-2318 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60142_JinM_col1.png
+2018-03-13_19-08-22-2323 Icon download succeeded: 
+2018-03-13_19-08-22-2323 Icon download succeeded: 
+2018-03-13_19-08-22-2323 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60130_jinM_col1.png
+2018-03-13_19-08-22-2323 Icon download succeeded: 
+2018-03-13_19-08-22-2328 Icon download succeeded: 
+2018-03-13_19-08-22-2328 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65085_jinF_col1.png
+2018-03-13_19-08-22-2328 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60133_JinF_col1.png
+2018-03-13_19-08-22-2333 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10009_KunN_col1.png
+2018-03-13_19-08-22-2333 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10009_KunN_col1.png
+2018-03-13_19-08-22-2333 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10014_LynF_col1.png
+2018-03-13_19-08-22-2333 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10015_jinF_col1.png
+2018-03-13_19-08-22-2338 Icon download succeeded: 
+2018-03-13_19-08-22-2338 Icon download succeeded: 
+2018-03-13_19-08-22-2338 Icon download succeeded: 
+2018-03-13_19-08-22-2343 Icon download succeeded: 
+2018-03-13_19-08-22-2343 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10016_jinF_col1.png
+2018-03-13_19-08-22-2343 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60109_JinM_col1.png
+2018-03-13_19-08-22-2343 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60109_JinM_col1.png
+2018-03-13_19-08-22-2348 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10017_JinM_col1.png
+2018-03-13_19-08-22-2348 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10017_JinM_col2.png
+2018-03-13_19-08-22-2348 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65072_jinM_col1.png
+2018-03-13_19-08-22-2348 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_60132_JinF_col3.png
+2018-03-13_19-08-22-2353 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_65073_jinM_col1.png
+2018-03-13_19-08-22-2353 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70029_JinF_col1.png
+2018-03-13_19-08-22-2353 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10012_JinM_col1.png
+2018-03-13_19-08-22-2358 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70047_KunN_col1.png
+2018-03-13_19-08-22-2358 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10013_JinM_col1.png
+2018-03-13_19-08-22-2358 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_70039_JinM_col1.png
+2018-03-13_19-08-22-2358 Icon download succeeded: 
+2018-03-13_19-08-22-2358 Icon download succeeded: 
+2018-03-13_19-08-22-2363 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10024_JinF_col1.png
+2018-03-13_19-08-22-2363 Icon download succeeded: 
+2018-03-13_19-08-22-2363 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10025_JinM_col1.png
+2018-03-13_19-08-22-2363 Icon download succeeded: https://raw.githubusercontent.com/agreatfool/BladeSoulTool/master/database/icon/png-cps/Costume_10026_JinM_col1.png
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2368 Icon download succeeded: 
+2018-03-13_19-08-22-2373 Icon download succeeded: 
+2018-03-13_19-08-22-2373 Icon download succeeded: 
+2018-03-13_19-08-22-2373 Icon download succeeded: 
+2018-03-13_19-08-22-2373 Icon download succeeded: 
+2018-03-13_19-08-22-2378 Icon download succeeded: 
+2018-03-13_19-08-22-2378 Icon download succeeded: 
+2018-03-13_19-08-22-2378 Icon download succeeded: 
+2018-03-13_19-08-22-2378 Icon download succeeded: 
+2018-03-13_19-08-22-2383 Icon download succeeded: 
+2018-03-13_19-08-22-2383 Icon download succeeded: 
+2018-03-13_19-08-22-2383 Icon download succeeded: 
+2018-03-13_19-08-22-2383 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2388 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2393 Icon download succeeded: 
+2018-03-13_19-08-22-2398 Icon download succeeded: 
+2018-03-13_19-08-22-2398 Icon download succeeded: 
+2018-03-13_19-08-22-2398 Icon download succeeded: 
+2018-03-13_19-08-22-2398 Icon download succeeded: 
+2018-03-13_19-08-22-2403 Icon download succeeded: 
+2018-03-13_19-08-22-2403 Icon download succeeded: 
+2018-03-13_19-08-22-2403 Icon download succeeded: 
+2018-03-13_19-08-22-2403 Icon download succeeded: 
+2018-03-13_19-08-22-2408 Icon download succeeded: 
+2018-03-13_19-08-22-2408 Icon download succeeded: 
+2018-03-13_19-08-22-2408 Icon download succeeded: 
+2018-03-13_19-08-22-2413 All icons downloaded ...
+2018-03-13_19-08-22-2413 [BstIconLoader] Queued works all done, thread exit ...
+2018-03-13_19-08-27-8828 Start to run: 
+Cwd: D:\UltimateBNS\VS_GUI\BladeSoulTool\bin\Release/../../../../
+Command: cmd.exe
+Arguments: /c grunt restore  --no-color --stack
+Output: 
+2018-03-13_19-08-28-6869 Grunt and task output will also be logged to "D:/UltimateBNS/logs/grunt_2018-03-13_19-08-28.log"
+2018-03-13_19-08-28-9261 
+2018-03-13_19-08-28-9266 Running "restore" task
+2018-03-13_19-08-28-9286 -------------------------------------------------------------------------------
+2018-03-13_19-08-28-9291 [BstRestore] Start to restore models ...
+2018-03-13_19-08-28-9291 -------------------------------------------------------------------------------
+2018-03-13_19-08-28-9296 [BstRestore] Backup info read: {
+2018-03-13_19-08-28-9296   "delete": [
+2018-03-13_19-08-28-9296     "E:\\Program Files (x86)\\NCSOFT\\BnS\\contents\\Local\\NCWEST\\ENGLISH\\CookedPC\\mod\\00038385.upk",
+2018-03-13_19-08-28-9296     "E:\\Program Files (x86)\\NCSOFT\\BnS\\contents\\Local\\NCWEST\\ENGLISH\\CookedPC\\mod\\00038386.upk"
+2018-03-13_19-08-28-9296   ],
+2018-03-13_19-08-28-9296   "restore": []
+2018-03-13_19-08-28-9296 }
+2018-03-13_19-08-28-9346 [BstUtil] Delete file: E:\Program Files (x86)\NCSOFT\BnS\contents\Local\NCWEST\ENGLISH\CookedPC\mod\00038385.upk
+2018-03-13_19-08-28-9381 [BstUtil] Delete file: E:\Program Files (x86)\NCSOFT\BnS\contents\Local\NCWEST\ENGLISH\CookedPC\mod\00038386.upk
+2018-03-13_19-08-28-9391 [BstUtil] Write file: D:\UltimateBNS\config\backup.json
+2018-03-13_19-08-28-9416 
+2018-03-13_19-08-28-9421 Done, without errors.
+2018-03-13_19-08-28-9556 

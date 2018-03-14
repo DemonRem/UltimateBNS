@@ -1,0 +1,57 @@
+<?php $this->partial('layouts/header') ?>
+<div class="row">
+    <div class="col-md-12">
+        <h3>BladeSoulTool Issues List</h3>
+    </div>
+</div>
+<div ng-controller="BstIndexCtrl">
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Origin</th>
+                    <th>Target</th>
+                    <th>Solved</th>
+                    <th>Time</th>
+                    <th>Action</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr ng-repeat="row in listOnPage">
+                    <td>{{ row.id }}</td>
+                    <td>{{ row.origin.core + '_' + row.origin.col }}</td>
+                    <td>{{ row.origin.core + '_' + row.origin.col }}</td>
+                    <td>{{ row.solved }}</td>
+                    <td>{{ row.time | date:'yyyy-MM-dd HH:mm:ss' }}</td>
+                    <td>
+                        <button ng-click="viewIssue(row.id)" class="btn btn-primary btn-info">view</button>
+                        <button ng-click="markSolved(row.id)" class="btn btn-primary btn-info">solve</button>
+                        <button ng-click="deleteIssue(row.id)" class="btn btn-primary btn-info">delete</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-5 col-md-offset-3" ng-show="listOnPage">
+            <pagination
+                boundary-links="true"
+                total-items="paginationTotalItems"
+                items-per-page="itemsPerPage"
+                ng-model="paginationCurrentPage"
+                class="pagination-sm"
+                max-size="paginationMaxButtonsSize"
+                rotate="false"
+                ng-change="loadPageData(page)"
+                previous-text="&lsaquo;"
+                next-text="&rsaquo;"
+                first-text="&laquo;"
+                last-text="&raquo;">
+            </pagination>
+        </div>
+    </div>
+</div>
+<?php $this->partial('layouts/footer') ?>
