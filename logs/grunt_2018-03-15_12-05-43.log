@@ -1,0 +1,69 @@
+
+Running "upk_viewer" task
+-------------------------------------------------------------------------------
+[BstUpkViewer] Start view upk ...
+-------------------------------------------------------------------------------
+[BstUpkViewer] Clean the tmp working dir: D:\UltimateBNS\working_3d
+-------------------------------------------------------------------------------
+[BstUpkViewer] Read conf of target element, id: 10138_JinF_col1
+[BstUpkViewer] Target element conf found: {
+  "skeleton": "00050714",
+  "texture": "00050715",
+  "material": "00050716",
+  "col1Material": "00050716",
+  "col": "col1",
+  "core": "10138_JinF",
+  "code": "10138",
+  "race": "JinF",
+  "pic": null
+}
+-------------------------------------------------------------------------------
+[BstUpkViewer] Prepare resource upk files ...
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050714.upk, TO: D:\UltimateBNS\working_3d\00050714.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050715.upk, TO: D:\UltimateBNS\working_3d\00050715.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050716.upk, TO: D:\UltimateBNS\working_3d\00050716.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050716.upk, TO: D:\UltimateBNS\working_3d\00050716.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050714.upk, TO: D:\UltimateBNS\working_3d\00050714.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050714.upk, TO: D:\UltimateBNS\working_3d\00050714.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050716.upk, TO: D:\UltimateBNS\working_3d\00050716.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050714.upk, TO: D:\UltimateBNS\working_3d\00050714.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050714.upk, TO: D:\UltimateBNS\working_3d\00050714.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050716.upk, TO: D:\UltimateBNS\working_3d\00050716.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050715.upk, TO: D:\UltimateBNS\working_3d\00050715.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002640.upk, TO: D:\UltimateBNS\working_3d\00002640.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00012963.upk, TO: D:\UltimateBNS\working_3d\00012963.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050715.upk, TO: D:\UltimateBNS\working_3d\00050715.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050715.upk, TO: D:\UltimateBNS\working_3d\00050715.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050715.upk, TO: D:\UltimateBNS\working_3d\00050715.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050715.upk, TO: D:\UltimateBNS\working_3d\00050715.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002640.upk, TO: D:\UltimateBNS\working_3d\00002640.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050715.upk, TO: D:\UltimateBNS\working_3d\00050715.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00012963.upk, TO: D:\UltimateBNS\working_3d\00012963.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050716.upk, TO: D:\UltimateBNS\working_3d\00050716.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00050716.upk, TO: D:\UltimateBNS\working_3d\00050716.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002620.upk, TO: D:\UltimateBNS\working_3d\00002620.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00044523.upk, TO: D:\UltimateBNS\working_3d\00044523.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002640.upk, TO: D:\UltimateBNS\working_3d\00002640.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002640.upk, TO: D:\UltimateBNS\working_3d\00002640.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002640.upk, TO: D:\UltimateBNS\working_3d\00002640.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002640.upk, TO: D:\UltimateBNS\working_3d\00002640.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002640.upk, TO: D:\UltimateBNS\working_3d\00002640.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002640.upk, TO: D:\UltimateBNS\working_3d\00002640.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002620.upk, TO: D:\UltimateBNS\working_3d\00002620.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00044523.upk, TO: D:\UltimateBNS\working_3d\00044523.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00012963.upk, TO: D:\UltimateBNS\working_3d\00012963.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00012963.upk, TO: D:\UltimateBNS\working_3d\00012963.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00012963.upk, TO: D:\UltimateBNS\working_3d\00012963.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00012963.upk, TO: D:\UltimateBNS\working_3d\00012963.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00002620.upk, TO: D:\UltimateBNS\working_3d\00002620.upk
+[BstUtil] Copy file FROM: E:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC\00012963.upk, TO: D:\UltimateBNS\working_3d\00012963.upk
+-------------------------------------------------------------------------------
+[BstUtil] Delete file: D:/UltimateBNS/working_3d/00002620.upk
+[BstUtil] Delete file: D:/UltimateBNS/working_3d/00002640.upk
+[BstUtil] Delete file: D:/UltimateBNS/working_3d/00012963.upk
+[BstUtil] Delete file: D:/UltimateBNS/working_3d/00044523.upk
+[BstUtil] Delete file: D:/UltimateBNS/working_3d/00050714.upk
+[BstUtil] Delete file: D:/UltimateBNS/working_3d/00050715.upk
+[BstUtil] Delete file: D:/UltimateBNS/working_3d/00050716.upk
+
+Done, without errors.

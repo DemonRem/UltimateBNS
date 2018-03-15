@@ -1,0 +1,68 @@
+Found 32646 game files (699 skipped)
+Loading package: 00025243.upk Ver: 573/1 Engine: 4205 Names: 652 Exports: 3242 Imports: 263 Game: 801A
+Loading AnimSet WW from package 00025243.upk
+WARNING: BoolProperty "UAnimSet::bServiced" was not found
+WARNING: ArrayProperty "UAnimSet::AdjustAniScaleBoneNames" was not found
+Loading AnimSequence AnimSequence_1 from package 00025243.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading Material3 M01_Dst_exp_volume_Dynamic from package 00025243.upk
+WARNING: BoolProperty "UMaterial3::bAcceptRenderDecal" was not found
+Loading package: 00012963.upk Ver: 573/1 Engine: 4205 Names: 1342 Exports: 1316 Imports: 10 Game: 801A
+Loading Material3 UV_Panning003_MatM from package 00025243.upk
+WARNING: BoolProperty "UMaterial3::bAcceptRenderDecal" was not found
+Loading package: EngineResources.upk Ver: 573/1 Engine: 4205 Names: 151 Exports: 86 Imports: 11 Game: 801A
+Loading Material3 UV_Panning004_MatM from package 00025243.upk
+WARNING: BoolProperty "UMaterial3::bAcceptRenderDecal" was not found
+Loading Material3 wire_trail_03 from package 00025243.upk
+Loading package: 00046565.upk Ver: 573/1 Engine: 4205 Names: 573 Exports: 5864 Imports: 220 Game: 801A
+Loading Material3 wire_trail_basic from package 00025243.upk
+WARNING: StructProperty "UMaterial3::WorldPositionOffset" was not found
+Loading package: 00002620.upk Ver: 573/1 Engine: 4205 Names: 573 Exports: 6849 Imports: 96 Game: 801A
+Loading MaterialInstanceConstant wire_trail from package 00025243.upk
+Loading package: 00002640.upk Ver: 573/1 Engine: 4205 Names: 291 Exports: 507 Imports: 3 Game: 801A
+Loading MaterialInstanceConstant wire_trail4 from package 00025243.upk
+Loading Texture2D Mask from package 00025243.upk
+Loading Texture2D Smoke_Fractal_002 from package 00012963.upk
+Loading Texture2D Noise_Fractal_004 from package 00012963.upk
+Loading Texture2D Smoke_Pattern_000_128 from package 00012963.upk
+Loading Texture2D Noise_Glow_000_Out from package 00012963.upk
+Loading Texture2D Smoke_013 from package 00012963.upk
+Loading Texture2D Smoke_014 from package 00012963.upk
+Loading Texture2D Sparkle_Ink_012 from package 00012963.upk
+Loading Texture2D Gradient_Color_RedToOrange_000 from package 00012963.upk
+Loading Texture2D Glow_ShockWave_008 from package 00012963.upk
+Loading Texture2D Noise_010 from package 00012963.upk
+Loading Texture2D lava01 from package 00012963.upk
+Loading Texture2D Smoke_005 from package 00012963.upk
+Loading Texture2D DefaultTexture from package EngineResources.upk
+Loading Texture2D Gradient_006 from package 00012963.upk
+Loading Texture2D Sparkle_Ink_011 from package 00012963.upk
+Loading Texture2D shooter_Wire_TEST02 from package 00046565.upk
+Loading Texture2D Noise_005 from package 00012963.upk
+Loading Texture2D Gradient_Line_010 from package 00012963.upk
+Loading Texture2D wire_fx_mask from package 00046565.upk
+Loading Texture2D check_n from package 00002620.upk
+Loading Texture2D check from package 00002620.upk
+Loading Texture2D Smoke_Pattern_001 from package 00012963.upk
+Loading Texture2D Gradient_Line_003 from package 00012963.upk
+Loading Texture2D Gradient_Wipe_BurnOut_Mask_TEST from package 00012963.upk
+Loading Texture2D Gradient_Wipe_BurnOut_Mask from package 00012963.upk
+Loading TextureCube Cube_C from package 00002640.upk
+Loading Texture2D CubemapFace0 from package 00002640.upk
+Loading Texture2D CubemapFace1 from package 00002640.upk
+Loading Texture2D CubemapFace2 from package 00002640.upk
+Loading Texture2D CubemapFace3 from package 00002640.upk
+Loading Texture2D CubemapFace4 from package 00002640.upk
+Loading Texture2D CubemapFace5 from package 00002640.upk
+Error: Command failed: umodel.exe -dump -path="E:/Program Files (x86)/NCSOFT/BnS/contents/bns/CookedPC" -game=bns 00025243
+******** 00025243 ********
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** ERROR: Unknown rotation compression method: 255
+UAnimSet::ConvertAnims <- PostLoad:WW <- UObject::EndLoad <- LoadWholePackage:00025243 <- Main
+
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)

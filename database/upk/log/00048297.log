@@ -1,0 +1,956 @@
+Found 32646 game files (699 skipped)
+Loading package: 00048297.upk Ver: 573/1 Engine: 4205 Names: 261 Exports: 1134 Imports: 91 Game: 801A
+Loading Material3 01 from package 00048297.upk
+Loading package: 00012963.upk Ver: 573/1 Engine: 4205 Names: 1342 Exports: 1316 Imports: 10 Game: 801A
+Loading Material3 AncientMechamonk_circle from package 00048297.upk
+Loading Material3 AncientMechamonk_DecalMat from package 00048297.upk
+Loading Material3 AncientMechaMonk_Foot from package 00048297.upk
+Loading package: 00050241.upk Ver: 573/1 Engine: 4205 Names: 36 Exports: 8 Imports: 2 Game: 801A
+Loading Material3 AncientMechaMonk_FX from package 00048297.upk
+Loading Material3 AncientMechaMonk_Square_M2 from package 00048297.upk
+Loading Material3 AncientMechamonk_Square_Mat1 from package 00048297.upk
+Loading Material3 AncientMechaMonk_Square_MTotal from package 00048297.upk
+WARNING: StructProperty "UMaterial3::WorldPositionOffset" was not found
+Loading Material3 AncientMechaMonk_Square_MTotalTrans from package 00048297.upk
+WARNING: StructProperty "UMaterial3::WorldPositionOffset" was not found
+Loading Material3 ancientmechamonk_StaffTrail from package 00048297.upk
+Loading Material3 Hongseoggeun_EarthWave from package 00048297.upk
+Loading Material3 IronBoxer_Barrier_Testshader04_honey_2side from package 00048297.upk
+Loading package: 00023713.upk Ver: 573/1 Engine: 4205 Names: 101 Exports: 81 Imports: 4 Game: 801A
+Loading Material3 Targeting_StartDecal_001 from package 00048297.upk
+WARNING: BoolProperty "UMaterial3::bAcceptRenderDecal" was not found
+Loading MaterialInstanceConstant AncientMechaMonk_Block from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_Square_MTotal_INST from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_Square_MTotal_INST2 from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_Square_MTotalBlack_INST_INST from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_Square_MTotalTrans_INST from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_Square_MTotalTrans_INST2_INST from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_SquareSpawnBlock_INST from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_SquareSpawnBlock_INST2 from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_SquareSpawnBlock_Trans_INST from package 00048297.upk
+Loading MaterialInstanceConstant AncientMechaMonk_StrainBlock_INST from package 00048297.upk
+Loading Texture2D T_Box from package 00048297.upk
+Loading Texture2D Barrier_signal from package 00012963.upk
+Loading Texture2D Noise_005 from package 00012963.upk
+Loading Texture2D Noise_Wave_000 from package 00012963.upk
+Loading Texture2D Noise_006 from package 00012963.upk
+Loading Texture2D Unique_Stone_001 from package 00012963.upk
+Loading Texture2D Env_Fx_ResinMask from package 00012963.upk
+Loading Texture2D Noise_009 from package 00012963.upk
+Loading Texture2D AncientMechaMonK_col1_N from package 00050241.upk
+Loading Texture2D AncientMechaMonK_col1_D from package 00050241.upk
+Loading Texture2D Smoke_Pattern_001 from package 00012963.upk
+Loading Texture2D Gradient_Line_003 from package 00012963.upk
+Loading Texture2D AncientMechaMonk_FX from package 00050241.upk
+Loading Texture2D Noise_Distortion_000 from package 00012963.upk
+Loading Texture2D SystemDecal_Square_Line from package 00012963.upk
+Loading Texture2D SystemDecal_Square_box from package 00012963.upk
+Loading Texture2D Gradient_Line_005 from package 00012963.upk
+Loading Texture2D Noise_013 from package 00012963.upk
+Loading Texture2D Gradient_Slash_001_Tex from package 00012963.upk
+Loading Texture2D AncientMechaMonk_BoxLine from package 00012963.upk
+Loading Texture2D AncientMechaMonk_BoxLine2 from package 00012963.upk
+Loading Texture2D Check_Shine_001_Tex from package 00012963.upk
+Loading Texture2D BGFX_PortalMask_00 from package 00012963.upk
+Loading Texture2D Noise_021 from package 00012963.upk
+Loading Texture2D SystemDecal_Triangle_noClamp from package 00012963.upk
+Loading Texture2D T_Liquid_SM_NanoBlack_Mask_01 from package 00012963.upk
+Loading Texture2D Water_001_01_N_Wave3 from package 00012963.upk
+Loading Texture2D Gradient_Color_RedToOrange_000 from package 00012963.upk
+Loading Texture2D Gradient_Beam_007_Clamp from package 00012963.upk
+Loading Texture2D Env_Fx_LightningCloud_Lightning from package 00012963.upk
+Loading Texture2D Gradient_Line_R from package 00012963.upk
+Loading Texture2D Gradient_Beam_007 from package 00012963.upk
+Loading Texture2D Hex000_gra from package 00023713.upk
+Loading Texture2D Noise_Plazma_002 from package 00012963.upk
+Loading Texture2D SystemDecal_Circle_ring from package 00012963.upk
+Loading Texture2D Ring_SharpBlur_000 from package 00012963.upk
+Loading Texture2D Targeting_Start_Mask01 from package 00012963.upk
+Loading Texture2D Smoke_Dusts_001 from package 00012963.upk
+Loading Texture2D Smoke_Fractal_002 from package 00012963.upk
+Loading Texture2D Smoke_009 from package 00012963.upk
+Loading Texture2D Glow_Flair_001 from package 00012963.upk
+Loading Texture2D Water_001_01_Mask_Wave4 from package 00012963.upk
+Loading Texture2D AncientMechaMonk_BoxLine4 from package 00012963.upk
+Loading Texture2D AncientMechaMonk_BoxLine3 from package 00012963.upk
+Loading Texture2D T_Box from package 00012963.upk
+Loaded in 0.35 sec, 3095 allocs, 2.69 MBytes serialized in 64170 calls.
+
+Object info:
+============
+ClassName: Material3 ObjectName: 01
+
+    TwoSided = false
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[1] = { Texture2D'Barrier_signal' }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: AncientMechamonk_circle
+
+    TwoSided = true
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'Noise_005'
+        ReferencedTextures[1] = Texture2D'Noise_Wave_000'
+        ReferencedTextures[2] = Texture2D'Noise_006'
+        ReferencedTextures[3] = Texture2D'Unique_Stone_001'
+        ReferencedTextures[4] = Texture2D'Env_Fx_ResinMask'
+    }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: AncientMechamonk_DecalMat
+
+    TwoSided = true
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[0] = {}
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: AncientMechaMonk_Foot
+
+    TwoSided = false
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[5] =
+    {
+        ReferencedTextures[0] = Texture2D'Noise_009'
+        ReferencedTextures[1] = Texture2D'AncientMechaMonK_col1_N'
+        ReferencedTextures[2] = Texture2D'AncientMechaMonK_col1_D'
+        ReferencedTextures[3] = Texture2D'Smoke_Pattern_001'
+        ReferencedTextures[4] = Texture2D'Gradient_Line_003'
+    }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: AncientMechaMonk_FX
+
+    TwoSided = false
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'AncientMechaMonk_FX'
+        ReferencedTextures[1] = Texture2D'Noise_Distortion_000'
+        ReferencedTextures[2] = Texture2D'AncientMechaMonK_col1_N'
+        ReferencedTextures[3] = Texture2D'AncientMechaMonK_col1_D'
+    }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: AncientMechaMonk_Square_M2
+
+    TwoSided = true
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[1] = { Texture2D'SystemDecal_Square_Line' }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: AncientMechamonk_Square_Mat1
+
+    TwoSided = true
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'SystemDecal_Square_Line'
+        ReferencedTextures[1] = Texture2D'SystemDecal_Square_box'
+        ReferencedTextures[2] = Texture2D'Noise_009'
+        ReferencedTextures[3] = Texture2D'Gradient_Line_005'
+        ReferencedTextures[4] = Texture2D'Noise_013'
+        ReferencedTextures[5] = Texture2D'Gradient_Slash_001_Tex'
+    }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: AncientMechaMonk_Square_MTotal
+
+    TwoSided = true
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'Noise_013'
+        ReferencedTextures[1] = Texture2D'Gradient_Slash_001_Tex'
+        ReferencedTextures[2] = Texture2D'AncientMechaMonk_BoxLine'
+        ReferencedTextures[3] = Texture2D'AncientMechaMonk_BoxLine2'
+        ReferencedTextures[4] = Texture2D'Check_Shine_001_Tex'
+        ReferencedTextures[5] = Texture2D'BGFX_PortalMask_00'
+    }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: AncientMechaMonk_Square_MTotalTrans
+
+    TwoSided = true
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[6] =
+    {
+        ReferencedTextures[0] = Texture2D'Noise_013'
+        ReferencedTextures[1] = Texture2D'Gradient_Slash_001_Tex'
+        ReferencedTextures[2] = Texture2D'AncientMechaMonk_BoxLine'
+        ReferencedTextures[3] = Texture2D'AncientMechaMonk_BoxLine2'
+        ReferencedTextures[4] = Texture2D'Check_Shine_001_Tex'
+        ReferencedTextures[5] = Texture2D'BGFX_PortalMask_00'
+    }
+    BlendMode = BLEND_Translucent (2)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: ancientmechamonk_StaffTrail
+
+    TwoSided = false
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[4] =
+    {
+        ReferencedTextures[0] = Texture2D'Noise_021'
+        ReferencedTextures[1] = Texture2D'SystemDecal_Triangle_noClamp'
+        ReferencedTextures[2] = Texture2D'T_Liquid_SM_NanoBlack_Mask_01'
+        ReferencedTextures[3] = Texture2D'Unique_Stone_001'
+    }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: Hongseoggeun_EarthWave
+
+    TwoSided = true
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[7] =
+    {
+        ReferencedTextures[0] = Texture2D'Water_001_01_N_Wave3'
+        ReferencedTextures[1] = Texture2D'Gradient_Color_RedToOrange_000'
+        ReferencedTextures[2] = Texture2D'Gradient_Beam_007_Clamp'
+        ReferencedTextures[3] = Texture2D'Env_Fx_LightningCloud_Lightning'
+        ReferencedTextures[4] = Texture2D'Gradient_Line_R'
+        ReferencedTextures[5] = Texture2D'Gradient_Beam_007'
+        ReferencedTextures[6] = Texture2D'Gradient_Line_005'
+    }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: IronBoxer_Barrier_Testshader04_honey_2side
+
+    TwoSided = true
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[3] = { Texture2D'Hex000_gra', Texture2D'Noise_005', Texture2D'Noise_Plazma_002' }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Material3 ObjectName: Targeting_StartDecal_001
+
+    TwoSided = false
+    bDisableDepthTest = false
+    bIsMasked = false
+    ReferencedTextures[9] =
+    {
+        ReferencedTextures[0] = Texture2D'SystemDecal_Circle_ring'
+        ReferencedTextures[1] = Texture2D'Ring_SharpBlur_000'
+        ReferencedTextures[2] = Texture2D'Targeting_Start_Mask01'
+        ReferencedTextures[3] = Texture2D'Noise_005'
+        ReferencedTextures[4] = Texture2D'Noise_Wave_000'
+        ReferencedTextures[5] = Texture2D'Smoke_Dusts_001'
+        ReferencedTextures[6] = Texture2D'Smoke_Fractal_002'
+        ReferencedTextures[7] = Texture2D'Smoke_009'
+        ReferencedTextures[8] = Texture2D'Glow_Flair_001'
+    }
+    BlendMode = BLEND_Additive (3)
+    OpacityMaskClipValue = 0.333
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_Block
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'Targeting_Start_Mask01' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine2' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+    }
+    Parent = Material3'AncientMechaMonk_Square_MTotal'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_Square_MTotal_INST
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'Water_001_01_Mask_Wave4' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine2' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+    }
+    Parent = Material3'AncientMechaMonk_Square_MTotal'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_Square_MTotal_INST2
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'BGFX_PortalMask_00' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine2' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+    }
+    Parent = Material3'AncientMechaMonk_Square_MTotal'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_Square_MTotalBlack_INST_INST
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'Water_001_01_Mask_Wave4' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine2' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=5, G=0, B=1, A=1 }
+        }
+    }
+    Parent = Material3'AncientMechaMonk_Square_MTotalTrans'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_Square_MTotalTrans_INST
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'Water_001_01_Mask_Wave4' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine2' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=5, G=0, B=1, A=1 }
+        }
+    }
+    Parent = Material3'AncientMechaMonk_Square_MTotalTrans'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_Square_MTotalTrans_INST2_INST
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'BGFX_PortalMask_00' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine2' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=5, G=0, B=1, A=1 }
+        }
+    }
+    Parent = Material3'AncientMechaMonk_Square_MTotalTrans'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_SquareSpawnBlock_INST
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'Water_001_01_Mask_Wave4' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine4' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine3' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+    }
+    Parent = MaterialInstanceConstant'AncientMechaMonk_Square_MTotal_INST'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_SquareSpawnBlock_INST2
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'BGFX_PortalMask_00' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine4' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine3' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+    }
+    Parent = MaterialInstanceConstant'AncientMechaMonk_Square_MTotal_INST2'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_SquareSpawnBlock_Trans_INST
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'Water_001_01_Mask_Wave4' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine4' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine3' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=5, G=0, B=1, A=1 }
+        }
+    }
+    Parent = MaterialInstanceConstant'AncientMechaMonk_Square_MTotalTrans_INST'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: MaterialInstanceConstant ObjectName: AncientMechaMonk_StrainBlock_INST
+
+    ScalarParameterValues[0] = {}
+    TextureParameterValues[6] =
+    {
+        TextureParameterValues[0] = { ParameterName=Box2Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[1] = { ParameterName=BoxOpa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[2] = { ParameterName=Opa_tex, ParameterValue=Texture2D'T_Box' }
+        TextureParameterValues[3] = { ParameterName=Box3Opa_tex2, ParameterValue=Texture2D'Check_Shine_001_Tex' }
+        TextureParameterValues[4] = { ParameterName=Main_Tex2, ParameterValue=Texture2D'AncientMechaMonk_BoxLine4' }
+        TextureParameterValues[5] = { ParameterName=Main_Tex, ParameterValue=Texture2D'AncientMechaMonk_BoxLine3' }
+    }
+    VectorParameterValues[6] =
+    {
+        VectorParameterValues[0] =
+        {
+            ParameterName = normal_height
+            ParameterValue = { R=1, G=-1, B=0, A=1 }
+        }
+        VectorParameterValues[1] =
+        {
+            ParameterName = texcoord_uv
+            ParameterValue = { R=1, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[2] =
+        {
+            ParameterName = time_speed
+            ParameterValue = { R=1, G=0, B=0, A=1 }
+        }
+        VectorParameterValues[3] =
+        {
+            ParameterName = box2
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+        VectorParameterValues[4] =
+        {
+            ParameterName = box1
+            ParameterValue = { R=0, G=1, B=0, A=1 }
+        }
+        VectorParameterValues[5] =
+        {
+            ParameterName = box3
+            ParameterValue = { R=1, G=0, B=1, A=1 }
+        }
+    }
+    Parent = Material3'AncientMechaMonk_Square_MTotal'
+    FlattenedTexture = None
+    MobileBaseTexture = None
+    MobileNormalTexture = None
+    bUseMobileSpecular = false
+    MobileSpecularPower = 16
+    MobileSpecularMask = MSM_Constant (0)
+    MobileMaskTexture = None
+
+Object info:
+============
+ClassName: Texture2D ObjectName: T_Box
+
+    SizeX = 32
+    SizeY = 32
+    Format = PF_DXT5 (7)
+    AddressX = TA_Wrap (0)
+    AddressY = TA_Wrap (0)
+    TextureFileCacheName = None
+    MipTailBaseIdx = 5
+    bForcePVRTC4 = false
+    UnpackMin[4] = { 0, 0, 0, 0 }
+    UnpackMax[4] = { 1, 1, 1, 1 }

@@ -1,0 +1,29 @@
+Found 32646 game files (699 skipped)
+Loading package: 00013274.upk Ver: 573/1 Engine: 4205 Names: 102 Exports: 6 Imports: 8 Game: 801A
+Loading AnimSet ItemBox_animset from package 00013274.upk
+WARNING: BoolProperty "UAnimSet::bServiced" was not found
+WARNING: ArrayProperty "UAnimSet::AdjustAniScaleBoneNames" was not found
+Loading AnimSequence AnimSequence_0 from package 00013274.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+WARNING: ByteProperty "UAnimSequence::NamePlateControlMode" was not found
+Loading AnimNotify_Sound AnimNotify_Sound_0 from package 00013274.upk
+Loading AnimSequence AnimSequence_1 from package 00013274.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+WARNING: ByteProperty "UAnimSequence::NamePlateControlMode" was not found
+Loading AnimSequence AnimSequence_2 from package 00013274.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+WARNING: ByteProperty "UAnimSequence::NamePlateControlMode" was not found
+Error: Command failed: umodel.exe -dump -path="E:/Program Files (x86)/NCSOFT/BnS/contents/bns/CookedPC" -game=bns 00013274
+******** 00013274 ********
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** ERROR: Unknown rotation compression method: 255
+UAnimSet::ConvertAnims <- PostLoad:ItemBox_animset <- UObject::EndLoad <- LoadWholePackage:00013274 <- Main
+
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)

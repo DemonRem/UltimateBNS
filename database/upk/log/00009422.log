@@ -1,0 +1,31 @@
+Found 32646 game files (699 skipped)
+Loading package: 00009422.upk Ver: 573/1 Engine: 4205 Names: 91 Exports: 5 Imports: 3 Game: 801A
+Loading AnimSet dokcho_animset from package 00009422.upk
+WARNING: BoolProperty "UAnimSet::bServiced" was not found
+WARNING: ArrayProperty "UAnimSet::AdjustAniScaleBoneNames" was not found
+Loading AnimSequence AnimSequence_0 from package 00009422.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimSequence AnimSequence_2 from package 00009422.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimSequence AnimSequence_3 from package 00009422.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimSequence AnimSequence_4 from package 00009422.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Error: Command failed: umodel.exe -dump -path="E:/Program Files (x86)/NCSOFT/BnS/contents/bns/CookedPC" -game=bns 00009422
+******** 00009422 ********
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** ERROR: Unknown rotation compression method: 255
+UAnimSet::ConvertAnims <- PostLoad:dokcho_animset <- UObject::EndLoad <- LoadWholePackage:00009422 <- Main
+
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Socket.stream.socket.on (internal/child_process.js:346:11)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at Pipe._handle.close [as _onclose] (net.js:567:12)

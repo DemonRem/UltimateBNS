@@ -91,14 +91,6 @@
     ],
     "invalid": {}
   },
-  "00016068": {
-    "upkId": "00016068",
-    "notFound": [
-      "col1Material",
-      "texture"
-    ],
-    "invalid": {}
-  },
   "00019773": {
     "upkId": "00019773",
     "notFound": [
@@ -106,9 +98,10 @@
     ],
     "invalid": {}
   },
-  "00027243": {
-    "upkId": "00027243",
+  "00050166": {
+    "upkId": "00050166",
     "notFound": [
+      "col1Material",
       "texture"
     ],
     "invalid": {}

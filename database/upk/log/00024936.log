@@ -1,0 +1,51 @@
+Found 32646 game files (699 skipped)
+Loading package: 00024936.upk Ver: 573/1 Engine: 4205 Names: 620 Exports: 1868 Imports: 136 Game: 801A
+Loading Texture2D Game_RandomStoreExhibitionScene_Preview from package 00024936.upk
+Loading Texture2D Game_RandomStoreScene_Preview from package 00024936.upk
+Loading Texture2D Game_TencentRandomStoreScene_Preview from package 00024936.upk
+Loaded in 0.028 sec, 653 allocs, 0.19 MBytes serialized in 36645 calls.
+
+Object info:
+============
+ClassName: Texture2D ObjectName: Game_RandomStoreExhibitionScene_Preview
+
+    SizeX = 256
+    SizeY = 256
+    Format = PF_DXT1 (5)
+    AddressX = TA_Wrap (0)
+    AddressY = TA_Wrap (0)
+    TextureFileCacheName = None
+    MipTailBaseIdx = 0
+    bForcePVRTC4 = false
+    UnpackMin[4] = { 0, 0, 0, 0 }
+    UnpackMax[4] = { 1, 1, 1, 1 }
+
+Object info:
+============
+ClassName: Texture2D ObjectName: Game_RandomStoreScene_Preview
+
+    SizeX = 256
+    SizeY = 256
+    Format = PF_DXT1 (5)
+    AddressX = TA_Wrap (0)
+    AddressY = TA_Wrap (0)
+    TextureFileCacheName = None
+    MipTailBaseIdx = 0
+    bForcePVRTC4 = false
+    UnpackMin[4] = { 0, 0, 0, 0 }
+    UnpackMax[4] = { 1, 1, 1, 1 }
+
+Object info:
+============
+ClassName: Texture2D ObjectName: Game_TencentRandomStoreScene_Preview
+
+    SizeX = 256
+    SizeY = 256
+    Format = PF_DXT1 (5)
+    AddressX = TA_Wrap (0)
+    AddressY = TA_Wrap (0)
+    TextureFileCacheName = None
+    MipTailBaseIdx = 0
+    bForcePVRTC4 = false
+    UnpackMin[4] = { 0, 0, 0, 0 }
+    UnpackMax[4] = { 1, 1, 1, 1 }

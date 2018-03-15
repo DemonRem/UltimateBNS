@@ -1,0 +1,62 @@
+Found 32646 game files (699 skipped)
+Loading package: 00050202.upk Ver: 573/1 Engine: 4205 Names: 143 Exports: 26 Imports: 24 Game: 801A
+Loading AnimSet JinSeoYeonEvolve_AnimSet from package 00050202.upk
+WARNING: BoolProperty "UAnimSet::bServiced" was not found
+WARNING: ArrayProperty "UAnimSet::AdjustAniScaleBoneNames" was not found
+Loading AnimSequence AnimSequence_16 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimNotify_Sound AnimNotify_Sound_14 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_15 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_16 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_17 from package 00050202.upk
+Loading AnimSequence AnimSequence_17 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimNotify_Sound AnimNotify_Sound_18 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_19 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_20 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_21 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_22 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_23 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_24 from package 00050202.upk
+Loading AnimNotify_Sound AnimNotify_Sound_25 from package 00050202.upk
+Loading AnimSequence AnimSequence_21 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimNotify_Sound AnimNotify_Sound_26 from package 00050202.upk
+WARNING: IntProperty "UAnimNotify_Sound::RandomSkipPercent" was not found
+Loading AnimSequence AnimSequence_22 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimNotify_Sound AnimNotify_Sound_27 from package 00050202.upk
+WARNING: IntProperty "UAnimNotify_Sound::RandomSkipPercent" was not found
+Loading AnimSequence AnimSequence_13 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimSequence AnimSequence_14 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimSequence AnimSequence_15 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimSequence AnimSequence_18 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimSequence AnimSequence_19 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Loading AnimSequence AnimSequence_20 from package 00050202.upk
+WARNING: BoolProperty "UAnimSequence::bServiced" was not found
+Error: Command failed: umodel.exe -dump -path="E:/Program Files (x86)/NCSOFT/BnS/contents/bns/CookedPC" -game=bns 00050202
+******** 00050202 ********
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** unknown member ACF_ZOnlyRLE of enum AnimationCompressionFormat
+*** ERROR: Unknown rotation compression method: 255
+UAnimSet::ConvertAnims <- PostLoad:JinSeoYeonEvolve_AnimSet <- UObject::EndLoad <- LoadWholePackage:00050202 <- Main
+
+
+    at ChildProcess.exithandler (child_process.js:275:12)
+    at emitTwo (events.js:126:13)
+    at ChildProcess.emit (events.js:214:7)
+    at maybeClose (internal/child_process.js:925:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)

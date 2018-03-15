@@ -1,0 +1,19 @@
+Found 32646 game files (699 skipped)
+Loading package: 00041301.upk Ver: 573/1 Engine: 4205 Names: 648 Exports: 3993 Imports: 131 Game: 801A
+Loading Texture2D Game_ItemMapScene_Preview from package 00041301.upk
+Loaded in 0.038 sec, 671 allocs, 0.31 MBytes serialized in 74824 calls.
+
+Object info:
+============
+ClassName: Texture2D ObjectName: Game_ItemMapScene_Preview
+
+    SizeX = 256
+    SizeY = 256
+    Format = PF_DXT1 (5)
+    AddressX = TA_Wrap (0)
+    AddressY = TA_Wrap (0)
+    TextureFileCacheName = None
+    MipTailBaseIdx = 0
+    bForcePVRTC4 = false
+    UnpackMin[4] = { 0, 0, 0, 0 }
+    UnpackMax[4] = { 1, 1, 1, 1 }

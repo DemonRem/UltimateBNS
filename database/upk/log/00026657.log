@@ -1,0 +1,35 @@
+Found 32646 game files (699 skipped)
+Loading package: 00026657.upk Ver: 573/1 Engine: 4205 Names: 382 Exports: 1187 Imports: 53 Game: 801A
+Loading Texture2D Game_ContextMenuTooltipScene_Preview from package 00026657.upk
+Loading Texture2D Game_TooltipScene2_Preview from package 00026657.upk
+Loaded in 0.03 sec, 410 allocs, 0.11 MBytes serialized in 23032 calls.
+
+Object info:
+============
+ClassName: Texture2D ObjectName: Game_ContextMenuTooltipScene_Preview
+
+    SizeX = 256
+    SizeY = 256
+    Format = PF_DXT1 (5)
+    AddressX = TA_Wrap (0)
+    AddressY = TA_Wrap (0)
+    TextureFileCacheName = None
+    MipTailBaseIdx = 0
+    bForcePVRTC4 = false
+    UnpackMin[4] = { 0, 0, 0, 0 }
+    UnpackMax[4] = { 1, 1, 1, 1 }
+
+Object info:
+============
+ClassName: Texture2D ObjectName: Game_TooltipScene2_Preview
+
+    SizeX = 256
+    SizeY = 256
+    Format = PF_DXT1 (5)
+    AddressX = TA_Wrap (0)
+    AddressY = TA_Wrap (0)
+    TextureFileCacheName = None
+    MipTailBaseIdx = 0
+    bForcePVRTC4 = false
+    UnpackMin[4] = { 0, 0, 0, 0 }
+    UnpackMax[4] = { 1, 1, 1, 1 }

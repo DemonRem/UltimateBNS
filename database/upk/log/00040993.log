@@ -1,0 +1,114 @@
+Found 32646 game files (699 skipped)
+Loading package: 00040993.upk Ver: 573/1 Engine: 4205 Names: 76 Exports: 13 Imports: 10 Game: 801A
+Loading SkeletalMesh3 Jeokpaewang_SpikeWall_001 from package 00040993.upk
+Loading package: 00040995.upk Ver: 573/1 Engine: 4205 Names: 364 Exports: 1 Imports: 37 Game: 801A
+Loading MaterialInstanceConstant Jeokpaewang_SpikeWall_001_mat from package 00040995.upk
+Loading package: Parent_normal.upk Ver: 573/1 Engine: 4205 Names: 1063 Exports: 9831 Imports: 95 Game: 801A
+Loading package: 00040994.upk Ver: 573/1 Engine: 4205 Names: 29 Exports: 3 Imports: 2 Game: 801A
+Loading package: 00012963.upk Ver: 573/1 Engine: 4205 Names: 1342 Exports: 1316 Imports: 10 Game: 801A
+Loading package: CubeMap_001.upk Ver: 573/1 Engine: 4205 Names: 107 Exports: 455 Imports: 3 Game: 801A
+Loading package: Parent_BG.upk Ver: 573/1 Engine: 4205 Names: 1158 Exports: 10618 Imports: 129 Game: 801A
+Loading Texture2D Parent_normal from package Parent_normal.upk
+Loading Texture2D Jeokpaewang_SpikeWall_001_NJeokpaewang_SpikeWall_001_D from package 00040994.upk
+Loading Texture2D Jeokpaewang_SpikeWall_001_DJeokpaewang_SpikeWall_001_D from package 00040994.upk
+Loading Texture2D RGB_Mask from package Parent_normal.upk
+Loading Texture2D Parent_diffuse from package Parent_normal.upk
+Loading Texture2D Smoke_Fractal_002 from package 00012963.upk
+Loading Texture2D Parent_Mask from package Parent_normal.upk
+Loading Texture2D Parent_Ice_N from package Parent_normal.upk
+Loading Texture2D Parent_snow_N from package Parent_normal.upk
+Loading Texture2D Jeokpaewang_SpikeWall_001_spJeokpaewang_SpikeWall_001_D from package 00040994.upk
+Loading Texture2D Parent_specular from package Parent_normal.upk
+Loading Texture2D Noise_Bubble_000 from package 00012963.upk
+Loading Texture2D Parent_emissive from package Parent_normal.upk
+Loading Texture2D Check_001_D from package Parent_normal.upk
+Loading TextureCube Water_cube4 from package CubeMap_001.upk
+Loading TextureCube MatelW5 from package CubeMap_001.upk
+Loading Texture2D Smoke_Cloud_003 from package 00012963.upk
+Loading TextureCube Water_cube3 from package CubeMap_001.upk
+Loading Texture2D Normal_Noise_000 from package 00012963.upk
+WARNING: BoolProperty "UTexture2D::bDisableLoadSwitch" was not found
+Loading Texture2D Smoke_Cloud_004 from package 00012963.upk
+Loading Texture2D Raindrop_001_D from package Parent_normal.upk
+Loading Texture2D Noise_Plazma_002 from package 00012963.upk
+Loading Texture2D Ice_003_D from package Parent_normal.upk
+Loading Texture2D Bubble_001_D from package Parent_normal.upk
+Loading TextureCube SamangTower_02_Tex from package CubeMap_001.upk
+Loading TextureCube Water_cube2 from package CubeMap_001.upk
+Loading Material3 Parent_BG_Simple from package Parent_BG.upk
+Loading Texture2D CubemapFace0 from package CubeMap_001.upk
+Loading Texture2D CubemapFace1 from package CubeMap_001.upk
+Loading Texture2D CubemapFace2 from package CubeMap_001.upk
+Loading Texture2D CubemapFace3 from package CubeMap_001.upk
+Loading Texture2D CubemapFace4 from package CubeMap_001.upk
+Loading Texture2D CubemapFace5 from package CubeMap_001.upk
+Loading Texture2D CubemapFace0 from package CubeMap_001.upk
+Loading Texture2D CubemapFace1 from package CubeMap_001.upk
+Loading Texture2D CubemapFace2 from package CubeMap_001.upk
+Loading Texture2D CubemapFace3 from package CubeMap_001.upk
+Loading Texture2D CubemapFace4 from package CubeMap_001.upk
+Loading Texture2D CubemapFace5 from package CubeMap_001.upk
+Loading Texture2D CubemapFace0 from package CubeMap_001.upk
+Loading Texture2D CubemapFace1 from package CubeMap_001.upk
+Loading Texture2D CubemapFace2 from package CubeMap_001.upk
+Loading Texture2D CubemapFace3 from package CubeMap_001.upk
+Loading Texture2D CubemapFace4 from package CubeMap_001.upk
+Loading Texture2D CubemapFace5 from package CubeMap_001.upk
+Loading Texture2D CubemapFace0 from package CubeMap_001.upk
+Loading Texture2D CubemapFace1 from package CubeMap_001.upk
+Loading Texture2D CubemapFace2 from package CubeMap_001.upk
+Loading Texture2D CubemapFace3 from package CubeMap_001.upk
+Loading Texture2D CubemapFace4 from package CubeMap_001.upk
+Loading Texture2D CubemapFace5 from package CubeMap_001.upk
+Loading Texture2D CubemapFace0 from package CubeMap_001.upk
+Loading Texture2D CubemapFace1 from package CubeMap_001.upk
+Loading Texture2D CubemapFace2 from package CubeMap_001.upk
+Loading Texture2D CubemapFace3 from package CubeMap_001.upk
+Loading Texture2D CubemapFace4 from package CubeMap_001.upk
+Loading Texture2D CubemapFace5 from package CubeMap_001.upk
+Loaded in 0.48 sec, 5630 allocs, 3.69 MBytes serialized in 462058 calls.
+
+Object info:
+============
+ClassName: SkeletalMesh3 ObjectName: Jeokpaewang_SpikeWall_001
+
+    LODInfo[1] =
+    {
+        LODInfo[0] =
+        {
+            DisplayFactor = 0
+            LODHysteresis = 0.02
+            LODMaterialMap[0] = {}
+            bEnableShadowCasting[1] = { true }
+        }
+    }
+    Sockets[0] = {}
+    bHasVertexColors = false
+    EnableTwistBoneFixers = true
+    EnableClavicleFixer = true
+    Materials[1] = { MaterialInstanceConstant'Jeokpaewang_SpikeWall_001_mat' }
+
+
+    Lods[1] =
+    {
+        Lods[0] =
+        {
+            Sections[1] =
+            {
+                Sections[0] =
+                {
+                    Material = MaterialInstanceConstant'Jeokpaewang_SpikeWall_001_mat'
+                    FirstIndex = 0
+                    NumFaces = 836
+                }
+            }
+            NumVerts = 1144
+            IndexCount = 2508
+            NumTexCoords = 1
+        }
+    }
+    LodCount = 1
+    MeshOrigin = { X=-0, Y=-0, Z=-0 }
+    MeshScale = { X=1, Y=1, Z=1 }
+    RotOrigin = { Yaw=0, Pitch=0, Roll=0 }
+    BoneCount = 4
