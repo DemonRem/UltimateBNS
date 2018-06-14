@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1291.xml-->
+  <quest alias="q_sub_1291" broadcast-category="field" category="normal" completed-list="n" content-type="side-episode" desc="q_1291_sum" grade="1" group2="QG_PaCheonSeongDo" id="1291" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1291" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1290" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1291_2" object="npc:CH_WC_BaekWoon_0001" progress-mission="y" type="talk" />
+      <case acquire-quest="y" item="q_1291_2_icon" msg="q_1291_1" progress-mission="y" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1291_1" required-register-value="1">
+        <case looting="q_1291_1_icon" mapunit-10="3126_e_chest_3050_wildgrass_01" object2="zoneenv2:e_chest_3050_wildgrass_01" progress-mission="y" type="loot" />
+        <case npc-response="qrsp_1291_4" object="npc:CH_WC_BaekWoon_0001" type="approach" />
+        <case npc-response="qrsp_1290_5" object="npc:CH_WC_MiRyeong_0003" type="approach" />
+        <case npc-response="qrsp_1290_16" object="npc:CH_WC_YuGaChon_0022" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0023" type="approach" />
+        <case npc-response="qrsp_1290_6" object="npc:CH_WC_YuGaChon_0014" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0015" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0016" type="approach" />
+        <case npc-response="qrsp_1291_3" object="npc:CH_WC_YuGaChon_0017" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0018" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0019" type="approach" />
+        <case object="zone:zone_Yugachon_Pachun_p4" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1291_2" required-register-value="1">
+        <case mapunit-2="3124_e_onoff_scullbox_01_01" object2="zoneenv2:e_onoff_scullbox_01_1" progress-mission="y" type="manipulate" />
+        <case npc-response="qrsp_1291_4" object="npc:CH_WC_BaekWoon_0001" type="approach" />
+        <case npc-response="qrsp_1290_5" object="npc:CH_WC_MiRyeong_0003" type="approach" />
+        <case npc-response="qrsp_1290_16" object="npc:CH_WC_YuGaChon_0022" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0023" type="approach" />
+        <case npc-response="qrsp_1290_6" object="npc:CH_WC_YuGaChon_0014" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0015" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0016" type="approach" />
+        <case npc-response="qrsp_1291_11" object="npc:CH_WC_YuGaChon_0017" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0018" type="approach" />
+        <case npc-response="qrsp_1290_7" object="npc:CH_WC_YuGaChon_0019" type="approach" />
+        <case npc-response="qrsp_1291_5" object="npc:CH_WC_BaekWoon_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1291_3" required-register-value="1">
+        <case npc-response="qrsp_1291_7" object="npc:CH_WC_YooJung_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1291_6" object="npc:CH_WC_BaekWoon_0002" type="approach" />
+        <case object="zone:zone_YuGaCHN_Musung_Pachun_p2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1291_4" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1291_8" object="npc:CH_WC_BaekWoon_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_YuGaCHN_Musung_Pachun_p2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1291_5" required-register-value="1">
+        <case object="npc:CE_WC_Dummy_0067" progress-mission="y" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1291_6" required-register-value="1">
+        <case looting="q_1291_3_icon" mapunit-3="3125_e_chest_3125_feather_01" object2="zoneenv2:e_chest_3125_feather_01" progress-mission="y" type="loot" />
+        <case npc-response="qrsp_1291_9" object="npc:CH_WC_BaekWoon_0003" type="approach" />
+        <case object="zone:zone_MuShinBeaCha_Pachun_p3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1291_7" required-register-value="1" reward-1="1291_final_set1">
+        <case npc-response="qrsp_1291_10" object="npc:CH_WC_BaekWoon_0003" progress-mission="y" type="talk" />
+        <case object="zone:zone_MuShinBeaCha_Pachun_p3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_YuGaCHN_1">
+      <destination mission-step-id="7" zone-index="4" />
+      <destination mission-step-id="6" zone-index="4" />
+      <destination mission-step-id="5" zone-index="4" />
+      <destination mission-step-id="4" zone-index="4" />
+      <destination mission-step-id="3" zone-index="4" />
+      <destination mission-step-id="2" zone-index="4" />
+      <destination mission-step-id="1" zone-index="4" />
+    </transit>
+    <transit id="2" zone="zone_MuShinBeaCha_1">
+      <destination mission-step-id="7" zone-index="3" />
+      <destination mission-step-id="6" zone-index="3" />
+      <destination mission-step-id="5" zone-index="3" />
+    </transit>
+  </quest>
+</table>

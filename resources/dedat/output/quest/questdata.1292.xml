@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1292.xml-->
+  <quest alias="q_sub_1292" broadcast-category="field" category="normal" completed-list="n" content-type="side-episode" desc="q_1292_sum" grade="1" group2="QG_PaCheonSeongDo" id="1292" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1292" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1291" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1292_2" object="npc:CH_WC_BaekWoon_0003" progress-mission="y" type="talk" />
+      <case acquire-quest="y" item="q_1292_1_icon" msg="q_1292_1" progress-mission="y" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1292_1" required-register-value="1">
+        <case mapunit-3="3125_e_onoff_3032altar_01_01" object="zone:Zone_PaCheon_Lobby_phase_1" progress-mission="y" type="enter-zone" />
+        <case object2="zoneenv2:e_onoff_3032altar_01_01" progress-mission="reaction-only" type="manipulate" />
+        <case npc-response="qrsp_1292_3" object="npc:CH_WC_BaekWoon_0003" type="approach" />
+        <case object="zone:Zone_PaCheon_Lobby_phase_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1292_2" required-register-value="1">
+        <case mapunit-10="4456_foot_01" object2="zoneenv2:4456_foot_01" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1292_10" object="npc:CH_WC_HoBeopoe_0001" type="approach" />
+        <case npc-response="qrsp_1292_9" object="npc:CH_WC_HoBeopoe_0002" type="approach" />
+        <case object2="zoneenv2:e_onoff_3032altar_01_01" progress-mission="reaction-only" type="manipulate" />
+        <case object="zone:Zone_PaCheon_Lobby_phase_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1292_3" required-register-value="1">
+        <case object="npc:CH_WC_HoBeopoe_0001" progress-mission="y" type="npc-bleeding-occured" />
+        <case object2="zoneenv2:e_onoff_3032altar_01_01" progress-mission="reaction-only" type="manipulate" />
+        <case object="zone:Zone_PaCheon_Lobby_phase_1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1292_14" object="npc:CH_WC_HoBeopoe_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1292_5" required-register-value="1">
+        <case npc-response="qrsp_1292_7" object="npc:CH_WC_HoBeopoe_0033" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:e_onoff_3032altar_01_01" progress-mission="reaction-only" type="manipulate" />
+        <case object="zone:Zone_PaCheon_Lobby_phase_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1292_4" required-register-value="1">
+        <case npc-response="qrsp_1292_12" object="npc:CH_WC_HoBeopoe_0033" progress-mission="y" type="npc-manipulate" />
+        <case object2="zoneenv2:e_onoff_3032altar_01_01" progress-mission="reaction-only" type="manipulate" />
+        <case object="zone:Zone_PaCheon_Lobby_phase_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1292_6" required-register-value="3">
+        <case mapunit-10="4456_ME_WC_DemonBoneMaskBig_0001" object2="npc:ME_WC_DemonBoneMaskBig_0001" progress-mission="y" type="killed" />
+        <case object2="zoneenv2:e_onoff_3032altar_01_01" progress-mission="reaction-only" type="manipulate" />
+        <case npc-response="qrsp_1292_15" object="npc:CH_WC_HoBeopoe_0033" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="5" />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1292_8" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1292_final_set1">
+        <case npc-response="qrsp_1292_8" object="npc:CH_WC_HoBeopoe_0033" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:e_onoff_3032altar_01_01" progress-mission="reaction-only" type="manipulate" />
+        <case object="zone:Zone_PaCheon_Lobby_phase_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_MuShinBeaCha_1">
+      <destination mission-step-id="7" zone-index="3" />
+      <destination mission-step-id="6" zone-index="3" />
+      <destination mission-step-id="5" zone-index="3" />
+      <destination mission-step-id="4" zone-index="3" />
+      <destination mission-step-id="3" zone-index="3" />
+      <destination mission-step-id="2" zone-index="3" />
+      <destination mission-step-id="1" zone-index="3" />
+      <destination mission-step-id="8" zone-index="3" />
+    </transit>
+    <transit id="2" zone="Zone_PaCheon_Lobby">
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+    </transit>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1292_7" required-register-value="1">
+        <case npc-response="qrsp_1292_13" object="npc:CH_WC_HoBeopoe_0002" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:e_onoff_3032altar_01_01" progress-mission="reaction-only" type="manipulate" />
+        <case object="zone:Zone_PaCheon_Lobby_phase_1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1292_15" object="npc:CH_WC_HoBeopoe_0033" type="approach" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

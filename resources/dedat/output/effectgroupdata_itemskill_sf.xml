@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
+  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_sf.xml-->
+	<record alias="ItemSkill_SF_Common_ForceBuff_Lv1_01_E1" effect-1="SoulFighter_Common_Forcepower_Lv1_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_FinalAttack_BS1_Lv1_01_E1" effect-1="ItemSkill_SF_FinalAttack_BS1_Lv1_01_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_LeftCounter_S1_Lv1_01_E1" effect-1="ItemSkill_SF_LeftCounter_S1_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Violently_S3_Lv1_01_E1" effect-1="ItemSkill_SF_Violently_S3_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Forcebuff_S4_Lv1_01_E1" effect-1="ItemSkill_SF_Forcebuff_S4_Lv1_01_Heal" skill-result="hit-critical-hit" target="first-second-target" target-state="my-party" />
+	<record alias="ItemSkill_SF_DualstepPunch_S5_Lv1_01_E1" effect-1="ItemSkill_SF_DualstepPunch_S5_Lv1_recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Leftkick_S6_Lv1_01_E1" effect-1="ItemSkill_SF_Leftkick_S6_Lv1_Interval_SP_Heal" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Leftkick_S6_Lv1_01_E2" effect-1="ItemSkill_SF_Leftkick_S6_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_Nukeattack_S7_Lv1_01_E1" effect-1="ItemSkill_SF_Nukeattack_S7_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_Ironbody_S8_Lv1_01_E1" effect-1="ItemSkill_SF_Ironbody_S8_Lv1_recyclereduce" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Ironbody_S8_Lv1_02_E1" effect-1="ItemSkill_SF_Ironbody_S8_Lv1_Immune2" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Ironbody_S8_Lv1_03_E1" effect-1="ItemSkill_SF_Ironbody_S8_Lv1_Immune3" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_ForceGather_S9_Lv1_01_E1" effect-1="ItemSkill_SF_ForceGather_S9_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Violently_S11_Lv1_01_E1" effect-1="ItemSkill_SF_Violently_S11_Lv1_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Violently_S11_Lv1_01_E2" effect-1="ItemSkill_SF_Violently_S11_Lv1_DefUp" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Pushattack_S12_Lv1_01_E1" effect-1="SoulFighter_Common_Dispel_Down" effect-2="SoulFighter_Common_Dispel_Stun" effect-3="SoulFighter_Common_Dispel_Kneel" effect-4="SoulFighter_Force_Pushattack_3000_Air" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40057" />
+	<record alias="ItemSkill_SF_Pushattack_S12_Lv1_01_E2" effect-1="ItemSkill_SF_Pushattack_S12_Lv1_Recyclereduce" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Energyhole_S13_Lv1_01_E1" effect-1="ItemSkill_SF_Energyhole_S13_Lv1_01_Recyclereduce" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Energyhole_S13_Lv1_02_E1" effect-1="ItemSkill_SF_Energyhole_S13_Lv1_02_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_FrostGround_S14_Lv1_01_E1" effect-1="ItemSkill_SF_FrostGround_S14_Lv1_01_Recyclereduce" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_FrostGround_S14_Lv1_02_E1" effect-1="ItemSkill_SF_FrostGround_S14_Lv1_02_Forcebuff3" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_Nukeattack_B1_Lv1_01_E1" effect-1="SoulFighter_Common_Forcepower_Lv1_Flag" effect-2="ItemSkill_SF_DualstepPunch_B1_Lv1_recyclereset" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_FrostEnergyball_B2_Lv1_E1" effect-1="ItemSkill_SF_FrostEnergyball_B2_Lv1_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_FrostEnergyball_B2_Lv1_E2" effect-1="ItemSkill_SF_FrostEnergyball_B2_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_Frostenergy_B3_Lv1_E1" effect-1="ItemSkill_SF_Frostenergy_B3_Lv1_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_EarthLaser_B3_Lv1_E1" effect-1="ItemSkill_SF_EarthLaser_B3_Lv1_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_LeftSmashdash_B4_Lv1_E1" effect-1="ItemSkill_SF_LeftSmashdash_B4_Lv1_Flag" effect-2="ItemSkill_SF_LeftSmashdash_B4_Lv1_Flag2" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_LeftSmashdash_B4_Lv1_E2" effect-1="ItemSkill_SF_LeftSmashdash_B4_Lv1_Damage1" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_LeftSmashdash_B4_Lv1_E3" effect-1="ItemSkill_SF_LeftSmashdash_B4_Lv1_Damage2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_LeftSmashdash_B4_Lv1_E4" effect-1="ItemSkill_SF_LeftSmashdash_B4_Lv1_Damage3" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_LeaveNuke_LB1_Lv1_01_E1" effect-1="ItemSkill_SF_LeaveNuke_LB1_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_LeaveNuke_LB1_Lv1_02_E1" effect-1="ItemSkill_SF_LeaveNuke_LB1_Lv2_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_LeaveNuke_LB1_Lv1_03_E1" effect-1="ItemSkill_SF_LeaveNuke_LB1_Lv3_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_FrostWind_LB1_Lv1_01_E1" effect-1="ItemSkill_SF_FrostWind_LB1_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_FrostWind_LB1_Lv1_02_E1" effect-1="ItemSkill_SF_FrostWind_LB1_Lv2_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+</table>

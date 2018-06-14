@@ -1,0 +1,1352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_soulfighter_item.xml-->
+
+  <contextscript alias="SoulFighter_Attack_Violently_Item9_Var1">
+
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="유권" status="stance">
+   
+      
+      <layer>
+        <decision>
+          <condition skill="35124" />
+          <result context-3="35124" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35124" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35123" />
+          <result context-3="35123" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35123" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35122" />
+          <result context-3="35122" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35122" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35121" />
+          <result context-3="35121" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35121" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35120" />
+          <result context-3="35120" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35120" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+  <contextscript alias="SoulFighter_Attack_BackStep_Item8_Var3">
+
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="유권" status="stance">
+
+      
+      <layer>
+        <decision>
+          <result cmd-key-down="35112" control-mode="classic" />
+          <result cmd-key-down="35112" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+  <contextscript alias="SoulFighter_Attack_BackStep_Item8_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="유권" status="stance">
+
+      
+      <layer>
+        <decision>
+          <result cmd-key-down="35111" control-mode="classic" />
+          <result cmd-key-down="35111" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+  <contextscript alias="SoulFighter_Attack_BackStep_Item8_Var1">
+
+
+    
+    
+    
+    
+    
+    
+    <stance stance="유권" status="stance">
+
+      
+      <layer>
+        <decision>
+          <result cmd-key-down="35110" control-mode="classic" />
+          <result cmd-key-down="35110" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+  <contextscript alias="SoulFighter_Attack_DownBackStep_Item7_Var3">
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35105" />
+          <result context-3="35105" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35105" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35105" />
+          <result context-3="35105" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35105" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35105" />
+          <result context-3="35105" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35105" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+  <contextscript alias="SoulFighter_Attack_DownBackStep_Item7_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35104" />
+          <result context-3="35104" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35104" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35104" />
+          <result context-3="35104" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35104" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35104" />
+          <result context-3="35104" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35104" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+  <contextscript alias="SoulFighter_Attack_DownBackStep_Item7_Var1">
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35103" />
+          <result context-3="35103" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35103" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35103" />
+          <result context-3="35103" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35103" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35103" />
+          <result context-3="35103" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35103" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+
+  </contextscript>
+
+
+  <contextscript alias="SoulFighter_Attack_escape_Item6_Var3">
+
+
+    
+    
+    
+    
+    
+    
+  
+       
+   
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35102" />
+          <result context-3="35102" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35102" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="35086" />
+          <result context-ui-effect="event" control-mode="classic" stance="35086" />
+          <result context-ui-effect="event" control-mode="bns" stance="35086" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="35090" />
+          <result context-ui-effect="event" control-mode="classic" stance="35090" />
+          <result context-ui-effect="event" control-mode="bns" stance="35090" />
+        </decision>
+      </layer>
+
+
+
+    </stance>
+
+    
+    <stance abnormal-flag="stun">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35086" />
+          <result context-ui-effect="event" control-mode="classic" stance="35086" />
+          <result context-ui-effect="event" control-mode="bns" stance="35086" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35090" />
+          <result context-ui-effect="event" control-mode="classic" stance="35090" />
+          <result context-ui-effect="event" control-mode="bns" stance="35090" />
+        </decision>
+      </layer>
+
+    </stance>
+ 
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35102" />
+          <result context-3="35102" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35102" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35086" />
+          <result context-ui-effect="event" control-mode="classic" stance="35086" />
+          <result context-ui-effect="event" control-mode="bns" stance="35086" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35090" />
+          <result context-ui-effect="event" control-mode="classic" stance="35090" />
+          <result context-ui-effect="event" control-mode="bns" stance="35090" />
+        </decision>
+      </layer>
+    </stance>
+  
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35102" />
+          <result context-3="35102" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35102" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35086" />
+          <result context-ui-effect="event" control-mode="classic" stance="35086" />
+          <result context-ui-effect="event" control-mode="bns" stance="35086" />
+        </decision>
+      </layer>
+
+         
+      <layer>
+        <decision>
+          <condition skill="35090" />
+          <result context-ui-effect="event" control-mode="classic" stance="35090" />
+          <result context-ui-effect="event" control-mode="bns" stance="35090" />
+        </decision>
+      </layer>
+
+    </stance>
+
+
+    
+    <stance link="mount">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35087" />
+          <result context-ui-effect="event" control-mode="classic" stance="35087" />
+          <result context-ui-effect="event" control-mode="bns" stance="35087" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="35091" />
+          <result context-ui-effect="event" control-mode="classic" stance="35091" />
+          <result context-ui-effect="event" control-mode="bns" stance="35091" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+     <stance link="catch">
+
+       
+       <layer>
+         <decision>
+           <condition skill="35088" />
+           <result context-ui-effect="event" control-mode="classic" stance="35088" />
+           <result context-ui-effect="event" control-mode="bns" stance="35088" />
+         </decision>
+       </layer>
+
+       
+       <layer>
+         <decision>
+           <condition skill="35092" />
+           <result context-ui-effect="event" control-mode="classic" stance="35092" />
+           <result context-ui-effect="event" control-mode="bns" stance="35092" />
+         </decision>
+       </layer>
+
+     </stance>
+
+    
+    <stance link="inhalation-catch">
+      
+      
+      <layer>
+        <decision>
+          <condition skill="35089" />
+          <result context-ui-effect="event" control-mode="classic" stance="35089" />
+          <result context-ui-effect="event" control-mode="bns" stance="35089" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35093" />
+          <result context-ui-effect="event" control-mode="classic" stance="35093" />
+          <result context-ui-effect="event" control-mode="bns" stance="35093" />
+        </decision>
+      </layer>
+
+
+    </stance>
+
+  </contextscript>
+
+
+  <contextscript alias="SoulFighter_Attack_DownBackStep_Item6_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35101" />
+          <result context-3="35101" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35101" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+      	
+      <layer>
+        <decision>
+          <condition skill="35078" />
+          <result context-ui-effect="event" control-mode="classic" stance="35078" />
+          <result context-ui-effect="event" control-mode="bns" stance="35078" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35082" />
+          <result context-ui-effect="event" control-mode="classic" stance="35082" />
+          <result context-ui-effect="event" control-mode="bns" stance="35082" />
+        </decision>
+      </layer>
+      
+    </stance>
+
+
+    
+    <stance abnormal-flag="stun">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35078" />
+          <result context-ui-effect="event" control-mode="classic" stance="35078" />
+          <result context-ui-effect="event" control-mode="bns" stance="35078" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35082" />
+          <result context-ui-effect="event" control-mode="classic" stance="35082" />
+          <result context-ui-effect="event" control-mode="bns" stance="35082" />
+        </decision>
+      </layer>
+
+
+    </stance>
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35101" />
+          <result context-3="35101" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35101" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="35078" />
+          <result context-ui-effect="event" control-mode="classic" stance="35078" />
+          <result context-ui-effect="event" control-mode="bns" stance="35078" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35082" />
+          <result context-ui-effect="event" control-mode="classic" stance="35082" />
+          <result context-ui-effect="event" control-mode="bns" stance="35082" />
+        </decision>
+      </layer>
+
+
+    </stance>
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35101" />
+          <result context-3="35101" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35101" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="35078" />
+          <result context-ui-effect="event" control-mode="classic" stance="35078" />
+          <result context-ui-effect="event" control-mode="bns" stance="35078" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35082" />
+          <result context-ui-effect="event" control-mode="classic" stance="35082" />
+          <result context-ui-effect="event" control-mode="bns" stance="35082" />
+        </decision>
+      </layer>
+
+
+    </stance>
+
+
+      
+    <stance link="mount">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35079" />
+          <result context-ui-effect="event" control-mode="classic" stance="35079" />
+          <result context-ui-effect="event" control-mode="bns" stance="35079" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35083" />
+          <result context-ui-effect="event" control-mode="classic" stance="35083" />
+          <result context-ui-effect="event" control-mode="bns" stance="35083" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+     <stance link="catch">
+
+       
+       <layer>
+         <decision>
+           <condition skill="35080" />
+           <result context-ui-effect="event" control-mode="classic" stance="35080" />
+           <result context-ui-effect="event" control-mode="bns" stance="35080" />
+         </decision>
+       </layer>
+
+       
+       <layer>
+         <decision>
+           <condition skill="35084" />
+           <result context-ui-effect="event" control-mode="classic" stance="35084" />
+           <result context-ui-effect="event" control-mode="bns" stance="35084" />
+         </decision>
+       </layer>
+       
+    </stance>
+
+    
+    <stance link="inhalation-catch">
+      
+      
+      <layer>
+        <decision>
+          <condition skill="35081" />
+          <result context-ui-effect="event" control-mode="classic" stance="35081" />
+          <result context-ui-effect="event" control-mode="bns" stance="35081" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35085" />
+          <result context-ui-effect="event" control-mode="classic" stance="35085" />
+          <result context-ui-effect="event" control-mode="bns" stance="35085" />
+        </decision>
+      </layer>
+      
+    </stance>
+
+  </contextscript>
+
+  <contextscript alias="SoulFighter_Attack_DownBackStep_Item6_Var1">
+
+
+    
+    
+    
+    
+    
+    
+
+  
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35100" />
+          <result context-3="35100" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35100" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+      	
+      <layer>
+        <decision>
+          <condition skill="35070" />
+          <result context-ui-effect="event" control-mode="classic" stance="35070" />
+          <result context-ui-effect="event" control-mode="bns" stance="35070" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35074" />
+          <result context-ui-effect="event" control-mode="classic" stance="35074" />
+          <result context-ui-effect="event" control-mode="bns" stance="35074" />
+        </decision>
+      </layer>
+    </stance>
+
+  
+    <stance abnormal-flag="stun">
+
+         
+      <layer>
+        <decision>
+          <condition skill="35070" />
+          <result context-ui-effect="event" control-mode="classic" stance="35070" />
+          <result context-ui-effect="event" control-mode="bns" stance="35070" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35074" />
+          <result context-ui-effect="event" control-mode="classic" stance="35074" />
+          <result context-ui-effect="event" control-mode="bns" stance="35074" />
+        </decision>
+      </layer>
+    </stance>
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35100" />
+          <result context-3="35100" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35100" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35070" />
+          <result context-ui-effect="event" control-mode="classic" stance="35070" />
+          <result context-ui-effect="event" control-mode="bns" stance="35070" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35074" />
+          <result context-ui-effect="event" control-mode="classic" stance="35074" />
+          <result context-ui-effect="event" control-mode="bns" stance="35074" />
+        </decision>
+      </layer>
+    </stance>
+
+  
+    <stance abnormal-flag="down">
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="35100" />
+          <result context-3="35100" context-ui-effect="event" control-mode="classic" />
+          <result context-3="35100" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35070" />
+          <result context-ui-effect="event" control-mode="classic" stance="35070" />
+          <result context-ui-effect="event" control-mode="bns" stance="35070" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35074" />
+          <result context-ui-effect="event" control-mode="classic" stance="35074" />
+          <result context-ui-effect="event" control-mode="bns" stance="35074" />
+        </decision>
+      </layer>
+    </stance>
+
+
+    
+    <stance link="mount">
+
+      
+      <layer>
+        <decision>
+          <condition skill="35071" />
+          <result context-ui-effect="event" control-mode="classic" stance="35071" />
+          <result context-ui-effect="event" control-mode="bns" stance="35071" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35074" />
+          <result context-ui-effect="event" control-mode="classic" stance="35074" />
+          <result context-ui-effect="event" control-mode="bns" stance="35074" />
+        </decision>
+      </layer>
+      
+    </stance>
+
+    
+     <stance link="catch">
+
+       
+       <layer>
+         <decision>
+           <condition skill="35073" />
+           <result context-ui-effect="event" control-mode="classic" stance="35073" />
+           <result context-ui-effect="event" control-mode="bns" stance="35073" />
+         </decision>
+       </layer>
+
+       
+       <layer>
+         <decision>
+           <condition skill="35077" />
+           <result context-ui-effect="event" control-mode="classic" stance="35077" />
+           <result context-ui-effect="event" control-mode="bns" stance="35077" />
+         </decision>
+       </layer>
+
+     </stance>
+
+    
+    <stance link="inhalation-catch">
+      
+      
+      <layer>
+        <decision>
+          <condition skill="27933" />
+          <result context-ui-effect="event" control-mode="classic" stance="27933" />
+          <result context-ui-effect="event" control-mode="bns" stance="27933" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+  <contextscript alias="SoulFighter_Attack_RightstepPunch_Item5_Var3">
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="유권" status="stance">
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="30074" />
+          <result context-2="30074" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30074" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30073" />
+          <result context-2="30073" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30073" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30072" />
+          <result context-2="30072" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30072" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30071" />
+          <result context-2="30071" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30071" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30070" />
+          <result context-2="30070" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30070" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="35032" />
+          <result context-3="35032" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35032" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35061" />
+          <result context-2="35061" control-mode="classic" />
+          <result context-2="35061" control-mode="bns" />
+        </decision>
+      </layer>
+      
+       
+      <layer>
+        <decision>
+          <result context-2="35060" control-mode="classic" />
+          <result context-2="35060" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+  <contextscript alias="SoulFighter_Attack_RightstepPunch_Item5_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="유권" status="stance">
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="30074" />
+          <result context-2="30074" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30074" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30073" />
+          <result context-2="30073" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30073" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30072" />
+          <result context-2="30072" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30072" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30071" />
+          <result context-2="30071" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30071" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30070" />
+          <result context-2="30070" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30070" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="35032" />
+          <result context-3="35032" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35032" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35059" />
+          <result context-2="35059" control-mode="classic" />
+          <result context-2="35059" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <result context-2="35058" control-mode="classic" />
+          <result context-2="35058" control-mode="bns" />
+        </decision>
+      </layer>
+  
+    </stance>
+
+  </contextscript>
+
+  <contextscript alias="SoulFighter_Attack_RightstepPunch_Item5_Var1">
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="유권" status="stance">
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="30074" />
+          <result context-2="30074" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30074" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30073" />
+          <result context-2="30073" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30073" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30072" />
+          <result context-2="30072" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30072" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30071" />
+          <result context-2="30071" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30071" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30070" />
+          <result context-2="30070" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30070" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="35032" />
+          <result context-3="35032" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35032" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35057" />
+          <result context-2="35057" control-mode="classic" />
+          <result context-2="35057" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <result context-2="35056" control-mode="classic" />
+          <result context-2="35056" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+  <contextscript alias="SoulFighter_Attack_RightstepPunch_Item4_Var3">
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="유권" status="stance">
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="30074" />
+          <result context-2="30074" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30074" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30073" />
+          <result context-2="30073" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30073" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30072" />
+          <result context-2="30072" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30072" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30071" />
+          <result context-2="30071" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30071" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30070" />
+          <result context-2="30070" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30070" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+
+      
+    <layer>
+      <decision>
+        <condition skill="35032" />
+        <result context-3="35032" context-ui-effect="key-change" control-mode="classic" />
+        <result context-3="35032" context-ui-effect="key-change" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="35055" />
+        <result context-2="35055" control-mode="classic" />
+        <result context-2="35055" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <result context-2="35054" control-mode="classic" />
+        <result context-2="35054" control-mode="bns" />
+      </decision>
+    </layer>
+
+    </stance>
+
+  </contextscript>
+
+  <contextscript alias="SoulFighter_Attack_RightstepPunch_Item2_Var2_Basic">
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="유권" status="stance">
+
+
+      
+      <layer>
+        <decision>
+          <condition skill="30074" />
+          <result context-2="30074" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30074" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30073" />
+          <result context-2="30073" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30073" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30072" />
+          <result context-2="30072" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30072" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30071" />
+          <result context-2="30071" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30071" context-ui-effect="event" control-mode="bns" />
+        </decision>
+        <decision>
+          <condition skill="30070" />
+          <result context-2="30070" context-ui-effect="event" control-mode="classic" />
+          <result context-2="30070" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35032" />
+          <result context-3="35032" context-ui-effect="key-change" control-mode="classic" />
+          <result context-3="35032" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35027" />
+          <result context-2="35027" context-ui-effect="key-change" control-mode="classic" />
+          <result context-2="35027" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35026" />
+          <result context-2="35026" context-ui-effect="key-change" control-mode="classic" />
+          <result context-2="35026" context-ui-effect="key-change" control-mode="bns" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="35025" />
+          <result context-2="35025" control-mode="classic" />
+          <result context-2="35025" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="35024" />
+          <result context-2="35024" control-mode="classic" />
+          <result context-2="35024" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+    <contextscript alias="SoulFighter_Attack_Violently_Item1_Var2">
+
+
+      
+      
+      
+      
+      
+      
+
+      <stance stance="유권" status="stance">
+
+        
+        <layer>
+          <decision>
+            <condition skill="35009" />
+            <result context-3="35009" context-ui-effect="" control-mode="classic" />
+            <result context-3="35009" context-ui-effect="" control-mode="bns" />
+          </decision>
+        </layer>
+
+        
+        <layer>
+          <decision>
+            <condition skill="35008" />
+            <result context-3="35008" context-ui-effect="" control-mode="classic" />
+            <result context-3="35008" context-ui-effect="" control-mode="bns" />
+          </decision>
+        </layer>
+
+        
+        <layer>
+          <decision>
+            <condition skill="35007" />
+            <result context-3="35007" context-ui-effect="" control-mode="classic" />
+            <result context-3="35007" context-ui-effect="" control-mode="bns" />
+          </decision>
+        </layer>
+
+        
+        <layer>
+          <decision>
+            <condition skill="35006" />
+            <result context-3="35006" context-ui-effect="" control-mode="classic" />
+            <result context-3="35006" context-ui-effect="" control-mode="bns" />
+          </decision>
+        </layer>
+
+        
+        <layer>
+          <decision>
+            <condition skill="35005" />
+            <result context-3="35005" context-ui-effect="" control-mode="classic" />
+            <result context-3="35005" context-ui-effect="" control-mode="bns" />
+          </decision>
+        </layer>
+
+      </stance>
+
+    </contextscript>
+
+
+</table>

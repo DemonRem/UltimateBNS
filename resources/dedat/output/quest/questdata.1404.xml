@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1404.xml-->
+  <quest activated-faction="factionmain1" alias="q_sub_1404" category="normal" day-of-week="daily" desc="q_1404_sum" grade="6" group2="QG_BaramCenter" id="1404" main-faction="factionmain1" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1404" reset-type="daily">
+    <acquisition faction="factionmain1" level="45" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" grocery="Quest_Scroll_BackChung_0068" item="Quest_Scroll_BackChung_0068" msg="q_1404_1" required-item-1="Quest_Scroll_BackChung_0068" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_BFF_HoncheonPigTribeC_0006" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_bff_HoncheonPigTribeC_0004" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_BFF_HoncheonPigTribeC_0002" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_BFF_HoncheonPileBunkerEmpire_0002" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_BFF_HonCheonPigTribeC_0005" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_BFF_HoncheonPigTribeC_0006" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_bff_HoncheonPigTribeC_0003" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_BFF_HoncheonPileBunkerEmpire_0003" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_BFF_HoncheonPileBunkerEmpire_0001" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:ME_SA_BFF_HoncheonPigTribeC_0001" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0068" looting="q_1404_1_icon" object2="npc:MH_SA_BFF_HonCheonBunTaJu_0001" quest-symbol-drop-prob="5" type="loot" />
+      <acquisition-loss item-1="Quest_Scroll_BackChung_0068" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1404_1" required-register-value="1">
+        <case object2="zoneenv2:e_chest_5500book_01" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500book_02" progress-mission="y" type="manipulate" />
+        <case mapunit-1="5500_e_chest_5500book_01" object2="zoneenv2:e_chest_5500book_03" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1404_2" required-register-value="1" reward-1="1404_final_set1" reward-2="1404_final_set2">
+        <case npc-response="qrsp_q_1404_2" object="npc:ch_sa_bff_murimmedic_0001_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

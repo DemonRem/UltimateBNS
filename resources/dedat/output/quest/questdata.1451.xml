@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1451.xml-->
+  <quest alias="q_epic_1451" broadcast-category="field" category="epic" completed-desc="q_1451_completed" completed-list="y" desc="q_1451_sum" grade="1" group2="QG_BaeCheongEpic" id="1451" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1451" save-type="all">
+    <acquisition level="1" recommended-level="50" sort-no="734" />
+    <mission-step guide-message="gm_1451_1" id="1">
+      <mission id="1" name2="Mission.Name2.1451_1" required-register-value="1" reset-teleport-recycle-time="y">
+        <case item="q_1451_1_icon" msg="q_1451_1" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1451_2" required-register-value="1">
+        <case npc-response="qrsp_1451_2" object="npc:CH_WC_PungEmpire_0003" progress-mission="y" type="talk" />
+        <case object="zone:zone_SnowCabin_room_P2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1451_4" required-register-value="1">
+        <case mapunit-1="M_5225_e_button_torch_01" object2="zoneenv2:e_button_torch_01" progress-mission="y" type="manipulate" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0011" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0010" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0009" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0008" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0007" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeongHaDo_0001" type="approach" />
+        <case npc-response="qrsp_1451_8" object="npc:CH_WC_PungEmpire_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1451_5" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0007" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeongHaDo_0001" type="approach" />
+        <case npc-response="qrsp_1451_3" object="npc:CH_WC_PungEmpire_0002" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0011" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0010" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0009" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0008" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1451_6" required-register-value="1">
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0007" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeongHaDo_0001" type="approach" />
+        <case npc-response="qrsp_1451_4" object="npc:CH_WC_PungEmpire_0002" type="approach" />
+        <case mapunit-1="M_Guide_4417_e1451" object="zone:zone_bc_youngrinchon_epic_4" progress-mission="y" type="enter-zone" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0011" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0010" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0009" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0008" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1451_7" required-register-value="1">
+        <case npc-response="qrsp_1451_5" object="npc:CH_WC_AngSiLeader_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_bc_youngrinchon_epic_4" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_BarbarianSpear_0001" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0004" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0003" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0002" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0001" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0012" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0011" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0010" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0009" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0008" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0007" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1451_8" required-register-value="1">
+        <case npc-response="qrsp_1451_6" object="npc:CE_WC_CrocodileSharkTribeAElder_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_BC_YoungRinBong_epic_4" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSiLeader_0002" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_BarbarianSpear_0001" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0004" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0003" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0002" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0001" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0012" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0011" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0010" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0009" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0008" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0007" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1451_9" required-register-value="1">
+        <case mapunit-1="M_4433_e_chest_orb_01" object="zone:Zone_ChunMyungJiWii_p1" progress-mission="y" type="enter-zone" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSiLeader_0002" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_BarbarianSpear_0001" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0004" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0003" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0002" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0001" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0012" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0011" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0010" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0009" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0008" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_AngSi_0007" type="approach" />
+        <case object="zone:zone_BC_YoungRinBong_epic_4" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1451_10" required-register-value="1">
+        <case mapunit-10="M_5161_footswitch_01_e1451" object2="zoneenv2:5161_footswitch_01" progress-mission="y" type="env-entered" />
+        <case object="zone:Zone_ChunMyungJiWii_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:zone_BC_YoungRinBong_epic_4" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1451_12" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1451_7" object="npc:CE_WC_CrocodileSharkTribeAElder_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_bc_youngrinbong_epic_4_2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1451_13" required-register-value="1">
+        <case object="zone:zone_bc_youngrinbong_epic_4_2" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="M_4434_e_Button_yongmakG_01" object2="zoneenv2:e_Button_yongmakG_01" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1452" />
+    </completion>
+    <transit id="1" zone="zone_YoungRinCHN">
+      <destination mission-step-id="13" zone-index="3" />
+      <destination mission-step-id="12" zone-index="3" />
+      <destination mission-step-id="11" zone-index="3" />
+      <destination mission-step-id="10" zone-index="3" />
+      <destination mission-step-id="9" zone-index="3" />
+      <destination mission-step-id="8" zone-index="3" />
+      <destination mission-step-id="7" zone-index="3" />
+      <destination mission-step-id="6" zone-index="3" />
+    </transit>
+    <transit id="2" zone="Zone_ChunMyungJiWii">
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+    </transit>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1451_3" required-register-value="1">
+        <case mapunit-1="M_5225_Foot_1" object2="zoneenv2:5225_footswitch_01" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0011" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0010" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0009" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0008" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeGukGun_0007" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_JeongHaDo_0001" type="approach" />
+        <case npc-response="qrsp_1451_1" object="npc:CH_WC_PungEmpire_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1451_14" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1451_final_set1">
+        <case npc-response="qrsp_1451_9" object="npc:CE_WC_CrocodileSharkTribeAElder_0003" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Teasang_Room_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="3" zone="Zone_Teasang_Room_D">
+      <destination mission-step-id="14" zone-index="1" />
+    </transit>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1451_11" required-register-value="1">
+        <case object="npc:CE_WC_Dummy_0002" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="10" />
+    </mission-step>
+    <transit id="4" zone="zone_SnowCabin_room_D">
+      <destination mission-step-id="2" zone-index="2" />
+    </transit>
+    <transit id="5" zone="zone_BC_YoungRinBong_epic_4">
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+    </transit>
+    <transit id="6" zone="zone_YoungRinCHN">
+      <destination mission-step-id="14" zone-index="4" />
+    </transit>
+    <transit id="7" zone="StartZone_Default">
+      <destination mission-step-id="1" zone-index="9" />
+      <destination mission-step-id="2" zone-index="9" />
+      <destination mission-step-id="3" zone-index="9" />
+      <destination mission-step-id="4" zone-index="9" />
+      <destination mission-step-id="5" zone-index="9" />
+      <destination mission-step-id="6" zone-index="9" />
+      <destination mission-step-id="7" zone-index="9" />
+      <destination mission-step-id="8" zone-index="9" />
+      <destination mission-step-id="9" zone-index="9" />
+      <destination mission-step-id="10" zone-index="9" />
+      <destination mission-step-id="11" zone-index="9" />
+      <destination mission-step-id="12" zone-index="9" />
+      <destination mission-step-id="13" zone-index="9" />
+      <destination mission-step-id="14" zone-index="9" />
+    </transit>
+  </quest>
+</table>

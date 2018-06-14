@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="skill-training-sequence" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skilltrainingsequencedata_shooter.xml-->
+
+  
+
+  
+  
+  <skill-training-sequence alias="PT_Fire_01_Sub_01_Seq" repeat-count="2">
+	  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="11" variation-id-2="51" />
+	  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="11" variation-id-2="51" />
+	  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Fire_01_Sub_02_Seq" repeat-count="2">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23220" variation-id-1="11" />
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23221" variation-id-1="11" />
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23222" variation-id-1="11" />
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23240" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Fire_01_Sub_03_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Fire_01_Sub_04_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="stun" variation-id-1="12" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Fire_01_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23011" skill-2="23014" skill-3="23015" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23050" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23440" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="PT_Fire_02_Sub_01_Seq" repeat-count="2">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="11" variation-id-2="51" />
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23090" skill-2="23090" variation-id-1="11" variation-id-2="51" />
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23070" skill-2="23070" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Fire_02_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23011" skill-2="23014" skill-3="23015" />
+    <step result-1="miss" result-count="1" result-event-type-1="attacked" result-event-type-2="attacked" sequence-step-type="skill" skill-1="23080" skill-2="23080" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="PT_Fire_02_Sub_03_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Fire_02_Sub_04_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="stun" variation-id-1="12" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Fire_02_Sub_05_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  
+  
+  <skill-training-sequence alias="PT_Fire_03_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="stun" variation-id-1="12" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23011" skill-2="23014" skill-3="23015" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23260" target-pass-state="midair-1" variation-id-1="11" />
+     <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23270" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23280" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Fire_03_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="skill" skill-1="23140" skill-2="23140" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="PT_Fire_04_Sub_01_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" include-inheritance-skill="n" sequence-step-type="skill" skill-1="23950" skill-2="23950" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+
+
+
+
+  
+
+  
+  
+  <skill-training-sequence alias="PT_Void_01_Sub_01_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_01_Sub_02_Seq" repeat-count="2">
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23240" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_01_Sub_03_Seq" repeat-count="2">
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23240" variation-id-1="21" />
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23220" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_01_Sub_04_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_01_Sub_05_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="stun" variation-id-1="22" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_01_Sub_06_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23011" skill-2="23014" skill-3="23015" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23050" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23440" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="PT_Void_02_Sub_01_Seq" repeat-count="2">
+	<step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23093" variation-id-1="21" />
+	<step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23094" variation-id-1="21" />
+ 	<step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23095" variation-id-1="21" />
+  	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23070" variation-id-1="21" />
+     	<step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+   	<step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+	<step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_02_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23031" skill-2="23031" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23011" skill-2="23014" skill-3="23015" />
+    <step result-1="miss" result-count="1" result-event-type-1="attacked" result-event-type-2="attacked" sequence-step-type="skill" skill-1="23080" skill-2="23080" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  
+  <skill-training-sequence alias="PT_Void_02_Sub_03_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_02_Sub_04_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="stun" variation-id-1="22" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_02_Sub_05_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="PT_Void_03_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23150" target-pass-state="stun" variation-id-1="22" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="23011" skill-2="23014" skill-3="23015" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23260" target-pass-state="midair-1" variation-id-1="21" />
+     <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23270" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="23280" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="PT_Void_03_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="skill" skill-1="23140" skill-2="23140" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="PT_Void_04_Sub_01_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" include-inheritance-skill="n" sequence-step-type="skill" skill-1="23950" skill-2="23950" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+</table>

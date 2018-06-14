@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1708.xml-->
+  <quest alias="q_sub_1708" category="job" desc="q_1708_sum" grade="1" group2="QG_HuekUmmRim" id="1708" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1708" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="격사" level="8" preceding-quest-1="q_epic_310" preceding-quest-2="q_sub_1707" preceding-quest-check="and" recommended-level="10" talk-to-self-guide-msg="Msg.Job.quest4">
+      <case acquire-quest="y" item="q_1229_1_icon" msg="q_1708_1" progress-mission="n" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1708_1" required-register-value="1">
+        <case npc-response="qrsp_1708_2" object="npc:MH_WA_Shooter_HwaJung_0004" progress-mission="y" type="talk" />
+        <case object="zone:zone_HuekUmmRim_ClassQ_4_C10" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step guide-message="gm_1708_1" guide-message-zone-1="zone_HuekUmmRim_ClassQ_4_C10" id="2">
+      <mission id="2" name2="Mission.Name2.1708_2" required-register-value="6">
+        <tutorial-case object2-1="npc:ME_WA_BelliedFrog_0008" progress-mission="y" skill-sequence="Shooter_Lv10_M11" type="skill-sequence" />
+        <case object="zone:zone_HuekUmmRim_ClassQ_4_C10" progress-mission="reaction-only" type="enter-zone" />
+        <tutorial-case object2-1="npc:ME_WA_BelliedFrog_0007" progress-mission="y" skill-sequence="Shooter_Lv10_M11" type="skill-sequence" />
+        <tutorial-case object2-1="npc:ME_WA_Shooter_BelliedFrog_0001" progress-mission="y" skill-sequence="Shooter_Lv10_M11" type="skill-sequence" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1708_3" required-register-value="1">
+        <fixed-reward slot-1="item:Quest_Grocery_BackChung_0041" />
+        <case npc-response="qrsp_1708_3" object="npc:ME_WA_Shooter_BelliedFrog_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_HuekUmmRim_ClassQ_4_C10" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1708_4" required-register-value="1" reward-1="1708_final_set1">
+        <case grocery="Quest_Grocery_BackChung_0041" npc-response="qrsp_1708_4" object="npc:MH_WA_Shooter_HwaJung_0004" progress-mission="y" required-item-1="Quest_Grocery_BackChung_0041" required-item-depot="bag" required-item-loss="y" type="talk" />
+        <case object="zone:zone_HuekUmmRim_ClassQ_4_C10" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_HuekUmmRim_ClassQ_4_SP">
+      <destination mission-step-id="4" zone-index="10" />
+      <destination mission-step-id="3" zone-index="10" />
+      <destination mission-step-id="2" zone-index="10" />
+      <destination mission-step-id="1" zone-index="10" />
+    </transit>
+  </quest>
+</table>

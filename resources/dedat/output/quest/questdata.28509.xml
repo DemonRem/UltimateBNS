@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28509.xml-->
+	<quest alias="tq_28509" category="tendency-tendency" id="28509" max-repeat="-1" name2="tq_28509_mission_text" save-type="except-completion-and-logout-save">
+		<mission-step id="1">
+			<mission id="1" name2="tq_28509_mission_text" required-attraction="tendency-field:Tendency_BuYuDo" tendency-id="1" variation-required-condition-type="faction-score" variation-required-condition-value-1="0" variation-required-field-play-point-1="0" variation-required-register-value-1="20" variation-reward-faction-score-1="36" variation-reward-field-play-point-1="243" variation-reward-tendency-score-1="243">
+				<case mapunit-1="T1_7000_SQ28509_ME_WC_UryongLeader_0002_1" mapunit-2="T1_7000_SQ28509_ME_WC_UryongLeader_0002_2" multi-object-1="npc:ME_WC_UryongLeader_0002" progress-mission="y" type="killed" />
+			</mission>
+		</mission-step>
+	</quest>
+</table>

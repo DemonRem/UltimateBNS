@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1364.xml-->
+  <quest alias="q_sub_1364" broadcast-category="field" category="normal" content-type="elite-skill" id="1364" max-repeat="1" name2="Quest.Name2.1364">
+    <acquisition />
+  </quest>
+</table>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1689.xml-->
+  <quest alias="q_sub_1689" broadcast-category="field" category="normal" completed-list="n" grade="1" group2="QG_BlackWindForest" id="1689" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1689" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1641" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1689_1" object="npc:MH_WA_Epic8_0081" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1689_2" required-register-value="5">
+        <case object2="zoneenv2:e_Chest_6501_fireherb_10" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6501_fireherb_09" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6501_fireherb_08" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6501_fireherb_07" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6501_fireherb_06" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6501_fireherb_05" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6501_fireherb_04" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6501_fireherb_03" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6501_fireherb_02" progress-mission="y" type="manipulate" />
+        <case mapunit-1="M_6501_e_Chest_6501_fireherb_1_10" object2="zoneenv2:e_Chest_6501_fireherb_1" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1689_3" required-register-value="1" reward-1="1689_final_set1">
+        <case npc-response="qrsp_1689_2" object="npc:MH_WA_Epic8_0081" progress-mission="y" type="talk" />
+        <case item="q_1689_1_icon" msg="q_1689_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

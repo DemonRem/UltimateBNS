@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1217.xml-->
+  <quest alias="q_epic_1217" broadcast-category="field" category="epic" completed-desc="q_1217_completed" completed-list="y" desc="q_1217_sum" grade="1" group2="QG_Toturial" id="1217" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.1217" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="소환사" level="1" recommended-level="3" sort-no="104" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1217_1" required-register-value="1" reward-1="1217_middle_set1">
+        <case npc-response="qrsp_1216_6" object="npc:CH_WA_YungMook_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Deafult" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1216_10" object="npc:CH_WA_HongSukKeun_0001" type="talk" />
+        <case npc-response="qrsp_1216_2" object="npc:CH_WA_MuSung_0001" type="talk" />
+        <case npc-response="qrsp_1216_1" object="npc:CH_WA_JinYoung_0001" type="talk" />
+        <case npc-response="qrsp_1216_5" object="npc:CH_WA_GilHong_0001" type="talk" />
+        <case npc-response="qrsp_1216_3" object="npc:CH_WA_HwaJoong_0001" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1217_2" required-register-value="1" reward-1="1217_final_set1">
+        <case mapunit-1="M_1150_CH_WA_MuSung_0001_e_1216_1" npc-response="qrsp_1216_7" object="npc:CH_WA_MuSung_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Deafult" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1215_5" object="npc:CH_WA_YungMook_0001" type="talk" />
+        <case npc-response="qrsp_1216_10" object="npc:CH_WA_HongSukKeun_0001" type="talk" />
+        <case npc-response="qrsp_1216_4" object="npc:CH_WA_JinYoung_0001" type="talk" />
+        <case npc-response="qrsp_1216_5" object="npc:CH_WA_GilHong_0001" type="talk" />
+        <case npc-response="qrsp_1216_3" object="npc:CH_WA_HwaJoong_0001" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1217_des_3" guide-message="gm_1216_1" id="3" use-auto-navigation="y">
+      <mission id="3" name2="Mission.Name2.1217_3" required-register-value="1">
+        <case object="zone:StartZone_Simple_Deafult" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="M_1150_footswitch_7" object="zone:StartZone_Simple_Cave" progress-mission="y" type="enter-zone" />
+        <case npc-response="qrsp_1216_4" object="npc:CH_WA_JinYoung_0001" type="talk" />
+        <case npc-response="qrsp_1215_5" object="npc:CH_WA_YungMook_0001" type="talk" />
+        <case npc-response="qrsp_1216_10" object="npc:CH_WA_HongSukKeun_0001" type="talk" />
+        <case npc-response="qrsp_1216_5" object="npc:CH_WA_GilHong_0001" type="talk" />
+        <case npc-response="qrsp_1216_3" object="npc:CH_WA_HwaJoong_0001" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1217_des_4" id="4">
+      <mission id="4" name2="Mission.Name2.1217_4" required-register-value="1" reward-1="1217_summon1_set1">
+        <case mapunit-1="M_1150_CH_WA_MuSung_0001_e_Quest1216_3" npc-response="qrsp_1217_3" object="npc:CH_WA_MuSung_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Cave" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1217_des_5" guide-message="gm_1217_1" id="5">
+      <mission id="5" name2="Mission.Name2.1217_5" required-register-value="1" reward-1="1217_summon2_set1">
+        <case object="zone:StartZone_Simple_Cave" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="M_1151_CE_Summoned_0001_e_Quest1217" npc-response="qrsp_1217_c1" object="npc:ce_summoned_0001" progress-mission="y" summoned-preset="Summoned_Cat_Preset_0001" type="acquire-summoned" />
+        <case mapunit-1="M_1151_CE_Summoned_0002_e_Quest1217" npc-response="qrsp_1217_c2" object="npc:ce_summoned_0002" progress-mission="y" summoned-preset="Summoned_Cat_Preset_0002" type="acquire-summoned" />
+        <case mapunit-1="M_1151_CE_Summoned_0003_e_Quest1217" npc-response="qrsp_1217_c3" object="npc:ce_summoned_0003" progress-mission="y" summoned-preset="Summoned_Cat_Preset_0003" type="acquire-summoned" />
+        <case mapunit-1="M_1151_CE_Summoned_0004_e_Quest1217" npc-response="qrsp_1217_c4" object="npc:ce_summoned_0004" progress-mission="y" summoned-preset="Summoned_Cat_Preset_0004" type="acquire-summoned" />
+        <case mapunit-1="M_1151_CE_Summoned_0005_e_Quest1217" npc-response="qrsp_1217_c5" object="npc:ce_summoned_0005" progress-mission="y" summoned-preset="Summoned_Cat_Preset_0005" type="acquire-summoned" />
+        <case npc-response="qrsp_1217_6" object="npc:CH_WA_MuSung_0001" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1217_des_6" id="6">
+      <mission id="6" name2="Mission.Name2.1217_6" required-register-value="1">
+        <case mapunit-1="M_1150_CH_WA_MuSung_0001_e_Quest1216_3" npc-response="qrsp_1217_4" object="npc:CH_WA_MuSung_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Cave" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1217_7" required-register-value="1">
+        <case mapunit-1="M_1150_CH_WA_MuSung_0001_e_Quest1216_4" npc-response="qrsp_1217_5" object="npc:CH_WA_MuSung_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Cave" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1218" />
+    </completion>
+  </quest>
+</table>

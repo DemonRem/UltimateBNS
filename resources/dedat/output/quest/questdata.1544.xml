@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1544.xml-->
+  <quest alias="q_epic_1544" broadcast-category="field" category="epic" completed-desc="q_1544_completed" completed-list="y" desc="q_1544_sum" grade="1" group2="QG_Tutorial_45LV" id="1544" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1544" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="기권사" level="1" recommended-level="45" sort-no="102" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1544_1" required-register-value="1">
+        <case npc-response="qrsp_1544_1" object="npc:CH_WC_YuRan3F_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step guide-message="gm_1544_1" id="2">
+      <mission id="2" name2="Mission.Name2.1544_2" required-register-value="3">
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0002" progress-mission="y" range-max="2" range-min="2" skill-sequence="SoulFighter_Lv45_M21" type="skill-sequence" />
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0002" progress-mission="y" range-max="1" range-min="1" skill-sequence="SoulFighter_Lv45_M21" type="skill-sequence" />
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0002" progress-mission="y" range-max="0" range-min="0" skill-sequence="SoulFighter_Lv45_M21" type="skill-sequence" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1544_3" required-register-value="1">
+        <case npc-response="qrsp_1544_3" object="npc:CH_WC_YuRan3F_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step guide-message="gm_1544_2" id="4">
+      <mission id="4" name2="Mission.Name2.1544_4" required-register-value="3">
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0001" progress-mission="y" range-max="2" range-min="2" skill-sequence="SoulFighter_Lv45_M22" type="skill-sequence" />
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0001" progress-mission="y" range-max="1" range-min="1" skill-sequence="SoulFighter_Lv45_M22" type="skill-sequence" />
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0001" progress-mission="y" range-max="0" range-min="0" skill-sequence="SoulFighter_Lv45_M22" type="skill-sequence" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1544_6" required-register-value="1">
+        <case npc-response="qrsp_1544_5" object="npc:CH_WC_YuRan3F_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1544_7" required-register-value="1">
+        <case object="npc:CH_WC_RangSisters_0001" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+        <case object="npc:CH_WC_RangSisters_0002" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1544_8" required-register-value="1" reward-1="1544_final_set1">
+        <case npc-response="qrsp_1544_6" object="npc:CH_WC_CheonJinGwon_0002" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest job-1="기권사" quest="q_epic_1547" />
+    </completion>
+    <mission-step guide-message="gm_1544_3" id="5">
+      <mission id="5" name2="Mission.Name2.1544_5" required-register-value="3">
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0001" progress-mission="y" range-max="2" range-min="2" skill-sequence="SoulFighter_Lv45_M23" type="skill-sequence" />
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0001" progress-mission="y" range-max="1" range-min="1" skill-sequence="SoulFighter_Lv45_M23" type="skill-sequence" />
+        <tutorial-case object2-1="npc:CH_WC_RangSisters_0001" progress-mission="y" range-max="0" range-min="0" skill-sequence="SoulFighter_Lv45_M23" type="skill-sequence" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

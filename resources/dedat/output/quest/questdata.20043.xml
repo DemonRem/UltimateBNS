@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.20043.xml-->
+  <quest activated-faction="factionmain1" alias="q_sub_20043" broadcast-category="field" category="normal" day-of-week="none" desc="q_20043_sum" grade="1" group2="QG_BaramCenter" id="20043" main-faction="factionmain1" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.20043" reset-type="none" save-type="except-completion">
+    <acquisition faction="factionmain1" level="43" preceding-quest-check="and" recommended-level="46">
+      <case acquire-quest="y" fielditem="Q_MurimInjured_0001" type="pick-up-fielditem" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.20043_1" required-register-value="1" reward-1="20043_final_set1">
+        <case gadget="q_muriminjured_0001" gadget-required="carry-and-remove" npc-response="qrsp_q_20043_2" object="npc:ch_sa_bff_murimmedic_0001_0001" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail dispose-quest="y" />
+    </mission-step>
+  </quest>
+</table>

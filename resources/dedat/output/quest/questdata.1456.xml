@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1456.xml-->
+  <quest alias="q_epic_1456" broadcast-category="field" category="epic" completed-desc="q_1456_completed" completed-list="y" desc="q_1456_sum" grade="1" group2="QG_BaeCheongEpic" id="1456" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1456" save-type="all">
+    <acquisition level="1" recommended-level="50" sort-no="733" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1456_1" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0012" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0011" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0010" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0009" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_lieutenant_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_general_0007" type="approach" />
+        <case npc-response="qrsp_1456_1" object="npc:CH_SA_PungEmpire_0031" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1456_3" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0005" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0004" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0002" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0012" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0011" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0010" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0009" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_lieutenant_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_general_0007" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_PungEmpire_0031" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_JeongHaDo_0008" type="approach" />
+        <case npc-response="qrsp_1456_3" object="npc:CH_WC_PungEmpire_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0006" type="approach" />
+        <case object="zone:zone_SnowCabin_room_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1456_4" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0006" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0005" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0004" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0002" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0012" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0011" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0010" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0009" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_lieutenant_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_general_0007" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_PungEmpire_0031" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_JeongHaDo_0008" type="approach" />
+        <case npc-response="qrsp_1456_16" object="npc:CH_WC_PungEmpire_0001" type="approach" />
+        <case indicator="quest-epic-can-progress" looting="q_1456_2_icon" mapunit-1="M_5240_e_chest_letter_01" object2="zoneenv2:e_chest_letter_01" progress-mission="y" type="loot" />
+        <case object="zone:zone_SnowCabin_room_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1456_5" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0005" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0004" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0002" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0012" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0011" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0010" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0009" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_lieutenant_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_general_0007" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_PungEmpire_0031" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_JeongHaDo_0008" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_PungEmpire_0001" type="approach" />
+        <case npc-response="qrsp_1456_4" object="npc:CH_WC_JeGukGun_0006" progress-mission="y" type="talk" />
+        <case object="zone:zone_SnowCabin_room_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1456_6" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0012" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0011" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0010" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0009" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_lieutenant_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_general_0007" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_PungEmpire_0031" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_JeongHaDo_0008" type="approach" />
+        <case npc-response="qrsp_1456_5" object="npc:CH_WC_PungEmpire_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0006" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0005" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0004" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1456_7" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0012" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0011" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0010" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0009" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_lieutenant_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_general_0007" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_PungEmpire_0031" type="approach" />
+        <case npc-response="qrsp_1456_15" object="npc:CH_WC_PungEmpire_0001" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_JeongHaDo_0008" type="approach" />
+        <case mapunit-1="M_Guide_2010_e1456" object="zone:zone_ChRyoungCHN" progress-mission="y" type="enter-zone" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0006" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0005" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0004" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1456_8" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_Citizen_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_Citizen_0002" type="approach" />
+        <case npc-response="qrsp_1456_6" object="npc:CH_WC_Citizen_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1456_9" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_Citizen_0001" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_Citizen_0003" type="approach" />
+        <case npc-response="qrsp_1456_7" object="npc:CH_WC_Citizen_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1456_10" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_Citizen_0001" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_Citizen_0003" type="approach" />
+        <case npc-response="qrsp_1456_8" object="npc:CH_WC_Citizen_0002" type="approach" />
+        <case npc-response="qrsp_1456_2" object="npc:CH_AnDuMae_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1456_11" required-register-value="1">
+        <case button-text-accept="q_1456_9_ok" button-text-cancel="q_1456_9_no" indicator="quest-epic-can-progress" npc-response="qrsp_1456_9" object="npc:CH_AnDuMae_0001" progress-mission="reaction-only" type="talk" />
+        <case npc-response="qrsp_1456_10" object="npc:CH_CT_JaKyungDan_0023" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1456_12" required-register-value="1">
+        <case mapunit-1="M_Guide_1201_e1456" object="zone:startzone_event_hong" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1456_13" required-register-value="1">
+        <case npc-response="qrsp_1456_11" object="npc:CH_WC_Citizen_0004" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="12" />
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1456_14" required-register-value="1">
+        <case button-text-accept="q_1456_12_ok" button-text-cancel="q_1456_12_no" gadget-required="empty" indicator="quest-epic-can-progress" npc-response="qrsp_1456_12" object="npc:CH_WC_Citizen_0005" progress-mission="reaction-only" type="talk" />
+        <case gadget="Q_FoodDish_0003" gadget-required="carry-and-remove" mapunit-1="M_1201_e_chest_foodtable1_01" object2="zoneenv2:e_chest_foodtable1_01" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="12" />
+    </mission-step>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1456_15" required-register-value="1">
+        <case object="zone:StartZone_Event_Hong" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="npc:CH_CT_Dummy_0012" progress-mission="y" social="talksocial_deepbow" type="pc-social" />
+        <case object2="npc:CH_CT_Dummy_0012" progress-mission="y" social="talksocial_bow1" type="pc-social" />
+      </mission>
+    </mission-step>
+    <mission-step id="16">
+      <mission id="16" name2="Mission.Name2.1456_16" required-register-value="1" reward-1="1456_final_set1">
+        <case npc-response="qrsp_1456_13" object="npc:CH_CT_JaKyungDan_0023" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1451" />
+    </completion>
+    <transit id="1" zone="zone_SnowCabin_room_D">
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+    </transit>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1456_2" required-register-value="1">
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0005" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0004" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0002" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0012" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0011" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0010" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_BuckBangSoldier_0009" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_lieutenant_0003" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_general_0007" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_PungEmpire_0031" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_SA_JeongHaDo_0008" type="approach" />
+        <case npc-response="qrsp_1456_14" object="npc:CH_WC_PungEmpire_0001" type="approach" />
+        <case object="zone:zone_SnowCabin_room_P1" progress-mission="y" type="enter-zone" />
+        <case mapunit-10="M_5240_Guide_e1456" npc-response="qrsp_1456_14" object="npc:CH_WC_JeGukGun_0006" type="approach" />
+      </mission>
+    </mission-step>
+    <transit id="2" zone="StartZone_Default">
+      <destination mission-step-id="11" zone-index="9" />
+      <destination mission-step-id="12" zone-index="9" />
+      <destination mission-step-id="13" zone-index="9" />
+      <destination mission-step-id="14" zone-index="9" />
+      <destination mission-step-id="15" zone-index="9" />
+      <destination mission-step-id="16" zone-index="9" />
+    </transit>
+  </quest>
+</table>

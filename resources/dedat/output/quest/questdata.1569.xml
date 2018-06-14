@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1569.xml-->
+  <quest alias="q_sub_1569" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1569_sum" grade="1" group2="QG_GeonwonEast" id="1569" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1569" reset-by-acquire-time="daily" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1514" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1569_1" object="npc:ch_sb_geonwon_0167" type="talk" />
+      <case acquire-quest="y" completion-count="1" npc-response="qrsp_1569_3" object="npc:ch_sb_geonwon_0167" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1569_1" required-register-value="8">
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_01" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_02" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_03" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_04" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_05" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_06" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_07" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_08" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" object2="zoneenv2:e_chest_6170_cornel_09" progress-mission="y" type="loot" />
+        <case looting="q_1569_1_icon" mapunit-1="6170_e_chest_6170_cornel_10" object2="zoneenv2:e_chest_6170_cornel_10" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1569_2" required-register-value="1" reward-1="1569_final_set1" reward-2="1569_final_set2">
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1569_2" object="npc:ch_sb_geonwon_0167" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1569_2_icon" msg="q_1569_3" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" npc-response="qrsp_1569_4" object="npc:ch_sb_geonwon_0167" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

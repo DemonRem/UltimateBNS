@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1061.xml-->
+  <quest alias="q_sub_1061" attraction-1="classic-field-zone:HuekChang_Classic" attraction-info="classic-field-zone:HuekChang_Classic" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1061_sum" grade="1" group2="QG_ZamsikHeukChng" id="1061" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.1061" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1449" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1061_1" object="npc:CE_WB_AkGyoJok_0010" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1061_1" required-register-value="10">
+        <case object2="npc:ME_WB_DarkCrazyTribeBigA_0004" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WB_DarkCrazyTribeBigB_0003" progress-mission="y" type="killed" />
+        <case mapunit-1="6000_ME_WB_DarkCrazyTribeA_0003_1_1" mapunit-2="6000_ME_WB_DarkCrazyTribeA_0003_2_1" mapunit-3="6000_ME_WB_DarkCrazyTribeA_0003_5_1" mapunit-4="6000_ME_WB_DarkCrazyTribeA_0003_6_1" mapunit-5="6000_ME_WB_DarkCrazyTribeA_0003_7_1" mapunit-6="Guide_Quest_HuekChang_CL_00_1" object2="npc:ME_WB_DarkCrazyTribeBigA_0002" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WB_DarkCrazyTribeBigB_0002" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WB_DarkCrazyTribeCLeader_0005" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WB_DarkCrazyTribeC_0004" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WB_DarkCrazyTribeCLeader_0002" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WB_DarkCrazyTribeC_0003" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1061_2" required-register-value="1" reward-1="1061_final_set1" reward-2="1061_final_set2">
+        <case fee="y" item="q_1061_1_icon" msg="q_1061_3" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1061_2" object="npc:CE_WB_AkGyoJok_0010" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

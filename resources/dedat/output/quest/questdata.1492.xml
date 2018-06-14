@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1492.xml-->
+  <quest alias="q_sub_1492" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1492_sum" grade="1" group2="QG_PaCheonSeongDo" id="1492" map-group-1-1="PaCheonSeongDo" max-repeat="1" name2="Quest.Name2.1492" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1294" preceding-quest-2="q_sub_1372" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" npc-response="grsp_1492_1" object="npc:CH_WC_HoBeopoe_0030" progress-mission="y" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1492_1" required-register-value="20" reset-teleport-recycle-time="y">
+        <case mapunit-10="4460_HockRyuGo_Kill_1492_1" mapunit-2="4460_HockRyuGo_Kill_1492_2" mapunit-3="4460_HockRyuGo_Kill_1492_3" mapunit-4="4460_HockRyuGo_Kill_1492_4" object2="npc:MH_WC_RaidArea2_0048" progress-mission="y" type="killed" />
+        <case object2="npc:MH_WC_RaidArea2_0049" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WC_DemonShadow_0068" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WC_DemonShadow_0072" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WC_DemonShadow_0071" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WC_DemonShadow_0070" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WC_DemonShadow_0069" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WC_NightWindPlain_Boss_Mid_0001" progress-mission="y" type="killed" />
+        <case object2="npc:ME_WC_DemonBoneMaskBig_0003" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1492_2" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1492_final_set1" reward-2="1492_final_set2">
+        <case npc-response="grsp_1492_2" object="npc:CH_WC_HoBeopoe_0030" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1492_1_icon" msg="q_1492_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

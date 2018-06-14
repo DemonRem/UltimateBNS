@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1454.xml-->
+  <quest alias="q_epic_1454" broadcast-category="field" category="epic" completed-desc="q_1454_completed" completed-list="y" desc="q_1454_sum" grade="1" group2="QG_BaeCheongEpic" id="1454" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1454" save-type="all">
+    <acquisition level="1" recommended-level="50" sort-no="737" />
+    <mission-step desc="q_1454_des_1" id="1">
+      <mission id="1" name2="Mission.Name2.1454_1" required-register-value="1">
+        <case button-text-accept="q_1454_3_ok" button-text-cancel="q_1454_3_no" indicator="quest-epic-can-progress" npc-response="qrsp_1454_3" object="npc:CH_WC_BackDoHa_0001" progress-mission="reaction-only" type="talk" />
+        <case mapunit-10="M_5768_e_chest_epic_5768_01" mapunit-2="M_5164_TeleportSwitch_01" object="zone:Zone_ChunMyungJiWii_p2" progress-mission="y" type="enter-zone" />
+        <case npc-response="qrsp_1454_18" object="npc:CE_WC_CrocodileSharkTribeAElder_0006" type="approach" />
+        <case object="zone:zone_chunmyungjiwii_lobby" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1454_2" required-register-value="1">
+        <case npc-response="qrsp_1454_4" object="npc:MH_WC_DoDanHa_0002" progress-mission="y" type="talk" />
+        <case button-text-accept="q_1454_3_ok" button-text-cancel="q_1454_3_no" indicator="quest-epic-can-progress" npc-response="qrsp_1454_3" object="npc:CH_WC_BackDoHa_0001" progress-mission="reaction-only" type="talk" />
+        <case object="zone:zone_chunmyungjiwii_lobby" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1454_3" required-register-value="1" reset-teleport-recycle-time="y">
+        <case object="npc:MH_WC_DoCheonPung_0002" progress-mission="y" type="approach" />
+        <case button-text-accept="q_1454_3_ok" button-text-cancel="q_1454_3_no" indicator="quest-epic-can-progress" npc-response="qrsp_1454_3" object="npc:CH_WC_BackDoHa_0001" progress-mission="reaction-only" type="talk" />
+        <case object="zone:zone_chunmyungjiwii_lobby" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1454_4" required-register-value="1">
+        <case npc-response="qrsp_1454_5" object="npc:CH_WC_DoCheonPung_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1454_6" object="npc:CH_WC_GunMaYeom_0002" type="approach" />
+        <case npc-response="qrsp_1454_7" object="npc:CH_WC_GunMaHye_0006" type="approach" />
+        <case npc-response="qrsp_1454_8" object="npc:CH_WC_JeongHaDo_0008" type="approach" />
+        <case npc-response="qrsp_1454_9" object="npc:CH_WC_YeHaRang_0001" type="approach" />
+        <case npc-response="qrsp_1454_10" object="npc:CH_WC_JinSoA_0001" type="approach" />
+        <case npc-response="qrsp_1454_11" object="npc:CH_WC_DangYeoWeol_0001" type="approach" />
+        <case npc-response="qrsp_1454_12" object="npc:CH_WC_SoYangSang_0001" type="approach" />
+        <case npc-response="qrsp_1454_13" object="npc:CH_WC_DoDanHa_0001" type="approach" />
+        <case npc-response="qrsp_1454_14" object="npc:CH_WC_GoBong_0001" type="approach" />
+        <case npc-response="qrsp_1454_15" object="npc:CH_WC_YuCheon_0001" type="approach" />
+        <case npc-response="qrsp_1454_16" object="npc:CH_WC_Jwajanggun_0001" type="approach" />
+        <case object="zone:Zone_Dun_ChunMyungJiWii_S" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5" retired="y">
+      <mission id="5" name2="Mission.Name2.1454_5" required-register-value="1">
+        <case object="zone:Zone_Dun_ChunMyungJiWii_S" progress-mission="y" type="enter-zone" />
+        <case npc-response="qrsp_1454_6" object="npc:CH_WC_GunMaYeom_0002" type="approach" />
+        <case npc-response="qrsp_1454_7" object="npc:CH_WC_GunMaHye_0006" type="approach" />
+        <case npc-response="qrsp_1454_8" object="npc:CH_WC_JeongHaDo_0008" type="approach" />
+        <case npc-response="qrsp_1454_9" object="npc:CH_WC_YeHaRang_0001" type="approach" />
+        <case npc-response="qrsp_1454_10" object="npc:CH_WC_JinSoA_0001" type="approach" />
+        <case npc-response="qrsp_1454_11" object="npc:CH_WC_DangYeoWeol_0001" type="approach" />
+        <case npc-response="qrsp_1454_12" object="npc:CH_WC_SoYangSang_0001" type="approach" />
+        <case npc-response="qrsp_1454_13" object="npc:CH_WC_DoDanHa_0001" type="approach" />
+        <case npc-response="qrsp_1454_14" object="npc:CH_WC_GoBong_0001" type="approach" />
+        <case npc-response="qrsp_1454_15" object="npc:CH_WC_YuCheon_0001" type="approach" />
+        <case npc-response="qrsp_1454_16" object="npc:CH_WC_Jwajanggun_0001" type="approach" />
+        <case npc-response="qrsp_1454_17" object="npc:CH_WC_DoCheonPung_0001" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1454_6" required-register-value="1" reset-teleport-recycle-time="y">
+        <case object2="npc:ME_CT_JinSeoYeonM_0001" progress-mission="y" type="killed" />
+        <case npc-response="qrsp_1454_6" object="npc:CH_WC_GunMaYeom_0002" type="approach" />
+        <case npc-response="qrsp_1454_7" object="npc:CH_WC_GunMaHye_0006" type="approach" />
+        <case npc-response="qrsp_1454_8" object="npc:CH_WC_JeongHaDo_0008" type="approach" />
+        <case npc-response="qrsp_1454_9" object="npc:CH_WC_YeHaRang_0001" type="approach" />
+        <case npc-response="qrsp_1454_10" object="npc:CH_WC_JinSoA_0001" type="approach" />
+        <case npc-response="qrsp_1454_11" object="npc:CH_WC_DangYeoWeol_0001" type="approach" />
+        <case npc-response="qrsp_1454_12" object="npc:CH_WC_SoYangSang_0001" type="approach" />
+        <case npc-response="qrsp_1454_13" object="npc:CH_WC_DoDanHa_0001" type="approach" />
+        <case npc-response="qrsp_1454_14" object="npc:CH_WC_GoBong_0001" type="approach" />
+        <case npc-response="qrsp_1454_15" object="npc:CH_WC_YuCheon_0001" type="approach" />
+        <case npc-response="qrsp_1454_16" object="npc:CH_WC_Jwajanggun_0001" type="approach" />
+        <case object2="npc:ME_WC_JinSeoYeonM_0001" progress-mission="y" type="killed" />
+        <case button-text-accept="q_1454_7_ok" button-text-cancel="q_1454_7_no" indicator="default" npc-response="qrsp_1454_19" object="npc:CH_WC_DoCheonPung_0001" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="7" retired="y">
+      <mission id="7" name2="Mission.Name2.1454_7" required-register-value="1" reset-teleport-recycle-time="y">
+        <case object="zone:Zone_ChunMyungJiWii_lobby" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step guide-message="gm_1454_1" id="8">
+      <mission id="8" name2="Mission.Name2.1454_8" required-register-value="1" reset-teleport-recycle-time="n">
+        <case item="q_1454_1_icon" msg="q_1454_1" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1454_9" required-register-value="1" reset-teleport-recycle-time="y">
+        <case mapunit-1="M_1250_Guide_e1454" object="zone:StartZone_Ending" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1454_10" required-register-value="1" reward-1="1454_final_set1">
+        <case npc-response="qrsp_1454_2" object="npc:CH_CT_JinYoung_0005" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Ending" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1455" />
+    </completion>
+    <transit id="1" zone="Zone_Teasang_Room_D">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+    </transit>
+    <transit id="2" zone="zone_YoungRinCHN">
+      <destination mission-step-id="1" zone-index="4" />
+      <destination mission-step-id="2" zone-index="4" />
+      <destination mission-step-id="3" zone-index="4" />
+    </transit>
+    <transit id="3" zone="Zone_Gunre2_Dark">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+    </transit>
+    <transit id="4" zone="Zone_ChunMyungJiWii">
+      <destination mission-step-id="1" zone-index="2" />
+      <destination mission-step-id="2" zone-index="2" />
+      <destination mission-step-id="3" zone-index="2" />
+    </transit>
+    <transit id="5" zone="StartZone_Default">
+      <destination mission-step-id="1" zone-index="9" />
+      <destination mission-step-id="2" zone-index="9" />
+      <destination mission-step-id="3" zone-index="9" />
+      <destination mission-step-id="4" zone-index="9" />
+      <destination mission-step-id="5" zone-index="9" />
+      <destination mission-step-id="6" zone-index="9" />
+      <destination mission-step-id="7" zone-index="9" />
+      <destination mission-step-id="8" zone-index="9" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+    </transit>
+    <transit id="6" zone="Zone_ChunMyungJiWii">
+      <destination mission-step-id="4" zone-index="3" />
+      <destination mission-step-id="5" zone-index="3" />
+      <destination mission-step-id="6" zone-index="3" />
+      <destination mission-step-id="7" zone-index="3" />
+      <destination mission-step-id="8" zone-index="3" />
+      <destination mission-step-id="9" zone-index="3" />
+      <destination mission-step-id="10" zone-index="3" />
+    </transit>
+    <transit id="7" zone="Zone_ChunMyungJiWii">
+      <complete zone-index="3" />
+    </transit>
+  </quest>
+</table>

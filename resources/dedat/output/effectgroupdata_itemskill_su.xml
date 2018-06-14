@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
+  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_su.xml-->
+	<record alias="ItemSkill_SU_DandelionSeed_S2_Lv1_01_E1" effect-1="ItemSkill_SU_DandelionSeed_Counter_S2_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_DandelionSeed_S2_Lv1_02_E1" effect-1="ItemSkill_SU_DandelionSeed_Counter_S2_Lv1_02" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Friendship_S1_Lv1_01_E1" effect-1="ItemSkill_SU_Friendship_S1_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Friendship_S3_Lv1_01_E1" effect-1="ItemSkill_SU_Friendship_S3_Lv1_01_IRR10" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Thornbus_S4_Lv1_01_E1" effect-1="ItemSkill_SU_Thornbus_S4_Lv1_01_MCT7" effect-2="ItemSkill_SU_Thornbus_S4_Lv1_01_MCT3" effect-3="ItemSkill_SU_Thornbus_S4_Lv1_01_MCT6" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_DanceAttack_S5_Lv1_01_E1" effect-1="ItemSkill_SU_DanceAttack_S5_Lv1_01_IRR7" effect-2="ItemSkill_SU_DanceAttack_S5_Lv1_01_IRR3" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Ivy_S6_Lv1_01_E1" effect-1="ItemSkill_SU_Ivy_S6_Lv1_01_MCT11" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Ivy_B1_Lv1_01_E1" effect-1="ItemSkill_SU_Ivy_B1_Lv1_01_MCT31" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Ivy_B1_Lv1_02_E1" effect-1="ItemSkill_SU_Ivy_B1_Lv1_Dmg1" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_Ivy_B1_Lv1_03_E1" effect-1="ItemSkill_SU_Ivy_B1_Lv1_Dmg2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_MorningGrory_B2_Lv1_01_E1" effect-1="ItemSkill_SU_MorningGrory_B2_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_MorningGrory_B2_Lv1_02_E1" effect-1="ItemSkill_SU_MorningGrory_B2_Lv1_Dmg1" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_MorningGrory_B2_Lv1_03_E1" effect-1="ItemSkill_SU_MorningGrory_B2_Lv1_Dmg2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_ThornVine_B3_Lv1_01_E1" effect-1="ItemSkill_SU_ThornVine_B3_Lv1_01_MCT21" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_ThornVine_B3_Lv1_01_E2" effect-1="ItemSkill_SU_ThornVine_B3_Lv1_01_SpHeal" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_DandelionSeed_Defend_B4_Lv1_01_E1" effect-1="ItemSkill_SU_DandelionSeed_Defend_B4_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_DandelionSeed_Defend_B4_Lv1_01_E2" effect-1="ItemSkill_SU_DandelionSeed_Defend_B4_Lv1_01" skill-result="all" target="first-second-target" target-state="my-party" />
+	<record alias="ItemSkill_SU_DandelionSeed_B4_Lv1_01_E1" effect-1="ItemSkill_SU_DandelionSeed_Counter_B4_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_DandelionSeed_B4_Lv1_02_E1" effect-1="ItemSkill_SU_DandelionSeed_Counter_B4_Lv1_02" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Pollen_LB1_Lv1_02_E1" effect-1="ItemSkill_SU_Pollen_LB1_Lv1_02" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_Thornbus_LB1_Lv1_02_E1" effect-1="Summoner_Summon_EarthFlower_Lv1_Buff_minus" effect-2="Summoner_Summon_EarthFlower_Lv1_Recycle_Init" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Thornbus_LB1_Lv1_02_E2" effect-1="ItemSkill_SU_Thornbus_LB1_Lv1_02" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_MorningGrory_S7_Lv1_01_E1" effect-1="ItemSkill_SU_MorningGrory_S7_Lv1_01_IRR12" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_ThornVine_S8_Lv1_01_E1" effect-1="ItemSkill_SU_ThornVine_S8_Lv1_01_Stack_IRR" skill-result="all" target="caster" target-state="all" target-state-first-filter="60295" />
+	<record alias="ItemSkill_SU_ThornVine_S8_Lv1_01_E2" effect-1="ItemSkill_SU_ThornVine_S8_Lv1_01_Stack" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Thornbus_S8_Lv1_01_E1" effect-1="ItemSkill_SU_Thornbus_S8_Lv1_01_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_Hornet_S8_Lv1_01_E1" effect-1="ItemSkill_SU_Thornbus_S8_Lv1_01_IRR12" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Hornet_S8_Lv1_02_E1" effect-1="ItemSkill_SU_Thornbus_S8_Lv1_01_IRR12" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_BigSunflower_S8_Lv1_01_E1" effect-1="ItemSkill_SU_Thornbus_S8_Lv1_01_IRR12" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_BigSunflower_S8_Lv1_02_E1" effect-1="ItemSkill_SU_Thornbus_S8_Lv1_01_IRR12" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Pollen_S9_Lv1_01_E1" effect-1="ItemSkill_SU_Pollen_S9_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Pollen_S9_Lv1_02_E1" effect-1="ItemSkill_SU_Pollen_S9_Lv1_02_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Sunflower_S10_Lv1_01_E1" effect-1="ItemSkill_SU_Sunflower_S10_Lv1_01_Stack" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Ivy_S11_Lv1_01_E1" effect-1="ItemSkill_SU_Ivy_S11_Lv1_01_Drain_Wind" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_Ivy_S11_Lv1_02_E1" effect-1="ItemSkill_SU_Ivy_S11_Lv1_01_Drain_Earth" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_Ivy_S11_Lv1_01_E2" effect-1="Summoner_Summon_ThornVine_DOT_Lv2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_Ivy_S11_Lv1_02_E2" effect-1="Summoner_Summon_ThornVine_DOT_Lv2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_Foxtail_S12_Lv1_01_E1" effect-1="ItemSkill_SU_Foxtail_S12_Lv1_01_Heal" skill-result="all" target="first-target" target-state="my-party" target-state-first-filter="50042" target-state-second-filter="50046" />
+	<record alias="ItemSkill_SU_Foxtail_S12_Lv1_01_E2" effect-1="ItemSkill_SU_Foxtail_S12_Lv1_01_Buff" skill-result="all" target="first-target" target-state="my-party" target-state-first-filter="50042" />
+	<record alias="ItemSkill_SU_Hornet_S13_Lv1_01_E1" effect-1="ItemSkill_SU_Hornet_S13_Lv1_01_MCT8_2s" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Hornet_S13_Lv1_02_E1" effect-1="ItemSkill_SU_Hornet_S13_Lv1_01_MCT8_1s" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_Sunflower_S14_Lv1_01_E1" effect-1="ItemSkill_SU_Sunflower_S14_Lv1_01_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+</table>

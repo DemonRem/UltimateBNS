@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1677.xml-->
+  <quest alias="q_sub_1677" category="normal" completed-list="n" desc="q_1677_sum" grade="1" group2="QG_SilenceForest" id="1677" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1677" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1653" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1677_1" object="npc:ch_sb_woodman_0008" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1677_1" required-register-value="5">
+        <case object2="npc:me_sb_woodman_0009" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_woodman_0008" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_woodman_0007" progress-mission="y" type="killed" />
+        <case mapunit-1="6531_me_sb_woodman_0008_s1677" object2="npc:me_sb_woodman_0006" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1677_2" required-register-value="1" reward-1="1677_final_set1">
+        <case npc-response="qrsp_1677_2" object="npc:ch_sb_woodman_0008" progress-mission="y" type="talk" />
+        <case item="q_1677_1_icon" msg="q_1677_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1295.xml-->
+  <quest alias="q_sub_1295" attraction-info="raid-dungeon:raid_PaCheonSeongDo" category="normal" completed-desc="q_1295_completed" completed-list="n" content-type="side-episode" desc="q_1295_sum" grade="22" group2="QG_PaCheonSeongDo" id="1295" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1295" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1294" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1295_15" object="npc:CH_WC_YooJung_0005" progress-mission="y" type="talk" />
+      <case acquire-quest="y" npc-response="qrsp_1295_15" object="npc:CH_WC_YooJung_0002" progress-mission="y" type="talk" />
+      <case acquire-quest="y" item="q_1295_1_icon" msg="q_1295_13" progress-mission="y" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1295_1" required-register-value="1" reset-teleport-recycle-time="y">
+        <case object2="npc:ME_WC_PaCheonBoss_0004" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1295_2" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1295_12" object="npc:CH_WC_YooJung_0002" progress-mission="y" type="talk" />
+        <case object="zone:Zone_PaCheon_Single_2_p2" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1295_3" required-register-value="1">
+        <case mapunit-10="4463_foot_01" object2="zoneenv2:4463_foot_01" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1295_17" object="npc:CH_WC_YooJung_0002" type="approach" />
+        <case object="zone:Zone_PaCheon_Single_2_p2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1295_4" required-register-value="1">
+        <case npc-response="qrsp_1295_5" object="npc:CH_WC_MooSung_0003" progress-mission="y" type="npc-manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1295_5" required-register-value="1">
+        <case npc-response="qrsp_1295_13" object="npc:CH_WC_YooJung_0004" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1295_14" object="npc:CH_WC_MooSung_0006" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1295_6" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1295_final_set1">
+        <case npc-response="qrsp_1295_3" object="npc:CH_WC_MooSung_0006" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1295_7" object="npc:CH_WC_YooJung_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+  </quest>
+</table>

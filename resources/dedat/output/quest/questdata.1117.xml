@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1117.xml-->
+  <quest alias="q_sub_1117" attraction-1="dungeon:dungeon_takmagul" attraction-info="dungeon:Dungeon_TakMaGul" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1117_sum" grade="9" group2="QG_BaramNorth" id="1117" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1117" reset-type="daily" save-type="all">
+    <acquisition level="45" preceding-quest-1="q_epic_928" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="46">
+      <case acquire-quest="y" grocery="Quest_Scroll_BackChung_0080" item="Quest_Scroll_BackChung_0080" msg="q_1117_1" required-item-1="Quest_Scroll_BackChung_0080" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_NokLimDo_0091" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_NokLimDo_0081" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_NokLimDo_0057" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_NokLimDo_0016" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_BelliedFrog_0015" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_BelliedFrog_0011" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_BelliedFrog_0002" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_BelliedFireFrog_0004" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_BelliedFireFrog_0003" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_BelliedFireFrog_0002" quest-symbol-drop-prob="8" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0080" looting="q_1117_1_icon" object2="npc:ME_SA_BelliedFireFrog_0001" quest-symbol-drop-prob="8" type="loot" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1117_1" required-register-value="1">
+        <case npc-response="qrsp_1117_4" object="npc:CH_SA_BaramContents_0009" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1117_2" required-register-value="1">
+        <case object2="npc:ME_CT_KangSiFat_0002" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1117_3" required-register-value="1" reward-1="1117_final_set1" reward-2="1117_final_set2">
+        <case fee="y" item="q_1117_2_icon" msg="q_1117_3" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1117_2" object="npc:CH_SA_BaramContents_0009" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

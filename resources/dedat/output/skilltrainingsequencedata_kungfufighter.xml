@@ -1,0 +1,417 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="skill-training-sequence" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skilltrainingsequencedata_kungfufighter.xml-->
+
+  
+
+  
+  
+  <skill-training-sequence alias="KF_Wind_01_Sub_01_Seq" repeat-count="2">
+	  <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="KF_Wind_01_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21106" target-pass-state="down" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_01_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="stun" type="skill" variation-id-1="12" variation-id-2="52" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_01_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="kneel" type="skill" variation-id-1="13" variation-id-2="53" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_01_Sub_05_Seq" repeat-count="2">
+    <step effect="KungfuMaster3_Attack_AreaAttack_Lv1_Immune" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="21055" skill-2="21055" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  
+  <skill-training-sequence alias="KF_Wind_01_Sub_06_Seq" repeat-count="2">
+    <step effect="KungfuMaster3_Attack_Commandskill_Lv1_Immune_R3" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="21201" variation-id-1="11" />
+    <step effect="KungfuMaster3_Attack_Commandskill_Lv1_Immune_R3" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="21200" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+
+  
+  
+  <skill-training-sequence alias="KF_Wind_02_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  
+  <skill-training-sequence alias="KF_Wind_02_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21070" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  
+  <skill-training-sequence alias="KF_Wind_02_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+ 
+  
+  <skill-training-sequence alias="KF_Wind_02_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21106" target-pass-state="down" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_02_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="stun" type="skill" variation-id-1="12" variation-id-2="52" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_02_Sub_06_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="kneel" type="skill" variation-id-1="13" variation-id-2="53" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_02_Sub_07_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21106" target-pass-state="down" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+
+  
+
+  
+  <skill-training-sequence alias="KF_Wind_03_Sub_01_Seq" repeat-count="2">
+    <step result-1="miss" result-count="1" result-event-type-1="attacked" skill-1="21053" skill-2="21053" type="skill" variation-id-1="11" variation-id-2="12" />
+  </skill-training-sequence>
+
+  
+  
+  <skill-training-sequence alias="KF_Wind_03_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_03_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="stun" type="skill" variation-id-1="12" variation-id-2="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21180" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21181" type="skill" variation-id-1="11" />
+    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="21090" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21143" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_03_Sub_04_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="21107" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21385" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21106" target-pass-state="down" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+
+
+  
+  <skill-training-sequence alias="KF_Wind_04_Sub_01_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" skill-1="21030" type="skill" variation-id-1="11" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" skill-1="21030" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_04_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21060" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21406" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21406" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21406" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" skill-2="21030" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_04_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21145" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_04_Sub_04_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="21005" skill-2="21005" skill-3="21005" skill-4="21005" type="skill" variation-id-1="11" variation-id-2="51" variation-id-3="12" variation-id-4="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21255" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_04_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21070" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21256" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_04_Sub_06_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="miss" result-count="1" skill-1="21201" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="miss" result-count="1" skill-1="21200" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Wind_04_Sub_07_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21060" type="skill" variation-id-1="12" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21000" skill-2="21000" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  
+  <skill-training-sequence alias="KF_Wind_04_Sub_08_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="21009" type="skill" variation-id-1="12" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+
+
+
+
+
+  
+
+  
+  
+  <skill-training-sequence alias="KF_Fire_01_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="KF_Fire_01_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21106" target-pass-state="down" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_01_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="stun" type="skill" variation-id-1="22" variation-id-2="62" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_01_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="kneel" type="skill" variation-id-1="23" variation-id-2="63" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_01_Sub_05_Seq" repeat-count="2">
+    <step effect="KungfuMaster3_Attack_AreaAttack_Lv1_Immune" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="21055" skill-2="21055" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_01_Sub_06_Seq" repeat-count="2">
+    <step effect="KungfuMaster3_Attack_Commandskill_Lv1_Immune_R3" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="21201" variation-id-1="21" />
+    <step effect="KungfuMaster3_Attack_Commandskill_Lv1_Immune_R3" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="21200" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+
+  
+  
+  <skill-training-sequence alias="KF_Fire_02_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_02_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21070" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_02_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_02_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21106" target-pass-state="down" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_02_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="stun" type="skill" variation-id-1="22" variation-id-2="62" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_02_Sub_06_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="kneel" type="skill" variation-id-1="23" variation-id-2="63" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_02_Sub_07_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21106" target-pass-state="down" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+
+  
+
+  
+  <skill-training-sequence alias="KF_Fire_03_Sub_01_Seq" repeat-count="2">
+    <step result-1="miss" result-count="1" result-event-type-1="attacked" skill-1="21053" skill-2="21053" type="skill" variation-id-1="21" variation-id-2="22" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_03_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21055" skill-2="21055" target-pass-state="stun" type="skill" variation-id-1="22" variation-id-2="62" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21180" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21181" type="skill" variation-id-1="21" />
+    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="21090" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21143" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_03_Sub_03_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="21107" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21385" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21106" target-pass-state="down" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  
+
+
+  
+  <skill-training-sequence alias="KF_Fire_04_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21256" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_04_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21145" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_04_Sub_03_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="21005" skill-2="21005" skill-3="21005" skill-4="21005" type="skill" variation-id-1="21" variation-id-2="61" variation-id-3="22" variation-id-4="62" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21255" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_04_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21256" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_04_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="miss" result-count="1" skill-1="21201" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="miss" result-count="1" skill-1="21200" type="skill" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21609" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_04_Sub_06_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21060" type="skill" variation-id-1="22" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21111" skill-2="21111" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21030" type="skill" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  <skill-training-sequence alias="KF_Fire_04_Sub_07_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="21009" type="skill" variation-id-1="22" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="21" variation-id-2="61" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="21108" skill-2="21108" type="skill" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+
+
+
+</table>

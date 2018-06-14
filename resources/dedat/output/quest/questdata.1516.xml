@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1516.xml-->
+  <quest alias="q_epic_1516" category="epic" completed-desc="q_1516_completed" completed-list="y" desc="q_1516_sum" grade="1" group2="QG_NextbaeCheongEpic3" id="1516" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1516" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="806" />
+    <completion>
+      <next-quest quest="q_epic_1517" />
+    </completion>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1516_1" required-register-value="1">
+        <case mapunit-1="Guide_SanHoHaeAn" npc-response="qrsp_1516_12" object="npc:ch_sb_geonwon_0225" progress-mission="y" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1516_2" required-register-value="1">
+        <case npc-response="qrsp_1516_1" object="npc:ch_sb_geonwon_0225" progress-mission="y" type="talk" />
+        <case object="npc:ch_sb_geonwon_0225" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1516_3" required-register-value="12">
+        <case mapunit-1="6150_me_sb_pirateghosta_0004" mapunit-2="6150_me_sb_pirateghosta_0005" object2="npc:me_sb_pirateghosta_0009" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0008" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0007" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0006" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0005" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0004" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0012" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0011" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0010" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghostabig_0002" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghostabig_0001" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0014" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_pirateghosta_0013" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1516_4" required-register-value="1">
+        <case npc-response="qrsp_1516_2" object="npc:ch_sb_geonwon_0170" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1516_5" required-register-value="1">
+        <case mapunit-1="M_6152_zone_geonwon_sanhohaean_donggul_1_e1516" object="zone:zone_geonwon_sanhohaean_donggul_1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1516_6" required-register-value="1">
+        <case npc-response="qrsp_1516_3" object="npc:ch_sb_geonwon_0171" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1516_7" required-register-value="1">
+        <case object="npc:ch_sb_geonwon_0171" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="zone:zone_geonwon_sanhohaean_donggul_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1516_8" required-register-value="1">
+        <case object="npc:ch_sb_geonwon_0172" progress-mission="y" type="npc-manipulate" />
+        <case object="zone:zone_geonwon_sanhohaean_donggul_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1516_9" required-register-value="1">
+        <case npc-response="qrsp_1516_4" object="npc:ch_sb_geonwon_0173" progress-mission="y" type="talk" />
+        <case object="zone:zone_geonwon_sanhohaean_donggul_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1516_10" required-register-value="1">
+        <case mapunit-1="6152_6152_foot_2" object2="zoneenv2:6152_foot_2" progress-mission="y" type="env-entered" />
+        <case object="zone:zone_geonwon_sanhohaean_donggul_1" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:6152_foot_3" progress-mission="reaction-only" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1516_11" required-register-value="1">
+        <case mapunit-1="6152_e_chest_6152_controlpad_02" object2="zoneenv2:e_chest_6152_controlpad_02" progress-mission="y" type="manipulate" />
+        <case object="zone:zone_geonwon_sanhohaean_donggul_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1516_13" required-register-value="1">
+        <case object="npc:ch_sb_dongjina_0003" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1516_14" required-register-value="1" reward-1="1516_final_set1">
+        <case npc-response="qrsp_1516_5" object="npc:ch_sb_cheolmugoe_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_GeonWon_SanhoHaean_DongGul_D">
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+    </transit>
+    <transit id="2" zone="zone_GeonWon_BuYuHamDae">
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+    </transit>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1516_12" required-register-value="1">
+        <case object="npc:CH_SB_BunYang_0012" progress-mission="y" type="approach" />
+        <case npc-response="qrsp_1516_13" object="npc:ch_sb_chunggak_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_14" object="npc:ch_sb_chunggak_0005" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_15" object="npc:ch_sb_chunggak_0006" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_16" object="npc:ch_sb_chunggak_0007" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_17" object="npc:ch_sb_chunggak_0008" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_18" object="npc:ch_sb_chunggak_0009" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_19" object="npc:ch_sb_chunggak_0010" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_20" object="npc:ch_sb_chunggak_0011" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_21" object="npc:ch_sb_chunggak_0012" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_22" object="npc:ch_sb_chunggak_0013" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1516_23" object="npc:ch_sb_chunggak_0014" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

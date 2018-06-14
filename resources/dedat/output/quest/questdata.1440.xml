@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1440.xml-->
+  <quest alias="q_epic_1440" category="epic" completed-desc="q_1440_completed" completed-list="y" desc="q_1440_sum" grade="1" group2="QG_BaeCheongEpic" id="1440" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1440" save-type="all">
+    <acquisition level="1" recommended-level="48" sort-no="722" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1440_1" required-register-value="1">
+        <case mapunit-1="5301_Guide_Cave" object="zone:zone_SooRyunGool_re" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1440_2" required-register-value="1">
+        <case gadget="Q_StoneA_4" gadget-required="carry-and-remove" object2-1="npc:CH_SA_MuSeong_0001" progress-mission="y" skill3="Gadget_Q_StoneA_3" type="skill" />
+        <case gadget="Q_StoneA_4" gadget-required="not-a" mapunit-1="M_5303_e_chest_stonere_01" object2="zoneenv2:e_chest_stonere_01" progress-mission="reaction-only" type="manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1440_3" required-register-value="1">
+        <case mapunit-1="M_5303_foot_2" object2="zoneenv2:5303_foot_2" progress-mission="y" type="env-entered" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1440_4" required-register-value="1">
+        <case object="npc:CH_SA_CheonJinGwon_0014" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1440_5" required-register-value="1">
+        <case object2="npc:CH_SA_JinSeoYeon_0011" progress-mission="y" social="talksocial_anger" type="pc-social" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1440_6" required-register-value="1">
+        <case object="npc:CE_SA_Sword_0001" progress-mission="y" type="npc-manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1440_7" required-register-value="1">
+        <case mapunit-1="5251_Guide_e277" mapunit-2="5232_CH_SA_HyunDam_0002_e1440_M8" npc-response="qrsp_1440_1" object="npc:CH_SA_HyunDam_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_BaekRimSa_lodingtip" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1440_8" required-register-value="1">
+        <case mapunit-1="5232_e_Chest_backbrazierA_01_e277" object2="zoneenv2:e_Chest_backbrazierA_01" progress-mission="y" type="manipulate" />
+        <case npc-response="qrsp_1440_3" object="npc:CH_SA_HyunDam_0002" progress-mission="n" type="approach" />
+        <case object="zone:zone_BaekRimSa_BonDang" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1440_9" required-register-value="1" reward-1="1440_final_set1">
+        <case mapunit-1="5232_CH_SA_HyunDam_0002_e1440_M9" npc-response="qrsp_1440_2" object="npc:CH_SA_HyunDam_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_BaekRimSa_BonDang" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_SooRyunGool_Daily">
+      <destination mission-step-id="6" zone-index="3" />
+      <destination mission-step-id="5" zone-index="3" />
+      <destination mission-step-id="4" zone-index="3" />
+      <destination mission-step-id="3" zone-index="3" />
+      <destination mission-step-id="2" zone-index="3" />
+      <destination mission-step-id="1" zone-index="3" />
+    </transit>
+    <transit id="2" zone="zone_BaekRimSa">
+      <destination mission-step-id="1" zone-index="4" />
+      <destination mission-step-id="2" zone-index="4" />
+      <destination mission-step-id="3" zone-index="4" />
+      <destination mission-step-id="4" zone-index="4" />
+      <destination mission-step-id="5" zone-index="4" />
+      <destination mission-step-id="6" zone-index="4" />
+    </transit>
+    <completion>
+      <next-quest quest="q_epic_1441" />
+    </completion>
+    <transit id="3" zone="zone_BaekRimSa_An1">
+      <destination mission-step-id="7" zone-index="1" />
+    </transit>
+  </quest>
+</table>

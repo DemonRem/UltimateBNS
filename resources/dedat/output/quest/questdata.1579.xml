@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1579.xml-->
+  <quest alias="q_sub_1579" broadcast-category="field" category="normal" desc="q_1579_sum" grade="1" group2="QG_GeonwonEast" id="1579" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1579" reset-by-acquire-time="daily" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1516" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1579_1" object="npc:ch_sb_geonwon_0006" type="talk" />
+      <case acquire-quest="y" completion-count="1" npc-response="qrsp_1579_3" object="npc:ch_sb_geonwon_0006" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1579_1" required-register-value="12">
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile1_0004" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile1_0005" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile1_0008" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile1_0009" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile1_0010" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile2_0001" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile2_0003" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile2_0004" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile2_0007" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile2_0008" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" object2="npc:me_sb_anthrocrocodile3_0001" progress-mission="y" type="loot" />
+        <case looting="q_1579_1_icon" mapunit-1="6170_me_sb_anthrocrocodile1_0008" mapunit-10="6170_me_sb_anthrocrocodile1_0005" mapunit-2="6170_me_sb_anthrocrocodile1_0004" object2="npc:me_sb_anthrocrocodile3_0002" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1579_2" required-register-value="1" reward-1="1579_final_set1" reward-2="1579_final_set2">
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1579_2" object="npc:ch_sb_geonwon_0006" progress-mission="y" type="talk" />
+        <case completion-count="1" npc-response="qrsp_1579_4" object="npc:ch_sb_geonwon_0006" progress-mission="y" type="talk" />
+        <case completion-count="0" fee="y" item="q_1579_2_icon" msg="q_1579_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

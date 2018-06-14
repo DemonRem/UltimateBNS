@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_hero.xml-->
+  
+<contextscript alias="HeroMask_Duel_JinSeoYeon_context">
+
+  <stance abnormal="none">
+
+    
+	
+		
+    <layer>
+      <decision>
+        <condition skill="190000012" />
+        <result control-mode="classic" skillbar-2="190000012" skillbar-ui-effect="key-change" />
+        <result control-mode="bns" skillbar-2="190000012" skillbar-ui-effect="key-change" />
+      </decision>
+    </layer>	
+	
+		
+    <layer>
+      <decision>
+        <condition skill="190000009" />
+        <result context-3="190000009" context-ui-effect="key-change" control-mode="classic" />
+        <result context-3="190000009" context-ui-effect="key-change" control-mode="bns" />
+      </decision>
+    </layer>	
+	
+		
+    <layer>
+      <decision>
+        <result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="501" cmd-key-left="501" cmd-key-right="501" context-1="190000001" context-2="190000008" context-3="501" control-mode="classic" skillbar-1="190000006" skillbar-2="190000007" skillbar-3="190000011" skillbar-4="190000005" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" />
+        <result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="501" cmd-key-left="501" cmd-key-right="501" context-1="190000001" context-2="190000008" context-3="501" control-mode="bns" skillbar-1="190000006" skillbar-2="190000007" skillbar-3="190000011" skillbar-4="190000005" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" />
+      </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+<contextscript alias="HeroMask_Duel_HongSukKeun_context">
+
+  <stance abnormal="none">
+
+    
+	
+		
+    <layer>
+      <decision>
+        <condition skill="190000057" />
+        <result control-mode="classic" skillbar-4="190000057" skillbar-ui-effect="event" />
+        <result control-mode="bns" skillbar-4="190000057" skillbar-ui-effect="event" />
+      </decision>
+    </layer>	
+	
+		
+    <layer>
+      <decision>
+        <condition skill="190000056" />
+        <result control-mode="classic" skillbar-4="190000056" skillbar-ui-effect="event" />
+        <result control-mode="bns" skillbar-4="190000056" skillbar-ui-effect="event" />
+      </decision>
+    </layer>	
+	
+			
+    <layer>
+      <decision>
+        <condition skill="190000043" />
+        <result context-3="190000043" context-ui-effect="key-change" control-mode="classic" />
+        <result context-3="190000043" context-ui-effect="key-change" control-mode="bns" />
+      </decision>
+    </layer>	
+	
+		
+    <layer>
+      <decision>
+        <condition skill="190000041" />
+        <result context-1="190000041" context-ui-effect="combo" control-mode="classic" />
+        <result context-1="190000041" context-ui-effect="combo" control-mode="bns" />
+      </decision>
+    </layer>		
+	
+		
+    <layer>
+      <decision>
+        <condition skill="190000038" />
+        <result context-1="190000038" context-ui-effect="combo" control-mode="classic" />
+        <result context-1="190000038" context-ui-effect="combo" control-mode="bns" />
+      </decision>
+    </layer>		
+	
+			
+    <layer>
+      <decision>
+        <result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="501" cmd-key-left="501" cmd-key-right="501" context-1="190000036" context-2="501" context-3="501" control-mode="classic" skillbar-1="190000037" skillbar-2="190000042" skillbar-3="190000040" skillbar-4="190000045" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" />
+        <result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="501" cmd-key-left="501" cmd-key-right="501" context-1="190000036" context-2="501" context-3="501" control-mode="bns" skillbar-1="190000037" skillbar-2="190000042" skillbar-3="190000040" skillbar-4="190000045" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" />
+      </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+
+<contextscript alias="HeroMask_Duel_PoHwaRan_context">
+
+  <stance abnormal="none">
+
+    
+
+		
+    <layer>
+      <decision>
+        <condition skill="190000073" />
+        <result control-mode="classic" skillbar-1="190000073" />
+        <result control-mode="bns" skillbar-1="190000073" />
+      </decision>
+    </layer>		 
+
+		
+    <layer>
+      <decision>
+        <condition skill="190000093" />
+        <result control-mode="classic" skillbar-1="190000190" skillbar-2="190000093" />
+        <result control-mode="bns" skillbar-1="190000190" skillbar-2="190000093" />
+      </decision>
+    </layer>		 
+
+		
+    <layer>
+      <decision>
+        <condition skill="190000189" />
+        <result context-1="190000189" control-mode="classic" />
+        <result context-1="190000189" control-mode="bns" />
+      </decision>
+    </layer>	
+
+		
+    <layer>
+      <decision>
+        <result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="190000074" cmd-key-left="501" cmd-key-right="501" context-1="190000187" context-2="190000095" context-3="501" control-mode="classic" skillbar-1="190000080" skillbar-2="190000078" skillbar-3="190000075" skillbar-4="190000102" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" stance="501" />
+        <result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="190000074" cmd-key-left="501" cmd-key-right="501" context-1="190000187" context-2="190000095" context-3="501" control-mode="bns" skillbar-1="190000080" skillbar-2="190000078" skillbar-3="190000075" skillbar-4="190000102" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" stance="501" />
+      </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+<contextscript alias="HeroMask_Duel_SoYangSang_context">
+
+  <stance abnormal="none">
+
+  
+
+    
+    <layer>
+      <decision>
+        <condition skill="190000196" />
+        <result control-mode="classic" skillbar-4="190000196" skillbar-ui-effect="key-change" />
+        <result control-mode="bns" skillbar-4="190000196" skillbar-ui-effect="key-change" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="190000195" />
+        <result control-mode="classic" skillbar-4="190000195" skillbar-ui-effect="key-change" />
+        <result control-mode="bns" skillbar-4="190000195" skillbar-ui-effect="key-change" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="190000155" />
+        <result control-mode="classic" skillbar-2="190000155" skillbar-4="190000172" skillbar-ui-effect="key-change" />
+        <result control-mode="bns" skillbar-2="190000155" skillbar-4="190000172" skillbar-ui-effect="key-change" />
+      </decision>
+    </layer>		 
+	
+	
+    <layer>
+      <decision>
+        <condition skill="190000173" />
+        <result control-mode="classic" skillbar-2="190000173" skillbar-ui-effect="key-change" />
+        <result control-mode="bns" skillbar-2="190000173" skillbar-ui-effect="key-change" />
+      </decision>
+    </layer>		 
+
+		
+    <layer>
+      <decision>
+        <condition skill="190000191" />
+        <result control-mode="classic" skillbar-4="190000191" skillbar-ui-effect="key-change" />
+        <result control-mode="bns" skillbar-4="190000191" skillbar-ui-effect="key-change" />
+      </decision>
+    </layer>		  
+
+		
+    <layer>
+      <decision>
+        <condition skill="190000169" />
+        <result control-mode="classic" skillbar-4="190000169" skillbar-ui-effect="key-change" />
+        <result control-mode="bns" skillbar-4="190000169" skillbar-ui-effect="key-change" />
+      </decision>
+    </layer>		  
+	
+    
+    <layer>
+      <decision>
+        <condition skill="190000194" />
+        <result control-mode="classic" key-status="unpress" skillbar-4="190000194" skillbar-ui-effect="immune-break" />
+        <result control-mode="bns" key-status="unpress" skillbar-4="190000194" skillbar-ui-effect="immune-break" />
+      </decision>
+    </layer>	  
+
+    
+    <layer>
+      <decision>
+        <condition skill="190000193" />
+        <result control-mode="classic" key-status="unpress" skillbar-4="190000193" skillbar-ui-effect="event" />
+        <result control-mode="bns" key-status="unpress" skillbar-4="190000193" skillbar-ui-effect="event" />
+      </decision>
+    </layer>	  
+
+    
+    <layer>
+      <decision>
+        <condition skill="190000192" />
+        <result control-mode="classic" key-status="unpress" skillbar-4="190000192" />
+        <result control-mode="bns" key-status="unpress" skillbar-4="190000192" />
+      </decision>
+    </layer>	  
+	
+		
+    <layer>
+      <decision>
+        <condition skill="190000157" />
+        <result context-1="190000157" context-ui-effect="combo" control-mode="classic" />
+        <result context-1="190000157" context-ui-effect="combo" control-mode="bns" />
+      </decision>
+    </layer>		  
+
+		
+    <layer>
+	  <decision>
+	    <result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="501" cmd-key-left="501" cmd-key-right="501" context-1="190000156" context-2="501" context-3="501" control-mode="classic" skillbar-1="190000159" skillbar-2="190000158" skillbar-3="190000150" skillbar-4="190000170" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" />
+	    <result cmd-key-double-left="501" cmd-key-double-right="501" cmd-key-down="501" cmd-key-left="501" cmd-key-right="501" context-1="190000156" context-2="501" context-3="501" control-mode="bns" skillbar-1="190000159" skillbar-2="190000158" skillbar-3="190000150" skillbar-4="190000170" skillbar-5="501" skillbar-6="501" skillbar-7="501" skillbar-8="501" />
+	  </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+</table>

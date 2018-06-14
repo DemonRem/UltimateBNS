@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1667.xml-->
+  <quest alias="q_sub_1667" category="normal" completed-list="n" content-type="special" desc="q_1667_sum" grade="1" group2="QG_BlackWindForest" id="1667" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1667" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1638" preceding-quest-2="q_sub_1277" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" item="q_1667_1_icon" msg="q_1667_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1667_1" required-register-value="1">
+        <case grocery="general_grocery_quest_0017" npc-response="qrsp_1667_3" object="npc:ce_sb_dokcho_0001" progress-mission="y" remove-grocery="n" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1667_2" required-register-value="1" reward-1="1667_final_set1">
+        <case grocery="general_grocery_quest_0017" npc-response="qrsp_1667_2" object="npc:ce_sb_dokcho_0001" progress-mission="y" required-item-1="general_grocery_quest_0017" required-item-depot="bag" required-item-loss="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

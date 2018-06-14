@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1548.xml-->
+  <quest alias="q_sub_1548" attraction-info="duel-bot-challenge:5940_InfiniteTower" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1548_sum" grade="14" group2="QG_InfiniteTower" id="1548" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1548" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1551" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1548_1" object="npc:CH_WA_InfiniteTowerManager_0001" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1548_1" required-register-value="1" reward-1="1548_final_set1" reward-2="1548_final_set2">
+        <case npc-response="qrsp_1548_2" object="npc:CH_WA_InfiniteTowerManager_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

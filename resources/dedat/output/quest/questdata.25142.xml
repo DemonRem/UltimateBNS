@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25142.xml-->
+  <quest alias="q_sub_25142" attraction-1="raid-dungeon:raid_pacheonseongdo" broadcast-category="field" category="attraction" desc="q_25142_sum" grade="22" group2="QG_PaCheonSeongDo" id="25142" map-group-1-1="PaCheonSeongDo" max-repeat="-1" name2="Quest.Name2.25142" save-type="nothing">
+    <acquisition level="50" preceding-quest-check="and" recommended-level="50" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25142_1" required-register-value="1">
+        <case object2="npc:ME_WC_PaCheonBoss_0001" progress-mission="y" type="killed" />
+      </mission>
+      <mission id="2" name2="Mission.Name2.25142_2" required-register-value="1">
+        <case object2="npc:ME_WC_PaCheonBoss_0002" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="3" required-register-value="1" reward-1="25142_final_set1">
+        <case item="q_25142_1_icon" msg="q_25142_1" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

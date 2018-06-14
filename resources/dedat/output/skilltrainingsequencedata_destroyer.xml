@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="skill-training-sequence" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skilltrainingsequencedata_destroyer.xml-->
+
+  
+
+  
+  
+  
+  <skill-training-sequence alias="DE_Earth_01_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_01_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="3" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24010" skill-2="24010" variation-id-1="12" variation-id-2="52" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_01_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_01_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24010" skill-2="24010" variation-id-1="12" variation-id-2="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24120" target-pass-state="kneel" variation-id-1="11" />
+  </skill-training-sequence>
+
+    
+  <skill-training-sequence alias="DE_Earth_01_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24040" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_01_Sub_06_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24110" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+
+  
+  <skill-training-sequence alias="DE_Earth_02_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24001" skill-2="24001" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24001" skill-2="24001" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24001" skill-2="24001" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_02_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_02_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24010" skill-2="24010" variation-id-1="12" variation-id-2="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24120" target-pass-state="kneel" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_02_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24080" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_02_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_02_Sub_06_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="skill" skill-1="24091" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_02_Sub_07_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24100" variation-id-1="11" />
+
+  </skill-training-sequence>
+  
+  
+  
+  
+  <skill-training-sequence alias="DE_Earth_03_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24001" skill-2="24001" variation-id-1="11" variation-id-2="51" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24038" variation-id-1="11" />
+   </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_03_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24180" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_03_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24040" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24080" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Earth_03_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24180" variation-id-1="11" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  
+  
+  <skill-training-sequence alias="DE_Earth_04_Sub_01_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24001" skill-2="24001" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24038" variation-id-1="11" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24001" skill-2="24001" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24001" skill-2="24001" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+  </skill-training-sequence>
+  
+  
+  <skill-training-sequence alias="DE_Earth_04_Sub_02_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="11" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="11" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="11" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="11" variation-id-2="12" variation-id-3="51" variation-id-4="52" />
+    </skill-training-sequence>
+
+
+  
+
+  
+  
+  
+  <skill-training-sequence alias="DE_Void_01_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="n" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-parent-skill="n" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24033" skill-2="24033" skill-3="24033" skill-4="24033" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-parent-skill="n" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-parent-skill="n" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24033" skill-2="24033" skill-3="24033" skill-4="24033" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-parent-skill="n" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-parent-skill="n" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24033" skill-2="24033" skill-3="24033" skill-4="24033" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_01_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="3" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24010" skill-2="24010" variation-id-1="22" variation-id-2="62" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_01_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_01_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24010" skill-2="24010" variation-id-1="22" variation-id-2="62" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24120" target-pass-state="kneel" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_01_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24040" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+   
+  
+  <skill-training-sequence alias="DE_Void_01_Sub_06_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24110" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+
+  
+
+  
+  <skill-training-sequence alias="DE_Void_02_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_02_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24010" skill-2="24010" variation-id-1="22" variation-id-2="62" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24120" target-pass-state="kneel" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_02_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24080" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_02_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_02_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="skill" skill-1="24091" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  
+  
+  <skill-training-sequence alias="DE_Void_03_Sub_01_Seq" repeat-count="2">
+    <step check-parent-skill="n" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-parent-skill="n" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24033" skill-2="24033" skill-3="24033" skill-4="24033" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24038" variation-id-1="21" />
+   </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_03_Sub_02_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24180" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_03_Sub_03_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24040" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24080" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_03_Sub_04_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24180" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24050" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+    
+  <skill-training-sequence alias="DE_Void_03_Sub_05_Seq" repeat-count="2">
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24012" variation-id-1="21" />
+    <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="24100" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  
+  
+  <skill-training-sequence alias="DE_Void_04_Sub_01_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24090" variation-id-1="21" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="21" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="21" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="21" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="21" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="21" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24020" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="DE_Void_04_Sub_02_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="500" sequence-step-type="skill" skill-1="24012" variation-id-1="21" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-only-cast-skill="y" check-parent-skill="n" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24033" skill-2="24033" skill-3="24033" skill-4="24033" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="24030" skill-2="24030" skill-3="24030" skill-4="24030" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-only-cast-skill="y" check-parent-skill="n" command-action-input-offset="500" next-step-interval="600" sequence-step-type="skill" skill-1="24033" skill-2="24033" skill-3="24033" skill-4="24033" variation-id-1="21" variation-id-2="22" variation-id-3="61" variation-id-4="62" />
+    <step check-only-cast-skill="y" check-parent-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="24100" variation-id-1="21" />
+  </skill-training-sequence>
+
+</table>

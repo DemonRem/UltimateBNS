@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1461.xml-->
+  <quest alias="q_sub_1461" attraction-1="classic-field-zone:Windplain_Majuk" attraction-2="cave2:Cave_none_0259" broadcast-category="field" category="normal" desc="q_1461_sum" grade="6" group2="QG_BaramMajyeock" id="1461" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1461" save-type="all">
+    <acquisition level="45" preceding-quest-1="q_epic_1420" preceding-quest-2="q_epic_293" preceding-quest-3="q_epic_1545" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1461_1" object="npc:ch_sa_baramcontents_0013" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1461_1" required-register-value="1">
+        <case npc-response="qrsp_1461_2" object="npc:ch_sa_baramcontents_0012" progress-mission="y" type="talk" />
+        <fixed-reward slot-1="item:Quest_Grocery_BackChung_0034" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1461_2" required-register-value="1">
+        <case grocery="Quest_Grocery_BackChung_0034" item="Quest_Grocery_BackChung_0034" msg="q_1461_3" progress-mission="y" required-item-1="Quest_Grocery_BackChung_0034" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1461_3" required-register-value="1">
+        <case npc-response="qrsp_1461_6" object="npc:ce_sa_frogtribec_0002" progress-mission="y" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1461_4" required-register-value="1">
+        <case npc-response="qrsp_1461_3" object2="npc:ce_sa_frogtribec_0002" progress-mission="y" social="talksocial_kiss" type="pc-social" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1461_5" required-register-value="1">
+        <case npc-response="qrsp_1461_4" object="npc:ce_sa_frogtribec_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1461_6" required-register-value="1" reward-1="1461_final_set1">
+        <case npc-response="qrsp_1461_7" object="npc:ch_sa_baramcontents_0012" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <giveup-loss item-1="Quest_Grocery_BackChung_0034" />
+  </quest>
+</table>

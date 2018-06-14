@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1513.xml-->
+  <quest alias="q_epic_1513" category="epic" completed-desc="q_1513_completed" completed-list="y" desc="q_1513_sum" grade="1" group2="QG_NextbaeCheongEpic3" id="1513" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1513" save-type="all">
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1513_3" required-register-value="1">
+        <case indicator="quest-epic-can-progress" object2="npc:me_sb_blackdragon_0005" progress-mission="reaction-only" type="killed" />
+        <case npc-response="qrsp_1513_3" object="npc:CE_SB_Scroll_0001" progress-mission="y" range-max="-1" type="talk" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1513_4" required-register-value="1">
+        <case object2="npc:me_sb_blackdragon_0006" progress-mission="y" type="killed" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1513_5" required-register-value="1">
+        <case indicator="quest-epic-can-progress" object2="npc:mh_sb_blackdragon_0026" progress-mission="reaction-only" type="killed" />
+        <case npc-response="qrsp_1513_4" object="npc:CE_SB_Scroll_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:6140_foot_5" progress-mission="reaction-only" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1513_1" required-register-value="1">
+        <case mapunit-1="M_6100_zone_GeonWon_HeukRyong_In1_1_e1513" mapunit-10="Guide_HeukRyong" object="zone:zone_geonwon_heukryong_in1_1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1513_7" required-register-value="1">
+        <case object2="npc:mh_sb_blackdragon_0029" progress-mission="y" type="killed" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1513_8" required-register-value="1">
+        <case indicator="quest-epic-can-progress" object2="npc:mh_sb_blackdragon_0047" progress-mission="reaction-only" type="killed" />
+        <case npc-response="qrsp_1513_5" object="npc:CE_SB_Scroll_0003" progress-mission="y" type="talk" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:6140_foot_2" progress-mission="reaction-only" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1513_9" required-register-value="1">
+        <case mapunit-1="6140_6140_foot_3" object2="zoneenv2:6140_foot_3" progress-mission="y" type="env-entered" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1513_10" required-register-value="1">
+        <case object2="npc:me_sb_zakan_0001" progress-mission="y" type="killed" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step guide-message="gm_1513_1" guide-message-zone-1="zone_geonwon_heukryong_in1_1" id="11">
+      <mission id="11" name2="Mission.Name2.1513_11" required-register-value="1">
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="M_6140_zone_GeonWon_HeukRyong_In1_2" object="zone:zone_GeonWon_HeukRyong_In1_2" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1513_13" required-register-value="1" reward-1="1513_final_set1">
+        <case npc-response="qrsp_1513_2" object="npc:ch_sb_gunhyang_0011" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_HeukRyong_In1_2" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1514" />
+    </completion>
+    <transit id="1" zone="zone_geonwon_heukryong_in1_d">
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+    <acquisition level="1" mastery-level="0" preceding-quest-check="and" recommended-level="50" sort-no="803" />
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1513_2" required-register-value="1">
+        <case npc-response="qrsp_1513_1" object="npc:ch_sb_gunhyang_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1513_6" required-register-value="1">
+        <case object2="npc:ME_SB_PileBunkerEmpire_0001" progress-mission="y" type="killed" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:6140_foot_1" progress-mission="reaction-only" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1513_12" required-register-value="1">
+        <case object="npc:ch_sb_gunhyang_0011" progress-mission="y" type="approach" />
+        <case object="zone:zone_geonwon_heukryong_in1_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

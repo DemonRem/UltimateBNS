@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.20010.xml-->
+  <quest alias="q_sub_20010" attraction-1="classic-field-zone:HuekChang_Classic" attraction-info="classic-field-zone:HuekChang_Classic" broadcast-category="field" category="normal" desc="q_20010_sum" grade="1" group2="QG_ZamsikHeukChng" id="20010" map-group-1-1="jeryoungrim" max-repeat="-1" name2="Quest.Name2.20010" save-type="except-completion">
+    <acquisition level="50" recommended-level="50">
+      <case loot-item="Quest_Scroll_BackChung_0078" looting="q_20010_1_icon" object2="npc:ME_WB_DarkCrazyTribeCLeader_0005" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0078" looting="q_20010_1_icon" object2="npc:ME_WB_DarkCrazyTribeCLeader_0002" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0078" looting="q_20010_1_icon" object2="npc:ME_WB_DarkCrazyTribeBigA_0004" quest-symbol-drop-prob="5" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0078" looting="q_20010_1_icon" object2="npc:ME_WB_DarkCrazyTribeBigA_0002" quest-symbol-drop-prob="5" type="loot" />
+      <case acquire-quest="y" grocery="Quest_Scroll_BackChung_0078" item="Quest_Scroll_BackChung_0078" msg="q_20010_1" required-item-1="Quest_Scroll_BackChung_0078" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.20010_1" required-register-value="30">
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeA_0016" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeD_0010" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeB_0013" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeA_0004" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeA_0003" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeD_0004" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeD_0003" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeB_0005" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeB_0004" progress-mission="y" quest-symbol-drop-prob="20" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeCLeader_0005" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeCLeader_0002" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <case looting="q_20010_3_icon" object2="npc:ME_WB_DarkCrazyTribeBigA_0004" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <case looting="q_20010_3_icon" mapunit-1="6000_ME_WB_DarkCrazyTribeA_0003_q20010" mapunit-10="6000_ME_WB_DarkCrazyTribeA_0003_q20010_1" mapunit-2="6000_ME_WB_DarkCrazyTribeA_0003_q20010_2" mapunit-3="6000_ME_WB_DarkCrazyTribeA_0003_q20010_3" mapunit-4="6000_ME_WB_DarkCrazyTribeA_0003_q20010_4" mapunit-5="6000_ME_WB_DarkCrazyTribeA_0003_q20010_5" mapunit-6="Guide_Quest_HuekChang_CL_00_1" mapunit-7="6000_ME_WB_DarkCrazyTribeA_0003_q20010_6" mapunit-8="6000_ME_WB_DarkCrazyTribeA_0003_q20010_7" object2="npc:ME_WB_DarkCrazyTribeBigA_0002" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.20010_2" required-register-value="1" reward-1="20010_final_set1">
+        <case npc-response="qrsp_20010_1" object="npc:CH_WB_Citizen_0102" progress-mission="y" type="talk" />
+        <case fee="y" item="q_20010_2_icon" msg="q_20010_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

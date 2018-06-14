@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1545.xml-->
+  <quest alias="q_epic_1545" broadcast-category="field" category="epic" completed-desc="q_1545_completed" completed-list="y" desc="q_1545_sum" grade="1" group2="QG_BaeCheongEpic" id="1545" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1545" save-type="all">
+    <acquisition level="1" recommended-level="45" />
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1545_3" required-register-value="1">
+        <case acquire-quest="n" npc-response="qrsp_1545_1" object="npc:CH_WC_CheonJinGwon4F_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_05" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1545_6" object="npc:CH_WC_YuRan_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1545_4" required-register-value="1">
+        <case acquire-quest="n" object="npc:CH_WC_CheonJinGwon4F_0001" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1545_5" required-register-value="1">
+        <case acquire-quest="n" npc-response="qrsp_1545_2" object="npc:CH_WC_CheonJinGwon4F_0001" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1545_6" required-register-value="1" reward-1="1545_final_set1">
+        <case acquire-quest="n" npc-response="qrsp_1545_3" object="npc:CH_WC_YuRan4F_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_05" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1421" />
+    </completion>
+    <mission-step guide-message="gm_1545_1" id="1">
+      <mission id="1" name2="Mission.Name2.1545_1" required-register-value="1">
+        <tutorial-case progress-mission="y" type="skill-training" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1545_7" object="npc:CH_WC_YuRan_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1545_2" required-register-value="1">
+        <case npc-response="qrsp_1545_5" object="npc:CH_WC_YuRan_0002" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

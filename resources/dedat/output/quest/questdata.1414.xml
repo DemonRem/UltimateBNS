@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1414.xml-->
+  <quest alias="q_sub_1414" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1414_sum" grade="6" group2="QG_BaramCenter" id="1414" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1414" reset-type="daily">
+    <acquisition level="45" recommended-level="50">
+      <case acquire-quest="y" indicator="quest-board-start" npc-response="qrsp_1414_1" object="npc:ce_sa_bff_wind_board_0001" type="talk" />
+    </acquisition>
+    <mission-step completion-type="or" id="1">
+      <mission id="1" name2="Mission.Name2.1414_1" required-register-value="1">
+        <case looting="q_1414_1_icon" object2="npc:me_sa_bf_wildboarfieldboss_0001" progress-mission="y" type="loot" />
+      </mission>
+      <mission id="2" name2="Mission.Name2.1414_2" required-register-value="1">
+        <case looting="q_1414_1_icon" object2="npc:me_sa_bf_junoboss_0001" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="3" name2="Mission.Name2.1414_3" required-register-value="1" reward-1="1414_final_set1" reward-2="1414_final_set2">
+        <case npc-response="qrsp_1414_2" object="npc:ch_sa_citizen_0076" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1414_2_icon" msg="q_1414_3" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1414_3" object="npc:ch_sa_citizen_0076" type="approach" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

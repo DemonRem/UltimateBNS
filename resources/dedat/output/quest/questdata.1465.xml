@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1465.xml-->
+  <quest alias="q_sub_1465" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1465_sum" grade="6" group2="QG_BaramPungnyeon" id="1465" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1465" reset-type="daily" save-type="all">
+    <acquisition level="45" preceding-quest-1="q_epic_1420" preceding-quest-2="q_epic_1545" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" completion-count="1" npc-response="qrsp_1465_3" object="npc:CH_SA_JeGukGun_0179" type="talk" />
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1465_1" object="npc:CH_SA_JeGukGun_0179" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1465_1" required-register-value="10">
+        <case object2="npc:ME_SA_NokLimDo_0086" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0047" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0046" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0045" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0085" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0044" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0043" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0042" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0084" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0034" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SA_NokLimDo_0033" progress-mission="y" type="killed" />
+        <case mapunit-1="5510_Monster_Guide_1" object2="npc:ME_SA_NokLimDo_0032" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1465_2" required-register-value="1" reward-1="1465_final_set1" reward-2="1465_final_set2">
+        <case fee="y" item="q_1465_1_icon" msg="q_1465_6" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" npc-response="qrsp_1465_4" object="npc:CH_SA_JeGukGun_0179" progress-mission="y" type="talk" />
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1465_2" object="npc:CH_SA_JeGukGun_0179" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

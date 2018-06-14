@@ -1,17 +1,18 @@
-<?xml version='1.0' encoding='utf-8'?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.218">
-	<quest alias="q_sub_25049" broadcast-category="field" category="dungeon" dungeon="Dungeon_TakMaGul" id="25049" max-repeat="1" name2="Quest.Name2.25049" progress-party-duo="n" progress-party-sextet="n" progress-party-solo="n" reset-type="none" save-type="nothing">
-		<acquisition level="1" mastery-level="50" preceding-quest-check="and" recommended-level="50">
-			<case acquire-quest="y" object="zoneenv:5095_portal_5099" object2="zoneenv2:5095_portal_5099" type="enter-portal"/>
-			<case acquire-quest="y" object="zoneenv:925_potal_5097" object2="zoneenv2:925_potal_5097" type="enter-portal"/>
-		</acquisition>
-		<mission-step id="1">
-			<mission id="1" name2="Mission.Name2.25049_1" required-register-value="1">
-				<case object="npc:ME_CT_KangSiFat_0002" object2="npc:ME_CT_KangSiFat_0002" progress-mission="y" type="killed"/>
-			</mission>
-		</mission-step>
-		<transit id="1" zone="zone_TakMaGul_Default">
-			<destination mission-step-id="1" zone-index="1"/>
-		</transit>
-	</quest>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25049.xml-->
+  <quest alias="q_sub_25049" broadcast-category="field" category="dungeon" dungeon="Dungeon_TakMaGul" grade="9" group2="QG_BaramNorth" id="25049" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.25049" progress-difficulty-type-1="n" progress-difficulty-type-3="n" reset-type="none" save-type="nothing">
+    <acquisition level="1" mastery-level="50" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" object2="zoneenv2:5095_portal_5099" type="enter-portal" />
+      <case acquire-quest="y" object2="zoneenv2:925_potal_5097" type="enter-portal" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25049_1" required-register-value="1">
+        <case object2="npc:ME_CT_KangSiFat_0002" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_TakMaGul_Default">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+  </quest>
 </table>

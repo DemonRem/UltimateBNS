@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="TutorialSkillSequence" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/tutorialskillsequencedata_warlock.xml-->
+ 
+
+
+
+<tutorialSkillSequence alias="Warlock_Lv4_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28030" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28170" type="skill" /> 
+</tutorialSkillSequence>
+
+
+
+<tutorialSkillSequence alias="Warlock_Lv6_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28090" skill-2="28091" type="skill" /> 
+</tutorialSkillSequence>
+
+
+
+<tutorialSkillSequence alias="Warlock_Lv8_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28050" skill-2="28051" target-pass-state="down" type="skill" /> 
+</tutorialSkillSequence>
+
+
+
+<tutorialSkillSequence alias="Warlock_Lv10_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28170" type="skill" /> 
+ 	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28060" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28091" target-pass-state="GhostX2" target-pass-state-count="3" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+
+<tutorialSkillSequence alias="Warlock_Lv12_M11">
+ 	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28220" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28453" type="skill" /> 
+</tutorialSkillSequence>
+
+
+
+<tutorialSkillSequence alias="Warlock_Lv14_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28330" type="skill" /> 
+</tutorialSkillSequence>
+
+
+
+
+
+
+
+<tutorialSkillSequence alias="WL_PvE_EliteSkill_Nuke_hit">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28090" skill-2="28091" type="skill" />
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="WL_PvE_EliteSkill_RangeMoveBlock_hit">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28170" type="skill" />
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28011" type="skill" />
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="WL_PvE_EliteSkill_Rcombo_1">
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28001" skill-2="28002" skill-3="28005" skill-4="28006" skill-5="28035" skill-6="28036" type="skill" />
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="WL_PvE_EliteSkill_Rcombo_2">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28001" skill-2="28002" skill-3="28005" skill-4="28006" skill-5="28035" skill-6="28036" type="skill" />
+</tutorialSkillSequence>
+ 
+</table>

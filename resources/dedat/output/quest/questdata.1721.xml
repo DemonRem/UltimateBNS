@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1721.xml-->
+  <quest alias="q_sub_1721" category="normal" content-type="side-episode" desc="q_1721_sum" group2="QG_Taecheon" id="1721" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1721" save-type="all">
+    <acquisition level="55" preceding-quest-1="q_sub_1720" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" item="q_1721_1_icon" msg="q_1721_1" progress-mission="n" type="talk-to-self" />
+      <case acquire-quest="y" mapunit-2="5773_CH_WC_JungHaDo_SideEpic3_0001" npc-response="qrsp_1721_1" object="npc:ch_wc_gunmahye_sideepic3_0001" type="talk" />
+      <case npc-response="qrsp_1721_10" object="npc:CH_WC_JeGukGun_SideEpic3_0015" progress-mission="reaction-only" type="approach" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1721_1" required-register-value="1" reset-teleport-recycle-time="y">
+        <case mapunit-1="6536_CH_WC_OhSeJung_SideEpic3_0001" npc-response="qrsp_1721_2" object="npc:ch_wc_ohsejung_sideepic3_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1721_10" object="npc:CH_WC_JeGukGun_SideEpic3_0015" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1720_10" object="npc:CH_WC_PoongEmpire_SideEpic3_0015" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1720_11" object="npc:CH_WC_PoongEmpire_SideEpic3_0009" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1720_12" object="npc:CH_WC_PoongEmpire_SideEpic3_0016" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1720_13" object="npc:CH_WC_PoongEmpire_SideEpic3_0011" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1720_14" object="npc:CH_WC_PoongEmpire_SideEpic3_0013" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1721_2" required-register-value="1">
+        <case mapunit-1="6501_CH_WC_SaMinYoung_SideEpic3_0001" npc-response="qrsp_1721_3" object="npc:ch_wc_saminyoung_sideepic3_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1721_12" object="npc:ch_wc_ohsejung_sideepic3_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1721_3" required-register-value="1">
+        <case mapunit-1="6621_CH_WC_SaMinYoung_SideEpic3_0009" npc-response="qrsp_1721_7" object="npc:ch_wc_saminyoung_sideepic3_0009" progress-mission="y" type="talk" />
+        <case object="zone:Zone_RoyalTomb_Maze" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1721_8" object="npc:ch_wc_saminyoung_sideepic3_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1721_4" required-register-value="1">
+        <case mapunit-1="6621_CH_WC_SeoCheondeath_SideEpic3_0001" object="npc:CH_WC_SeoCheondeath_SideEpic3_0001" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1721_5" required-register-value="1">
+        <fixed-reward slot-1="item:Quest_Scroll_CheolMuGoe_0001" />
+        <case mapunit-1="6621_CH_WC_SeoCheondeath_SideEpic3_0001" object="npc:ch_wc_seocheondeath_sideepic3_0001" progress-mission="y" type="npc-manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1721_6" required-register-value="1">
+        <case grocery="Quest_Scroll_CheolMuGoe_0001" item="Quest_Scroll_CheolMuGoe_0001" msg="q_1721_5" npc-response="qrsp_1721_4" progress-mission="y" required-item-1="Quest_Scroll_CheolMuGoe_0001" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+        <case npc-response="qrsp_1721_11" object="npc:ch_wc_saminyoung_sideepic3_0009" progress-mission="reaction-only" type="approach" />
+        <case object="zone:Zone_RoyalTomb_Maze" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1721_7" required-register-value="1">
+        <case mapunit-1="6621_CH_WC_SaMinYoung_SideEpic3_0009" npc-response="qrsp_1721_4" object="npc:ch_wc_saminyoung_sideepic3_0009" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step hide="n" id="8">
+      <mission id="8" name2="Mission.Name2.1721_8" required-register-value="1">
+        <case mapunit-1="6621_CE_WC_Dummy_0112" object="npc:CE_WC_Dummy_0112" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1721_9" required-register-value="1">
+        <case mapunit-1="6621_CH_WC_SaMinYoung_SideEpic3_0009" npc-response="qrsp_1721_5" object="npc:CH_WC_SaMinYoung_SideEpic3_0009" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1721_10" required-register-value="2">
+        <case mapunit-1="6621_ME_WC_MazeGolem_SideEpic3_0001" object2="npc:me_wc_mazegolem_sideepic3_0001" progress-mission="y" specify-object-type="specific-id" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <giveup-loss item-1="Quest_Scroll_CheolMuGoe_0001" />
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1721_11" required-register-value="1" reward-1="1721_final_set1">
+        <case mapunit-1="6621_CH_WC_SaMinYoung_SideEpic3_0009" npc-response="qrsp_1721_6" object="npc:CH_WC_SaMinYoung_SideEpic3_0009" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <transit id="1" zone="Zone_RoyalTomb_Entrace">
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+    </transit>
+  </quest>
+</table>

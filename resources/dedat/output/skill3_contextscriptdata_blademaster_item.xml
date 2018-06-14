@@ -1,0 +1,1048 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_blademaster_item.xml-->
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_mach_slash_Item1_V1">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20906" />
+          
+          <result control-mode="classic" skillbar-4="20906" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20906" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20904" />
+          
+          <result control-mode="classic" skillbar-4="20904" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20904" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20902" />
+          
+          <result control-mode="classic" skillbar-4="20902" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20902" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20900" />
+          
+          <result control-mode="classic" skillbar-4="20900" />
+          <result control-mode="bns" skillbar-4="20900" />
+        </decision>
+      </layer>
+    </stance>
+    
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20907" />
+          
+          <result control-mode="classic" skillbar-4="20907" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20907" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20905" />
+          
+          <result control-mode="classic" skillbar-4="20905" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20905" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20903" />
+          
+          <result control-mode="classic" skillbar-4="20903" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20903" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20901" />
+          
+          <result control-mode="classic" skillbar-4="20901" />
+          <result control-mode="bns" skillbar-4="20901" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_mach_slash_Item1_V2">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20806" />
+          
+          <result control-mode="classic" skillbar-4="20806" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20806" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20804" />
+          
+          <result control-mode="classic" skillbar-4="20804" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20804" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20802" />
+          
+          <result control-mode="classic" skillbar-4="20802" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20802" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20800" />
+          
+          <result control-mode="classic" skillbar-4="20800" />
+          <result control-mode="bns" skillbar-4="20800" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20807" />
+          
+          <result control-mode="classic" skillbar-4="20807" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20807" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20805" />
+          
+          <result control-mode="classic" skillbar-4="20805" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20805" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20803" />
+          
+          <result control-mode="classic" skillbar-4="20803" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20803" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20801" />
+          
+          <result control-mode="classic" skillbar-4="20801" />
+          <result control-mode="bns" skillbar-4="20801" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+  <contextscript alias="BladeMaster_Sword_mach_slash_Item1_V3">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20706" />
+          
+          <result control-mode="classic" skillbar-4="20706" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20706" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20704" />
+          
+          <result control-mode="classic" skillbar-4="20704" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20704" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20702" />
+          
+          <result control-mode="classic" skillbar-4="20702" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20702" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20700" />
+          
+          <result control-mode="classic" skillbar-4="20700" />
+          <result control-mode="bns" skillbar-4="20700" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20707" />
+          
+          <result control-mode="classic" skillbar-4="20707" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20707" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20705" />
+          
+          <result control-mode="classic" skillbar-4="20705" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20705" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20703" />
+          
+          <result control-mode="classic" skillbar-4="20703" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-4="20703" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20701" />
+          
+          <result control-mode="classic" skillbar-4="20701" />
+          <result control-mode="bns" skillbar-4="20701" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+
+
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_mach_slash_Item2_V1">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20920" />
+          <result control-mode="classic" skillbar-4="20920" />
+          <result control-mode="bns" skillbar-4="20920" />
+        </decision>
+      </layer>
+    </stance>
+    
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20921" />
+          <result control-mode="classic" skillbar-4="20921" />
+          <result control-mode="bns" skillbar-4="20921" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_mach_slash_Item2_V2">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20720" />
+          <result control-mode="classic" skillbar-4="20720" />
+          <result control-mode="bns" skillbar-4="20720" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20721" />
+          <result control-mode="classic" skillbar-4="20721" />
+          <result control-mode="bns" skillbar-4="20721" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_mach_slash_Item2_V3">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20820" />
+          <result control-mode="classic" skillbar-4="20820" />
+          <result control-mode="bns" skillbar-4="20820" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20821" />
+          <result control-mode="classic" skillbar-4="20821" />
+          <result control-mode="bns" skillbar-4="20821" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+
+
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_mach_slash_Item3">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20970" />
+          <result control-mode="classic" skillbar-4="20970" />
+          <result control-mode="bns" skillbar-4="20970" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20971" />
+          <result control-mode="classic" skillbar-4="20971" />
+          <result control-mode="bns" skillbar-4="20971" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+
+
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item1_V1">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20911" />
+          
+          <result context-2="20911" context-ui-effect="event" control-mode="classic" />
+          <result context-2="20911" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20910" />
+          
+          <result context-2="20910" control-mode="classic" />
+          <result context-2="20910" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item1_V2">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20913" />
+          
+          <result context-2="20913" context-ui-effect="event" control-mode="classic" />
+          <result context-2="20913" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20912" />
+          
+          <result context-2="20912" control-mode="classic" />
+          <result context-2="20912" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item1_V3">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20915" />
+          
+          <result context-2="20915" context-ui-effect="event" control-mode="classic" />
+          <result context-2="20915" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20914" />
+          
+          <result context-2="20914" control-mode="classic" />
+          <result context-2="20914" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+
+
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item2_V1">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20930" />
+          <result context-2="20930" control-mode="classic" />
+          <result context-2="20930" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item2_V2">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20730" />
+          <result context-2="20730" control-mode="classic" />
+          <result context-2="20730" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item2_V3">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20830" />
+          <result context-2="20830" control-mode="classic" />
+          <result context-2="20830" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+
+
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item3_V1">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20940" />
+          <result context-2="20940" control-mode="classic" />
+          <result context-2="20940" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item3_V2">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20942" />
+          <result context-2="20942" control-mode="classic" />
+          <result context-2="20942" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_stab_Item3_V3">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20945" />
+          
+          <result context-2="20945" context-ui-effect="event" control-mode="classic" />
+          <result context-2="20945" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20944" />
+          <result context-2="20944" control-mode="classic" />
+          <result context-2="20944" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+
+
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_BackwardRoll_Item1_V1">
+    <stance link="mount" status="link">
+      <layer>
+        <decision>
+          <condition skill="20954" />
+          
+          <result control-mode="classic" stance="20954" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20954" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+    <stance link="catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="20953" />
+          
+          <result control-mode="classic" stance="20953" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20953" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+    <stance link="inhalation-catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="20952" />
+          
+          <result control-mode="classic" stance="20952" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20952" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="down">
+      <layer>
+        <decision>
+          <condition skill="20950" />
+          
+          <result context-3="20950" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20950" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20951" />
+          
+          <result control-mode="classic" stance="20951" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20951" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="swoon">
+      <layer>
+        <decision>
+          <condition skill="20950" />
+          
+          <result context-3="20950" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20950" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20951" />
+          
+          <result control-mode="classic" stance="20951" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20951" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="kneel">
+      <layer>
+        <decision>
+          <condition skill="20950" />
+          
+          <result context-3="20950" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20950" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20951" />
+          
+          <result control-mode="classic" stance="20951" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20951" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="stun">
+      <layer>
+        <decision>
+          <condition skill="20950" />
+          
+          <result context-3="20950" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20950" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20951" />
+          
+          <result control-mode="classic" stance="20951" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20951" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_BackwardRoll_Item1_V2">
+    <stance link="mount" status="link">
+      <layer>
+        <decision>
+          <condition skill="20754" />
+          
+          <result control-mode="classic" stance="20754" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20754" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+    <stance link="catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="20753" />
+          
+          <result control-mode="classic" stance="20753" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20753" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+    <stance link="inhalation-catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="20752" />
+          
+          <result control-mode="classic" stance="20752" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20752" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="down">
+      <layer>
+        <decision>
+          <condition skill="20750" />
+          
+          <result context-3="20750" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20750" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20751" />
+          
+          <result control-mode="classic" stance="20751" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20751" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="swoon">
+      <layer>
+        <decision>
+          <condition skill="20750" />
+          
+          <result context-3="20750" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20750" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20751" />
+          
+          <result control-mode="classic" stance="20751" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20751" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="kneel">
+      <layer>
+        <decision>
+          <condition skill="20750" />
+          
+          <result context-3="20750" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20750" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20751" />
+          
+          <result control-mode="classic" stance="20751" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20751" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="stun">
+      <layer>
+        <decision>
+          <condition skill="20750" />
+          
+          <result context-3="20750" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20750" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20751" />
+          
+          <result control-mode="classic" stance="20751" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20751" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_BackwardRoll_Item1_V3">
+    <stance link="mount" status="link">
+      <layer>
+        <decision>
+          <condition skill="20854" />
+          
+          <result control-mode="classic" stance="20854" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20854" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+    <stance link="catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="20853" />
+          
+          <result control-mode="classic" stance="20853" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20853" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+    <stance link="inhalation-catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="20852" />
+          
+          <result control-mode="classic" stance="20852" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20852" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="down">
+      <layer>
+        <decision>
+          <condition skill="20850" />
+          
+          <result context-3="20850" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20850" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20851" />
+          
+          <result control-mode="classic" stance="20851" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20851" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="swoon">
+      <layer>
+        <decision>
+          <condition skill="20850" />
+          
+          <result context-3="20850" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20850" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20851" />
+          
+          <result control-mode="classic" stance="20851" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20851" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="kneel">
+      <layer>
+        <decision>
+          <condition skill="20850" />
+          
+          <result context-3="20850" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20850" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20851" />
+          
+          <result control-mode="classic" stance="20851" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20851" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="stun">
+      <layer>
+        <decision>
+          <condition skill="20850" />
+          
+          <result context-3="20850" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20850" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="20851" />
+          
+          <result control-mode="classic" stance="20851" stance-ui-effect="event" />
+          <result control-mode="bns" stance="20851" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+
+
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_BackwardRoll_Item2_V1">
+    <stance abnormal-flag="down">
+      <layer>
+        <decision>
+          <condition skill="20958" />
+          <result context-3="20958" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20958" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="swoon">
+      <layer>
+        <decision>
+          <condition skill="20958" />
+          <result context-3="20958" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20958" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="kneel">
+      <layer>
+        <decision>
+          <condition skill="20958" />
+          <result context-3="20958" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20958" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="stun">
+      <layer>
+        <decision>
+          <condition skill="20958" />
+          <result context-3="20958" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20958" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_BackwardRoll_Item2_V2">
+    <stance abnormal-flag="down">
+      <layer>
+        <decision>
+          <condition skill="20758" />
+          <result context-3="20758" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20758" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="swoon">
+      <layer>
+        <decision>
+          <condition skill="20758" />
+          <result context-3="20758" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20758" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="kneel">
+      <layer>
+        <decision>
+          <condition skill="20758" />
+          <result context-3="20758" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20758" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="stun">
+      <layer>
+        <decision>
+          <condition skill="20758" />
+          <result context-3="20758" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20758" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_BackwardRoll_Item2_V3">
+    <stance abnormal-flag="down">
+      <layer>
+        <decision>
+          <condition skill="20858" />
+          <result context-3="20858" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20858" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="swoon">
+      <layer>
+        <decision>
+          <condition skill="20858" />
+          <result context-3="20858" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20858" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="kneel">
+      <layer>
+        <decision>
+          <condition skill="20858" />
+          <result context-3="20858" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20858" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance abnormal-flag="stun">
+      <layer>
+        <decision>
+          <condition skill="20858" />
+          <result context-3="20858" context-ui-effect="event" control-mode="classic" />
+          <result context-3="20858" context-ui-effect="event" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  
+
+
+
+  
+  
+  
+  <contextscript alias="BladeMaster_Sword_back_dash_Item1_V1">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20960" />
+          <result cmd-key-down="20960" control-mode="classic" />
+          <result cmd-key-down="20960" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20961" />
+          <result cmd-key-down="20961" control-mode="classic" />
+          <result cmd-key-down="20961" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_back_dash_Item1_V2">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20860" />
+          <result cmd-key-down="20860" control-mode="classic" />
+          <result cmd-key-down="20860" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20861" />
+          <result cmd-key-down="20861" control-mode="classic" />
+          <result cmd-key-down="20861" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+  
+  <contextscript alias="BladeMaster_Sword_back_dash_Item1_V3">
+    <stance stance="천검세" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20760" />
+          <result cmd-key-down="20760" control-mode="classic" />
+          <result cmd-key-down="20760" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="납도" status="stance">
+      <layer>
+        <decision>
+          <condition skill="20761" />
+          <result cmd-key-down="20761" control-mode="classic" />
+          <result cmd-key-down="20761" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+  
+  
+</table>

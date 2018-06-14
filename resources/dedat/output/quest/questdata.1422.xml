@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1422.xml-->
+  <quest alias="q_epic_1422" broadcast-category="field" category="epic" completed-desc="q_1422_completed" completed-list="y" desc="q_1422_sum" grade="1" group2="QG_BaeCheongEpic" id="1422" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1422" save-type="all">
+    <acquisition level="1" recommended-level="45" sort-no="703" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1422_1" required-register-value="1">
+        <case mapunit-1="M_5510_foot_1" object2="zoneenv2:5510_foot_1" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1422_1" object="npc:CH_SA_Citizen_0045" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1422_2" required-register-value="1">
+        <case npc-response="qrsp_1422_2" object="npc:CH_SA_Citizen_0045" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1422_3" required-register-value="1">
+        <case npc-response="qrsp_1422_3" object="npc:CH_SA_Citizen_0046" type="approach" />
+        <case mapunit-1="M_5510_foot_2" object2="zoneenv2:5510_foot_2" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1422_5" object="npc:CH_SA_JeGukGun_0033" type="approach" />
+        <case npc-response="qrsp_1422_6" object="npc:CH_SA_Citizen_0050" type="approach" />
+        <case npc-response="qrsp_1422_7" object="npc:CH_SA_ORakDang_0011" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1422_4" required-register-value="1">
+        <case npc-response="qrsp_1422_9" object="npc:CH_SA_ORakDang_0013" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1422_3" object="npc:CH_SA_Citizen_0046" type="approach" />
+        <case npc-response="qrsp_1422_7" object="npc:CH_SA_ORakDang_0011" type="approach" />
+        <case npc-response="qrsp_1422_6" object="npc:CH_SA_Citizen_0050" type="approach" />
+        <case npc-response="qrsp_1422_5" object="npc:CH_SA_JeGukGun_0033" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1422_5" required-register-value="1">
+        <case npc-response="qrsp_1422_8" object="npc:CH_SA_ORakDang_0013" type="approach" />
+        <case npc-response="qrsp_1422_10" object="npc:CH_SA_Citizen_0052" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1422_3" object="npc:CH_SA_Citizen_0046" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1422_6" required-register-value="1">
+        <case npc-response="qrsp_1422_3" object="npc:CH_SA_Citizen_0046" progress-mission="y" type="approach" />
+        <case npc-response="qrsp_1422_12" object="npc:CH_SA_Citizen_0055" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1422_7" required-register-value="1">
+        <case npc-response="qrsp_1422_3" object2="npc:CH_SA_Citizen_0046" progress-mission="y" social="talksocial_console" type="pc-social" />
+        <case npc-response="qrsp_1422_12" object="npc:CH_SA_Citizen_0055" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1422_8" required-register-value="1">
+        <case npc-response="qrsp_1422_11" object="npc:CH_SA_Citizen_0054" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1422_12" object="npc:CH_SA_Citizen_0055" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1422_9" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1422_final_set1">
+        <case npc-response="qrsp_1422_3" object="npc:CH_SA_Citizen_0046" type="approach" />
+        <case npc-response="qrsp_1422_14" object="npc:CH_SA_Citizen_0055" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1423" />
+    </completion>
+  </quest>
+</table>

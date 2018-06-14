@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1651.xml-->
+  <quest alias="q_epic_1651" broadcast-category="field" category="epic" completed-desc="q_1651_completed" completed-list="y" desc="q_1651_sum" grade="1" group2="QG_WestLandEpic" id="1651" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1651" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="825" />
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1651_3" required-register-value="1">
+        <case mapunit-1="6565_e_button_6537_yongmak_01" object="zone:zone_YeonokVillage_Epic8_1" progress-mission="y" type="enter-zone" />
+        <case indicator="quest-epic-can-progress" mapunit-1="6565_e_button_6537_yongmak_01" object2="zoneenv2:e_button_6537_yongmak_01" progress-mission="reaction-only" type="manipulate" />
+        <case object="zone:zone_ChungunTree_Epic8_5" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1651_4" required-register-value="1">
+        <case mapunit-1="M_6552_ME_WA_Epic8_MyeongGye_0001_e_1651" npc-response="qrsp_1651_1" object="npc:ME_WA_Epic8_MyeongGye_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1651_5" required-register-value="1">
+        <case mapunit-1="M_e_Gate_6552_door_02_e_1651" object2="zoneenv2:e_Gate_6552_door_02" progress-mission="y" type="manipulate" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1651_6" required-register-value="8">
+        <case mapunit-1="M_6552_ME_WA_Epic8_0175_e_1651" object2="npc:ME_WA_Epic8_0179" progress-mission="y" type="killed" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+        <case acquire-quest="n" mapunit-1="M_6552_ME_WA_Epic8_0175_e_1651" object2="npc:ME_WA_Epic8_0178" progress-mission="y" type="killed" />
+        <case mapunit-1="M_6552_ME_WA_Epic8_0175_e_1651" object2="npc:ME_WA_Epic8_0177" progress-mission="y" type="killed" />
+        <case mapunit-1="M_6552_ME_WA_Epic8_0175_e_1651" object2="npc:ME_WA_Epic8_0176" progress-mission="y" type="killed" />
+        <case mapunit-1="M_6552_ME_WA_Epic8_0175_e_1651" object2="npc:ME_WA_Epic8_0175" progress-mission="y" type="killed" />
+        <case mapunit-1="M_6552_ME_WA_Epic8_0175_e_1651" object2="npc:ME_WA_Epic8_0180" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1651_7" required-register-value="1">
+        <case mapunit-1="M_6552_ME_WA_Dummy_0046_e_1651" object2="zoneenv2:6552_foot_7" progress-mission="y" type="env-entered" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1651_8" required-register-value="4">
+        <case mapunit-1="M_6552_ME_WA_Epic8_0177_e_1651" object2="npc:ME_WA_Epic8_0181" progress-mission="y" type="killed" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="M_6552_ME_WA_Epic8_0177_e_1651" object2="npc:ME_WA_Epic8_0179" progress-mission="y" type="killed" />
+        <case mapunit-1="M_6552_ME_WA_Epic8_0177_e_1651" object2="npc:ME_WA_Epic8_0177" progress-mission="y" type="killed" />
+        <case mapunit-1="M_6552_ME_WA_Epic8_0177_e_1651" object2="npc:ME_WA_Epic8_0175" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1651_9" required-register-value="1">
+        <case npc-response="qrsp_1651_2" object="npc:MH_WA_Epic8_0134" progress-mission="y" type="talk" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1651_10" required-register-value="1">
+        <case mapunit-1="M_6552_ME_WA_Dummy_0047_e_1651" object2="zoneenv2:6552_foot_3" progress-mission="y" type="env-entered" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1651_11" required-register-value="1">
+        <case mapunit-1="M_e_gate_6552_door_01_e_1651" object2="zoneenv2:e_wall_6552_door_01" progress-mission="y" type="killed" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1651_12" required-register-value="1">
+        <case npc-response="qrsp_1651_3" object="npc:ME_WA_Epic8_JinSeoYeon_0005" progress-mission="y" type="talk" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1651_13" required-register-value="1">
+        <case mapunit-1="M_6552_a_6552_50_e_1651" object="npc:ME_WA_Epic8_JinSeoYeon_0005" progress-mission="y" type="convoy-arrived" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2">
+        <case convoy="epic_1651_con_1" object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="convoy-failed" />
+      </mission-step-fail>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1651_14" required-register-value="1">
+        <case mapunit-1="M_6552_a_6552_50_e_1651" npc-response="qrsp_1651_4" object="npc:ME_WA_Epic8_MyeongGye_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1651_15" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1651_final_set1">
+        <case npc-response="qrsp_1651_5" object="npc:ME_WA_Epic8_JinSeoYeon_0005" progress-mission="y" type="talk" />
+        <case object="zone:zone_YeonokVillage_Epic8_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <transit id="2" zone="zone_YeonokVillage_D">
+      <destination mission-step-id="15" zone-index="1" />
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+    </transit>
+    <completion>
+      <next-quest quest="q_epic_1652" />
+    </completion>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1651_1" required-register-value="1">
+        <case mapunit-1="M_6565_MH_WA_Epic8_ChinChin_0011_e_1651" npc-response="qrsp_1651_7" object="npc:MH_WA_Epic8_ChinChin_0011" progress-mission="y" type="approach" />
+        <case object="zone:zone_ChungunTree_Epic8_5" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1651_2" required-register-value="1">
+        <case mapunit-1="M_6565_MH_WA_Epic8_ChinChin_0011_e_1651" npc-response="qrsp_1651_6" object="npc:MH_WA_Epic8_ChinChin_0011" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChungunTree_Epic8_5" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_ChungunTree_D">
+      <destination mission-step-id="2" zone-index="5" />
+      <destination mission-step-id="1" zone-index="5" />
+      <destination mission-step-id="3" zone-index="5" />
+    </transit>
+  </quest>
+</table>

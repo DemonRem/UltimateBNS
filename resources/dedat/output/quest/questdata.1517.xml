@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1517.xml-->
+  <quest alias="q_epic_1517" category="epic" completed-desc="q_1517_completed" completed-list="y" desc="q_1517_sum" grade="1" group2="QG_NextbaeCheongEpic3" id="1517" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1517" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="807" />
+    <completion>
+      <next-quest quest="q_epic_1518" />
+    </completion>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1517_1" required-register-value="1">
+        <case npc-response="qrsp_1517_1" object="npc:CH_SB_DongJinA_0003" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1517_2" required-register-value="1">
+        <case npc-response="qrsp_1517_5" object="npc:CH_SB_ChinChin_0010" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1517_4" required-register-value="9">
+        <case looting="q_1517_1_icon" mapunit-1="6170_ME_SB_AnthroCrocodile1_0001" mapunit-2="6170_ME_SB_AnthroCrocodile1_0002" object2="npc:ME_SB_AnthroCrocodile3_0004" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile3_0003" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile3_0002" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile3_0001" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile2_0004" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile2_0003" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile2_0002" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile2_0001" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile1_0005" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile1_0004" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile1_0002" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile1_0001" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile2_0008" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile1_0010" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile2_0007" progress-mission="y" type="loot" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile1_0009" progress-mission="y" type="loot" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+        <case looting="q_1517_1_icon" object2="npc:ME_SB_AnthroCrocodile1_0008" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1517_5" required-register-value="1">
+        <case mapunit-1="M_6174_zone_GeonWon_BeoRyeoJinSoup_Holyplace_1_e1517" object="zone:zone_GeonWon_BeoRyeoJinSoup_Holyplace_1" progress-mission="y" type="enter-zone" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1517_7" required-register-value="1">
+        <case object2="npc:me_sb_anthrocrocodile1_0003" progress-mission="y" type="killed" />
+        <case object="zone:zone_GeonWon_BeoRyeoJinSoup_Holyplace_1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1517_8" required-register-value="1">
+        <case object="zone:zone_GeonWon_BeoRyeoJinSoup_Holyplace_1" progress-mission="reaction-only" type="enter-zone" />
+        <case looting="q_1517_2_icon" mapunit-1="6174_e_Chest_6170_ControlPad_01" object2="zoneenv2:e_chest_6170_controlpad_01" progress-mission="y" type="loot" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1517_9" required-register-value="1">
+        <case npc-response="qrsp_1517_4" object="npc:CH_SB_DongJinA_0008" progress-mission="y" type="talk" />
+        <fixed-reward slot-1="item:Quest_Scroll_Geonwon_0001" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1517_10" required-register-value="1">
+        <case grocery="quest_scroll_geonwon_0001" item="Quest_Scroll_Geonwon_0001" msg="q_1517_7" progress-mission="y" required-item-1="quest_scroll_geonwon_0001" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+        <case npc-response="qrsp_1517_6" object="npc:CH_SB_DongJinA_0008" progress-mission="reaction-only" type="approach" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_GeonWon_BuYuHamDae">
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+    <transit id="2" zone="zone_GeonWon_BeoRyeoJinSoup_Holyplace_D">
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+    </transit>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1517_3" required-register-value="1">
+        <case mapunit-1="Guide_BeoRyeoJinSoup" mapunit-10="Guide_BeoRyeoJinSoup_6" npc-response="qrsp_1517_2" object="npc:CH_SB_DongJinA_0008" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1517_6" required-register-value="4">
+        <case object2="zoneenv2:e_Chest_6170_CrystalBall_04" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6170_CrystalBall_03" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_Chest_6170_CrystalBall_02" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6174_e_Chest_6170_CrystalBall_01" object2="zoneenv2:e_Chest_6170_CrystalBall_01" progress-mission="y" type="manipulate" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:zone_GeonWon_BeoRyeoJinSoup_Holyplace_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1517_11" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1517_final_set1">
+        <case npc-response="qrsp_1517_8" object="npc:CH_SB_DongJinA_0008" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_BuYuHamDae_Epic7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1410.xml-->
+  <quest activated-faction="factionmain1" alias="q_sub_1410" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1410_sum" grade="1" group2="QG_BaramCenter" id="1410" main-faction="factionmain1" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1410" reset-type="daily">
+    <acquisition faction="factionmain1" level="45" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" grocery="quest_scroll_backchung_0076" item="quest_scroll_backchung_0076" msg="q_1410_1" progress-mission="y" required-item-1="quest_scroll_backchung_0076" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1410_1" required-register-value="4">
+        <case mapunit-1="5500_e_chest_5500herb_01" mapunit-2="5500_e_chest_5500herb_01_1" object2="zoneenv2:e_chest_5500herb_01" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_02" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_03" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_04" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_05" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_06" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_07" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_08" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_09" progress-mission="y" type="manipulate" />
+        <case object2="zoneenv2:e_chest_5500herb_10" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1410_2" required-register-value="1" reward-1="1410_final_set1" reward-2="1410_final_set2">
+        <case npc-response="qrsp_q_1410_2" object="npc:ch_sa_bff_murimmedic_0001_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

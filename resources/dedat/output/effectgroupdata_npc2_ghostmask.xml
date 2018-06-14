@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
+  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_ghostmask.xml-->
+	<record alias="CMA_B1_GhostMask_DoubleSwing_E1_01" effect-1="ME_ID2_Common_Melee_Damage_180" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_DoubleSwing_E1_p" effect-1="ME_ID2_Common_Melee_Damage_180" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_DoubleSwing_E2_01" effect-1="ME_ID2_Common_Melee_Damage_180" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_DoubleSwing_E2_p" effect-1="ME_ID2_Common_Melee_Damage_180" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_Slash_E1_01" effect-1="ME_ID2_Common_Melee_Damage_270" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_SpeedSlash_E1_01" skill-result="All" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_SpeedSlash_E2_01" effect-1="ME_ID2_Common_Melee_Damage_330" effect-2="CMA_B1_GhostMask_Suicide_Slash" skill-result="All" target="first-second-target" target-state="all" target-state-first-filter="40006" target-state-second-filter="60291" />
+	<record alias="CMA_B1_GhostMask_SpeedSlash_E2_Easy" effect-1="CMA_B1_GhostMask_SpeedSlash_Easy" effect-2="CMA_B1_GhostMask_Suicide_Slash" skill-result="All" target="first-second-target" target-state="all" target-state-first-filter="40006" target-state-second-filter="60290" />
+	<record alias="CMA_B1_GhostMask_SpeedSlash_E2_02" effect-1="CMA_B1_GhostMask_SpeedSlash_Show" skill-result="All" target="first-second-target" target-state="enemy" target-state-first-filter="30000" />
+	<record alias="CMA_B1_GhostMask_SlashBoom_E1_01" effect-1="ME_ID2_Common_Melee_Damage_320" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_SlashBoom_E2_01" effect-1="ME_ID2_Common_Melee_Damage_320" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_SlashBoom_E3_01" effect-1="CMA_B1_GhostMask_Air" effect-2="ME_ID2_Common_Melee_Damage_320" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_SlashBoom_E4_01" effect-1="CMA_B1_GhostMask_Air" effect-2="ME_ID2_Common_Melee_Damage_320" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_SlashBoom_E5_01" effect-1="CMA_B1_GhostMask_Air" effect-2="ME_ID2_Common_Melee_Damage_320" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_BackAttack_E1_01" effect-1="ME_ID2_Common_Melee_Damage_270" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_BackAttack_E2_01" effect-1="ME_ID2_Common_Melee_Damage_270" effect-2="CMA_B1_GhostMask_Air" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_QuickAttack_E1_01" effect-1="ME_ID2_Common_Melee_Damage_170" effect-2="ME_ID2_Common_Stun_2000" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_RoundAttack_E1_01" effect-1="ME_ID2_Common_Melee_Damage_380" effect-2="CMA_B1_GhostMask_LowDown" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_RoundUp_E1_01" effect-1="ME_ID2_Common_Melee_Damage_280" effect-2="CMA_B1_GhostMask_Air" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_AirAttack_E1_01" effect-1="Destroyer_Common_dispel_midair1" effect-2="CMA_B1_GhostMask_RecallToCaster_Air" effect-3="CMA_B1_GhostMask_Link" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_AirAttack_E1_02" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_AirAttack_E2_01" effect-1="ME_ID2_Common_Melee_Damage_380" effect-2="Destroyer_Common_dispel_midair1" effect-3="Destroyer_Common_dispel_kneel" effect-4="CMA_B1_GhostMask_Unlink" effect-5="MH_Common_None_feedback_KnockbackC" effect-6="Common_ReactToDown_Flag_1000ms" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_Inhalation_E1_01" effect-1="Destroyer_Common_dispel_down" effect-2="Destroyer_Common_dispel_kneel" effect-3="Destroyer_Common_dispel_stun" effect-4="CMA_B1_GhostMask_RecallToCaster" effect-5="CMA_B1_GhostMask_Link" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_Inhalation_attack_all" effect-1="ME_ID2_Common_Melee_Damage_200" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_Inhalation_attack_Last" effect-1="ME_ID2_Common_Melee_Damage_200" effect-2="CMA_B1_GhostMask_Unlink" effect-3="CMA_B1_GhostMask_Suicide" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_BerSerk_Easy" effect-1="ME_ID2_Common_Melee_Damage_10" skill-result="All" target="second-target" target-state="enemy" target-state-first-filter="60290" />
+	<record alias="CMA_B1_GhostMask_BerSerk_all" effect-1="CMA_B1_GhostMask_Suicide" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_GroundAttack_all" effect-1="ME_ID2_Common_Melee_Damage_10" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_GroundAttack_Last" effect-1="ME_ID2_Common_Melee_Damage_10" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_Jump_E1_01" effect-1="ME_ID2_Common_Melee_Damage_280" effect-2="CMA_B1_GhostMask_Air" skill-result="All" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_FireWave_E1_01" effect-1="ME_ID2_Common_Melee_Damage_420" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_Explosion_E1_01" effect-1="ME_ID2_Common_Melee_Damage_240" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_Explosion_Last" effect-1="MH_Common_Suicide" effect-2="ME_ID2_Common_Melee_Damage_240" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_Explosion_Last_Easy" effect-1="ME_ID2_Common_Melee_Damage_240" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_GhostMask_CoolTime_E1_01" effect-1="Common_initialize_RecycleGroup_ALL" effect-2="CMA_B1_GhostMask_StackFlag" effect-3="CMA_B1_GhostMask_flagimmune" effect-4="CMA_B1_GhostMask_ImmuneDeath" skill-result="All" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B1_Dummy_AllDamage_Easy" skill-result="All" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B1_Dummy_AllDamage_all" effect-1="CMA_B1_GhostMask_Suicide_FireWall" skill-result="All" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B1_Dummy_Crack_E1_01" effect-1="CMA_B1_GhostMask_ImmuneDeath" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_Dummy_CrackShow_E1_01" effect-1="CMA_B1_GhostMask_ImmuneDeath" skill-result="All" target="second-target" target-state="enemy" />
+	<record alias="CMA_B1_Dummy_Spam_E1_01" effect-1="Common_Dispel_Attribute_Class17" effect-2="Common_Dispel_Attribute_NPC1" effect-3="CMA_B1_GhostMask_SpamDamage" effect-4="CMA_B1_GhostMask_ImmuneSpamDamage" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_Dummy_TargetSpam_E1_01" effect-1="ME_ID2_Common_Melee_Damage_10" effect-2="CMA_B1_GhostMask_Immune" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_Dummy_Targetcooltime_all" effect-1="Common_initialize_RecycleGroup_ALL" effect-2="CMA_B1_GhostMask_StackFlag" effect-3="CMA_B1_GhostMask_ImmuneDeath" skill-result="All" target="first-target" target-state="enemy" />
+	<record alias="CMA_B1_Dummy_Boom_E1_01" effect-1="CMA_B1_GhostMask_Suicide_Boom" skill-result="All" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B1_Dummy_Boom_Summoned" effect-1="CMA_B1_GhostMask_Suicide_Boom" skill-result="All" target="second-target" target-state="enemy" target-state-first-filter="50042" />
+	<record alias="CMA_B1_GhostMask_SpawnSkill_E1_01" effect-1="ME_ID2_Common_Melee_Damage_10" effect-2="MH_Common_None_feedback_KnockbackC" skill-result="All" target="second-target" target-state="all" />
+	<record alias="CMA_B1_GhostMask_SpeedSlashImmune_E1_01" effect-1="ME_ID2_Common_Melee_Damage_10" effect-2="CMA_B1_GhostMask_FireImmune" skill-result="All" target="first-second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B1_GhostMask_SpeedSlashImmune_Summoned" effect-1="ME_ID2_Common_Melee_Damage_10" effect-2="CMA_B1_GhostMask_FireImmune" skill-result="All" target="first-second-target" target-state="enemy" target-state-first-filter="50042" />
+	<record alias="CMA_B1_Dummy_ImmuneShow_E1_01" effect-1="CMA_B1_GhostMask_ImmuneDeath" effect-2="BBA_Dispel_modify-ability-321" skill-result="All" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B1_Dummy_Immuneloop_E1_01" effect-1="CMA_B1_GhostMask_ImmuneDeath" effect-2="BBA_Dispel_modify-ability-321" skill-result="All" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E1_01" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E1_p" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E2_01" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E2_p" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E3_01" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E3_p" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GhostWave_E1_01" effect-1="ME_ID2_Common_Melee_Damage_360" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GhostWave_E2_01" effect-1="ME_ID2_Common_Melee_Damage_360" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E1_01" effect-1="ME_ID2_Common_Melee_Damage_160" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E2_01" effect-1="ME_ID2_Common_Melee_Damage_160" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E3_01" effect-1="ME_ID2_Common_Melee_Damage_160" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E4_01" effect-1="ME_ID2_Common_Melee_Damage_160" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E5_01" effect-1="ME_ID2_Common_Melee_Damage_160" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Berserk_all" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Berserk_all_Summoned" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="50042" />
+	<record alias="CMA_B2_PekingOpera_Berserk_Summoned" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="50042" target-state-second-filter="60291" />
+	<record alias="CMA_B2_PekingOpera_Berserk_Hard" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="60291" />
+	<record alias="CMA_B2_PekingOpera_Berserk_Easy" effect-1="CMA_B2_PekingOpera_BoomEasy" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="60290" />
+	<record alias="CMA_B2_PekingOpera_Berserk_Summoned_Easy" effect-1="CMA_B2_PekingOpera_BoomEasy" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="50042" target-state-second-filter="60290" />
+	<record alias="CMA_B2_PekingOpera_GhostShot_E1_01" effect-1="ME_ID2_Common_Melee_Damage_360" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GhostShot_E2_01" effect-1="ME_ID2_Common_Melee_Damage_360" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Inhalation_Soul_E1_01" effect-1="CMA_B2_PekingOpera_EmberExplosion" effect-2="ME_ID2_Common_Melee_Damage_150" skill-result="front-hit-critical-hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Inhalation_Soul_E1_02" effect-1="ME_ID2_Common_Melee_Damage_150" skill-result="back-hit-critical-hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E1_01" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E2_01" effect-1="ME_ID2_Common_Melee_Damage_150" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E3_01" effect-1="ME_ID2_Common_Melee_Damage_150" effect-2="CMA_B2_PekingOpera_Stun" effect-3="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E3_Npc" effect-1="CMA_B2_PekingOpera_Stun" effect-2="CMA_B2_PekingOpera_NpcStun" effect-3="CMA_B2_PekingOpera_Speed_Dispel" effect-4="CMA_B2_Dummy_SpeedStack" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60162" target-state-second-filter="30000" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E3_Red" effect-1="CMA_B2_PekingOpera_Stun" effect-2="CMA_B2_PekingOpera_NpcStun" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E1_p" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E2_p" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E3_p" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Chain_E1_01" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_PekingOpera_SoulHeal_E1_01" effect-1="ME_ID2_Common_Melee_Damage_10" effect-2="CMA_B2_PekingOpera_GhostSphere_Act_Despawn" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Change_E1_01" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E1_p" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_01" effect-1="ME_ID2_Common_Melee_Damage_330" effect-2="PVE_Common_Stun_Earblock_1500ms" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_p" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_all" effect-1="CMA_B2_PekingOpera_Interval_Sphere" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_02" effect-1="CMA_B2_GhostMask_ChangeDamage" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" target-state-second-filter="60206" />
+	<record alias="CMA_B2_PekingOpera_Confinement_E1_01" effect-1="Destroyer_Common_dispel_down" effect-2="Destroyer_Common_dispel_kneel" effect-3="Destroyer_Common_dispel_stun" effect-4="CMA_B2_PekingOpera_Confinement_Air" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Confinement_E2_01" effect-1="Common_ReactToDown_Flag_1800ms" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Confinement_E3_01" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_InhalationWave_all" effect-1="Common_Freezing_dispelattribute" effect-2="CMA_B2_PekingOpera_Recall2Caster" effect-3="CMA_B2_PekingOpera_Recall2Air" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_SpinAttack_E1_01" effect-1="ME_ID2_Common_Melee_Damage_200" effect-2="CMA_B2_PekingOpera_KnockBackToDown" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_SpinAttack_p" effect-1="ME_ID2_Common_Melee_Damage_200" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Explosion_all" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_SeedInhalation_E1_01" effect-1="CMA_B2_PekingOpera_AttackUP" skill-result="all" target="first-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_ToPC_E1_01" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="60153" />
+	<record alias="CMA_B2_Dummy_ToPC_Mask" effect-1="CMA_B2_PekingOpera_ImmuneGhost" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="30000" target-state-second-filter="60153" />
+	<record alias="CMA_B2_Dummy_SeedChain_E1_01" effect-1="ME_ID2_Common_Melee_Damage_280" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="40006" />
+	<record alias="CMA_B2_Dummy_SeedChain_Npc" effect-1="CMA_B2_GhostMask_ChainCheck" effect-2="CMA_B2_PekingOpera_ImmuneChain" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_Dummy_PortalSpam_E1_01" effect-1="CMA_B2_GhostMask_PortalCheck" effect-2="CMA_B2_PekingOpera_ImmunePortalSpam" skill-result="all" target="second-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_01" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60151" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_02" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60067" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_03" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60313" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_04" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60311" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_05" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60309" />
+	<record alias="CMA_B2_Dummy_LinkSpam_E1_01" effect-1="CMA_B2_GhostMask_LinkCheck" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_ToPC_E1_01_Plus" effect-1="CMA_B2_PekingOpera_ImmunePlusSphere" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_Link_BossHeal" effect-1="CMA_B2_PekingOpera_LinkHeal" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_Dummy_Link2_BossHeal" effect-1="CMA_B2_PekingOpera_LinkHeal" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E1_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E1_p_Ex" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E2_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E2_p_Ex" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E3_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_ComboSlash_E3_p_Ex" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GhostWave_E1_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_600" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GhostWave_E2_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_600" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E1_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_160" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E2_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_160" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E3_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_160" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E4_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_160" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GroundSmash_E5_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_160" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Berserk_all_Ex" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_GhostShot_E1_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_360" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_GhostShot_E2_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_360" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Inhalation_Soul_E1_01_Ex" effect-1="CMA_B2_PekingOpera_EmberExplosion" effect-2="ME_ID2_Common_Melee_Damage_150" skill-result="front-hit-critical-hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Inhalation_Soul_E1_02_Ex" effect-1="ME_ID2_Common_Melee_Damage_150" skill-result="back-hit-critical-hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E1_01_Ex" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E2_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_150" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E3_01_Ex" effect-1="CMA_B2_PekingOpera_Stun" effect-2="ME_ID2_Common_Melee_Damage_150" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E1_p_Ex" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E2_p_Ex" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E3_p_Ex" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E3_Red_Ex" effect-1="CMA_B2_PekingOpera_Stun" effect-2="CMA_B2_PekingOpera_NpcStun" skill-result="all" target="second-target" target-state="all" target-state-second-filter="30000" />
+	<record alias="CMA_B2_PekingOpera_RiseAttack_E3_Npc_Ex" effect-1="CMA_B2_PekingOpera_Stun" effect-2="CMA_B2_PekingOpera_NpcStun" effect-3="CMA_B2_PekingOpera_Speed_Dispel" effect-4="CMA_B2_Dummy_SpeedStack" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60162" target-state-second-filter="30000" />
+	<record alias="CMA_B2_PekingOpera_Chain_E1_01_Ex" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_PekingOpera_SoulHeal_E1_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_10" effect-2="CMA_B2_PekingOpera_GhostSphere_Act_Despawn" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Change_E1_01_Ex" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E1_p_Ex" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E1_miss_Ex" skill-result="miss" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_01_Ex" effect-1="PVE_Common_Stun_Earblock_1500ms" effect-2="ME_ID2_Common_Melee_Damage_330" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_p_Ex" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_miss_Ex" skill-result="miss" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_all_Ex" effect-1="CMA_B2_PekingOpera_Interval_Sphere" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="40006" />
+	<record alias="CMA_B2_PekingOpera_Change_E2_02_Ex" effect-1="CMA_B2_GhostMask_ChangeDamage" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_PekingOpera_Confinement_E1_01_Ex" effect-1="Destroyer_Common_dispel_down" effect-2="Destroyer_Common_dispel_kneel" effect-3="Destroyer_Common_dispel_stun" effect-4="CMA_B2_PekingOpera_Confinement_Air" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Confinement_E2_01_Ex" effect-1="CMA_B2_PekingOpera_Kneel" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Confinement_E3_01_Ex" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_InhalationWave_all_Ex" effect-1="Common_Freezing_dispelattribute" effect-2="CMA_B2_PekingOpera_Recall2Caster" effect-3="CMA_B2_PekingOpera_Recall2Air" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_SpinAttack_all_Ex" effect-1="ME_ID2_Common_Melee_Damage_200" effect-2="CMA_B2_PekingOpera_KnockBackToDown" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_SpinAttack_p_Ex" effect-1="ME_ID2_Common_Melee_Damage_200" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Explosion_all_Ex" effect-1="CMA_B2_PekingOpera_Suicide" skill-result="all" target="first-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_SeedInhalation_E1_01_Ex" effect-1="CMA_B2_PekingOpera_AttackUP" skill-result="all" target="first-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_ToPC_E1_01_Ex" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="60153" />
+	<record alias="CMA_B2_Dummy_ToPC_Mask_Ex" effect-1="CMA_B2_PekingOpera_ImmuneGhost" skill-result="all" target="second-target" target-state="enemy" target-state-first-filter="30000" target-state-second-filter="60153" />
+	<record alias="CMA_B2_Dummy_SeedChain_E1_01_Ex" effect-1="ME_ID2_Common_Melee_Damage_280" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="40006" />
+	<record alias="CMA_B2_Dummy_SeedChain_Npc_Ex" effect-1="CMA_B2_GhostMask_ChainCheck" effect-2="CMA_B2_PekingOpera_ImmuneChain" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_Dummy_PortalSpam_E1_01_Ex" effect-1="CMA_B2_GhostMask_PortalCheck" effect-2="CMA_B2_PekingOpera_ImmunePortalSpam" skill-result="all" target="second-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_01_Ex" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60151" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_02_Ex" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60067" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_03_Ex" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60313" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_04_Ex" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60311" />
+	<record alias="CMA_B2_Dummy_BoomSpam_E1_05_Ex" effect-1="CMA_B2_GhostMask_BoomCheck" effect-2="CMA_B2_PekingOpera_ImmuneBoomSpam" skill-result="all" target="second-target" target-state="all" target-state-first-filter="60309" />
+	<record alias="CMA_B2_Dummy_LinkSpam_E1_01_Ex" effect-1="CMA_B2_GhostMask_LinkCheck" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_PekingOpera_Chain_Ex_E1_01_Ex" skill-result="all" target="second-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_ToPC_Plus_E1_01_Ex" effect-1="CMA_B2_PekingOpera_ImmunePlusSphere" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_Link_BossHeal_Ex" effect-1="CMA_B2_PekingOpera_LinkHeal_Ex" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_Dummy_Link2_BossHeal_Ex" effect-1="CMA_B2_PekingOpera_LinkHeal_Ex" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_B2_Dummy_CheckPC_E1_01" effect-1="CMA_B2_PekingOpera_CheckPC" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_HateCheckPC_E1_01" effect-1="CMA_B2_PekingOpera_CheckPC_State3" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_HateCheckNPC_E1_01" skill-result="all" target="second-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_RoundArea_E1_01" effect-1="CMA_B2_PekingOpera_AreaKill_Long" skill-result="all" target="second-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_RingArea_E1_01" effect-1="CMA_B2_PekingOpera_AreaKill_,Dispel" skill-result="all" target="second-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_Inhalation_E1_01" effect-1="CMA_B2_PekingOpera_Heal" skill-result="all" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_B2_Dummy_GhostKnockback_E1_01" effect-1="CMA_B1_GhostMask_KnockBack" effect-2="Common_ReactToDown_Flag_1000ms" skill-result="all" target="second-target" target-state="all" target-state-first-filter="40006" />
+	<record alias="CMA_B2_Dummy_RoundMulti_E1_01" effect-1="CMA_B2_PekingOpera_AreaKill_Long" skill-result="all" target="second-target" target-state="all" target-state-first-filter="40006" target-state-second-filter="60290" />
+	<record alias="CMA_B2_Dummy_RoundMulti_Easy" effect-1="CMA_B2_PekingOpera_AreaKill_Long" skill-result="all" target="second-target" target-state="all" target-state-first-filter="40006" target-state-second-filter="60291" />
+	<record alias="CMA_B1_Dummy_ResetSpawn_all" effect-1="CMA_B1_Dummy_SpeedUp_Dispel" effect-2="CMA_B2_PekingOpera_GhostSphere_InAct_Dispel" effect-3="CMA_B2_PekingOpera_Linkflag_Dispel" effect-4="CMA_B2_PekingOpera_ImmuneLinkSpam_Dispel" effect-5="CMA_B2_PekingOpera_Shield_Dispel" effect-6="CMA_B2_Dummy_DOT_Dispel" effect-7="CMA_B2_PekingOpera_Portal_Confine_Dispel" effect-8="CMA_B2_PekingOpera_BerSerk_Dispel" skill-result="all" target="first-second-target" target-state="all" />
+	<record alias="CMA_B1_Dummy_ResetSpawn_all2" effect-1="CMA_B2_PekingOpera_LongKneel_Dispel" effect-2="CMA_B2_PekingOpera_AreaKill_Dispel" effect-3="CMA_B2_PekingOpera_AreaPC_Dispel" effect-4="CMA_B2_PekingOpera_DonutDispel" effect-5="CMA_B2_PekingOpera_Speed_Dispel" effect-6="CMA_B1_GhostMask_Flag_Dispel" effect-7="CMA_B2_PekingOpera_Reduce_HealPower_Dispel" effect-8="ForceMaster_Deal_dispel_embers" skill-result="all" target="first-second-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_CheckSummoned_E1_01" effect-1="CMA_B2_PekingOpera_ImmuneChain" skill-result="all" target="second-target" target-state="all" />
+	<record alias="CMA_B2_Dummy_DeathDispel_E1_01" effect-1="CMA_B2_PekingOpera_AreaKill_Dispel" effect-2="CMA_B2_Dummy_DOT_Dispel" effect-3="CMA_B2_PekingOpera_Reduce_HealPower_Dispel" skill-result="all" target="second-target" target-state="all" />
+	<record alias="CMA_V1_Warlock_TargetBeam_E1_01" effect-1="ME_ID2_Common_Force_Damage_190" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_TargetBeam_E1_p" effect-1="ME_ID2_Common_Force_Damage_190" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_BigLB_E1_01" effect-1="ME_ID2_Common_Force_Damage_180" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_BigLB_E1_p" effect-1="ME_ID2_Common_Force_Damage_180" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_EventTargetNuke_E1_01" effect-1="ME_ID2_Common_Force_Damage_140" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_EventTargetNuke_E1_p" effect-1="ME_ID2_Common_Force_Damage_140" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_Command_E1_01" effect-1="ME_ID2_Common_Force_Damage_300" effect-2="MH_MS3_B2_Warlock_RangeMoveBlock_Dashblock" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_Command_E1_p" effect-1="ME_ID2_Common_Force_Damage_300" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_RangeCC_E1_01" effect-1="ME_ID2_Common_Force_Damage_110" effect-2="ME_ID2_Common_Down_3000" effect-3="Common_ReactToDown_Flag" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_RangeCC_E1_p" effect-1="ME_ID2_Common_Force_Damage_110" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_Laser_E1_01" effect-1="ME_ID2_Common_Force_Damage_130" effect-2="MH_Common_None_feedback_KnockbackD" effect-3="Common_ReactToDown_Flag_700ms" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_Laser_E1_p" effect-1="ME_ID2_Common_Force_Damage_130" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_GroundAttack_E1_01" effect-1="ME_ID2_Common_Force_Damage_100" effect-2="Common_Bleeding" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_GroundAttack_Pawn" effect-1="CMA_V1_LittlePawn_10per" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_V1_Warlock_RangeMoveBlock_E1_01" effect-1="ME_ID2_Common_Force_Damage_70" effect-2="MH_MS3_B2_Warlock_RangeMoveBlock_MoveBlock" effect-3="MH_MS3_B2_Warlock_RangeMoveBlock_Dashblock" effect-4="Common_Bleeding" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_RangeMoveBlock_E1_p" effect-1="ME_ID2_Common_Force_Damage_70" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="CMA_V1_Warlock_RangeMoveBlock_Pawn" effect-1="CMA_V1_LittlePawn_30per" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_V2_Dummy_FireWall_Death" effect-1="CMA_V2_Firewall" skill-result="all" target="second-target" target-state="all" target-state-first-filter="40006" />
+	<record alias="CMA_V2_Dummy_FireWall_Death_Summoned" effect-1="CMA_V2_Firewall" skill-result="all" target="second-target" target-state="all" target-state-first-filter="50042" />
+	<record alias="CMA_B2_Dummy_Link2_BossHeal_Easy" effect-1="CMA_B2_PekingOpera_LinkHeal_Easy" skill-result="all" target="first-second-target" target-state="all" target-state-first-filter="30000" />
+	<record alias="CMA_V2_Dummy_FireWall_NPC" effect-1="ME_ID2_Common_Force_Damage_70" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" />
+</table>

@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="skill-training-sequence" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skilltrainingsequencedata_forcemaster.xml-->
+
+  
+
+  
+  
+  <skill-training-sequence alias="FM_Fire_01_Sub_01_Seq" repeat-count="2">
+	  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="13" variation-id-2="53" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="13" variation-id-2="53" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="13" variation-id-2="53" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_01_Sub_02_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="12" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="13" variation-id-2="53" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_01_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22004" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_01_Sub_04_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22005" skill-2="22005" skill-3="22005" skill-4="22005" variation-id-1="11" variation-id-2="51" variation-id-3="12" variation-id-4="52" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_01_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22005" skill-2="22005" skill-3="22005" skill-4="22005" variation-id-1="11" variation-id-2="51" variation-id-3="12" variation-id-4="52" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22009" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_01_Sub_06_Seq" repeat-count="2">
+    <step result-1="miss" result-event-type-1="attacked" sequence-step-type="skill" skill-1="22303" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="FM_Fire_02_Sub_01_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22002" skill-2="22002" variation-id-1="13" variation-id-2="53" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_02_Sub_02_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step caster-pass-effect="ForceMaster_Deal_fire_bit_missile_bit_Lv1_Firebuff" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22203" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_02_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22107" skill-2="22107" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_02_Sub_04_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step caster-pass-effect="ForceMaster_Deal_fire_blast_Lv1_FastCast" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22002" skill-2="22002" variation-id-1="13" variation-id-2="53" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22107" skill-2="22107" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_02_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22004" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_02_Sub_06_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22004" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+  
+
+  
+  
+  
+  <skill-training-sequence alias="FM_Fire_03_Sub_01_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22109" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="12" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="13" variation-id-2="53" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="12" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="13" variation-id-2="53" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_03_Sub_02_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22109" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="12" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22201" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_03_Sub_03_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="12" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22205" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_03_Sub_04_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22105" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_03_Sub_05_Seq" repeat-count="2">
+    <step effect="ForceMaster_Deal_energy_wall_Lv2_frostshield" result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="effect" skill-1="22208" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="FM_Fire_04_Sub_01_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="100" sequence-step-type="skill" skill-1="22001" variation-id-1="12" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="600" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="13" variation-id-2="53" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="100" sequence-step-type="skill" skill-1="22001" variation-id-1="12" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="600" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="13" variation-id-2="53" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_04_Sub_02_Seq" repeat-count="2">
+    <step result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="skill" skill-1="22200" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Fire_04_Sub_03_Seq" repeat-count="2">
+    <step effect="ForceMaster_Deal_friend_rapid_cooling_Lv1_fastfreezing" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="22202" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+
+  
+
+  
+  
+  <skill-training-sequence alias="FM_Ice_01_Sub_01_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_01_Sub_02_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="22" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_01_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22004" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_01_Sub_04_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22005" skill-2="22005" skill-3="22005" skill-4="22005" variation-id-1="21" variation-id-2="61" variation-id-3="22" variation-id-4="62" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_01_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22005" skill-2="22005" skill-3="22005" skill-4="22005" variation-id-1="21" variation-id-2="61" variation-id-3="22" variation-id-4="62" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22009" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_01_Sub_06_Seq" repeat-count="2">
+    <step result-1="miss" result-event-type-1="attacked" sequence-step-type="skill" skill-1="22304" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="FM_Ice_02_Sub_01_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="22" />
+    <step caster-pass-effect="ForceMaster_Deal_ice_bit_missile_Lv1_Icebuff" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22204" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_02_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22106" variation-id-1="21" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_02_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22108" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_02_Sub_04_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22108" variation-id-1="21" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="22" />
+    <step caster-pass-effect="ForceMaster_Deal_fast_energy_missile_Lv23_MRT3" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22002" skill-2="22002" variation-id-1="23" variation-id-2="63" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_02_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22004" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_02_Sub_06_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22004" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+
+  
+  
+  <skill-training-sequence alias="FM_Ice_03_Sub_01_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="22001" variation-id-1="22" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22205" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_03_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="22105" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_03_Sub_03_Seq" repeat-count="2">
+    <step effect="ForceMaster_Deal_energy_wall_Lv2_frostshield" result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="effect" skill-1="22208" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="FM_Ice_04_Sub_01_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="100" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="22001" variation-id-1="22" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="600" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="100" sequence-step-type="skill" skill-1="22000" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="300" sequence-step-type="skill" skill-1="22001" variation-id-1="22" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="600" sequence-step-type="skill" skill-1="22003" skill-2="22003" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_04_Sub_02_Seq" repeat-count="2">
+    <step result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="skill" skill-1="22200" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="FM_Ice_04_Sub_03_Seq" repeat-count="2">
+    <step effect="ForceMaster_Deal_friend_rapid_cooling_Lv1_fastfreezing" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="22202" variation-id-1="21" />
+  </skill-training-sequence>
+
+</table>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28475.xml-->
+	<quest alias="tq_28475" category="tendency-tendency" id="28475" max-repeat="-1" name2="tq_28475_mission_text" save-type="except-completion-and-logout-save">
+		<mission-step id="1">
+			<mission id="1" name2="tq_28475_mission_text" required-attraction="tendency-field:Tendency_BuYuDo" tendency-id="1" variation-required-condition-type="faction-score" variation-required-condition-value-1="0" variation-required-field-play-point-1="0" variation-required-register-value-1="1" variation-reward-faction-score-1="24" variation-reward-field-play-point-1="162" variation-reward-tendency-score-1="162">
+				<case looting="q_28475_1_icon" multi-object-1="npc:ME_WC_Nucleus_0004" progress-mission="y" type="loot" />
+			</mission>
+		</mission-step>
+	</quest>
+</table>

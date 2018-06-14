@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1690.xml-->
+  <quest alias="q_sub_1690" category="normal" desc="q_1690_sum" grade="1" group2="QG_Craft" id="1690" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1690" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1429" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" item="q_1690_1_icon" msg="q_1690_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1690_1" required-register-value="1">
+        <case npc-response="qrsp_1690_2" object="npc:ch_ct_jangsajang_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1690_2" required-register-value="1">
+        <case npc-response="qrsp_1690_3" object="npc:CH_SA_Produce_PotionMaker_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1690_3" required-register-value="1">
+        <case npc-response="qrsp_1690_4" object="npc:CH_SA_Produce_GemMaker_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1690_4" required-register-value="1">
+        <case npc-response="qrsp_1690_5" object="npc:CH_SA_Produce_Shaman_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1690_5" required-register-value="1">
+        <case npc-response="qrsp_1690_6" object="npc:CH_SA_Produce_Cook_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1690_6" required-register-value="1">
+        <case npc-response="qrsp_1690_7" object="npc:CH_SA_Produce_AccMaker_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1690_7" required-register-value="1">
+        <case npc-response="qrsp_1690_8" object="npc:CH_SA_Produce_Blacksmith_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1690_8" required-register-value="1" reward-1="1690_final_set1">
+        <case npc-response="qrsp_1690_9" object="npc:ch_ct_jangsajang_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

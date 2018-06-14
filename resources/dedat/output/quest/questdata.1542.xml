@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1542.xml-->
+  <quest alias="q_epic_1542" broadcast-category="field" category="epic" completed-desc="q_1542_completed" completed-list="y" desc="q_1542_sum" grade="1" group2="QG_Tutorial_45LV" id="1542" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1542" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition level="1" recommended-level="45" sort-no="101" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1542_1" required-register-value="1">
+        <case npc-response="qrsp_1542_1" object="npc:CH_WC_CheonJinGwon_0001" progress-mission="y" type="talk" />
+        <case approach-talk="y" object="npc:CH_WC_CheonJinGwon_0001" type="approach" />
+        <case object="zone:zone_YoungRinBong_tutorial_45lv" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1542_2" required-register-value="1">
+        <case npc-response="qrsp_1542_2" object="npc:CH_WC_CheonJinGwon_0001" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step guide-message="gm_1542_1" id="3">
+      <mission id="3" name2="Mission.Name2.1542_3" required-register-value="1">
+        <case npc-response="qrsp_1542_3" object2="npc:CH_WC_CheonJinGwon_0001" progress-mission="y" social="talksocial_bow1" type="pc-social" />
+        <case object="zone:zone_YoungRinBong_tutorial_45lv" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1542_4" required-register-value="1">
+        <case npc-response="qrsp_1542_4" object="npc:CH_WC_CheonJinGwon1F_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1542_16" object="npc:CH_WC_YuRan1F_0001" progress-mission="reaction-only" type="approach" />
+        <case approach-talk="y" object="npc:CH_WC_CheonJinGwon1F_0001" type="approach" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1542_5" required-register-value="1">
+        <case npc-response="qrsp_1542_5" object="npc:CH_WC_YuRan1F_0001" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1542_6" required-register-value="1">
+        <case npc-response="qrsp_1542_6" object="npc:CH_WC_Manager1F_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="or" id="7">
+      <mission id="7" name2="Mission.Name2.1542_7" required-register-value="1">
+        <case faction="factionmain1" npc-response-1="qrsp_1542_7" npc-response-2="qrsp_1542_8" npc-response-3="qrsp_1542_9" object="npc:CH_WC_HongSam1F_0001" progress-mission="y" type="join-faction" />
+        <case faction="factionmain1" npc-response-1="qrsp_1542_10" npc-response-2="qrsp_1542_11" npc-response-3="qrsp_1542_12" object="npc:CH_WC_SuSam1F_0001" progress-mission="y" type="join-faction" />
+        <fixed-reward job-1="job-none" slot-1="item:quest_costum_dress_1027" />
+        <case npc-response="qrsp_1542_13" object="npc:CH_WC_Manager1F_0001" type="approach" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission id="8" name2="Mission.Name2.1542_8" required-register-value="1">
+        <case faction="factionmain2" npc-response-1="qrsp_1542_10" npc-response-2="qrsp_1542_11" npc-response-3="qrsp_1542_12" object="npc:CH_WC_SuSam1F_0001" progress-mission="y" type="join-faction" />
+        <case faction="factionmain2" npc-response-1="qrsp_1542_7" npc-response-2="qrsp_1542_8" npc-response-3="qrsp_1542_9" object="npc:CH_WC_HongSam1F_0001" progress-mission="y" type="join-faction" />
+        <fixed-reward job-1="job-none" slot-1="item:quest_costum_dress_1018" />
+        <case npc-response="qrsp_1542_13" object="npc:CH_WC_Manager1F_0001" type="approach" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="9" name2="Mission.Name2.1542_9" required-register-value="1" reward-1="1542_final_set1">
+        <case npc-response="qrsp_1542_14" object="npc:CH_WC_Manager1F_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_MusinTower_tutorial_45lv_01" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest job-1="기권사" quest="q_epic_1543" />
+    </completion>
+  </quest>
+</table>

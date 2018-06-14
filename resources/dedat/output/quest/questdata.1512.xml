@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1512.xml-->
+  <quest alias="q_epic_1512" broadcast-category="field" category="epic" completed-desc="q_1512_completed" completed-list="y" desc="q_1512_sum" grade="1" group2="QG_NextbaeCheongEpic3" id="1512" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1512" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="802" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1512_1" required-register-value="1">
+        <case mapunit-1="6131_gaebang_e1512" mapunit-10="Guide_GaeBang_3" object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1512_2" required-register-value="1">
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1512_2" object="npc:CH_WA_Citizen_0025" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1512_5" required-register-value="2">
+        <case object="npc:ch_wa_heajuk_a1_0003" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="npc:ch_wa_heajuk_a1_0002" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1512_7" required-register-value="1">
+        <case npc-response="qrsp_1512_4" object="npc:CH_WA_Citizen_0044" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1512_8" required-register-value="1">
+        <case mapunit-1="6131_foot_3" object="npc:ME_WA_Dummy_0021" progress-mission="y" type="approach" />
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1512_9" required-register-value="1">
+        <case object="npc:ch_wa_bff_murimfactionboss_0001" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="npc:ch_wa_bff_murimfactionboss_0002" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="8" />
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1513" />
+    </completion>
+    <transit id="1" zone="zone_GeonWon_GaeBang_D">
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+    </transit>
+    <mission-step hide="n" id="10">
+      <mission id="10" name2="Mission.Name2.1512_10" required-register-value="1">
+        <case npc-response="qrsp_1512_6" object="npc:ch_wa_bff_murimfactionboss_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1512_6" object="npc:ch_wa_bff_murimfactionboss_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step hide="n" id="11">
+      <mission id="11" name2="Mission.Name2.1512_11" required-register-value="1">
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="6131_MH_WA_Chawoonhang_0031_e1512" object2="npc:CH_WA_Chawoonhang_0024" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="10" />
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1512_12" required-register-value="1" reward-1="1512_final_set1">
+        <case mapunit-1="6131_end_e1512" npc-response="qrsp_1512_7" object="npc:ch_wa_bff_murimfactionboss_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1512_3" required-register-value="1">
+        <case npc-response="qrsp_1512_3" object="npc:CH_WA_Citizen_0044" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1512_6" required-register-value="1">
+        <case object="npc:ME_WA_Dummy_0020" progress-mission="y" type="approach" />
+        <case object="zone:zone_GeonWon_GaeBang_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1512_4" required-register-value="1">
+        <case object="npc:ME_WA_Dummy_0019" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+  </quest>
+</table>

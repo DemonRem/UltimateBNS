@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="skill-training-sequence" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skilltrainingsequencedata_assassin.xml-->
+
+  
+
+  
+  
+  <skill-training-sequence alias="AS_Void_01_Sub_01_Seq" repeat-count="2">
+	  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_01_Sub_02_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-count="5" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25012" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="11" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_01_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-count="5" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25012" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="11" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25000" skill-2="25000" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25000" skill-2="25000" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25000" skill-2="25000" variation-id-1="11" variation-id-2="51" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_01_Sub_04_Seq" repeat-count="2">
+    <step include-inheritance-skill="n" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" variation-id-1="13" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_01_Sub_05_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="25005" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25023" target-pass-state="kneel" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_01_Sub_06_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25007" skill-2="25007" target-pass-state="down" variation-id-1="12" variation-id-2="52" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_01_Sub_07_Seq" repeat-count="2">
+    <step effect="Assassin3_Disturb_SideStep_Lv1_Immune" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="25024" variation-id-1="11" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="AS_Void_02_Sub_01_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25012" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="12" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25000" skill-2="25000" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25034" variation-id-1="11" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25000" skill-2="25000" variation-id-1="11" variation-id-2="51" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25034" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_02_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_02_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25023" target-pass-state="kneel" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_02_Sub_04_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_02_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  
+  
+  <skill-training-sequence alias="AS_Void_03_Sub_01_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25007" skill-2="25007" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="13" variation-id-2="53" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="13" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25017" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25142" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_03_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25012" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="12" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25128" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25142" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_03_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="13" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_03_Sub_04_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="25005" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25023" target-pass-state="kneel" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_03_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-state="down" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_03_Sub_06_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_03_Sub_07_Seq" repeat-count="2">
+    <step result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="skill" skill-1="25016" variation-id-1="12" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="AS_Void_04_Sub_01_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25000" skill-2="25000" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25034" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25000" skill-2="25000" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25034" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_04_Sub_02_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25034" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25034" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25034" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25003" skill-2="25003" variation-id-1="11" variation-id-2="51" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25034" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_04_Sub_03_Seq" repeat-count="2">
+    <step effect="Assassin3_Disturb_ShadowDance_Lv1_Immune" result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="effect" skill-1="25009" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_04_Sub_04_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="25005" />
+    <step effect="Assassin_Disturb_WoodBlock_Defend_Lv2" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="25405" variation-id-1="11" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Void_04_Sub_05_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" include-inheritance-skill="n" sequence-step-type="skill" skill-1="25214" skill-2="25214" variation-id-1="13" variation-id-2="53" />
+  </skill-training-sequence>
+
+
+
+
+
+
+
+  
+
+  
+  
+  <skill-training-sequence alias="AS_Lightning_01_Sub_01_Seq" repeat-count="2">
+    <step caster-pass-effect="Assassin3_Common_Hide_Passive" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25008" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_01_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="23" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_01_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="23" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25111" variation-id-1="23" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_01_Sub_04_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="23" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_01_Sub_05_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="25005" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25023" target-pass-state="kneel" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_01_Sub_06_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25007" skill-2="25007" target-pass-state="down" variation-id-1="22" variation-id-2="62" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_01_Sub_07_Seq" repeat-count="2">
+    <step effect="Assassin3_Disturb_SideStep_Lv1_Immune" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="25024" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="AS_Lightning_02_Sub_01_Seq" repeat-count="2">
+    <step caster-pass-effect="Assassin3_Common_Hide_Passive" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25008" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25034" variation-id-1="21" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25034" variation-id-1="21" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25034" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_02_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25012" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="22" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25034" variation-id-1="21" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25142" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_02_Sub_03_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_02_Sub_04_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25023" target-pass-state="kneel" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_02_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_02_Sub_06_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="AS_Lightning_03_Sub_01_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25012" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="22" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25128" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25034" variation-id-1="21" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25142" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_03_Sub_02_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-count="1" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-effect="Assassin3_Poison_Lv1" variation-id-1="23" />
+    <step caster-pass-state="hide" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25041" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_03_Sub_03_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="25005" />
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25023" target-pass-state="kneel" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_03_Sub_04_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25006" target-pass-state="down" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_03_Sub_05_Seq" repeat-count="2">
+    <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" sequence-step-type="skill" skill-1="25120" target-pass-state="stun" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_03_Sub_06_Seq" repeat-count="2">
+    <step result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="skill" skill-1="25016" variation-id-1="22" />
+  </skill-training-sequence>
+
+
+  
+  
+  <skill-training-sequence alias="AS_Lightning_04_Sub_01_Seq" repeat-count="1">
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25034" variation-id-1="21" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25142" variation-id-1="21" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25034" variation-id-1="21" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="200" sequence-step-type="skill" skill-1="25103" skill-2="25103" variation-id-1="21" variation-id-2="61" />
+    <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="400" sequence-step-type="skill" skill-1="25142" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_04_Sub_02_Seq" repeat-count="2">
+    <step effect="Assassin3_Disturb_ShadowDance_Lv1_Immune" result-1="miss" result-count="3" result-event-type-1="attacked" sequence-step-type="effect" skill-1="25009" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_04_Sub_03_Seq" repeat-count="2">
+    <step check-only-cast-skill="y" sequence-step-type="skill" skill-1="25005" />
+    <step effect="Assassin_Disturb_WoodBlock_Defend_Lv2" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="25405" variation-id-1="21" />
+  </skill-training-sequence>
+
+  
+  <skill-training-sequence alias="AS_Lightning_04_Sub_04_Seq" repeat-count="2">
+    <step caster-pass-effect="Assassin3_Disturb_RapidCooling_Lv41_PartyBuff" sequence-step-type="skill" skill-1="25214" skill-2="25214" variation-id-1="23" variation-id-2="63" />
+  </skill-training-sequence>
+
+</table>

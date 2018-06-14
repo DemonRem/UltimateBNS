@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1462.xml-->
+  <quest alias="q_sub_1462" attraction-1="classic-field-zone:Windplain_Majuk" attraction-2="cave2:Cave_none_0259" attraction-info="classic-field-zone:Windplain_Majuk" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1462_sum" grade="6" group2="QG_BaramMajyeock" id="1462" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1462" reset-type="daily" save-type="all">
+    <acquisition level="45" preceding-quest-1="q_epic_1420" preceding-quest-2="q_epic_293" preceding-quest-3="q_epic_1545" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1462_1" object="npc:ch_sa_baramcontents_0012" type="talk" />
+      <case acquire-quest="y" completion-count="1" indicator="quest-board-start" npc-response="qrsp_1462_3" object="npc:ce_sa_bff_wind_board_0002" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1462_1" required-register-value="30">
+        <case object2="npc:me_sa_noklimdo_0076" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0079" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0014" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0075" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0078" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0013" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0017" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0082" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0058" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0057" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0081" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0016" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_belliedfirefrog_0003" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_belliedfirefrog_0002" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_belliedfirefrog_0001" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_belliedfrog_0015" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_belliedfrog_0011" progress-mission="y" type="killed" />
+        <case mapunit-1="5503_Monster_Range_00" mapunit-10="5503_Monster_Range_01" mapunit-2="5503_Monster_Range_02" mapunit-3="5503_Monster_Range_03" mapunit-4="5503_Monster_Range_04" mapunit-5="5503_Monster_Range_05" mapunit-6="5503_Monster_Range_06" object2="npc:me_sa_belliedfrog_0002" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_belliedfirefrog_0004" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0091" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_frogtribec_0007" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_frogtribec_0005" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_frogtribec_0002" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_frogtribec_0001" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_frogtribec_0004" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_frogtribec_0006" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0092" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0093" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0094" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0095" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0096" progress-mission="y" type="killed" />
+        <case object2="npc:me_sa_noklimdo_0097" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1462_2" required-register-value="1" reward-1="1462_final_set1" reward-2="1462_final_set2">
+        <case npc-response="qrsp_1462_2" object="npc:ch_sa_baramcontents_0012" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1462_1_icon" msg="q_1462_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

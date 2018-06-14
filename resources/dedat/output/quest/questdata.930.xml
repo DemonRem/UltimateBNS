@@ -1,11 +1,34 @@
-<?xml version='1.0' encoding='utf-8'?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.218">
-	<quest alias="q_epic_930" broadcast-category="field" category="epic" completed-desc="q_930_completed" completed-list="y" desc="q_930_sum" district-1="suwal" grade="1" group2="QG_BaeCheongEpic" id="930" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.930" save-type="all">
-		<acquisition level="1" preceding-quest-check="and" recommended-level="46" sort-no="429"/>
-		<mission-step id="1">
-			<mission id="1" name2="Mission.Name2.930_1" required-register-value="1">
-				<case npc-response="qrsp_930_1" object="npc:ch_yuran_0003" type="talk"/>
-			</mission>
-		</mission-step>
-	</quest>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.930.xml-->
+  <quest alias="q_epic_930" broadcast-category="field" category="epic" completed-desc="q_930_completed" completed-list="n" desc="q_930_sum" district-1="suwal" grade="1" group2="QG_BaeCheongEpic" id="930" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.930" retired="y" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="45" sort-no="429" />
+    <mission-step id="1" location-x="-3549.48" location-y="12339.97" map="haenamumaeulicheung" mission-map-type="location">
+      <mission id="1" name2="Mission.Name2.930_1" required-register-value="1">
+        <case npc-response="qrsp_930_1" object="npc:CH_YuRan_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.930_2" required-register-value="1">
+        <case grocery-count="1" mapunit-1="4900_MaDoSinGong_e-" npc-response="qrsp_930_5" object="npc:CH_CT_Citizen_0450" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_930_6" object="npc:CH_YuRan_0002" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.930_3" required-register-value="1">
+        <case mapunit-1="4000_zone_bunongchon_l_e930" object="zone:zone_bunongchon_l" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.930_4" required-register-value="1" reward-1="930_final_set1">
+        <case npc-response="qrsp_930_4" object="npc:CH_CT_YuRan_0009" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_260" />
+    </completion>
+    <transit id="1" zone="Zone_MaDoSingong_Defalt">
+      <destination mission-step-id="2" zone-index="1" />
+    </transit>
+  </quest>
 </table>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1218.xml-->
+  <quest alias="q_epic_1218" broadcast-category="field" category="epic" completed-desc="q_1218_completed" completed-list="y" desc="q_1218_sum" grade="1" group2="QG_Toturial" id="1218" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.1218" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition level="1" recommended-level="3" sort-no="104" />
+    <mission-step desc="q_1218_des_1" guide-message="gm_1218_1" id="1" use-auto-navigation="y">
+      <mission id="1" name2="Mission.Name2.1218_1" required-register-value="1">
+        <case mapunit-1="1130_foot_1" object2="zoneenv2:1152_footswitch_1" progress-mission="y" type="env-entered" />
+        <case object="zone:StartZone_Simple_Cinema1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2" use-auto-navigation="y">
+      <mission id="2" name2="Mission.Name2.1218_2" required-register-value="1">
+        <case mapunit-1="M_1153_footswitch_1" object2="zoneenv2:1153_footswitch_4" progress-mission="y" type="env-entered" />
+        <case mapunit-1="M_1153_footswitch_1" object2="zoneenv2:1153_footswitch_3" progress-mission="y" type="env-entered" />
+        <case mapunit-1="M_1153_footswitch_1" object2="zoneenv2:1153_footswitch_2" progress-mission="y" type="env-entered" />
+        <case mapunit-1="M_1153_footswitch_1" object2="zoneenv2:1153_footswitch_1" progress-mission="y" type="env-entered" />
+        <case object="zone:StartZone_Simple_Cinema2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_301" />
+    </completion>
+    <transit id="1" zone="StartZone_Simple_Deafult">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+  </quest>
+</table>

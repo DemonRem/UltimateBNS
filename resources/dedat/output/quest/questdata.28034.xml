@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28034.xml-->
+	<quest alias="sq_28034" category="tendency-simple" id="28034" max-repeat="-1" name2="sq_28034_mission_text" save-type="except-completion-and-logout-save">
+		<mission-step id="1">
+			<mission id="1" name2="sq_28034_mission_text" required-attraction="tendency-field:CheonSangBunJi" tendency-id="1" variation-required-condition-value-1="0" variation-required-field-play-point-1="0" variation-required-register-value-1="1" variation-reward-field-play-point-1="427" variation-reward-tendency-score-1="427">
+				<case mapunit-1="M_6404_ME_WC_PileBunkerEmpire_0011_sq28034" multi-object-1="npc:ME_WC_PileBunkerEmpire_0011" progress-mission="y" type="killed" />
+			</mission>
+		</mission-step>
+	</quest>
+</table>

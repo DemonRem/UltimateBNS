@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1232.xml-->
+  <quest alias="q_sub_1232" broadcast-category="field" category="normal" desc="q_1232_sum" grade="1" group2="QG_Delete" id="1232" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.1232" retired="y" save-type="all">
+  </quest>
+  
+</table>

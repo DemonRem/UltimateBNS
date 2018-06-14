@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
+  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_sw.xml-->
+	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E1" effect-1="SwordMaster_Logic_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60234" />
+	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E2" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_3" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60098" target-state-second-filter="60091" />
+	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E3" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_2" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60096" target-state-second-filter="60091" />
+	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E4" effect-1="SwordMaster_common_WindBit_1" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60091" />
+	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E5" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_3" effect-3="SwordMaster_Logic_Flag_Dispel" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60098" target-state-second-filter="60092" />
+	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E6" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_3" effect-3="SwordMaster_Logic_Flag_Dispel" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60096" target-state-second-filter="60092" />
+	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E7" effect-1="SwordMaster_common_WindBit_2" effect-2="SwordMaster_Logic_Flag_Dispel" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60092" />
+	<record alias="ItemSkill_SW_Lightning_Force_B2_Lv1_02_E1" effect-1="ItemSkill_SW_Lightning_Force_B2_Lv1_02_10s" skill-result="all" target="caster" target-state="all" target-state-first-filter="60091" />
+	<record alias="ItemSkill_SW_Lightning_Force_B2_Lv1_02_E2" effect-1="ItemSkill_SW_Lightning_Force_B2_Lv1_02_13s" effect-2="SwordMaster_Logic_Flag_Dispel" skill-result="all" target="caster" target-state="all" target-state-first-filter="60092" />
+	<record alias="ItemSkill_SW_Lightning_Force_B2_Lv1_03_E1" effect-1="ItemSkill_SW_Lightning_Force_B2_Lv1_04_1s" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_Lightning_Force_B2_Lv1_04_E1" effect-1="ItemSkill_SW_Lightning_Force_B2_Lv1_03_6s" skill-result="all" target="caster" target-state="all" target-state-first-filter="60091" />
+	<record alias="ItemSkill_SW_Lightning_Force_B2_Lv1_04_E2" effect-1="ItemSkill_SW_Lightning_Force_B2_Lv1_03_7s" effect-2="SwordMaster_Logic_Flag_Dispel" skill-result="all" target="caster" target-state="all" target-state-first-filter="60092" />
+	<record alias="ItemSkill_SW_Lightning_Force_B2_Lv1_08_E1" effect-1="ItemSkill_SW_Lightning_Force_B2_Lv1_02_10s" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_Lightning_Force_B2_Lv1_05_E1" effect-1="ItemSkill_SW_Lightning_Force_B2_Lv1_04_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SW_rush_B3_Lv1_01_E1" effect-1="ItemSkill_SW_rush_B3_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_LightningMoonSlash_B4_Lv1_01_E1" effect-1="ItemSkill_SW_LightningMoonSlash_B4_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_LightningMoonSlash_S1_Lv1_01_E1" effect-1="ItemSkill_SW_LightningMoonSlash_S1_Lv1_01_Flag" effect-2="ItemSkill_CM_Logic_Flag_Check" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_RotateSoulBlade_S2_Lv1_01_E1" effect-1="SwordMaster_Sword_Wind_GodSlash_flag" effect-2="SwordMaster_Common_WindBit_3_Re" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_MarkSoulBlade_S3_Lv1_01_E1" effect-1="ItemSkill_SW_MarkSoulBlade_S3_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_AirSixCombo_S4_Lv1_01_E1" effect-1="ItemSkill_SW_AirSixCombo_S4_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_rush_S5_Lv1_01_E1" effect-1="ItemSkill_SW_rush_S5_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_rush_S5_Lv1_02_E1" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_3" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60098" />
+	<record alias="ItemSkill_SW_rush_S5_Lv1_02_E2" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_3" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60096" />
+	<record alias="ItemSkill_SW_rush_S5_Lv1_02_E3" effect-1="SwordMaster_common_WindBit_3" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_Lightning_slash_S6_Lv1_01_E1" effect-1="ItemSkill_SW_Lightning_slash_S6_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_six_combo_slash_S7_Lv1_01_E1" effect-1="ItemSkill_SW_six_combo_slash_S7_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_six_combo_slash_S8_Lv1_01_E1" effect-1="ItemSkill_SW_six_combo_slash_S8_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_six_combo_slash_S9_Lv1_01_E1" effect-1="ItemSkill_SW_six_combo_slash_S9_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_six_combo_slash_S10_Lv1_01_E1" effect-1="ItemSkill_SW_six_combo_slash_S10_Lv1_01_Flag" effect-2="ItemSkill_SW_six_combo_slash_S10_Lv1_02_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_six_combo_slash_S10_Lv1_02_E1" effect-1="SwordMaster_Common_WindBit_3_Re" skill-result="critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_crash_S11_Lv1_01_E1" effect-1="ItemSkill_SW_crash_S11_Lv1_01_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SW_crash_S11_Lv1_02_E1" effect-1="ItemSkill_SW_crash_S11_Lv1_02_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_Force_feed_S12_Lv1_01_E1" effect-1="ItemSkill_SW_Force_feed_S12_Lv1_01_Flag" effect-2="ItemSkill_SW_Force_feed_S12_Lv1_02_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_TwicePierce_S13_Lv1_01_E1" effect-1="SwordMaster_Sword_TwicePierce_Lv11_WindForce_9s" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_Lightning_slash_S14_Lv1_01_E1" effect-1="ItemSkill_SW_Lightning_slash_S14_Lv1_01_E1_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_Lightning_slash_S14_Lv1_02_E1" effect-1="ItemSkill_SW_Lightning_slash_S14_Lv1_02_E1_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+</table>

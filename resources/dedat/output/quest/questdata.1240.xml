@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1240.xml-->
+  <quest alias="q_sub_1240" broadcast-category="field" category="normal" content-type="festival" day-of-week="daily" desc="q_1240_sum" grade="1" group2="QG_Event" id="1240" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1240" reset-type="daily" retired="y">
+    <acquisition check-tencent-vitality="n" level="16" recommended-level="16">
+      <case acquire-quest="y" item="q_1240_1_icon" msg="q_1240_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1240_1" required-register-value="5">
+        <case looting="q_1240_3_icon" object2="npc:me_potaxpartyb_002" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <case looting="q_1240_3_icon" object2="npc:me_potaxpartyb_001" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <case looting="q_1240_3_icon" object2="npc:me_potaxpartya_004" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <case looting="q_1240_3_icon" mapunit-1="2440_me_potaxpartyb_002" mapunit-2="2440_me_potaxpartyb_002_1" mapunit-3="2440_me_potaxpartyb_002_2" mapunit-4="2440_me_potaxpartyb_002_3" object2="npc:me_potaxpartya_003" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <case looting="q_1240_3_icon" object2="npc:me_potaxpartya_002" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <case looting="q_1240_3_icon" object2="npc:mob_hmn_mlnd_bman_hangari_003" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <case looting="q_1240_3_icon" object2="npc:mob_hmn_mlnd_bman_hangari_002" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+        <case looting="q_1240_3_icon" object2="npc:mob_hmn_mlnd_bman_hangari_001" progress-mission="y" quest-symbol-drop-prob="70" type="loot" />
+      </mission>
+      <mission id="2" name2="Mission.Name2.1240_2" required-register-value="1">
+        <case looting="q_1240_4_icon" mapunit-5="2440_e_onoff_straw_01" object2="zoneenv2:e_onoff_straw_01" progress-mission="y" type="loot" />
+        <case looting="q_1240_4_icon" object2="zoneenv2:e_onoff_straw_02" progress-mission="y" type="loot" />
+        <case looting="q_1240_4_icon" object2="zoneenv2:e_onoff_straw_03" progress-mission="y" type="loot" />
+        <case looting="q_1240_4_icon" object2="zoneenv2:e_onoff_straw_04" progress-mission="y" type="loot" />
+        <case looting="q_1240_4_icon" object2="zoneenv2:e_onoff_straw_05" progress-mission="y" type="loot" />
+        <case looting="q_1240_4_icon" object2="zoneenv2:e_onoff_straw_06" progress-mission="y" type="loot" />
+        <case looting="q_1240_4_icon" object2="zoneenv2:e_onoff_straw_07" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="3" name2="Mission.Name2.1240_3" required-register-value="1">
+        <case looting="q_1240_5_icon" mapunit-1="2440_me_potaxpartyleader_001" object2="npc:me_potaxpartyleader_001" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="4" name2="Mission.Name2.1240_4" required-register-value="1" reward-1="1240_final_set1" reward-2="1240_final_set2">
+        <case item="q_1240_2_icon" msg="q_1240_2" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

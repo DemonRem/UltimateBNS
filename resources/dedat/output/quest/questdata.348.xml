@@ -1,12 +1,35 @@
-<?xml version='1.0' encoding='utf-8'?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.218">
-	<quest alias="q_sub_348" broadcast-category="field" category="normal" desc="q_348_sum" grade="25" group2="QG_Delete" id="348" map-group-1-1="duel" max-repeat="1" name2="Quest.Name2.348" reset-type="daily" retired="y" save-type="all">
-		<acquisition level="4" preceding-quest-1="q_sub_327" preceding-quest-check="and" recommended-level="4"/>
-		<mission-step id="1">
-			<mission id="1" name2="Mission.Name2.348_1" required-register-value="1"/>
-		</mission-step>
-		<mission-step id="2">
-			<mission id="2" name2="Mission.Name2.348_2" required-register-value="1" reward-1="348_final_set1" reward-2="348_final_set2"/>
-		</mission-step>
-	</quest>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.348.xml-->
+  <quest alias="q_sub_348" broadcast-category="field" category="job" desc="q_348_sum" grade="1" group2="QG_HuekUmmRim" id="348" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.348" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="기권사" level="10" preceding-quest-1="q_epic_311" preceding-quest-2="q_sub_347" preceding-quest-check="and" preceding-quest-mission-step-1="2" recommended-level="12" talk-to-self-guide-msg="Msg.Job.quest5">
+      <case acquire-quest="y" item="q_348_1_icon" msg="q_348_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.348_1" required-register-value="1">
+        <case npc-response="qrsp_348_1" object="npc:ch_wc_hwajung_0005" progress-mission="y" type="talk" />
+        <case object="zone:zone_huekummrim_classq_5_c9" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step guide-message="gm_348_1" guide-message-zone-1="zone_huekummrim_classq_5_c9" id="2">
+      <mission id="2" name2="Mission.Name2.348_2" required-register-value="3">
+        <tutorial-case mapunit-10="2750_CH_WC_GreenMokuJin_0001" mapunit-2="2200_SanYang_Dun_1348" object2-1="npc:ch_wc_bluemokujin_0001" progress-mission="y" range-max="2" range-min="2" skill-sequence="SoulFighter_Lv12_M11" type="skill-sequence" />
+        <tutorial-case mapunit-10="2750_CH_WC_GreenMokuJin_0001" mapunit-2="2200_SanYang_Dun_1348" object2-1="npc:ch_wc_redmokujin_0001" progress-mission="y" range-max="1" range-min="1" skill-sequence="SoulFighter_Lv12_M11" type="skill-sequence" />
+        <tutorial-case mapunit-10="2750_CH_WC_GreenMokuJin_0001" mapunit-2="2200_SanYang_Dun_1348" object2-1="npc:ch_wc_greenmokujin_0001" progress-mission="y" range-max="0" range-min="0" skill-sequence="SoulFighter_Lv12_M11" type="skill-sequence" />
+        <case object="zone:zone_huekummrim_classq_5_c9" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.348_3" required-register-value="1" reward-1="348_final_set1">
+        <case npc-response="qrsp_348_2" object="npc:ch_wc_hwajung_0005" progress-mission="y" type="talk" />
+        <case object="zone:zone_huekummrim_classq_5_c9" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_HuekUmmRim_ClassQ_5_SP">
+      <destination mission-step-id="3" zone-index="9" />
+      <destination mission-step-id="2" zone-index="9" />
+      <destination mission-step-id="1" zone-index="9" />
+    </transit>
+  </quest>
 </table>

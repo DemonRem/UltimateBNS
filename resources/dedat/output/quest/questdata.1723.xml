@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1723.xml-->
+  <quest alias="q_sub_1723" category="normal" content-type="side-episode" desc="q_1723_sum" group2="QG_Taecheon" id="1723" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1723" save-type="all">
+    <acquisition level="55" preceding-quest-1="q_sub_1722" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" item="q_1723_1_icon" msg="q_1723_1" type="talk-to-self" />
+      <case acquire-quest="y" npc-response="qrsp_1723_1" object="npc:ch_wc_saminyoung_sideepic3_0009" type="talk" />
+    </acquisition>
+    <mission-step desc="q_1723_des_1" id="1">
+      <mission id="1" name2="Mission.Name2.1723_1" required-register-value="1">
+        <case mapunit-1="6621_CE_WC_Dummy_0109" object="npc:ce_wc_dummy_0109" progress-mission="y" type="approach" />
+        <case object="zone:Zone_RoyalTomb_Maze" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1723_des_2" id="2">
+      <mission id="2" name2="Mission.Name2.1723_2" required-register-value="1">
+        <case mapunit-1="6621_CH_WC_SaMinYoung_SideEpic3_0009" npc-response="qrsp_1723_2" object="npc:ch_wc_saminyoung_sideepic3_0009" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step desc="q_1723_des_3" id="3">
+      <mission id="3" name2="Mission.Name2.1723_3" required-register-value="1">
+        <case mapunit-1="6621_e_chest_6622_window_01" object2="zoneenv2:e_chest_6621_window_01" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step desc="q_1723_des_4" id="4">
+      <mission id="4" name2="Mission.Name2.1723_4" required-register-value="4">
+        <case mapunit-1="6621_MH_WC_ChungGak_SideEpic3_0024" multi-object-1="npc:MH_WC_ChungGak_SideEpic3_0024" multi-object-2="npc:MH_WC_ChungGak_SideEpic3_0056" progress-mission="y" type="killed" />
+      </mission>
+      <mission id="5" name2="Mission.Name2.1723_5" required-register-value="1">
+        <case mapunit-1="6621_MH_WC_ChungGak_SideEpic3_0025" object="npc:mh_wc_chunggak_sideepic3_0025" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step desc="q_1723_des_5" id="5">
+      <mission id="6" name2="Mission.Name2.1723_6" required-register-value="1">
+        <case mapunit-1="6621_MH_WC_ChungGak_SideEpic3_0025" object="npc:mh_wc_chunggak_sideepic3_0025" progress-mission="y" type="npc-manipulate" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step desc="q_1723_des_6" id="6">
+      <mission id="7" name2="Mission.Name2.1723_7" required-register-value="1">
+        <case mapunit-1="6621_CH_WC_ChungGakfaint_SideEpic3_0001" npc-response="qrsp_1723_3" object="npc:ch_wc_chunggakfaint_sideepic3_0001" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step desc="q_1723_des_7" id="7">
+      <mission id="8" name2="Mission.Name2.1723_8" required-register-value="1" reward-1="1723_final_set1">
+        <case mapunit-1="6621_CH_WC_SaMinYoung_SideEpic3_0009" npc-response="qrsp_1723_4" object="npc:ch_wc_saminyoung_sideepic3_0008" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <transit id="1" zone="Zone_RoyalTomb_Entrace">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <complete zone-index="2" />
+    </transit>
+  </quest>
+</table>

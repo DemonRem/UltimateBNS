@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1662.xml-->
+  <quest alias="q_sub_1662" attraction-info="raid-dungeon:raid_InfinityChamberRaid" category="normal" completed-list="n" day-of-week="weekly" desc="q_1662_sum" grade="22" group2="QG_InfinityChamber" id="1662" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1662" reset-type="weekly" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1620" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" completion-count="1" completion-count-op="ge" msg="q_1662_1" npc-response="qrsp_1662_4" object="npc:ch_wc_infinitychamber_0001" progress-mission="y" type="talk" />
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1662_2" object="npc:ch_wc_infinitychamber_0001" progress-mission="y" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1662_1" required-register-value="1">
+        <case object2="npc:me_wc_infinitychamberboss_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1662_2" required-register-value="1" reward-1="1662_final_set1" reward-2="1662_final_set2">
+        <case fee="y" item="q_1662_1_icon" msg="q_1662_6" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" npc-response="qrsp_1662_5" object="npc:ch_wc_infinitychamber_0001" progress-mission="y" type="talk" />
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1662_3" object="npc:ch_wc_infinitychamber_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

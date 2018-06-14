@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1653.xml-->
+  <quest alias="q_epic_1653" category="epic" completed-desc="q_1653_completed" completed-list="y" desc="q_1653_sum" grade="1" group2="QG_WestLandEpic" id="1653" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1653" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="827" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1653_1" required-register-value="1">
+        <case npc-response="qrsp_1653_1" object="npc:ch_sb_jisoo_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1653_2" required-register-value="1">
+        <case mapunit-1="6553_SuchunVillage_M1653_02" mapunit-2="6553_SuchunVillage_M1653_02_1" mapunit-3="6553_SuchunVillage_M1653_02_2" object="zone:zone_SecretPlace_D" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1653_3" required-register-value="1">
+        <case npc-response="qrsp_1653_7" object="npc:ch_sb_threefriend_0002" progress-mission="y" type="talk" />
+      </mission>
+      <mission id="4" name2="Mission.Name2.1653_4" required-register-value="1">
+        <case npc-response="qrsp_1653_6" object="npc:ch_sb_threefriend_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="5" name2="Mission.Name2.1653_5" required-register-value="1">
+        <case mapunit-1="6553_SuchunVillage_M1653_04" object2="zoneenv2:e_chest_6553_HitDummy_01" progress-mission="y" type="manipulate" />
+        <case object="zone:zone_secretplace_d" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="6" name2="Mission.Name2.1653_6" required-register-value="1">
+        <case mapunit-1="6553_SuchunVillage_M1653_05" object2="zoneenv2:6553_foot_2" progress-mission="y" type="env-entered" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="7" name2="Mission.Name2.1653_7" required-register-value="1">
+        <case npc-response="qrsp_1653_2" object="npc:me_sb_yeojin_0001" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="8" name2="Mission.Name2.1653_8" required-register-value="1">
+        <case object="npc:me_sb_yeojin_0001" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="9" name2="Mission.Name2.1653_9" required-register-value="1">
+        <case npc-response="qrsp_1653_8" object="npc:me_sb_yeojin_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_secretplace_d" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="10" name2="Mission.Name2.1653_10" required-register-value="1">
+        <case npc-response="qrsp_1653_3" object="npc:ch_sb_jeyeon_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_secretplace_d" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="11" name2="Mission.Name2.1653_11" required-register-value="1">
+        <case mapunit-1="6543_SuchunVillage_M1652_10" object="zone:zone_SuchunTemple_Epic8_3" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="12" name2="Mission.Name2.1653_12" required-register-value="1">
+        <case npc-response="qrsp_1653_4" object="npc:ch_sb_jisoo_0003" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="13" name2="Mission.Name2.1653_13" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1653_5" object="npc:ch_sb_jeyeon_0003" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="14" name2="Mission.Name2.1653_14" required-register-value="1">
+        <case mapunit-1="6553_SuchunVillage_M1654_01" mapunit-2="6553_SuchunVillage_M1653_02_1" mapunit-3="6553_SuchunVillage_M1653_02_2" object="zone:zone_MokInJok_PatriarchHouse_Epic8_1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="15" name2="Mission.Name2.1653_15" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1653_final_set1">
+        <case npc-response="qrsp_1653_9" object="npc:ch_sb_jeyeon_0004" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1654_8" object="npc:ch_sb_jeyeon_0004" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1654" />
+    </completion>
+    <transit id="1" zone="zone_SuchunTemple_D">
+      <destination mission-step-id="14" zone-index="3" />
+      <destination mission-step-id="13" zone-index="3" />
+      <destination mission-step-id="12" zone-index="3" />
+      <destination mission-step-id="11" zone-index="3" />
+      <destination mission-step-id="10" zone-index="3" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="6" zone-index="2" />
+      <destination mission-step-id="5" zone-index="2" />
+      <destination mission-step-id="4" zone-index="2" />
+      <destination mission-step-id="3" zone-index="2" />
+      <destination mission-step-id="2" zone-index="2" />
+      <destination mission-step-id="1" zone-index="2" />
+    </transit>
+    <transit id="2" zone="zone_SuchunVillage">
+      <destination mission-step-id="14" zone-index="3" />
+      <destination mission-step-id="13" zone-index="3" />
+      <destination mission-step-id="12" zone-index="3" />
+      <destination mission-step-id="11" zone-index="3" />
+      <destination mission-step-id="10" zone-index="3" />
+      <destination mission-step-id="9" zone-index="3" />
+      <destination mission-step-id="8" zone-index="3" />
+      <destination mission-step-id="7" zone-index="3" />
+      <destination mission-step-id="6" zone-index="3" />
+      <destination mission-step-id="5" zone-index="3" />
+      <destination mission-step-id="4" zone-index="3" />
+      <destination mission-step-id="3" zone-index="3" />
+      <destination mission-step-id="2" zone-index="3" />
+      <destination mission-step-id="1" zone-index="3" />
+    </transit>
+    <transit id="3" zone="zone_MokInJok_PatriarchHouse_D">
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+    </transit>
+    <transit id="4" zone="zone_chunguntree_d">
+      <destination mission-step-id="14" zone-index="6" />
+      <destination mission-step-id="13" zone-index="6" />
+      <destination mission-step-id="12" zone-index="6" />
+      <destination mission-step-id="11" zone-index="6" />
+      <destination mission-step-id="10" zone-index="6" />
+      <destination mission-step-id="9" zone-index="6" />
+      <destination mission-step-id="8" zone-index="6" />
+      <destination mission-step-id="7" zone-index="6" />
+      <destination mission-step-id="6" zone-index="6" />
+      <destination mission-step-id="5" zone-index="6" />
+      <destination mission-step-id="4" zone-index="6" />
+      <destination mission-step-id="3" zone-index="6" />
+      <destination mission-step-id="2" zone-index="6" />
+      <destination mission-step-id="1" zone-index="6" />
+    </transit>
+  </quest>
+</table>

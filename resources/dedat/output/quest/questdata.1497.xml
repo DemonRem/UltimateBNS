@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1497.xml-->
+  <quest alias="q_sub_1497" attraction-info="dungeon:Dungeon_ChunMyungJiWii" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1497_sum" grade="10" group2="QG_ChunMyungJiWii" id="1497" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1497" reset-type="daily" retired="n" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1454" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1497_1" object="npc:CH_WC_UnGuk_0002" type="talk" />
+      <case acquire-quest="y" npc-response="qrsp_1497_1" object="npc:CH_WC_UnGuk_0001" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1497_1" required-register-value="1">
+        <case object2="npc:ME_CT_JinSeoYeonM_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1497_2" required-register-value="1" reward-1="1497_final_set1" reward-2="1497_final_set2">
+        <case fee="y" item="q_1497_1_icon" msg="q_1497_3" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1497_2" object="npc:CH_WC_Smuggler_0002" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1497_2" object="npc:CH_WC_Smuggler_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+  
+</table>

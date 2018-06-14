@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1562.xml-->
+  <quest alias="q_sub_1562" broadcast-category="field" category="normal" desc="q_1562_sum" grade="1" group2="QG_GeonwonWest" id="1562" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1562" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1513" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1562_1" object="npc:CH_SB_GeonWon_0155" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1562_1" required-register-value="1" reward-1="1562_final_set1">
+        <case npc-response="qrsp_1562_2" object="npc:CH_SB_GeonWon_0156" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

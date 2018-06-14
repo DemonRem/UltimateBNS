@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1401.xml-->
+  <quest alias="q_sub_1401" attraction-1="classic-field-zone:windplain_majuk" attraction-info="classic-field-zone:Windplain_Majuk" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1401_sum" grade="6" group2="QG_BaramMajyeock" id="1401" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1401" reset-type="daily" save-type="all">
+    <acquisition level="45" preceding-quest-1="q_epic_1420" preceding-quest-2="q_epic_293" preceding-quest-3="q_epic_1545" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" grocery="Quest_Scroll_BackChung_0067" item="Quest_Scroll_BackChung_0067" msg="q_1401_1" required-item-1="Quest_Scroll_BackChung_0067" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+      <case loot-item="Quest_Scroll_BackChung_0067" looting="q_1401_1_icon" object2="npc:ME_CT_SkullSorcery_0014" quest-symbol-drop-prob="16" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0067" looting="q_1401_1_icon" object2="npc:ME_CT_SkullCaptain_0013" quest-symbol-drop-prob="16" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0067" looting="q_1401_1_icon" object2="npc:ME_CT_RuneMechaMine_0006" quest-symbol-drop-prob="16" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0067" looting="q_1401_1_icon" object2="npc:ME_CT_RuneMechaBattle_0024" quest-symbol-drop-prob="16" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0067" looting="q_1401_1_icon" object2="npc:ME_CT_RuneMechaBattle_0022" quest-symbol-drop-prob="16" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0067" looting="q_1401_1_icon" object2="npc:ME_CT_RuneMechaB_0005" quest-symbol-drop-prob="16" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0067" looting="q_1401_1_icon" object2="npc:ME_CT_RuneMechaB_0004" quest-symbol-drop-prob="16" type="loot" />
+      <case loot-item="Quest_Scroll_BackChung_0067" looting="q_1401_1_icon" object2="npc:ME_CT_KangSiFat_0002" type="loot" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1401_1" required-register-value="5">
+        <case looting="q_1401_2_icon" object2="zoneenv2:e_chest_NokLim_box_06" progress-mission="y" type="loot" />
+        <case looting="q_1401_2_icon" object2="zoneenv2:e_chest_NokLim_box_05" progress-mission="y" type="loot" />
+        <case looting="q_1401_2_icon" object2="zoneenv2:e_chest_NokLim_box_04" progress-mission="y" type="loot" />
+        <case looting="q_1401_2_icon" object2="zoneenv2:e_chest_NokLim_box_03" progress-mission="y" type="loot" />
+        <case looting="q_1401_2_icon" object2="zoneenv2:e_chest_NokLim_box_02" progress-mission="y" type="loot" />
+        <case looting="q_1401_2_icon" mapunit-1="M_5503_e_chest_NokLim_box_01" mapunit-2="M_5503_e_chest_NokLim_box_02" object2="zoneenv2:e_chest_NokLim_box_01" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1401_2" required-register-value="1" reward-1="1401_final_set1" reward-2="1401_final_set2">
+        <case npc-response="qrsp_q_1401_2" object="npc:CH_SA_BaramContents_0004" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1401_3_icon" msg="q_1401_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

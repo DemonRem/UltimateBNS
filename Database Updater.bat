@@ -1,5 +1,5 @@
-@echo off
+@echo off 
 
-grunt build_preparer icon_dumper upk_scanner upk_parser shooter png_optimizer
+grunt upk_scanner upk_parser png_optimizer
 
-pause
+ icon_dumper

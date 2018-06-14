@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1574.xml-->
+  <quest alias="q_sub_1574" broadcast-category="field" category="normal" desc="q_1574_sum" grade="1" group2="QG_GeonwonEast" id="1574" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1574" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1515" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" indicator="quest-normal-can-acquire" npc-response="qrsp_1574_1" object="npc:ch_sb_geonwon_0002" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1574_1" required-register-value="10">
+        <case looting="q_1574_1_icon" mapunit-1="6150_me_sb_soracrab_0001" mapunit-2="6150_me_sb_soracrab_0002" object2="npc:me_sb_soracrab_0001" progress-mission="y" type="loot" />
+        <case looting="q_1574_1_icon" object2="npc:me_sb_soracrab_0002" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1574_2" required-register-value="1" reward-1="1574_final_set1">
+        <case indicator="quest-normal-can-complete" npc-response="qrsp_1574_2" object="npc:ch_sb_geonwon_0252" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

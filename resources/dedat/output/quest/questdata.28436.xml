@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28436.xml-->
+	<quest alias="sq_28436" category="tendency-simple" id="28436" max-repeat="-1" name2="sq_28436_mission_text" save-type="except-completion-and-logout-save">
+		<mission-step id="1">
+			<mission id="1" name2="sq_28436_mission_text" required-attraction="tendency-field:Tendency_BuYuDo" tendency-id="3" variation-required-condition-type="faction-score" variation-required-condition-value-1="0" variation-required-condition-value-2="50" variation-required-condition-value-3="100" variation-required-field-play-point-1="0" variation-required-register-value-1="15" variation-required-register-value-2="25" variation-required-register-value-3="35" variation-reward-faction-score-1="60" variation-reward-faction-score-2="99" variation-reward-faction-score-3="139" variation-reward-field-play-point-1="365" variation-reward-field-play-point-2="608" variation-reward-field-play-point-3="851" variation-reward-tendency-score-1="365" variation-reward-tendency-score-2="608" variation-reward-tendency-score-3="851">
+				<case looting="q_28436_1_icon" multi-object-1="npc:ME_WC_RuneMechaYacha_0010" multi-object-2="npc:ME_WC_RuneMechaYacha2_0007" multi-object-3="npc:ME_WC_RuneMechaYacha3_0007" multi-object-4="npc:ME_WC_RuneMechaYacha4_0001" progress-mission="y" type="loot" />
+			</mission>
+		</mission-step>
+	</quest>
+</table>

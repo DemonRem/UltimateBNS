@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1728.xml-->
+  <quest alias="q_sub_1728" attraction-info="party-battle-field-zone:PartyBattle_Galaxy" category="normal" content-type="party-battle" day-of-week="daily" desc="q_1728_sum" grade="17" group2="QG_PartyBattleField" id="1728" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1728" reset-type="daily" save-type="all">
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1728_1" required-register-value="1">
+        <case mapunit-1="Guide_Galaxy_start" party-battle-result="win" party-battle-type="lead-the-ball" progress-mission="y" type="party-battle" />
+      </mission>
+    </mission-step>
+    <acquisition level="55" mastery-level="1" recommended-level="55">
+      <case acquire-quest="y" indicator="quest-factionboard-repeat-start" npc-response="qrsp_1728_1" object="npc:ce_wc_board_0002" progress-mission="n" type="talk" />
+      <case acquire-quest="y" indicator="quest-factionboard-repeat-start" npc-response="qrsp_1728_1" object="npc:ce_wc_board_0001" progress-mission="n" type="talk" />
+    </acquisition>
+    <mission-step id="2">
+      <mission id="2" required-register-value="1" reward-1="1728_final_set1" reward-2="1728_final_set2">
+        <case item="q_1728_1_icon" mapunit-1="Guide_Galaxy_end" msg="q_1728_2" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

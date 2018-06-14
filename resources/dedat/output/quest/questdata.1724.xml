@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1724.xml-->
+  <quest alias="q_sub_1724" category="normal" content-type="side-episode" desc="q_1724_sum" group2="QG_Taecheon" id="1724" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1724" save-type="all">
+    <acquisition level="55" preceding-quest-1="q_sub_1723" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" npc-response="qrsp_1724_1" object="npc:ch_wc_saminyoung_sideepic3_0008" type="talk" />
+      <case acquire-quest="y" item="q_1724_1_icon" msg="q_1724_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step desc="q_1724_des_1" guide-message="gm_1724_2" guide-message-zone-1="Zone_RoyalTomb_CenterAltar_P1" guide-message-zone-2="Zone_RoyalTomb_Maze" id="1">
+      <mission id="1" name2="Mission.Name2.1724_1" required-register-value="1">
+        <case mapunit-1="6626_MH_WC_ChungGak_SideEpic3_0026" npc-response="qrsp_1724_2" object="npc:mh_wc_chunggak_sideepic3_0026" progress-mission="y" type="talk" />
+        <case object="zone:Zone_RoyalTomb_CenterAltar_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1724_des_2" id="2">
+      <mission id="2" name2="Mission.Name2.1724_2" required-register-value="1">
+        <case mapunit-1="6626_e_gate_6626_01" object2="zoneenv2:e_gate_6626_01" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step desc="q_1724_des_3" id="3">
+      <mission id="3" name2="Mission.Name2.1724_3" required-register-value="1">
+        <case mapunit-1="6626_CE_WC_Dummy_0110" object="npc:ce_wc_dummy_0110" progress-mission="y" type="approach" />
+      </mission>
+      <mission id="4" name2="Mission.Name2.1724_4" required-register-value="1">
+        <case mapunit-1="6626_CE_WC_Dummy_0111" object="npc:ce_wc_dummy_0111" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step desc="q_1724_des_4" id="4">
+      <mission id="5" name2="Mission.Name2.1724_5" required-register-value="1">
+        <case mapunit-1="6623_CH_WC_ChungGak_SideEpic3_0010" npc-response="qrsp_1724_3" object="npc:ch_wc_chunggak_sideepic3_0010" progress-mission="y" type="talk" />
+        <case object="zone:Zone_RoyalTomb_instance_S" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step desc="q_1724_des_7" id="5">
+      <mission id="6" name2="Mission.Name2.1724_6" required-register-value="5">
+        <case mapunit-1="6623_CH_WC_ChungGak_SideEpic3_0011" multi-object-1="npc:ch_wc_chunggak_sideepic3_0010" multi-object-2="npc:ch_wc_chunggak_sideepic3_0011" multi-object-3="npc:ch_wc_chunggak_sideepic3_0012" multi-object-4="npc:CH_WC_ChungGak_SideEpic3_0031" multi-object-5="npc:CH_WC_ChungGak_SideEpic3_0032" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step desc="q_1724_des_8" id="6">
+      <mission id="7" name2="Mission.Name2.1724_7" required-register-value="1">
+        <case mapunit-1="6623_CH_WC_SaMinYoung_SideEpic3_0004" npc-response="qrsp_1724_4" object="npc:ch_wc_saminyoung_sideepic3_0004" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step desc="q_1724_des_7" id="7">
+      <mission id="8" name2="Mission.Name2.1724_8" required-register-value="1">
+        <case mapunit-1="6627_CH_WC_SaMinYoung_SideEpic3_0005" object="zone:Zone_RoyalTomb_CenterAltar_P2" progress-mission="y" type="enter-zone" />
+        <case object="zone:Zone_RoyalTomb_instance_S" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1724_des_8" id="8">
+      <mission id="10" name2="Mission.Name2.1724_10" required-register-value="10">
+        <case mapunit-1="6627_MH_WC_ChungGak_SideEpic3_0034" multi-object-1="npc:MH_WC_ChungGak_SideEpic3_0064" multi-object-10="npc:mh_wc_chunggak_sideepic3_0073" multi-object-11="npc:mh_wc_chunggak_sideepic3_0074" multi-object-12="npc:mh_wc_chunggak_sideepic3_0075" multi-object-13="npc:mh_wc_chunggak_sideepic3_0076" multi-object-14="npc:mh_wc_chunggak_sideepic3_0077" multi-object-15="npc:mh_wc_chunggak_sideepic3_0078" multi-object-16="npc:mh_wc_chunggak_sideepic3_0079" multi-object-2="npc:mh_wc_chunggak_sideepic3_0065" multi-object-3="npc:mh_wc_chunggak_sideepic3_0066" multi-object-4="npc:mh_wc_chunggak_sideepic3_0067" multi-object-5="npc:mh_wc_chunggak_sideepic3_0068" multi-object-6="npc:mh_wc_chunggak_sideepic3_0069" multi-object-7="npc:mh_wc_chunggak_sideepic3_0070" multi-object-8="npc:mh_wc_chunggak_sideepic3_0071" multi-object-9="npc:mh_wc_chunggak_sideepic3_0072" progress-mission="y" type="killed" />
+        <case npc-response="qrsp_1720_24" object="npc:ch_wc_chunggak_sideepic3_0017" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1720_25" object="npc:ch_wc_chunggak_sideepic3_0016" progress-mission="reaction-only" type="approach" />
+        <case object="zone:Zone_RoyalTomb_instance_S" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1725_10" object="npc:CH_WC_SeoCheon_SideEpic3_0015" progress-mission="reaction-only" type="approach" />
+      </mission>
+      <mission id="9" name2="Mission.Name2.1724_9" required-register-value="5">
+        <case mapunit-1="6627_CH_WC_SeoCheon_SideEpic3_0009" npc-response="qrsp_1720_24" object="npc:CH_WC_SeoCheon_SideEpic3_0009" progress-mission="y" type="npc-manipulate" />
+        <case npc-response="qrsp_1720_25" object="npc:ch_wc_chunggak_sideepic3_0016" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1720_24" object="npc:ch_wc_chunggak_sideepic3_0017" progress-mission="reaction-only" type="approach" />
+        <case mapunit-1="6627_CH_WC_SeoCheon_SideEpic3_0010" npc-response="qrsp_1720_23" object="npc:CH_WC_SeoCheon_SideEpic3_0010" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6627_CH_WC_SeoCheon_SideEpic3_0011" npc-response="qrsp_1720_22" object="npc:ch_wc_seocheon_sideepic3_0011" progress-mission="y" type="npc-manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1724_des_9" id="9">
+      <mission id="11" name2="Mission.Name2.1724_11" required-register-value="1">
+        <case npc-response="qrsp_1724_5" object="npc:ch_wc_saminyoung_sideepic3_0005" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1725_10" object="npc:CH_WC_SeoCheon_SideEpic3_0015" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1724_des_10" id="10">
+      <mission id="12" name2="Mission.Name2.1724_12" required-register-value="1">
+        <case mapunit-1="6623_CH_WC_DongJinA_SideEpic3_0002" object="npc:ch_wc_dongjina_sideepic3_0002" progress-mission="y" type="npc-bleeding-occured" />
+        <case mapunit-1="6623_MH_WC_ChungGak_SideEpic3_0053" object="zone:Zone_RoyalTomb_instance_S" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1724_des_11" id="11">
+      <mission id="13" name2="Mission.Name2.1724_13" required-register-value="1">
+        <case mapunit-1="6623_CH_WC_DongJinA_SideEpic3_0002" npc-response="qrsp_1724_6" object="npc:ch_wc_dongjina_sideepic3_0002" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="10" />
+    </mission-step>
+    <mission-step desc="q_1724_des_12" id="12">
+      <mission id="14" name2="Mission.Name2.1724_14" required-register-value="1">
+        <case mapunit-1="6624_Zone_RoyalTomb_CenterAltar_Lobby" object="zone:Zone_RoyalTomb_CenterAltar_Lobby" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1724_des_13" id="13">
+      <mission id="15" name2="Mission.Name2.1724_15" required-register-value="1" reward-1="1724_final_set1">
+        <case mapunit-1="6624_CH_WC_SaMinYoung_SideEpic3_0006" npc-response="qrsp_1724_7" object="npc:ch_wc_saminyoung_sideepic3_0006" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_RoyalTomb_CenterAltar_Lobby">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+      <destination mission-step-id="11" zone-index="2" />
+    </transit>
+    <transit id="2" zone="Zone_RoyalTomb_instance_D">
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+    </transit>
+    <transit id="3" zone="Zone_RoyalTomb_Entrace">
+      <destination mission-step-id="1" zone-index="2" />
+      <destination mission-step-id="2" zone-index="2" />
+      <destination mission-step-id="3" zone-index="2" />
+      <destination mission-step-id="4" zone-index="2" />
+      <destination mission-step-id="5" zone-index="2" />
+      <destination mission-step-id="6" zone-index="2" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+      <destination mission-step-id="11" zone-index="2" />
+      <complete zone-index="2" />
+    </transit>
+  </quest>
+</table>

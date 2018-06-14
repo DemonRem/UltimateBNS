@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="TutorialSkillSequence" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/tutorialskillsequencedata_soulfighter.xml-->
+ 
+
+
+<tutorialSkillSequence alias="SoulFighter_Lv4_M11">
+	 <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30200" skill-2="30201" type="skill" /> 
+ 	 <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30170" skill-2="30171" skill-3="30172" skill-4="30173" skill-5="30174" skill-6="30175" skill-7="30176" skill-8="30177" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="SoulFighter_Lv4_M21">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30080" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="SoulFighter_Lv6_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30100" target-pass-state="down" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="SoulFighter_Lv8_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30000" skill-2="30001" skill-3="30002" skill-4="30003" skill-5="30004" skill-6="30005" skill-7="30006" skill-8="30007" skill-9="30008" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30020" skill-2="30021" skill-3="30022" skill-4="30023" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30030" skill-2="30031" skill-3="30032" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="SoulFighter_Lv10_M11">
+ 	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30075" skill-2="30076" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="SoulFighter_Lv12_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30180" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30210" skill-2="30211" skill-3="30212" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30170" skill-2="30171" skill-3="30172" skill-4="30173" skill-5="30174" skill-6="30175" skill-7="30176" skill-8="30177" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="SoulFighter_Lv14_M11">
+ 	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30280" skill-2="30281" type="skill" /> 
+</tutorialSkillSequence>
+ 
+  
+   
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M11">
+ 	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30064" skill-2="30069" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M12">
+ 	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30064" skill-2="30069" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30020" skill-2="30021" skill-3="30022" skill-4="30023" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M13">
+ 	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30075" skill-2="30076" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30000" skill-2="30001" skill-3="30002" skill-4="30003" skill-5="30004" skill-6="30005" skill-7="30006" skill-8="30007" skill-9="30008" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30020" skill-2="30021" skill-3="30022" skill-4="30023" type="skill" /> 
+</tutorialSkillSequence>
+
+  
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M21">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30180" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30170" skill-2="30171" skill-3="30172" skill-4="30173" skill-5="30174" skill-6="30175" skill-7="30176" skill-8="30177" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M22">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30180" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30200" skill-2="30201" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30170" skill-2="30171" skill-3="30172" skill-4="30173" skill-5="30174" skill-6="30175" skill-7="30176" skill-8="30177" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M23">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30180" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30200" skill-2="30201" type="skill" /> 
+  <step check-only-cast-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30160" skill-2="30161" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30170" skill-2="30171" skill-3="30172" skill-4="30173" skill-5="30174" skill-6="30175" skill-7="30176" skill-8="30177" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M31">
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30080" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30020" skill-2="30021" skill-3="30022" skill-4="30023" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M32">
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30080" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30090" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30020" skill-2="30021" skill-3="30022" skill-4="30023" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="SoulFighter_Lv45_M33">
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30080" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30090" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30020" skill-2="30021" skill-3="30022" skill-4="30023" type="skill" /> 
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30030" skill-2="30031" skill-3="30032" type="skill" /> 
+</tutorialSkillSequence>
+  
+  
+
+<tutorialSkillSequence alias="SF_PvE_EliteSkill_Nuke_hit">
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30110" skill-2="30111" skill-3="30112" skill-4="30113" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="SF_PvE_EliteSkill_LeftCounter_hit">
+  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30062" skill-2="30063" skill-3="30067" skill-4="30068" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="SF_PvE_EliteSkill_JusticePunch_01_hit">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30000" skill-2="30001" skill-3="30002" skill-4="30003" skill-5="30004" skill-6="30005" skill-7="30006" skill-8="30007" skill-9="30008" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="SF_PvE_EliteSkill_JusticePunch_02_hit">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="30000" skill-2="30001" skill-3="30002" skill-4="30003" skill-5="30004" skill-6="30005" skill-7="30006" skill-8="30007" skill-9="30008" type="skill" /> 
+</tutorialSkillSequence>
+  
+</table>

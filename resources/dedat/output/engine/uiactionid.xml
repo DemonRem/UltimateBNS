@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="ItemData" release-side="client" type="uiactionid" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/engine\uiactionid.xml-->
+	<record action="00013376.Test_ContextCommand" alias="Test_CoxtextCommand" />
+	<record action="00028141.duel_round_start_group" alias="Duel_Round_Start" />
+	<record action="00028141.duel_result_particle_group" alias="Duel_Result_Particle" />
+	<record action="00028141.duel_result_group" alias="Duel_Result" />
+	<record action="00028141.duel_unrated_result_group" alias="Duel_Unrated_Result" />
+	<record action="00028141.duel_dicision_sound" alias="Duel_Dicision_Sound" />
+	<record action="00028141.jackpot_friend_score_up" alias="Jackpot_Friend_Score_Up" />
+	<record action="00028141.jackpot_friend_score_down" alias="Jackpot_Friend_Score_Down" />
+	<record action="00028141.jackpot_enemy_score_up" alias="Jackpot_Enemy_Score_Up" />
+	<record action="00028141.jackpot_enemy_score_down" alias="Jackpot_Enemy_Score_Down" />
+	<record action="00028141.jackpot_friend_down_sound" alias="jackpot_friend_down_sound" />
+	<record action="00028141.jackpot_enemy_down_sound" alias="jackpot_enemy_down_sound" />
+  <record action="00028141.jackpot_friend_score_down_particle" alias="jackpot_friend_score_down_particle" />
+  <record action="00028141.jackpot_enemy_score_down_particle" alias="jackpot_enemy_score_down_particle" />
+
+	<record action="00028141.duel_adnormal_enemy_down" alias="Duel_Abnormal_Enemy_Down" />
+	<record action="00028141.duel_adnormal_enemy_kneel" alias="Duel_Abnormal_Enemy_Kneel" />
+	<record action="00028141.duel_adnormal_enemy_knockback" alias="Duel_Abnormal_Enemy_KnockBack" />
+	<record action="00028141.duel_adnormal_enemy_stun" alias="Duel_Abnormal_Enemy_Stun" />
+	<record action="00052059.duel_adnormal_player_down" alias="Duel_Abnormal_Player_Down" />
+	<record action="00052059.duel_adnormal_player_kneel" alias="Duel_Abnormal_Player_Kneel" />
+	<record action="00052059.duel_adnormal_player_knockback" alias="Duel_Abnormal_Player_KnockBack" />
+	<record action="00052059.duel_adnormal_player_stun" alias="Duel_Abnormal_Player_Stun" />
+        <record action="00052059.duel_adnormal_player_Air" alias="Duel_Abnormal_Player_Air" />
+	<record action="00028141.duel_adnormal_enemy_summoned_down" alias="Duel_Abnormal_Enemy_Summoned_Down" />
+	<record action="00028141.duel_adnormal_enemy_summoned_kneel" alias="Duel_Abnormal_Enemy_Summoned_Kneel" />
+	<record action="00028141.duel_adnormal_enemy_summoned_knockback" alias="Duel_Abnormal_Enemy_Summoned_KnockBack" />
+	<record action="00028141.duel_adnormal_enemy_summoned_stun" alias="Duel_Abnormal_Enemy_Summoned_Stun" />
+	<record action="00028141.duel_adnormal_player_summoned_down" alias="Duel_Abnormal_Player_Summoned_Down" />
+	<record action="00028141.duel_adnormal_player_summoned_kneel" alias="Duel_Abnormal_Player_Summoned_Kneel" />
+	<record action="00028141.duel_adnormal_player_summoned_knockback" alias="Duel_Abnormal_Player_Summoned_KnockBack" />
+	<record action="00028141.duel_adnormal_player_summoned_stun" alias="Duel_Abnormal_Player_Summoned_Stun" />
+
+	<record action="00052059.duel_criticalskill_player_thunder_01" alias="Duel_Player_Critical_Skill_match_slash" />
+	<record action="00052059.duel_criticalskill_player_thunder_02" alias="Duel_Player_Critical_Skill_batto_pierce" />
+	<record action="00052059.duel_criticalskill_player_thunder_03" alias="Duel_Player_Critical_Skill_diffusion_soul" />
+	<record action="00052059.duel_criticalskill_player_blood" alias="Duel_Player_Critical_Skill_point_blood" />
+	<record action="00052059.duel_criticalskill_player_smash" alias="Duel_Player_Critical_Skill_counter_crash" />
+	<record action="00052059.duel_criticalskill_player_fire" alias="Duel_Player_Critical_Skill_deal_fireball" />
+  	<record action="00052059.duel_criticalskill_player_spell_nuke" alias="Duel_Player_Critical_Skill_spell_nuke" />
+  	<record action="00052059.duel_criticalskill_player_nuke_attack" alias="Duel_Player_Critical_Skill_nuke_attack" />
+  	<record action="00052059.duel_criticalskill_player_frost_energyball" alias="Duel_Player_Critical_Skill_frost_energyball" />
+  	<record action="00052059.duel_criticalskill_player_randomfire" alias="Duel_Player_Critical_Skill_randomfire" />
+	<record action="00028141.duel_criticalskill_player_bam" alias="Duel_Player_Critical_Skill_thornbus" />
+	<record action="00052059.duel_criticalskill_player_tombstone" alias="Duel_Player_Critical_Skill_tombstone" />
+
+	<record action="00052059.duel_criticalskill_enemy_thunder_01" alias="Duel_Enemy_Critical_Skill_match_slash" />
+	<record action="00052059.duel_criticalskill_enemy_thunder_02" alias="Duel_Enemy_Critical_Skill_batto_pierce" />
+	<record action="00052059.duel_criticalskill_enemy_thunder_03" alias="Duel_Enemy_Critical_Skill_diffusion_soul" />
+	<record action="00052059.duel_criticalskill_enemy_blood" alias="Duel_Enemy_Critical_Skill_point_blood" />
+	<record action="00052059.duel_criticalskill_enemy_smash" alias="Duel_Enemy_Critical_Skill_counter_crash" />
+	<record action="00052059.duel_criticalskill_enemy_fire" alias="Duel_Enemy_Critical_Skill_deal_fireball" />
+  	<record action="00052059.duel_criticalskill_enemy_spell_nuke" alias="Duel_Enemy_Critical_Skill_spell_nuke" />
+ 	<record action="00052059.duel_criticalskill_enemy_nuke_attack" alias="Duel_Enemy_Critical_Skill_nuke_attack" />
+ 	<record action="00052059.duel_criticalskill_enemy_frost_energyball" alias="Duel_Enemy_Critical_Skill_frost_energyball" />
+ 	<record action="00052059.duel_criticalskill_enemy_randomfire" alias="Duel_Enemy_Critical_Skill_randomfire" />
+	<record action="00028141.duel_criticalskill_enemy_bam" alias="Duel_Enemy_Critical_Skill_thornbus" />
+	<record action="00052059.duel_criticalskill_enemy_tombstone" alias="Duel_Enemy_Critical_Skill_tombstone" />
+
+  <record action="00028141.duel_result_particle_global_group" alias="Duel_Result_Particle_global" />
+  <record action="00028141.duel_result_global_group" alias="Duel_Result_global" />
+  <record action="00028141.duel_unrated_result_global_group" alias="Duel_Unrated_Result_global" />
+
+  <record action="00028141.duel_adnormal_enemy_down_global" alias="Duel_Abnormal_Enemy_Down_global" />
+  <record action="00028141.duel_adnormal_enemy_kneel_global" alias="Duel_Abnormal_Enemy_Kneel_global" />
+  <record action="00028141.duel_adnormal_enemy_knockback_global" alias="Duel_Abnormal_Enemy_KnockBack_global" />
+  <record action="00028141.duel_adnormal_enemy_stun_global" alias="Duel_Abnormal_Enemy_Stun_global" />
+  <record action="00028141.duel_adnormal_player_down_global" alias="Duel_Abnormal_Player_Down_global" />
+  <record action="00028141.duel_adnormal_player_kneel_global" alias="Duel_Abnormal_Player_Kneel_global" />
+  <record action="00028141.duel_adnormal_player_knockback_global" alias="Duel_Abnormal_Player_KnockBack_global" />
+  <record action="00028141.duel_adnormal_player_stun_global" alias="Duel_Abnormal_Player_Stun_global" />
+  <record action="00028141.duel_adnormal_player_Air_global" alias="Duel_Abnormal_Player_Air_global" />
+  <record action="00028141.duel_adnormal_enemy_summoned_down_global" alias="Duel_Abnormal_Enemy_Summoned_Down_global" />
+  <record action="00028141.duel_adnormal_enemy_summoned_kneel_global" alias="Duel_Abnormal_Enemy_Summoned_Kneel_global" />
+  <record action="00028141.duel_adnormal_enemy_summoned_knockback_global" alias="Duel_Abnormal_Enemy_Summoned_KnockBack_global" />
+  <record action="00028141.duel_adnormal_enemy_summoned_stun_global" alias="Duel_Abnormal_Enemy_Summoned_Stun_global" />
+  <record action="00028141.duel_adnormal_player_summoned_down_global" alias="Duel_Abnormal_Player_Summoned_Down_global" />
+  <record action="00028141.duel_adnormal_player_summoned_kneel_global" alias="Duel_Abnormal_Player_Summoned_Kneel_global" />
+  <record action="00028141.duel_adnormal_player_summoned_knockback_global" alias="Duel_Abnormal_Player_Summoned_KnockBack_global" />
+  <record action="00028141.duel_adnormal_player_summoned_stun_global" alias="Duel_Abnormal_Player_Summoned_Stun_global" />
+
+  <record action="00028141.duel_criticalskill_player_thunder_01_global" alias="Duel_Player_Critical_Skill_match_slash_global" />
+  <record action="00028141.duel_criticalskill_player_thunder_02_global" alias="Duel_Player_Critical_Skill_batto_pierce_global" />
+  <record action="00028141.duel_criticalskill_player_thunder_03_global" alias="Duel_Player_Critical_Skill_diffusion_soul_global" />
+  <record action="00028141.duel_criticalskill_player_blood_global" alias="Duel_Player_Critical_Skill_point_blood_global" />
+  <record action="00028141.duel_criticalskill_player_smash_global" alias="Duel_Player_Critical_Skill_counter_crash_global" />
+  <record action="00028141.duel_criticalskill_player_fire_global" alias="Duel_Player_Critical_Skill_deal_fireball_global" />
+  <record action="00028141.duel_criticalskill_player_spell_nuke_global" alias="Duel_Player_Critical_Skill_spell_nuke_global" />
+  <record action="00028141.duel_criticalskill_player_nuke_attack_global" alias="Duel_Player_Critical_Skill_nuke_attack_global" />
+  <record action="00028141.duel_criticalskill_player_frost_energyball_global" alias="Duel_Player_Critical_Skill_frost_energyball_global" />
+  <record action="00028141.duel_criticalskill_player_randomfire_global" alias="Duel_Player_Critical_Skill_randomfire_global" />
+  
+
+  <record action="00028141.duel_criticalskill_enemy_thunder_01_global" alias="Duel_Enemy_Critical_Skill_match_slash_global" />
+  <record action="00028141.duel_criticalskill_enemy_thunder_02_global" alias="Duel_Enemy_Critical_Skill_batto_pierce_global" />
+  <record action="00028141.duel_criticalskill_enemy_thunder_03_global" alias="Duel_Enemy_Critical_Skill_diffusion_soul_global" />
+  <record action="00028141.duel_criticalskill_enemy_blood_global" alias="Duel_Enemy_Critical_Skill_point_blood_global" />
+  <record action="00028141.duel_criticalskill_enemy_smash_global" alias="Duel_Enemy_Critical_Skill_counter_crash_global" />
+  <record action="00028141.duel_criticalskill_enemy_fire_global" alias="Duel_Enemy_Critical_Skill_deal_fireball_global" />
+  <record action="00028141.duel_criticalskill_enemy_spell_nuke_global" alias="Duel_Enemy_Critical_Skill_spell_nuke_global" />
+  <record action="00028141.duel_criticalskill_enemy_nuke_attack_global" alias="Duel_Enemy_Critical_Skill_nuke_attack_global" />
+  <record action="00028141.duel_criticalskill_enemy_frost_energyball_global" alias="Duel_Enemy_Critical_Skill_frost_energyball_global" />
+  <record action="00028141.duel_criticalskill_enemy_randomfire_global" alias="Duel_Enemy_Critical_Skill_randomfire_global" />
+  <record action="00028141.duel_criticalskill_enemy_bam_global" alias="Duel_Enemy_Critical_Skill_thornbus_global" />
+
+  <record action="00052059.factionstage_round1_stage3_faction1_win" alias="FactionStage_Round1_Stage3_Faction1_Win" />
+  <record action="00052059.factionstage_round2_stage3_faction1_win" alias="FactionStage_Round2_Stage3_Faction1_Win" />
+  <record action="00052059.factionstage_round3_stage3_faction1_win" alias="FactionStage_Round3_Stage3_Faction1_Win" />
+  <record action="00052059.factionstage_round1_stage3_faction2_win" alias="FactionStage_Round1_Stage3_Faction2_Win" />
+  <record action="00052059.factionstage_round2_stage3_faction2_win" alias="FactionStage_Round2_Stage3_Faction2_Win" />
+  <record action="00052059.factionstage_round3_stage3_faction2_win" alias="FactionStage_Round3_Stage3_Faction2_Win" />
+  <record action="00052059.factionstage_stage4_faction1_win" alias="FactionStage_Stage4_Faction1_Win" />              
+  <record action="00052059.factionstage_stage4_faction2_win" alias="FactionStage_Stage4_Faction2_Win" />
+
+  
+  <record action="00052059.partybattle_game_start" alias="PARTYBATTLE_GAME_START" />
+  <record action="00028141.partybattle_game_start_change_board" alias="PARTYBATTLE_GAME_START_CHANGE_BOARD" />
+
+  <record action="00052059.partybattle_game_finish_nogame" alias="PARTYBATTLE_GAME_FINISH_NOGAME" />
+  <record action="00052059.partybattle_game_finish_draw" alias="PARTYBATTLE_GAME_FINISH_DRAW" />
+  <record action="00052059.partybattle_game_finish_win" alias="PARTYBATTLE_GAME_FINISH_WIN" />
+  <record action="00052059.partybattle_game_finish_lose" alias="PARTYBATTLE_GAME_FINISH_LOSE" />
+
+  <record action="00028141.partybattle_friend_score_up" alias="PARTYBATTLE_FREIND_SCORE_UP" />
+  <record action="00028141.partybattle_enemy_score_up" alias="PARTYBATTLE_ENEMY_SCORE_UP" />
+
+  <record action="00028141.partybattle_result_battlepoint_up" alias="PARTYBATTLE_RESULT_BATTLEPOINT_UP" />
+  <record action="00028141.partybattle_result_exp_up" alias="PARTYBATTLE_RESULT_EXP_UP" />
+
+  
+  <record action="00028141.TagDuel_PlayerTeam_Flag_3" alias="DuelTag_Show_PlayerTeam_FirstOrder" />
+  <record action="00028141.TagDuel_EnemyTeam_Flag_3" alias="DuelTag_Show_EnemyTeam_FirstOrder" />
+
+  <record action="00028141.TagDuel_PlayerTeam_next_1" alias="DuelTag_Update_TagToken" />
+  <record action="00028141.TagDuel_PlayerTeam_intrusion_1" alias="DuelTag_Show_Interference" />
+  <record action="00028141.TagDuel_PlayerTeam_count_1" alias="DuelTag_Show_InterferenceTime" />
+
+  <record action="00028141.TagDuel_Player_intrusion" alias="CombatStatus_Show_Interference" />
+  <record action="00028141.TagDuel_Player_count" alias="CombatStatus_Show_InterferenceTime" />
+
+  <record action="00028141.TagDuel_Watch" alias="DuelTag_Watch_NextToken" />
+  <record action="00028141.TagDuel_PlayerTeam_Gauge" alias="DuelTag_Update_PlayerTeam_CombatParticle" />
+  <record action="00028141.TagDuel_EnemyTeam_Gauge" alias="DuelTag_Update_EnemyTeam_CombatParticle" />
+  <record action="00028141.TagDuel_Player_count_0" alias="CombatStatus_Show_InterferenceTime_Zero" />
+
+  
+  <record action="00028141.appearence_change_progress" alias="Appearence_Change_Progress" />
+  <record action="00028141.appearence_change_result" alias="Appearence_Change_Result" />
+  <record action="00028141.appearence_change_result2" alias="Appearence_Change_Result2" />
+
+  <record action="00028141.appearence_remove_progress" alias="Appearence_Remove_Progress" />
+  <record action="00028141.appearence_remove_result" alias="Appearence_Remove_Result" />
+  <record action="00028141.appearence_separate_result" alias="appearence_separate_result" />
+
+  
+  <record action="00028141.partybattle_bonus_kill" alias="PARTYBATTLE_BONUS_KILL" />
+  <record action="00028141.partybattle_bonus_wholeoccupy_show" alias="PARTYBATTLE_BONUS_WHOLEOCCUPY_SHOW" />
+  <record action="00028141.partybattle_bonus_wholeoccupy_score" alias="PARTYBATTLE_BONUS_WHOLEOCCUPY_SCORE" />
+  <record action="00028141.partybattle_bonus_occupy" alias="PARTYBATTLE_BONUS_OCCUPY" />
+  <record action="00028141.partybattle_flag_last_warning" alias="PARTYBATTLE_FLAG_LAST_WARNING" />
+  <record action="00028141.partybattle_flag_timer_count_max" alias="PARTYBATTLE_FLAG_TIMER_COUNT_MAX" />
+
+  
+  <record action="00028141.TagDuel_EnemyTeam_next_1" alias="DuelTag_Enemy_Update_TagToken" />
+  <record action="00028141.TagDuel_EnemyTeam_intrusion_1" alias="DuelTag_Enemy_Show_Interference" />
+  <record action="00028141.TagDuel_EnemyTeam_count_1" alias="DuelTag_Enemy_Show_InterferenceTime" /> 
+  <record action="00028141.TagDuel_PlayerTeam_HPFX" alias="DuelTag_Observer_Update_PlayerTeam_CombatParticle" />
+  <record action="00028141.TagDuel_EnemyTeam_HPFX" alias="DuelTag_Observer_Update_EnemyTeam_CombatParticle" />
+
+  <record action="00028141.DuelTag_Observer_Update_InterferenceCount" alias="DuelTag_Observer_Update_InterferenceCount" />
+  <record action="00028141.DuelTag_Update_InterferenceCount" alias="DuelTag_Update_InterferenceCount" />
+  <record action="00028141.Duel_Observer_PlayerTeam_SkillBar" alias="Duel_Observer_PlayerTeam_SkillBar" />
+  <record action="00028141.Duel_Observer_EnemyTeam_SkillBar" alias="Duel_Observer_EnemyTeam_SkillBar" />
+  <record action="00028141.DuelTag_Observer_PlayerTeam_Tag_Timer" alias="DuelTag_Observer_PlayerTeam_Tag_Timer" />
+  <record action="00028141.DuelTag_Observer_EnemyTeam_Tag_Timer" alias="DuelTag_Observer_EnemyTeam_Tag_Timer" />
+  <record action="00028141.Duel_Abnormal_PlayerTeam_HP_Caution" alias="Duel_Abnormal_PlayerTeam_HP_Caution" />
+  <record action="00028141.Duel_Abnormal_EnemyTeam_HP_Caution" alias="Duel_Abnormal_EnemyTeam_HP_Caution" />
+  <record action="00028141.Duel_Abnormal_PlayerTeam_Summoned_HP_Caution" alias="Duel_Abnormal_PlayerTeam_Summoned_HP_Caution" />
+  <record action="00028141.Duel_Abnormal_EnemyTeam_Summoned_HP_Caution" alias="Duel_Abnormal_EnemyTeam_Summoned_HP_Caution" />
+  <record action="00052059.Duel_Abnormal_Player_Stun_Critical" alias="Duel_Abnormal_Player_Stun_Critical" />
+  <record action="00028141.Duel_Abnormal_Player_Stun_Critical_Global" alias="Duel_Abnormal_Player_Stun_Critical_global" />
+  <record action="00052059.Duel_Abnormal_Player_Down_Critical" alias="Duel_Abnormal_Player_Down_Critical" />
+  <record action="00028141.Duel_Abnormal_Player_Down_Critical_Global" alias="Duel_Abnormal_Player_Down_Critical_global" />
+  <record action="00052059.Duel_Abnormal_Player_Kneel_Critical" alias="Duel_Abnormal_Player_Kneel_Critical" />
+  <record action="00028141.Duel_Abnormal_Player_Kneel_Critical_Global" alias="Duel_Abnormal_Player_Kneel_Critical_global" />
+  <record action="00052059.Duel_Abnormal_Player_KnockBack_Critical" alias="Duel_Abnormal_Player_KnockBack_Critical" />
+  <record action="00028141.Duel_Abnormal_Player_KnockBack_Critical_Global" alias="Duel_Abnormal_Player_KnockBack_Critical_global" />
+  <record action="00052059.Duel_Abnormal_Player_Air_Critical" alias="Duel_Abnormal_Player_Air_Critical" />  
+  <record action="00028141.Duel_Abnormal_Player_Air_Critical_global" alias="Duel_Abnormal_Player_Air_Critical_global" />
+  <record action="00052059.duel_skill_player_intrusion" alias="Duel_Player_Critical_Skill_intrusion" />
+  <record action="00028141.duel_skill_player_intrusion_Global" alias="Duel_Player_Critical_Skill_intrusion_global" />
+  <record action="00052059.duel_skill_Enemy_intrusion" alias="Duel_Enemy_Critical_Skill_intrusion" />
+  <record action="00028141.duel_skill_Enemy_intrusion_Global" alias="Duel_Enemy_Critical_Skill_intrusion_global" />
+  <record action="00052059.duel_skill_Player_Change" alias="Duel_Player_Critical_Skill_Change" />
+  <record action="00028141.duel_skill_Player_Change_Global" alias="Duel_Player_Critical_Skill_Change_global" />
+  <record action="00052059.duel_skill_Enemy_Change" alias="Duel_Enemy_Critical_Skill_Change" />
+  <record action="00028141.duel_skill_Enemy_Change_Global" alias="Duel_Enemy_Critical_Skill_Change_global" />
+
+  
+  <record action="00028141.Party_VacancyParticle" alias="PartyMember_State_Vacancy" />
+
+
+<record action="00028141.DuelBot_Countdown" alias="DuelBot_Countdown" /> 
+
+<record action="00028141.DuelBot_Enter_Card_Selection_1" alias="DuelBot_Enter_Card_Selection_1" />
+<record action="00028141.DuelBot_Enter_Card_Selection_2" alias="DuelBot_Enter_Card_Selection_2" />
+<record action="00028141.DuelBot_Enter_Card_Selection_3" alias="DuelBot_Enter_Card_Selection_3" />
+
+<record action="00052059.DuelBot_result_1" alias="DuelBot_result_1" />
+<record action="00052059.DuelBot_result_2" alias="DuelBot_result_2" />
+<record action="00052059.DuelBot_result_3" alias="DuelBot_result_3" />
+
+<record action="00052059.DuelBot_result_renew" alias="DuelBot_result_renew" />
+<record action="00028141.DuelBot_Insert_Card_Slot" alias="DuelBot_Insert_Card_Slot" />
+<record action="00028141.DuelBot_Insert_NonSelectCard_Slot_01" alias="DuelBot_Insert_NonSelectCard_Slot_01" />
+<record action="00028141.DuelBot_Insert_NonSelectCard_Slot_02" alias="DuelBot_Insert_NonSelectCard_Slot_02" />
+<record action="00028141.DuelBot_Insert_NonSelectCard_Slot_03" alias="DuelBot_Insert_NonSelectCard_Slot_03" />
+
+
+
+<record action="00028141.DuelBot_Training_Result_RankStar1" alias="DuelBot_Training_Result_RankStar1" /> 
+<record action="00028141.DuelBot_Training_Result_RankStar1_1" alias="DuelBot_Training_Result_RankStar1_1" /> 
+<record action="00028141.DuelBot_Training_Result_RankStar1_2" alias="DuelBot_Training_Result_RankStar1_2" />
+<record action="00028141.DuelBot_Training_Result_RankStar1_3" alias="DuelBot_Training_Result_RankStar1_3" /> 
+<record action="00028141.DuelBot_Training_Result_RankStar2" alias="DuelBot_Training_Result_RankStar2" /> 
+<record action="00028141.DuelBot_Training_Result_RankStar2_1" alias="DuelBot_Training_Result_RankStar2_1" />
+<record action="00028141.DuelBot_Training_Result_RankStar2_2" alias="DuelBot_Training_Result_RankStar2_2" />  
+<record action="00028141.DuelBot_Training_Result_RankStar3" alias="DuelBot_Training_Result_RankStar3" />
+<record action="00028141.DuelBot_Training_Result_RankStar3_1" alias="DuelBot_Training_Result_RankStar3_1" /> 
+<record action="00028141.DuelBot_Training_Result_Lost" alias="DuelBot_Training_Result_Lost" /> 
+
+
+  
+<record action="00028141.reward-chance-ui-action-ref" alias="reward-chance-ui-action-ref" />
+
+
+
+<record action="00028141.Credit_Background_Loop" alias="Credit_Background_Loop" />
+<record action="00028141.Credit_Text" alias="Credit_Text" />
+<record action="00044044.Credit_New_Back" alias="Credit_New_Back" />
+<record action="00044044.Credit_New_FadeOut" alias="New_FadeOut" />
+<record action="00044044.Credit_New_sound" alias="Credit_New_sound" />
+
+  
+  <record action="00028141.partybattle_MVPResult_ME" alias="PARTYBATTLE_MVPRESULT_ME" />
+  <record action="00028141.partybattle_MVPResult_Select" alias="PARTYBATTLE_MVPRESULT_SELECT" />
+  <record action="00028141.partybattle_MVPResult_Team" alias="PARTYBATTLE_MVPRESULT_TEAM" />
+
+
+
+<record action="00028141.Random_Ability_Equip_Gem_Feeding_Result_1" alias="Random_Ability_Equip_Gem_Feeding_Result_1" /> 
+<record action="00028141.Random_Ability_Equip_Gem_Feeding_Result_2" alias="Random_Ability_Equip_Gem_Feeding_Result_2" />
+<record action="00028141.Random_Ability_Equip_Gem_Feeding_Result_3" alias="Random_Ability_Equip_Gem_Feeding_Result_3" />
+
+
+
+<record action="00028141.ItemMap_Node_Equiped" alias="ItemMap_Node_Equiped" /> 
+<record action="00028141.ItemMap_Node_Purpose" alias="ItemMap_Node_Purpose" />
+<record action="00028141.ItemMap_Node_Searched" alias="ItemMap_Node_Searched" />
+<record action="00028141.ItemMap_Node_Start" alias="ItemMap_Node_Start" />
+<record action="00028141.ItemMap_Node_Via" alias="ItemMap_Node_Via" />
+<record action="00028141.ItemMap_Node_Tooltop_Searched_50" alias="ItemMap_Node_Tooltop_Searched_50" />
+<record action="00028141.ItemMap_Node_Tooltop_Searched_32" alias="ItemMap_Node_Tooltop_Searched_32" />
+
+
+<record action="00028141.Duel_ui_resizing_loopback" alias="Duel_ui_resizing_loopback" />
+<record action="00028141.Duel_ui_resizing_scaledown" alias="Duel_ui_resizing_scaledown" />
+
+  
+  <record action="00028141.SkillBook_Searched" alias="SKILLBOOK_SEARCHED" />
+  <record action="00028141.SkillBook_Notice" alias="SKILLBOOK_NOTICE" />
+
+
+  
+  <record action="00028141.SkillTrainingFieldPlay_Countdown" alias="SKILLTRAININGFIELDPLAY_COUNTDOWN" />
+  <record action="00052059.SkillTrainingFieldPlay_Result_Success" alias="SKILLTRAININGFIELDPLAY_RESULT_SUCCESS" />
+  <record action="00028141.SkillTrainingFieldPlay_Tab" alias="SKILLTRAININGFIELDPLAY_TAB" />
+  <record action="00028141.SkillTrainingFieldPlay_Tab_O" alias="SKILLTRAININGFIELDPLAY_TAB_O" />
+  <record action="00028141.SkillTrainingFieldPlay_Tab_X" alias="SKILLTRAININGFIELDPLAY_TAB_X" />
+  <record action="00028141.SkillTrainingFieldPlay_PlayCount" alias="SKILLTRAININGFIELDPLAY_PLAYCOUNT" />
+  <record action="00028141.SkillTrainingFieldPlay_Notice" alias="SKILLTRAININGFIELDPLAY_NOTICE" />
+
+
+  
+  <record action="00044044.AttendanceCalendar_Complete" alias="ATTENDANCECALENDAR_COMPLETE" />
+
+  
+  <record action="00044044.AttendanceTimeTable_Complete" alias="ATTENDANCETIMETABLE_COMPLETE" />
+
+  
+  <record action="00028141.DuelTag_EnemyTeam_SpecialGuige" alias="DUELTAG_ENEMYTEAM_SPECIALGUIGE" />
+  <record action="00028141.DuelTag_Observer_PlayerTeam_SpecialGuige" alias="DUELTAG_PLAYERTEAM_SPECIALGUIGE" />
+  <record action="00028141.DuelTag_Observer_EnemyTeam_SpecialGuige" alias="DUELTAG_OBSERVER_ENEMYTEAM_SPECIALGUIGE" />
+  <record action="00028141.DuelTag_PlayerTeam_SpecialGuige" alias="DUELTAG_OBSERVER_PLAYERTEAM_SPECIALGUIGE" />
+
+
+  
+  <record action="00044044.PartyBattle_LeadTheBall_BounsCountStart" alias="PARTYBATTLE_LEADTHEBALL_BOUNSCOUNTSTART" />
+  <record action="00028141.partybattle_bonus_GoulBonus_score" alias="PARTYBATTLE_BOUNS__GOULBOUNS_SCORE" />
+  
+  
+  <record action="00044044.Wardrobe_ItemSearched" alias="WARDROBE_ITEMSEARCHED" />
+  
+</table>

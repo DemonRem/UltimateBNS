@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1473.xml-->
+  <quest activated-faction="factionmain1" alias="q_sub_1473" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1473_sum" grade="1" group2="QG_BaramCenter" id="1473" main-faction="factionmain1" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.1473" reset-type="daily" save-type="all">
+    <acquisition faction="factionmain1" level="45" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_q_1473_1" object="npc:ch_sa_bff_murimmedic_0001_0001" progress-mission="n" type="talk">
+        <filter-set name="active-faction">
+          <filter subject="case:talked:pc" subject2="case:talked:pc" type="active-faction" value="factionmain1" />
+        </filter-set>
+      </case>
+    </acquisition>
+    <mission-step completion-type="or" id="1">
+      <mission id="1" name2="Mission.Name2.1473_1" required-register-value="1">
+        <case looting="q_1473_1_icon" object2="npc:ME_SA_BFF_WildBoarFieldBoss_0001" progress-mission="y" type="loot" />
+      </mission>
+      <mission id="2" name2="Mission.Name2.1473_2" required-register-value="1">
+        <case looting="q_1473_1_icon" object2="npc:ME_SA_BFF_WildBoarFieldBoss_0003" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="3" name2="Mission.Name2.1473_3" required-register-value="1" reward-1="1473_final_set1" reward-2="1473_final_set2">
+        <case npc-response="qrsp_q_1473_2" object="npc:ch_sa_bff_murimmedic_0001_0001" progress-mission="y" type="talk">
+          <filter-set name="active-faction">
+            <filter subject="case:talked:pc" subject2="case:talked:pc" type="active-faction" value="factionmain1" />
+          </filter-set>
+        </case>
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1415.xml-->
+  <quest alias="q_sub_1415" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1415_sum" grade="6" group2="QG_BaramCenter" id="1415" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1415" reset-type="daily">
+    <acquisition level="45" recommended-level="50">
+      <case acquire-quest="y" indicator="quest-board-start" npc-response="qrsp_1415_1" object="npc:ce_sa_bff_wind_board_0001" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1415_1" required-register-value="3">
+        <case mapunit-1="M_5500_ME_SA_BFF_SnowmanBoss_0001" mapunit-2="M_5500_ME_SA_BFF_SnowmanBoss_0001_1" mapunit-3="M_5500_ME_SA_BFF_SnowmanBoss_0001_2" object2="npc:ME_SA_BFF_SnowmanBoss_0001" progress-mission="y" type="killed" />
+      </mission>
+      <mission id="2" name2="Mission.Name2.1415_2" required-register-value="2">
+        <case mapunit-1="M_5500_ME_SA_BF_GrassBeastBig_0001" mapunit-2="M_5500_ME_SA_BF_GrassBeastBig_0001_1" mapunit-3="M_5500_ME_SA_BF_GrassBeastBig_0001_2" object2="npc:ME_SA_BF_GrassBeastBig_0001" progress-mission="y" type="killed" />
+      </mission>
+      <mission id="3" name2="Mission.Name2.1415_3" required-register-value="2">
+        <case mapunit-1="M_5500_ME_SA_BF_BearNamed_0001" object2="npc:ME_SA_BF_BearNamed_0001" progress-mission="y" type="killed" />
+      </mission>
+      <mission id="4" name2="Mission.Name2.1415_4" required-register-value="1">
+        <case mapunit-1="M_5500_ME_SA_BF_SeaMonsterLeader_0001" object2="npc:ME_SA_BF_SeaMonsterLeader_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="5" name2="Mission.Name2.1415_5" required-register-value="1" reward-1="1415_final_set1" reward-2="1415_final_set2">
+        <case npc-response="qrsp_1415_2" object="npc:ch_sa_citizen_0076" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1415_1_icon" msg="q_1415_3" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1415_3" object="npc:ch_sa_citizen_0076" type="approach" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

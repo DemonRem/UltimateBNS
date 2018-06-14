@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1370.xml-->
+  <quest alias="q_sub_1370" attraction-info="guild-battle-field-zone:HellScroll" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1370_sum" grade="1" group2="QG_Jiokdo" id="1370" main-faction="factionmain2" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.1370" reset-type="daily" retired="y" save-type="all">
+    <acquisition faction="factionmain2" level="50" recommended-level="50">
+      <case acquire-quest="y" item="Quest_Scroll_HellScroll_0002" msg="q_1370_1" progress-mission="n" type="talk-to-item" />
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_UnbalanceZombieB_0007" quest-symbol-drop-prob="5" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_UnbalanceZombieB_0006" quest-symbol-drop-prob="5" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_UnbalanceZombieB_0005" quest-symbol-drop-prob="5" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_UnbalanceZombieB_0004" quest-symbol-drop-prob="2" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_UnbalanceZombieB_0003" quest-symbol-drop-prob="2" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_UnbalanceZombieB_0002" quest-symbol-drop-prob="2" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_UnbalanceZombieBScaleUp1_0005" quest-symbol-drop-prob="10" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_SnakeSoldier_0012" quest-symbol-drop-prob="2" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_SnakeSoldier_0011" quest-symbol-drop-prob="2" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_SnakeSoldier_0010" quest-symbol-drop-prob="2" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_SnakeSoldier_0009" quest-symbol-drop-prob="1" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_SnakeSoldier_0008" quest-symbol-drop-prob="1" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+      <case loot-item="Quest_Scroll_HellScroll_0002" looting="q_1370_1_icon" object2="npc:ME_WA_SnakeSoldier_0007" quest-symbol-drop-prob="1" type="loot">
+        <filter-set>
+          <filter subject="case:loot:pc" subject2="case:loot:pc" type="faction" value="factionmain2" />
+        </filter-set>
+      </case>
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1370_1" required-register-value="1" reward-1="1370_final_set1" reward-2="1370_final_set2">
+        <case grocery="Quest_Scroll_HellScroll_0002" npc-response="qrsp_1370_2" object="npc:ch_wa_honcheongyo_0004" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

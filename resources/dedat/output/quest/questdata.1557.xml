@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1557.xml-->
+  <quest alias="q_sub_1557" attraction-info="dungeon:Dungeon_SandTemple" category="normal" day-of-week="daily" desc="q_1557_sum" grade="10" group2="QG_SandTemple" id="1557" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1557" reset-type="daily" save-type="all">
+    <acquisition level="55" preceding-quest-1="q_epic_1657" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1557_1" object="npc:MH_WA_sandTemple_0020" type="talk" />
+      <case acquire-quest="y" completion-count="1" completion-count-op="ge" npc-response="qrsp_1557_2" object="npc:MH_WA_sandTemple_0020" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1557_1" required-register-value="5">
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0007" progress-mission="y" type="loot" />
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0005" progress-mission="y" type="loot" />
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0003" progress-mission="y" type="loot" />
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0001" progress-mission="y" type="loot" />
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0013" progress-mission="y" type="loot" />
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0011" progress-mission="y" type="loot" />
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0009" progress-mission="y" type="loot" />
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0015" progress-mission="y" type="loot" />
+        <case looting="q_1557_1_icon" mapunit-1="6619_ME_WA_sandTemple_0001_1" mapunit-2="6619_ME_WA_sandTemple_0001_2" object2="npc:ME_WA_sandTemple_0023" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1557_2" required-register-value="1" reward-1="1557_final_set1" reward-2="1557_final_set2">
+        <case completion-count="1" item="q_1557_6_icon" msg="q_1557_6" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" npc-response="qrsp_1557_5" object="npc:MH_WA_sandTemple_0020" progress-mission="y" type="talk" />
+        <case completion-count="1" completion-count-op="lt" item="q_1557_4_icon" msg="q_1557_4" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1557_3" object="npc:MH_WA_sandTemple_0020" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1617.xml-->
+  <quest alias="q_sub_1617" broadcast-category="field" category="normal" completed-desc="q_1617_completed" completed-list="n" content-type="side-episode" desc="q_1617_sum" grade="1" group2="QG_GonRyunCliff" id="1617" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1617" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1611" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1617_12" object="npc:ch_sb_jeonghado_0005" progress-mission="y" type="talk" />
+      <case acquire-quest="y" item="q_1617_1_icon" msg="q_1617_11" progress-mission="y" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1617_1" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1617_1" object="npc:ch_sb_jeonghado_0005" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1617_13" object="npc:ch_sb_gunmahye_0002" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1617_2" required-register-value="1">
+        <case npc-response="qrsp_1617_4" object="npc:ch_sb_gunhyang_0016" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:5629_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case npc-response="qrsp_1617_16" object="npc:ch_sb_jeonghado_0005" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1617_3" required-register-value="1">
+        <case npc-response="qrsp_1617_5" object="npc:CH_SB_EnAnk_0007" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1617_4" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1617_6" object="npc:ch_sb_gunhyang_0016" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1617_5" required-register-value="1">
+        <case mapunit-1="6136_Guide_01" object="zone:zone_gw_chaeunhang_heukryong_juria_sub1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1617_6" required-register-value="1">
+        <case npc-response="qrsp_1617_7" object="npc:CH_SB_BlackDragon_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1617_7" required-register-value="7">
+        <case object2="npc:ch_sb_blackdragon_0005" progress-mission="y" type="killed" />
+        <case object2="npc:ch_sb_blackdragon_0004" progress-mission="y" type="killed" />
+        <case object2="npc:ch_sb_blackdragon_0003" progress-mission="y" type="killed" />
+        <case object2="npc:ch_sb_blackdragon_0002" progress-mission="y" type="killed" />
+        <case mapunit-1="6136_CH_SB_BlackDragon_Kill" object2="npc:ch_sb_blackdragon_0001" progress-mission="y" type="killed" />
+        <case object="zone:zone_GW_ChaeUnHang_HeukRyong_Juria_sub1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="7" />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1617_8" required-register-value="1">
+        <case npc-response="qrsp_1617_8" object="npc:ch_sb_jinsoa_0005" progress-mission="y" type="talk" />
+        <case object="zone:zone_GW_ChaeUnHang_HeukRyong_Juria_sub1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1617_9" required-register-value="20">
+        <case object2="npc:mh_sb_blackdragon_0131" progress-mission="y" type="killed" />
+        <case object2="npc:mh_sb_blackdragon_0130" progress-mission="y" type="killed" />
+        <case object2="npc:mh_sb_blackdragon_0129" progress-mission="y" type="killed" />
+        <case object2="npc:mh_sb_blackdragon_0128" progress-mission="y" type="killed" />
+        <case object2="npc:mh_sb_blackdragon_0127" progress-mission="y" type="killed" />
+        <case object2="npc:mh_sb_blackdragon_0126" progress-mission="y" type="killed" />
+        <case object2="npc:mh_sb_blackdragon_0125" progress-mission="y" type="killed" />
+        <case mapunit-1="6136_CH_SB_BlackDragon_Kill_02" object2="npc:mh_sb_blackdragon_0124" progress-mission="y" type="killed" />
+        <case object2="zoneenv2:6136_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case object="zone:zone_gw_chaeunhang_heukryong_juria_sub1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="9" />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1617_10" required-register-value="1">
+        <case loot-item="quest_scroll_gonryun_0002" looting="q_1617_2_icon" object2="npc:me_sb_blackdragon_0139" progress-mission="y" type="loot" />
+        <case object="zone:zone_GW_ChaeUnHang_HeukRyong_Juria_sub1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1617_11" required-register-value="1">
+        <case grocery="quest_scroll_gonryun_0002" item="quest_scroll_gonryun_0002" msg="q_1617_9" progress-mission="y" required-item-1="quest_scroll_gonryun_0002" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+        <case object="zone:zone_GW_ChaeUnHang_HeukRyong_Juria_sub1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1617_12" required-register-value="1" reward-1="1617_final_set1">
+        <case npc-response="qrsp_1617_10" object="npc:ch_sb_jinsoa_0005" progress-mission="y" type="talk" />
+        <case object="zone:zone_GW_ChaeUnHang_HeukRyong_Juria_sub1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_Backre">
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+    </transit>
+    <transit id="2" zone="zone_GW_ChaeUnHang_HeukRyong_D">
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+    </transit>
+  </quest>
+</table>

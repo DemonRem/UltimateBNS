@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1660.xml-->
+  <quest alias="q_sub_1660" category="normal" desc="q_1660_sum" grade="1" group2="QG_desperadosisland" id="1660" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1660" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1520" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" item="q_1660_1_icon" msg="q_1660_1" progress-mission="n" type="talk-to-self" />
+    </acquisition>
+    <mission-step desc="q_1660_des_1" id="1" mission-map-type="mapunit">
+      <mission id="1" name2="Mission.Name2.1660_1" required-register-value="1">
+        <case npc-response="qrsp_1660_2" object="npc:ch_wc_desperadosisland_0002" progress-mission="y" type="talk" valid-zone-1="zone_musintower_lobby" />
+      </mission>
+    </mission-step>
+    <mission-step id="2" mission-map-type="mapunit">
+      <mission id="2" name2="Mission.Name2.1660_2" required-register-value="1">
+        <case npc-response="qrsp_1660_3" object="npc:ch_wc_desperadosisland_0043" progress-mission="y" type="talk" valid-zone-1="zone_musintower_6426_quest" />
+        <case button-text-accept="q_1660_7_ok" button-text-cancel="q_1660_7_no" indicator="quest-normal-can-progress" npc-response="qrsp_1660_7" object="npc:ch_wc_desperadosisland_0002" progress-mission="reaction-only" type="talk" valid-zone-1="zone_musintower_lobby" />
+        <case npc-response="qrsp_1660_8" object="npc:ch_wc_desperadosisland_0030" type="approach" />
+        <case npc-response="qrsp_1660_12" object="npc:ch_wc_desperadosisland_0031" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1660_3" required-register-value="1">
+        <case indicator="default" object="npc:mh_wc_mokujin_0008" progress-mission="y" show-in-tooltip="n" type="npc-bleeding-occured" valid-zone-1="zone_musintower_6426_quest" />
+        <case button-text-accept="q_1660_7_ok" button-text-cancel="q_1660_7_no" indicator="quest-normal-can-progress" npc-response="qrsp_1660_7" object="npc:ch_wc_desperadosisland_0002" progress-mission="reaction-only" type="talk" valid-zone-1="zone_musintower_lobby" />
+        <case npc-response="qrsp_1660_9" object="npc:ch_wc_desperadosisland_0010" progress-mission="n" type="approach" />
+        <case npc-response="qrsp_1660_10" object="npc:ch_wc_desperadosisland_0020" progress-mission="n" type="approach" />
+        <case npc-response="qrsp_1660_13" object="npc:ch_wc_desperadosisland_0038" type="approach" />
+      </mission>
+      <mission-step-fail dispose-quest="n" rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1660_4" required-register-value="1">
+        <case gadget="mokujin_head_in01" gadget-required="carry-and-remove" npc-response="qrsp_1660_4" object="npc:ch_wc_desperadosisland_0001" progress-mission="y" type="talk" valid-zone-1="zone_musintower_6426_quest" />
+        <case gadget="mokujin_head_in01" gadget-required="empty" indicator="quest-normal-can-progress" object="npc:ce_wc_mokujin_0002" progress-mission="reaction-only" type="npc-manipulate" valid-zone-1="zone_musintower_6426_quest" />
+        <case npc-response="qrsp_1660_15" object="npc:mh_wc_desperadoisland_0010" type="approach" />
+        <case npc-response="qrsp_1660_14" object="npc:mh_wc_desperadoisland_0011" type="approach" />
+        <case npc-response="qrsp_1660_16" object="npc:ch_wc_desperadosisland_0034" type="approach" />
+        <case npc-response="qrsp_1660_17" object="npc:ch_wc_desperadosisland_0036" type="approach" />
+        <case npc-response="qrsp_1660_18" object="npc:ch_wc_desperadosisland_0039" type="approach" />
+        <case npc-response="qrsp_1660_21" object="npc:mh_wc_desperadoisland_0012" type="approach" />
+        <case npc-response="qrsp_1660_22" object="npc:mh_wc_desperadoisland_0013" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1660_5" required-register-value="1">
+        <case indicator="default" mapunit-1="4939_CE_WC_Dummy_0099" object="npc:ce_wc_dummy_0099" progress-mission="y" type="approach" valid-zone-1="zone_musintower_6426_quest" />
+        <case button-text-accept="q_1660_7_ok" button-text-cancel="q_1660_7_no" indicator="quest-normal-can-progress" npc-response="qrsp_1660_7" object="npc:ch_wc_desperadosisland_0002" progress-mission="reaction-only" type="talk" valid-zone-1="zone_musintower_lobby" />
+        <case object="zone:zone_musintower_6426_quest" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1660_6" required-register-value="1">
+        <case object="npc:me_wc_kittycats_0004" progress-mission="y" type="npc-bleeding-occured" valid-zone-1="zone_musintower_6426_quest" />
+        <case button-text-accept="q_1660_7_ok" button-text-cancel="q_1660_7_no" indicator="quest-normal-can-progress" npc-response="qrsp_1660_7" object="npc:ch_wc_desperadosisland_0002" progress-mission="reaction-only" type="talk" valid-zone-1="zone_musintower_lobby" />
+      </mission>
+      <mission-step-fail rollback-step-id="5" />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1660_7" required-register-value="1" reward-1="1660_final_set1">
+        <case npc-response="qrsp_1660_5" object="npc:ch_wc_desperadosisland_0146" progress-mission="y" type="talk" valid-zone-1="zone_musintower_6426_quest" />
+        <case npc-response="qrsp_1660_6" object="npc:ch_wc_desperadosisland_0002" progress-mission="y" type="talk" valid-zone-1="zone_musintower_lobby" />
+        <case npc-response="qrsp_1660_19" object="npc:ch_wc_desperadosisland_0030" type="approach" />
+        <case npc-response="qrsp_1660_20" object="npc:ch_wc_desperadosisland_0031" type="approach" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

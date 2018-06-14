@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28029.xml-->
+	<quest alias="sq_28029" category="tendency-simple" id="28029" max-repeat="-1" name2="sq_28029_mission_text" save-type="except-completion-and-logout-save">
+		<mission-step id="1">
+			<mission id="1" name2="sq_28029_mission_text" required-attraction="tendency-field:CheonSangBunJi" tendency-id="1" variation-required-condition-value-1="0" variation-required-field-play-point-1="0" variation-required-register-value-1="4" variation-reward-field-play-point-1="47" variation-reward-tendency-score-1="47">
+				<case env-looting="tq_0015_icon" looting="tq_0015_icon" mapunit-1="6400_e_chest_6400_B_yumul_01_1" mapunit-2="6400_e_chest_6400_B_yumul_01_2" multi-object-1="zoneenv2:e_chest_6400_B_yumul_01" progress-mission="y" type="loot" />
+			</mission>
+		</mission-step>
+	</quest>
+</table>

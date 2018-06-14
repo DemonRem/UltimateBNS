@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
+  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_pt.xml-->
+	<record alias="ItemSkill_PT_Flame_shot_S1_Lv1_01_E1" effect-1="ItemSkill_PT_Flame_shot_S1_Lv1_01" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Flame_shot_S1_Lv1_02_E1" effect-1="ItemSkill_PT_Flame_shot_S1_Lv1_02" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_ThreeShoot_S1_Lv2_01_E1" effect-1="ItemSkill_PT_ThreeShoot_S1_Lv2_01" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_ThreeShoot_S1_Lv2_02_E1" effect-1="ItemSkill_PT_ThreeShoot_S1_Lv2_02" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_StanceChange_S2_Lv1_01_E1" effect-1="ItemSkill_PT_StanceChange_S2_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_StanceChange_S2_Lv2_01_E1" effect-1="ItemSkill_PT_StanceChange_S2_Lv2_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Flame_shot_S3_Lv1_buff" effect-1="ItemSkill_PT_Flame_shot_S3_Lv1_buff" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Flame_shot_S3_Lv1_01_E1" effect-1="ItemSkill_PT_Flame_shot_S3_Lv1_01" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Flame_shot_S3_Lv2_buff" effect-1="Shooter_BossAttack_DeepDark_14sec" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_PT_Flame_shot_S3_Lv2_01_E1" effect-1="ItemSkill_PT_Flame_shot_S3_Lv2_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_ThreeShoot_S4_Lv1_01_E1" effect-1="ItemSkill_PT_ThreeShoot_S4_Lv1_01" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Flame_shot_S4_Lv2_01_E1" effect-1="ItemSkill_PT_Flame_shot_S4_Lv2_01" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_bigong_B1_Lv1_01_E1" effect-1="ItemSkill_PT_bigong_B1_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_bigong_B1_Lv1_01_DMG_E1" effect-1="ItemSkill_PT_bigong_B1_Lv1_01_DMG" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_PT_bigong_B1_Lv2_01_E1" effect-1="ItemSkill_PT_bigong_B1_Lv2_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_bigong_B1_Lv2_01_DMG_E1" effect-1="ItemSkill_PT_bigong_B1_Lv2_01_DMG" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_PT_bigong_B2_Lv1_01_E1" effect-1="ItemSkill_PT_bigong_B2_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_bigong_B2_Lv1_01_DMG_E1" effect-1="ItemSkill_PT_bigong_B2_Lv1_01_DMG" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_PT_bigong_B2_Lv2_01_E1" effect-1="ItemSkill_PT_bigong_B2_Lv2_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_bigong_B2_Lv2_01_DMG_E1" effect-1="ItemSkill_PT_bigong_B2_Lv2_01_DMG" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_PT_bigong_B3_Lv1_01_E1" effect-1="ItemSkill_PT_bigong_B3_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_bigong_B3_Lv2_01_E1" effect-1="ItemSkill_PT_bigong_B3_Lv2_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Boomshot_S1_PVP_Lv1_01_E1" effect-1="ItemSkill_PT_Boomshot_S1_PVP_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Wiredash_S1_PVP_Lv2_01_E1" effect-1="ItemSkill_PT_Wiredash_S1_PVP_Lv2_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Wiredash_S2_PVP_Lv1_01_E1" effect-1="ItemSkill_PT_Wiredash_S2_PVP_Lv1_01" effect-2="ItemSkill_PT_Wiredash_S2_PVP_Lv1_04" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Wiredash_S2_PVP_Lv1_02_E1" effect-1="ItemSkill_PT_Wiredash_S2_PVP_Lv1_02" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_PT_Wiredash_S2_PVP_Lv1_03_E1" effect-1="ItemSkill_PT_Wiredash_S2_PVP_Lv1_03" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_PT_Speedshot_S2_PVP_Lv2_01_E1" effect-1="Shooter_infinite_preparation_item" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_Speedshot_S2_PVP_Lv2_02_E1" effect-1="ItemSkill_PT_Speedshot_S2_PVP_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_S5_Lv1_01_E1" effect-1="ItemSkill_PT_S5_Lv1_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_S6_Lv1_01_E1" effect-1="ItemSkill_PT_S6_Lv1_01" skill-result="hit-critical-hit" target="caster" target-state="all" />
+</table>

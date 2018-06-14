@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1335.xml-->
+  <quest alias="q_sub_1335" attraction-info="dungeon:Dungeon_Ice_Shooting" broadcast-category="field" category="normal" content-type="festival" day-of-week="daily" desc="q_1335_sum" grade="1" group2="QG_Event_IceShooting" id="1335" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.1335" reset-type="daily" save-type="all" retired="y">
+    <acquisition level="16" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1335_1" object="npc:CH_WA_Citizen_0015" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1335_1" required-register-value="10">
+        <case mapunit-1="M_5930_ME_WA_SnowWoman_0001_sub_25010" object2="npc:ME_WA_SnowWoman_0002" progress-mission="y" type="killed" />
+        <case mapunit-1="M_5930_ME_WA_SnowWoman_0001_sub_25010" object2="npc:ME_WA_SnowWoman_0001" progress-mission="y" type="killed" />
+      </mission>
+      <mission id="2" name2="Mission.Name2.1335_2" required-register-value="1">
+        <case mapunit-1="M_5930_ME_WA_SnowWoman_0001_sub_25010" object2="npc:ME_WA_YettyCaveBoss_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="3" name2="Mission.Name2.1335_3" required-register-value="1" reward-1="1335_final_set1" reward-2="1335_final_set2">
+        <case npc-response="qrsp_1335_2" object="npc:CH_WA_Citizen_0015" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1335_1_icon" msg="q_1335_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

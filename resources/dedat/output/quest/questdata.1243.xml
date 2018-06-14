@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1243.xml-->
+  <quest alias="q_sub_1243" broadcast-category="field" category="normal" desc="q_1243_sum" grade="1" group2="QG_MangJaSup" id="1243" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1243" save-type="all" show-tutorial-tag="y" tutorial="y">
+    <acquisition level="1" preceding-quest-1="q_epic_305" preceding-quest-check="and" preceding-quest-mission-step-1="1" recommended-level="3">
+      <case acquire-quest="y" npc-response="qrsp_1243_1" object="npc:Ctzn_JinM_JaKyungDan_GongSamSik_KFF_001" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1243_1" required-register-value="1">
+        <tutorial-case item="0" progress-mission="y" type="repair-with-campfire" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1243_2" required-register-value="1" reward-1="1243_final_set1">
+        <case item="q_1243_1_icon" msg="q_1243_3" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1243_2" object="npc:Ctzn_JinM_JaKyungDan_GongSamSik_KFF_001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1428.xml-->
+  <quest alias="q_epic_1428" broadcast-category="field" category="epic" completed-desc="q_1428_completed" completed-list="y" desc="q_1428_sum" grade="1" group2="QG_BaeCheongEpic" id="1428" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1428" save-type="all">
+    <acquisition level="1" recommended-level="46" sort-no="709" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1428_1" required-register-value="1">
+        <case mapunit-1="M_5530_foot_1" object2="zoneenv2:5530_foot_1" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1428_1" object="npc:CH_SA_ORakDang_0018" type="approach" />
+        <case npc-response="qrsp_1428_15" object="npc:CH_SA_YuCheon_0005" type="approach" />
+        <case npc-response="qrsp_1428_17" object="npc:CH_SA_JeGukGun_0228" type="approach" />
+        <case npc-response="qrsp_1428_17" object="npc:CH_SA_JeGukGun_0227" type="approach" />
+        <case npc-response="qrsp_1424_11" object="npc:CH_SA_JangUng_0001" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1428_2" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1428_2" object="npc:CH_SA_YuCheon_0005" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1428_17" object="npc:CH_SA_JeGukGun_0228" type="approach" />
+        <case npc-response="qrsp_1428_17" object="npc:CH_SA_JeGukGun_0227" type="approach" />
+        <case npc-response="qrsp_1424_11" object="npc:CH_SA_JangUng_0001" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1428_3" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1428_4" object="npc:CH_SA_JangUng_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1428_7" object="npc:CH_SA_Citizen_0104" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1428_4" required-register-value="1">
+        <case mapunit-1="M_Zone_Richtown" mapunit-2="Guide_DyeingFactory" object="zone:zone_richtown" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1428_7" required-register-value="1">
+        <case mapunit-1="M_Zone_DyeingFactory_p" mapunit-2="Guide_Richtown" object="zone:Zone_DyeingFactory_p" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1428_8" required-register-value="1">
+        <case npc-response="qrsp_1428_10" object="npc:CH_SA_JeGukGun_0196" progress-mission="y" type="talk" />
+        <case object="zone:Zone_DyeingFactory_p" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1428_11" object="npc:CH_SA_Citizen_0106" type="approach" />
+        <case npc-response="qrsp_1428_12" object="npc:CH_SA_Citizen_0108" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="7" />
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1428_9" required-register-value="1" reset-teleport-recycle-time="y">
+        <case object="npc:CH_SA_NokLimDo_0013" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="zone:Zone_DyeingFactory_p" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="7" />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1428_11" required-register-value="1" reward-1="1428_final_set1">
+        <case npc-response="qrsp_1428_13" object="npc:CH_SA_YuCheon_0007" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Richtown_h1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1429_5" object="npc:ce_sa_jegukgun_0188" type="approach" />
+        <case npc-response="qrsp_1429_5" object="npc:CH_SA_JeGukGun_0047" type="approach" />
+        <case npc-response="qrsp_1429_5" object="npc:CH_SA_JeGukGun_0046" type="approach" />
+        <case npc-response="qrsp_1429_5" object="npc:CH_SA_ORakDang_0019" type="approach" />
+        <case npc-response="qrsp_1429_5" object="npc:CH_SA_NokLimDo_0014" type="approach" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_DyeingFactory">
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+    </transit>
+    <completion>
+      <next-quest quest="q_epic_1429" />
+    </completion>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1428_10" required-register-value="1">
+        <case mapunit-1="M_Zone_Richtown_h1" mapunit-2="Guide_DyeingFactory" object="zone:Zone_Richtown_h1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1428_5" required-register-value="1">
+        <case npc-response="qrsp_1428_8" object="npc:CH_SA_JeGukGun_0045" progress-mission="y" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1428_6" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1428_9" object="npc:ch_sa_jegukgun_0045" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25131.xml-->
+  <quest alias="q_sub_25131" attraction-1="dungeon:Dungeon_YoungjiRun" broadcast-category="field" category="attraction" desc="q_25131_sum" grade="1" group2="QG_Dungeon_YoungjiRun" id="25131" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.25131" save-type="nothing">
+    <acquisition level="16" recommended-level="50" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25131_1" required-register-value="1">
+        <case object2="npc:ME_WC_ItemBox_0006" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" required-register-value="1" reward-1="25131_final_set1">
+        <case item="q_1366_1_icon" msg="q_25131_1" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28415.xml-->
+	<quest alias="sq_28415" category="tendency-simple" id="28415" max-repeat="-1" name2="sq_28415_mission_text" save-type="except-completion-and-logout-save">
+		<mission-step id="1">
+			<mission id="1" name2="sq_28415_mission_text" required-attraction="tendency-field:Tendency_BuYuDo" tendency-id="3" variation-required-condition-type="faction-score" variation-required-condition-value-1="0" variation-required-condition-value-2="50" variation-required-condition-value-3="100" variation-required-field-play-point-1="0" variation-required-register-value-1="20" variation-required-register-value-2="30" variation-required-register-value-3="40" variation-reward-faction-score-1="53" variation-reward-faction-score-2="80" variation-reward-faction-score-3="106" variation-reward-field-play-point-1="324" variation-reward-field-play-point-2="486" variation-reward-field-play-point-3="648" variation-reward-tendency-score-1="324" variation-reward-tendency-score-2="486" variation-reward-tendency-score-3="648">
+				<case mapunit-1="T3_7000_SQ28412_ME_WC_KangSiBig_0001_1" mapunit-2="T3_7000_SQ28412_ME_WC_KangSiBig_0001_2" multi-object-1="npc:ME_WC_KangsiSmall_0001" multi-object-2="npc:ME_WC_RuneMechaYacha_0010" multi-object-3="npc:ME_WC_RuneMechaYacha2_0007" multi-object-4="npc:ME_WC_RuneMechaYacha3_0007" multi-object-5="npc:ME_WC_RuneMechaYacha4_0001" multi-object-6="npc:ME_WC_KangSiBig_0001" multi-object-7="npc:ME_WC_KangSiFat_0002" progress-mission="y" type="killed" />
+			</mission>
+		</mission-step>
+	</quest>
+</table>

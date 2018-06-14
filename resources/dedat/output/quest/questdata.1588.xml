@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1588.xml-->
+  <quest alias="q_sub_1588" broadcast-category="field" category="normal" desc="q_1588_sum" grade="1" group2="QG_Chawonhang" id="1588" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1588" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1511" preceding-quest-mission-step-1="3" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1588_1" object="npc:CH_WA_Chawoonhang_0227" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1588_1" required-register-value="1">
+        <case mapunit-1="6125_CH_WA_Chawoonhang_0258_s1588" object2="npc:CE_WA_Dummy_0003" progress-mission="y" social="talksocial_scare" type="pc-social" />
+        <case mapunit-1="6125_CH_WA_Chawoonhang_0258_s1588" object2="npc:CE_WA_Dummy_0009" progress-mission="y" social="talksocial_scare" type="pc-social" />
+        <case mapunit-1="6125_CH_WA_Chawoonhang_0258_s1588" object2="npc:CE_WA_Dummy_0008" progress-mission="y" social="talksocial_scare" type="pc-social" />
+        <case npc-response="qrsp_1588_10" object="npc:ce_wa_chawoonhang_0254" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1588_6" object="npc:CH_WA_Chawoonhang_0126" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1588_9" object="npc:CH_WA_Chawoonhang_0260" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1588_8" object="npc:CH_WA_Chawoonhang_0259" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1588_7" object="npc:CH_WA_Chawoonhang_0258" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1588_2" required-register-value="1" reward-1="1588_final_set1">
+        <case npc-response="qrsp_1588_2" object="npc:CH_WA_Chawoonhang_0227" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1588_5" object="npc:CH_WA_Chawoonhang_0260" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1588_4" object="npc:CH_WA_Chawoonhang_0259" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1588_3" object="npc:CH_WA_Chawoonhang_0258" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

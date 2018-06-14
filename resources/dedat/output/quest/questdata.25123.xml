@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25123.xml-->
+  <quest alias="q_sub_25123" attraction-1="classic-field-zone:Windplain_Majuk" broadcast-category="field" category="attraction" desc="q_25123_sum" grade="6" group2="QG_BaramMajyeock" id="25123" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.25123" save-type="nothing">
+    <acquisition level="45" preceding-quest-check="and" recommended-level="50" />
+    <mission-step completion-type="or" id="1">
+      <mission id="1" name2="Mission.Name2.25123_1" required-register-value="1">
+        <case looting="q_25123_1_icon" object2="npc:me_sa_snakesoldier_0001" progress-mission="y" type="loot" />
+      </mission>
+      <mission id="2" name2="Mission.Name2.25123_2" required-register-value="1">
+        <case looting="q_25123_2_icon" object2="npc:me_sa_snakesoldier_0002" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="3" name2="Mission.Name2.25123_3" required-register-value="1" reward-1="25123_final_set1">
+        <case item="q_25123_3_icon" msg="q_25123_1" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_sub_25123" />
+    </completion>
+  </quest>
+</table>

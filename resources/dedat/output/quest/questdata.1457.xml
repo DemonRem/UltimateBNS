@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1457.xml-->
+  <quest alias="q_sub_1457" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1457_sum" grade="1" group2="QG_Musintap" id="1457" map-group-1-1="suwal" map-group-1-2="baekchung" max-repeat="1" name2="Quest.Name2.1457" reset-type="daily" retired="y" save-type="all">
+  </quest>
+  
+</table>

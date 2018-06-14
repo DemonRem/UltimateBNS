@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1444.xml-->
+  <quest alias="q_epic_1444" category="epic" completed-desc="q_1444_completed" completed-list="y" desc="q_1444_sum" grade="1" group2="QG_BaeCheongEpic" id="1444" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1444" save-type="all">
+    <acquisition level="1" recommended-level="49" sort-no="726" />
+    <mission-step id="1" location-x="-84347.28" location-y="37710.50" map="YakChoKkunChongTa">
+      <mission id="1" name2="Mission.Name2.1444_1" required-register-value="1">
+        <case npc-response="qrsp_1444_2" object="npc:CH_SA_PungEmpire_0019" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2" location-x="-91471.45" location-y="25830.86" map="northfield">
+      <mission id="2" name2="Mission.Name2.1444_2" required-register-value="3">
+        <case looting="q_282_1_icon" object2="zoneenv2:e_chest_snowgrass_07" progress-mission="y" type="loot" />
+        <case looting="q_282_1_icon" object2="zoneenv2:e_chest_snowgrass_06" progress-mission="y" type="loot" />
+        <case looting="q_282_1_icon" object2="zoneenv2:e_chest_snowgrass_05" progress-mission="y" type="loot" />
+        <case looting="q_282_1_icon" object2="zoneenv2:e_chest_snowgrass_04" progress-mission="y" type="loot" />
+        <case looting="q_282_1_icon" object2="zoneenv2:e_chest_snowgrass_03" progress-mission="y" type="loot" />
+        <case looting="q_282_1_icon" object2="zoneenv2:e_chest_snowgrass_02" progress-mission="y" type="loot" />
+        <case looting="q_282_1_icon" mapunit-1="5220_e_chest_snowgrass_01_e282" mapunit-2="Guide_YakChoKkunChongTa" object2="zoneenv2:e_chest_snowgrass_01" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1444_3" required-register-value="1">
+        <case npc-response="qrsp_1444_4" object="npc:CH_SA_PungEmpire_0020" progress-mission="y" type="talk" />
+        <case object="zone:Zone_YakChoGuild_epic" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1444_4" required-register-value="1">
+        <case npc-response="qrsp_1444_20" object="npc:MH_SA_JeGukGun_0085" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1444_21" object="npc:CH_SA_Citizen_0240" type="approach" />
+        <case npc-response="qrsp_1444_23" object="npc:CH_SA_Citizen_0242" type="approach" />
+        <case npc-response="qrsp_1444_25" object="npc:CH_SA_Citizen_0244" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1444_5" required-register-value="1">
+        <case object2="npc:MH_SA_JeGukGun_0085" progress-mission="y" type="killed" />
+        <case npc-response="qrsp_1444_21" object="npc:CH_SA_Citizen_0240" type="approach" />
+        <case npc-response="qrsp_1444_23" object="npc:CH_SA_Citizen_0242" type="approach" />
+        <case npc-response="qrsp_1444_25" object="npc:CH_SA_Citizen_0244" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1444_6" required-register-value="4">
+        <case mapunit-1="M_5273_MH_SA_JeGukGun_0019" object2="npc:MH_SA_JeGukGun_0019" progress-mission="y" type="killed" />
+        <case object2="npc:MH_SA_JeGukGun_0025" progress-mission="y" type="killed" />
+        <case object2="npc:MH_SA_JeGukGun_0024" progress-mission="y" type="killed" />
+        <case object2="npc:MH_SA_JeGukGun_0023" progress-mission="y" type="killed" />
+        <case npc-response="qrsp_1444_21" object="npc:CH_SA_Citizen_0240" type="approach" />
+        <case npc-response="qrsp_1444_23" object="npc:CH_SA_Citizen_0242" type="approach" />
+        <case npc-response="qrsp_1444_25" object="npc:CH_SA_Citizen_0244" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1444_8" required-register-value="1">
+        <case grocery="Quest_Grocery_BackChung_0028" item="Quest_Grocery_BackChung_0028" msg="q_1444_6" progress-mission="y" required-item-1="Quest_Grocery_BackChung_0028" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+        <case npc-response="qrsp_1444_22" object="npc:CH_SA_Citizen_0241" type="approach" />
+        <case npc-response="qrsp_1444_24" object="npc:CH_SA_Citizen_0243" type="approach" />
+        <case npc-response="qrsp_1444_26" object="npc:CH_SA_Citizen_0245" type="approach" />
+        <case npc-response="qrsp_1444_27" object="npc:CH_SA_Citizen_0239" type="approach" />
+        <case object="zone:Zone_YakChoGuild_epic" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1444_9" required-register-value="1">
+        <case npc-response="qrsp_1444_7" object="npc:CH_SA_PungEmpire_0021" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1444_22" object="npc:CH_SA_Citizen_0241" type="approach" />
+        <case npc-response="qrsp_1444_24" object="npc:CH_SA_Citizen_0243" type="approach" />
+        <case npc-response="qrsp_1444_26" object="npc:CH_SA_Citizen_0245" type="approach" />
+        <case npc-response="qrsp_1444_27" object="npc:CH_SA_Citizen_0239" type="approach" />
+        <case object="zone:Zone_YakChoGuild_epic" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1444_10" required-register-value="1">
+        <case mapunit-1="M_5220_Foot_1" mapunit-2="Guide_YakChoKkunChongTa" object2="zoneenv2:5220_Foot_1" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1444_17" object="npc:CH_SA_ORakDang_0023" type="approach" />
+        <case npc-response="qrsp_1444_19" object="npc:CH_SA_YeHaRang_0002" type="approach" />
+        <case npc-response="qrsp_1444_18" object="npc:CH_SA_SoYangSang_0004" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1444_11" required-register-value="1">
+        <case mapunit-1="5270_Guide_e282_1" npc-response="qrsp_1444_9" object="npc:CH_SA_YeHaRang_0002" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1444_17" object="npc:CH_SA_ORakDang_0023" type="approach" />
+        <case npc-response="qrsp_1444_18" object="npc:CH_SA_SoYangSang_0004" type="approach" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1445" />
+    </completion>
+    <transit id="1" zone="Zone_YakChoGuild">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+    </transit>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1444_12" required-register-value="1" reward-1="1444_final_set1">
+        <case mapunit-1="5270_Guide_e282_1" npc-response="qrsp_1444_10" object="npc:CH_SA_ORakDang_0023" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1444_19" object="npc:CH_SA_YeHaRang_0002" type="approach" />
+        <case npc-response="qrsp_1444_18" object="npc:CH_SA_SoYangSang_0004" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1444_7" required-register-value="1">
+        <case loot-item="Quest_Grocery_BackChung_0028" looting="q_1444_1_icon" object2="npc:MH_SA_JeGukGun_0083" progress-mission="y" type="loot" />
+        <case object="zone:Zone_YakChoGuild_epic" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1444_21" object="npc:CH_SA_Citizen_0240" type="approach" />
+        <case npc-response="qrsp_1444_23" object="npc:CH_SA_Citizen_0242" type="approach" />
+        <case npc-response="qrsp_1444_25" object="npc:CH_SA_Citizen_0244" type="approach" />
+        <case npc-response="qrsp_1444_27" object="npc:CH_SA_Citizen_0239" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+  </quest>
+</table>

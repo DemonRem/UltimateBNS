@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1630.xml-->
+  <quest alias="q_sub_1630" broadcast-category="field" category="normal" content-type="festival" day-of-week="daily" desc="q_1630_sum" grade="1" group2="QG_Event" id="1630" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1630" reset-by-acquire-time="none" reset-type="daily" save-type="all" retired="y">
+    <acquisition level="50" preceding-quest-1="q_sub_1629" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1630_1" object="npc:CH_SB_GangTaeGong_0001" type="talk" />
+      <case acquire-quest="y" item="q_1630_1_icon" msg="q_1630_5" type="talk-to-self" />
+    </acquisition>
+    <mission-step desc="q_1630_des_1" id="1">
+      <mission id="1" name2="Mission.Name2.1630_1" required-register-value="1">
+        <case mapunit-1="Guide_Quest_GangTaeGong" npc-response="qrsp_1630_2" object="npc:CE_SB_GoRyang_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1630_des_2" id="2">
+      <mission id="2" name2="Mission.Name2.1630_2" required-register-value="1">
+        <case mapunit-1="Guide_Quest_GangTaeGong" object2="npc:ME_SB_Toad_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1630_des_3" id="3">
+      <mission id="3" name2="Mission.Name2.1630_3" required-register-value="1" reward-1="1630_final_set1" reward-2="1630_final_set2">
+        <case fee="n" item="q_1630_2_icon" msg="q_1630_4" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1630_3" object="npc:CE_SB_GoRyang_0001" progress-mission="y" type="talk" />
+        <case acquire-quest="n" mapunit-1="Guide_Quest_GangTaeGong" npc-response="qrsp_1630_3" object="npc:CE_SB_GoRyang_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

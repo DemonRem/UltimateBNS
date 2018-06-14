@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25120.xml-->
+  <quest alias="q_sub_25120" attraction-1="field-zone:Windplain_NokRimDo" broadcast-category="field" category="attraction" desc="q_25120_sum" grade="6" group2="QG_BaramNoklim" id="25120" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.25120" save-type="nothing">
+    <acquisition level="45" preceding-quest-check="and" recommended-level="50" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25120_1" required-register-value="1">
+        <case looting="q_25120_1_icon" object2="npc:me_sa_noklimdo_0022" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" required-register-value="1" reward-1="25120_final_set1">
+        <case item="q_25120_2_icon" msg="q_25120_1" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_sub_25120" />
+    </completion>
+  </quest>
+</table>

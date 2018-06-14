@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
+  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_de.xml-->
+	<record alias="ItemSkill_DE_Stomping_BS1_Lv1_01_E1" effect-1="ItemSkill_DE_Stomping_BS1_Lv1_01_initializerecycle" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Stomping_BS1_Lv1_01_E2" effect-1="ItemSkill_DE_Stomping_BS1_Lv1_01_RecycleReduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Fever_S1_Lv1_01_E1" effect-1="ItemSkill_DE_Fever_S1_Lv1_01_RecycleReduce1" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_01_E1" effect-1="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_01_wrath" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_01_E2" effect-1="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_02_wrath" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_01_E3" effect-1="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_03_wrath" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_01_E4" effect-1="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_04_wrath" skill-result="all" target="caster" target-state="all" target-state-first-filter="60294" />
+	<record alias="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_01_E5" effect-1="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_05_wrath" skill-result="all" target="caster" target-state="all" target-state-first-filter="60294" />
+	<record alias="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_01_E6" effect-1="ItemSkill_DE_HardWall_Rcombo_S1_Lv1_06_wrath" skill-result="all" target="caster" target-state="all" target-state-first-filter="60294" />
+	<record alias="ItemSkill_DE_Catch_S3_Lv1_01_E1" effect-1="ItemSkill_DE_Catch_S1_Lv1_01_extend-link_Lv1" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Catch_S3_Lv1_02_E1" effect-1="ItemSkill_DE_Catch_S1_Lv1_01_extend-link_Lv2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Catch_S3_Lv1_03_E1" effect-1="ItemSkill_DE_Catch_S1_Lv1_01_extend-link_Lv2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Typhoon_S4_Lv1_01_E1" effect-1="ItemSkill_DE_Typhoon_S4_Lv1_01_SpeedUp_Lv1" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Typhoon_S4_Lv1_01_E2" effect-1="ItemSkill_DE_Typhoon_S4_Lv1_01_SpeedUp_Lv2" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Typhoon_S4_Lv1_01_E3" effect-1="ItemSkill_DE_Typhoon_S4_Lv1_01_SpeedUp_Lv3" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Countercrush_S5_Lv1_01_E1" effect-1="ItemSkill_DE_Countercrush_S5_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Wrath_S6_Lv1_01_E1" effect-1="Destroyer_Destruction_Announce_Lv1_MaxSP2" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_HardWall_S7_Lv1_01_E1" effect-1="ItemSkill_DE_HardWall_S7_Lv1_initializerecycle" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Death_S8_Lv1_01_E1" effect-1="ItemSkill_DE_Death_S8_Lv1_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Countercrush_S9_Lv1_01_E1" effect-1="ItemSkill_DE_Countercrush_S9Lv1_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Stomping_S10_Lv1_01_E1" effect-1="ItemSkill_DE_Stomping_S10_Lv1_Recyclereduce" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Catch_S11_Lv1_01_E1" effect-1="ItemSkill_DE_Catch_S11_Lv1_CriDefDown1" skill-result="all" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Catch_S11_Lv1_01_E2" effect-1="ItemSkill_DE_Catch_S11_Lv1_CriDefDown2" skill-result="all" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Catch_S11_Lv1_01_E3" effect-1="ItemSkill_DE_Catch_S11_Lv1_Recyclereduce" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Typhoon_S12_Lv1_01_E1" effect-1="ItemSkill_DE_Typhoon_S12_Lv1_Pull" effect-2="Common_ReactToDown_Flag_400ms" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Axe_Chop_S13_Lv1_01_E1" effect-1="ItemSkill_DE_Axe_Chop_S13_Lv1_01_Recyclereduce" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Typhoon_S14_Lv1_01_E1" effect-1="ItemSkill_DE_Typhoon_S14_Lv1_01_initializerecycle" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Fever_B1_Lv1_01_E1" effect-1="ItemSkill_DE_Fever_B1_Lv1_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Swing_Strike_B2_Lv1_E1" effect-1="ItemSkill_DE_Swing_Strike_B2_Lv1_initializerecycle" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Swing_Strike_B2_Lv1_E2" effect-1="ItemSkill_DE_Swing_Strike_B2_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Fever_B3_Lv1_01_E1" effect-1="ItemSkill_DE_Fever_B3_Lv1_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Countercrush_B4_Lv1_E1" effect-1="ItemSkill_DE_Countercrush_B4_Lv1_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Countercrush_B4_Lv1_E2" effect-1="ItemSkill_DE_Countercrush_B4_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Countercrush_B4_Lv1_E3" effect-1="ItemSkill_DE_Countercrush_B4_Lv1_Damage2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Explosion_LB1_Lv1_08_E1" effect-1="ItemSkill_DE_Explosion_LB1_Lv1_08_Extend1" effect-2="ItemSkill_DE_Explosion_LB1_Lv1_link_flag_6" effect-3="ItemSkill_DE_Explosion_LB1_Lv1_flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Explosion_LB1_Lv1_08_E2" effect-1="ItemSkill_DE_Explosion_LB1_Lv1_08_Extend2" effect-2="ItemSkill_DE_Explosion_LB1_Lv1_link_flag_6" effect-3="ItemSkill_DE_Explosion_LB1_Lv1_flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Explosion_LB1_Lv1_08_E3" effect-1="ItemSkill_DE_Explosion_LB1_Lv1_08_Extend3" effect-2="ItemSkill_DE_Explosion_LB1_Lv1_link_flag_6" effect-3="ItemSkill_DE_Explosion_LB1_Lv1_flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Explosion_LB1_Lv1_08_E4" effect-1="ItemSkill_DE_Explosion_LB1_Lv1_08_Extend4" effect-2="ItemSkill_DE_Explosion_LB1_Lv1_link_flag_6" effect-3="ItemSkill_DE_Explosion_LB1_Lv1_flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Explosion_LB1_Lv1_08_E5" effect-1="ItemSkill_DE_Explosion_LB1_Lv1_08_Extend5" effect-2="ItemSkill_DE_Explosion_LB1_Lv1_link_flag_8" effect-3="ItemSkill_DE_Explosion_LB1_Lv1_flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Explosion_LB1_Lv1_08_E6" effect-1="ItemSkill_DE_Explosion_LB1_Lv1_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Explosion_LB1_Lv1_08_E7" effect-1="ItemSkill_DE_Explosion_LB1_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Explosion_LB1_Lv1_08_E8" effect-1="ItemSkill_DE_Explosion_LB1_Lv1_Damage2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Wind_LB2_Lv1_01_E1" effect-1="ItemSkill_DE_Wind_LB2_Lv1_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Wind_LB2_Lv1_01_E2" effect-1="ItemSkill_DE_Wind_LB2_Lv1_Damage1" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Wind_LB2_Lv1_01_E3" effect-1="ItemSkill_DE_Wind_LB2_Lv1_Damage2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_DE_Wind_LB2_Lv1_01_E4" effect-1="ItemSkill_DE_Wind_LB2_Lv1_initializerecycle" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_DE_Wind_LB2_Lv1_01_E5" effect-1="ItemSkill_DE_Wind_LB2_Lv1_Damage3" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+</table>

@@ -1,0 +1,1973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_assassin_item.xml-->
+<contextscript alias="Assassin_Disturb_ShadowSlash_ItemSkill_Var3">
+
+
+  
+  
+  
+  
+  
+  
+
+
+  <stance stance="교란" status="stance">
+
+    
+    <layer>
+      <decision>
+        <condition skill="25066" />
+        <result control-mode="classic" skillbar-3="25066" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25066" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25065" />
+        <result control-mode="classic" skillbar-3="25065" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25065" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25064" />
+        <result control-mode="classic" skillbar-3="25064" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25064" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25063" />
+        <result control-mode="classic" skillbar-3="25063" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25063" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+
+<contextscript alias="Assassin_Disturb_ShadowSlash_ItemSkill_Var2">
+
+
+  
+  
+  
+  
+  
+  
+
+  <stance stance="교란" status="stance">
+
+    
+    <layer>
+      <decision>
+        <condition skill="25062" />
+        <result control-mode="classic" skillbar-3="25062" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25062" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25061" />
+        <result control-mode="classic" skillbar-3="25061" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25061" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25060" />
+        <result control-mode="classic" skillbar-3="25060" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25060" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25059" />
+        <result control-mode="classic" skillbar-3="25059" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25059" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+
+
+
+<contextscript alias="Assassin_Disturb_ShadowSlash_ItemSkill_Var1">
+
+
+  
+  
+  
+  
+  
+  
+
+  <stance stance="교란" status="stance">
+
+    
+    <layer>
+      <decision>
+        <condition skill="25058" />
+        <result control-mode="classic" skillbar-3="25058" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25058" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25057" />
+        <result control-mode="classic" skillbar-3="25057" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25057" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25056" />
+        <result control-mode="classic" skillbar-3="25056" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25056" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25055" />
+        <result control-mode="classic" skillbar-3="25055" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-3="25055" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+
+<contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_Var3">
+
+
+  
+  
+  
+  
+  
+  
+
+  <stance stance="교란" status="stance">
+    
+    
+    <layer>
+      <decision>
+        <condition skill="25025" />
+        <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25096" />
+        <result context-2="25096" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25096" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    
+    <layer>
+      <decision>
+        <condition skill="25086" />
+        <result context-2="25086" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25086" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25085" />
+        <result context-2="25085" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25085" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25093" />
+        <result context-2="25093" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25093" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25083" />
+        <result context-2="25083" control-mode="classic" />
+        <result context-2="25083" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25082" />
+        <result context-2="25082" control-mode="classic" />
+        <result context-2="25082" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25092" />
+        <result context-2="25092" control-mode="classic" />
+        <result context-2="25092" control-mode="bns" />
+      </decision>
+    </layer>
+  </stance>
+
+  <stance stance="은신" status="stance">
+
+
+    
+    <layer>
+      <decision>
+        <condition skill="25025" />
+        <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25096" />
+        <result context-2="25096" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25096" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    
+    <layer>
+      <decision>
+        <condition skill="25087" />
+        <result context-2="25087" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25087" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25084" />
+        <result context-2="25084" control-mode="classic" />
+        <result context-2="25084" control-mode="bns" />
+      </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+
+
+
+<contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_Var2">
+
+
+  
+  
+  
+  
+  
+  
+
+
+  <stance stance="교란" status="stance">
+
+    
+    <layer>
+      <decision>
+        <condition skill="25025" />
+        <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25095" />
+        <result context-2="25095" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25095" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    
+    <layer>
+      <decision>
+        <condition skill="25080" />
+        <result context-2="25080" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25080" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25079" />
+        <result context-2="25079" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25079" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25091" />
+        <result context-2="25091" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25091" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25077" />
+        <result context-2="25077" control-mode="classic" />
+        <result context-2="25077" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25076" />
+        <result context-2="25076" control-mode="classic" />
+        <result context-2="25076" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25090" />
+        <result context-2="25090" control-mode="classic" />
+        <result context-2="25090" control-mode="bns" />
+      </decision>
+    </layer>
+    
+  </stance>
+
+  <stance stance="은신" status="stance">
+    
+    <layer>
+      <decision>
+        <condition skill="25025" />
+        <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25095" />
+        <result context-2="25095" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25095" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25081" />
+        <result context-2="25081" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25081" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25078" />
+        <result context-2="25078" control-mode="classic" />
+        <result context-2="25078" control-mode="bns" />
+      </decision>
+    </layer>
+
+  </stance>
+</contextscript>
+
+
+
+
+
+<contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_Var1">
+
+
+  
+  
+  
+  
+  
+  
+
+
+  <stance stance="교란" status="stance">
+
+
+    
+    <layer>
+      <decision>
+        <condition skill="25025" />
+        <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25094" />
+        <result context-2="25094" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25094" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    
+    <layer>
+      <decision>
+        <condition skill="25074" />
+        <result context-2="25074" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25074" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25073" />
+        <result context-2="25073" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25073" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25089" />
+        <result context-2="25089" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25089" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25071" />
+        <result context-2="25071" control-mode="classic" />
+        <result context-2="25071" control-mode="bns" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25070" />
+        <result context-2="25070" control-mode="classic" />
+        <result context-2="25070" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25088" />
+        <result context-2="25088" control-mode="classic" />
+        <result context-2="25088" control-mode="bns" />
+      </decision>
+    </layer>
+
+  </stance>
+
+  <stance stance="은신" status="stance">
+
+    
+    <layer>
+      <decision>
+        <condition skill="25025" />
+        <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    <layer>
+      <decision>
+        <condition skill="25094" />
+        <result context-2="25094" control-mode="classic" stance-ui-effect="key-change" />
+        <result context-2="25094" control-mode="bns" stance-ui-effect="key-change" />
+      </decision>
+    </layer>
+    
+    
+    <layer>
+      <decision>
+        <condition skill="25075" />
+        <result context-2="25075" context-ui-effect="event" control-mode="classic" />
+        <result context-2="25075" context-ui-effect="event" control-mode="bns" />
+      </decision>
+    </layer>
+
+    
+    <layer>
+      <decision>
+        <condition skill="25072" />
+        <result context-2="25072" control-mode="classic" />
+        <result context-2="25072" control-mode="bns" />
+      </decision>
+    </layer>
+
+  </stance>
+
+</contextscript>
+
+  <contextscript alias="Assassin_Disturb_ShadowSlash_ItemSkill_ShoutSP_Var3">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+
+           
+      <layer>
+        <decision>
+          <condition skill="25262" />
+          <result control-mode="classic" skillbar-3="25262" />
+          <result control-mode="bns" skillbar-3="25262" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+
+  <contextscript alias="Assassin_Disturb_ShadowSlash_ItemSkill_ShoutSP_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25261" />
+          <result control-mode="classic" skillbar-3="25261" />
+          <result control-mode="bns" skillbar-3="25261" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+
+  <contextscript alias="Assassin_Disturb_ShadowSlash_ItemSkill_ShoutSP_Var1">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25260" />
+          <result control-mode="classic" skillbar-3="25260" />
+          <result control-mode="bns" skillbar-3="25260" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+  <contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_MainDealNuke_Var3">
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25222" />
+          <result context-2="25222" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25222" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="25154" />
+          <result context-2="25154" control-mode="classic" />
+          <result context-2="25154" control-mode="bns" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25158" />
+          <result context-2="25158" control-mode="classic" />
+          <result context-2="25158" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="은신" status="stance">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25222" />
+          <result context-2="25222" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25222" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="25155" />
+          <result context-2="25155" control-mode="classic" />
+          <result context-2="25155" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+
+  </contextscript>
+
+
+
+  <contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_MainDealNuke_Var2">
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25221" />
+          <result context-2="25221" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25221" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="25152" />
+          <result context-2="25152" control-mode="classic" />
+          <result context-2="25152" control-mode="bns" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25157" />
+          <result context-2="25157" control-mode="classic" />
+          <result context-2="25157" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="은신" status="stance">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25221" />
+          <result context-2="25221" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25221" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="25153" />
+          <result context-2="25153" control-mode="classic" />
+          <result context-2="25153" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+
+
+
+  <contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_MainDealNuke_Var1">
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25220" />
+          <result context-2="25220" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25220" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25150" />
+          <result context-2="25150" control-mode="classic" />
+          <result context-2="25150" control-mode="bns" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25156" />
+          <result context-2="25156" control-mode="classic" />
+          <result context-2="25156" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="은신" status="stance">
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25220" />
+          <result context-2="25220" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25220" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25151" />
+          <result context-2="25151" control-mode="classic" />
+          <result context-2="25151" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+
+
+
+  <contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_MainDealProb_Var3">
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25227" />
+          <result context-2="25227" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25227" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
+          <condition skill="25164" />
+          <result context-2="25164" control-mode="classic" />
+          <result context-2="25164" control-mode="bns" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25168" />
+          <result context-2="25168" control-mode="classic" />
+          <result context-2="25168" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="은신" status="stance">
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25227" />
+          <result context-2="25227" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25227" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25165" />
+          <result context-2="25165" control-mode="classic" />
+          <result context-2="25165" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+  </contextscript>
+
+
+
+
+  <contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_MainDealProb_Var2">
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25226" />
+          <result context-2="25226" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25226" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25162" />
+          <result context-2="25162" control-mode="classic" />
+          <result context-2="25162" control-mode="bns" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25166" />
+          <result context-2="25166" control-mode="classic" />
+          <result context-2="25166" control-mode="bns" />
+        </decision>
+      </layer>
+      
+    </stance>
+    
+
+    <stance stance="은신" status="stance">
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25226" />
+          <result context-2="25226" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25226" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25163" />
+          <result context-2="25163" control-mode="classic" />
+          <result context-2="25163" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+  </contextscript>
+
+
+
+
+
+  <contextscript alias="Assassin_Disturb_HeartStab_ItemSkill_MainDealProb_Var1">
+
+
+    
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25225" />
+          <result context-2="25225" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25225" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25160" />
+          <result context-2="25160" control-mode="classic" />
+          <result context-2="25160" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25166" />
+          <result context-2="25166" control-mode="classic" />
+          <result context-2="25166" control-mode="bns" />
+        </decision>
+      </layer>
+      
+    </stance>
+
+    <stance stance="은신" status="stance">
+      
+      <layer>
+        <decision>
+          <condition skill="25025" />
+          <result context-2="25025" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25025" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25225" />
+          <result context-2="25225" control-mode="classic" stance-ui-effect="key-change" />
+          <result context-2="25225" control-mode="bns" stance-ui-effect="key-change" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
+          <condition skill="25161" />
+          <result context-2="25161" control-mode="classic" />
+          <result context-2="25161" control-mode="bns" />
+        </decision>
+      </layer>
+    </stance>
+
+  </contextscript>
+
+
+
+
+
+
+
+  <contextscript alias="Assassin_Disturb_HideEscape_ItemSkill_Down_Var3">
+
+
+    
+    
+    
+    
+    
+    
+
+
+
+    
+    <stance link="inhalation-catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="25188" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25188" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25188" />
+        </decision>
+      </layer>
+    </stance>
+
+    
+    <stance link="inhalation" status="linked">
+      <layer>
+        <decision>
+          <condition skill="25189" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25189" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25189" />
+        </decision>
+      </layer>
+    </stance>
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25190" />
+          <result context-3="25190" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25190" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25184" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25184" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25184" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25190" />
+          <result context-3="25190" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25190" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25184" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25184" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25184" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25190" />
+          <result context-3="25190" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25190" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25186" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25186" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25186" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="stun">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25186" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25186" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25186" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance link="mount">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25185" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25185" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25185" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance link="catch">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25187" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25187" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25187" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="교란" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25184" />
+          <result control-mode="classic" stance="25184" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25184" stance-ui-effect="event" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="25186" />
+          <result control-mode="classic" stance="25186" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25186" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="은신" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25184" />
+          <result control-mode="classic" stance="25184" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25184" stance-ui-effect="event" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="25186" />
+          <result control-mode="classic" stance="25186" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25186" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+  </contextscript>
+
+
+
+
+
+  <contextscript alias="Assassin_Disturb_HideEscape_ItemSkill_Down_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <stance link="inhalation-catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="25181" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25181" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25181" />
+        </decision>
+      </layer>
+    </stance>
+
+    
+    <stance link="inhalation" status="linked">
+      <layer>
+        <decision>
+          <condition skill="25182" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25182" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25182" />
+        </decision>
+      </layer>
+    </stance>
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25183" />
+          <result context-3="25183" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25183" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25177" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25177" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25177" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25183" />
+          <result context-3="25183" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25183" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25177" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25177" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25177" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25183" />
+          <result context-3="25183" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25183" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25179" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25179" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25179" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="stun">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25179" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25179" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25179" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance link="mount">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25178" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25178" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25178" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance link="catch">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25180" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25180" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25180" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="교란" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25177" />
+          <result control-mode="classic" stance="25177" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25177" stance-ui-effect="event" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="25179" />
+          <result control-mode="classic" stance="25179" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25179" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="은신" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25177" />
+          <result control-mode="classic" stance="25177" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25177" stance-ui-effect="event" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="25179" />
+          <result control-mode="classic" stance="25179" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25179" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+  </contextscript>
+
+
+
+
+
+  <contextscript alias="Assassin_Disturb_HideEscape_ItemSkill_Down_Var1">
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <stance link="inhalation-catch" status="linked">
+      <layer>
+        <decision>
+          <condition skill="25174" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25174" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25174" />
+        </decision>
+      </layer>
+    </stance>
+
+    
+    <stance link="inhalation" status="linked">
+      <layer>
+        <decision>
+          <condition skill="25175" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25175" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25175" />
+        </decision>
+      </layer>
+    </stance>
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25176" />
+          <result context-3="25176" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25176" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25170" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25170" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25170" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25176" />
+          <result context-3="25176" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25176" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25170" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25170" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25170" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25176" />
+          <result context-3="25176" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25176" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="25172" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25172" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25172" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="stun">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25172" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25172" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25172" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance link="mount">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25171" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25171" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25171" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance link="catch">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25173" />
+          <result control-mode="classic" skillbar-ui-effect="key-change" stance="25173" />
+          <result control-mode="bns" skillbar-ui-effect="key-change" stance="25173" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="교란" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25170" />
+          <result control-mode="classic" stance="25170" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25170" stance-ui-effect="event" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="25172" />
+          <result control-mode="classic" stance="25172" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25172" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+    <stance stance="은신" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25170" />
+          <result control-mode="classic" stance="25170" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25170" stance-ui-effect="event" />
+        </decision>
+      </layer>
+      <layer>
+        <decision>
+          <condition skill="25172" />
+          <result control-mode="classic" stance="25172" stance-ui-effect="event" />
+          <result control-mode="bns" stance="25172" stance-ui-effect="event" />
+        </decision>
+      </layer>
+    </stance>
+
+  </contextscript>
+
+
+
+
+
+  <contextscript alias="Assassin_Disturb_Down_BackStep_ItemSkill_Var3">
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25232" />
+          <result context-3="25232" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25232" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25232" />
+          <result context-3="25232" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25232" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25232" />
+          <result context-3="25232" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25232" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+
+
+  <contextscript alias="Assassin_Disturb_Down_BackStep_ItemSkill_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25231" />
+          <result context-3="25231" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25231" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25231" />
+          <result context-3="25231" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25231" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25231" />
+          <result context-3="25231" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25231" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+
+
+
+  <contextscript alias="Assassin_Disturb_Down_BackStep_ItemSkill_Var1">
+
+
+    
+    
+    
+    
+    
+    
+
+    
+    <stance abnormal-flag="down">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25230" />
+          <result context-3="25230" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25230" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="swoon">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25230" />
+          <result context-3="25230" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25230" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    
+    <stance abnormal-flag="kneel">
+
+      
+      <layer>
+        <decision>
+          <condition skill="25230" />
+          <result context-3="25230" control-mode="classic" skillbar-ui-effect="key-change" />
+          <result context-3="25230" control-mode="bns" skillbar-ui-effect="key-change" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+
+
+  <contextscript alias="Assassin_Disturb_BackStep_ItemSkill_Var3">
+
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="교란" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25242" />
+          <result cmd-key-down="25242" control-mode="classic" />
+          <result cmd-key-down="25242" control-mode="bns" />
+        </decision>
+      </layer>
+     
+    </stance>
+
+    <stance stance="은신" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25242" />
+          <result cmd-key-down="25242" control-mode="classic" />
+          <result cmd-key-down="25242" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+   
+</contextscript>
+
+  <contextscript alias="Assassin_Disturb_BackStep_ItemSkill_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="교란" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25241" />
+          <result cmd-key-down="25241" control-mode="classic" />
+          <result cmd-key-down="25241" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="은신" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25241" />
+          <result cmd-key-down="25241" control-mode="classic" />
+          <result cmd-key-down="25241" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+  <contextscript alias="Assassin_Disturb_BackStep_ItemSkill_Var1">
+
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="교란" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25240" />
+          <result cmd-key-down="25240" control-mode="classic" />
+          <result cmd-key-down="25240" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+    <stance stance="은신" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25240" />
+          <result cmd-key-down="25240" control-mode="classic" />
+          <result cmd-key-down="25240" control-mode="bns" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+
+
+
+  <contextscript alias="Assassin_Disturb_ShadowSlash_ItemSkill_KillBuff_Var1">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="교란" status="stance">
+      <layer>
+        <decision>
+          <condition skill="25250" />
+          <result control-mode="classic" skillbar-3="25250" />
+          <result control-mode="bns" skillbar-3="25250" />
+        </decision>
+      </layer>
+
+    </stance>
+
+  </contextscript>
+
+</table>

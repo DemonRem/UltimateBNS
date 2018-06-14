@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1684.xml-->
+  <quest alias="q_sub_1684" broadcast-category="field" category="normal" completed-list="n" grade="1" group2="QG_BlackWindForest" id="1684" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1684" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1639" preceding-quest-check="and" preceding-quest-mission-step-1="2" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1684_1" object="npc:MH_WA_Epic8_0045" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1684_2" required-register-value="5">
+        <case mapunit-1="M_ME_WA_Epic8_0050_10" object2="npc:ME_WA_Epic8_0058" progress-mission="y" type="killed" />
+        <case mapunit-1="M_ME_WA_Epic8_0050_10" object2="npc:ME_WA_Epic8_0057" progress-mission="y" type="killed" />
+        <case mapunit-1="M_ME_WA_Epic8_0050_10" object2="npc:ME_WA_Epic8_0056" progress-mission="y" type="killed" />
+        <case mapunit-1="M_ME_WA_Epic8_0050_10" object2="npc:ME_WA_Epic8_0053" progress-mission="y" type="killed" />
+        <case mapunit-1="M_ME_WA_Epic8_0050_10" object2="npc:ME_WA_Epic8_0051" progress-mission="y" type="killed" />
+        <case mapunit-1="M_ME_WA_Epic8_0050_10" object2="npc:ME_WA_Epic8_0049" progress-mission="y" type="killed" />
+        <case mapunit-1="M_ME_WA_Epic8_0050_10" object2="npc:ME_WA_Epic8_0050" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1684_3" required-register-value="1" reward-1="1684_final_set1">
+        <case npc-response="qrsp_1684_2" object="npc:MH_WA_Epic8_0318" progress-mission="y" type="talk" />
+        <case item="q_1684_1_icon" msg="q_1684_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

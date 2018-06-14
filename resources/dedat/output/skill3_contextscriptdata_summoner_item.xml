@@ -1,0 +1,1121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.171" release-side="client" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_summoner_item.xml-->
+
+
+
+ <contextscript alias="Summoner_Summon_ThornVine_Item1_Var1">
+ 
+    
+    
+    
+    
+    
+    
+	
+	
+
+    <stance stance="소환" status="stance">    
+      <layer>
+		<decision>
+          <condition skill="26504" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26504" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26504" />
+        </decision>
+		<decision>
+          <condition skill="26503" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26503" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26503" />
+        </decision>
+		<decision>
+          <condition skill="26502" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26502" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26502" />
+        </decision>
+        <decision>
+          <condition skill="26501" />
+          <result control-mode="classic" skillbar-2="26501" />
+          <result control-mode="bns" skillbar-2="26501" />
+        </decision>
+      </layer>
+    </stance>
+
+</contextscript>
+  
+<contextscript alias="Summoner_Summon_ThornVine_Item1_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+		
+
+    <stance stance="소환" status="stance">      
+      <layer>
+		<decision>
+          <condition skill="26508" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26508" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26508" />
+        </decision>
+		<decision>
+          <condition skill="26507" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26507" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26507" />
+        </decision>
+		<decision>
+          <condition skill="26506" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26506" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26506" />
+        </decision>
+        <decision>
+          <condition skill="26505" />
+          <result control-mode="classic" skillbar-2="26505" />
+          <result control-mode="bns" skillbar-2="26505" />
+        </decision>
+      </layer>
+    </stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_ThornVine_Item1_Var3">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="소환" status="stance">      
+      <layer>
+		<decision>
+          <condition skill="26512" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26512" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26512" />
+        </decision>
+		<decision>
+          <condition skill="26511" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26511" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26511" />
+        </decision>
+		<decision>
+          <condition skill="26510" />
+          <result context-ui-effect="combo" control-mode="classic" skillbar-2="26510" />
+          <result context-ui-effect="combo" control-mode="bns" skillbar-2="26510" />
+        </decision>
+        <decision>
+          <condition skill="26509" />
+          <result control-mode="classic" skillbar-2="26509" />
+          <result control-mode="bns" skillbar-2="26509" />
+        </decision>
+      </layer>
+    </stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_Hornet_Item2_Var1">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+
+	  
+		<layer>			
+			
+			<decision>
+				<condition skill="26514" />
+				<result context-2="26514" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26514" context-ui-effect="event" control-mode="classic" />
+			</decision>
+			<decision>
+				<condition skill="26513" />
+				<result context-2="26513" control-mode="bns" />
+				<result context-2="26513" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+	
+<contextscript alias="Summoner_Summon_Hornet_Item2_Var2">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+		
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+		
+		
+		<layer>			
+			
+			<decision>
+				<condition skill="26516" />
+				<result context-2="26516" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26516" context-ui-effect="event" control-mode="classic" />
+			</decision>
+			<decision>
+				<condition skill="26515" />
+				<result context-2="26515" control-mode="bns" />
+				<result context-2="26515" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_Hornet_Item2_Var3">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+		
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+		
+		<layer>			
+			
+			<decision>
+				<condition skill="26518" />
+				<result context-2="26518" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26518" context-ui-effect="event" control-mode="classic" />
+			</decision>
+			<decision>
+				<condition skill="26517" />
+				<result context-2="26517" control-mode="bns" />
+				<result context-2="26517" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_ThornVine_Item3_Var1">
+
+    
+    
+    
+    
+    
+    
+
+    <stance stance="소환" status="stance">      
+      <layer>		
+        <decision>
+          <condition skill="26519" />
+          <result control-mode="classic" skillbar-2="26519" />
+          <result control-mode="bns" skillbar-2="26519" />
+        </decision>
+      </layer>
+    </stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_ThornVine_Item3_Var2">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="소환" status="stance">      
+      <layer>		
+        <decision>
+          <condition skill="26520" />
+          <result control-mode="classic" skillbar-2="26520" />
+          <result control-mode="bns" skillbar-2="26520" />
+        </decision>
+      </layer>
+    </stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_ThornVine_Item3_Var3">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="소환" status="stance">      
+      <layer>		
+        <decision>
+          <condition skill="26521" />
+          <result control-mode="classic" skillbar-2="26521" />
+          <result control-mode="bns" skillbar-2="26521" />
+        </decision>
+      </layer>
+    </stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_Hornet_Item4_Var1">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+		
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+		
+		<layer>			
+						
+			<decision>
+				<condition skill="26522" />
+				<result context-2="26522" control-mode="bns" />
+				<result context-2="26522" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_Hornet_Item4_Var2">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+		
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+		
+		
+		<layer>			
+						
+			<decision>
+				<condition skill="26523" />
+				<result context-2="26523" control-mode="bns" />
+				<result context-2="26523" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_Hornet_Item4_Var3">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+		
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+		
+		<layer>			
+						
+			<decision>
+				<condition skill="26524" />
+				<result context-2="26524" control-mode="bns" />
+				<result context-2="26524" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_Hornet_Item5_Var1">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+		
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+		
+		<layer>			
+						
+			<decision>
+				<condition skill="26525" />
+				<result context-2="26525" control-mode="bns" />
+				<result context-2="26525" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_Hornet_Item5_Var2">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+		
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+		
+		<layer>			
+						
+			<decision>
+				<condition skill="26526" />
+				<result context-2="26526" control-mode="bns" />
+				<result context-2="26526" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_Hornet_Item5_Var3">
+
+    
+    
+    
+    
+    
+    	
+	
+	<stance stance="소환" status="stance">
+		
+		<layer>
+	  	
+        <decision>
+			<condition skill="26103" />
+				<result context-2="26103" context-ui-effect="event" control-mode="bns" />
+				<result context-2="26103" context-ui-effect="event" control-mode="classic" />
+        </decision>
+		</layer>
+		
+		<layer>			
+						
+			<decision>
+				<condition skill="26527" />
+				<result context-2="26527" control-mode="bns" />
+				<result context-2="26527" control-mode="classic" />
+			</decision>
+		</layer>
+	</stance>
+
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackStep_Item6_Var1">
+
+    
+    
+    
+    
+    
+    
+	
+	<stance link="mount">	
+		<layer>	
+			<decision>
+				<condition skill="26531" />
+				<result control-mode="classic" skillbar-2="26531" />
+				<result control-mode="bns" skillbar-2="26531" />
+			</decision>			
+		</layer>	
+	</stance>
+	
+	<stance abnormal-flag="down">		
+		
+		<layer>	
+			<decision>
+				<condition skill="26544" />
+				<result context-3="26544" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26544" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26543" />
+				<result context-3="26543" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26543" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26528" />
+				<result control-mode="classic" skillbar-2="26528" />
+				<result control-mode="bns" skillbar-2="26528" />
+			</decision>			
+		</layer>		
+	</stance>
+	
+	<stance abnormal-flag="swoon">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26544" />
+				<result context-3="26544" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26544" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26543" />
+				<result context-3="26543" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26543" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>				
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26528" />
+				<result control-mode="classic" skillbar-2="26528" />
+				<result control-mode="bns" skillbar-2="26528" />
+			</decision>			
+		</layer>	
+	</stance>		
+	
+	<stance abnormal-flag="kneel">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26544" />
+				<result context-3="26544" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26544" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26543" />
+				<result context-3="26543" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26543" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26528" />
+				<result control-mode="classic" skillbar-2="26528" />
+				<result control-mode="bns" skillbar-2="26528" />
+			</decision>			
+		</layer>	
+	</stance>	
+	
+	<stance abnormal-flag="stun">			
+		<layer>	
+			<decision>
+				<condition skill="26528" />
+				<result control-mode="classic" skillbar-2="26528" />
+				<result control-mode="bns" skillbar-2="26528" />
+			</decision>			
+		</layer>	
+	</stance>	
+	
+	<stance link="inhalation-catch">
+		<layer>	
+			<decision>
+				<condition skill="26530" />
+				<result control-mode="classic" skillbar-2="26530" />
+				<result control-mode="bns" skillbar-2="26530" />
+			</decision>			
+		</layer>
+	</stance>
+	
+	<stance link="catch">
+		<layer>	
+			<decision>
+				<condition skill="26529" />
+				<result control-mode="classic" skillbar-2="26529" />
+				<result control-mode="bns" skillbar-2="26529" />
+			</decision>			
+		</layer>
+	</stance>
+	
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackStep_Item6_Var2">
+
+    
+    
+    
+    
+    
+    
+	
+	<stance link="mount">	
+		<layer>	
+			<decision>
+				<condition skill="26536" />
+				<result control-mode="classic" skillbar-2="26536" />
+				<result control-mode="bns" skillbar-2="26536" />
+			</decision>			
+		</layer>	
+	</stance>
+	
+	<stance abnormal-flag="down">		
+		
+		<layer>	
+			<decision>
+				<condition skill="26546" />
+				<result context-3="26546" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26546" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26545" />
+				<result context-3="26545" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26545" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26533" />
+				<result control-mode="classic" skillbar-2="26533" />
+				<result control-mode="bns" skillbar-2="26533" />
+			</decision>			
+		</layer>		
+	</stance>
+	
+	<stance abnormal-flag="swoon">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26546" />
+				<result context-3="26546" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26546" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26545" />
+				<result context-3="26545" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26545" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>				
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26533" />
+				<result control-mode="classic" skillbar-2="26533" />
+				<result control-mode="bns" skillbar-2="26533" />
+			</decision>			
+		</layer>	
+	</stance>		
+	
+	<stance abnormal-flag="kneel">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26546" />
+				<result context-3="26546" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26546" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26545" />
+				<result context-3="26545" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26545" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26533" />
+				<result control-mode="classic" skillbar-2="26533" />
+				<result control-mode="bns" skillbar-2="26533" />
+			</decision>			
+		</layer>	
+	</stance>	
+	
+	<stance abnormal-flag="stun">			
+		<layer>	
+			<decision>
+				<condition skill="26533" />
+				<result control-mode="classic" skillbar-2="26533" />
+				<result control-mode="bns" skillbar-2="26533" />
+			</decision>			
+		</layer>	
+	</stance>	
+	
+	<stance link="inhalation-catch">
+		<layer>	
+			<decision>
+				<condition skill="26535" />
+				<result control-mode="classic" skillbar-2="26535" />
+				<result control-mode="bns" skillbar-2="26535" />
+			</decision>			
+		</layer>
+	</stance>
+	
+	<stance link="catch">
+		<layer>	
+			<decision>
+				<condition skill="26534" />
+				<result control-mode="classic" skillbar-2="26534" />
+				<result control-mode="bns" skillbar-2="26534" />
+			</decision>			
+		</layer>
+	</stance>
+	
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackStep_Item6_Var3">
+
+    
+    
+    
+    
+    
+    
+	
+	<stance link="mount">	
+		<layer>	
+			<decision>
+				<condition skill="26541" />
+				<result control-mode="classic" skillbar-2="26541" />
+				<result control-mode="bns" skillbar-2="26541" />
+			</decision>			
+		</layer>	
+	</stance>
+	
+	<stance abnormal-flag="down">		
+		
+		<layer>	
+			<decision>
+				<condition skill="26548" />
+				<result context-3="26548" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26548" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26547" />
+				<result context-3="26547" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26547" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26538" />
+				<result control-mode="classic" skillbar-2="26538" />
+				<result control-mode="bns" skillbar-2="26538" />
+			</decision>			
+		</layer>		
+	</stance>
+	
+	<stance abnormal-flag="swoon">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26548" />
+				<result context-3="26548" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26548" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26547" />
+				<result context-3="26547" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26547" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>				
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26538" />
+				<result control-mode="classic" skillbar-2="26538" />
+				<result control-mode="bns" skillbar-2="26538" />
+			</decision>			
+		</layer>	
+	</stance>		
+	
+	<stance abnormal-flag="kneel">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26548" />
+				<result context-3="26548" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26548" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+			<decision>
+				<condition skill="26547" />
+				<result context-3="26547" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26547" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>	
+		<layer>	
+			<decision>
+				<condition skill="26538" />
+				<result control-mode="classic" skillbar-2="26538" />
+				<result control-mode="bns" skillbar-2="26538" />
+			</decision>			
+		</layer>	
+	</stance>	
+	
+	<stance abnormal-flag="stun">			
+		<layer>	
+			<decision>
+				<condition skill="26538" />
+				<result control-mode="classic" skillbar-2="26538" />
+				<result control-mode="bns" skillbar-2="26538" />
+			</decision>			
+		</layer>	
+	</stance>	
+	
+	<stance link="inhalation-catch">
+		<layer>	
+			<decision>
+				<condition skill="26540" />
+				<result control-mode="classic" skillbar-2="26540" />
+				<result control-mode="bns" skillbar-2="26540" />
+			</decision>			
+		</layer>
+	</stance>
+	
+	<stance link="catch">
+		<layer>	
+			<decision>
+				<condition skill="26539" />
+				<result control-mode="classic" skillbar-2="26539" />
+				<result control-mode="bns" skillbar-2="26539" />
+			</decision>			
+		</layer>
+	</stance>
+	
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackwardRoll_Item7_Var1">
+
+    
+    
+    
+    
+    
+    
+		
+	<stance abnormal-flag="down">		
+		
+		<layer>	
+			<decision>
+				<condition skill="26550" />
+				<result context-3="26550" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26550" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26549" />
+				<result context-3="26549" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26549" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>			
+	</stance>
+	
+	<stance abnormal-flag="swoon">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26550" />
+				<result context-3="26550" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26550" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26549" />
+				<result context-3="26549" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26549" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>			
+	</stance>		
+	
+	<stance abnormal-flag="kneel">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26550" />
+				<result context-3="26550" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26550" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26549" />
+				<result context-3="26549" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26549" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>	
+	</stance>	
+	
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackwardRoll_Item7_Var2">
+
+    
+    
+    
+    
+    
+    
+		
+	<stance abnormal-flag="down">		
+		
+		<layer>	
+			<decision>
+				<condition skill="26552" />
+				<result context-3="26552" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26552" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26551" />
+				<result context-3="26551" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26551" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>			
+	</stance>
+	
+	<stance abnormal-flag="swoon">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26552" />
+				<result context-3="26552" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26552" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26551" />
+				<result context-3="26551" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26551" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+		</layer>			
+	</stance>		
+	
+	<stance abnormal-flag="kneel">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26552" />
+				<result context-3="26552" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26552" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26551" />
+				<result context-3="26551" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26551" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+		</layer>	
+	</stance>	
+	
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackwardRoll_Item7_Var3">
+
+    
+    
+    
+    
+    
+    
+		
+	<stance abnormal-flag="down">		
+		
+		<layer>	
+			<decision>
+				<condition skill="26554" />
+				<result context-3="26554" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26554" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26553" />
+				<result context-3="26553" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26553" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>			
+		</layer>			
+	</stance>
+	
+	<stance abnormal-flag="swoon">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26554" />
+				<result context-3="26554" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26554" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26553" />
+				<result context-3="26553" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26553" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+		</layer>			
+	</stance>		
+	
+	<stance abnormal-flag="kneel">	
+		
+		<layer>	
+			<decision>
+				<condition skill="26554" />
+				<result context-3="26554" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26554" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>	
+			<decision>
+				<condition skill="26553" />
+				<result context-3="26553" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result context-3="26553" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>		
+		</layer>	
+	</stance>	
+	
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackwardRoll_hid_Item8_Var1">
+
+    
+    
+    
+    
+    
+    
+		
+	<stance stance="소환" status="stance">
+		<layer>			
+			
+			<decision>
+				<condition skill="26555" /> 
+				<result cmd-key-down="26555" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result cmd-key-down="26555" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>
+		</layer>
+	</stance>
+	
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackwardRoll_hid_Item8_Var2">
+
+    
+    
+    
+    
+    
+    
+		
+	<stance stance="소환" status="stance">
+		<layer>			
+			
+			<decision>
+				<condition skill="26556" /> 
+				<result cmd-key-down="26556" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result cmd-key-down="26556" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>
+		</layer>
+	</stance>
+	
+</contextscript>
+
+<contextscript alias="Summoner_Summon_BackwardRoll_hid_Item8_Var3">
+
+    
+    
+    
+    
+    
+    
+		
+	<stance stance="소환" status="stance">
+		<layer>			
+			
+			<decision>
+				<condition skill="26557" /> 
+				<result cmd-key-down="26557" control-mode="classic" skillbar-ui-effect="key-change" />
+				<result cmd-key-down="26557" control-mode="bns" skillbar-ui-effect="key-change" />
+			</decision>
+		</layer>
+	</stance>
+	
+</contextscript>
+	
+<contextscript alias="Summoner_Summon_ThornVine_Item9">
+
+
+    
+    
+    
+    
+    
+    
+
+
+    <stance stance="소환" status="stance">      
+      <layer>		
+        <decision>
+          <condition skill="26558" />
+          <result control-mode="classic" skillbar-2="26558" />
+          <result control-mode="bns" skillbar-2="26558" />
+        </decision>
+      </layer>
+    </stance>
+
+</contextscript>
+
+</table>

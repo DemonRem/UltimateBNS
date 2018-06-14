@@ -1,12 +1,52 @@
-<?xml version='1.0' encoding='utf-8'?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.218">
-	<quest alias="q_sub_334" broadcast-category="field" category="normal" desc="q_334_sum" grade="25" group2="QG_Delete" id="334" map-group-1-1="duel" max-repeat="1" name2="Quest.Name2.334" reset-type="daily" retired="y" save-type="all">
-		<acquisition level="4" preceding-quest-1="q_sub_327" preceding-quest-check="and" recommended-level="4"/>
-		<mission-step id="1">
-			<mission id="1" name2="Mission.Name2.334_1" required-register-value="1"/>
-		</mission-step>
-		<mission-step id="2">
-			<mission id="2" name2="Mission.Name2.334_2" required-register-value="1" reward-1="334_final_set1" reward-2="334_final_set2"/>
-		</mission-step>
-	</quest>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.334.xml-->
+  <quest alias="q_epic_334" category="epic" completed-desc="q_334_completed" completed-list="y" desc="q_334_sum" grade="1" group2="QG_Toturial" id="334" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.334" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="기권사" level="1" recommended-level="1" sort-no="106" />
+    <mission-step desc="q_334_des_1" id="1" location-x="-8378.602" location-y="40751.602" map="startzone">
+      <mission id="1" name2="Mission.Name2.334_1" required-register-value="1" reward-1="334_final_set1">
+        <case npc-response="qrsp_334_1" object="npc:ch_youngmook_0009" progress-mission="y" type="talk" />
+        <case object="zone:startzone_renew_forcekungfu" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="or" desc="q_334_des_2" guide-message="gm_334_1" id="2">
+      <mission id="2" name2="Mission.Name2.334_2" required-register-value="3">
+        <case object="zone:startzone_renew_forcekungfu" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_334_3" object="npc:mh_redmokujin_0001" type="approach" />
+        <tutorial-case object2-1="npc:mh_redmokujin_0001" progress-mission="y" skill="SoulFighter_Attack_PowerstepPunch_Lv1" skill3="SoulFighter_Attack_PowerstepPunch_Lv1" type="skill" />
+      </mission>
+      <mission id="3" name2="Mission.Name2.334_3" required-register-value="1">
+        <case npc-response="qrsp_334_2" object="npc:ch_wb_youngmook_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="or" desc="q_334_des_3" guide-message="gm_334_2" id="3">
+      <mission id="4" name2="Mission.Name2.334_4" required-register-value="3">
+        <case object="zone:startzone_renew_forcekungfu" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_334_5" object="npc:mh_bluemokujin_0001" type="approach" />
+        <tutorial-case object2-1="npc:mh_bluemokujin_0001" progress-mission="y" skill="soulfighter_attack_Rear_Attack_Lv1_Auto" skill3="soulfighter_attack_Rear_Attack_Lv1_Auto" type="skill" />
+        <tutorial-case object2-1="npc:mh_bluemokujin_0001" progress-mission="y" skill="SoulFighter_Force_Rear_Force_Lv1_Auto" skill3="SoulFighter_Force_Rear_Force_Lv1_Auto" type="skill" />
+      </mission>
+      <mission id="5" name2="Mission.Name2.334_5" required-register-value="1">
+        <case npc-response="qrsp_334_4" object="npc:ch_wb_youngmook_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="or" desc="q_334_des_4" guide-message="gm_334_3" id="4">
+      <mission id="6" name2="Mission.Name2.334_6" required-register-value="3">
+        <case object="zone:startzone_renew_forcekungfu" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_334_7" object="npc:mh_bluemokujin_0006" type="approach" />
+        <tutorial-case object2-1="npc:mh_bluemokujin_0006" progress-mission="y" skill="SoulFighter_Force_EarthLaser_Lv1" skill3="SoulFighter_Force_EarthLaser_Lv1" type="skill" />
+      </mission>
+      <mission id="7" name2="Mission.Name2.334_7" required-register-value="1">
+        <case npc-response="qrsp_334_6" object="npc:ch_youngmook_0009" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_227" />
+    </completion>
+    <transit id="1" zone="startzone_renew_blade">
+      <destination mission-step-id="3" zone-index="10" />
+      <destination mission-step-id="2" zone-index="10" />
+      <destination mission-step-id="1" zone-index="10" />
+    </transit>
+  </quest>
 </table>

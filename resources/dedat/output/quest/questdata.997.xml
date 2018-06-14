@@ -1,9 +1,102 @@
-<?xml version='1.0' encoding='utf-8'?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.218">
-	<quest alias="q_epic_997" broadcast-category="field" category="epic" completed-desc="q_997_completed" completed-list="y" grade="1" group2="QG_NextbaeCheongEpic3" id="997" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.997" save-type="all">
-		<acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="601"/>
-		<mission-step id="1">
-			<mission id="1" name2="Mission.Name2.997_1" required-register-value="1"/>
-		</mission-step>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.997.xml-->
+  <quest alias="q_epic_997" broadcast-category="field" category="epic" completed-desc="q_997_completed" completed-list="y" desc="q_997_sum" grade="1" group2="QG_NextbaeCheongEpic3" id="997" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.997" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="601" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.997_1" required-register-value="1">
+        <case item="q_997_1_icon" msg="q_997_2" progress-mission="y" type="talk-to-self" />
+        <case object="zone:zone_ChRyoungCHN_DoChunPung__Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.997_2" required-register-value="1">
+        <case npc-response="qrsp_997_4" object="npc:ch_wa_dodanha_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChRyoungCHN_DoChunPung_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.997_3" required-register-value="1">
+        <case mapunit-1="2042_e_chest_Deungdae_e997" object2="zoneenv2:e_chest_Deungdae_01" progress-mission="y" type="manipulate" />
+        <case object="zone:zone_ChRyoungCHN2_DeungDe_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.997_4" required-register-value="1">
+        <case npc-response="qrsp_997_5" object="npc:CH_WA_Heajuk_A1_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChRyoungCHN2_DeungDe_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.997_5" required-register-value="1" reward-1="Quest_Scroll_BackChung_0051">
+        <case npc-response="qrsp_997_6" object="npc:ch_wa_dodanha_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChRyoungCHN2_DeungDe_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.997_8" required-register-value="1">
+        <case msg="q_938_2" npc-response="qrsp_997_7" object="npc:CH_WA_zanggyul_0001" progress-mission="y" required-item-depot="bag" required-item-loss="y" type="talk" />
+        <case object="zone:zone_GeonWon_B_Outcastle_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="10" name2="Mission.Name2.997_10" required-register-value="5">
+        <case mapunit-1="6121_CH_WA_MaYeongGangGun_0001~5_e997" npc-response="qrsp_997_13" object="npc:CH_WA_MaYeongGangGun_0009" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6121_CH_WA_MaYeongGangGun_0001~5_e997" npc-response="qrsp_997_12" object="npc:CH_WA_MaYeongGangGun_0008" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6121_CH_WA_MaYeongGangGun_0001~5_e997" npc-response="qrsp_997_13" object="npc:CH_WA_MaYeongGangGun_0007" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6121_CH_WA_MaYeongGangGun_0001~5_e997" npc-response="qrsp_997_12" object="npc:CH_WA_MaYeongGangGun_0006" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6121_CH_WA_MaYeongGangGun_0001~5_e997" npc-response="qrsp_997_11" object="npc:CH_WA_MaYeongGangGun_0005" progress-mission="y" type="npc-manipulate" />
+        <case object="zone:zone_GeonWon_B_Outcastle_Act7_1" type="enter-zone" />
+      </mission>
+      <mission id="9" name2="Mission.Name2.997_9" required-register-value="3">
+        <case mapunit-1="6121_ME_WA_SkullCaptain_0001~3_e997" object2="npc:me_wa_skullcaptain_0003" progress-mission="y" type="killed" />
+        <case mapunit-1="6121_ME_WA_SkullCaptain_0001~3_e997" object2="npc:me_wa_skullcaptain_0002" progress-mission="y" type="killed" />
+        <case mapunit-1="6121_ME_WA_SkullCaptain_0001~3_e997" object2="npc:me_wa_skullcaptain_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="12" name2="Mission.Name2.997_12" required-register-value="1" reward-1="997_final_set1">
+        <case npc-response="qrsp_997_9" object="npc:CH_WA_zanggyul_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_GeonWon_B_Outcastle_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1510" />
+    </completion>
+    <transit id="1" zone="zone_ChRyoungCHN_Doctor_SP" />
+    <transit id="2" zone="zone_ChRyoungCHN_DoChunPung_1_sp">
+      <destination mission-step-id="2" zone-index="4" />
+      <destination mission-step-id="1" zone-index="4" />
+    </transit>
+    <transit id="3" zone="zone_ChRyoungCHN2_DeungDe_SP">
+      <destination mission-step-id="5" zone-index="2" />
+      <destination mission-step-id="4" zone-index="2" />
+      <destination mission-step-id="3" zone-index="2" />
+    </transit>
+    <transit id="4" zone="zone_GeonWon_B_Outcastle">
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+    </transit>
+    <mission-step id="10">
+      <mission id="11" name2="Mission.Name2.997_11" required-register-value="1">
+        <case object2="npc:ME_WA_GuGuBung_0001" progress-mission="y" type="killed" />
+        <case object="zone:zone_GeonWon_B_Outcastle_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.997_6" required-register-value="1">
+        <case mapunit-1="3000_zone_GeonWon_B_Outcastle_Act7_1_e997" mapunit-2="Guide_1_e997" object="zone:zone_GeonWon_B_Outcastle_Act7_1" progress-mission="y" progress-value="1" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step hide="y" id="7">
+      <mission id="7" name2="Mission.Name2.997_7" required-register-value="1">
+        <case object="npc:CH_WA_zanggyul_0001" progress-mission="y" type="approach" />
+        <case object="zone:zone_GeonWon_B_Outcastle_Act7_1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
 	</quest>
 </table>

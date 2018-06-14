@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1780.xml-->
+  <quest alias="q_sub_1780" category="normal" desc="q_1780_sum" grade="1" group2="QG_FireDragon" id="1780" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1780" save-type="all">
+    <acquisition level="55" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" item="q_1599_1_icon" msg="q_1780_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1780_1" required-register-value="1" reward-1="1780_final_set1" reward-2="1780_final_set2">
+        <case npc-response="qrsp_1780_2" object="npc:CH_WA_Baekwoon_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

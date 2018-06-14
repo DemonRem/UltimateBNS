@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1424.xml-->
+  <quest alias="q_epic_1424" category="epic" completed-desc="q_1424_completed" completed-list="y" desc="q_1424_sum" grade="1" group2="QG_BaeCheongEpic" id="1424" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1424" save-type="all">
+    <acquisition level="1" recommended-level="46" sort-no="705" />
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1424_4" required-register-value="1">
+        <case npc-response="qrsp_1424_1" object="npc:CH_SA_Citizen_0069" type="approach" />
+        <case mapunit-1="M_Zone_WindPlain_2" mapunit-2="Guide_Grainstore" object="zone:Zone_WindPlain_2" progress-mission="y" type="enter-zone" />
+        <case npc-response="qrsp_1423_2" object="npc:CH_SA_Citizen_0254" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1424_5" required-register-value="1">
+        <case npc-response="qrsp_1424_1" object="npc:CH_SA_Citizen_0069" progress-mission="y" type="npc-manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1424_6" required-register-value="1">
+        <case npc-response="qrsp_1424_2" object="npc:CH_SA_Citizen_0072" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step guide-message="gm_1424_1" id="7">
+      <mission id="7" name2="Mission.Name2.1424_7" required-register-value="1">
+        <case object2="npc:CE_SA_Dummy_0002" progress-mission="y" social="talksocial_browsing" type="pc-social" />
+      </mission>
+      <mission id="8" name2="Mission.Name2.1424_8" required-register-value="1">
+        <case object2="npc:CE_SA_Dummy_0001" progress-mission="y" social="talksocial_browsing" type="pc-social" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="10" name2="Mission.Name2.1424_10" required-register-value="1">
+        <case npc-response="qrsp_1424_4" object="npc:CH_SA_JeGukGun_0036" progress-mission="y" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="11" name2="Mission.Name2.1424_11" required-register-value="1">
+        <case npc-response="qrsp_1424_4" object="npc:CH_SA_JeGukGun_0036" progress-mission="y" type="npc-manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="12" name2="Mission.Name2.1424_12" required-register-value="1">
+        <case npc-response="qrsp_1424_5" object="npc:CH_SA_JeGukGun_0037" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="13" name2="Mission.Name2.1424_13" required-register-value="1">
+        <case mapunit-1="M_Zone_Nokriomdo_P" object="zone:Zone_Nokriomdo_P" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="14" name2="Mission.Name2.1424_14" required-register-value="1">
+        <case object="npc:CH_SA_NokLimDo_0007" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="zone:Zone_Nokriomdo_P" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="15" name2="Mission.Name2.1424_15" required-register-value="1">
+        <case npc-response="qrsp_1424_6" object="npc:CH_SA_NokLimDo_0008" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Nokriomdo_P" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="10" />
+    </mission-step>
+    <mission-step id="15">
+      <mission id="16" name2="Mission.Name2.1424_16" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1424_final_set1">
+        <case npc-response="qrsp_1424_7" object="npc:CH_SA_YuCheon_0002" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Nokriomdo_P" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+      <mission-step-fail rollback-step-id="10" />
+    </mission-step>
+    <transit id="1" zone="zone_nokriomdo_h">
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="15" zone-index="1" />
+    </transit>
+    <completion>
+      <next-quest quest="q_epic_1425" />
+    </completion>
+    <mission-step id="8">
+      <mission id="9" name2="Mission.Name2.1424_9" required-register-value="1">
+        <case npc-response="qrsp_1424_8" object="npc:CH_SA_Citizen_0070" progress-mission="y" type="npc-manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1424_1" required-register-value="1">
+        <case mapunit-1="Guide_Grainstore_1" object2="npc:ME_CT_KangSiFat_0002" progress-mission="y" type="killed" />
+        <case mapunit-1="Guide_Grainstore_1" object2="npc:ME_BC_KangSiFat_0001" progress-mission="y" type="killed" />
+        <case button-text-accept="q_1424_1_ok" button-text-cancel="q_1424_1_no" indicator="quest-epic-can-progress" npc-response="qrsp_1424_12" object="npc:CH_BC_Mokujin_0001" progress-mission="reaction-only" type="talk" />
+        <case npc-response="qrsp_1424_11" object="npc:CH_SA_TakMagulCitizen_0001" type="approach" />
+        <case npc-response="qrsp_1424_11" object="npc:CH_SA_TakMagulCitizen_0002" type="approach" />
+        <case npc-response="qrsp_1424_11" object="npc:CH_SA_TakMagulCitizen_0003" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1424_2" required-register-value="1">
+        <case npc-response="qrsp_1424_9" object="npc:CH_SA_TakMagulCitizen_0001" progress-mission="y" type="talk" />
+        <case button-text-accept="q_1424_1_ok" button-text-cancel="q_1424_1_no" indicator="quest-epic-can-progress" npc-response="qrsp_1424_12" object="npc:CH_BC_Mokujin_0001" progress-mission="reaction-only" type="talk" />
+        <case npc-response="qrsp_1424_11" object="npc:CH_SA_TakMagulCitizen_0002" type="approach" />
+        <case npc-response="qrsp_1424_11" object="npc:CH_SA_TakMagulCitizen_0003" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1424_3" required-register-value="1">
+        <case mapunit-1="M_5500_CH_SA_Citizen_0254" mapunit-2="M_5500_CH_SA_Citizen_0254_1" mapunit-3="Guide_TakMaGul" npc-response="qrsp_1424_10" object="npc:CH_SA_Citizen_0254" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

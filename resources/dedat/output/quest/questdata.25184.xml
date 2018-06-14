@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25184.xml-->
+  <quest alias="q_sub_25184" category="dungeon" dungeon="Dungeon_SuJangKo" grade="10" group2="QG_NaRyuStorage" id="25184" map-group-1-1="SeoRak" max-repeat="-1" name2="Quest.Name2.25184" progress-difficulty-type-2="n" progress-difficulty-type-3="n" save-type="nothing">
+    <acquisition level="55" preceding-quest-1="q_sub_1724" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" object2="zoneenv2:947_portal_6230" type="enter-portal" />
+      <case acquire-quest="y" object2="zoneenv2:6624_portal_6230" type="enter-portal" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25184_1" required-register-value="1">
+        <case object2="npc:ME_SB_AncientMechaGoat_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.25184_2" required-register-value="1">
+        <case object2="npc:ME_SB_AncientDokgo_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <transit id="2" zone="zone_SR_SuJangKo_D2">
+      <destination mission-step-id="2" zone-index="1" />
+    </transit>
+    <transit id="1" zone="zone_SR_SuJangKo_D1">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+  </quest>
+</table>

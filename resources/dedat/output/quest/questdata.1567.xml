@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1567.xml-->
+  <quest alias="q_sub_1567" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1567_sum" grade="1" group2="QG_GeonwonEast" id="1567" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1567" reset-by-acquire-time="daily" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1514" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1567_1" object="npc:ch_sb_geonwon_0164" type="talk" />
+      <case acquire-quest="y" completion-count="1" npc-response="qrsp_1567_3" object="npc:ch_sb_geonwon_0164" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1567_1" required-register-value="12">
+        <case object2="npc:ME_SB_ChameleonTribe_0005" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_chameleontribe_0008" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_chameleontribe_0009" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_chameleontribe2_0002" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_chameleontribe2_0004" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SB_ChameleonTribe2_0005" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_chameleontribe3_0001" progress-mission="y" type="killed" />
+        <case object2="npc:ME_SB_ChameleonTribe3_0005" progress-mission="y" type="killed" />
+        <case mapunit-1="6170_me_sb_chameleontribe3_0002" mapunit-10="6170_me_sb_chameleontribe3_0001" mapunit-2="6170_me_sb_chameleontribe2_0004" object2="npc:me_sb_chameleontribe3_0002" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1567_2" required-register-value="1" reward-1="1567_final_set1" reward-2="1567_final_set2">
+        <case fee="y" item="q_1567_1_icon" msg="q_1567_3" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1567_2" object="npc:ch_sb_geonwon_0164" progress-mission="y" type="talk" />
+        <case completion-count="1" npc-response="qrsp_1567_4" object="npc:ch_sb_geonwon_0164" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

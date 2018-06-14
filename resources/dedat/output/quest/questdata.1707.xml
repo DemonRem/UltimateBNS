@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1707.xml-->
+  <quest alias="q_sub_1707" category="job" desc="q_1707_sum" grade="1" group2="QG_MangJaSup" id="1707" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1707" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="격사" level="6" preceding-quest-1="q_epic_306" preceding-quest-2="q_sub_1706" preceding-quest-check="and" recommended-level="8" talk-to-self-guide-msg="Msg.Job.quest3">
+      <case acquire-quest="y" item="q_1228_1_icon" msg="q_1707_1" progress-mission="n" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1707_1" required-register-value="1">
+        <case npc-response="qrsp_1707_2" object="npc:MH_WA_Shooter_HwaJung_0003" progress-mission="y" type="talk" />
+        <case object="zone:zone_MangJa_ClassQ_3_C10" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step guide-message="gm_1707_1" guide-message-zone-1="zone_MangJa_ClassQ_3_C10" id="2">
+      <mission id="2" name2="Mission.Name2.1707_2" required-register-value="3">
+        <case object="zone:zone_MangJa_ClassQ_3_C10" progress-mission="reaction-only" type="enter-zone" />
+        <tutorial-case object2-1="npc:MH_WA_Shooter_HeukRyongChae_0001" progress-mission="y" range-max="2" range-min="2" skill-sequence="Shooter_Lv8_M11" type="skill-sequence" />
+        <tutorial-case object2-1="npc:MH_WA_Shooter_HeukRyongChae_0001" progress-mission="y" range-max="1" range-min="1" skill-sequence="Shooter_Lv8_M11" type="skill-sequence" />
+        <tutorial-case object2-1="npc:MH_WA_Shooter_HeukRyongChae_0001" progress-mission="y" range-max="0" range-min="0" skill-sequence="Shooter_Lv8_M11" type="skill-sequence" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1707_3" required-register-value="1" reward-1="1707_final_set1">
+        <case npc-response="qrsp_1707_3" object="npc:MH_WA_Shooter_HwaJung_0003" progress-mission="y" type="talk" />
+        <case object="zone:zone_MangJa_ClassQ_3_C10" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_MangJa_ClassQ_3_SP">
+      <destination mission-step-id="3" zone-index="10" />
+      <destination mission-step-id="2" zone-index="10" />
+      <destination mission-step-id="1" zone-index="10" />
+    </transit>
+  </quest>
+</table>

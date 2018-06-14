@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config major-version="1" minor-version="1" module="release" release-module="LocalizationData" release-side="client">
+  <!--C:/LocalTextSelfDeploy/temp/release.config2.xml-->
+
+  <option name="lobby-gate-address" value="172.18.0.245" />
+  <option name="lobby-gate-port" value="10900" />
+  <option name="np-program-id" value="302" />
+  <option name="np-gamecode" value="bns" />
+  <option name="np-address" value="172.19.66.203" />
+  <option name="np-port" value="6600" />
+
+  <option name="use-packed-data" value="true" />
+  <option name="use-engine-data-share" value="false" />
+  <option name="client-configration-sub-directory-name" value="" />
+
+  <option name="np-bns-server-app-id" value="D5099619-B2F2-26EB-8DDA-DD084E83DB1B" />
+  <option name="np-bns-client-app-id" value="B0D42105-0CB6-BC9F-3CB2-BE28A0662340" />
+  <option name="np-bns-client-app-group-id" value="78" />
+  <option name="np-in-game-web-app-id" value="A00E2088-4CDE-94E9-3937-A45E7D4776E9" />
+
+  <option name="info-gate-address" value="" />
+  <option name="info-gate-port" value="0" />
+  <option name="info-gate-address-2" value="" />
+  <option name="info-gate-port-2" value="0" />
+
+  <option name="np-bns-gm-client-app-id" value="B0D42105-0CB6-BC9F-3CB2-BE28A0662340" />
+  <option name="np-bns-gm-client-app-id-2" value="B0D42105-0CB6-BC9F-3CB2-BE28A0662340" />
+
+  <option name="lobby-gate-address-2" value="" />
+  <option name="lobby-gate-port-2" value="0" />
+  <option name="np-program-id-2" value="0" />
+  <option name="np-gamecode-2" value=" " />
+  <option name="np-address-2" value="" />
+  <option name="np-port-2" value="0" />
+  <option name="np-bns-server-app-id-2" value=" " />
+  <option name="np-bns-client-app-id-2" value="" />
+  <option name="np-bns-client-app-group-id-2" value="0" />
+  <option name="np-in-game-web-app-id-2" value="A00E2088-4CDE-94E9-3937-A45E7D4776E9" />
+
+  <option name="np-external-web-app-id" value="2B8B8FCF-FD82-FDDC-0094-39FB650090F0" />
+  <option name="np-external-web-app-id-2" value="2B8B8FCF-FD82-FDDC-0094-39FB650090F0" />
+  <option name="ncwest-external-charge-url" value="https://qa.purchase.ncsoft.com/ncoin/popupNCoin" />
+  <option name="ncwest-external-charge-url-2" value="https://qa.purchase.ncsoft.com/ncoin/popupNCoin" />
+
+  <group name="in-game-web">
+    <option name="use-url-prefix" value="false" />
+    <option name="url-prefix" value="" />
+
+    <option name="goods-store-url" value="http://igc.qa.bladeandsoul.com" />
+    <option name="goods-store-home-urn" value="/na/client/store-banner/" />
+    <option name="goods-store-url-2" value="http://igc.qa.bladeandsoul.com" />
+    <option name="goods-store-home-urn-2" value="/eu/client/store-banner/" />
+
+    <option name="goods-store-second-url" value="" />
+    <option name="goods-store-second-home-urn" value="" />
+    <option name="goods-store-second-url-2" value="" />
+    <option name="goods-store-second-home-urn-2" value="" />
+
+    <option name="session-url" value="http://qa.login.bladeandsoul.com" />
+    <option name="session-url-2" value="https://qa.login.bladeandsoul.com" />
+
+    <option name="market-url" value="http://qa.na-bnsmarket.ncsoft.com" />
+    <option name="market-home-urn" value="/bns/bidder/home.web" />
+    <option name="market-url-2" value="http://qa.eu-bnsmarket.ncsoft.com" />
+    <option name="market-home-urn-2" value="/bns/bidder/home.web" />
+
+    <option name="character-info-url" value="http://qa.na-bns.ncsoft.com" />
+    <option name="character-info-home-urn" value="/ingame/bs/character/profile" />
+    <option name="character-info-other-home-urn" value="/ingame/bs/character/search/info" />
+    <option name="character-info-diff-home-urn" value="/ingame/bs/character/compare" />
+
+    <option name="character-info-url-2" value="http://qa.eu-bns.ncsoft.com" />
+    <option name="character-info-home-urn-2" value="/ingame/bs/character/profile" />
+    <option name="character-info-other-home-urn-2" value="/ingame/bs/character/search/info" />
+    <option name="character-info-diff-home-urn-2" value="/ingame/bs/character/compare" />
+
+    <option name="gamepic-url" value="http://qa.na-gamepic.ncsoft.com" />
+    <option name="gamepic-upload-urn" value="/api/content/bnsupload" />
+    <option name="gamepic-url-2" value="http://qa.eu-gamepic.ncsoft.com" />
+    <option name="gamepic-upload-urn-2" value="/api/content/bnsupload" />
+
+    <option name="ncjapan-help-url" value="http://igc.qa.bladeandsoul.com" />
+    <option name="ncjapan-help-home-urn" value="/na/client/event-promo/" />
+    <option name="ncjapan-help-url-2" value="http://igc.qa.bladeandsoul.com" />
+    <option name="ncjapan-help-home-urn-2" value="/eu/client/event-promo/" />
+
+    <option name="digital-river-url" value="https://qa.purchase.ncsoft.com" />	
+    <option name="digital-river-home-urn" value="/ncoin-bns-ingame/buyNCoin" />
+    <option name="digital-river-url-2" value="https://qa.purchase.ncsoft.com" />
+    <option name="digital-river-home-urn-2" value="/ncoin-bns-ingame/buyNCoin" />
+
+    <option name="petition2-url" value="" />
+    <option name="petition2-home-urn" value="" />
+    <option name="petition2-list-urn" value="" />
+    <option name="petition2-url-2" value="" />
+    <option name="petition2-home-urn-2" value="" />
+    <option name="petition2-list-urn-2" value="" />
+
+    <option name="goods-store-charge-url" value="" />
+    <option name="goods-store-charge-home-urn" value="" />
+    <option name="goods-store-charge-url-2" value="" />
+    <option name="goods-store-charge-home-urn-2" value="" />
+  </group>
+
+  <group name="tencent">
+    <option name="ingameshop-notice-uri" value="http://www.bladeandsoul.com/na/client/in-game-shop/index.xml" />
+    <option name="ingameshop-notice-uri-2" value="http://www.bladeandsoul.com/eu/client/in-game-shop/index.xml" />
+    <group name="in-game-web">
+      <option name="tencent-lobbyhome-url" value="http://igc.qa.bladeandsoul.com" />
+      <option name="tencent-lobbyhome-url-2" value="http://igc.qa.bladeandsoul.com" />
+      <option name="tencent-lobbyhome-home-urn" value="/na/client/lobby-promo/" />
+      <option name="tencent-lobbyhome-home-urn-2" value="/eu/client/lobby-promo/" />
+
+      <option name="random-store-url" value="http://igc.qa.bladeandsoul.com" />
+      <option name="random-store-home-urn" value="/na/client/treasure-chest/" />
+      <option name="random-store-url-2" value="http://igc.qa.bladeandsoul.com" />
+      <option name="random-store-home-urn-2" value="/eu/client/treasure-chest/" />
+      <option name="random-store-2-url" value="" />
+      <option name="random-store-2-home-urn" value="" />
+      <option name="random-store-2-url-2" value="" />
+      <option name="random-store-2-home-urn-2" value="" />
+    </group>
+
+    <group name="np-auction">
+      <option name="notice-url" value="http://www.bladeandsoul.com/na/client/gold-auction-house/index.xml" />
+      <option name="notice-url-2" value="http://www.bladeandsoul.com/eu/client/gold-auction-house/index.xml" />
+    </group>
+  </group>
+
+  <option name="np-gm-program-id" value="302" /> 
+  <option name="np-gm-program-id-2" value="302" />
+
+  <group name="debug">
+    <option name="show-debug-message" value="n" />
+  </group>
+
+  <group name="in-game-web">
+    <option name="user-agent" value="BnsIngameBrowser" />
+  </group>
+
+  <group name="goods-store">
+    <option name="root-category-id" value="0" />
+    <option name="recommend-category-id" value="254" />
+    <option name="recommend-category-id-2" value="255" />
+    <option name="recommend-category-id-3" value="0" />
+    <option name="recommend-category-id-4" value="0" />
+
+    <option name="recommend-2-category-id" value="256" />
+    <option name="recommend-2-category-id-2" value="257" />
+    <option name="recommend-2-category-id-3" value="0" />
+    <option name="recommend-2-category-id-4" value="0" />
+  </group>
+
+</config>

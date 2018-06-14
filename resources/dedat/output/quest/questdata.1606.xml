@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1606.xml-->
+  <quest alias="q_sub_1606" attraction-info="dungeon:Dungeon_MusinTower_extend" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1606_sum" grade="14" group2="QG_Musintap_F20" id="1606" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1606" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1550" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1606_1" object="npc:CH_MusinTower_BaekWoon_0001" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1606_1" required-register-value="1">
+        <case mapunit-1="4974_ME_WA_Dummy_0027" mapunit-2="4900_musin19_Guide" object2="npc:ME_WA_Dummy_0027" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1606_2" required-register-value="1" reward-1="1606_final_set1" reward-2="1606_final_set2">
+        <case npc-response="qrsp_1606_2" object="npc:CH_MusinTower_BaekWoon_0001" progress-mission="y" type="talk" />
+        <case item="q_1606_1_icon" msg="q_1606_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

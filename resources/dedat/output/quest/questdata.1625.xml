@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1625.xml-->
+  <quest alias="q_sub_1625" category="normal" content-type="party-battle" desc="q_1625_sum" grade="17" group2="QG_PartyBattleField" id="1625" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1625" save-type="all">
+    <acquisition level="55" mastery-level="1" recommended-level="55">
+      <case acquire-quest="y" item="q_1625_1_icon" msg="q_1625_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step desc="q_1625_des_1" id="1">
+      <mission id="1" name2="Mission.Name2.1625_1" required-register-value="1">
+        <case mapunit-1="Guide_WhiteWhale_start" party-battle-type="capture-the-flag" progress-mission="y" type="party-battle" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1625_2" required-register-value="1" reward-1="1625_final_set1">
+        <case fee="n" item="q_1625_2_icon" mapunit-1="Guide_WhiteWhale_end" msg="q_1625_2" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

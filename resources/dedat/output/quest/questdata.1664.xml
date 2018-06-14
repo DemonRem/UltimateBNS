@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1664.xml-->
+  <quest alias="q_sub_1664" attraction-info="raid-dungeon:raid_SecretRoom" category="normal" completed-list="n" day-of-week="weekly" desc="q_1664_sum" grade="22" group2="QG_PaeJuSecretRoom" id="1664" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1664" reset-type="weekly" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1620" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" completion-count="1" indicator="default" npc-response="qrsp_1664_4" object="npc:ch_wc_secretroom_0001" progress-mission="n" type="talk" />
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1664_1" object="npc:ch_wc_secretroom_0001" progress-mission="n" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1664_1" required-register-value="1">
+        <case object2="npc:me_wc_secretroomboss_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1664_2" required-register-value="1" reward-1="1664_final_set1" reward-2="1664_final_set2">
+        <case completion-count="1" completion-count-op="lt" item="q_1664_1_icon" msg="q_1664_3" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1664_2" object="npc:ch_wc_secretroom_0001" progress-mission="y" type="talk" />
+        <case completion-count="1" item="q_1664_1_icon" msg="q_1664_6" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" npc-response="qrsp_1664_5" object="npc:ch_wc_secretroom_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1635.xml-->
+  <quest alias="q_sub_1635" attraction-info="raid-dungeon:raid_VortexTemple" broadcast-category="field" category="normal" completed-list="n" day-of-week="weekly" desc="q_1635_sum" grade="22" group2="QG_vortex" id="1635" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1635" reset-type="weekly" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1620" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1635_1" object="npc:CH_WC_SonGwon_0001" progress-mission="y" type="talk" />
+      <case acquire-quest="y" completion-count="1" npc-response="qrsp_1635_4" object="npc:CH_WC_SonGwon_0001" progress-mission="y" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1635_1" required-register-value="1">
+        <case object2="npc:me_wc_stormtemplenamed_0001" progress-mission="y" type="killed" />
+      </mission>
+      <mission id="2" name2="Mission.Name2.1635_2" required-register-value="1">
+        <case object2="npc:me_wc_stormtemplenamed_0002" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="and" id="3">
+      <mission id="4" name2="Mission.Name2.1635_3" required-register-value="1" reward-1="1635_final_set1" reward-2="1635_final_set2">
+        <case npc-response="qrsp_1635_2" object="npc:CH_WC_SonGwon_0001" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1635_1_icon" msg="q_1635_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="and" id="2">
+      <mission id="3" name2="Mission.Name2.1635_4" required-register-value="1">
+        <case object2="npc:ME_WC_StormTempleNamed_0003" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

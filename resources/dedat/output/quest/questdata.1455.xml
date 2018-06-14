@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1455.xml-->
+  <quest alias="q_epic_1455" broadcast-category="field" category="epic" completed-desc="q_1455_completed" completed-list="y" desc="q_1455_sum" grade="1" group2="QG_BaeCheongEpic" id="1455" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1455" save-type="all">
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1455_1" required-register-value="1">
+        <case mapunit-1="1250_footswitch_01_e288" object2="zoneenv2:1250_footswitch_01" progress-mission="y" type="env-entered" />
+        <case object="zone:StartZone_Ending" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1455_2" required-register-value="1">
+        <case mapunit-1="1250_footswitch_02_e288" object2="zoneenv2:1250_footswitch_02" progress-mission="y" type="env-entered" />
+        <case object="zone:StartZone_Ending" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1455_3" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1455_1" object="npc:CH_CT_HongSeokGun_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Ending" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1455_4" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1455_2" object="npc:CH_CT_DoDanHa_0004" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChRyoungCHN_DoChunPung_1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1455_11" object="npc:CH_CT_GoBong_0003" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="5" location-x="-15971.47" location-y="3877.84" map="ToeMunGekJan_1" mission-map-type="location">
+      <mission id="5" name2="Mission.Name2.1455_5" required-register-value="1">
+        <case npc-response="qrsp_1455_6" object="npc:CH_CT_YeHaRang_0004" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1455_13" object="npc:CH_CT_SoYeonHwa_0009" type="approach" />
+        <case npc-response="qrsp_1455_14" object="npc:CH_CT_GoBong_0003" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="6" location-x="-15946.08" location-y="3979.40" map="ToeMunGekJan_1" mission-map-type="location">
+      <mission id="6" name2="Mission.Name2.1455_6" required-register-value="1">
+        <case npc-response="qrsp_1455_7" object="npc:CH_CT_SoYeonHwa_0009" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1455_12" object="npc:CH_CT_YeHaRang_0004" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7" location-x="-11604.28" location-y="3014.56" map="ToeMunGekJan_1" mission-map-type="location">
+      <mission id="7" name2="Mission.Name2.1455_7" required-register-value="1">
+        <case npc-response="qrsp_1455_8" object="npc:CH_CT_DangYeoWeol_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_syhbang" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:e_door_jinsoadoor_01" progress-mission="reaction-only" type="manipulate" />
+        <case npc-response="qrsp_1455_13" object="npc:CH_CT_SoYeonHwa_0009" type="approach" />
+        <case npc-response="qrsp_1455_18" object="npc:CH_CT_YeHaRang_0004" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="8" location-x="-11502.72" location-y="3065.34" map="ToeMunGekJan_1" mission-map-type="location">
+      <mission id="8" name2="Mission.Name2.1455_8" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1455_9" object="npc:CH_CT_JinSoA_0018" progress-mission="y" type="talk" />
+        <case object="zone:zone_syhbang" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:e_door_jinsoadoor_01" progress-mission="reaction-only" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1455_9" required-register-value="1">
+        <case npc-response="qrsp_1455_3" object="npc:CH_CT_GunMaYeom_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1455_16" object="npc:CH_CT_SoYangSang_0001" type="approach" />
+        <case npc-response="qrsp_1455_62" object="npc:CH_CT_HyunDam_0001" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1455_10" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1455_4" object="npc:CH_CT_SoYangSang_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1455_63" object="npc:CH_CT_GunMaYeom_0001" type="approach" />
+        <case npc-response="qrsp_1455_64" object="npc:CH_CT_HyunDam_0001" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1455_11" required-register-value="1">
+        <case object2="npc:CE_WC_Dummy_0035" progress-mission="y" social="talksocial_deepbow" type="pc-social" />
+        <case npc-response="qrsp_1455_17" object="npc:CH_CT_GunMaYeom_0001" type="approach" />
+        <case npc-response="qrsp_1455_16" object="npc:CH_CT_SoYangSang_0001" type="approach" />
+        <case npc-response="qrsp_1455_5" object="npc:CH_CT_HyunDam_0001" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_JeGukGun_0055" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_WC_YuCheon_0005" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0064" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0065" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0066" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0067" type="approach" />
+        <case npc-response="qrsp_1455_69" object="npc:CH_CT_PungEmpire_0068" type="approach" />
+        <case npc-response="qrsp_1455_70" object="npc:CH_CT_PungEmpire_0069" type="approach" />
+        <case npc-response="qrsp_1455_71" object="npc:CH_CT_PungEmpire_0072" type="approach" />
+        <case npc-response="qrsp_1455_72" object="npc:CH_CT_PungEmpire_0073" type="approach" />
+        <case npc-response="qrsp_1455_66" object="npc:CH_CT_PungEmpire_0033" type="approach" />
+        <case object2="npc:CE_WC_Dummy_0035" progress-mission="y" social="talksocial_bow1" type="pc-social" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1455_12" required-register-value="1">
+        <case npc-response="qrsp_1455_10" object="npc:CH_CT_PungEmpire_0033" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1455_62" object="npc:CH_CT_JeGukGun_0055" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_WC_YuCheon_0005" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0064" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0065" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0066" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0067" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1455_14" required-register-value="1">
+        <case npc-response="qrsp_1455_23" object="npc:CH_CT_JeGukGun_0055" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1455_62" object="npc:CH_CT_PungEmpire_0033" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_WC_YuCheon_0005" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0064" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0065" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0066" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0067" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1455_15" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1455_final_set1">
+        <case npc-response="qrsp_1455_24" object="npc:CH_CT_DoCheonPung_0005" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1455_25" object="npc:CH_CT_Yeokgisan_0001" type="approach" />
+        <case npc-response="qrsp_1455_26" object="npc:CH_CT_HaJunKwang_0001" type="approach" />
+        <case npc-response="qrsp_1455_27" object="npc:CH_CT_Chuhwayeon_0002" type="approach" />
+        <case npc-response="qrsp_1455_29" object="npc:CH_CT_Trainee_0010" type="approach" />
+        <case npc-response="qrsp_1455_30" object="npc:CE_CT_DokCho_0001" type="approach" />
+        <case npc-response="qrsp_1455_31" object="npc:CH_CT_BaekWoon_0003" type="approach" />
+        <case npc-response="qrsp_1455_32" object="npc:CH_CT_ChungWoon_0006" type="approach" />
+        <case npc-response="qrsp_1455_33" object="npc:CH_CT_JukWoon_0006" type="approach" />
+        <case npc-response="qrsp_1455_34" object="npc:CH_CT_MuRimMaeng_0079" type="approach" />
+        <case npc-response="qrsp_1455_35" object="npc:CH_CT_HonChunGyo_0078" type="approach" />
+        <case npc-response="qrsp_1455_38" object="npc:CH_CT_AnDuMae_0002" type="approach" />
+        <case npc-response="qrsp_1455_40" object="npc:CH_CT_MaBulPa_0006" type="approach" />
+        <case npc-response="qrsp_1455_42" object="npc:CE_CT_Hwigo_0001" type="approach" />
+        <case npc-response="qrsp_1455_43" object="npc:CE_CT_BelliedWaterFrog_0003" type="approach" />
+        <case npc-response="qrsp_1455_44" object="npc:CE_CT_CrocodileSharkTribeAElder_0019" type="approach" />
+        <case npc-response="qrsp_1455_45" object="npc:CE_CT_CrocodileSharkTribeAElder_0020" type="approach" />
+        <case npc-response="qrsp_1455_47" object="npc:CE_CT_PaDol_0005" type="approach" />
+        <case npc-response="qrsp_1455_48" object="npc:CE_CT_JinDol_0005" type="approach" />
+        <case npc-response="qrsp_1455_49" object="npc:CE_CT_DolJin_0003" type="approach" />
+        <case npc-response="qrsp_1455_50" object="npc:CH_CT_MangNanJa_0006" type="approach" />
+        <case npc-response="qrsp_1455_51" object="npc:CH_CT_TreasureHunter_0019" type="approach" />
+        <case npc-response="qrsp_1455_53" object="npc:CH_CT_UnGuk_0018" type="approach" />
+        <case npc-response="qrsp_1455_54" object="npc:CH_CT_Smuggler_0008" type="approach" />
+        <case npc-response="qrsp_1455_55" object="npc:CE_CT_HaeTalYi_0002" type="approach" />
+        <case npc-response="qrsp_1455_57" object="npc:CE_CT_SuWaJok_0036" type="approach" />
+        <case npc-response="qrsp_1455_59" object="npc:CE_CT_AkGyoJok_0021" type="approach" />
+        <case npc-response="qrsp_1455_58" object="npc:CE_CT_NakWonJok_0003" type="approach" />
+        <case npc-response="qrsp_1455_68" object="npc:CH_CT_PungEmpire_0033" type="approach" />
+        <case npc-response="qrsp_1455_62" object="npc:CH_CT_JeGukGun_0055" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_WC_YuCheon_0005" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0064" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0065" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0066" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0067" type="approach" />
+        <case npc-response="qrsp_1455_73" object="npc:CH_WC_Citizen_0019" type="approach" />
+        <case npc-response="qrsp_1455_74" object="npc:CH_WC_Citizen_0020" type="approach" />
+        <case npc-response="qrsp_1455_75" object="npc:CH_WC_Citizen_0021" type="approach" />
+        <case npc-response="qrsp_1455_76" object="npc:CH_WC_Citizen_0022" type="approach" />
+        <case npc-response="qrsp_1455_77" object="npc:CH_WC_Citizen_0023" type="approach" />
+        <case npc-response="qrsp_1455_78" object="npc:CH_WC_Shaman_0001" type="approach" />
+        <case npc-response="qrsp_1455_79" object="npc:CH_WC_Shaman_0002" type="approach" />
+        <case npc-response="qrsp_1455_80" object="npc:CH_WC_Inspector_0001" type="approach" />
+        <case npc-response="qrsp_1455_81" object="npc:CH_WC_KyeongChunMaeng_0001" type="approach" />
+        <case npc-response="qrsp_1455_82" object="npc:CH_WC_DaeEoBang_0001" type="approach" />
+        <case npc-response="qrsp_1455_83" object="npc:CH_WC_AngSiLeader_0003" type="approach" />
+        <case npc-response="qrsp_1455_84" object="npc:CE_WC_AkGyoJok_0008" type="approach" />
+        <case npc-response="qrsp_1455_85" object="npc:CH_WC_Citizen_0024" type="approach" />
+        <case npc-response="qrsp_1455_86" object="npc:CH_WC_Citizen_0025" type="approach" />
+        <case npc-response="qrsp_1455_87" object="npc:CH_WC_Citizen_0026" type="approach" />
+        <case npc-response="qrsp_1455_88" object="npc:CH_WC_Jwajanggun_0008" type="approach" />
+        <case npc-response="qrsp_1455_89" object="npc:CH_WC_CuteVoice_0001" type="approach" />
+        <case npc-response="qrsp_1455_90" object="npc:CH_WC_ManBokI_0001" type="approach" />
+      </mission>
+    </mission-step>
+    <acquisition level="1" recommended-level="50" sort-no="738" />
+    <completion>
+      <next-quest quest="q_epic_695" />
+    </completion>
+    <transit id="2" zone="zone_ChRyoungCHN_DoChunPung_1_sp">
+      <destination mission-step-id="4" zone-index="3" />
+    </transit>
+    <transit id="1" zone="StartZone_Default">
+      <destination mission-step-id="14" zone-index="2" />
+      <destination mission-step-id="13" zone-index="2" />
+      <destination mission-step-id="12" zone-index="2" />
+      <destination mission-step-id="11" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="6" zone-index="2" />
+      <destination mission-step-id="5" zone-index="2" />
+      <destination mission-step-id="4" zone-index="2" />
+      <destination mission-step-id="3" zone-index="2" />
+      <destination mission-step-id="2" zone-index="2" />
+      <destination mission-step-id="1" zone-index="2" />
+      <destination mission-step-id="15" zone-index="2" />
+    </transit>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1455_13" required-register-value="1">
+        <case npc-response="qrsp_1455_65" object="npc:CH_WC_YuCheon_0005" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0033" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_JeGukGun_0055" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0064" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0065" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0066" type="approach" />
+        <case npc-response="qrsp_1455_67" object="npc:CH_CT_PungEmpire_0067" type="approach" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

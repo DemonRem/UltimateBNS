@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1762.xml-->
+  <quest alias="q_sub_1762" attraction-info="dungeon:Dungeon_MusinTower_1_T_Event" category="normal" content-type="festival" day-of-week="daily" desc="q_1762_sum" grade="1" group2="QG_Event" id="1762" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1762" reset-type="daily" save-type="all" retired="y">
+    <acquisition level="16" preceding-quest-1="q_epic_313" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" item="q_1762_1_icon" msg="q_1762_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1762_1" required-register-value="1">
+        <case object2="npc:me_wc_firegorillaa_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1762_2" required-register-value="1">
+        <case multi-object-1="npc:me_wc_pilebunkerempire_0007" multi-object-2="npc:me_wc_pilebunkerempire_0008" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1762_3" required-register-value="1">
+        <case object2="npc:me_wc_kangsifat_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1762_4" required-register-value="1">
+        <case indicator="default" mapunit-1="2300_e_chest_2300small_burner_01" object2="zoneenv2:e_chest_2300small_burner_01" progress-mission="y" required-item-loss="y" type="manipulate" />
+        <tutorial-case mapunit-1="2300_S1762_airdash_giyeon_04_b" object2="zoneenv2:airdash_giyeon_04_b" progress-mission="reaction-only" type="airdash" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1762_5" required-register-value="1" reward-1="1762_final_set1" reward-2="1762_final_set2">
+        <case item="q_1762_2_icon" msg="q_1762_2" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

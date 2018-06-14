@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1596.xml-->
+  <quest alias="q_sub_1596" broadcast-category="field" category="normal" desc="q_1596_sum" grade="1" group2="QG_Chawonhang" id="1596" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1596" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1595" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1596_1" object="npc:ch_wa_chawoonhang_0222" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1596_2" required-register-value="1">
+        <case npc-response="qrsp_1596_2" object="npc:ch_wa_chawoonhang_0218" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1596_3" required-register-value="1">
+        <case npc-response="qrsp_1596_3" object="npc:ch_wa_chawoonhang_0219" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1596_4" required-register-value="1" reward-1="1596_final_set1">
+        <case npc-response="qrsp_1596_4" object="npc:ch_wa_chawoonhang_0218" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

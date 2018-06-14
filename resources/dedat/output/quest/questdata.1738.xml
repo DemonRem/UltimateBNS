@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1738.xml-->
+  <quest alias="q_sub_1738" attraction-info="dungeon:Dungeon_Hongsil_Event" category="normal" content-type="festival" desc="q_1738_sum" grade="10" group2="QG_Event" id="1738" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1738" save-type="all" retired="y">
+    <acquisition check-tencent-vitality="n" level="50" recommended-level="50">
+      <case acquire-quest="y" item="q_1738_1_icon" msg="q_1738_1" type="talk-to-self" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1738_1" required-register-value="1" reward-1="1738_final_set1">
+        <case npc-response="qrsp_1738_2" object="npc:ch_sb_hongsil_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

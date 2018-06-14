@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1692.xml-->
+  <quest alias="q_sub_1692" category="normal" desc="q_1692_sum" grade="10" group2="QG_dungeon_guide" id="1692" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1692" save-type="all">
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1692_1" required-register-value="1">
+        <case object2="npc:me_wa_whanmadan_a2_boss_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2" retired="n">
+      <mission id="2" name2="Mission.Name2.1692_2" required-register-value="1">
+        <case object2="npc:me_wb_firegorilla_0002" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="3" retired="n">
+      <mission id="3" name2="Mission.Name2.1692_3" required-register-value="1">
+        <case object2="npc:me_wc_demonempire_0003" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="4" retired="n">
+      <mission id="4" name2="Mission.Name2.1692_4" required-register-value="1">
+        <case mapunit-1="4970_carequest_1" object2="npc:me_wa_dummy_0024" progress-mission="y" show-in-tooltip="n" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1692_5" required-register-value="1" reward-1="1692_final_set1">
+        <case item="q_1692_2_icon" msg="q_1692_2" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <acquisition level="55" preceding-quest-1="q_epic_1657" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" item="q_1692_1_icon" msg="q_1692_1" type="talk-to-self" />
+    </acquisition>
+  </quest>
+</table>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1425.xml-->
+  <quest alias="q_epic_1425" category="epic" completed-desc="q_1425_completed" completed-list="y" desc="q_1425_sum" grade="1" group2="QG_BaeCheongEpic" id="1425" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1425" save-type="all">
+    <acquisition level="1" recommended-level="46" sort-no="706" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1425_1" required-register-value="1">
+        <case mapunit-1="m_zone_richtown_h2" mapunit-2="Guide_NokRimDoJuDunJi" object="zone:zone_richtown_h2" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1425_4" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1425_1" object="npc:CH_SA_Citizen_0081" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1425_2" required-register-value="1">
+        <case npc-response="qrsp_1425_15" object2="npc:CH_SA_Citizen_0080" progress-mission="y" social="talksocial_scare" type="pc-social" />
+        <case npc-response="qrsp_1425_6" object="npc:CH_SA_Citizen_0079" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1425_3" required-register-value="1">
+        <case npc-response="qrsp_1425_7" object="npc:CH_SA_Citizen_0079" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1425_5" object="npc:CH_SA_Citizen_0080" type="approach" />
+        <case object="zone:Zone_Richtown_h2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1425_8" required-register-value="1">
+        <case grocery="Quest_Grocery_BackChung_0035" npc-response="qrsp_1425_8" object="npc:ch_sa_citizen_0076" progress-mission="y" required-item-1="Quest_Grocery_BackChung_0035" required-item-depot="bag" required-item-loss="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1425_9" required-register-value="1">
+        <case npc-response="qrsp_1425_9" object="npc:CH_SA_YuCheon_0003" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Richtown_h1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1425_19" object="npc:ch_sa_citizen_0076" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1425_10" required-register-value="1">
+        <case gadget="Q_Vase_0001" gadget-required="not-a" indicator="quest-gadget-drop" mapunit-1="M_5512_e_Chest_baramflower_01" object2="zoneenv2:e_Chest_baramflower_01" progress-mission="reaction-only" type="manipulate" />
+        <case gadget="Q_Vase_0001" gadget-required="carry-and-remove" indicator="quest-gadget-required" mapunit-1="M_5512_e_chest_baramfire_01" object2="zoneenv2:e_chest_baramfire_01" progress-mission="y" type="manipulate" />
+        <case object="npc:CH_SA_YuCheon_0003" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1425_12" required-register-value="1" reset-teleport-recycle-time="y">
+        <case item="Quest_Grocery_BackChung_0023" msg="q_1425_7" progress-mission="y" type="talk-to-item" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1425_13" required-register-value="1">
+        <case npc-response="qrsp_1425_11" object="npc:CH_SA_JeGukGun_0044" progress-mission="reaction-only" type="approach" />
+        <case acquire-quest="y" grocery="Quest_Grocery_BackChung_0023" mapunit-1="Guide_Richtown_1" npc-response="qrsp_1425_12" object="npc:CH_SA_JeGukGun_0044" progress-mission="y" required-item-1="Quest_Grocery_BackChung_0023" required-item-depot="bag" required-item-loss="y" type="talk" />
+        <fixed-reward slot-1="item:Quest_Scroll_BackChung_0084" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="or" id="14">
+      <mission id="14" name2="Mission.Name2.1425_14" required-register-value="1" reset-teleport-recycle-time="y">
+        <case item="Quest_Scroll_BackChung_0084" msg="q_1425_12" required-item-depot="none" required-item-loss="n" type="talk-to-item" />
+        <case grocery="Quest_Scroll_BackChung_0084" indicator="quest-epic-can-progress" npc-response="qrsp_1425_24" object="npc:ch_sa_bff_murimmedic_0001" progress-mission="y" required-item-1="Quest_Scroll_BackChung_0084" required-item-depot="bag" required-item-loss="y" type="talk">
+          <filter-set name="무림맹">
+            <filter subject="case:talked:pc" subject2="case:talked:pc" type="active-faction" value="factionmain1" />
+          </filter-set>
+        </case>
+        <case npc-response="qrsp_1425_11" object="npc:ch_sa_jegukgun_0044" type="approach" />
+      </mission>
+      <mission id="15" name2="Mission.Name2.1425_15" required-register-value="1" reset-teleport-recycle-time="y">
+        <case item="Quest_Scroll_BackChung_0084" msg="q_1425_12" required-item-depot="none" required-item-loss="n" type="talk-to-item" />
+        <case grocery="Quest_Scroll_BackChung_0084" indicator="quest-epic-can-progress" npc-response="qrsp_1425_25" object="npc:ch_sa_bff_honcheonmedic_0001" progress-mission="y" required-item-1="Quest_Scroll_BackChung_0084" required-item-depot="bag" required-item-loss="y" type="talk">
+          <filter-set name="혼천교">
+            <filter subject="case:talked:pc" subject2="case:talked:pc" type="active-faction" value="factionmain2" />
+          </filter-set>
+        </case>
+        <case npc-response="qrsp_1425_11" object="npc:ch_sa_jegukgun_0044" type="approach" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1426" />
+    </completion>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1425_11" required-register-value="1">
+        <case mapunit-1="M_5512_e_chest_5512letter_01" object2="zoneenv2:e_chest_5512letter_01" progress-mission="y" type="manipulate" />
+        <fixed-reward slot-1="item:Quest_Grocery_BackChung_0023" />
+      </mission>
+      <mission-step-fail rollback-step-id="9" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1425_5" required-register-value="1">
+        <case gadget="q_rainbow_baga" npc-response="qrsp_1425_22" object="npc:CH_SA_Citizen_0384" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1425_6" required-register-value="1" reset-teleport-recycle-time="y">
+        <case button-text-accept="q_1425_ok_text" button-text-cancel="q_1425_no_text" gadget="q_rainbow_baga" gadget-required="not-a" indicator="quest-epic-can-progress" npc-response="qrsp_1425_27" object="npc:CH_SA_Citizen_0384" progress-mission="reaction-only" type="talk" />
+        <case gadget="q_rainbow_baga" gadget-required="carry-and-remove" npc-response="qrsp_1425_23" object="npc:CH_SA_BaramContents_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1425_7" required-register-value="1" reset-teleport-recycle-time="y">
+        <case gadget-required="dont-care" npc-response="qrsp_1425_26" object="npc:CH_SA_Citizen_0384" progress-mission="y" type="talk" />
+        <fixed-reward slot-1="item:Quest_Grocery_BackChung_0035" />
+      </mission>
+    </mission-step>
+    <mission-step id="15">
+      <mission id="16" name2="Mission.Name2.1425_16" required-register-value="1" reward-1="1425_final_set1">
+        <case npc-response="qrsp_1425_14" object="npc:ch_sa_jegukgun_0044" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1060.xml-->
+  <quest alias="q_sub_1060" attraction-1="classic-field-zone:HuekChang_Classic" attraction-info="classic-field-zone:HuekChang_Classic" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1060_sum" grade="7" group2="QG_ZamsikHeukChng" id="1060" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.1060" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1449" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1060_1" object="npc:CE_WB_AkGyoJok_0010" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1060_1" required-register-value="1">
+        <case looting="q_1060_2_icon" object2="npc:ME_WB_Valak_0003" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1060_2" required-register-value="1" reward-1="1060_final_set1" reward-2="1060_final_set2">
+        <case fee="y" item="q_1060_1_icon" msg="q_1060_3" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1060_2" object="npc:CE_WB_AkGyoJok_0010" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

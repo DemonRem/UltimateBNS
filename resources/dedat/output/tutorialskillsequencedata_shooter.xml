@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="TutorialSkillSequence" version="0.1">
+  <!--C:/LocalTextSelfDeploy/temp/tutorialskillsequencedata_shooter.xml-->
+ 
+
+
+<tutorialSkillSequence alias="Shooter_Lv4_M11_1">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23150" type="skill" /> 
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23031" skill-2="23032" skill-3="23033" type="skill" /> 
+</tutorialSkillSequence>
+
+<tutorialSkillSequence alias="Shooter_Lv4_M11_2">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23220" type="skill" /> 
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23221" type="skill" /> 
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23222" type="skill" />  
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23240" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="Shooter_Lv6_M11_1">
+	  <step check-only-cast-skill="y" skill-1="23050" type="skill" /> 
+	  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23051" type="skill" /> 
+</tutorialSkillSequence>
+
+<tutorialSkillSequence alias="Shooter_Lv6_M11_2">
+	  <step check-only-cast-skill="y" skill-1="23011" skill-2="23014" skill-3="23017" type="skill" /> 
+	  <step check-only-cast-skill="y" skill-1="23050" type="skill" /> 
+	  <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23440" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="Shooter_Lv8_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23150" target-pass-state="down" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="Shooter_Lv10_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23190" target-pass-state-count="3" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="Shooter_Lv12_M11">
+	<step check-only-cast-skill="y" skill-1="23190" type="skill" /> 
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23240" skill-2="23520" type="skill" /> 
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23240" skill-2="23520" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="Shooter_Lv14_M11">
+	<step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="23340" type="skill" /> 
+</tutorialSkillSequence>
+ 
+</table>

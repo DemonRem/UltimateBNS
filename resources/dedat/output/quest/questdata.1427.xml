@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1427.xml-->
+  <quest alias="q_epic_1427" broadcast-category="field" category="epic" completed-desc="q_1427_completed" completed-list="y" desc="q_1427_sum" grade="1" group2="QG_BaeCheongEpic" id="1427" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1427" save-type="all">
+    <acquisition level="1" recommended-level="46" sort-no="708" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1427_1" required-register-value="1">
+        <case mapunit-1="M_5510_foot_2" mapunit-2="Guide_HaoBanginn" object2="zoneenv2:5510_foot_2" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1427_11" object="npc:CH_SA_Citizen_0094" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1427_2" required-register-value="1">
+        <case npc-response="qrsp_1427_1" object="npc:CH_SA_Citizen_0094" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1427_3" required-register-value="1">
+        <case button-text-accept="q_1427_2_ok" button-text-cancel="q_1427_2_no" gadget="Q_FoodDish_0002" gadget-required="not-a" mapunit-1="M_5510_CH_SA_Citizen_0094" npc-response="qrsp_1427_2" object="npc:CH_SA_Citizen_0094" progress-mission="reaction-only" type="talk" />
+        <case npc-response="qrsp_1427_3" object="npc:CH_SA_Citizen_0097" type="approach" />
+        <case npc-response="qrsp_1427_4" object="npc:CH_SA_Citizen_0098" type="approach" />
+        <case npc-response="qrsp_1427_5" object="npc:CH_SA_Citizen_0099" type="approach" />
+        <case gadget="Q_FoodDish_0002" gadget-required="carry-and-remove" mapunit-1="M_5510_e_chest_baramdesk_01" object2="zoneenv2:e_chest_baramdesk_01" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1427_4" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1427_9" object="npc:CH_SA_Citizen_0100" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1427_6" object="npc:CH_SA_Citizen_0097" type="approach" />
+        <case npc-response="qrsp_1427_7" object="npc:CH_SA_Citizen_0098" type="approach" />
+        <case npc-response="qrsp_1427_8" object="npc:CH_SA_Citizen_0099" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1427_5" required-register-value="1">
+        <case mapunit-1="M_Zone_DyeingFactory_Orak" mapunit-2="Guide_Richtown" object="zone:Zone_DyeingFactory_Orak" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1427_6" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1427_10" object="npc:MH_SA_ORakDang_0029" progress-mission="y" type="talk" />
+        <case object="zone:Zone_DyeingFactory_Orak" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1427_7" required-register-value="1">
+        <case mapunit-1="M_5503_foot_3" mapunit-2="Guide_DyeingFactory_1" object2="zoneenv2:5503_foot_3" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1427_14" object="npc:CH_SA_Citizen_0101" type="approach" />
+        <case npc-response="qrsp_1427_15" object="npc:CH_SA_Citizen_0103" type="approach" />
+        <case npc-response="qrsp_1427_16" object="npc:CH_SA_Citizen_0102" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1427_9" required-register-value="1">
+        <case npc-response="qrsp_1427_11" object="npc:CH_SA_ORakDang_0014" progress-mission="y" type="approach" />
+        <case npc-response="qrsp_1427_13" object="npc:CH_SA_NokLimDo_0012" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1427_10" required-register-value="1">
+        <case npc-response="qrsp_1427_18" object="npc:CH_SA_ORakDang_0014" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="or" id="11">
+      <mission id="11" name2="Mission.Name2.1427_11" required-register-value="1">
+        <case looting="q_1427_1_icon" object2="npc:ME_SA_InsectTribeStagBeetle_0002" progress-mission="y" type="loot" />
+      </mission>
+      <mission id="12" name2="Mission.Name2.1427_12" required-register-value="4">
+        <case looting="q_1427_2_icon" mapunit-1="M_5503_ME_SA_NokLimDo_0013" object2="npc:ME_SA_NokLimDo_0092" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <case looting="q_1427_2_icon" object2="npc:ME_SA_NokLimDo_0093" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <case looting="q_1427_2_icon" object2="npc:ME_SA_NokLimDo_0094" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <case looting="q_1427_2_icon" object2="npc:ME_SA_NokLimDo_0095" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <case looting="q_1427_2_icon" object2="npc:ME_SA_NokLimDo_0096" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+        <case looting="q_1427_2_icon" object2="npc:ME_SA_NokLimDo_0097" progress-mission="y" quest-symbol-drop-prob="100" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1427_8" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1427_19" object="npc:CH_SA_Citizen_0101" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1427_20" object="npc:CH_SA_Citizen_0103" type="approach" />
+        <case npc-response="qrsp_1427_21" object="npc:CH_SA_Citizen_0102" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="13" name2="Mission.Name2.1427_13" required-register-value="1">
+        <case mapunit-1="M_Zone_DyeingFactory_Orak" mapunit-2="Guide_NokRimDoMaJeokSoGul" object="zone:Zone_DyeingFactory_Orak" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="14" name2="Mission.Name2.1427_14" required-register-value="1">
+        <case gadget="Q_Herbal_0001" gadget-required="not-a" mapunit-1="M_5532_e_Chest_5532herbaldecoction_01" object2="zoneenv2:e_Chest_5532herbaldecoction_01" progress-mission="reaction-only" type="manipulate" />
+        <case gadget="Q_Herbal_0001" gadget-required="carry-and-remove" object="npc:CH_SA_ORakDang_0017" progress-mission="y" type="npc-manipulate" />
+        <case object="zone:Zone_DyeingFactory_Orak" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1427_25" object="npc:CH_SA_ORakDang_0015" type="approach" />
+        <case npc-response="qrsp_1427_26" object="npc:CH_SA_ORakDang_0016" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="15" name2="Mission.Name2.1427_15" required-register-value="1" reward-1="1427_final_set1">
+        <case npc-response="qrsp_1427_22" object="npc:CH_SA_ORakDang_0018" progress-mission="y" type="talk" />
+        <case object="zone:Zone_DyeingFactory_Orak" progress-mission="reaction-only" type="enter-zone" />
+        <case object="npc:CH_SA_ORakDang_0015" type="approach" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1428" />
+    </completion>
+  </quest>
+</table>

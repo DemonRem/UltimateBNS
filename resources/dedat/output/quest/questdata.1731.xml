@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1731.xml-->
+  <quest alias="q_sub_1731" attraction-info="dungeon:Dungeon_DongHae_chungkak_AE" category="normal" completed-list="n" content-type="festival" day-of-week="daily" desc="q_1731_sum" grade="10" group2="QG_Event" id="1731" invoke-fx-msg="n" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1731" reset-type="daily" save-type="all" retired="y">
+    <acquisition level="50" preceding-quest-1="q_sub_1730" recommended-level="50" valid-dayofweek-start-day-4="none">
+      <case acquire-quest="y" completion-count="1" item="q_1731_1_icon" msg="q_1731_4" type="talk-to-self" />
+      <case acquire-quest="y" completion-count="1" npc-response="qrsp_1731_3" object="npc:CH_SC_sinhowon_0001" type="talk" />
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" indicator="default" npc-response="qrsp_1731_1" object="npc:CH_SC_sinhowon_0001" type="talk" />
+    </acquisition>
+    <mission-step desc="q_1731_des_1" id="1">
+      <mission id="1" name2="Mission.Name2.1731_1" required-register-value="1">
+        <case object2="npc:ME_SC_ChungGakABoss_0005" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1731_des_2" id="2">
+      <mission id="2" name2="Mission.Name2.1731_2" required-register-value="1" reward-1="1731_final_set1" reward-2="1731_final_set2">
+        <case completion-count="1" completion-count-op="ge" item="q_1731_1_icon" msg="q_1731_5" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" completion-count-op="lt" item="q_1731_1_icon" msg="q_1731_2" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" npc-response="qrsp_1731_7" object="npc:CH_SC_sinhowon_0001" progress-mission="y" type="talk" />
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1731_6" object="npc:CH_SC_sinhowon_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1575.xml-->
+  <quest alias="q_sub_1575" broadcast-category="field" category="normal" desc="q_1575_sum" grade="1" group2="QG_GeonwonEast" id="1575" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1575" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1571" preceding-quest-2="q_sub_1574" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" indicator="quest-normal-can-acquire" npc-response="qrsp_1575_1" object="npc:ch_sb_geonwon_0254" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1575_1" required-register-value="12">
+        <case mapunit-1="6150_me_sb_fishmana_0005" object2="npc:me_sb_fishmana_0001" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmana_0002" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmana_0003" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmand_0001" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmand_0002" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmand_0003" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmanc_0001" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmanc_0002" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmanc_0003" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmana_0004" progress-mission="y" type="killed" />
+        <case object2="npc:me_sb_fishmana_0005" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1575_2" required-register-value="1" reward-1="1575_final_set1">
+        <case indicator="quest-normal-can-complete" npc-response="qrsp_1575_2" object="npc:ch_sb_geonwon_0254" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

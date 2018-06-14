@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1522.xml-->
+  <quest alias="q_epic_1522" broadcast-category="field" category="epic" completed-desc="q_1522_completed" completed-list="y" desc="q_1522_sum" grade="1" group2="QG_Toturial" id="1522" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.1522" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="역사" level="1" recommended-level="3" sort-no="103" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1522_1" required-register-value="1" reward-1="1522_middle_set1">
+        <case npc-response="qrsp_1522_6" object="npc:CH_WA_YungMook_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Deafult" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1522_10" object="npc:CH_WA_HongSukKeun_0001" type="talk" />
+        <case npc-response="qrsp_1522_2" object="npc:CH_WA_MuSung_0001" type="talk" />
+        <case npc-response="qrsp_1522_1" object="npc:CH_WA_JinYoung_0001" type="talk" />
+        <case npc-response="qrsp_1522_5" object="npc:CH_WA_GilHong_0001" type="talk" />
+        <case npc-response="qrsp_1522_3" object="npc:CH_WA_HwaJoong_0001" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1522_2" required-register-value="1" reward-1="1522_final_set1">
+        <case mapunit-1="M_1150_CH_WA_MuSung_0001_e_1216_1" npc-response="qrsp_1522_7" object="npc:CH_WA_MuSung_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Deafult" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1215_5" object="npc:CH_WA_YungMook_0001" type="talk" />
+        <case npc-response="qrsp_1522_10" object="npc:CH_WA_HongSukKeun_0001" type="talk" />
+        <case npc-response="qrsp_1522_4" object="npc:CH_WA_JinYoung_0001" type="talk" />
+        <case npc-response="qrsp_1522_5" object="npc:CH_WA_GilHong_0001" type="talk" />
+        <case npc-response="qrsp_1522_3" object="npc:CH_WA_HwaJoong_0001" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1522_des_3" guide-message="gm_1522_1" id="3" use-auto-navigation="y">
+      <mission id="3" name2="Mission.Name2.1522_3" required-register-value="1">
+        <case object="zone:StartZone_Simple_Deafult" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="M_1150_footswitch_7" object="zone:StartZone_Simple_Cave" progress-mission="y" type="enter-zone" />
+        <case npc-response="qrsp_1522_4" object="npc:CH_WA_JinYoung_0001" type="talk" />
+        <case npc-response="qrsp_1215_5" object="npc:CH_WA_YungMook_0001" type="talk" />
+        <case npc-response="qrsp_1522_10" object="npc:CH_WA_HongSukKeun_0001" type="talk" />
+        <case npc-response="qrsp_1522_5" object="npc:CH_WA_GilHong_0001" type="talk" />
+        <case npc-response="qrsp_1522_3" object="npc:CH_WA_HwaJoong_0001" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1522_des_4" id="4">
+      <mission id="4" name2="Mission.Name2.1522_4" required-register-value="1">
+        <case mapunit-1="M_1150_CH_WA_MuSung_0001_e_Quest1216_3" npc-response="qrsp_1522_8" object="npc:CH_WA_MuSung_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Cave" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1522_5" required-register-value="1">
+        <case mapunit-1="M_1150_CH_WA_MuSung_0001_e_Quest1216_3" npc-response="qrsp_1522_9" object="npc:CH_WA_MuSung_0001" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Simple_Cave" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1218" />
+    </completion>
+  </quest>
+</table>

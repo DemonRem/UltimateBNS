@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1639.xml-->
+  <quest alias="q_epic_1639" broadcast-category="field" category="epic" completed-desc="q_1639_completed" completed-list="y" desc="q_1639_sum" grade="1" group2="QG_WestLandEpic" id="1639" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1639" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="814" />
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1639_2" required-register-value="1">
+        <case npc-response="qrsp_1639_1" object="npc:MH_WA_Epic8_EunGwangIl_0004" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1639_3" required-register-value="1">
+        <case npc-response="qrsp_1639_2" object="npc:MH_WA_Epic8_0048" progress-mission="y" type="approach" />
+        <case npc-response="qrsp_1621_5" object="npc:MH_WA_Epic8_EunGwangIl_0004" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1639_4" required-register-value="1">
+        <case npc-response="qrsp_1639_2" object="npc:MH_WA_Epic8_0048" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1639_5" required-register-value="1">
+        <case mapunit-1="6501_e_Chest_6501_bag_01" object2="zoneenv2:e_Chest_6501_bag_01" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6501_e_Chest_6501_bag_02" object2="zoneenv2:e_Chest_6501_bag_02" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6501_e_Chest_6501_bag_03" object2="zoneenv2:e_Chest_6501_bag_03" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6501_e_Chest_6501_bag_04" object2="zoneenv2:e_Chest_6501_bag_04" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6501_e_Chest_6501_bag_05" object2="zoneenv2:e_Chest_6501_bag_05" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6501_e_Chest_6501_bag_06" object2="zoneenv2:e_Chest_6501_bag_06" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6501_e_Chest_6501_bag_07" object2="zoneenv2:e_Chest_6501_bag_07" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6501_e_Chest_6501_bag_08" object2="zoneenv2:e_Chest_6501_bag_08" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6501_e_Chest_6501_bag_09" object2="zoneenv2:e_Chest_6501_bag_09" progress-mission="y" type="manipulate" />
+        <case npc-response="qrsp_1639_5" object="npc:MH_WA_Epic8_0048" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1639_6" required-register-value="1">
+        <case mapunit-1="Guide_6503" object="zone:Zone_6503_KeukRangBuRak" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1639_1" required-register-value="1">
+        <case npc-response="qrsp_1639_1" object="npc:MH_WA_Epic8_EunGwangIl_0004" progress-mission="y" type="approach" />
+        <case npc-response="qrsp_1621_5" object="npc:MH_WA_Epic8_0298" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1639_7" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1639_final_set1">
+        <case npc-response="qrsp_1639_3" object="npc:MH_WA_Epic8_EunGwangIl_0008" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1640" />
+    </completion>
+  </quest>
+</table>

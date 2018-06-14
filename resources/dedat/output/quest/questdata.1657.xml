@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1657.xml-->
+  <quest alias="q_epic_1657" category="epic" completed-desc="q_1657_completed" completed-list="y" desc="q_1657_sum" grade="1" group2="QG_WestLandEpic" id="1657" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1657" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="831" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1657_1" required-register-value="1">
+        <case mapunit-1="6548_SuchunVillage_M1657_01" object="zone:zone_ChungunTree_Epic8_2" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1657_2" required-register-value="1">
+        <case npc-response="qrsp_1657_1" object="npc:ch_sb_yeojin_0003" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:6548_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case npc-response="qrsp_1657_16" object="npc:CH_SB_JiSoo_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1657_15" object="npc:CH_SB_WoodMan_0003" progress-mission="reaction-only" type="approach" />
+        <case object="zone:zone_ChungunTree_Epic8_2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1657_3" required-register-value="1">
+        <case npc-response="qrsp_1657_2" object="npc:ch_sb_jeyeon_0010" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1657_16" object="npc:CH_SB_JiSoo_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1657_15" object="npc:CH_SB_WoodMan_0003" progress-mission="reaction-only" type="approach" />
+        <case object="zone:zone_ChungunTree_Epic8_2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1657_4" required-register-value="1">
+        <case npc-response="qrsp_1657_3" object="npc:ch_sb_jeyeonqueen_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1657_18" object="npc:CH_SB_JiSoo_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1657_17" object="npc:CH_SB_WoodMan_0003" progress-mission="reaction-only" type="approach" />
+        <case object="zone:zone_ChungunTree_Epic8_2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1657_5" required-register-value="1">
+        <case mapunit-1="6538_SuchunVillage_M1652_08" object="zone:zone_SuchunDoctor_Epic8_2" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1657_6" required-register-value="1">
+        <case npc-response="qrsp_1657_4" object="npc:ch_sb_bunyang_0023" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1657_20" object="npc:CH_SB_ChinChin_0022" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1657_19" object="npc:CH_SB_BunA_0021" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1657_7" required-register-value="1">
+        <case npc-response="qrsp_1657_5" object="npc:ch_sb_chinchin_0022" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1657_21" object="npc:CH_SB_BunA_0021" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1657_8" required-register-value="1">
+        <case npc-response="qrsp_1657_6" object="npc:ch_sb_jeyeonqueen_0002" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1657_24" object="npc:CH_SB_JiSoo_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1657_23" object="npc:CH_SB_WoodMan_0003" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1657_22" object="npc:CH_SB_Yeojin_0004" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1657_9" required-register-value="1">
+        <case npc-response="qrsp_1657_13" object="npc:ch_sb_chinchin_0023" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1657_28" object="npc:CH_SB_JiSoo_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1657_27" object="npc:CH_SB_WoodMan_0003" progress-mission="reaction-only" type="approach" />
+        <case approach-talk="n" npc-response="qrsp_1657_26" object="npc:CH_SB_BunA_0022_soc_01" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1657_25" object="npc:CH_SB_BunYang_0024" progress-mission="reaction-only" type="approach" />
+        <case object="zone:zone_ChungunTree_Epic8_3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1657_10" required-register-value="1">
+        <case npc-response="qrsp_1657_7" object="npc:ch_sb_seoyeon_0006" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChungunTree_Epic8_3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1657_11" required-register-value="1">
+        <case npc-response="qrsp_1657_8" object="npc:ch_sb_jeyeonqueen_0002" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChungunTree_Epic8_3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1657_12" required-register-value="1">
+        <case npc-response="qrsp_1657_12" object="npc:ch_sb_yeojin_0004" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChungunTree_Epic8_3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1657_13" required-register-value="1">
+        <case npc-response="qrsp_1657_9" object="npc:ch_sb_jisoo_0004" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChungunTree_Epic8_3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1657_14" required-register-value="1">
+        <case npc-response="qrsp_1657_10" object="npc:ch_sb_woodman_0003" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChungunTree_Epic8_3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1657_15" required-register-value="1">
+        <case npc-response="qrsp_1657_11" object="npc:CH_SB_ChinChin_0024" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChungunTree_Epic8_3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="16">
+      <mission id="16" name2="Mission.Name2.1657_16" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1657_final_set1">
+        <case npc-response="qrsp_1657_14" object="npc:CH_SB_BunYang_0025" progress-mission="y" type="talk" />
+        <case object="zone:zone_ChungunTree_Epic8_3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1668" />
+    </completion>
+    <transit id="1" zone="zone_ChungunTree_D">
+      <destination mission-step-id="16" zone-index="3" />
+      <destination mission-step-id="15" zone-index="3" />
+      <destination mission-step-id="14" zone-index="3" />
+      <destination mission-step-id="13" zone-index="3" />
+      <destination mission-step-id="12" zone-index="3" />
+      <destination mission-step-id="11" zone-index="3" />
+      <destination mission-step-id="10" zone-index="3" />
+      <destination mission-step-id="9" zone-index="3" />
+      <destination mission-step-id="8" zone-index="3" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="6" zone-index="2" />
+      <destination mission-step-id="5" zone-index="2" />
+      <destination mission-step-id="4" zone-index="2" />
+      <destination mission-step-id="3" zone-index="2" />
+      <destination mission-step-id="2" zone-index="2" />
+      <destination mission-step-id="1" zone-index="2" />
+    </transit>
+    <transit id="2" zone="zone_SuchunDoctor_D">
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="6" zone-index="2" />
+      <destination mission-step-id="5" zone-index="2" />
+    </transit>
+    <transit id="3" zone="zone_SuchunTemple_D">
+      <destination mission-step-id="16" zone-index="4" />
+      <destination mission-step-id="15" zone-index="4" />
+      <destination mission-step-id="14" zone-index="4" />
+    </transit>
+    <transit id="4" zone="zone_SuchunVillage">
+      <destination mission-step-id="4" zone-index="3" />
+      <destination mission-step-id="3" zone-index="3" />
+      <destination mission-step-id="2" zone-index="3" />
+      <destination mission-step-id="1" zone-index="3" />
+    </transit>
+  </quest>
+</table>

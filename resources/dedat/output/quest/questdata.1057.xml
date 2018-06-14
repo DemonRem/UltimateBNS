@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1057.xml-->
+  <quest alias="q_sub_1057" attraction-info="dungeon:Dungeon_HuekUmmLim" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1057_sum" grade="10" group2="QG_Defence" id="1057" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.1057" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1449" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" completion-count="1" completion-count-op="ge" npc-response="qrsp_1057_2" object="npc:CH_WB_ChungGak_0049" type="talk" />
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1057_1" object="npc:MH_WB_ChungGakABossKismet_0001" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1057_1" required-register-value="1">
+        <case object2="npc:ME_WB_DemonGorilla_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1057_2" required-register-value="1" reward-1="1057_final_set1" reward-2="1057_final_set2">
+        <case fee="y" item="q_1057_1_icon" msg="q_1057_4" progress-mission="y" type="talk-to-self" />
+        <case npc-response="qrsp_1057_3" object="npc:MH_WB_ChungGakABossKismet_0003" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

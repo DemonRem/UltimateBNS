@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1460.xml-->
+  <quest alias="q_epic_1460" broadcast-category="field" category="epic" completed-desc="q_1460_completed" completed-list="y" desc="q_1460_sum" grade="1" group2="QG_BaeCheongEpic" id="1460" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1460" save-type="all">
+    <acquisition level="1" recommended-level="47" sort-no="714" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1460_1" required-register-value="1">
+        <case item="Quest_Scroll_BackChung_0082" msg="q_1460_1" progress-mission="y" type="talk-to-item" />
+        <case object="zone:Zone_Bimure_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1460_2" required-register-value="1">
+        <case npc-response="qrsp_1460_1" object="npc:CH_CT_PungEmpire_0003" progress-mission="y" required-item-depot="none" required-item-loss="n" type="talk" />
+        <case object="zone:Zone_Bimure_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1460_3" required-register-value="1">
+        <case object="npc:CE_SA_Dummy_0033" progress-mission="y" type="approach" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1460_4" required-register-value="3">
+        <case object="npc:CH_SA_TaeGwang_0009" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="npc:CH_SA_EnAnk_0008" progress-mission="y" type="npc-bleeding-occured" />
+        <case mapunit-3="5776_Quest_1432_05" object="npc:CH_SA_NamGung_0009" progress-mission="y" type="npc-bleeding-occured" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1460_5" required-register-value="1">
+        <case npc-response="qrsp_1460_2" object="npc:CH_SA_DoCheonPung_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1460_6" required-register-value="1">
+        <case object="npc:CH_SA_DoCheonPung_0001" progress-mission="y" type="npc-bleeding-occured" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1460_7" required-register-value="1">
+        <case npc-response="qrsp_1460_3" object="npc:CH_CT_PungEmpire_0003" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Bimure_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1460_8" required-register-value="1">
+        <case object2="npc:CE_SA_Dummy_0008" progress-mission="y" social="talksocial_deepbow" type="pc-social" />
+        <case object="zone:Zone_Bimure_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="npc:CE_SA_Dummy_0008" type="approach" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1460_9" required-register-value="1">
+        <case npc-response="qrsp_1460_4" object="npc:CH_SA_JeGukGun_0070" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Bimure_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1432_7" object="npc:CH_CT_BiMoo_0001" type="approach" />
+        <case npc-response="qrsp_1432_8" object="npc:CH_CT_BiMoo_0002" type="approach" />
+        <case npc-response="qrsp_1432_9" object="npc:CH_CT_BiMoo_0003" type="approach" />
+        <case npc-response="qrsp_1432_10" object="npc:CH_CT_BiMoo_0004" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1460_10" required-register-value="1">
+        <case npc-response="qrsp_1460_5" object="npc:CH_SA_PungEmpire_0003" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1460_6" object="npc:CH_SA_YuCheon_0010" type="approach" />
+        <case npc-response="qrsp_1460_7" object="npc:CH_SA_JeGukGun_0071" type="approach" />
+        <case object="zone:Zone_Sinre" progress-mission="reaction-only" type="enter-zone" />
+        <completion-loss item-1="quest_scroll_backchung_0082" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1460_11" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1460_final_set1">
+        <case npc-response="qrsp_1460_8" object="npc:CH_SA_YuCheon_0010" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1460_6" object="npc:CH_SA_PungEmpire_0003" type="approach" />
+        <case npc-response="qrsp_1460_6" object="npc:CH_SA_JeGukGun_0071" type="approach" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1433" />
+    </completion>
+    <transit id="1" zone="Zone_Bimure">
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+  </quest>
+</table>

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25171.xml-->
+  <quest alias="q_sub_25171" category="dungeon" dungeon="dungeon_treevill" grade="10" group2="QG_TreeVill" id="25171" map-group-1-1="SeoRak" max-repeat="-1" name2="Quest.Name2.25171" progress-difficulty-type-2="n" progress-difficulty-type-3="n" save-type="nothing">
+    <acquisition level="55" preceding-quest-1="q_epic_1657" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" object2="zoneenv2:6531_Portal_6220" type="enter-portal" />
+      <case acquire-quest="y" object2="zoneenv2:942_Portal_6220" type="enter-portal" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25171_1" required-register-value="1">
+        <case object2="npc:me_wb_executioner_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.25171_3" required-register-value="1">
+        <case object2="npc:me_wb_elderent_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_sr_treevill_d1">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+    <transit id="3" zone="zone_sr_treevill_d3">
+      <destination mission-step-id="3" zone-index="1" />
+    </transit>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.25171_2" required-register-value="1">
+        <case object2="npc:me_wb_spiderqueen_0003" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <transit id="2" zone="zone_sr_treevill_d2">
+      <destination mission-step-id="2" zone-index="1" />
+    </transit>
+  </quest>
+</table>

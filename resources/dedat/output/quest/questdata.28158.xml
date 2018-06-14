@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28158.xml-->
+	<quest alias="tq_28158" category="tendency-tendency" id="28158" max-repeat="-1" name2="tq_28158_mission_text" save-type="except-completion-and-logout-save">
+		<mission-step id="1">
+			<mission id="1" name2="tq_28158_mission_text" required-attraction="tendency-field:CheonSangBunJi" tendency-id="3" variation-required-condition-value-1="0" variation-required-field-play-point-1="0" variation-required-register-value-1="5" variation-reward-field-play-point-1="69" variation-reward-tendency-score-1="69">
+				<case looting="tq_0006_icon" mapunit-1="M_6400_ME_WC_AnthroCrocodileA_0011_sq28158_1" mapunit-2="M_6400_ME_WC_AnthroCrocodileA_0011_sq28158_2" multi-object-1="npc:ME_WC_AnthroCrocodileA_0011" progress-mission="y" type="loot" />
+			</mission>
+		</mission-step>
+	</quest>
+</table>

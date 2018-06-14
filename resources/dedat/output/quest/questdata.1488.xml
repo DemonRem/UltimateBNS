@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1488.xml-->
+  <quest alias="q_sub_1488" broadcast-category="field" category="normal" desc="q_1488_sum" grade="1" group2="QG_BaramNight" id="1488" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1488" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_epic_1449" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
+      <case acquire-quest="y" npc-response="qrsp_1488_1" object="npc:CH_WA_Citizen_0008" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1488_1" required-register-value="1">
+        <case npc-response="qrsp_1488_2" object="npc:CH_WA_Citizen_0009" progress-mission="y" type="talk" />
+        <fixed-reward slot-1="item:Quest_Scroll_BackChung_0087" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1488_2" required-register-value="1">
+        <case grocery="Quest_Scroll_BackChung_0087" item="Quest_Scroll_BackChung_0087" msg="q_1488_3" progress-mission="y" required-item-1="Quest_Scroll_BackChung_0087" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1488_3" required-register-value="1">
+        <case npc-response="qrsp_1488_4" object="npc:CE_WA_DokChoGeoSa_0001" progress-mission="y" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1488_4" required-register-value="1" reward-1="1488_final_set1">
+        <case npc-response="qrsp_1488_5" object="npc:CE_WA_DokChoGeoSa_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <giveup-loss item-1="Quest_Scroll_BackChung_0087" />
+  </quest>
+</table>

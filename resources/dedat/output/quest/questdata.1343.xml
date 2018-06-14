@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1343.xml-->
+  <quest alias="q_sub_1343" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1343_sum" grade="1" group2="QG_PaCheonSeongDo" id="1343" map-group-1-1="PaCheonSeongDo" max-repeat="1" name2="Quest.Name2.1343" reset-type="daily" save-type="all">
+    <acquisition level="50" preceding-quest-1="q_sub_1294" preceding-quest-check="and" recommended-level="50">
+      <case acquire-quest="y" npc-response="grsp_1343_1" object="npc:CH_WC_HoBeopoe_0028" progress-mission="y" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1343_1" required-register-value="1">
+        <case mapunit-10="4460_Guide_Pacheon_03" object="zone:Zone_PaCheon_Single_2_p3" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1343_2" required-register-value="4">
+        <case mapunit-10="4460_HockRyuGo_Kill" object2="npc:mh_wc_hockryugo_0029" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_hockryugo_0030" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_hockryugo_0031" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_hockryugo_0032" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1343_3" required-register-value="1">
+        <case object2="npc:ME_WC_PileBunkerEmpire_0004" progress-mission="y" type="killed" />
+        <case object="zone:Zone_PaCheon_Single_2_p3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1343_4" required-register-value="1">
+        <case mapunit-10="4460_foot_02" object2="zoneenv2:4464_foot_01" progress-mission="y" type="env-entered" />
+        <case object="zone:Zone_PaCheon_Single_2_p3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1343_5" required-register-value="1">
+        <case object2="npc:ME_WC_SnowmanCBig_0002" progress-mission="y" type="killed" />
+        <case object="zone:Zone_PaCheon_Single_2_p3" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1343_6" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1343_final_set1" reward-2="1343_final_set2">
+        <case npc-response="grsp_1343_2" object="npc:CH_WC_HoBeopoe_0028" progress-mission="y" type="talk" />
+        <case fee="y" item="q_1343_1_icon" msg="q_1343_3" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_PaCheon_Single_2   ">
+      <destination mission-step-id="6" zone-index="3" />
+      <destination mission-step-id="5" zone-index="3" />
+      <destination mission-step-id="4" zone-index="3" />
+      <destination mission-step-id="3" zone-index="3" />
+      <destination mission-step-id="2" zone-index="3" />
+      <destination mission-step-id="1" zone-index="3" />
+    </transit>
+  </quest>
+</table>

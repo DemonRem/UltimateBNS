@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1702.xml-->
+  <quest alias="q_epic_1702" category="epic" completed-desc="q_1702_completed" completed-list="y" desc="q_1702_sum" grade="1" group2="QG_Toturial" id="1702" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.1702" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="격사" level="1" preceding-quest-check="and" recommended-level="1" sort-no="105" />
+    <mission-step desc="q_1702_des_1" guide-message="gm_225_2" id="1" location-x="-8378.602" location-y="40751.602" use-auto-navigation="y">
+      <mission id="1" name2="Mission.Name2.1702_1" required-register-value="1" reward-1="1702_final_set1">
+        <case grocery="start_zone_book" mapunit-1="224_1_CH_YungMook_0001" npc-response="qrsp_1702_1" object="npc:ch_youngmook_0009" progress-mission="y" required-item-1="start_zone_book" required-item-depot="bag" required-item-loss="y" type="talk" />
+        <case npc-response="qrsp_1702_2" object="npc:ch_hongsukkeun_0001" type="approach" />
+        <case object="zone:startzone_renew_all" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1702_des_2" guide-message="gm_1224_1" id="2">
+      <mission id="2" name2="Mission.Name2.1702_2" required-register-value="1">
+        <tutorial-case item="General_Weapon_Gun_2441" progress-mission="y" type="equip-item" />
+        <case object="zone:StartZone_Renew_Shooter" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1702_3" object="npc:ch_youngmook_0009" type="talk" />
+        <case npc-response="qrsp_1702_5" object="npc:ch_musung_0003" type="talk" />
+        <case npc-response="qrsp_1702_6" object="npc:ch_hwajoong_0004" type="talk" />
+        <case npc-response="qrsp_1702_7" object="npc:ch_jinyoung_0003" type="talk" />
+        <case npc-response="qrsp_1702_8" object="npc:ch_gilhong_0005" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1702_des_3" id="3" location-x="-8378.602" location-y="40751.602" map="startzone" use-auto-navigation="y">
+      <mission id="3" name2="Mission.Name2.1702_3" required-register-value="1">
+        <case mapunit-1="224_3_CH_YungMook_0001" object2="zoneenv2:1112_foot_3" progress-mission="y" type="env-entered" />
+        <case object="zone:StartZone_Renew_Shooter" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1702_10" object="npc:ch_musung_0003" type="talk" />
+        <case npc-response="qrsp_1702_11" object="npc:ch_hwajoong_0004" type="talk" />
+        <case npc-response="qrsp_1702_12" object="npc:ch_jinyoung_0003" type="talk" />
+        <case npc-response="qrsp_1702_13" object="npc:ch_gilhong_0005" type="talk" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest job-1="격사" quest="q_epic_1703" />
+    </completion>
+    <transit id="1" zone="startzone_renew_blade">
+      <destination mission-step-id="3" zone-index="11" />
+      <destination mission-step-id="2" zone-index="11" />
+      <destination mission-step-id="1" zone-index="11" />
+    </transit>
+  </quest>
+</table>

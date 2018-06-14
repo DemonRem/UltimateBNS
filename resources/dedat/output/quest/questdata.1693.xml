@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1693.xml-->
+  <quest alias="q_sub_1693" category="normal" desc="q_1693_sum" grade="10" group2="QG_dungeon_guide" id="1693" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1693" save-type="all">
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1693_1" required-register-value="1">
+        <case object2="npc:me_wb_runemechakingasura_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2" retired="n">
+      <mission id="2" name2="Mission.Name2.1693_2" required-register-value="1">
+        <case object2="npc:mh_wa_bubki_boss_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="3" retired="n">
+      <mission id="3" name2="Mission.Name2.1693_3" required-register-value="1">
+        <case object2="npc:me_wb_demonjintaepyeong_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="4" retired="n">
+      <mission id="4" name2="Mission.Name2.1693_4" required-register-value="1">
+        <case object2="npc:mh_wa_hookcanyon_boss_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="5" retired="n">
+      <mission id="5" name2="Mission.Name2.1693_5" required-register-value="1">
+        <case object2="npc:me_wb_elderent_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1693_6" required-register-value="1" reward-1="1693_final_set1">
+        <case item="q_1693_2_icon" msg="q_1693_2" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <acquisition level="55" preceding-quest-1="q_sub_1692" preceding-quest-2="q_epic_1657" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" item="q_1693_1_icon" msg="q_1693_1" progress-mission="y" type="talk-to-self" />
+    </acquisition>
+  </quest>
+</table>

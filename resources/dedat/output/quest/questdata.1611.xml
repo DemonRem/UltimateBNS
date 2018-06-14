@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.275">
+  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1611.xml-->
+  <quest alias="q_epic_1611" category="epic" completed-desc="q_1611_completed" completed-list="y" desc="q_1611_sum" grade="1" group2="QG_NextbaeCheongEpic3" id="1611" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1611" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="811" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1611_1" required-register-value="1">
+        <case object="zone:Zone_Sinre_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case grocery="quest_scroll_geonwon_0002" item="quest_scroll_geonwon_0002" msg="q_1611_1" progress-mission="y" required-item-1="quest_scroll_geonwon_0002" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1611_2" required-register-value="1" reset-teleport-recycle-time="y">
+        <case object="zone:Zone_Sinre_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_1" object="npc:ch_sb_jeonghado_0003" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1611_3" required-register-value="1" reset-teleport-recycle-time="y">
+        <case npc-response="qrsp_1611_11" object="npc:ch_sb_tanposa_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1611_4" required-register-value="1" reset-teleport-recycle-time="y">
+        <case object="zone:Zone_Kyukre_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="npc:ch_sb_tanposa_0001" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1611_5" required-register-value="1" reset-teleport-recycle-time="y">
+        <case object="zone:Zone_Kyukre_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_2" object="npc:ch_sb_jinsoa_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1611_12" object="npc:ch_sb_tanposa_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1611_6" required-register-value="1">
+        <case npc-response="qrsp_1611_3" object="npc:ch_sb_jeonghado_0004" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:5786_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case npc-response="qrsp_1611_12" object="npc:ch_sb_tanposa_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1611_7" required-register-value="1">
+        <case mapunit-1="5786_Quest_Guide_01" object2="zoneenv2:5787_foot_1" progress-mission="y" type="env-entered" />
+        <case object="zone:Zone_Noire_in_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_13" object="npc:me_sb_jintaepyeong_0007" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1611_8" required-register-value="1">
+        <case object="zone:Zone_Noire_in_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_4" object="npc:ch_sb_jinsoa_0003" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1611_13" object="npc:me_sb_jintaepyeong_0007" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1611_9" required-register-value="1">
+        <case object="npc:me_sb_jintaepyeong_0007" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="8" />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1611_10" required-register-value="1">
+        <case object="zone:Zone_Noire_in_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_5" object="npc:ch_sb_jeonghado_0006" progress-mission="y" type="talk" />
+        <case object="zone:zone_noire_out_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1611_11" required-register-value="1">
+        <case object="zone:zone_noire_out_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_Noire_in_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_6" object="npc:ce_sb_jintaepyeong_0005" progress-mission="y" type="talk" />
+        <case indicator="quest-epic-can-progress" object="npc:ce_sb_jintaepyeong_0006" progress-mission="reaction-only" type="npc-manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1611_12" required-register-value="1">
+        <case object="zone:zone_noire_out_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_Noire_in_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_7" object="npc:ch_sb_jinsoa_0003" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1611_13" required-register-value="1">
+        <case object="zone:zone_noire_out_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="npc:me_sb_blackdragon_0138" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="12" />
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1611_14" required-register-value="1">
+        <case object="zone:zone_noire_out_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_Noire_in_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_8" object="npc:ch_sb_jinsoa_0003" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1611_15" required-register-value="1">
+        <case object="zone:zone_noire_out_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_Noire_in_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_9" object="npc:ch_sb_jeonghado_0006" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="16">
+      <mission id="16" name2="Mission.Name2.1611_16" required-register-value="1" reset-teleport-recycle-time="y" reward-1="1611_final_set1">
+        <case object="zone:zone_noire_out_epic7_p1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1611_10" object="npc:ch_sb_gunmahye_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_Sinre">
+      <destination mission-step-id="1" zone-index="2" />
+      <destination mission-step-id="2" zone-index="2" />
+    </transit>
+    <transit id="2" zone="Zone_Kyukre">
+      <destination mission-step-id="3" zone-index="2" />
+      <destination mission-step-id="4" zone-index="2" />
+      <destination mission-step-id="5" zone-index="2" />
+    </transit>
+    <transit id="3" zone="Zone_Noire_base">
+      <destination mission-step-id="6" zone-index="2" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+      <destination mission-step-id="11" zone-index="2" />
+      <destination mission-step-id="12" zone-index="2" />
+      <destination mission-step-id="13" zone-index="2" />
+      <destination mission-step-id="14" zone-index="2" />
+      <destination mission-step-id="15" zone-index="2" />
+    </transit>
+    <transit id="4" zone="Zone_Noire_epic_D">
+      <destination mission-step-id="6" zone-index="2" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+      <destination mission-step-id="11" zone-index="2" />
+      <destination mission-step-id="12" zone-index="2" />
+      <destination mission-step-id="13" zone-index="2" />
+      <destination mission-step-id="14" zone-index="2" />
+      <destination mission-step-id="15" zone-index="2" />
+    </transit>
+    <completion>
+      <next-quest quest="q_epic_1612" />
+    </completion>
+  </quest>
+</table>
