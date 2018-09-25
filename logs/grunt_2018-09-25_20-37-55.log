@@ -1,8 +1,0 @@
-
-Running "upk_scanner" task
--------------------------------------------------------------------------------
-[BstUpkScanner] Start to scan upk files ...
--------------------------------------------------------------------------------
-Warning: ENOENT: no such file or directory, scandir 'F:\Program Files (x86)\NCSOFT\BnS\contents\bns\CookedPC' Use --force to continue.
-
-Aborted due to warnings.
