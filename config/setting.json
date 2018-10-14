@@ -1,12 +1,12 @@
 {
   "path": {
-    "game": "C:\\Program Files (x86)\\NCSOFT\\BnS",
+    "game": "D:\\Program Files (x86)\\NCSOFT\\BnS",
     "data": "contents\\Local\\NCWEST\\ENGLISH\\data",
     "tencent": "contents\\Local\\NCWEST\\ENGLISH\\CookedPC",
     "bns": "contents\\bns\\CookedPC"
   },
   "version": "v2.0.7",
-  "lang": "en_US",
+  "lang": "zh_CN",
   "mesh_parser": {
     "childProcess": 15,
     "cycleInterval": 200

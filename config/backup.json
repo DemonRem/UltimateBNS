@@ -1,9 +1,4 @@
 {
-  "delete": [
-    "E:\\Program Files (x86)\\NCSOFT\\BnS\\contents\\Local\\NCWEST\\ENGLISH\\CookedPC\\mod\\00038385.upk",
-    "E:\\Program Files (x86)\\NCSOFT\\BnS\\contents\\Local\\NCWEST\\ENGLISH\\CookedPC\\mod\\00038386.upk",
-    "E:\\Program Files (x86)\\NCSOFT\\BnS\\contents\\Local\\NCWEST\\ENGLISH\\CookedPC\\mod\\00038385.upk",
-    "E:\\Program Files (x86)\\NCSOFT\\BnS\\contents\\Local\\NCWEST\\ENGLISH\\CookedPC\\mod\\00038386.upk"
-  ],
+  "delete": [],
   "restore": []
 }
