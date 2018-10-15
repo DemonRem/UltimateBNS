@@ -1,0 +1,1 @@
+grunt upk_preparer upk_scanner upk_parser shooter png_optimizer
