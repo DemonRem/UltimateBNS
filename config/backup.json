@@ -1,4 +1,7 @@
 {
-  "delete": [],
+  "delete": [
+    "D:\\Program Files (x86)\\NCSOFT\\BnS\\contents\\Local\\NCWEST\\ENGLISH\\CookedPC\\mod\\00033180.upk",
+    "D:\\Program Files (x86)\\NCSOFT\\BnS\\contents\\Local\\NCWEST\\ENGLISH\\CookedPC\\mod\\00033181.upk"
+  ],
   "restore": []
 }
