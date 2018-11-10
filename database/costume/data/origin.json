@@ -1,0 +1,30 @@
+{
+  "KunN": {
+    "id": "80019_KunN_col1",
+    "data": {
+      "skeleton": "00013055",
+      "texture": "00013053",
+      "material": "00013054",
+      "col1Material": "00013054",
+      "col": "col1",
+      "core": "80019_KunN",
+      "code": "80019",
+      "race": "KunN",
+      "pic": "costume_80019_col1_KunN.png"
+    }
+  },
+  "JinF": {
+    "id": "10009_JinF_col1",
+    "data": {
+      "skeleton": "00033181",
+      "texture": "00033179",
+      "material": "00033180",
+      "col1Material": "00033180",
+      "col": "col1",
+      "core": "10009_JinF",
+      "code": "10009",
+      "race": "JinF",
+      "pic": "Costume_10009_JinF_col1.png"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "020001_AutoScale_L_col2",
+  "data": {
+    "skeleton": "00003030",
+    "texture": "00003007",
+    "material": "00013094",
+    "col1Material": "00003019",
+    "col": "col2",
+    "core": "020001_AutoScale_L",
+    "code": "020001",
+    "race": null,
+    "pic": "Weapon_GT_020001_col2.png"
+  }
+}

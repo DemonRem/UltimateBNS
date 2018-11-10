@@ -1,0 +1,16 @@
+{
+  "KunN": {
+    "id": "KunN_018_col1",
+    "data": {
+      "skeleton": "00011029",
+      "texture": "00011027",
+      "material": "00011028",
+      "col1Material": "00011028",
+      "col": "col1",
+      "core": "KunN_018",
+      "code": "018",
+      "race": "KunN",
+      "pic": null
+    }
+  }
+}
