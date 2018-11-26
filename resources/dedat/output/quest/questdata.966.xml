@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.966.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.966.xml-->
   <quest alias="q_sub_966" category="normal" content-type="special" desc="q_966_sum" grade="1" group2="QG_DaeNaMuCHN" id="966" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.966" save-type="all">
     <acquisition level="4" preceding-quest-1="q_epic_304" preceding-quest-check="and" preceding-quest-mission-step-1="7" recommended-level="4">
       <case acquire-quest="y" item="q_966_1_icon" msg="q_966_25" type="talk-to-self">
@@ -23,6 +23,7 @@
         <fixed-reward job-1="주술사" slot-1="item:quest_costum_dress_1027" />
         <fixed-reward job-1="기권사" slot-1="item:quest_costum_dress_1027" />
         <fixed-reward job-1="격사" slot-1="item:quest_costum_dress_1027" />
+        <fixed-reward job-1="투사" slot-1="item:quest_costum_dress_1027" />
       </mission>
       <mission id="2" name2="Mission.Name2.966_2" required-register-value="1">
         <fixed-reward job-1="귀검사" slot-1="item:quest_costum_dress_1018" />
@@ -37,6 +38,7 @@
         <fixed-reward job-1="주술사" slot-1="item:quest_costum_dress_1018" />
         <fixed-reward job-1="기권사" slot-1="item:quest_costum_dress_1018" />
         <fixed-reward job-1="격사" slot-1="item:quest_costum_dress_1018" />
+        <fixed-reward job-1="투사" slot-1="item:quest_costum_dress_1018" />
       </mission>
     </mission-step>
   </quest>

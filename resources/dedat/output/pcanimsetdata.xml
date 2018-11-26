@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="pc-animset" version="0.2">
-  <!--C:/LocalTextSelfDeploy/temp/pcanimsetdata.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/pcanimsetdata.xml-->
 	<record animset-path="00006750.BladeMaster_KunN_Animset" job="검사" race="건" sex="중" />
 	<record animset-path="00006752.ForceMaster_KunN_Animset" job="기공사" race="건" sex="중" />
 	<record animset-path="00006753.Shooter_JinM_Animset" job="격사" race="건" sex="중" />

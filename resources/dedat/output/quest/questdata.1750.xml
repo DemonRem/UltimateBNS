@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1750.xml-->
+  <quest alias="q_epic_1750" category="epic" completed-desc="q_1750_completed" completed-list="y" desc="q_1750_sum" grade="1" group2="QG_NextWestLandEpic" id="1750" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1750" save-type="all">
+    <mission-step desc="q_1750_des_1" id="1">
+      <mission id="1" name2="Mission.Name2.1750_1" required-register-value="1">
+        <case mapunit-1="6459_6459_foot_1" mapunit-2="6459_6459_foot_alpha" object2="zoneenv2:6459_foot_1" progress-mission="y" type="env-entered" />
+        <case object="zone:Zone_GW_CheonMyungGung_MilitaryCamp_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case button-text-accept="q_1750_7_ok" button-text-cancel="q_1750_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1749_8" object="npc:ch_wc_miso_0001" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1750_des_2" id="2">
+      <mission id="2" name2="Mission.Name2.1750_2" required-register-value="1">
+        <case npc-response="qrsp_1750_1" object="npc:ch_wc_choijina_0006" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_MilitaryCamp_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case button-text-accept="q_1750_7_ok" button-text-cancel="q_1750_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1749_8" object="npc:ch_wc_miso_0001" progress-mission="reaction-only" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_GeneralOffice_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1750_3" required-register-value="1">
+        <case object="npc:mh_wc_ryu_0001" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step desc="q_1750_des_4" id="4">
+      <mission id="4" name2="Mission.Name2.1750_4" required-register-value="1">
+        <case npc-response="qrsp_1750_2" object="npc:CH_WC_ChoiJinA_0006" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_MilitaryCamp_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_GeneralOffice_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case button-text-accept="q_1750_7_ok" button-text-cancel="q_1750_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1749_8" object="npc:ch_wc_miso_0001" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1750_des_5" id="5">
+      <mission id="5" name2="Mission.Name2.1750_5" required-register-value="1">
+        <case button-text-accept="q_1750_7_ok" button-text-cancel="q_1750_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1749_8" object="npc:ch_wc_miso_0001" progress-mission="reaction-only" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_GeneralOffice_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="6456_6456_foot_1" mapunit-2="6456_6456_foot_1_alpha" object2="zoneenv2:6456_foot_1" progress-mission="y" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1750_des_6" id="6">
+      <mission id="6" name2="Mission.Name2.1750_6" required-register-value="1">
+        <case npc-response="qrsp_1750_3" object="npc:CH_WC_ChoiJinA_0019" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_MilitaryCamp_P2" progress-mission="reaction-only" type="enter-zone" />
+        <case button-text-accept="q_1750_7_ok" button-text-cancel="q_1750_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1749_8" object="npc:ch_wc_miso_0001" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1750_7" required-register-value="1">
+        <case npc-response="qrsp_1750_4" object="npc:ch_wc_choijina_0020" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step guide-message="gm_1750_1" guide-message-zone-1="Zone_GW_CheonMyungGung_MilitaryCamp_P2" id="8">
+      <mission id="8" name2="Mission.Name2.1750_8" required-register-value="1">
+        <case mapunit-1="6456_e_chest_6456_Box_01" object2="zoneenv2:e_chest_6456_Box_01" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step guide-message="gm_1750_2" guide-message-zone-1="Zone_GW_CheonMyungGung_MilitaryCamp_P2" id="9">
+      <mission id="9" name2="Mission.Name2.1750_9" required-register-value="1">
+        <case gadget="Q_RyuCamp_Box_01" gadget-required="carry-and-remove" indicator="default" mapunit-1="6456_e_chest_6456_Box_02" object2="zoneenv2:e_chest_6456_Box_02" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step guide-message="gm_1750_3" guide-message-zone-1="Zone_GW_CheonMyungGung_MilitaryCamp_P2" id="10">
+      <mission id="10" name2="Mission.Name2.1750_10" required-register-value="1">
+        <case mapunit-1="6456_e_chest_6456_Box_03" object2="zoneenv2:e_chest_6456_Box_03" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1750_11" required-register-value="1">
+        <case npc-response="qrsp_1750_5" object="npc:ch_wc_choijina_0020" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1750_12" required-register-value="1">
+        <case indicator="quest-epic-can-progress" object="npc:ch_wc_choijina_0022" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step guide-message="gm_1750_4" guide-message-zone-1="Zone_GW_CheonMyungGung_MilitaryCamp_P2" id="13">
+      <mission id="13" name2="Mission.Name2.1750_13" required-register-value="1">
+        <case mapunit-1="6456_e_gate_6456_03_1" object2="zoneenv2:e_gate_6456_03_1" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step desc="q_1750_des_14" id="14">
+      <mission id="14" name2="Mission.Name2.1750_14" required-register-value="1">
+        <case mapunit-1="6453_Zone_GW_CheonMyungGung_Hideout_P2" object="zone:Zone_GW_CheonMyungGung_Hideout_P2" progress-mission="y" type="enter-zone" />
+        <case button-text-accept="q_1749_7_ok" button-text-cancel="q_1749_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1749_8" object="npc:CH_WC_Miso_0001" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1750_des_15" id="15">
+      <mission id="15" name2="Mission.Name2.1750_15" required-register-value="1" reward-1="1750_final_set1">
+        <case npc-response="qrsp_1750_6" object="npc:ch_wc_choijina_0008" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_Hideout_P2" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1750_7" object="npc:CH_WC_BunA_0010" progress-mission="n" type="approach" />
+        <case npc-response="qrsp_1750_8" object="npc:CH_WC_BunYang_0010" progress-mission="n" type="approach" />
+        <case button-text-accept="q_1749_7_ok" button-text-cancel="q_1749_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1749_8" object="npc:CH_WC_Miso_0001" progress-mission="reaction-only" type="talk" />
+        <case npc-response="qrsp_1750_9" object="npc:CH_WC_ChinChin_0010" type="approach" />
+        <case npc-response="qrsp_1750_10" object="npc:CH_WC_SeoYeon_0011" type="approach" />
+      </mission>
+    </mission-step>
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="838" />
+    <completion>
+      <next-quest quest="q_epic_1751" />
+    </completion>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_MilitaryCamp">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="5" zone-index="2" />
+      <destination mission-step-id="6" zone-index="2" />
+      <destination mission-step-id="7" zone-index="2" />
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+      <destination mission-step-id="11" zone-index="2" />
+      <destination mission-step-id="12" zone-index="2" />
+      <destination mission-step-id="13" zone-index="2" />
+      <destination mission-step-id="14" zone-index="2" />
+      <destination mission-step-id="4" zone-index="1" />
+    </transit>
+    <transit id="2" zone="Zone_GW_CheonMyungGung_GeneralOffice">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+    </transit>
+    <transit id="3" zone="Zone_GW_CheonMyungGung_Hideout">
+      <destination mission-step-id="14" zone-index="2" />
+      <destination mission-step-id="15" zone-index="2" />
+    </transit>
+  </quest>
+</table>

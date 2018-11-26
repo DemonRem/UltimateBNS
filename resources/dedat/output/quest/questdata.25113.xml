@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25113.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25113.xml-->
   <quest alias="q_sub_25113" attraction-1="dungeon:dungeon_musintower_1_t_event" broadcast-category="field" category="attraction" grade="6" group2="QG_Musintap_Event" id="25113" map-group-1-1="jeryoungrim" max-repeat="-1" name2="Quest.Name2.25113" save-type="nothing">
     <acquisition level="16" recommended-level="50" />
     <mission-step id="1">

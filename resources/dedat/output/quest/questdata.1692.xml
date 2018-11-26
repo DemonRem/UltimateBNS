@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1692.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1692.xml-->
   <quest alias="q_sub_1692" category="normal" desc="q_1692_sum" grade="10" group2="QG_dungeon_guide" id="1692" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1692" save-type="all">
     <mission-step id="1">
       <mission id="1" name2="Mission.Name2.1692_1" required-register-value="1">

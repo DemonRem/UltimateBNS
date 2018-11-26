@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25055.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25055.xml-->
   <quest alias="q_sub_25055" broadcast-category="field" category="dungeon" dungeon="Dungeon_GuiMunGuan_Nightmare" grade="21" group2="QG_GuiMun" id="25055" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.25055" progress-difficulty-type-1="n" progress-difficulty-type-2="y" progress-difficulty-type-3="n" reset-by-acquire-time="none" reset-type="none" retired="y" save-type="nothing">
     <acquisition check-tencent-vitality="n" level="1" preceding-quest-1="q_epic_1429" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="45">
       <case acquire-quest="y" object2="zoneenv2:5919_portal_5906" type="enter-portal" />

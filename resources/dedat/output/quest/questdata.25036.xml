@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25036.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25036.xml-->
   <quest alias="q_sub_25036" attraction-1="dungeon:dungeon_snakescalesvally" broadcast-category="field" category="attraction" desc="q_25036_sum" grade="10" group2="QG_SnakeValley" id="25036" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.25036" reset-type="none" save-type="nothing">
     <acquisition level="45" recommended-level="50" />
     <mission-step id="1" location-x="16248.98" location-y="-60079.03" map="BuHwalUiJeDan" mission-map-type="location">

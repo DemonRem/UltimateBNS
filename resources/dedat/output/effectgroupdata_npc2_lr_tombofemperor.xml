@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_lr_tombofemperor.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_lr_tombofemperor.xml-->
 	<record alias="RDF_N1_MudSoldierBoss_Laser_E1_01" effect-1="ME_ID2_Common_Melee_Damage_420" effect-2="PVE_Common_Knockback_3M_Kneel" effect-3="Common_ReactToDown_Flag_800ms" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
 	<record alias="RDF_N1_MudSoldierBoss_Laser_E1_p" effect-1="ME_ID2_Common_Melee_Damage_420" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
 	<record alias="RDF_N1_MudSoldierBoss_NAtk1_E1_01" effect-1="ME_ID2_Common_Melee_Damage_350" skill-result="Hit-Critical-Hit" target="first-target" target-state="enemy" />
@@ -134,7 +134,7 @@
 	<record alias="RDF_B2_AncientMechaguardian_SafetyZone_A_E1_02" skill-result="All" target="second-target" target-state="Enemy" target-state-first-filter="60057" target-state-second-filter="60309" />
 	<record alias="RDF_B2_AncientMechaguardian_SafetyZone_B_E1_02" skill-result="All" target="second-target" target-state="Enemy" target-state-first-filter="60150" target-state-second-filter="60311" />
 	<record alias="RDF_B2_AncientMechaguardian_SafetyZone_C_E1_02" skill-result="All" target="second-target" target-state="Enemy" target-state-first-filter="60152" target-state-second-filter="60313" />
-	<record alias="RDF_B2_AncientMechaguardian_DamageZone_E1_01" effect-1="RDE_B2_AncientMechaguardian_DamageZone" skill-result="All" target="second-target" target-state="Enemy" target-state-first-filter="40006" />
+	<record alias="RDF_B2_AncientMechaguardian_DamageZone_E1_01" effect-1="RDE_B2_AncientMechaguardian_DamageZone_HPDmg" skill-result="All" target="second-target" target-state="Enemy" target-state-first-filter="40006" />
 	<record alias="RDF_B2_AncientMechaguardian_Resurretion_E1_01" effect-1="RDE_B2_AncientMechaguardian_Resurretion_HPDmg" skill-result="All" target="second-target" target-state="Enemy" target-state-first-filter="40006" target-state-second-filter="60315" />
 	<record alias="RDF_B2_AncientMechaguardian_ExitZone_E1_01" effect-1="RDE_B2_AncientMechaguardian_Barrier" effect-2="RDE_B2_AncientMechaguardian_BarrierShow" skill-result="All" target="second-target" target-state="Enemy" target-state-first-filter="40006" />
 	<record alias="RDF_B2_AncientMechaguardian_GunFireFocus_E1_01" effect-1="RDE_B2_AncientMechaguardian_GunFire_Mark" skill-result="All" target="first-target" target-state="Enemy" target-state-first-filter="40006" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1761.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1761.xml-->
   <quest alias="q_sub_1761" category="normal" content-type="festival" day-of-week="daily" desc="q_1761_sum" grade="1" group2="QG_Event" id="1761" map-group-1-1="anywhere" max-repeat="-1" name2="Quest.Name2.1761" reset-type="daily" retired="y" save-type="all">
     <acquisition level="50" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" item="q_1761_1_icon" msg="q_1761_3" type="talk-to-self" />

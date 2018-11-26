@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_kf.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_kf.xml-->
 	<record alias="ItemSkill_KF_PointBlood_S1_01_E1" effect-1="ItemSkill_KF_PointBlood_S1_Lv1_flag" effect-2="ItemSkill_KF_PointBlood_S1_Lv1_flag_2" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_KF_PointBlood_S1_01_E2" effect-1="ItemSkill_KF_PointBlood_S1_Lv5_flag" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
 	<record alias="ItemSkill_KF_PointBlood_S1_01_E3" effect-1="ItemSkill_KF_PointBlood_S1_Lv6_flag" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />

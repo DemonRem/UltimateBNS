@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_bigboss_firedragon.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_bigboss_firedragon.xml-->
 	<record alias="BIG_BOSS_TEST_CASE" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40006" />
 	<record alias="BBA_B1_DragonBreath_left_E1" effect-1="BBA_DMG_400" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40006" />
 	<record alias="BBA_B1_DragonBreath_left_E1_sum" effect-1="BBA_DMG_400" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="50042" />

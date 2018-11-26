@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1705.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1705.xml-->
   <quest alias="q_sub_1705" category="job" desc="q_1705_sum" grade="1" group2="QG_MangJaSup" id="1705" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1705" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition job-1="격사" level="4" preceding-quest-1="q_epic_304" preceding-quest-check="and" recommended-level="4" talk-to-self-guide-msg="Msg.Job.quest1">
       <case acquire-quest="y" item="q_1226_1_icon" msg="q_1705_1" type="talk-to-self" />
@@ -25,7 +25,7 @@
       </mission>
     </mission-step>
     <mission-step id="4">
-      <mission id="4" name2="Mission.Name2.1705_4" required-register-value="1" reward-1="1705_final_set1">
+      <mission id="4" name2="Mission.Name2.1705_4" required-register-value="1">
         <case npc-response="qrsp_1705_3" object="npc:MH_WA_Shooter_HwaJung_0001" progress-mission="y" type="talk" />
         <case object="zone:zone_MangJaSup_Gerjeum_1_C10" progress-mission="reaction-only" type="enter-zone" />
       </mission>
@@ -45,7 +45,7 @@
       </mission>
     </mission-step>
     <mission-step id="6">
-      <mission id="6" name2="Mission.Name2.1705_6" required-register-value="1">
+      <mission id="6" name2="Mission.Name2.1705_6" required-register-value="1" reward-1="1705_final_set1">
         <case npc-response="qrsp_1705_4" object="npc:MH_WA_Shooter_HwaJung_0001" progress-mission="y" type="talk" />
         <case object="zone:zone_MangJaSup_Gerjeum_1_C10" progress-mission="reaction-only" type="enter-zone" />
       </mission>

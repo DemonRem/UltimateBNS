@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="skill-training-sequence" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/skilltrainingsequencedata_warlock.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/skilltrainingsequencedata_warlock.xml-->
 
   
 
@@ -254,9 +254,9 @@
   <skill-training-sequence alias="WL_Void_03_Sub_05_Seq" repeat-count="2">
     <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28050" target-pass-state="stun" type="skill" variation-id-1="23" />
     <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="28170" skill-2="28170" type="skill" variation-id-1="23" variation-id-2="63" />
-    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="28454" skill-2="28454" skill-3="28455" skill-4="28455" type="skill" variation-id-1="22" variation-id-2="62" variation-id-3="22" variation-id-4="62" />
+    <step check-only-cast-skill="y" check-parent-skill="n" skill-1="28455" skill-2="28455" type="skill" variation-id-1="22" variation-id-2="62" />
     <step check-only-cast-skill="y" check-parent-skill="y" skill-1="28090" skill-2="28090" type="skill" variation-id-1="22" variation-id-2="62" />
-    <step check-only-cast-skill="y" check-parent-skill="y" skill-1="28454" skill-2="28454" skill-3="28455" skill-4="28455" type="skill" variation-id-1="22" variation-id-2="62" variation-id-3="22" variation-id-4="62" />
+    <step check-only-cast-skill="y" check-parent-skill="n" skill-1="28455" skill-2="28455" type="skill" variation-id-1="22" variation-id-2="62" />
     <step check-only-cast-skill="y" check-parent-skill="y" skill-1="28090" skill-2="28090" type="skill" variation-id-1="22" variation-id-2="62" />
   </skill-training-sequence>
 

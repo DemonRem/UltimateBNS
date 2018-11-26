@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.341.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.341.xml-->
   <quest alias="q_sub_341" broadcast-category="field" category="normal" desc="q_341_sum" district-1="jeryoungrim" grade="1" group="제룡림(망자의 숲)" group2="QG_Delete" id="341" map-group-1-1="jeryoungrim" max-repeat="1" name="흑룡채의 약탈품" name2="Quest.Name2.341" retired="y" save-type="all">
     <acquisition level="50" preceding-quest-1="q_epic_306" preceding-quest-check="and" recommended-level="50" />
     <mission-step completion-type="and" desc="q_341_des_1" id="1" location-x="-23253.6055" location-y="-33073.8984" map="mangjasup">

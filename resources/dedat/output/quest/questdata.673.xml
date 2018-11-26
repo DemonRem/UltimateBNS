@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.673.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.673.xml-->
   <quest activated-faction="factionmain1" alias="q_sub_673" broadcast-category="field" category="normal" day-of-week="daily" desc="q_673_sum" district-1="deasamak" grade="1" group2="QG_ToMunJinNorth" id="673" main-faction="factionmain1" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.673" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" faction="factionmain1" level="22" preceding-quest-1="q_sub_657" preceding-quest-2="q_sub_666" preceding-quest-check="or" recommended-level="24">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_673_1" object="npc:CH_MuRimMeng_0006" type="talk">

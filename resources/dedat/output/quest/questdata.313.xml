@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.313.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.313.xml-->
   <quest alias="q_epic_313" broadcast-category="field" category="epic" completed-desc="q_313_completed" completed-list="y" desc="q_313_sum" district-1="jeryoungrim" grade="1" group2="QG_JeRyoungRimEpic" id="313" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.313" save-type="all" tutorial="y">
     <acquisition level="1" recommended-level="15" sort-no="216" />
     <mission-step completion-type="and" desc="q_313_des_1" id="1" location-x="43644.2109" location-y="20613.7832" map="SuRyun_Dun" mission-map-type="location">

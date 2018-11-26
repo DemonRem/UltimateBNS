@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.901.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.901.xml-->
   <quest alias="q_epic_901" broadcast-category="field" category="epic" completed-desc="q_901_completed" completed-list="y" desc="q_901_sum" district-1="suwal" grade="1" group2="QG_SuwalPWEpic" id="901" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.901" save-type="all">
     <acquisition level="1" preceding-quest-check="and" recommended-level="37" sort-no="401" />
     <mission-step id="1" location-x="38655.13" location-y="35316.81" map="dalgokchon" mission-map-type="location">

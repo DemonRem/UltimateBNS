@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1544.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1544.xml-->
   <quest alias="q_epic_1544" broadcast-category="field" category="epic" completed-desc="q_1544_completed" completed-list="y" desc="q_1544_sum" grade="1" group2="QG_Tutorial_45LV" id="1544" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1544" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition job-1="기권사" level="1" recommended-level="45" sort-no="102" />
     <mission-step id="1">

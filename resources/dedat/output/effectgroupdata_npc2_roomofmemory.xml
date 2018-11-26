@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_roomofmemory.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_roomofmemory.xml-->
 	<record alias="SRD_B1_Mayeonggang_None_Turning_Strike_E1_01" effect-1="ME_ID2_Common_Melee_Damage_270" effect-2="PVE_Common_Down_Left_2000ms" effect-3="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
 	<record alias="SRD_B1_Mayeonggang_None_Turning_Strike_E1_p" effect-1="ME_ID2_Common_Melee_Damage_270" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
 	<record alias="SRD_B1_Mayeonggang_None_Rushing_Wind_E1_01" effect-1="ME_ID2_Common_Melee_Damage_140" skill-result="Hit-Critical-Hit" target="first-target" target-state="enemy" />

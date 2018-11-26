@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.529.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.529.xml-->
   <quest alias="q_epic_529" category="epic" completed-desc="q_529_completed" completed-list="y" desc="q_529_sum" district-1="deasamak" grade="1" group2="QG_DaeSaMakEpic" id="529" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.529" save-type="all">
     <acquisition level="1" recommended-level="34" sort-no="331" />
     <mission-step id="1" location-x="-17998.4063" location-y="12987.9961" map="yeolsajeedea" mission-map-type="location">

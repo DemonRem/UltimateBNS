@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc_shooter.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc_shooter.xml-->
 	<record alias="MH_Shooter_Rifle_Curtain_Fire_E1_01" effect-1="MH_Shooter_Rifle_Curtain_Fire_damage" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
 	<record alias="MH_Shooter_Rifle_Curtain_Fire_E1_p" effect-1="MH_Shooter_Rifle_Curtain_Fire_damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
 	<record alias="MH_Shooter_Rifle_Piercing_shot_E1_01" effect-1="MH_Shooter_Rifle_Piercing_shot_damage" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />

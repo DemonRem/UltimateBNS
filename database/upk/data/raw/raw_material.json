@@ -140182,6 +140182,18 @@
       "10186_GonF_col1_D"
     ]
   },
+  "00059449": {
+    "upkId": "00059449",
+    "col": "col1",
+    "texture": "00059448",
+    "objs": [
+      "RussianDragonEvolve_Col1_N",
+      "RussianDragonEvolve_Col1_M",
+      "RussianDragonEvolve_Col1_D",
+      "RussianDragonEvolve_Col1_S",
+      "RussianDragonEvolve_Col1_E"
+    ]
+  },
   "00059453": {
     "upkId": "00059453",
     "col": "col1",
@@ -140533,6 +140545,18 @@
       "060056_JinM_Col1_M",
       "060056_JinM_Col1_D",
       "060056_JinM_Col1_S"
+    ]
+  },
+  "00059660": {
+    "upkId": "00059660",
+    "col": "col1",
+    "texture": "00059659",
+    "objs": [
+      "RussianDragon_col1_N",
+      "RussianDragon_col1_M",
+      "RussianDragon_col1_D",
+      "RussianDragon_col1_S",
+      "RussianDragon_col1_E"
     ]
   },
   "00059667": {

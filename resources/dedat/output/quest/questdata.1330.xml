@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1330.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1330.xml-->
   <quest alias="q_sub_1330" broadcast-category="field" category="job" desc="q_1330_sum" district-1="jeryoungrim" grade="1" group2="QG_MangJaSup" id="1330" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1330" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition job-1="암살자" level="5" preceding-quest-1="q_epic_306" preceding-quest-2="q_sub_1329" preceding-quest-check="and" preceding-quest-mission-step-1="1" recommended-level="6" talk-to-self-guide-msg="Msg.Job.quest2">
       <case acquire-quest="y" item="q_1330_Quest_hair_growth_solution_manual_1_icon" msg="q_1330_s" type="talk-to-self" />

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1733.xml-->
+  <quest alias="q_sub_1733" attraction-info="dungeon:Dungeon_MemoryCave" category="normal" content-type="none" day-of-week="daily" desc="q_1733_sum" grade="14" group2="QG_RoomOfMemory" id="1733" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1733" reset-type="daily" save-type="all">
+    <acquisition level="55" preceding-quest-1="q_epic_1657" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" completion-count="1" npc-response="qrsp_1733_4" object="npc:CH_SB_SeonMyeong_0001" type="talk" />
+      <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1733_1" object="npc:CH_SB_SeonMyeong_0001" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1733_1" required-register-value="1">
+        <case mapunit-1="6585_FootSwitch_02" object2="zoneenv2:6585_FootSwitch_02" progress-mission="y" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1733_2" required-register-value="1">
+        <case object2="npc:MH_SB_MaYeongGang_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1733_3" required-register-value="1">
+        <case object2="npc:MH_SB_DangYeoWeol_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1733_4" required-register-value="1">
+        <case object2="npc:MH_SB_DoCheonPung_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1733_5" required-register-value="1">
+        <case object2="npc:MH_SB_HongSukKeun_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1733_6" required-register-value="1" reward-1="1733_final_set1" reward-2="1733_final_set2">
+        <case completion-count="1" item="q_1733_1_icon" msg="q_1733_6" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" npc-response="qrsp_1733_5" object="npc:CH_SB_SeonMyeong_0009" progress-mission="y" type="talk" />
+        <case completion-count="1" completion-count-op="lt" item="q_1733_1_icon" msg="q_1733_3" progress-mission="y" type="talk-to-self" />
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1733_2" object="npc:CH_SB_SeonMyeong_0009" progress-mission="y" type="talk" />
+        <case completion-count="1" npc-response="qrsp_1733_8" object="npc:CH_SB_SeonMyeong_0001" progress-mission="y" type="talk" />
+        <case completion-count="1" completion-count-op="lt" npc-response="qrsp_1733_7" object="npc:CH_SB_SeonMyeong_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

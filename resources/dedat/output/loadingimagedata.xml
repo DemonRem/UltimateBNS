@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="LocalizationData" release-side="client" type="LoadingImage" version="0.9">
-  <!--C:/LocalTextSelfDeploy/temp/loadingimagedata.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/loadingimagedata.xml-->
 	<record alias="default-loading" back-ground="00009368.Loading_Tip" count-back-ground="67" editable="y" guide-text-count="129" guide-text-ref="Name.LoadingTip." />
 	<record alias="dungeon-lobby-to-enterance" back-ground="00009368.Loading_ArenaBackground" count-back-ground="1" editable="n" guide-text-count="129" guide-text-ref="Name.LoadingTip." />
 	<record alias="dungeon-enterance-to-lobby" back-ground="00009368.Loading_ArenaBackground" count-back-ground="1" editable="n" guide-text-count="129" guide-text-ref="Name.LoadingTip." />

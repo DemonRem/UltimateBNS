@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1329.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1329.xml-->
   <quest alias="q_sub_1329" broadcast-category="field" category="job" desc="q_1329_sum" district-1="jeryoungrim" grade="1" group2="QG_MangJaSup" id="1329" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1329" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition job-1="암살자" level="4" preceding-quest-1="q_epic_304" preceding-quest-check="and" recommended-level="4" talk-to-self-guide-msg="Msg.Job.quest1">
       <case acquire-quest="y" item="q_1329_Quest_old_letter_1_icon" msg="q_1329_s" type="talk-to-self" />

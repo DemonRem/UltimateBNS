@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_assassin_contextsimplemode.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/skill3_contextscriptdata_assassin_contextsimplemode.xml-->
 
   
 <contextscript context-simple-mode="y" job="암살자">
@@ -1194,19 +1194,19 @@
 
     <layer>
       <decision>
-        <condition skill="25034" variation-id="21" />
+        <condition skill="25334" variation-id="21" />
         
-        <result context-2="25034" context-ui-effect="key-change" control-mode="classic" />
-        <result context-2="25034" context-ui-effect="key-change" control-mode="bns" />
+        <result context-2="25334" context-ui-effect="key-change" control-mode="classic" />
+        <result context-2="25334" context-ui-effect="key-change" control-mode="bns" />
       </decision>
     </layer>
 
     <layer>
       <decision>
-        <condition skill="25334" variation-id="21" />
+        <condition skill="25034" variation-id="21" />
         
-        <result context-2="25334" context-ui-effect="key-change" control-mode="classic" />
-        <result context-2="25334" context-ui-effect="key-change" control-mode="bns" />
+        <result context-2="25034" context-ui-effect="key-change" control-mode="classic" />
+        <result context-2="25034" context-ui-effect="key-change" control-mode="bns" />
       </decision>
     </layer>
 

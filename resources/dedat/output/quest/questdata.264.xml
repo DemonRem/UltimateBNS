@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.264.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.264.xml-->
   <quest alias="q_epic_264" broadcast-category="field" category="epic" completed-desc="q_264_completed" completed-list="n" desc="q_264_sum" grade="1" group2="QG_BaeCheongEpic" id="264" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.264" retired="y" save-type="all">
     <acquisition level="1" recommended-level="46" sort-no="505" />
     <mission-step id="1" location-x="-95824.50" location-y="36769.04" map="GreatPlain" mission-map-type="location">

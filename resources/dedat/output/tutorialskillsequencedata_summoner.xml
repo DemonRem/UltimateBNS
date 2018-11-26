@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="TutorialSkillSequence" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/tutorialskillsequencedata_summoner.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/tutorialskillsequencedata_summoner.xml-->
   
   <tutorialSkillSequence alias="Summoner_Ivy_ThornVine">
     <step result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="26105" target-pass-state="Saver" target-pass-state-count="3" type="skill" />

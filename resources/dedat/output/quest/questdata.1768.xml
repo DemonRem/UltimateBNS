@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1768.xml-->
+  <quest alias="q_sub_1768" category="normal" desc="q_1768_sum" grade="1" group2="QG_ChunMyungPalace" id="1768" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1768" save-type="all">
+    <acquisition level="1" preceding-quest-1="q_epic_1745" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" mapunit-1="6110_CH_WC_TaewoonHang_0232" npc-response="qrsp_1768_1" object="npc:ch_wc_taewoonhang_0232" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1768_1" required-register-value="1">
+        <case mapunit-1="6440_Zone_GW_CheonMyungGung_GeneralDock" object="zone:Zone_GW_CheonMyungGung_GeneralDock" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1768_2" required-register-value="1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0233" npc-response="qrsp_1768_2" object="npc:ch_wc_taewoonhang_0233" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1768_3" required-register-value="1">
+        <case duel-type="none" mapunit-1="6478_CH_WC_Shipbuilding_0035" mapunit-2="6478_CH_WC_Shipbuilding_0035_1" npc-response="qrsp_1768_3" object="npc:ch_wc_shipbuilding_0035" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_Shipyard_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1768_4" required-register-value="6">
+        <case mapunit-1="6478_CH_WC_Shipbuilding_0036" mapunit-2="6478_CH_WC_Shipbuilding_0037" object="npc:ch_wc_shipbuilding_0036" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6478_CH_WC_Shipbuilding_0036" mapunit-2="6478_CH_WC_Shipbuilding_0037" object="npc:ch_wc_shipbuilding_0037" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6478_CH_WC_Shipbuilding_0036" mapunit-2="6478_CH_WC_Shipbuilding_0037" object="npc:ch_wc_shipbuilding_0038" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6478_CH_WC_Shipbuilding_0042" mapunit-2="6478_CH_WC_Shipbuilding_0040" object="npc:ch_wc_shipbuilding_0039" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6478_CH_WC_Shipbuilding_0042" mapunit-2="6478_CH_WC_Shipbuilding_0040" object="npc:ch_wc_shipbuilding_0040" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6478_CH_WC_Shipbuilding_0042" mapunit-2="6478_CH_WC_Shipbuilding_0040" object="npc:ch_wc_shipbuilding_0042" progress-mission="y" type="npc-manipulate" />
+        <case object2="zoneenv2:6478_foot_2" progress-mission="reaction-only" progress-value="1" type="env-entered" />
+        <case object2="zoneenv2:6478_foot_1" progress-mission="reaction-only" progress-value="1" type="env-entered" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1768_5" required-register-value="1">
+        <case mapunit-1="6478_CH_WC_Shipbuilding_0059" npc-response="qrsp_1768_15" object="npc:ch_wc_shipbuilding_0059" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1768_6" required-register-value="1" reward-1="1768_final_set1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0233" npc-response="qrsp_1768_16" object="npc:ch_wc_taewoonhang_0233" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_Shipyard">
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+    </transit>
+  </quest>
+</table>

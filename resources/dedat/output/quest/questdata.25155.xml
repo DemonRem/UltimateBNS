@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25155.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25155.xml-->
   <quest alias="q_sub_25155" broadcast-category="field" category="dungeon" dungeon="Dungeon_BubGiGongJang" grade="10" group2="QG_BubGiGongJang" id="25155" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.25155" progress-difficulty-type-2="n" progress-difficulty-type-3="n" save-type="nothing">
     <acquisition level="50" preceding-quest-1="q_epic_1519" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" object2="zoneenv2:939_Portal_6350" type="enter-portal" />

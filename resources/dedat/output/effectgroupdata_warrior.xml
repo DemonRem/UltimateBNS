@@ -1,0 +1,470 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_warrior.xml-->
+	<record alias="Warrior_Common_Dummy_EG" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
+	<record alias="Warrior_Common_Down2000" effect-1="Warrior_Common_Down2000" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Down3000" effect-1="Warrior_Common_Down3000" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Down2000_NOT_UNION" effect-1="Warrior_Common_Down2000_NOT_UNION" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Down3000_NOT_UNION" effect-1="Warrior_Common_Down3000_NOT_UNION" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Stun2000" effect-1="Warrior_Common_Stun2000" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Stun3000" effect-1="Warrior_Common_Stun3000" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Stun2000_NOT_UNION" effect-1="Warrior_Common_Stun2000_NOT_UNION" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Stun3000_NOT_UNION" effect-1="Warrior_Common_Stun3000_NOT_UNION" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Kneel3000" effect-1="Warrior_Common_Kneel3000" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_Kneel3000_NOT_UNION" effect-1="Warrior_Common_Kneel3000_NOT_UNION" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_MidAir1" effect-1="Warrior_Common_MidAir" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_MidAir_down" effect-1="Warrior_Common_Dispel_MidAir1" effect-2="KungfuMaster_Attack_Skytakedown_Lv1_air" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40031" />
+	<record alias="Warrior_Common_Reduce_HealPower" effect-1="Common_Reduce_HealPower" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Common_MidAir_DISPEL" effect-1="Common_SpiderWeb_Dispel" effect-2="Destroyer_Common_dispel_midair1" effect-3="Destroyer_Common_dispel_midair2" effect-4="Destroyer_Common_dispel_midair3" effect-5="ForceMaster_magnetic_energy_common_unlink" effect-6="Warrior_Common_Target_disable_500ms" effect-7="Shooter_AG_flag_Dispel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack2_Lv11_E1_01" effect-1="Warrior_back_attack2_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack2_Lv11_E1_02" effect-1="Warrior_back_attack2_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack2_hid1_Lv11_E1_01" effect-1="Warrior_back_attack2_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack2_hid1_Lv11_E1_02" effect-1="Warrior_back_attack2_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack2_Lv21_E1_01" effect-1="Warrior_back_attack2_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack2_Lv21_E1_02" effect-1="Warrior_back_attack2_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack2_hid1_Lv21_E1_01" effect-1="Warrior_back_attack2_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack2_hid1_Lv21_E1_02" effect-1="Warrior_back_attack2_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_Lv11_E1_01" effect-1="Warrior_Dash_Lv11_Dmg" effect-2="Warrior_Common_Down3000_NOT_UNION" effect-3="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_Lv11_E1_02" effect-1="Warrior_Dash_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_hid1_Lv11_E1_01" effect-1="Warrior_Dash_Lv11_Dmg" effect-2="Warrior_Common_Down3000_NOT_UNION" effect-3="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_hid1_Lv11_E1_02" effect-1="Warrior_Dash_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_Lv21_E1_01" effect-1="Warrior_Dash_Lv21_Dmg" effect-2="Warrior_Common_Down3000_NOT_UNION" effect-3="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_Lv21_E1_02" effect-1="Warrior_Dash_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_hid1_Lv21_E1_01" effect-1="Warrior_Dash_Lv21_Dmg" effect-2="Warrior_Common_Down3000_NOT_UNION" effect-3="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_hid1_Lv21_E1_02" effect-1="Warrior_Dash_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack_mad_Lv11_01" effect-1="Warrior_back_attack_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack_mad_Lv11_02" effect-1="Warrior_back_attack_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack_mad_hid1_Lv11_01" effect-1="Warrior_back_attack_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack_mad_hid1_Lv11_02" effect-1="Warrior_back_attack_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack_holy_Lv21_01" effect-1="Warrior_back_attack_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack_holy_Lv21_02" effect-1="Warrior_back_attack_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack_holy_hid1_Lv21_01" effect-1="Warrior_back_attack_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_back_attack_holy_hid1_Lv21_02" effect-1="Warrior_back_attack_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Snake_run_Lv11_01" effect-1="Warrior_Snake_run_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Snake_run_Lv11_02" effect-1="Warrior_Snake_run_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Snake_run_hid1_Lv11_01" effect-1="Warrior_Snake_run_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Snake_run_hid1_Lv11_02" effect-1="Warrior_Snake_run_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Flash_slash_Lv21_01" effect-1="Warrior_Flash_slash_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Flash_slash_Lv21_02" effect-1="Warrior_Flash_slash_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Flash_slash_hid1_Lv21_01" effect-1="Warrior_Flash_slash_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Flash_slash_hid1_Lv21_02" effect-1="Warrior_Flash_slash_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Kingswrath_Lv11_E1_01" effect-1="Warrior_Kingswrath_Lv11_Dmg" effect-2="Common_MasterSkill_Heal_Caster_100" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Kingswrath_Lv51_E1_01" effect-1="Warrior_Kingswrath_Lv51_Dmg" effect-2="Common_MasterSkill_Heal_Caster_100" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Kingswrath_Lv12_E1_01" effect-1="Warrior_Kingswrath_Lv12_Dmg" effect-2="Warrior_Common_Stun2000_NOT_UNION" effect-3="Common_MasterSkill_Heal_Caster_100" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Kingswrath_Lv52_E1_01" effect-1="Warrior_Kingswrath_Lv52_Dmg" effect-2="Warrior_Common_Stun2000_NOT_UNION" effect-3="Common_MasterSkill_Heal_Caster_100" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Kingswrath_Lv21_E1_01" effect-1="Warrior_Kingswrath_Lv21_Dmg" effect-2="Common_MasterSkill_Heal_Caster_100" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Kingswrath_Lv61_E1_01" effect-1="Warrior_Kingswrath_Lv61_Dmg" effect-2="Common_MasterSkill_Heal_Caster_100" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Kingswrath_Lv22_E1_01" effect-1="Warrior_Kingswrath_Lv22_Dmg" effect-2="Warrior_Common_Stun2000_NOT_UNION" effect-3="Common_MasterSkill_Heal_Caster_100" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Kingswrath_Lv62_E1_01" effect-1="Warrior_Kingswrath_Lv62_Dmg" effect-2="Warrior_Common_Stun2000_NOT_UNION" effect-3="Common_MasterSkill_Heal_Caster_100" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Shout_Lv11_E1_01" effect-1="Warrior_Shout_Lv11_Dmg" effect-2="Warrior_Common_Stun2000" effect-3="Warrior_Common_Stun2000" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Shout_Lv12_E1_01" effect-1="Warrior_Shout_Lv12_Dmg" effect-2="Warrior_Common_Kneel3000" effect-3="Warrior_Common_Kneel3000" effect-4="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Shout_Lv21_E1_01" effect-1="Warrior_Shout_Lv21_Dmg" effect-2="Warrior_Common_Stun2000" effect-3="Warrior_Common_Stun2000" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Shout_Lv22_E1_01" effect-1="Warrior_Shout_Lv22_Dmg" effect-2="Warrior_Common_Kneel3000" effect-3="Warrior_Common_Kneel3000" effect-4="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double_Lv11_E1_01" effect-1="Warrior_Double_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double_Lv11_E1_02" effect-1="Warrior_Double_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double2_Lv11_E1_01" effect-1="Warrior_Double2_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double2_Lv11_E1_02" effect-1="Warrior_Double2_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double_Lv21_E1_01" effect-1="Warrior_Double_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double_Lv21_E1_02" effect-1="Warrior_Double_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double2_Lv21_E1_01" effect-1="Warrior_Double2_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double2_Lv21_E1_02" effect-1="Warrior_Double2_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv11_E1_01" effect-1="Warrior_Earth_Shild_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv11_E1_02" effect-1="Warrior_Earth_Shild_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv51_E1_01" effect-1="Warrior_Earth_Shild_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv51_E1_02" effect-1="Warrior_Earth_Shild_Lv51_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv12_E1_01" effect-1="Warrior_Earth_Shild_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv12_E1_02" effect-1="Warrior_Earth_Shild_Lv12_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv52_E1_01" effect-1="Warrior_Earth_Shild_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv52_E1_02" effect-1="Warrior_Earth_Shild_Lv52_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv21_E1_01" effect-1="Warrior_Earth_Shild_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv21_E1_02" effect-1="Warrior_Earth_Shild_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv61_E1_01" effect-1="Warrior_Earth_Shild_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv61_E1_02" effect-1="Warrior_Earth_Shild_Lv61_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv22_E1_01" effect-1="Warrior_Earth_Shild_Lv22_Dmg" effect-2="Warrior_Common_Down3000_NOT_UNION" effect-3="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv22_E1_02" effect-1="Warrior_Earth_Shild_Lv22_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv62_E1_01" effect-1="Warrior_Earth_Shild_Lv62_Dmg" effect-2="Warrior_Common_Down3000_NOT_UNION" effect-3="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Earth_Shild_Lv62_E1_02" effect-1="Warrior_Earth_Shild_Lv62_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_Lv11_E0_01" effect-1="Warrior_baseAttack0_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_Lv11_E0_02" effect-1="Warrior_baseAttack0_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_Lv12_E0_01" effect-1="Warrior_baseAttack0_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_Lv12_E0_02" effect-1="Warrior_baseAttack0_Lv12_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_Lv11_E1_01" effect-1="Warrior_baseAttack1_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_Lv11_E1_01" effect-1="Warrior_baseAttack2_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_Lv11_E1_01" effect-1="Warrior_baseAttack3_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_Lv11_E1_01" effect-1="Warrior_baseAttack4_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_Lv11_E1_01" effect-1="Warrior_baseAttack5_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_Lv51_E1_01" effect-1="Warrior_baseAttack1_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_Lv51_E1_01" effect-1="Warrior_baseAttack2_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_Lv51_E1_01" effect-1="Warrior_baseAttack3_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_Lv51_E1_01" effect-1="Warrior_baseAttack4_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_Lv51_E1_01" effect-1="Warrior_baseAttack5_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_Lv12_E1_01" effect-1="Warrior_baseAttack1_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_Lv12_E1_01" effect-1="Warrior_baseAttack2_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_Lv12_E1_01" effect-1="Warrior_baseAttack3_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_Lv12_E1_01" effect-1="Warrior_baseAttack4_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_Lv12_E1_01" effect-1="Warrior_baseAttack5_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_Lv52_E1_01" effect-1="Warrior_baseAttack1_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_Lv52_E1_01" effect-1="Warrior_baseAttack2_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_Lv52_E1_01" effect-1="Warrior_baseAttack3_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_Lv52_E1_01" effect-1="Warrior_baseAttack4_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_Lv52_E1_01" effect-1="Warrior_baseAttack5_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_Lv21_E0_01" effect-1="Warrior_baseAttack0_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_Lv21_E0_02" effect-1="Warrior_baseAttack0_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_Lv22_E0_01" effect-1="Warrior_baseAttack0_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_Lv22_E0_02" effect-1="Warrior_baseAttack0_Lv22_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_Lv21_E1_01" effect-1="Warrior_baseAttack1_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_Lv21_E1_01" effect-1="Warrior_baseAttack2_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_Lv21_E1_01" effect-1="Warrior_baseAttack3_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_Lv21_E1_01" effect-1="Warrior_baseAttack4_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_Lv21_E1_01" effect-1="Warrior_baseAttack5_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_Lv61_E1_01" effect-1="Warrior_baseAttack1_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_Lv61_E1_01" effect-1="Warrior_baseAttack2_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_Lv61_E1_01" effect-1="Warrior_baseAttack3_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_Lv61_E1_01" effect-1="Warrior_baseAttack4_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_Lv61_E1_01" effect-1="Warrior_baseAttack5_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_Lv22_E1_01" effect-1="Warrior_baseAttack1_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_Lv22_E1_01" effect-1="Warrior_baseAttack2_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_Lv22_E1_01" effect-1="Warrior_baseAttack3_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_Lv22_E1_01" effect-1="Warrior_baseAttack4_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_Lv22_E1_01" effect-1="Warrior_baseAttack5_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_Lv62_E1_01" effect-1="Warrior_baseAttack1_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_Lv62_E1_01" effect-1="Warrior_baseAttack2_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_Lv62_E1_01" effect-1="Warrior_baseAttack3_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_Lv62_E1_01" effect-1="Warrior_baseAttack4_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_Lv62_E1_01" effect-1="Warrior_baseAttack5_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_mad_Lv11_E1_01" effect-1="Warrior_baseAttack0_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_mad_Lv11_E1_02" effect-1="Warrior_baseAttack0_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_mad_Lv12_E1_01" effect-1="Warrior_baseAttack0_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack0_mad_Lv12_E1_02" effect-1="Warrior_baseAttack0_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_mad_Lv11_E1_01" effect-1="Warrior_baseAttack1_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_mad_Lv11_E1_02" effect-1="Warrior_baseAttack1_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_mad_Lv11_E1_01" effect-1="Warrior_baseAttack2_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_mad_Lv11_E1_02" effect-1="Warrior_baseAttack2_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_mad_Lv11_E1_01" effect-1="Warrior_baseAttack3_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_mad_Lv11_E1_02" effect-1="Warrior_baseAttack3_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_mad_Lv11_E1_01" effect-1="Warrior_baseAttack3_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_mad_Lv11_E1_02" effect-1="Warrior_baseAttack3_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_mad_Lv11_E1_01" effect-1="Warrior_baseAttack3_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_mad_Lv11_E1_02" effect-1="Warrior_baseAttack3_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_mad_Lv12_E1_01" effect-1="Warrior_baseAttack1_mad_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_mad_Lv12_E1_02" effect-1="Warrior_baseAttack1_mad_Lv12_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_mad_Lv12_E1_01" effect-1="Warrior_baseAttack2_mad_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_mad_Lv12_E1_02" effect-1="Warrior_baseAttack2_mad_Lv12_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_mad_Lv12_E1_01" effect-1="Warrior_baseAttack3_mad_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_mad_Lv12_E1_02" effect-1="Warrior_baseAttack3_mad_Lv12_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_mad_Lv12_E1_01" effect-1="Warrior_baseAttack3_mad_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack4_mad_Lv12_E1_02" effect-1="Warrior_baseAttack3_mad_Lv12_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_mad_Lv12_E1_01" effect-1="Warrior_baseAttack3_mad_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack5_mad_Lv12_E1_02" effect-1="Warrior_baseAttack3_mad_Lv12_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack1_mad_Lv12_E1_01_CC" effect-1="Warrior_baseAttack1_mad_Lv12_Dmg_CC" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_baseAttack1_mad_Lv12_E1_02_CC" effect-1="Warrior_baseAttack1_mad_Lv12_Dmg_CC" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_baseAttack2_mad_Lv12_E1_01_CC" effect-1="Warrior_baseAttack2_mad_Lv12_Dmg_CC" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_baseAttack2_mad_Lv12_E1_02_CC" effect-1="Warrior_baseAttack2_mad_Lv12_Dmg_CC" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_baseAttack3_mad_Lv12_E1_01_CC" effect-1="Warrior_baseAttack3_mad_Lv12_Dmg_CC" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_baseAttack3_mad_Lv12_E1_02_CC" effect-1="Warrior_baseAttack3_mad_Lv12_Dmg_CC" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_PowerSmash_Lv11_E1_01" effect-1="Warrior_PowerSmash_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv51_E1_01" effect-1="Warrior_PowerSmash_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv12_E1_01" effect-1="Warrior_PowerSmash_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv52_E1_01" effect-1="Warrior_PowerSmash_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv21_E1_01" effect-1="Warrior_PowerSmash_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv61_E1_01" effect-1="Warrior_PowerSmash_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv22_E1_01" effect-1="Warrior_PowerSmash_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv62_E1_01" effect-1="Warrior_PowerSmash_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv13_E1_01" effect-1="Warrior_PowerSmash_Lv13_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_PowerSmash_Lv53_E1_01" effect-1="Warrior_PowerSmash_Lv53_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv11_E1_01" effect-1="Warrior_Speed_Spin_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv11_E5_01" effect-1="Warrior_Speed_Spin_Lv11_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv11_E1_01" effect-1="Warrior_Speed_Spin_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv11_E1_05" effect-1="Warrior_Speed_Spin_Lv11_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv51_E1_01" effect-1="Warrior_Speed_Spin_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv51_E1_05" effect-1="Warrior_Speed_Spin_Lv51_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv51_E1_01" effect-1="Warrior_Speed_Spin_Lv51_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv51_E1_05" effect-1="Warrior_Speed_Spin_Lv51_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv12_E1_01" effect-1="Warrior_Speed_Spin_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv12_E1_05" effect-1="Warrior_Speed_Spin_Lv12_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv12_E1_01" effect-1="Warrior_Speed_Spin_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv12_E1_05" effect-1="Warrior_Speed_Spin_Lv12_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv52_E1_01" effect-1="Warrior_Speed_Spin_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv52_E1_05" effect-1="Warrior_Speed_Spin_Lv52_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv52_E1_01" effect-1="Warrior_Speed_Spin_Lv52_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv52_E1_05" effect-1="Warrior_Speed_Spin_Lv52_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv21_E1_01" effect-1="Warrior_Speed_Spin_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv21_E1_05" effect-1="Warrior_Speed_Spin_Lv21_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv21_E1_01" effect-1="Warrior_Speed_Spin_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv21_E1_05" effect-1="Warrior_Speed_Spin_Lv21_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv61_E1_01" effect-1="Warrior_Speed_Spin_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv61_E1_05" effect-1="Warrior_Speed_Spin_Lv61_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv61_E1_01" effect-1="Warrior_Speed_Spin_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv61_E1_05" effect-1="Warrior_Speed_Spin_Lv61_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv22_E1_01" effect-1="Warrior_Speed_Spin_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv22_E1_05" effect-1="Warrior_Speed_Spin_Lv22_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv22_E1_01" effect-1="Warrior_Speed_Spin_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv22_E1_05" effect-1="Warrior_Speed_Spin_Lv22_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv62_E1_01" effect-1="Warrior_Speed_Spin_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_Lv62_E1_05" effect-1="Warrior_Speed_Spin_Lv62_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv62_E1_01" effect-1="Warrior_Speed_Spin_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_hid1_Lv62_E1_05" effect-1="Warrior_Speed_Spin_Lv62_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_mad_Lv11_E1_01" effect-1="Warrior_Speed_Spin_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_mad_Lv11_E1_05" effect-1="Warrior_Speed_Spin_mad_Lv11_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_holy_Lv21_E1_01" effect-1="Warrior_Speed_Spin_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Speed_Spin_holy_Lv21_E1_05" effect-1="Warrior_Speed_Spin_holy_Lv21_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_spin_Lv11_E1_01" effect-1="Warrior_spin_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_spin_Lv11_E1_02" effect-1="Warrior_spin_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_spin_Lv21_E1_01" effect-1="Warrior_spin_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_spin_Lv21_E1_02" effect-1="Warrior_spin_Lv21_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_Swing_Lv11_E1_01" effect-1="Warrior_Dash_Swing_Lv11_Dmg" effect-2="BladeMaster_Sword_FrontKick_LV1_Bleeding_DOT" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_Lv11_E1_02" effect-1="Warrior_Dash_Swing_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_Lv11_E1_03" effect-1="BladeMaster_Sword_rush_Fast" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_Dash_Swing_Lv12_E1_01" effect-1="Warrior_Dash_Swing_Lv12_Dmg" effect-2="BladeMaster_Sword_FrontKick_LV1_Bleeding_DOT" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_Lv12_E1_02" effect-1="Warrior_Dash_Swing_Lv12_Dmg" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_Lv12_E1_03" effect-1="BladeMaster_Sword_rush_Fast" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_Dash_Swing_Lv21_E1_01" effect-1="Warrior_Dash_Swing_Lv21_Dmg" effect-2="BladeMaster_Sword_FrontKick_LV1_Bleeding_DOT" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_Lv21_E1_02" effect-1="Warrior_Dash_Swing_Lv21_Dmg" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_Lv21_E1_03" effect-1="BladeMaster_Sword_rush_Fast" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_Dash_Swing_Lv22_E1_01" effect-1="Warrior_Dash_Swing_Lv22_Dmg" effect-2="BladeMaster_Sword_FrontKick_LV1_Bleeding_DOT" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_Lv22_E1_02" effect-1="Warrior_Dash_Swing_Lv22_Dmg" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_Lv22_E1_03" effect-1="BladeMaster_Sword_rush_Fast" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_JumpAtt_Lv11_E1_01" effect-1="Warrior_JumpAtt_Lv11_Dmg" effect-2="Common_MasterSkill_Heal_Caster_200" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_JumpAtt_Lv11_E1_02" effect-1="Warrior_JumpAtt_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_JumpAtt_Lv21_E1_01" effect-1="Warrior_JumpAtt_Lv21_Dmg" effect-2="Common_MasterSkill_Heal_Caster_200" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_JumpAtt_Lv21_E1_02" effect-1="Warrior_JumpAtt_Lv21_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Hongmoon_Lv11_E1_01" effect-1="Warrior_Slash_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Hongmoon_Lv11_E1_02" effect-1="Warrior_Slash_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Hongmoon_Lv21_E1_01" effect-1="Warrior_Slash_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Hongmoon_Lv21_E1_02" effect-1="Warrior_Slash_Lv21_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_DropKick_Lv11_E1_01" effect-1="Warrior_DropKick_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_DropKick_Lv11_E1_02" effect-1="Warrior_DropKick_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_DropKick_Lv12_E1_01" effect-1="Warrior_DropKick_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_DropKick_Lv12_E1_02" effect-1="Warrior_DropKick_Lv12_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dash_Swing_mad_Lv11_E1_01" effect-1="Warrior_Dash_Swing_mad_Lv11_Dmg" effect-2="BladeMaster_Sword_FrontKick_LV1_Bleeding_DOT" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_mad_Lv11_E1_02" effect-1="Warrior_Dash_Swing_mad_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_mad_Lv11_E1_03" effect-1="BladeMaster_Sword_rush_Fast" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_Dash_Swing_holy_Lv21_E1_01" effect-1="Warrior_Dash_Swing_holy_Lv21_Dmg" effect-2="BladeMaster_Sword_FrontKick_LV1_Bleeding_DOT" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_holy_Lv21_E1_02" effect-1="Warrior_Dash_Swing_holy_Lv21_Dmg" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
+	<record alias="Warrior_Dash_Swing_holy_Lv21_E1_03" effect-1="BladeMaster_Sword_rush_Fast" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_CuttingSmash_Lv11_E1_01" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40055" />
+	<record alias="Warrior_CuttingSmash_Lv11_E1_02" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40038" />
+	<record alias="Warrior_CuttingSmash_Lv11_E1_03" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40057" />
+	<record alias="Warrior_CuttingSmash_Lv11_E1_04" effect-1="Warrior_CuttingSmash_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60091" />
+	<record alias="Warrior_CuttingSmash_Lv11_E1_05" effect-1="Warrior_CuttingSmash_Lv11_Dmg" effect-2="SoulFighter_Common_Dispel_Down" effect-3="SoulFighter_Common_Dispel_Stun" effect-4="SoulFighter_Common_Dispel_Kneel" effect-5="SoulFighter_Force_Pushattack_3000_Air" effect-6="Common_Logic_Flag_Dispel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60092" />
+	<record alias="Warrior_CuttingSmash_Lv11_E1_06" effect-1="Warrior_CuttingSmash_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_CuttingSmash_Lv21_E1_01" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40055" />
+	<record alias="Warrior_CuttingSmash_Lv21_E1_02" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40038" />
+	<record alias="Warrior_CuttingSmash_Lv21_E1_03" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40057" />
+	<record alias="Warrior_CuttingSmash_Lv21_E1_04" effect-1="Warrior_CuttingSmash_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60091" />
+	<record alias="Warrior_CuttingSmash_Lv21_E1_05" effect-1="Warrior_CuttingSmash_Lv21_Dmg" effect-2="SoulFighter_Common_Dispel_Down" effect-3="SoulFighter_Common_Dispel_Stun" effect-4="SoulFighter_Common_Dispel_Kneel" effect-5="SoulFighter_Force_Pushattack_3000_Air" effect-6="Common_Logic_Flag_Dispel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60092" />
+	<record alias="Warrior_CuttingSmash_Lv21_E1_06" effect-1="Warrior_CuttingSmash_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_CuttingSmash_mad_Lv11_E1_01" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40055" />
+	<record alias="Warrior_CuttingSmash_mad_Lv11_E1_02" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40038" />
+	<record alias="Warrior_CuttingSmash_mad_Lv11_E1_03" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40057" />
+	<record alias="Warrior_CuttingSmash_mad_Lv11_E1_04" effect-1="Warrior_CuttingSmash_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60091" />
+	<record alias="Warrior_CuttingSmash_mad_Lv11_E1_05" effect-1="Warrior_CuttingSmash_mad_Lv11_Dmg" effect-2="SoulFighter_Common_Dispel_Down" effect-3="SoulFighter_Common_Dispel_Stun" effect-4="SoulFighter_Common_Dispel_Kneel" effect-5="SoulFighter_Force_Pushattack_3000_Air" effect-6="Common_Logic_Flag_Dispel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60092" />
+	<record alias="Warrior_CuttingSmash_mad_Lv11_E1_06" effect-1="Warrior_CuttingSmash_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_CuttingSmash_holy_Lv11_E1_01" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40055" />
+	<record alias="Warrior_CuttingSmash_holy_Lv11_E1_02" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40038" />
+	<record alias="Warrior_CuttingSmash_holy_Lv11_E1_03" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40057" />
+	<record alias="Warrior_CuttingSmash_holy_Lv11_E1_04" effect-1="Warrior_CuttingSmash_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60091" />
+	<record alias="Warrior_CuttingSmash_holy_Lv11_E1_05" effect-1="Warrior_CuttingSmash_holy_Lv21_Dmg" effect-2="SoulFighter_Common_Dispel_Down" effect-3="SoulFighter_Common_Dispel_Stun" effect-4="SoulFighter_Common_Dispel_Kneel" effect-5="SoulFighter_Force_Pushattack_3000_Air" effect-6="Common_Logic_Flag_Dispel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60092" />
+	<record alias="Warrior_CuttingSmash_holy_Lv11_E1_06" effect-1="Warrior_CuttingSmash_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_CuttingSpin_Lv11_E1_01" effect-1="Warrior_CuttingSpin_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_CuttingSpin_Lv11_E1_02" effect-1="Warrior_CuttingSpin_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_CuttingSpin_Lv21_E1_01" effect-1="Warrior_CuttingSpin_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_CuttingSpin_Lv21_E1_02" effect-1="Warrior_CuttingSpin_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill_Heal_Caster_350_midair" effect-1="Common_MasterSkill_Heal_Caster_350" skill-result="Hit-Critical-Hit" target="caster" target-state="all" target-state-first-filter="40018" />
+	<record alias="Warrior_Mad_Cross_Lv11_E1_01" effect-1="Warrior_Mad_Cross_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Mad_Cross_Lv11_E1_02" effect-1="Warrior_Mad_Cross_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Holy_Cross_Lv21_E1_01" effect-1="Warrior_Holy_Cross_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Holy_Cross_Lv21_E1_02" effect-1="Warrior_Holy_Cross_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Hurricane_Slash_Lv11_E1_01" effect-1="Warrior_Hurricane_Slash_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Hurricane_Slash_Lv11_E1_02" effect-1="Warrior_Hurricane_Slash_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Hurricane_Slash_Lv21_E1_01" effect-1="Warrior_Hurricane_Slash_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Hurricane_Slash_Lv21_E1_02" effect-1="Warrior_Hurricane_Slash_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Thrusting_Lv11_E1_01" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40040" />
+	<record alias="Warrior_Thrusting_Lv11_E1_02" effect-1="Warrior_Thrusting_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60091" />
+	<record alias="Warrior_Thrusting_Lv11_E1_03" effect-1="Warrior_Thrusting_Lv11_Dmg" effect-2="Warrior_Common_Stun2000" effect-3="Common_Logic_Flag_Dispel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60092" />
+	<record alias="Warrior_Thrusting_Lv11_E1_04" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Thrusting_Lv21_E1_01" effect-1="SoulFighter_Logic_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40040" />
+	<record alias="Warrior_Thrusting_Lv21_E1_02" effect-1="Warrior_Thrusting_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60091" />
+	<record alias="Warrior_Thrusting_Lv21_E1_03" effect-1="Warrior_Thrusting_Lv11_Dmg" effect-2="Warrior_Common_Stun2000" effect-3="Common_Logic_Flag_Dispel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="60092" />
+	<record alias="Warrior_Thrusting_Lv21_E1_04" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double_mad_Lv11_E1_01" effect-1="Warrior_Double_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double_mad_Lv11_E1_02" effect-1="Warrior_Double_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double_holy_Lv21_E1_01" effect-1="Warrior_Double_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Double_holy_Lv21_E1_02" effect-1="Warrior_Double_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Spin_Smash_mad_Lv11_E1_01" effect-1="Warrior_Spin_Smash_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Spin_Smash_mad_Lv11_E1_02" effect-1="Warrior_Spin_Smash_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Spin_Smash_holy_Lv21_E1_01" effect-1="Warrior_Spin_Smash_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Spin_Smash_holy_Lv21_E1_02" effect-1="Warrior_Spin_Smash_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_mad_Lv11_E1_01" effect-1="Warrior_Crushing1_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_mad_Lv12_E1_01" effect-1="Warrior_Crushing1_mad_Lv12_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_holy_Lv21_E1_01" effect-1="Warrior_Crushing1_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_holy_Lv22_E1_01" effect-1="Warrior_Crushing1_holy_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_Lv21_E1_01" effect-1="Warrior_Crushing1_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing2_Lv21_E1_02" effect-1="Warrior_Crushing2_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing3_Lv21_E1_03" effect-1="Warrior_Crushing3_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_Lv61_E1_01" effect-1="Warrior_Crushing1_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing2_Lv61_E1_02" effect-1="Warrior_Crushing2_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing3_Lv61_E1_03" effect-1="Warrior_Crushing3_Lv61_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_Lv22_E1_01" effect-1="Warrior_Crushing1_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing2_Lv22_E1_02" effect-1="Warrior_Crushing2_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing3_Lv22_E1_03" effect-1="Warrior_Crushing3_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_Lv62_E1_01" effect-1="Warrior_Crushing1_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing2_Lv62_E1_02" effect-1="Warrior_Crushing2_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing3_Lv62_E1_03" effect-1="Warrior_Crushing3_Lv62_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_Lv23_E1_01" effect-1="Warrior_Crushing1_Lv23_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing2_Lv23_E1_02" effect-1="Warrior_Crushing2_Lv23_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing3_Lv23_E1_03" effect-1="Warrior_Crushing3_Lv23_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing1_Lv63_E1_01" effect-1="Warrior_Crushing1_Lv63_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing2_Lv63_E1_02" effect-1="Warrior_Crushing2_Lv63_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Crushing3_Lv63_E1_03" effect-1="Warrior_Crushing3_Lv63_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Knockback_8m_down" effect-1="SoulFighter_Common_Dispel_Down" effect-2="SoulFighter_Common_Dispel_Stun" effect-3="SoulFighter_Common_Dispel_Kneel" effect-4="Warrior_Knockback_8m_down" effect-5="Common_ReactToDown_Flag_1100ms" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Knockback_5m_down" effect-1="SoulFighter_Common_Dispel_Down" effect-2="SoulFighter_Common_Dispel_Stun" effect-3="SoulFighter_Common_Dispel_Kneel" effect-4="Warrior_Knockback_5m_down" effect-5="Common_ReactToDown_Flag_1100ms" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_FullSmash_mad_Lv11_E1_01" effect-1="Warrior_FullSmash_mad_Lv11_Dmg" effect-2="Warrior_Common_Stun2000_NOT_UNION" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_FullSmash_mad_Lv11_E1_02" effect-1="Warrior_FullSmash_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_BlueFlame_holy_Lv21_E1_01" effect-1="Warrior_BlueFlame_holy_Lv21_Dmg" effect-2="Warrior_Common_Stun2000_NOT_UNION" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_BlueFlame_holy_Lv21_E1_02" effect-1="Warrior_BlueFlame_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_FullSmash_mad_Lv11_E2_01" effect-1="Warrior_FullSmash_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_FullSmash_mad_Lv11_E2_02" effect-1="Warrior_FullSmash_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_BlueFlame_holy_Lv21_E2_01" effect-1="Warrior_BlueFlame_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_BlueFlame_holy_Lv21_E2_02" effect-1="Warrior_BlueFlame_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Dragon_Earthquake_Lv11_E1_01" effect-1="Warrior_Dragon_Earthquake_buff" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_Dragon_Earthquake_Lv21_E1_01" effect-1="Warrior_Dragon_Earthquake_buff" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_Dragon_Earthquake_Lv12_E1_01" effect-1="Warrior_Dragon_Earthquake_buff" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_Dragon_Earthquake_Lv22_E1_01" effect-1="Warrior_Dragon_Earthquake_buff" skill-result="all" target="caster" target-state="all" />
+	<record alias="Warrior_MasterSkill1_Lv11_E1_01" effect-1="Warrior_MasterSkill1_Lv11_Dmg1" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E1_02" effect-1="Warrior_MasterSkill1_Lv11_Dmg1" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E2_01" effect-1="Warrior_MasterSkill1_Lv11_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E2_02" effect-1="Warrior_MasterSkill1_Lv11_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E3_01" effect-1="Warrior_MasterSkill1_Lv11_Dmg3" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E3_02" effect-1="Warrior_MasterSkill1_Lv11_Dmg3" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E4_01" effect-1="Warrior_MasterSkill1_Lv11_Dmg4" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E4_02" effect-1="Warrior_MasterSkill1_Lv11_Dmg4" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E5_01" effect-1="Warrior_MasterSkill1_Lv11_Dmg5" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv11_E5_02" effect-1="Warrior_MasterSkill1_Lv11_Dmg5" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E1_01" effect-1="Warrior_MasterSkill1_Lv21_Dmg1" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E1_02" effect-1="Warrior_MasterSkill1_Lv21_Dmg1" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E2_01" effect-1="Warrior_MasterSkill1_Lv21_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E2_02" effect-1="Warrior_MasterSkill1_Lv21_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E3_01" effect-1="Warrior_MasterSkill1_Lv21_Dmg3" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E3_02" effect-1="Warrior_MasterSkill1_Lv21_Dmg3" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E4_01" effect-1="Warrior_MasterSkill1_Lv21_Dmg4" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E4_02" effect-1="Warrior_MasterSkill1_Lv21_Dmg4" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E5_01" effect-1="Warrior_MasterSkill1_Lv21_Dmg5" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill1_Lv21_E5_02" effect-1="Warrior_MasterSkill1_Lv21_Dmg5" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill2_Lv11_E1_01" effect-1="Warrior_MasterSkill2_Lv11_Dmg" effect-2="Warrior_Common_Stun3000" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill2_Lv11_E1_02" effect-1="Warrior_MasterSkill2_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill2_Lv11_E2_01" effect-1="Warrior_MasterSkill2_Lv11_Dmg_CC1" effect-2="Warrior_MasterSkill2_Lv11_Dmg_CC2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_MasterSkill2_Lv11_E2_02" effect-1="Warrior_MasterSkill2_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill2_Lv21_E1_01" effect-1="Warrior_MasterSkill2_Lv21_Dmg" effect-2="Warrior_Common_Stun3000" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill2_Lv21_E1_02" effect-1="Warrior_MasterSkill2_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill2_Lv21_E2_01" effect-1="Warrior_MasterSkill2_Lv21_Dmg_CC1" effect-2="Warrior_MasterSkill2_Lv21_Dmg_CC2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_MasterSkill2_Lv21_E2_02" effect-1="Warrior_MasterSkill2_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill2_Ice" effect-1="KungfuMaster3_Common_Frostbite" effect-2="KungfuMaster3_Common_Frostbite_sub" effect-3="Common_Dispel_Modify_Ability_232" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40019" />
+	<record alias="Warrior_Soulmask1_1_mad_Lv11_E1_01" effect-1="Warrior_Soulmask1_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask1_1_mad_Lv11_E1_02" effect-1="Warrior_Soulmask1_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask1_1_Holy_Lv21_E1_01" effect-1="Warrior_Soulmask1_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask1_1_Holy_Lv21_E1_02" effect-1="Warrior_Soulmask1_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask2_1_mad_Lv11_E1_01" effect-1="Warrior_Soulmask2_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask2_1_mad_Lv11_E1_02" effect-1="Warrior_Soulmask2_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask2_1_Holy_Lv21_E1_01" effect-1="Warrior_Soulmask2_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask2_1_Holy_Lv21_E1_02" effect-1="Warrior_Soulmask2_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask2_1_mad_Lv11_E2_01" effect-1="Warrior_Soulmask2_mad_Lv11_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask2_1_mad_Lv11_E2_02" effect-1="Warrior_Soulmask2_mad_Lv11_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask2_1_Holy_Lv21_E2_01" effect-1="Warrior_Soulmask2_holy_Lv21_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask2_1_Holy_Lv21_E2_02" effect-1="Warrior_Soulmask2_holy_Lv21_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask3_1_mad_Lv11_E1_01" effect-1="Warrior_Soulmask3_mad_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask3_1_mad_Lv11_E1_02" effect-1="Warrior_Soulmask3_mad_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask3_1_Holy_Lv21_E1_01" effect-1="Warrior_Soulmask3_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask3_1_Holy_Lv21_E1_02" effect-1="Warrior_Soulmask3_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask3_1_mad_Lv11_E2_01" effect-1="Warrior_Soulmask3_mad_Lv11_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask3_1_mad_Lv11_E2_02" effect-1="Warrior_Soulmask3_mad_Lv11_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask3_1_Holy_Lv21_E2_01" effect-1="Warrior_Soulmask3_holy_Lv21_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Soulmask3_1_Holy_Lv21_E2_02" effect-1="Warrior_Soulmask3_holy_Lv21_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B1_RIGHT_Lv11_E1_01" effect-1="Warrior_B1_RIGHT_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B1_RIGHT_Lv11_E1_02" effect-1="Warrior_B1_RIGHT_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B1_CENTER_Lv11_E1_01" effect-1="Warrior_B1_CENTER_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B1_CENTER_Lv11_E1_02" effect-1="Warrior_B1_CENTER_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B1_MAD_Lv11_E1_01" effect-1="Warrior_B1_MAD_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B1_MAD_Lv11_E1_02" effect-1="Warrior_B1_MAD_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E1_01" effect-1="Warrior_B2_CASTER_Lv21_Dmg1" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E1_02" effect-1="Warrior_B2_CASTER_Lv21_Dmg1" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E2_01" effect-1="Warrior_B2_CASTER_Lv21_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E2_02" effect-1="Warrior_B2_CASTER_Lv21_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E3_01" effect-1="Warrior_B2_CASTER_Lv21_Dmg3" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E3_02" effect-1="Warrior_B2_CASTER_Lv21_Dmg3" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E4_01" effect-1="Warrior_B2_CASTER_Lv21_Dmg4" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E4_02" effect-1="Warrior_B2_CASTER_Lv21_Dmg4" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E5_01" effect-1="Warrior_B2_CASTER_Lv21_Dmg5" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CASTER_Lv21_E5_02" effect-1="Warrior_B2_CASTER_Lv21_Dmg5" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CENTER_Lv21_E1_01" effect-1="Warrior_B2_CENTER_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_CENTER_Lv21_E1_02" effect-1="Warrior_B2_CENTER_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E1_01" effect-1="Warrior_B2_Lv21_ENEMY_Dmg1" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E1_02" effect-1="Warrior_B2_Lv21_ENEMY_Dmg1" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E2_01" effect-1="Warrior_B2_Lv21_ENEMY_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E2_02" effect-1="Warrior_B2_Lv21_ENEMY_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E3_01" effect-1="Warrior_B2_Lv21_ENEMY_Dmg3" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E3_02" effect-1="Warrior_B2_Lv21_ENEMY_Dmg3" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E4_01" effect-1="Warrior_B2_Lv21_ENEMY_Dmg4" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E4_02" effect-1="Warrior_B2_Lv21_ENEMY_Dmg4" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E5_01" effect-1="Warrior_B2_Lv21_ENEMY_Dmg5" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_B2_ENEMY_Lv21_E5_02" effect-1="Warrior_B2_Lv21_ENEMY_Dmg5" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_windmill_Lv11_E1_01" effect-1="Warrior_windmill_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_windmill_Lv11_E1_02" effect-1="Warrior_windmill_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_windmill_Lv21_E1_01" effect-1="Warrior_windmill_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_windmill_Lv21_E1_02" effect-1="Warrior_windmill_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_inhalation-catch11_E1_02" effect-1="Shooter_Linked_escape_inhalation-catch_stun" effect-2="Warrior_Linked_Escape_inhalation-catch_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_inhalation-catch11_E1_03" effect-1="Warrior_Linked_Escape_inhalation-catch_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_inhalation-catch11_E2_01" effect-1="Warrior_Linked_Escape_inhalation-catch_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_inhalation-catch11_E2_02" effect-1="Warrior_Linked_Escape_inhalation-catch_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_inhalation-catch21_E1_02" effect-1="Shooter_Linked_escape_inhalation-catch_stun" effect-2="Warrior_Linked_Escape_inhalation-catch_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_inhalation-catch21_E1_03" effect-1="Warrior_Linked_Escape_inhalation-catch_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_inhalation-catch21_E2_01" effect-1="Warrior_Linked_Escape_inhalation-catch_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_inhalation-catch21_E2_02" effect-1="Warrior_Linked_Escape_inhalation-catch_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_mount11_E1_02" effect-1="Shooter_Linked_Escape_mount_down" effect-2="Warrior_Linked_Escape_inhalation-catch_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_mount11_E1_03" effect-1="Warrior_Linked_Escape_inhalation-catch_Lv11_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_mount21_E1_02" effect-1="Shooter_Linked_Escape_mount_down" effect-2="Warrior_Linked_Escape_inhalation-catch_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Escape_mount21_E1_03" effect-1="Warrior_Linked_Escape_inhalation-catch_Lv21_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Attack11_E1_01" effect-1="Warrior_Linked_Attack_inhalation-catch_Lv11_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Attack11_E1_02" effect-1="Warrior_Linked_Attack_inhalation-catch_Lv11_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Attack21_E1_01" effect-1="Warrior_Linked_Attack_inhalation-catch_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="WA_Linked_Attack21_E1_02" effect-1="Warrior_Linked_Attack_inhalation-catch_Lv21_Dmg" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
+	<record alias="WA_escape_LV11_E1_02" effect-1="Warrior_escape_LV11_Dmg" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
+	<record alias="WA_escape_LV11_E1_03" effect-1="Warrior_Common_Kneel3000" effect-2="Common_ReactToDown_Flag" effect-3="Warrior_escape_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
+	<record alias="WA_escape_LV11_E1_04" effect-1="Warrior_escape_LV11_Dmg" skill-result="parry-perfect-parry-counter" target="second-target" target-state="Enemy" />
+	<record alias="WA_escape_LV21_E1_02" effect-1="Warrior_escape_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
+	<record alias="WA_escape_LV21_E1_03" effect-1="Warrior_Common_Kneel3000" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
+	<record alias="WA_escape_LV21_E1_04" effect-1="Warrior_escape_LV11_Dmg" skill-result="parry-perfect-parry-counter" target="second-target" target-state="Enemy" />
+	<record alias="Warrior_baseAttack2_holy_Lv21_E1_01" effect-1="Warrior_baseAttack1_holy_Lv21_Dmg" effect-2="Warrior_baseAttack1_holy_Lv21_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_holy_Lv21_E1_02" effect-1="Warrior_baseAttack1_holy_Lv21_Dmg" effect-2="Warrior_baseAttack1_holy_Lv21_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_holy_Lv21_E1_01" effect-1="Warrior_baseAttack2_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_holy_Lv21_E1_02" effect-1="Warrior_baseAttack2_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_holy_Lv21_E2_01" effect-1="Warrior_baseAttack3_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_holy_Lv21_E2_02" effect-1="Warrior_baseAttack3_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_holy_Lv22_E1_01" effect-1="Warrior_baseAttack1_holy_Lv22_Dmg" effect-2="Warrior_baseAttack1_holy_Lv22_Dmg2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_holy_Lv22_E1_02" effect-1="Warrior_baseAttack1_holy_Lv22_Dmg" effect-2="Warrior_baseAttack1_holy_Lv22_Dmg2" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack2_holy_Lv22_E1_01_CC" effect-1="Warrior_baseAttack1_holy_CC_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_baseAttack2_holy_Lv22_E1_02_CC" effect-1="Warrior_baseAttack1_holy_CC_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_baseAttack3_holy_Lv22_E1_01" effect-1="Warrior_baseAttack2_holy_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_holy_Lv22_E1_02" effect-1="Warrior_baseAttack2_holy_Lv22_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_holy_Lv22_E2_01" effect-1="Warrior_baseAttack3_holy_Lv22_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_holy_Lv22_E2_02" effect-1="Warrior_baseAttack3_holy_Lv22_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_baseAttack3_holy_Lv22_E1_01_CC" effect-1="Warrior_baseAttack3_holy_CC_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_baseAttack3_holy_Lv22_E1_02_CC" effect-1="Warrior_baseAttack3_holy_CC_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_SoulMask_Lv11_E1_01" effect-1="Warrior_godskill_imm" skill-result="all" target="caster" target-state="all" target-state-first-filter="60301" />
+	<record alias="Warrior_SoulMask_Lv11_E1_02" effect-1="Warrior_godskill_imm" skill-result="all" target="second-target" target-state="my-party" target-state-first-filter="60301" />
+	<record alias="Warrior_SoulMask_Lv11_E1_03" effect-1="Warlock_Spell_SoulMask_NotuseFlag" skill-result="all" target="second-target" target-state="my-party" target-state-first-filter="8000" />
+	<record alias="Warrior_Spin_holy_Lv21_E1_01" effect-1="Warrior_Spin_holy_Lv21_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_Spin_holy_Lv21_E1_02" effect-1="Warrior_Spin_holy_Lv21_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill_Heal_Caster_135" effect-1="Common_MasterSkill_Heal_Caster_135" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
+	<record alias="Warrior_MasterSkill_Heal_Caster_10" effect-1="Common_MasterSkill_Heal_10" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
+	<record alias="Warrior_MasterSkill_Heal_Caster_15" effect-1="Common_MasterSkill_Heal_15" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
+	<record alias="Warrior_MasterSkill_Heal_Caster_120" effect-1="Common_MasterSkill_Heal_120" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
+	<record alias="Warrior_MasterSkill_Heal_Caster_55_CC" effect-1="Common_MasterSkill_Heal_Caster_55" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_MasterSkill_Heal_Caster_180_CC" effect-1="Common_MasterSkill_Heal_Caster_180" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_MasterSkill_Heal_Caster_250_CC" effect-1="Common_MasterSkill_Heal_Caster_250" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" target-state-first-filter="40089" />
+	<record alias="Warrior_Attack_AreaAttack_Lv52_E1_01" effect-1="KungfuMaster3_Attack_AreaAttack_Lv23_RecallToCaster_Down" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="40057" target-state-second-filter="60022" />
+	<record alias="Warrior_Attack_AreaAttack_Lv52_E1_02" effect-1="KungfuMaster3_Attack_AreaAttack_Lv23_RecallToCaster_Down" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="60005" target-state-second-filter="60007" />
+	<record alias="Warrior_Attack_AreaAttack_Lv52_E1_03" effect-1="KungfuMaster3_Attack_AreaAttack_Lv23_RecallToCaster" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="60005" target-state-second-filter="60002" />
+	<record alias="Warrior_Attack_AreaAttack_Lv52_E1_04" effect-1="KungfuMaster3_Attack_AreaAttack_Lv23_RecallToCaster" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="40058" target-state-second-filter="60022" />
+	<record alias="Warrior_Attack_AreaAttack_Lv52_E1_05" effect-1="KungfuMaster3_Attack_AreaAttack_Lv23_RecallToCaster" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" target-state-first-filter="60024" target-state-second-filter="60023" />
+</table>

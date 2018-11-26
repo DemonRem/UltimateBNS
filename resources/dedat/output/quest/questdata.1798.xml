@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1798.xml-->
+  <quest alias="q_epic_1798" category="epic" completed-desc="q_1798_completed" completed-list="y" desc="q_1798_sum" grade="1" group2="QG_Toturial" id="1798" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.1798" save-type="all" show-tutorial-tag="n" tutorial="y">
+    <acquisition job-1="투사" level="1" recommended-level="1" sort-no="106" />
+    <mission-step desc="q_1798_des_1" id="1">
+      <mission id="1" name2="Mission.Name2.1798_1" required-register-value="1" reward-1="1798_final_set1">
+        <case npc-response="qrsp_1798_1" object="npc:ch_youngmook_0009" progress-mission="y" type="talk" />
+        <case object="zone:StartZone_Renew_Warrior" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="or" desc="q_1798_des_2" guide-message="gm_1798_1" id="2">
+      <mission id="2" name2="Mission.Name2.1798_2" required-register-value="1">
+        <tutorial-case mapunit-1="1112_MH_RedMoKuJin_0001" object2-1="npc:MH_RedMoKuJin_0001" progress-mission="y" skill="Warrior_Earth_Shild_Lv11" skill3="Warrior_Earth_Shild_Lv11" type="skill" />
+        <case object="zone:StartZone_Renew_Warrior" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1798_3" object="npc:mh_redmokujin_0001" type="approach" />
+        <tutorial-case mapunit-1="1112_MH_RedMoKuJin_0001" object2-1="npc:MH_RedMoKuJin_0001" progress-mission="y" skill="Warrior_Earth_Shild_GG_Lv11" skill3="Warrior_Earth_Shild_GG_Lv11" type="skill" />
+      </mission>
+      <mission id="3" name2="Mission.Name2.1798_3" required-register-value="1">
+        <case npc-response="qrsp_1798_2" object="npc:CH_WB_YoungMook_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step completion-type="or" desc="q_1798_des_3" guide-message="gm_1798_3" id="3">
+      <mission id="4" name2="Mission.Name2.1798_4" required-register-value="1">
+        <tutorial-case mapunit-1="1112_MH_BlueMokuJin_0006" object2-1="npc:MH_BlueMokuJin_0006" progress-mission="y" skill="Warrior_Double2_Lv11" skill3="Warrior_Double2_Lv11" type="skill" />
+        <case object="zone:StartZone_Renew_Warrior" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1798_7" object="npc:MH_BlueMokuJin_0006" type="approach" />
+        <tutorial-case mapunit-1="1112_MH_BlueMokuJin_0006" object2-1="npc:MH_BlueMokuJin_0006" progress-mission="y" skill="Warrior_Double2_GG_Lv11" skill3="Warrior_Double2_GG_Lv11" type="skill" />
+      </mission>
+      <mission id="5" name2="Mission.Name2.1798_5" required-register-value="1">
+        <case npc-response="qrsp_1798_6" object="npc:CH_WB_YoungMook_0002" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_227" />
+    </completion>
+    <transit id="1" zone="startzone_renew_blade">
+      <destination mission-step-id="3" zone-index="12" />
+      <destination mission-step-id="2" zone-index="12" />
+      <destination mission-step-id="1" zone-index="12" />
+    </transit>
+  </quest>
+</table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1036.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1036.xml-->
   <quest alias="q_sub_1036" broadcast-category="field" category="normal" desc="q_1036_sum" district-1="suwal" grade="1" group2="QG_Delete" id="1036" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1036" retired="y" save-type="all">
     <acquisition level="42" preceding-quest-1="q_sub_1035" preceding-quest-check="and" recommended-level="46">
       <case acquire-quest="y" item="q_1036_1_icon" msg="q_1036_1" type="talk-to-self" />

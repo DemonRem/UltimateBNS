@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="ItemData" release-side="client" type="uiactionid" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/engine\uiactionid.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/engine\uiactionid.xml-->
 	<record action="00013376.Test_ContextCommand" alias="Test_CoxtextCommand" />
 	<record action="00028141.duel_round_start_group" alias="Duel_Round_Start" />
 	<record action="00028141.duel_result_particle_group" alias="Duel_Result_Particle" />

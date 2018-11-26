@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25023.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25023.xml-->
   <quest alias="q_sub_25023" attraction-1="classic-field-zone:SnakeScalesVally_Classic" broadcast-category="field" category="attraction" desc="q_25023_sum" grade="7" group2="QG_SnakeValley" id="25023" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.25023" save-type="nothing">
     <acquisition level="45" recommended-level="50" />
     <mission-step id="1">

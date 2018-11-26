@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1626.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1626.xml-->
   <quest alias="q_sub_1626" attraction-info="party-battle-field-zone:PartyBattle_ctf" category="normal" content-type="party-battle" day-of-week="daily" desc="q_1626_sum" grade="17" group2="QG_PartyBattleField" id="1626" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1626" reset-type="daily" save-type="all">
     <acquisition level="55" mastery-level="1" recommended-level="55">
       <case acquire-quest="y" indicator="quest-factionboard-repeat-start" npc-response="qrsp_1625_1" object="npc:CE_WA_Board_0004" type="talk" />

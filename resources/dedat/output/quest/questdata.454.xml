@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.454.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.454.xml-->
   <quest alias="q_sub_454" attraction-1="dungeon:Dungeon_BaekCheong_Sulokgoong" attraction-info="dungeon:Dungeon_BaekCheong_Sulokgoong" broadcast-category="field" category="normal" day-of-week="daily" desc="q_454_sum" grade="10" group2="QG_Sulokgoong" id="454" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.454" reset-type="daily">
     <acquisition level="50" preceding-quest-1="q_sub_296" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_454_1" object="npc:ch_c3_seolokgung_0005" type="talk" />

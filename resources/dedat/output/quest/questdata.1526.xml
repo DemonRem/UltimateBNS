@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1526.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1526.xml-->
   <quest alias="q_epic_1526" broadcast-category="field" category="epic" completed-desc="q_1526_completed" completed-list="y" desc="q_1526_sum" grade="1" group2="QG_Toturial" id="1526" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.1526" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition job-1="주술사" level="1" recommended-level="3" sort-no="103" />
     <mission-step id="1">

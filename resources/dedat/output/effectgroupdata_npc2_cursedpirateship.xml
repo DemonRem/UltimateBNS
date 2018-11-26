@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_cursedpirateship.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_cursedpirateship.xml-->
 	<record alias="ME_CursedPirateGhostA_None_Smashdown_E1_01" effect-1="ME_ID2_Common_Melee_Damage_200" skill-result="Hit-Critical-Hit" target="first-target" target-state="enemy" />
 	<record alias="ME_CursedPirateGhostA_None_Smashdown_E1_02" effect-1="ME_ID2_Common_Melee_Damage_200" skill-result="Parry-Perfect-Parry-Counter" target="first-target" target-state="enemy" />
 	<record alias="ME_CursedPirateGhostA_None_Spincut_E1_01" effect-1="ME_ID2_Common_Melee_Damage_280" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
@@ -178,6 +178,8 @@
 	<record alias="GWF_B1_CrystalLizard_NormalGround_E1_01" effect-1="GWF_B1_CrystalLizard_CrystalGround_buff" skill-result="all" target="second-target" target-state="all" target-state-first-filter="40006" />
 	<record alias="GWF_B1_CrystalLizard_NormalGround_E1_02" effect-1="GWF_B1_CrystalLizard_BossCrystalAnger_3_Minus" effect-2="GWF_B1_CrystalLizard_BossCrystalAnger_3_Check" effect-3="GWF_B1_CrystalLizard_CrystalGround_buff_Check" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" target-state-second-filter="60150" />
 	<record alias="GWF_B1_CrystalLizard_NormalGround_E1_03" effect-1="GWF_B1_CrystalLizard_BossCrystalAnger_2_Minus" effect-2="GWF_B1_CrystalLizard_BossCrystalAnger_2_Check" effect-3="GWF_B1_CrystalLizard_CrystalGround_buff_Check" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" target-state-second-filter="60152" />
+	<record alias="GWF_B1_CrystalLizard_NormalGround_E1_02_Easy" effect-1="GWF_B1_CrystalLizard_BossCrystalAnger_3_Easy" effect-2="GWF_B1_CrystalLizard_BossCrystalAnger_3_Check_Easy" effect-3="GWF_B1_CrystalLizard_CrystalGround_buff_Check" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" target-state-second-filter="60150" />
+	<record alias="GWF_B1_CrystalLizard_NormalGround_E1_03_Easy" effect-1="GWF_B1_CrystalLizard_BossCrystalAnger_2_Easy" effect-2="GWF_B1_CrystalLizard_BossCrystalAnger_2_Check_Easy" effect-3="GWF_B1_CrystalLizard_CrystalGround_buff_Check" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" target-state-second-filter="60152" />
 	<record alias="GWF_B2_BlackFist_DoubleSwing_E1_01" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Hit-critical-hit" target="second-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_DoubleSwing_E1_p" effect-1="ME_ID2_Common_Melee_Damage_130" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Downwardpunch_E1_01" effect-1="ME_ID2_Common_Melee_Damage_350" effect-2="PVE_Common_Down_Front_2000ms" effect-3="Common_ReactToDown_Flag" skill-result="Hit-critical-hit" target="second-target" target-state="Enemy" />
@@ -199,9 +201,11 @@
 	<record alias="GWF_B2_BlackFist_CircleWave_E1_p" effect-1="ME_ID2_Common_Melee_Damage_100" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Inhalation_E1_01" effect-1="Common_Dispel_Attribute_Class17" effect-2="Common_Dispel_Attribute_NPC1" effect-3="MH_Common_Dispel_midair1" effect-4="GWF_B2_BlackFist_Inhalation_Recall_Pull" effect-5="Common_ReactToDown_Flag_400ms" skill-result="Hit-critical-hit" target="second-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Frontcurse_E1_01" effect-1="GWF_B2_BlackFist_Frontcurse_Curse_Death" skill-result="all" target="second-target" target-state="Enemy" target-state-first-filter="40006" target-state-second-filter="60155" />
+	<record alias="GWF_B2_BlackFist_Frontcurse_E1_01_Easy" effect-1="ME_ID2_Common_Percent_Damage_75" skill-result="Hit-critical-hit" target="second-target" target-state="Enemy" target-state-first-filter="40006" target-state-second-filter="60155" />
 	<record alias="GWF_B2_BlackFist_Frontcurse_E1_02" effect-1="GWF_B2_BlackFist_TentacleGround_Frontcurse_Hit" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" target-state-second-filter="60319" />
 	<record alias="GWF_B2_BlackFist_Backcurse_E1_01" effect-1="ME_ID2_Common_Melee_Damage_100" effect-2="GWF_B2_BlackFist_frontcurse_Count" skill-result="all" target="first-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E1_01" effect-1="ME_ID2_Common_Melee_Damage_100" effect-2="GWF_B2_BlackFist_cursediffusuon_Debuff" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60056" />
+	<record alias="GWF_B2_BlackFist_Cursediffusuon_E1_01_Easy" effect-1="ME_ID2_Common_Melee_Damage_100" effect-2="GWF_B2_BlackFist_Cursediffusuon_Debuff_Easy" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60056" />
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E1_Curse_Death" effect-1="GWF_B2_BlackFist_frontcurse_Curse_Death" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60151" />
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E1_02" effect-1="ME_ID2_Common_Melee_Damage_100" effect-2="GWF_B2_BlackFist_cursediffusuon_Debuff2" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60054" />
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E1_03" effect-1="GWF_B2_BlackFist_Cursediffusuon_Debuff_Death" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60053" />
@@ -209,7 +213,9 @@
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E1_05" effect-1="GWF_B2_BlackFist_Cursediffusuon_Debuff_Death" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60140" />
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E2_01" effect-1="ME_ID2_Common_Melee_Damage_100" effect-2="GWF_B2_BlackFist_cursediffusuon_Debuff" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60056" />
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E2_02" effect-1="ME_ID2_Common_Melee_Damage_100" effect-2="GWF_B2_BlackFist_cursediffusuon_Debuff2" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60054" />
+	<record alias="GWF_B2_BlackFist_Cursediffusuon_E2_02_Easy" effect-1="ME_ID2_Common_Melee_Damage_100" effect-2="GWF_B2_BlackFist_Cursediffusuon_Debuff2_Easy" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60054" />
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E2_03" effect-1="GWF_B2_BlackFist_Cursediffusuon_Debuff_Death" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60053" />
+	<record alias="GWF_B2_BlackFist_Cursediffusuon_E2_03_Easy" effect-1="ME_ID2_Common_Percent_Damage_75" effect-2="GWF_B2_BlackFist_Cursediffusuon_Debuff2_Easy" skill-result="Hit-critical-hit" target="first-target" target-state="Enemy" target-state-first-filter="60053" />
 	<record alias="GWF_B2_BlackFist_Cursediffusuon_E2_04" effect-1="GWF_B2_BlackFist_Cursediffusuon_Debuff_Death" skill-result="all" target="first-target" target-state="Enemy" target-state-first-filter="60055" />
 	<record alias="GWF_B2_BlackFist_Handbomb_E1_01" effect-1="ME_ID2_Common_Melee_Damage_250" effect-2="ME_ID2_Common_Kneel_2000" effect-3="Common_ReactToDown_Flag" skill-result="Hit-critical-hit" target="first-second-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Cursefist_E1_01" effect-1="ME_ID2_Common_Melee_Damage_180" effect-2="PVE_Common_Down_Front_2000ms" effect-3="Common_ReactToDown_Flag" skill-result="Hit-critical-hit" target="second-target" target-state="Enemy" target-state-first-filter="40006" />
@@ -232,6 +238,7 @@
 	<record alias="GWF_B2_BlackFist_Landattack_Berserk_E1_01" effect-1="Common_Dispel_Attribute_Class17" effect-2="Common_Dispel_Attribute_NPC1" effect-3="ME_ID2_Common_Melee_Damage_100" skill-result="All" target="second-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Landattack_Berserk_E5_01" effect-1="Common_Dispel_Attribute_Class17" effect-2="Common_Dispel_Attribute_NPC1" effect-3="MH_Common_Suicide" skill-result="All" target="second-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Curse_Race_PC" effect-1="GWF_B2_BlackFist_frontcurse_Curse" skill-result="All" target="first-second-target" target-state="Enemy" target-state-first-filter="40006" />
+	<record alias="GWF_B2_BlackFist_Curse_Race_PC_Easy" effect-1="GWF_B2_BlackFist_frontcurse_Curse" skill-result="All" target="first-second-target" target-state="Enemy" target-state-first-filter="40006" target-state-second-filter="60154" />
 	<record alias="GWF_B2_BlackFist_Decay_Race_PC" effect-1="GWF_B2_BlackFist_Decay" skill-result="Hit-critical-hit" target="first-second-target" target-state="Enemy" target-state-first-filter="40006" />
 	<record alias="GWF_B2_BlackFist_TentacleGround_D_E1_01" effect-1="GWF_B2_BlackFist_TentacleGround_Overlap" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" target-state-second-filter="60319" />
 	<record alias="GWF_B2_BlackFist_TentacleGround_D_E1_02" effect-1="GWF_B2_BlackFist_Frontcurse_Curse_Death" skill-result="all" target="second-target" target-state="Enemy" target-state-first-filter="40006" target-state-second-filter="60155" />
@@ -241,6 +248,8 @@
 	<record alias="GWF_B2_BlackFist_Tentacleattack_Laser_E1_01" effect-1="ME_ID2_Common_Melee_Damage_200" effect-2="PVE_Common_Down_Front_2000ms" effect-3="Common_ReactToDown_Flag" skill-result="Hit-critical-hit" target="second-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Watch_E1_01" effect-1="GWF_B2_BlackFist_LinkedLaserEffect_Watch" skill-result="Hit-critical-hit" target="first-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_TentacleGround_Bomb_E1_01" effect-1="MH_Common_Suicide" skill-result="all" target="second-target" target-state="Enemy" />
+	<record alias="GWF_B2_BlackFist_TentacleGround_Bomb_E1_01_Easy" effect-1="ME_ID2_Common_Percent_Damage_75" skill-result="Hit-critical-hit" target="second-target" target-state="Enemy" />
+	<record alias="GWF_B2_BlackFist_TentacleGround_Bomb_E1_02_Easy" effect-1="GWF_B2_BlackFist_TentacleGround_Bomb_Easy_Hit" skill-result="all" target="second-target" target-state="all" target-state-first-filter="30000" target-state-second-filter="60319" />
 	<record alias="GWF_B2_BlackFist_GroundSpawn_Show_Target_E1_01" effect-1="GWF_B2_BlackFist_GroundSpawn_Show" skill-result="all" target="first-target" target-state="Enemy" />
 	<record alias="GWF_B2_BlackFist_Dummy_Hate_E1_01" effect-1="GWF_B2_BlackFist_Dummy_Hate_Spread_PC" skill-result="all" target="second-target" target-state="Enemy" target-state-first-filter="50027" />
 </table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1356.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1356.xml-->
   <quest alias="q_sub_1356" category="normal" content-type="elite-skill" desc="q_1356_sum" grade="1" group2="QG_Elite" id="1356" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1356" retired="y" save-type="all">
     <acquisition job-1="소환사" level="1" recommended-level="45">
       <case acquire-quest="y" grocery="GB_Quest_Scroll_EliteSkill_0005" item="GB_Quest_Scroll_EliteSkill_0005" msg="q_1356_1" type="talk-to-item" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25115.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25115.xml-->
   <quest alias="q_sub_25115" broadcast-category="sextet" category="dungeon" dungeon="Dungeon_DongHae_chungkak_B_mini_50lv" grade="21" id="25115" max-repeat="1" name2="Quest.Name2.25115" progress-difficulty-type-2="n" progress-difficulty-type-3="n" reset-by-acquire-time="none" save-type="nothing">
     <acquisition level="50" preceding-quest-1="q_epic_1429" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" object="zoneenv:2310_Portal_4731" object2="zoneenv2:2310_Portal_4731" type="enter-portal" />

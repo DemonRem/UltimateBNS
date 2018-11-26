@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1550.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1550.xml-->
   <quest alias="q_sub_1550" broadcast-category="field" category="normal" desc="q_1550_sum" grade="14" group2="QG_Musintap_F20" id="1550" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1550" save-type="all">
     <acquisition level="50" preceding-quest-1="q_epic_996" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" item="q_1550_1_icon" msg="q_1550_1" type="talk-to-self" />

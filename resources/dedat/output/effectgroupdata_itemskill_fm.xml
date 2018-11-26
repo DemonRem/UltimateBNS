@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_fm.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_fm.xml-->
 	<record alias="ItemSkill_FM_energy_bit_missile_S1_Lv1_01_E1" effect-1="ForceMaster_Deal_fire_bit_missile_bit_Lv1_Firebuff" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_FM_energy_missile_S2_Lv1_01_E1" effect-1="ItemSkill_FM_energy_missile_S2_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_FM_energy_missile_S2_Lv1_02_E1" effect-1="ItemSkill_FM_energy_missile_S2_Lv1_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
@@ -21,7 +21,8 @@
 	<record alias="ItemSkill_FM_Deal_energy_blackhole_S10_Lv1_01_E1" effect-1="ItemSkill_FM_Deal_energy_blackhole_S10_Lv1_01_Buff" effect-2="ForceMaster_Deal_common_FireBit_1" effect-3="ForceMaster_Deal_common_IceBit_1" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_FM_cold_IceBlast_S10_Lv1_02_E1" effect-1="ItemSkill_FM_cold_IceBlast_S10_Lv1_01_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_FM_frost_spread_S11_Lv1_01_E1" effect-1="ItemSkill_FM_frost_spread_S12_Lv1_AdditionalHP" skill-result="all" target="caster" target-state="all" />
-	<record alias="ItemSkill_FM_frost_spread_S12_Lv1_01_E1" effect-1="ForceMaster_Common_Dispel_Down" effect-2="ForceMaster_Common_Dispel_Kneel" effect-3="ForceMaster_Common_Dispel_Stun" effect-4="ItemSkill_FM_frost_spread_S12_Lv1_SpeedUp" skill-result="hit-critical-hit" target="first-second-target" target-state="my-party" />
+	<record alias="ItemSkill_FM_frost_spread_S11_Lv1_01_E2" effect-1="ItemSkill_FM_frost_spread_S12_Lv1_AdditionalHP2" skill-result="all" target="second-target" target-state="my-party" />
+	<record alias="ItemSkill_FM_frost_spread_S12_Lv1_01_E1" effect-1="ForceMaster_Deal_common_freezing" effect-2="ForceMaster_Deal_common_freezing_sub" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_FM_fire_bit_missile_S13_Lv1_01_E1" effect-1="ItemSkill_FM_fire_bit_missile_S13_Lv1_01_MCT20" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_FM_Deal_energy_blackhole_S14_Lv1_01_E1" effect-1="ItemSkill_FM_Deal_energy_blackhole_S14_Lv1_01_MCT10" skill-result="all" target="caster" target-state="all" />
 </table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1625.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1625.xml-->
   <quest alias="q_sub_1625" category="normal" content-type="party-battle" desc="q_1625_sum" grade="17" group2="QG_PartyBattleField" id="1625" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1625" save-type="all">
     <acquisition level="55" mastery-level="1" recommended-level="55">
       <case acquire-quest="y" item="q_1625_1_icon" msg="q_1625_1" type="talk-to-self" />

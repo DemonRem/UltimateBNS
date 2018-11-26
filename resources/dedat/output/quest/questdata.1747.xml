@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1747.xml-->
+  <quest alias="q_epic_1747" category="epic" completed-desc="q_1747_completed" completed-list="y" desc="q_1747_sum" grade="1" group2="QG_NextWestLandEpic" id="1747" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1747" save-type="all">
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1747_1" required-register-value="1">
+        <case mapunit-1="6448_Zone_GW_CheonMyungGung_LodGing_P1" object="zone:Zone_GW_CheonMyungGung_LodGing_P1" progress-mission="y" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1747_2" required-register-value="1">
+        <case mapunit-1="6448_CH_WC_UnKukMaid_0016" npc-response="qrsp_1747_1" object="npc:ch_wc_unkukmaid_0016" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1747_3" required-register-value="1">
+        <case mapunit-1="6448_CH_WC_aide_0004" npc-response="qrsp_1747_2" object="npc:CH_WC_aide_0004" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_LodGing_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1747_4" required-register-value="1">
+        <case mapunit-1="6448_e_gate_6448_01_1" object2="zoneenv2:e_gate_6448_01_1" progress-mission="y" type="manipulate" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_LodGing_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1747_5" required-register-value="3">
+        <case mapunit-1="6448_MH_WC_Assassin_0001" object2="npc:mh_wc_assassin_0001" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_assassin_0002" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_assassin_0003" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step desc="q_1747_des_8" id="8">
+      <mission id="8" name2="Mission.Name2.1747_8" required-register-value="1">
+        <case object="zone:Zone_GW_CheonMyungGung_LodGing_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="6446_Zone_GW_CheonMyungGung_BanquetHall_P2" object="zone:Zone_GW_CheonMyungGung_BanquetHall_P2" progress-mission="y" type="enter-zone" />
+        <case button-text-accept="q_1747_7_ok" button-text-cancel="q_1747_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1747_9" object="npc:CH_WC_PungGroup_0025" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1747_6" required-register-value="1">
+        <case mapunit-1="6446_CH_WC_UnKukArmy_0054" object="npc:CH_WC_UnKukArmy_0054" progress-mission="y" show-in-tooltip="n" type="npc-manipulate" />
+        <fixed-reward slot-1="item:quest_scroll_epic9_0002" />
+        <case object="npc:MH_WC_UnKukArmy_0007" progress-mission="reaction-only" type="npc-bleeding-occured" />
+        <case object2="npc:mh_wc_unkukarmy_0007" progress-mission="reaction-only" show-in-tooltip="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="4" />
+    </mission-step>
+    <mission-step desc="q_1747_des_7" id="7">
+      <mission id="7" name2="Mission.Name2.1747_7" required-register-value="1">
+        <case grocery="quest_scroll_epic9_0002" item="quest_scroll_epic9_0002" msg="q_1747_3" progress-mission="y" required-item-1="quest_scroll_epic9_0002" required-item-depot="bag" required-item-loss="y" type="talk-to-item" valid-zone-1="Zone_GW_CheonMyungGung_LodGing_P1" />
+        <case button-text-accept="q_1747_7_ok" button-text-cancel="q_1747_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1747_9" object="npc:CH_WC_PungGroup_0025" progress-mission="reaction-only" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_LodGing_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1747_des_9" id="9">
+      <mission id="9" name2="Mission.Name2.1747_9" required-register-value="1">
+        <case mapunit-1="6446_6446_foot_1_place" object2="zoneenv2:6446_foot_1" progress-mission="y" type="env-entered" />
+        <case object="zone:Zone_GW_CheonMyungGung_LodGing_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case button-text-accept="q_1747_7_ok" button-text-cancel="q_1747_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1747_9" object="npc:CH_WC_PungGroup_0025" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1747_10" required-register-value="1">
+        <case mapunit-1="6446_CH_WC_aide_0005" npc-response="qrsp_1747_4" object="npc:CH_WC_aide_0005" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1747_11" required-register-value="1">
+        <case mapunit-1="6446_ME_WC_DemonBoss_0001" object2="npc:me_wc_demonboss_0001" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="10" />
+    </mission-step>
+    <mission-step desc="q_1747_des_12" id="12">
+      <mission id="12" name2="Mission.Name2.1747_12" required-register-value="1">
+        <case mapunit-1="6450_Zone_GW_CheonMyungGung_StudentLodGing_P1" object="zone:Zone_GW_CheonMyungGung_StudentLodGing_P1" progress-mission="y" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P2" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case button-text-accept="q_1747_8_ok" button-text-cancel="q_1747_8_no" indicator="quest-epic-can-progress" npc-response="qrsp_1747_9" object="npc:CH_WC_PungGroup_0025" progress-mission="reaction-only" type="talk" />
+        <case npc-response="qrsp_1747_13" object="npc:mh_wc_jegukarmy_0001" type="approach" />
+        <case npc-response="qrsp_1747_14" object="npc:mh_wc_jegukarmy_0002" type="approach" />
+        <case npc-response="qrsp_1747_15" object="npc:mh_wc_jegukarmy_0003" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step desc="q_1747_des_13" id="13">
+      <mission id="13" name2="Mission.Name2.1747_13" required-register-value="1">
+        <case mapunit-1="6450_CH_WC_ChinChin_0007" npc-response="qrsp_1747_5" object="npc:ch_wc_chinchin_0007" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P2" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_StudentLodGing_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1747_10" object="npc:CH_WC_BunYang_0007" progress-mission="n" type="approach" />
+        <case npc-response="qrsp_1747_11" object="npc:CH_WC_BunA_0007" progress-mission="n" type="approach" />
+        <case button-text-accept="q_1747_8_ok" button-text-cancel="q_1747_8_no" indicator="quest-epic-can-progress" npc-response="qrsp_1747_9" object="npc:CH_WC_PungGroup_0025" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1747_14" required-register-value="1">
+        <case mapunit-1="6450_6450_foot_1" object2="zoneenv2:6450_foot_1" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1747_8" object="npc:CH_WC_SeoYeon_0008" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1747_12" object="npc:CH_WC_BunYang_0007" progress-mission="n" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="13" />
+    </mission-step>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1747_15" required-register-value="1" reward-1="1747_final_set1">
+        <case mapunit-1="6450_CH_WC_SeoYeon_0008" npc-response="qrsp_1747_6" object="npc:CH_WC_SeoYeon_0008" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail dispose-quest="n" rollback-step-id="13" />
+    </mission-step>
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="835" />
+    <completion>
+      <next-quest quest="q_epic_1748" />
+    </completion>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_LodGing">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+    </transit>
+    <transit id="2" zone="Zone_GW_CheonMyungGung_SpecialDock">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+    </transit>
+    <transit id="3" zone="Zone_GW_CheonMyungGung_BanquetHall">
+      <destination mission-step-id="8" zone-index="2" />
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="11" zone-index="2" />
+      <destination mission-step-id="12" zone-index="2" />
+      <destination mission-step-id="13" zone-index="2" />
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+    </transit>
+    <transit id="4" zone="Zone_GW_CheonMyungGung_StudentLodGing">
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="15" zone-index="1" />
+    </transit>
+  </quest>
+</table>

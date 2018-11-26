@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1776.xml-->
+  <quest alias="q_sub_1776" category="normal" desc="q_1776_sum" grade="1" group2="QG_ChunMyungPalace" id="1776" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1776" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" npc-response="qrsp_1776_6" object="npc:ch_wc_postofficer_0007" progress-mission="n" type="talk" />
+      <fixed-reward slot-1="item:Quest_Scroll_PilbuEpic9_0001" />
+    </acquisition>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1776_2" required-register-value="1">
+        <case mapunit-1="6460_CH_WC_PostOfficer_0005" npc-response="qrsp_1776_2" object="npc:ch_wc_postofficer_0005" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1776_3" required-register-value="1">
+        <case mapunit-1="6462_CH_WC_MiddleMarket_0003" npc-response="qrsp_1776_3" object="npc:ch_wc_middlemarket_0003" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1776_4" required-register-value="2">
+        <case looting="q_1776_2_icon" mapunit-1="6462_e_chest_6462_braveflower_01" multi-object-1="zoneenv2:e_chest_6462_braveflower_01" multi-object-2="zoneenv2:e_chest_6462_braveflower_02" multi-object-3="zoneenv2:e_chest_6462_braveflower_03" multi-object-4="zoneenv2:e_chest_6462_braveflower_04" progress-mission="y" type="loot" />
+        <case looting="q_1776_2_icon" mapunit-1="6462_e_chest_6462_braveflower_01" multi-object-1="zoneenv2:e_chest_6462_braveflower_06" multi-object-2="zoneenv2:e_chest_6462_braveflower_05" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1776_5" required-register-value="1">
+        <case mapunit-1="6462_CH_WC_MiddleMarket_0001" npc-response="qrsp_1776_4" object="npc:ch_wc_middlemarket_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1776_6" required-register-value="1" reward-1="1776_final_set1">
+        <case item="q_1776_3_icon" msg="q_1776_5" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+    <giveup-loss item-1="Quest_Scroll_PilbuEpic9_0001" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1776_1" required-register-value="1">
+        <case grocery="Quest_Scroll_PilbuEpic9_0001" item="Quest_Scroll_PilbuEpic9_0001" msg="q_1776_1" progress-mission="y" required-item-1="Quest_Scroll_PilbuEpic9_0001" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

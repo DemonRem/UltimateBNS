@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_templeofstorm.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_templeofstorm.xml-->
 	<record alias="ME_HT_NaHanThunder_None_Thunder1_E1_01" effect-1="ME_HT_NaHanThunder_None_Thunder_damage" effect-2="ME_HT_NaHanThunder_None_Thunder_Knockback" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="hit-critical-hit" target="second-target" target-state="Enemy" />
 	<record alias="ME_HT_NaHanThunder_None_Thunder1_E1_p" effect-1="ME_HT_NaHanThunder_None_Thunder_damage" skill-result="parry" target="second-target" target-state="Enemy" />
 	<record alias="ME_HT_NaHanThunder_None_Thunder1_E1_pp" effect-1="ME_HT_NaHanThunder_None_Thunder_damage" individual-probability="n" skill-result="perfect-parry" target="second-target" target-state="Enemy" />

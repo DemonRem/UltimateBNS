@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="ItemData" release-side="client" type="QuestRewardSkill3" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/questrewardskill3data.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/questrewardskill3data.xml-->
 	<record alias="AS_1216_Skill_Attr1" attribute="attr1" skill3-1="Assassin_Disturb_MistSlash_Lv1" skill3-2="Assassin_Disturb_DewSlash_Lv1" skill3-3="Assassin_Disturb_MoonlightSlash_Lv1" />
 	<record alias="AS_1216_Sub_Skill_Attr1" attribute="attr1" skill3-1="Assassin_Hide_Mine_Lv1" skill3-2="Assassin_Disturb_Dash_Lv1" skill3-3="Assassin_Hide_SpineStab_Lv1" />
 	<record alias="AS_1216_Skill_Attr2" attribute="attr2" skill3-1="Assassin_Disturb_MistSlash_Lv2" skill3-2="Assassin_Disturb_DewSlash_Lv2" skill3-3="Assassin_Disturb_MoonlightSlash_Lv2" />
@@ -27,6 +27,8 @@
 	<record alias="CM_1277_Skill_Attr2" attribute="attr2" skill3-1="Common_Act_HyperMove_Lv23" />
 	<record alias="CM_1667_Skill_Attr1" attribute="attr1" skill3-1="Common_Act_HyperMove_Lv4" />
 	<record alias="CM_1667_Skill_Attr2" attribute="attr2" skill3-1="Common_Act_HyperMove_Lv24" />
+	<record alias="CM_1814_Skill_Attr1" attribute="attr1" skill3-1="Common_Act_HyperMove_Lv5" />
+	<record alias="CM_1814_Skill_Attr2" attribute="attr2" skill3-1="Common_Act_HyperMove_Lv25" />
 	<record alias="CM_223_Skill_Attr1" attribute="attr1" skill3-1="common_Act_HyperMove_Lv1" skill3-2="common_act_sprint_Lv1" />
 	<record alias="CM_223_Sub_Skill_Attr1" attribute="attr1" skill3-1="common_act_glide_lv1" />
 	<record alias="CM_223_Skill_Attr2" attribute="attr2" skill3-1="common_Act_HyperMove_Lv21" skill3-2="common_act_sprint_Lv21" />
@@ -99,4 +101,8 @@
 	<record alias="WL_1526_Sub_Skill_Attr2" attribute="attr2" skill3-1="Warlock_Spell_Counter_Lv21" skill3-2="Warlock_Spell_CounterAttack_Lv21" skill3-3="Warlock_Spell_BigLB_Lv21" skill3-4="Warlock_Summoned_Blackhole_Lv21" />
 	<record alias="PT_1702_Skill_Attr1" attribute="attr1" skill3-1="Shooter_Counter_Lv11" skill3-2="Shooter_Right_shot1_Lv11" skill3-3="Shooter_Reload1_Lv11" />
 	<record alias="PT_1702_Skill_Attr2" attribute="attr2" skill3-1="Shooter_Counter_Lv21" skill3-2="Shooter_Right_shot1_Lv21" skill3-3="Shooter_Reload1_Lv21" />
+	<record alias="WA_1797_Skill_Attr1" attribute="attr1" skill3-1="Warrior_Earth_Shild_Lv11" skill3-2="Warrior_shild_Lv11" />
+	<record alias="WA_1797_Skill_Attr2" attribute="attr2" skill3-1="Warrior_Earth_Shild_Lv21" skill3-2="Warrior_shild_Lv21" />
+	<record alias="WA_1798_Skill_Attr1" attribute="attr1" skill3-1="Warrior_baseAttack1_Lv11" skill3-2="Warrior_Double_Lv11" skill3-3="Warrior_Double2_Lv11" />
+	<record alias="WA_1798_Skill_Attr2" attribute="attr2" skill3-1="Warrior_baseAttack1_Lv21" skill3-2="Warrior_Double_Lv21" skill3-3="Warrior_Double2_Lv21" />
 </table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.592.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.592.xml-->
   <quest alias="q_sub_592" broadcast-category="field" category="normal" desc="q_592_sum" grade="1" group2="QG_Delete" id="592" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.592" retired="y" save-type="all" show-tutorial-tag="y">
     <acquisition level="3" preceding-quest-1="q_epic_305" preceding-quest-check="and" recommended-level="5" />
     <mission-step guide-message="gm_592_1" id="1" retired="y">

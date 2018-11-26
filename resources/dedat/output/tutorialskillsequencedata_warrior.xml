@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="TutorialSkillSequence" version="0.1">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/tutorialskillsequencedata_warrior.xml-->
+ 
+
+
+<tutorialSkillSequence alias="Warrior_Lv4_M11_1">
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38150" target-pass-state="down" type="skill" /> 
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38350" type="skill" /> 
+</tutorialSkillSequence>
+
+<tutorialSkillSequence alias="Warrior_Lv4_M11_2">
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38350" type="skill" />  
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38260" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="Warrior_Lv6_M11_1">
+	  <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38100" type="skill" /> 
+	  <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38120" type="skill" /> 
+</tutorialSkillSequence>
+
+<tutorialSkillSequence alias="Warrior_Lv6_M11_2">
+	  <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38345" type="skill" /> 
+	  <step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38270" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="Warrior_Lv8_M11">
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38150" target-pass-state="down" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="Warrior_Lv10_M11">
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38150" target-pass-state="down" type="skill" /> 
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38430" type="skill" /> 
+</tutorialSkillSequence>
+  
+
+<tutorialSkillSequence alias="Warrior_Lv12_M11">
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38040" type="skill" /> 
+</tutorialSkillSequence>
+
+
+<tutorialSkillSequence alias="Warrior_Lv14_M11">
+	<step check-parent-skill="y" result-1="hit" result-2="critical-hit" result-event-type-1="attack" result-event-type-2="attack" skill-1="38616" type="skill" /> 
+</tutorialSkillSequence>
+ 
+</table>

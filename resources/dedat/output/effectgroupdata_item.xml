@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="ItemData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_item.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_item.xml-->
 	<record alias="Item_Resurrection_Action_E1_01" effect-1="Item_Resurrection_Action_Resurrection" effect-2="Item_Resurrection_Action_Resurrection_blockact" effect-3="Item_Resurrection_Action_Resurrection_immune" skill-result="hit-critical-hit" target="Second-target" target-state="friend" target-state-first-filter="50020" />
 	<record alias="Item_Resurrection_Action_E1_01_SP" effect-1="Item_Resurrection_Action_Resurrection_SP" effect-2="Item_Resurrection_Action_Resurrection_blockact_SP" effect-3="Item_Resurrection_Action_Resurrection_immune" skill-result="hit-critical-hit" target="Second-target" target-state="friend" target-state-first-filter="50020" />
 	<record alias="Item_Resurrection_Action_E1_02" effect-1="Item_Resurrection_Action_Resurrection" effect-2="Item_Resurrection_Action_Resurrection_blockact" effect-3="Item_Resurrection_Action_Resurrection_immune" skill-result="hit-critical-hit" target="Second-target" target-state="friend" target-state-first-filter="40005" />
@@ -43,6 +43,7 @@
 	<record alias="TWN_Effect_Item_Event_Buff_02" effect-1="TWN_Effect_Item_Event_Buff_02" skill-result="all" target="Second-target" target-state="all" target-state-first-filter="30001" />
 	<record alias="TWN_Effect_Item_Event_Buff_03" effect-1="TWN_Effect_Item_Event_Buff_03" skill-result="all" target="Second-target" target-state="all" target-state-first-filter="30001" />
 	<record alias="TWN_Effect_Item_Event_Buff_04" effect-1="TWN_Effect_Item_Event_Buff_04" skill-result="all" target="Second-target" target-state="all" target-state-first-filter="30001" />
+	<record alias="Item_GB_Produce_Grocery_Talisman_0001_E1_01" effect-1="Effect_Item_GB_Produce_Grocery_Talisman_0001" skill-result="hit-critical-hit" target="Second-target" target-state="my-party" />
 	<record alias="Item_GB_Produce_Grocery_Talisman_0003_E1_01" effect-1="Effect_Item_GB_Produce_Grocery_Talisman_0003" skill-result="hit-critical-hit" target="Second-target" target-state="my-party" />
 	<record alias="Effect_CN_Event_hugeluk_02_E1_01" effect-1="Effect_CN_Event_hugeluk_01" skill-result="hit-critical-hit" target="Second-target" target-state="my-party" target-state-first-filter="60172" />
 	<record alias="Effect_CN_Event_hugeluk_02_E1_02" effect-1="Effect_CN_Event_hugeluk_02" skill-result="hit-critical-hit" target="Second-target" target-state="my-party" target-state-first-filter="60173" />

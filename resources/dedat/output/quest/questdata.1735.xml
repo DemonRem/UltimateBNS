@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1735.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1735.xml-->
   <quest alias="q_sub_1735" attraction-info="dungeon:Dungeon_Sujangko" category="normal" day-of-week="daily" desc="q_1735_sum" grade="10" group2="QG_NaRyuStorage" id="1735" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1735" reset-type="daily" save-type="all">
     <acquisition level="55" preceding-quest-1="q_sub_1724" preceding-quest-check="and" recommended-level="55">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1735_1" object="npc:CH_SB_JinHeeKyung_0001" type="talk" />

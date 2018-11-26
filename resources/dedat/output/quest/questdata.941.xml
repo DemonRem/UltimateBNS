@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.941.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.941.xml-->
   <quest activated-faction="factionmain1" alias="q_sub_941" broadcast-category="field" category="normal" day-of-week="daily" desc="q_941_sum" grade="1" group2="QG_KiYoenFall" id="941" main-faction="factionmain1" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.941" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" faction="factionmain1" level="13" preceding-quest-1="q_sub_939" preceding-quest-2="q_sub_940" preceding-quest-check="or" recommended-level="15">
       <case acquire-quest="y" completion-count="1" npc-response="qrsp_941_3" object="npc:CH_JR_MuRimMeng_0001" type="talk">

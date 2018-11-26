@@ -12,5 +12,33 @@
       "race": "KunN",
       "pic": null
     }
+  },
+  "JinF": {
+    "id": "040022_JinF_col1",
+    "data": {
+      "skeleton": "00012184",
+      "texture": "00012182",
+      "material": "00019135",
+      "col1Material": "00012183",
+      "col": "col1",
+      "core": "040022_JinF",
+      "code": "040022",
+      "race": "JinF",
+      "pic": "Attach_040022_All.png"
+    }
+  },
+  "Lyn": {
+    "id": "040132_LynF_col1",
+    "data": {
+      "skeleton": "00027415",
+      "texture": "00027410",
+      "material": "00027418",
+      "col1Material": "00027416",
+      "col": "col1",
+      "core": "040132_LynF",
+      "code": "040132",
+      "race": "LynF",
+      "pic": "Attach_040132_jinF_col1.png"
+    }
   }
 }

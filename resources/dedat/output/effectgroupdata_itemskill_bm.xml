@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_bm.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_bm.xml-->
 	<record alias="ItemSkill_BK_LightningSoulBlade_S1_Lv1_01_E1" effect-1="ItemSkill_BK_LightningSoulBlade_S1_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_BK_VitalSlash_S1_Lv1_01_E1" effect-1="ItemSkill_BK_VitalSlash_S1_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_BK_VitalSlash_S1_Lv1_02_E1" effect-1="ItemSkill_BK_VitalSlash_S1_Lv1_02_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
@@ -37,6 +37,5 @@
 	<record alias="ItemSkill_BK_S12_02_E5" effect-1="ItemSkill_BK_S12_LightNing_Dmg" effect-2="BladeMaster_Common_Logic_Flag_Dispel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" target-state-first-filter="60092" />
 	<record alias="ItemSkill_BK_Blocking_S13_Lv1_01_E1" effect-1="ItemSkill_BK_Blocking_S13_Lv1_01" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_BK_Batto_rush_S14_Lv1_01_E1" effect-1="ItemSkill_BK_Batto_rush_S14_Lv1_01" skill-result="all" target="caster" target-state="all" />
-	<record alias="ItemSkill_BK_Batto_rush_S14_Lv1_02_E1" effect-1="ItemSkill_BK_Batto_rush_S14_Lv1_02" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_BK_TS_Spheal2_B1_Lv1_01_E2" effect-1="ItemSkill_BK_TS_Spheal_B1_Lv1_01_DMG" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 </table>

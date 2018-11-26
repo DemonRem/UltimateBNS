@@ -1,14 +1,14 @@
 {
-  "id": "020001_AutoScale_L_col2",
+  "id": "030127_Col1_T0_Autoscale_col1",
   "data": {
-    "skeleton": "00003030",
-    "texture": "00003007",
-    "material": "00013094",
-    "col1Material": "00003019",
-    "col": "col2",
-    "core": "020001_AutoScale_L",
-    "code": "020001",
+    "skeleton": "00015101",
+    "texture": "00015099",
+    "material": "00059405",
+    "col1Material": "00015100",
+    "col": "col1",
+    "core": "030127_Col1_T0_Autoscale",
+    "code": "030127",
     "race": null,
-    "pic": "Weapon_GT_020001_col2.png"
+    "pic": "Weapon_AB_030127_col1.png"
   }
 }

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1670.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1670.xml-->
   <quest alias="q_epic_1670" category="epic" grade="1" group2="QG_HongMoon" id="1670" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1670" save-type="all">
     <acquisition job-1="검사" job-2="권사" job-3="기공사" job-4="역사" job-5="암살자" job-6="귀검사" job-7="주술사" job-8="기권사" job-9="격사" />
     <mission-step id="1">
@@ -10,7 +10,7 @@
         <case object="zone:Zone_HongMoon" progress-mission="reaction-only" type="enter-zone" />
       </mission>
     </mission-step>
-    <mission-step guide-message="gm_1670_1" id="2">
+    <mission-step guide-message="gm_1670_1" id="2" skip-dest-mission-step="11">
       <mission id="2" name2="Mission.Name2.1670_2" required-register-value="1">
         <case item="q_1670_1_icon" msg="q_1670_1" progress-mission="y" type="talk-to-self" />
         <case object="zone:Zone_HongMoon" progress-mission="reaction-only" type="enter-zone" />
@@ -65,20 +65,21 @@
       <mission-step-fail rollback-step-id="7" />
     </mission-step>
     <mission-step guide-message="gm_1670_9" id="10">
-      <mission id="10" name2="Mission.Name2.1670_10" required-register-value="1">
-        <tutorial-case mapunit-1="76_e_airdash_76_01_a" object2="zoneenv2:e_airdash_76_01_a" progress-mission="y" type="airdash" />
+      <mission id="10" name2="Mission.Name2.1670_10" required-register-value="1" reset-teleport-recycle-time="y">
+        <tutorial-case mapunit-1="76_WarpEnd" progress-mission="y" teleport-id="76_Teleport_01" type="teleport-zone" />
         <case object="zone:Zone_HongMoon" progress-mission="reaction-only" type="enter-zone" />
       </mission>
-      <mission-step-fail rollback-step-id="7" />
     </mission-step>
     <mission-step id="12">
       <mission id="12" name2="Mission.Name2.1670_12" required-register-value="1" reward-1="1670_final_set1">
         <case progress-mission="y" required-jumping-character-state="jumping" type="talk-to-self" />
+        <case object="zone:Zone_HongMoon" progress-mission="reaction-only" type="enter-zone" />
       </mission>
     </mission-step>
     <mission-step guide-message="gm_1670_10" id="11">
-      <mission id="11" name2="Mission.Name2.1670_11" required-register-value="1">
+      <mission id="11" name2="Mission.Name2.1670_11" required-register-value="1" reset-teleport-recycle-time="n">
         <case mapunit-1="76_CE_WC_Dummy_0124" object="npc:CE_WC_Dummy_0124" progress-mission="y" type="approach" />
+        <case object="zone:Zone_HongMoon" progress-mission="reaction-only" type="enter-zone" />
       </mission>
     </mission-step>
   </quest>

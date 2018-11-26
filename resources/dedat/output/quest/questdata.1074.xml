@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1074.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1074.xml-->
   <quest activated-faction="factionmain1" alias="q_sub_1074" broadcast-category="field" category="normal" desc="q_1074_sum" district-1="suwal" grade="1" group2="QG_SouthCoast" id="1074" main-faction="factionmain1" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1074" reset-type="none" save-type="all">
     <acquisition faction="factionmain1" level="37" preceding-quest-1="q_epic_909" preceding-quest-check="and" recommended-level="39">
       <case acquire-quest="y" npc-response="qrsp_1074_1" object="npc:ch_pungjeohoe_0013" type="talk" />

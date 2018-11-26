@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1757.xml-->
+  <quest alias="q_epic_1757" category="epic" completed-desc="q_1757_completed" completed-list="y" desc="q_1757_sum" grade="1" group2="QG_NextWestLandEpic" id="1757" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1757" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="845" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1757_1" required-register-value="1">
+        <case mapunit-1="6488_Zone_GW_CheonMyungGung_Gangnyeong_P2" mapunit-2="6488_Zone_GW_CheonMyungGung_Gangnyeong_in" object="zone:Zone_GW_CheonMyungGung_Gangnyeong_P1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1757_2" required-register-value="1">
+        <case mapunit-1="6488_MH_WA_HwangMuCheon_0007_01" npc-response="qrsp_1757_1" object="npc:MH_WA_HwangMuCheon_0007" progress-mission="y" type="talk" />
+        <case mapunit-1="6488_Zone_GW_CheonMyungGung_Gangnyeong_in" object="zone:Zone_GW_CheonMyungGung_Gangnyeong_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1757_3" required-register-value="1">
+        <case mapunit-1="6488_MH_WA_BlackDragon_kill_01" mapunit-2="6488_MH_WA_BlackDragon_kill_02" object="npc:ME_WA_Epic9_Dummy_0034" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1757_4" required-register-value="1">
+        <case mapunit-1="6488_MH_WA_BlackDragon_0014" object2="npc:MH_WA_BlackDragon_0014" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1757_5" required-register-value="1">
+        <case mapunit-1="6488_MH_WA_HwangMuCheon_0007_speak" mapunit-2="6488_Hwangja_Door_Check_0001" npc-response="qrsp_1757_2" object="npc:MH_WA_HwangMuCheon_0007" progress-mission="y" required-item-loss="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1757_6" required-register-value="1">
+        <case mapunit-1="6488_ME_WA_Epic9_Dummy_0016" object="npc:ME_WA_Epic9_Dummy_0016" progress-mission="y" type="approach" />
+        <case npc-response="qrsp_1757_3" object="npc:MH_WA_HwangMuCheon_0007" progress-mission="n" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1757_8" required-register-value="1">
+        <case object="npc:ME_WA_Demonshadow_0029" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1757_10" required-register-value="1">
+        <case object="npc:MH_WA_AkTaeHoo_0001" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail dispose-quest="n" rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1757_11" required-register-value="1">
+        <case mapunit-1="6488_MH_WA_HwangMuCheon_0003" object="npc:MH_WA_HwangMuCheon_0003" progress-mission="y" type="npc-manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1757_12" required-register-value="1" reward-1="1757_final_set1">
+        <case npc-response="qrsp_1757_4" object="npc:MH_WA_HwangMuCheon_0011" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_Gangnyeong_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1758" />
+    </completion>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1757_9" required-register-value="1">
+        <case mapunit-1="6488_MH_WA_HwangJa_0003" object="npc:MH_WA_HwangJa_0003" progress-mission="y" type="npc-manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_Gangnyeong_D">
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+    </transit>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1757_7" required-register-value="1">
+        <case mapunit-1="6488_ME_WA_Epic9_Dummy_0043" object2="npc:ME_WA_Epic9_Dummy_0043" progress-mission="y" social="TalkSocial_bow1" type="pc-social" />
+      </mission>
+      <mission-step-fail rollback-step-id="2" />
+    </mission-step>
+  </quest>
+</table>

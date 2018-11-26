@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.494.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.494.xml-->
   <quest alias="q_epic_494" category="epic" completed-desc="q_494_completed" completed-list="y" desc="q_494_sum" district-1="jeryoungrim" grade="1" group2="QG_JeRyoungRimEpic" id="494" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.494" save-type="all">
     <acquisition level="1" recommended-level="15" sort-no="217" />
     <mission-step completion-type="and" desc="q_494_des_1" id="1" location-x="27221.6074" location-y="38839.9375" map="suryengol">
@@ -83,6 +83,11 @@
             <filter subject="case:talked:pc" subject2="case:talked:pc" type="job" value-1="격사" />
           </filter-set>
         </case>
+        <case npc-response="qrsp_494_37" object="npc:ctzn_jinm_master_geonma_swd_001" progress-mission="y" type="talk">
+          <filter-set>
+            <filter subject="case:talked:pc" subject2="case:talked:pc" type="job" value-1="투사" />
+          </filter-set>
+        </case>
       </mission>
     </mission-step>
     <mission-step desc="q_494_des_4" id="4" location-x="35669.2422" location-y="42942.4297" map="GiYunDongGul">
@@ -160,6 +165,11 @@
         <case npc-response="qrsp_494_36" object="npc:ctzn_lynm_master_gammadeung_shm_001" progress-mission="y" type="talk">
           <filter-set>
             <filter subject="case:talked:pc" subject2="case:talked:pc" type="job" value-1="격사" />
+          </filter-set>
+        </case>
+        <case npc-response="qrsp_494_38" object="npc:ctzn_jinm_master_geonma_swd_001" progress-mission="y" type="talk">
+          <filter-set>
+            <filter subject="case:talked:pc" subject2="case:talked:pc" type="job" value-1="투사" />
           </filter-set>
         </case>
       </mission>

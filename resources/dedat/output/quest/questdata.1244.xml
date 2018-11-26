@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1244.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1244.xml-->
   <quest alias="q_sub_1244" broadcast-category="field" category="normal" desc="q_1244_sum" grade="1" group2="QG_NokMyungCHN" id="1244" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1244" save-type="all" show-tutorial-tag="y" tutorial="y">
     <acquisition level="1" recommended-level="3">
       <case acquire-quest="y" check-inventory-full="y" item="q_1244_1_icon" msg="q_1244_3" type="talk-to-self" />

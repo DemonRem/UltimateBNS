@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_de.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_de.xml-->
 	<record alias="ItemSkill_DE_Stomping_BS1_Lv1_01_E1" effect-1="ItemSkill_DE_Stomping_BS1_Lv1_01_initializerecycle" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_DE_Stomping_BS1_Lv1_01_E2" effect-1="ItemSkill_DE_Stomping_BS1_Lv1_01_RecycleReduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_DE_Fever_S1_Lv1_01_E1" effect-1="ItemSkill_DE_Fever_S1_Lv1_01_RecycleReduce1" skill-result="hit-critical-hit" target="caster" target-state="all" />

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1773.xml-->
+  <quest alias="q_sub_1773" category="normal" desc="q_1773_sum" grade="1" group2="QG_ChunMyungPalace" id="1773" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1773" save-type="all">
+    <acquisition level="1" preceding-quest-1="q_sub_1768" preceding-quest-2="q_sub_1771" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" mapunit-1="6440_CH_WC_TaewoonHang_0240" npc-response="qrsp_1773_1" object="npc:ch_wc_taewoonhang_0240" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1773_1" required-register-value="1">
+        <case indicator="quest-normal-can-progress" mapunit-1="6479_6479_foot_3_place" mapunit-2="6479_CH_WC_Shipbuilding_0049_1" object2="zoneenv2:6479_foot_3" progress-mission="y" type="env-entered" />
+        <case mapunit-1="6479_CH_WC_Shipbuilding_0049" object="zone:Zone_GW_CheonMyungGung_Shipyard_P2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1773_2" required-register-value="2">
+        <case mapunit-1="6479_CH_WC_Shipbuilding_0050" object="npc:ch_wc_shipbuilding_0050" progress-mission="y" type="npc-bleeding-occured" />
+        <case mapunit-1="6479_CH_WC_Shipbuilding_0051" object="npc:ch_wc_shipbuilding_0051" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1773_3" required-register-value="1" reward-1="1773_final_set1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0240" npc-response="qrsp_1773_6" object="npc:ch_wc_taewoonhang_0240" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_Shipyard">
+      <destination mission-step-id="2" zone-index="2" />
+      <destination mission-step-id="1" zone-index="2" />
+    </transit>
+  </quest>
+</table>

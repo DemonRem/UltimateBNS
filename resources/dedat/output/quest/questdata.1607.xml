@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1607.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1607.xml-->
   <quest alias="q_sub_1607" attraction-info="party-battle-field-zone:PartyBattle_DragonValley" category="normal" content-type="party-battle" day-of-week="weekly" desc="q_1607_sum" grade="17" group2="QG_PartyBattleField" id="1607" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1607" reset-type="weekly" save-type="all">
     <acquisition level="55" mastery-level="1" recommended-level="55">
       <case acquire-quest="y" indicator="quest-factionboard-repeat-start" npc-response="qrsp_1607_1" object="npc:CE_WA_Board_0002" progress-mission="n" type="talk" />

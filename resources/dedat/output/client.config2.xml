@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config major-version="512" minor-version="3" module="client" release-module="LocalizationData" release-side="client">
-  <!--C:/LocalTextSelfDeploy/temp/client.config2.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/client.config2.xml-->
   
   <group name="camera">
     
@@ -403,6 +403,7 @@
     <option name="max-character-length" value="32" />
     
     <option name="gm-nameplate-prefix-icon-set" value="00008603.Indicator.GM" />
+    <option name="apply-background-image" value="true" />
   </group>
   
   <group name="outline">
@@ -659,7 +660,7 @@
    <option name="use-exp-talisman-show" value="00010628.Rebirth_Range" />
    <option name="duel-bot-die-show" value="00009805.Deadbody_Destruction_" />
 
-     
+   
      <option name="special-skill-full-charge-show-party" value="00007910.MasterSkill_F" />
      
      <option name="special-skill-full-charge-show-dungeon" value="00007910.MasterSkill_F" />
@@ -782,13 +783,22 @@
     <option name="soul-npc-mark-count-4" value="00009805.GhostNPC_04" />
 
     
-    <option name="lock-on-caster" value="00007915.Shooter_RangeMoveBlock_Start" /> 
+    <option name="lock-on-caster" value="00007915.Shooter_RangeMoveBlock_Start" />
+    
     <option name="lock-on-target" value="00007915.Shooter_Spell_Stigma_Start" /> 
+    
     <option name="lock-on-targeted" value="00007915.Shooter_Lockon_Stigma_Start" /> 
+    
 
     
     <option name="classic-mode-ground-idle" value="" />
     <option name="classic-mode-ground-combat" value="" />
+
+
+    
+    <option name="skill-guard-gauge-hit-show" value="00056126.GG_HIT_SHOW" />
+    
+    <option name="skill-guard-gauge-critical-hit-show" value="00056126.GG_HIT_SHOW" />
     
   </group>
   
@@ -2030,7 +2040,22 @@
       <config name="ltb-player-success-change-arrow-direction-particle-scale" value="1.0" />
       <config name="ltb-enemy-success-change-arrow-direction-particle-ref" value="00027869.Particle.UI_pvp_minimap_on" />
       <config name="ltb-enemy-success-change-arrow-direction-particle-scale" value="1.0" />
-	  
+
+      
+      <option name="mentoring-party-icon-imageset" value="00009499.Minimap_Party_mentoring" />
+      <option name="mentoring-party-ghost-imageset" value="00009499.Minimap_party_ghost_mentoring" />
+      <option name="mentoring-party-exhaustion-imageset" value="00009499.Minimap_party_mentoring_Status_tired" />
+      <option name="mentoring-party-dead-imageset" value="00009499.minimap_party_mentoring_Status_Death" />
+      <option name="mentoring-party-restoration-imageset" value="00009499.Minimap_party_mentoring_Status_RecoveryPower" />
+      <option name="mentoring-party-another-channel-imageset" value="00009499.Minimap_party_mentoring_Status_OtherChanel" />
+      <option name="mentoring-party-icon-out-glow-imageset" value="00009499.Minimap_Party_mentoring_Outglow" />
+      <option name="mentoring-party-icon-mouse-over-imageset" value="00009499.Minimap_Party_mentoring" />
+      <option name="mentoring-party-icon-mouse-down-imageset" value="00009499.Minimap_Party_mentoring" />
+      <option name="out-of-mentoring-party-icon-imageset" value="00009499.Minimap_Party_Status_Borderline" />
+      <option name="out-of-mentoring-party-icon-mouse-over-imageset" value="00009499.Minimap_Party_Status_Borderline_Outglow" />
+      <option name="out-of-mentoring-party-icon-mouse-down-imageset" value="00009499.Minimap_Party_Status_Borderline_Outglow" />
+      <option name="out-of-mentoring-party-icon-out-glow-imageset" value="00009499.Minimap_Party_Status_Borderline_Outglow" />
+
     </group>
         
     
@@ -2325,8 +2350,10 @@
     <option name="score-rate-try-immune-break" value="5" />
     <option name="score-rate-success-immune-break" value="10" />
     <option name="score-rate-abnormal" value="2" />
-    <option name="ground-dash-skill-camera-pit-min" value="-2700" /> // 격사 전용 pitch min 값
-    <option name="ground-dash-skill-camera-pit-max" value="-1450" /> // 격사 전용 pitch max 값
+    <option name="ground-dash-skill-camera-pit-min" value="-2700" /> 
+    
+    <option name="ground-dash-skill-camera-pit-max" value="-1450" />
+    
 
     
     <option name="necessary-quest-id-for-skill-training" value="494" />
@@ -2459,18 +2486,19 @@
       <option name="attack-earth" value="16" />
       <option name="attack-lightning" value="17" />
       <option name="attack-void" value="18" />
-      <option name="max-hp" value="101" />
-      <option name="defend-power" value="102" />
-	  <option name="pc-defend-power" value="103" />
-	  <option name="boss-defend-power" value="104" />
-      <option name="defend-dodge" value="105" />
-      <option name="defend-parry" value="106" />
-      <option name="defend-critical" value="107" />
-      <option name="defend-stiff-duration" value="108" />
-      <option name="defend-damage" value="109" />
-      <option name="hp-regen" value="110" />
-      <option name="heal" value="111" />
-	  <option name="abnormal" value="112" />
+      <option name="max-guard-gauge" value="101" />
+      <option name="max-hp" value="102" />
+      <option name="defend-power" value="103" />
+	  <option name="pc-defend-power" value="104" />
+	  <option name="boss-defend-power" value="105" />
+      <option name="defend-dodge" value="106" />
+      <option name="defend-parry" value="107" />
+      <option name="defend-critical" value="108" />
+      <option name="defend-stiff-duration" value="109" />
+      <option name="defend-damage" value="110" />
+      <option name="hp-regen" value="111" />
+      <option name="heal" value="112" />
+	  <option name="abnormal" value="113" />
     </group>
 
   </group>
@@ -3112,12 +3140,15 @@
     <option name="random-store-window-icon" value="" />
     <option name="show-premium-ui" value="y" />
     <option name="premium-gauge-effect-need-count" value="1" />
-	<option name="banner-imageset" value="00045171.RandomStore2_Skin01_Banner" />
-    <option name="top-holder-imageset" value="00045171.RandomStore2_Skin01_Top" />
-    <option name="information-imageset" value="00045171.RandomStore2_Skin01_Middle" />
-    <option name="5-plus-holder-imageset" value="00045171.RandomStore2_Skin01_Bottom" />
-    <option name="single-holder-imageset" value="00045171.RandomStore2_Skin01_Bottom" />
-	<option name="tencent-2-back-01-imageset" value="00045171.RandomStore2_Skin01_Tencent" />
+    
+	<option name="banner-imageset" value="00045171.RandomStore2_Skin03_Banner" />
+    <option name="top-holder-imageset" value="00045171.RandomStore2_Skin03_Top" />
+    <option name="information-imageset" value="00045171.RandomStore2_Skin03_Middle" />
+    <option name="5-plus-holder-imageset" value="00045171.RandomStore2_Skin03_Bottom" />
+    <option name="single-holder-imageset" value="00045171.RandomStore2_Skin03_Bottom" />
+    
+    <option name="tencent-2-back-01-imageset" value="00045171.RandomStore2_Skin03_Tencent" />
+
 
   </group>
   
@@ -4326,21 +4357,31 @@
   <group name="particle">
 
     
-    <option name="player-gunner-full-sp-gauge-particle-ref" value="00027869.UI_Shooter_gauge" /> // sp 최고 충전 시 파티클 ref
-    <option name="player-gunner-full-sp-gauge-particle-scale" value="1.0" /> // sp 만땅 찼을 때 파티클 scale
-
-    <option name="player-gunner-sp-gauge-particle-ref" value="00027869.UI_Shooter_gauge" /> // sp 일부 찼을 때 파티클 ref
-    <option name="player-gunner-sp-gauge-particle-scale" value="1.0" /> // sp 일부 찼을 때 파티클 scale
-
-    <option name="observer-gunner-sp-gauge-particle-ref" value="00027869.UI_Shooter_gauge" /> // 옵져버 sp 일부 찼을 때 파티클 ref
-    <option name="observer-gunner-sp-gauge-particle-scale" value="1.0" /> // 옵져버 sp 일부 찼을 때 파티클 scale
-
-    <option name="observer-gunner-sp-gauge-consume-particle-ref" value="00027869.UI_Shooter_gauge" /> // 옵져버 sp 일부 소모 시 파티클 ref
-    <option name="observer-gunner-sp-gauge-consume-particle-scale" value="1.0" /> // 옵져버 sp 일부 소모 시 파티클 scale
-
-    <option name="player-gunner-sp-gauge-consume-particle-ref" value="00027869.UI_Shooter_gauge" /> // sp 일부 소모 시 파티클 ref
-    <option name="player-gunner-sp-gauge-consume-particle-scale" value="1.0" /> // sp 일부 소모 시 파티클 scale
+    <option name="player-gunner-full-sp-gauge-particle-ref" value="00027869.UI_Shooter_gauge" /> 
     
+    <option name="player-gunner-full-sp-gauge-particle-scale" value="1.0" /> 
+    
+
+    <option name="player-gunner-sp-gauge-particle-ref" value="00027869.UI_Shooter_gauge" /> 
+    
+    <option name="player-gunner-sp-gauge-particle-scale" value="1.0" /> 
+    
+
+    <option name="observer-gunner-sp-gauge-particle-ref" value="00027869.UI_Shooter_gauge" /> 
+    
+    <option name="observer-gunner-sp-gauge-particle-scale" value="1.0" /> 
+    
+
+    <option name="observer-gunner-sp-gauge-consume-particle-ref" value="00027869.UI_Shooter_gauge" /> 
+    
+    <option name="observer-gunner-sp-gauge-consume-particle-scale" value="1.0" /> 
+    
+
+    <option name="player-gunner-sp-gauge-consume-particle-ref" value="00027869.UI_Shooter_gauge" /> 
+    
+    <option name="player-gunner-sp-gauge-consume-particle-scale" value="1.0" />
+    
+
     
     <option name="skilltrain-masteryskill-opened-ref" value="00027869.Particle.UI_HongMoonOpen " />
     <option name="skilltrain-masteryskill-opened-scale" value="1.000000" />
@@ -5248,29 +5289,35 @@
 		<option name="tencent-random-store-auto-mode-particle-ref" value="00011426.Particle.UI_treasureBox_chwiryungkak_auto_button" />
 
 		
-		<option name="random-store-v2-draw1-progress-particle-ref" value="00027869.Particle.UI_treasureBox_Grade123" />
-		<option name="random-store-v2-draw1-progress-particle-offset-x" value="0" />
-		<option name="random-store-v2-draw1-progress-particle-offset-y" value="0" />
-			
-		<option name="random-store-v2-draw5-progress-particle-ref" value="00027869.Particle.UI_treasureBox_5" />
-		<option name="random-store-v2-draw5-progress-particle-offset-x" value="0" />
-		<option name="random-store-v2-draw5-progress-particle-offset-y" value="0" />
-			
-		<option name="random-store-v2-draw1-result-12-particle-ref" value="00027869.Particle.UI_treasureBox_result_Grade123" />
-		<option name="random-store-v2-draw1-result-12-particle-duration" value="0.8" />
-		<option name="random-store-v2-draw1-result-3-particle-ref" value="00027869.Particle.UI_treasureBox_result_Grade4" />
-		<option name="random-store-v2-draw1-result-3-particle-duration" value="1.0" />
-		<option name="random-store-v2-draw1-result-4-particle-ref" value="00027869.Particle.UI_treasureBox_result_Grade4" />
-		<option name="random-store-v2-draw1-result-4-particle-duration" value="1.0" />
-		<option name="random-store-v2-draw1-result-5-particle-ref" value="00027869.Particle.UI_treasureBox_result_Grade5" />
-		<option name="random-store-v2-draw1-result-5-particle-duration" value="1.8" />
-		<option name="random-store-v2-draw1-result-particle-offset-x" value="0" />
-		<option name="random-store-v2-draw1-result-particle-offset-y" value="0" />
-				
-		<option name="random-store-v2-draw5-result-particle-ref" value="00027869.Particle.UI_treasureBox_result_Open5" />
-		<option name="random-store-v2-draw5-result-particle-duration" value="2.0" />
-		<option name="random-store-v2-draw5-result-particle-offset-x" value="0" />
-		<option name="random-store-v2-draw5-result-particle-offset-y" value="0" />
+    <option name="random-store-v2-draw1-progress-particle-ref" value="00027869.Particle.UI_treasureBox_loop_01" />
+    <option name="random-store-v2-draw1-progress-particle-offset-x" value="0" />
+    <option name="random-store-v2-draw1-progress-particle-offset-y" value="0" />
+
+    <option name="random-store-v2-draw5-progress-particle-ref" value="00027869.Particle.UI_treasureBox_loop_5d_01" />
+    <option name="random-store-v2-draw5-progress-particle-offset-x" value="0" />
+    <option name="random-store-v2-draw5-progress-particle-offset-y" value="0" />
+
+    <option name="random-store-v2-draw1-result-12-particle-ref" value="00027869.Particle.UI_treasureBox_open_01" />
+    <option name="random-store-v2-draw1-result-12-particle-duration" value="0.8" />
+    <option name="random-store-v2-draw1-result-3-particle-ref" value="00027869.Particle.UI_treasureBox_open_02" />
+    <option name="random-store-v2-draw1-result-3-particle-duration" value="1.0" />
+    <option name="random-store-v2-draw1-result-4-particle-ref" value="00027869.Particle.UI_treasureBox_open_02" />
+    <option name="random-store-v2-draw1-result-4-particle-duration" value="1.0" />
+    <option name="random-store-v2-draw1-result-5-particle-ref" value="00027869.Particle.UI_treasureBox_open_03" />
+    <option name="random-store-v2-draw1-result-5-particle-duration" value="1.8" />
+    <option name="random-store-v2-draw1-result-particle-offset-x" value="0" />
+    <option name="random-store-v2-draw1-result-particle-offset-y" value="0" />
+
+    <option name="random-store-v2-draw5-result-12-particle-ref" value="00027869.Particle.UI_treasureBox_open_5d_01" />
+    <option name="random-store-v2-draw5-result-12-particle-duration" value="0.8" />
+    <option name="random-store-v2-draw5-result-3-particle-ref" value="00027869.Particle.UI_treasureBox_open_5d_02" />
+    <option name="random-store-v2-draw5-result-3-particle-duration" value="1.0" />
+    <option name="random-store-v2-draw5-result-4-particle-ref" value="00027869.Particle.UI_treasureBox_open_5d_02" />
+    <option name="random-store-v2-draw5-result-4-particle-duration" value="1.0" />
+    <option name="random-store-v2-draw5-result-5-particle-ref" value="00027869.Particle.UI_treasureBox_open_5d_03" />
+    <option name="random-store-v2-draw5-result-5-particle-duration" value="1.8" />
+    <option name="random-store-v2-draw5-result-particle-offset-x" value="0" />
+    <option name="random-store-v2-draw5-result-particle-offset-y" value="0" />
 				
 		<option name="random-store-v2-draw1-slot-update-particle-ref" value="00027869.Particle.UI_treasureBox_itemSlot_fx_ReNew" />
 		<option name="random-store-v2-draw1-slot-update-particle-scale" value="1.0" />
@@ -5981,6 +6028,12 @@
     <option name="dragon-jade-icon-texture-width" value="64" />
     <option name="dragon-jade-icon-texture-height" value="64" />
 
+    
+    <option name="delivery-mentoring-rewards-icontexture" value="00009076.Brotherhood_3" />
+    <option name="delivery-mentoring-rewards-iconindex" value="1" />
+    <option name="delivery-mentoring-rewards-iconsize" value="64" />
+    <option name="delivery-mentoring-rewards-icontexture-width" value="512" />
+    <option name="delivery-mentoring-rewards-icontexture-height" value="512" />
 
   </group>
 
@@ -6262,7 +6315,7 @@
     <option name="use-enter-world-loading" value="y" />
     <option name="use-external-loading-image" value="y" />
 
-    <option name="use-ranking-mushin-infinite-tower-loading-image" value="y" />
+    <option name="use-ranking-mushin-infinite-tower-loading-image" value="n" />
   </group>
   
   
@@ -6952,6 +7005,11 @@
     <option name="use-team-average-score" value="false" />
     
     <option name="public-raid-arena-portal-key" value="arena_public_raid" />
+	<option name="duel-disconnect-penalty-inveterate-time" value="30" />
+    <option name="partybattle-disconnect-penalty-inveterate-time" value="60" />
+  <option name="public-raid-2-arena-portal-key" value="arena_public_raid2" />
+  <option name="public-raid-2-show-remain-time" value="60" />
+  <option name="use-battle-royal-mode" value="false" />
 </group>
 
 <group name="option">
@@ -7167,8 +7225,10 @@
     <option name="lobby-preview-world-6-yaw" value="18568" />
 
     <option name="placement-test-icon" value="00015590.ArenaRank_Empty" />
-    <option name="placement-test-count" value="4" />
-	
+    <option name="placement-test-count" value="9" />
+    
+    <option name="ingame-championship-placement-test-count" value="4" />
+  
 	  <option name="round-start-countdown-bgmsound-pitch" value="1.07" />
 
     
@@ -7182,8 +7242,10 @@
     
     <option name="duel-result-losebydecison-imageset" value="00015590.ImageSet_Bimu_LoseByDecision" />
     <option name="duel-result-viewing-intervaltime" value="1.0" />
-  
+    
     <option name="auto-ready-wait-time" value="30.0" />
+	
+	<option name="unrated-auto-ready-wait-time" value="30.0" />
 
   
   <option name="auto-tag-progress-gauge-time" value="15" />
@@ -7205,6 +7267,9 @@
 
 	
 	<option name="tag-match-auto-ready-wait-time" value="60.0" />
+	
+	
+	<option name="unrated-tag-match-auto-ready-wait-time" value="60.0" />
 
 
     
@@ -7327,6 +7392,10 @@
 
   
   <option name="championship-weekly-time-alias" value="Ingame_Championship_01" />
+
+  
+  <option name="not-available-job" value="11" />
+
   
   <group name="mesh">
       <config name="rotate-jin" value="190.0" />
@@ -7344,7 +7413,7 @@
       <config name="offset-height-lyn" value="5.0" />
       <config name="offset-height-kun" value="0.0" />
     </group>
-</group>
+  </group>
 
 <group name="SoundPreset">
     <group name="battle">
@@ -7768,7 +7837,7 @@
 		  <option name="type-pouch-particle-faction-challenge-today" value="00026915.Faction_Challenge_repeat_progress" />
 		  <option name="type-pouch-particle-dayofweek" value="00026915.Normal_daily_repeat_progress" />
 		  <option name="type-pouch-particle-faction-dayofweek" value="00026915.Faction_daily_repeat_progress" />
-		  		  
+  <option name="type-pouch-particle-mentoring" value="00026915.Nameplate_QuestIndicator_mentoring_running_particle" />		  
   
   
            <option name="day-of-week-reset-time" value="6" /> 
@@ -7795,7 +7864,7 @@
     <option name="ability-normal-icon-imageset" value="00009076.ability-normal-icon" />
     <option name="ability-not-completed-icon-imageset" value="00009076.ability-not-completed" />
     <option name="ability-equipped-icon-imageset" value="00009076.ability-max-value-icon" />
-    <option name="use-external-title-fontset" value="false" />
+    <option name="use-external-title-fontset" value="true" />
 
     <group name="icon">
       <option name="background-frame-step-1-imageset" value="00009076.AchievementComplete_01" />
@@ -8006,15 +8075,18 @@
     <option name="random-store-expand-icon-sound" value="00003805.Signal_UI.S_Sys_RandomStore_SlotExpandCue" />
 
 	  
-	<option name="random-store-v2-draw1-progress-sound" value="00003805.Signal_UI.S_Sys_RandomStore_BoxProgressCue" />
-	<option name="random-store-v2-draw1-result-12-sound" value="00003805.Signal_UI.S_Sys_RandomStore2_Result01Cue" />
-	<option name="random-store-v2-draw1-result-3-sound" value="00003805.Signal_UI.S_Sys_RandomStore2_Result02Cue" />
-	<option name="random-store-v2-draw1-result-4-sound" value="00003805.Signal_UI.S_Sys_RandomStore2_Result02Cue" />
-	<option name="random-store-v2-draw1-result-5-sound" value="00003805.Signal_UI.S_Sys_RandomStore2_Result03Cue" />
-	<option name="random-store-v2-draw5-progress-sound" value="00003805.Signal_UI.S_Sys_RandomStore2_5BoxProgressCue" />
-	<option name="random-store-v2-draw5-result-sound" value="00003805.Signal_UI.S_Sys_RandomStore2_5BoxResult01Cue" />
-	<option name="random-store-v2-slot-update-sound" value="00003805.Signal_UI.S_Sys_RandomStore_SlotUpdateCue" />
-	<option name="random-store-v2-expand-icon-sound" value="00003805.Signal_UI.S_Sys_RandomStore_SlotExpandCue" />
+  <option name="random-store-v2-draw1-progress-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Loop01Cue" />
+  <option name="random-store-v2-draw1-result-12-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Open01Cue" />
+  <option name="random-store-v2-draw1-result-3-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Open02Cue" />
+  <option name="random-store-v2-draw1-result-4-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Open02Cue" />
+  <option name="random-store-v2-draw1-result-5-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Open03Cue" />
+  <option name="random-store-v2-draw5-progress-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Loop01Cue" />
+  <option name="random-store-v2-draw5-result-12-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Open01Cue" />
+  <option name="random-store-v2-draw5-result-3-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Open02Cue" />
+  <option name="random-store-v2-draw5-result-4-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Open02Cue" />
+  <option name="random-store-v2-draw5-result-5-sound" value="00003805.Signal_UI.S_Sys_TreasureBox_Open03Cue" />
+  <option name="random-store-v2-slot-update-sound" value="00003805.Signal_UI.S_Sys_RandomStore_SlotUpdateCue" />
+  <option name="random-store-v2-expand-icon-sound" value="00003805.Signal_UI.S_Sys_RandomStore_SlotExpandCue" />
   
     <option name="target-immune-break-hit-sound" value="" />
     <option name="target-immune-break-fail-sound" value="" />
@@ -8529,19 +8601,21 @@
     <option name="ranking-boast-contentsid-duel" value="Boast_SoloRanking_DuelSolo" />
     <option name="ranking-boast-contentsid-mushin" value="Boast_SoloRanking_MusinTower" />
     
-    <option name="ranking-boast-contentsid-solo-dungeon-1" value="Boast_SoloRanking_SoloDungeon1" />
+    <option name="ranking-boast-contentsid-solo-dungeon-1" value="Boast_SoloRanking_solo-dungeon-1" />
     <option name="ranking-boast-contentsid-infinite" value="Boast_SoloRanking_InfiniteTower" />
     <option name="ranking-boast-contentsid-tag-match" value="Boast_SoloRanking_TagMatch" />
     <option name="ranking-boast-contentsid-occupation-war" value="Boast_SoloRanking_PartyBattle_DragonValley" />
     <option name="ranking-boast-contentsid-capture-the-flag" value="Boast_SoloRanking_PartyBattle_WhiteWhaleLake" />
     <option name="ranking-boast-contentsid-outlaws" value="Boast_SoloRanking_Outlaws" />
     
-    <option name="ranking-boast-contentsid-solo-dungeon-2" value="Boast_SoloRanking_SoloDungeon2" />
+    <option name="ranking-boast-contentsid-solo-dungeon-2" value="Boast_SoloRanking_solo-dungeon-2" />
     <option name="ranking-boast-contentsid-lead-the-ball" value="Boast_SoloRanking_PartyBattle_LeadTheBall" />
 
     
     <option name="ranking-boast-contentsid-solo-dungeon-1" value="Boast_SoloRanking_SoloDungeon1" />
     <option name="ranking-boast-contentsid-solo-dungeon-2" value="Boast_SoloRanking_SoloDungeon2" />
+
+    <option name="ranking-boast-contentsid-battle-royal" value="Boast_SoloRanking_BattleRoyal" />
 
   </group>
 
@@ -8695,18 +8769,19 @@
     <option name="is-solo-dungeon-1-score-type-area-dungeon-alias-4" value="" />
     <option name="is-solo-dungeon-1-score-type-area-dungeon-alias-5" value="" />
 
-    <option name="is-solo-dungeon-2-score-type-area-dungeon-alias-1" value="" />
+    <option name="is-solo-dungeon-2-score-type-area-dungeon-alias-1" value="Dungeon_RoomOfWeapon" />
     <option name="is-solo-dungeon-2-score-type-area-dungeon-alias-2" value="" />
     <option name="is-solo-dungeon-2-score-type-area-dungeon-alias-3" value="" />
     <option name="is-solo-dungeon-2-score-type-area-dungeon-alias-4" value="" />
     <option name="is-solo-dungeon-2-score-type-area-dungeon-alias-5" value="" />
+
+    <option name="battle-royal-ranking-minimum-score" value="1" />
 
   </group>
 
   <group name="challengeparty">
     <option name="result-delay-duration" value="3.2" />
     <option name="minimum-score" value="1" />
-    <config name="use-training-mode" value="n" />
     <config name="result-effectshow-time" value="0.5" />
   </group>
 
@@ -8783,6 +8858,9 @@
     <option name="create-character-button-particle-scale-y" value="1.5" />
     <option name="create-character-button-particle-x" value="0" />
     <option name="create-character-button-particle-y" value="0" />
+
+    
+    <option name="quest-skip-sequence-name" value="00010628.Cha_ReEnter_Warp_End_Show" />
   </group>
 
   
@@ -8902,33 +8980,47 @@
   </group>
 
   <group name="bullet-effect">
-    <option name="use-directing" value="n" /> // 전체 사용여부
-    <option name="ratio-speed" value="0.4" /> // 속도
-    <option name="ratio-time" value="0.15" /> // 비율
-    <option name="delay-time" value="0.15" /> // 딜레이
-    <option name="camera-factor" value="300" /> // 카메라
-    <option name="use-changed-property-directring" value="n" /> // 기존 피격시 상태 이상에 대한 슬로우 모션 처리
-    <option name="use-boss-skill-directing" value="n" /> // 보스 스킬 사용시 슬로우 모션 처리
+    <option name="use-directing" value="n" /> 
     
+    <option name="ratio-speed" value="0.4" /> 
+    
+    <option name="ratio-time" value="0.15" /> 
+    
+    <option name="delay-time" value="0.15" /> 
+    
+    <option name="camera-factor" value="300" /> 
+    
+    <option name="use-changed-property-directring" value="n" /> 
+    
+    <option name="use-boss-skill-directing" value="n" /> 
+    
+
     <option name="hitmiss-cooltime" value="3.0" />
 
-    <option name="use-duel-1vs1" value="y" /> // 비무 1:1
-    <option name="use-duel-tag" value="n" /> // 비무 태그
+    <option name="use-duel-1vs1" value="y" /> 
+    
+    <option name="use-duel-tag" value="n" /> 
+    
     <option name="use-public-zone" value="n" />
-    <option name="use-party-4-dungeon-and-cave" value="n" /> // 4인던전 (고급난이도)
-    <option name="use-party-6-dungeon-and-cave" value="n" /> // 6인던전 (일반난이도)
+    <option name="use-party-4-dungeon-and-cave" value="n" />
+    
+    <option name="use-party-6-dungeon-and-cave" value="n" />
+    
     <option name="use-field-zone" value="n" />
     <option name="use-faction-battle-field-zone" value="n" />
     <option name="use-jackpot-boss-zone" value="n" />
     <option name="use-raid-dungeon" value="n" />
     <option name="use-boss-challenge" value="y" />
     <option name="use-classic-field-zone" value="n" />
-    <option name="use-duelbot-challenge" value="y" /> // 무한의탑
-    <option name="use-duelbot-training" value="y" /> // 연무장
-    <option name="use-skill-training" value="y" /> // 홍문수련장
+    <option name="use-duelbot-challenge" value="y" />
+    
+    <option name="use-duelbot-training" value="y" /> 
+    
+    <option name="use-skill-training" value="y" /> 
+    
   </group>
 
-    
+  
   <group name="attendance-time-table">
     <option name="reward-action-delay" value="1.0" />
     <option name="reward-icontexture" value="00045171.GameUI_Attendance_CompleteImage_02" />
@@ -8936,7 +9028,8 @@
     <option name="reward-icon-size" value="128" />
     <option name="reward-icon-texture-width" value="128" />
     <option name="reward-icon-texture-height" value="128" />
-	<option name="back-imageset" value="00045171.AttendanceTimeTable_Skin01" />
+    
+    <option name="back-imageset" value="00045171.AttendanceTimeTable_Skin03" />
   </group>
 
   
@@ -8999,6 +9092,15 @@
     <option name="normal-background-imageset" value="00043230.SkillMovie_Background_01" />
   </group>
 
+  <group name="season">
+    <option name="contents-type-for-not-check-to-play-in-week" value="" />
+  </group>
   
+  
+  <group name="ingame-notice">
+  
+	<option name="membershipnotice-icon-imageset" value="00015590.KR_StoreUI_VIP1_ImageSet" />
+	<option name="membershipnotice-reward-imageset" value="00009076.GuildBank_Coin_GoodsStone" />
+</group>
   
 </config>

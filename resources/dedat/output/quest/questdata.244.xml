@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.244.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.244.xml-->
   <quest alias="q_epic_244" broadcast-category="field" category="epic" completed-desc="q_244_completed" completed-list="y" desc="q_244_sum" district-1="startzone" grade="1" group2="QG_Toturial" id="244" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.244" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition job-1="소환사" level="1" recommended-level="1" sort-no="104" />
     <mission-step desc="q_244_des_1" enable-navigation="y" guide-message="gm_244_1" id="1" location-x="-8737.976" location-y="37157.859" map="startzone" use-auto-navigation="y">

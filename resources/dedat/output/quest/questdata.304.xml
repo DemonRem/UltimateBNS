@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.304.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.304.xml-->
   <quest alias="q_epic_304" category="epic" completed-desc="q_304_completed" completed-list="y" desc="q_304_sum" district-1="jeryoungrim" grade="1" group2="QG_JeRyoungRimEpic" id="304" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.304" save-type="all" tutorial="y">
     <acquisition level="1" recommended-level="4" sort-no="205" />
     <mission-step completion-type="and" desc="q_304_des_2" guide-message="gm_304_2" id="2" location-x="-52866.4688" location-y="-52795.8281" map="mangjasup">

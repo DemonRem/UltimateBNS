@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25195.xml-->
+  <quest alias="q_sub_25195" category="dungeon" dungeon="Dungeon_PirateShip" grade="10" group2="QG_CursedPirate" id="25195" map-group-1-1="Geonwon" max-repeat="-1" name2="Quest.Name2.25195" progress-difficulty-type-1="n" progress-difficulty-type-3="n" save-type="nothing">
+    <acquisition level="55" preceding-quest-1="q_epic_1657" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" object2="zoneenv2:6150_Portal_6250" type="enter-portal" />
+      <case acquire-quest="y" object2="zoneenv2:950_Portal_6250" type="enter-portal" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25195_1" required-register-value="1">
+        <case object2="npc:me_sb_crystallizard_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.25195_2" required-register-value="1">
+        <case object2="npc:me_sb_blackfist_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <transit id="2" zone="zone_gw_pirateship_d2">
+      <destination mission-step-id="2" zone-index="1" />
+    </transit>
+    <transit id="1" zone="zone_gw_pirateship_d1">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+  </quest>
+</table>

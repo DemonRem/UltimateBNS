@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_su_w.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_su_w.xml-->
 	<record alias="ItemSkill_SU_MorningGrory_G1_Lv1_01_E1" effect-1="ItemSkill_SU_MorningGrory_G1_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Hornet_G1_Lv1_01_E1" effect-1="ItemSkill_SU_Hornet_G1_Lv1_01_Damage" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
 	<record alias="ItemSkill_SU_Sunflower_G1_Lv1_01_E1" effect-1="ItemSkill_SU_Sunflower_G1_Lv1_01_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
@@ -33,13 +33,13 @@
 	<record alias="ItemSkill_SU_Hornet_T2_G1_Lv3_01_E1" effect-1="ItemSkill_SU_Hornet_T2_G1_Lv3_01_Damage" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
 	<record alias="ItemSkill_SU_MorningGrory_T2_G1_Lv4_01_E1" effect-1="ItemSkill_SU_MorningGrory_T2_G1_Lv4_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Hornet_T2_G1_Lv4_01_E1" effect-1="ItemSkill_SU_Hornet_T2_G1_Lv4_01_Damage" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
-	<record alias="ItemSkill_SU_ThornVine_T2_G2_Lv1_01_E1" effect-1="ItemSkill_SU_ThornVine_T2_G2_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_ThornVine_T2_G2_Lv1_01_E1" effect-1="ItemSkill_SU_ThornVine_T2_G2_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Sunflower_T2_G2_Lv1_01_E1" effect-1="ItemSkill_SU_Sunflower_T2_G2_Lv1_01_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
-	<record alias="ItemSkill_SU_ThornVine_T2_G2_Lv2_01_E1" effect-1="ItemSkill_SU_ThornVine_T2_G2_Lv2_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_ThornVine_T2_G2_Lv2_01_E1" effect-1="ItemSkill_SU_ThornVine_T2_G2_Lv2_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Sunflower_T2_G2_Lv2_01_E1" effect-1="ItemSkill_SU_Sunflower_T2_G2_Lv2_01_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
-	<record alias="ItemSkill_SU_ThornVine_T2_G2_Lv3_01_E1" effect-1="ItemSkill_SU_ThornVine_T2_G2_Lv3_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_ThornVine_T2_G2_Lv3_01_E1" effect-1="ItemSkill_SU_ThornVine_T2_G2_Lv3_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Sunflower_T2_G2_Lv3_01_E1" effect-1="ItemSkill_SU_Sunflower_T2_G2_Lv3_01_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
-	<record alias="ItemSkill_SU_ThornVine_T2_G2_Lv4_01_E1" effect-1="ItemSkill_SU_ThornVine_T2_G2_Lv4_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_ThornVine_T2_G2_Lv4_01_E1" effect-1="ItemSkill_SU_ThornVine_T2_G2_Lv4_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Sunflower_T2_G2_Lv4_01_E1" effect-1="ItemSkill_SU_Sunflower_T2_G2_Lv4_01_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SU_Ivy_G3_Lv1_01_E1" effect-1="ItemSkill_SU_Ivy_G3_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Hornet_G3_Lv1_01_E1" effect-1="ItemSkill_SU_Hornet_G3_Lv1_01_Damage" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
@@ -118,4 +118,9 @@
 	<record alias="ItemSkill_SU_Sunflower_RW4_Lv4_01_E2" effect-1="ItemSkill_SU_Sunflower_RW4_Lv1_01_Earth_Stack" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Hornet_RW4_Lv5_01_E2" effect-1="ItemSkill_SU_Hornet_RW4_Lv1_01_Wind_Stack" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Sunflower_RW4_Lv5_01_E2" effect-1="ItemSkill_SU_Sunflower_RW4_Lv1_01_Earth_Stack" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_SU_PW4_Lv1_01_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_PW4_Lv2_01_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_PW4_Lv3_01_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_PW4_Lv4_01_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SU_PW4_Lv5_01_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 </table>

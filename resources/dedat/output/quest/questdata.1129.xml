@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1129.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1129.xml-->
   <quest alias="q_sub_1129" attraction-info="dungeon:Dungeon_DongHae_chungkak_B_mini" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1129_sum" district-1="suwal" grade="10" group2="QG_ChungGakEastJiBu" id="1129" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1129" reset-type="daily" retired="y" save-type="all">
   </quest>
   

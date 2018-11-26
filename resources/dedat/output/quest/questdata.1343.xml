@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1343.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1343.xml-->
   <quest alias="q_sub_1343" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1343_sum" grade="1" group2="QG_PaCheonSeongDo" id="1343" map-group-1-1="PaCheonSeongDo" max-repeat="1" name2="Quest.Name2.1343" reset-type="daily" save-type="all">
     <acquisition level="50" preceding-quest-1="q_sub_1294" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" npc-response="grsp_1343_1" object="npc:CH_WC_HoBeopoe_0028" progress-mission="y" type="talk" />

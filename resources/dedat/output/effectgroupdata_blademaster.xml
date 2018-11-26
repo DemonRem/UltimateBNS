@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_blademaster.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_blademaster.xml-->
 	<record alias="BladeMaster_Sword_full_moon_slash_LV1_E1_01" effect-1="BladeMaster_Sword_full_moon_slash_LV13_Damage" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Sword_full_moon_slash_LV1_E1_02" effect-1="BladeMaster_Sword_full_moon_slash_LV13_Damage" skill-result="parry-perfect-parry-counter" target="second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Sword_full_moon_slash_LV51_E1_01" effect-1="BladeMaster_Sword_full_moon_slash_LV14_Damage" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
@@ -98,12 +98,12 @@
 	<record alias="BladeMaster_Sword_DownCounter_Exec_LV1_E1_02" effect-1="BladeMaster_Sword_DownCounter_Exec_LV1_Damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV1_E1_01" effect-1="BladeMaster_Batto_six_combo_slash_LV21_Damage1" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV1_E1_02" effect-1="BladeMaster_Batto_six_combo_slash_LV21_Damage1" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="Enemy" />
-	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E1_01" effect-1="BladeMaster_Batto_six_combo_slash_LV11_Kneel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
+	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E1_01" effect-1="BladeMaster_Batto_six_combo_slash_LV11_Kneel" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E1_02" effect-1="BladeMaster_Batto_six_combo_slash_LV11_Damage" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E1_03" effect-1="BladeMaster_Batto_six_combo_slash_LV1_Show1" skill-result="all" target="first-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E1_04" effect-1="BladeMaster_Common_SwordGage_Charge1_NoMessage" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E1_05" effect-1="BladeMaster_Batto_six_combo_slash_hit_check" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
-	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E2_01" effect-1="BladeMaster_Batto_six_combo_slash_LV11_Kneel_nobreak" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
+	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E2_01" effect-1="BladeMaster_Batto_six_combo_slash_LV11_Kneel_nobreak" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E2_02" effect-1="BladeMaster_Batto_six_combo_slash_LV11_Damage" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E2_03" effect-1="BladeMaster_Batto_six_combo_slash_LV1_Show1" skill-result="all" target="first-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV12_E2_04" effect-1="BladeMaster_Batto_six_combo_slash_hit_check" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
@@ -121,12 +121,12 @@
 	<record alias="BladeMaster_Batto_six_combo_slash_LV13_E2_05" effect-1="BladeMaster_Common_SwordGage_Charge1_NoMessage" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV21_E1_01" effect-1="BladeMaster_Batto_six_combo_slash_LV21_Damage2" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV21_E1_02" effect-1="BladeMaster_Batto_six_combo_slash_LV21_Damage2" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="Enemy" />
-	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E1_01" effect-1="BladeMaster_Batto_six_combo_slash_LV22_Kneel" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
+	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E1_01" effect-1="BladeMaster_Batto_six_combo_slash_LV22_Kneel" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E1_02" effect-1="BladeMaster_Batto_six_combo_slash_LV22_Damage" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E1_03" effect-1="BladeMaster_Batto_six_combo_slash_LV1_Show1" skill-result="all" target="first-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E1_04" effect-1="BladeMaster_Common_SwordGage_Charge1_NoMessage" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E1_05" effect-1="BladeMaster_Batto_six_combo_slash_hit_check" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
-	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E2_01" effect-1="BladeMaster_Batto_six_combo_slash_LV22_Kneel_nobreak" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
+	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E2_01" effect-1="BladeMaster_Batto_six_combo_slash_LV22_Kneel_nobreak" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E2_02" effect-1="BladeMaster_Batto_six_combo_slash_LV22_Damage" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E2_03" effect-1="BladeMaster_Batto_six_combo_slash_LV1_Show1" skill-result="all" target="first-target" target-state="Enemy" />
 	<record alias="BladeMaster_Batto_six_combo_slash_LV22_E2_04" effect-1="BladeMaster_Batto_six_combo_slash_hit_check" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
@@ -403,8 +403,8 @@
 	<record alias="BladeMaster_Sword_turning_strike_Lv23_E1_02" effect-1="BladeMaster_Sword_turning_strike_LV23_Damage" skill-result="parry-perfect-parry-counter" target="second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Sword_turning_strike_Lv23_E2_01" effect-1="BladeMaster_Sword_turning_strike_LV23_Damage2" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Sword_turning_strike_Lv23_E2_02" effect-1="BladeMaster_Sword_turning_strike_LV23_Damage2" skill-result="parry-perfect-parry-counter" target="second-target" target-state="Enemy" />
-	<record alias="BladeMaster_Sword_Soul_EndSoul_Lv1_E1_01" effect-1="BladeMaster_Sword_Soul_EndSoul_Lv12_Damage" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
-	<record alias="BladeMaster_Sword_Soul_EndSoul_Lv1_E1_02" effect-1="BladeMaster_Sword_Soul_EndSoul_Lv12_Damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
+	<record alias="BladeMaster_Sword_Soul_EndSoul_Lv1_E1_01" effect-1="BladeMaster_Sword_Soul_EndSoul_Lv1_Damage" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
+	<record alias="BladeMaster_Sword_Soul_EndSoul_Lv1_E1_02" effect-1="BladeMaster_Sword_Soul_EndSoul_Lv1_Damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
 	<record alias="BladeMaster_Sword_Soul_EndSoul_Lv21_E1_01" effect-1="BladeMaster_Sword_Soul_EndSoul_Lv12_Damage" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
 	<record alias="BladeMaster_Sword_Soul_EndSoul_Lv21_E1_02" effect-1="BladeMaster_Sword_Soul_EndSoul_Lv12_Damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
 	<record alias="BladeMaster_Sword_FrontKick_LV1_E1_01" effect-1="BladeMaster_Common_Logic_Flag_Check" effect-2="BladeMaster_Sword_FrontKick_LV1_Attribute" effect-3="BladeMaster_Sword_FrontKick_LV1_Stun" effect-4="BladeMaster_Sword_FrontKick_LV1_Damage" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" target-state-first-filter="40040" />
@@ -638,6 +638,8 @@
 	<record alias="BladeMaster_Sword_mach_slash_Item3_E1_02" effect-1="BladeMaster_Sword_mach_slash_Item3_Damage" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
 	<record alias="BladeMaster_Soul_rotatesoulblade_LV1_caster_E1_01" effect-1="BladeMaster_Soul_rotatesoulblade_LV1_caster_Damage" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Soul_rotatesoulblade_LV1_caster_E1_02" effect-1="BladeMaster_Soul_rotatesoulblade_LV1_caster_Damage" skill-result="parry-perfect-parry-counter" target="second-target" target-state="Enemy" />
+	<record alias="BladeMaster_Soul_rotatesoulblade_LV2_caster_E1_01" effect-1="BladeMaster_Soul_rotatesoulblade_LV2_caster_Damage" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
+	<record alias="BladeMaster_Soul_rotatesoulblade_LV2_caster_E1_02" effect-1="BladeMaster_Soul_rotatesoulblade_LV2_caster_Damage" skill-result="parry-perfect-parry-counter" target="second-target" target-state="Enemy" />
 	<record alias="BladeMaster_Sword_blocking_SH_LV1_E1" effect-1="BladeMaster_Sword_blocking_SH_LV1" skill-result="all" target="caster" target-state="all" />
 	<record alias="BladeMaster_MasterSkill_2_1_E1_01" effect-1="BladeMaster_Sword_masterskill2_1_Damage" effect-2="BladeMaster_masterskill_Kneel_3sec" effect-3="Common_ReactToDown_Flag_800ms" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />
 	<record alias="BladeMaster_MasterSkill_2_21_E1_02" effect-1="BladeMaster_Sword_masterskill2_21_Damage" effect-2="BladeMaster_masterskill_Kneel_3sec" effect-3="Common_ReactToDown_Flag_800ms" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />

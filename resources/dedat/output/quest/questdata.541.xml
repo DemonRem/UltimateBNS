@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.541.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.541.xml-->
   <quest alias="q_epic_541" broadcast-category="field" category="epic" completed-desc="q_541_completed" completed-list="y" desc="q_541_sum" district-1="deasamak" grade="1" group2="QG_DaeSaMakEpic" id="541" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.541" save-type="all">
     <acquisition level="1" recommended-level="34" sort-no="330" />
     <mission-step id="1" location-x="12270.3457" location-y="-34242.0313" map="hangari">

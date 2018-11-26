@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-mversion="0.0.0.171" release-side="client" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_forcemaster_contextsimplemode.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/skill3_contextscriptdata_forcemaster_contextsimplemode.xml-->
 
 
   <contextscript context-simple-mode="y" job="기공사">
@@ -473,16 +473,16 @@
       
       <layer>
         <decision>
-          <condition skill="22010" />
-          <result context-1="22010" context-ui-effect="event" control-mode="classic" />
-          <result context-1="22010" context-ui-effect="event" control-mode="bns" />
+          <condition skill="22011" />
+          <result context-2="22011" context-ui-effect="event" control-mode="classic" />
+          <result context-2="22011" context-ui-effect="event" control-mode="bns" />
         </decision>
       </layer>
       <layer>
         <decision>
-          <condition skill="22011" />
-          <result context-2="22011" context-ui-effect="event" control-mode="classic" />
-          <result context-2="22011" context-ui-effect="event" control-mode="bns" />
+          <condition skill="22010" />
+          <result context-1="22010" context-ui-effect="event" control-mode="classic" />
+          <result context-1="22010" context-ui-effect="event" control-mode="bns" />
         </decision>
       </layer>
 
@@ -979,6 +979,15 @@
       
       <layer>
         <decision>
+          <condition skill="22001" />
+          <result context-2="22001" control-mode="classic" />
+          <result context-2="22001" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
           <condition skill="22000" variation-id="11" />
           <result context-2="22000" control-mode="classic" />
           <result context-2="22000" control-mode="bns" />
@@ -1006,15 +1015,6 @@
           <condition skill="22000" variation-id="52" />
           <result context-2="22000" control-mode="classic" />
           <result context-2="22000" control-mode="bns" />
-        </decision>
-      </layer>
-
-      
-      <layer>
-        <decision>
-          <condition skill="22001" />
-          <result context-2="22001" control-mode="classic" />
-          <result context-2="22001" control-mode="bns" />
         </decision>
       </layer>
 
@@ -1234,14 +1234,6 @@
         </decision>
       </layer>
 
-
-      <layer>
-        <decision>
-          <condition skill="22000" />
-          <result context-1="22000" control-mode="classic" skillbar-ui-effect="event" />
-          <result context-1="22000" control-mode="bns" skillbar-ui-effect="event" />
-        </decision>
-      </layer>
       <layer>
         <decision>
           <condition skill="22001" />
@@ -1250,6 +1242,14 @@
         </decision>
       </layer>
 
+
+      <layer>
+        <decision>
+          <condition skill="22000" />
+          <result context-1="22000" control-mode="classic" skillbar-ui-effect="event" />
+          <result context-1="22000" control-mode="bns" skillbar-ui-effect="event" />
+        </decision>
+      </layer>
 
 
       
@@ -1402,6 +1402,15 @@
       
       <layer>
         <decision>
+          <condition skill="22001" />
+          <result context-2="22001" control-mode="classic" />
+          <result context-2="22001" control-mode="bns" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
           <condition skill="22000" variation-id="11" />
           <result context-2="22000" control-mode="classic" />
           <result context-2="22000" control-mode="bns" />
@@ -1429,15 +1438,6 @@
           <condition skill="22000" variation-id="52" />
           <result context-2="22000" control-mode="classic" />
           <result context-2="22000" control-mode="bns" />
-        </decision>
-      </layer>
-
-      
-      <layer>
-        <decision>
-          <condition skill="22001" />
-          <result context-2="22001" control-mode="classic" />
-          <result context-2="22001" control-mode="bns" />
         </decision>
       </layer>
 
@@ -1679,19 +1679,19 @@
         </decision>
       </layer>
 
+      <layer>
+        <decision>
+          <condition skill="22001" />
+          <result context-2="22001" control-mode="classic" skillbar-ui-effect="event" />
+          <result context-2="22001" control-mode="bns" skillbar-ui-effect="event" />
+        </decision>
+      </layer>
 
       <layer>
         <decision>
           <condition skill="22000" />
           <result context-1="22000" control-mode="classic" skillbar-ui-effect="event" />
           <result context-1="22000" control-mode="bns" skillbar-ui-effect="event" />
-        </decision>
-      </layer>
-      <layer>
-        <decision>
-          <condition skill="22001" />
-          <result context-2="22001" control-mode="classic" skillbar-ui-effect="event" />
-          <result context-2="22001" control-mode="bns" skillbar-ui-effect="event" />
         </decision>
       </layer>
 
@@ -1829,6 +1829,14 @@
       
       <layer>
         <decision>
+          <condition skill="22001" />
+          <result context-2="22001" control-mode="classic" />
+          <result context-2="22001" control-mode="bns" />
+        </decision>
+      </layer>
+      
+      <layer>
+        <decision>
           <condition skill="22000" variation-id="11" />
           <result context-2="22000" control-mode="classic" />
           <result context-2="22000" control-mode="bns" />
@@ -1859,14 +1867,6 @@
         </decision>
       </layer>
 
-      
-      <layer>
-        <decision>
-          <condition skill="22001" />
-          <result context-2="22001" control-mode="classic" />
-          <result context-2="22001" control-mode="bns" />
-        </decision>
-      </layer>
 
       
       <layer>
@@ -2066,14 +2066,6 @@
           <result control-mode="bns" skillbar-2="22013" skillbar-ui-effect="event" />
         </decision>
       </layer>
-
-      <layer>
-        <decision>
-          <condition skill="22000" />
-          <result context-1="22000" control-mode="classic" skillbar-ui-effect="event" />
-          <result context-1="22000" control-mode="bns" skillbar-ui-effect="event" />
-        </decision>
-      </layer>
       <layer>
         <decision>
           <condition skill="22001" />
@@ -2081,6 +2073,14 @@
           <result context-2="22001" control-mode="bns" skillbar-ui-effect="event" />
         </decision>
       </layer>
+      <layer>
+        <decision>
+          <condition skill="22000" />
+          <result context-1="22000" control-mode="classic" skillbar-ui-effect="event" />
+          <result context-1="22000" control-mode="bns" skillbar-ui-effect="event" />
+        </decision>
+      </layer>
+
 
       
       <layer>

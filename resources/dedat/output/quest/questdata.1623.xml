@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1623.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1623.xml-->
   <quest alias="q_sub_1623" attraction-info="dungeon:Dungeon_BimilJeondang" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1623_sum" grade="10" group2="qg_secrethall" id="1623" map-group-1-1="Geonwon" map-group-1-2="baekchung" max-repeat="1" name2="Quest.Name2.1623" reset-type="daily" save-type="all">
     <acquisition level="50" preceding-quest-1="q_sub_1620" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1623_1" object="npc:ch_sb_tanposa_0002" type="talk" />

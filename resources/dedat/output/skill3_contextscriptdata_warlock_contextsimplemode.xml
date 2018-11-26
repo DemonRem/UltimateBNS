@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_warlock_contextsimplemode.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/skill3_contextscriptdata_warlock_contextsimplemode.xml-->
 
   
   
@@ -922,6 +922,15 @@
       
       <layer>
         <decision>
+          <condition skill="28172" />
+          <result control-mode="classic" skillbar-2="28172" skillbar-ui-effect="event" />
+          <result control-mode="bns" skillbar-2="28172" skillbar-ui-effect="event" />
+        </decision>
+      </layer>
+      
+      
+      <layer>
+        <decision>
           <condition skill="28171" />
           <result control-mode="classic" skillbar-2="28171" skillbar-ui-effect="event" />
           <result control-mode="bns" skillbar-2="28171" skillbar-ui-effect="event" />
@@ -1638,6 +1647,16 @@
         </decision>
       </layer>
 
+
+      
+      <layer>
+        <decision>
+          <condition skill="28172" />
+          <result control-mode="classic" skillbar-2="28172" skillbar-ui-effect="event" />
+          <result control-mode="bns" skillbar-2="28172" skillbar-ui-effect="event" />
+        </decision>
+      </layer>
+      
       
       <layer>
         <decision>

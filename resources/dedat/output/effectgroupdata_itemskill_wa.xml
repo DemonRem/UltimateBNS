@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_wa.xml-->
+	<record alias="ItemSkill_WA_S1_Lv1_01_E1" effect-1="ItemSkill_WA_S1_Lv1_01_GG_Heal" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S1_Lv1_02_E1" effect-1="ItemSkill_WA_S1_Lv1_01_GG_Heal" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S2_Lv1_01_E1" effect-1="ItemSkill_WA_S2_Lv1_01_HP_Heal" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S2_Lv1_02_E1" effect-1="ItemSkill_WA_S2_Lv1_01_HP_Heal" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S3_Lv1_01_E1" effect-1="Warrior_Bloodcost20" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S3_Lv1_01_E2" effect-1="Warrior_Bloodcost20" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S4_Lv1_01_E1" effect-1="ItemSkill_WA_S4_Lv1_01_flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S4_Lv1_01_E2" effect-1="ItemSkill_WA_S4_Lv1_01_flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S5_Lv1_01_E1" effect-1="ItemSkill_WA_S5_Lv1_01_recycle1" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S5_Lv1_02_E1" effect-1="ItemSkill_WA_S5_Lv1_01_recycle2" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S6_Lv1_01_E1" effect-1="ItemSkill_WA_S6_Lv1_01_recycle" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S7_Lv1_01_E1" effect-1="ItemSkill_WA_S7_Lv1_01_Mad_Buff" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S7_Lv1_02_E1" effect-1="ItemSkill_WA_S7_Lv1_02_Holy_Buff" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S8_Lv1_01_E1" effect-1="ItemSkill_WA_S8_Lv1_01_Cri_Dmg" effect-2="Warrior3_Common_GG_Heal_10" effect-3="ItemSkill_WA_S8_Lv1_01_recycle" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S9_Lv1_01_E1" effect-1="ItemSkill_WA_S9_Lv1_01_recycle1" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S9_Lv1_02_E1" effect-1="ItemSkill_WA_S9_Lv1_01_recycle2" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S10_Lv1_01_E1" effect-1="ItemSkill_WA_S10_Lv1_01_Moon1" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S1_PVP_Lv1_01_E1" effect-1="ItemSkill_WA_S1_PVP_Lv1_01_recycle" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S2_PVP_Lv1_01_E1" effect-1="ItemSkill_WA_S2_PVP_Lv1_01_flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S3_PVP_Lv1_01_E1" effect-1="ItemSkill_WA_S3_PVP_Lv1_01_recycle1" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S3_PVP_Lv1_02_E1" effect-1="ItemSkill_WA_S3_PVP_Lv1_01_recycle2" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_S4_PVP_Lv1_01_E1" effect-1="Warrior_dash_at" effect-2="ItemSkill_WA_S4_PVP_Lv1_01_recycle" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_B1_Lv1_01_E1" effect-1="ItemSkill_WA_B1_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_B1_Lv1_02_E1" effect-1="ItemSkill_WA_B1_Lv1_01_LightNing_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WA_B1_Lv1_03_E1" effect-1="ItemSkill_WA_B1_Lv1_01_Ice_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WA_B2_Lv1_01_E1" effect-1="ItemSkill_WA_B2_Lv1_01_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_B2_Lv1_02_E1" effect-1="ItemSkill_WA_B2_Lv1_01_LightNing_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WA_B2_Lv1_03_E1" effect-1="ItemSkill_WA_B2_Lv1_01_Ice_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WA_B3_Lv1_01_E1" effect-1="ItemSkill_WA_B3_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_B3_Lv1_02_E1" effect-1="ItemSkill_WA_B3_Lv1_01_LightNing_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WA_B3_Lv1_03_E1" effect-1="ItemSkill_WA_B3_Lv1_01_LightNing_Dmg2" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WA_B4_Lv1_01_E1" effect-1="ItemSkill_WA_B4_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WA_B4_Lv1_02_E1" effect-1="ItemSkill_WA_B4_Lv1_01_Ice_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WA_B5_Lv1_01_E1" effect-1="ItemSkill_WL_Real_SoulMask_Lv1_01_Flag" skill-result="all" target="first-second-target" target-state="my-party" />
+	<record alias="ItemSkill_WA_B6_Lv1_01_E1" effect-1="ItemSkill_WL_Real_SoulMask_Lv1_01_Flag" skill-result="all" target="first-second-target" target-state="my-party" />
+</table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1222.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1222.xml-->
   <quest alias="q_sub_1222" attraction-info="dungeon:Dungeon_HaeMuJin" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1222_sum" grade="10" group2="QG_ZamsikHaejuk" id="1222" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.1222" reset-type="daily" save-type="all">
     <acquisition level="50" preceding-quest-1="q_epic_1449" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" npc-response="qrsp_1222_1" object="npc:CH_WB_ChungGak_0050" type="talk" />

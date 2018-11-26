@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.52.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.52.xml-->
   <quest alias="q_sub_52" broadcast-category="solo-quartet" category="dungeon" dungeon="dungeon_donghae_chungkak_b" grade="10" group2="qg_delete" id="52" max-repeat="1" name2="Quest.Name2.52" reset-by-acquire-time="daily" retired="y" save-type="all">
     <acquisition level="50" preceding-quest-1="q_sub_1122" preceding-quest-2="q_sub_1508" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" object="zoneenv:4110_portal_4708" object2="zoneenv2:4110_portal_4708" type="enter-portal" />

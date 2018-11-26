@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.822.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.822.xml-->
   <quest alias="q_sub_822" broadcast-category="field" category="normal" day-of-week="daily" desc="q_822_sum" grade="1" group2="QG_ZazakWoodEast" id="822" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.822" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" level="45" preceding-quest-1="q_epic_1439" preceding-quest-2="q_sub_819" preceding-quest-check="and" preceding-quest-mission-step-1="2" recommended-level="48">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_822_1" object="npc:CH_CT_Mercenary_0005" type="talk" />

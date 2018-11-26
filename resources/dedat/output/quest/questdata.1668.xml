@@ -1,18 +1,192 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1668.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1668.xml-->
   <quest alias="q_epic_1668" category="epic" completed-desc="q_1668_completed" completed-list="y" desc="q_1668_sum" grade="1" group2="QG_NextWestLandEpic" id="1668" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1668" save-type="all">
-    <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="832" />
-    <mission-step id="1">
-      <mission id="1" name2="Mission.Name2.1668_1" required-register-value="1">
-        <case npc-response="qrsp_1668_4" object="npc:CH_SB_SeoYeon_0006" progress-mission="reaction-only" type="approach" />
-        <case npc-response="qrsp_1668_3" object="npc:CH_SB_ChinChin_0024" progress-mission="reaction-only" type="approach" />
-        <case npc-response="qrsp_1668_2" object="npc:CH_SB_BunA_0023" progress-mission="reaction-only" type="approach" />
-        <case npc-response="qrsp_1668_1" object="npc:CH_SB_BunYang_0025" progress-mission="reaction-only" type="approach" />
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="832" />
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1668_2" required-register-value="1" reset-teleport-recycle-time="y">
+        <case mapunit-1="6545_CH_WC_bhikkhu_0001" npc-response="qrsp_1668_5" object="npc:ch_wc_bhikkhu_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_SuchunTemple_Epic8_4" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_17" object="npc:CH_SB_ChinChin_0024" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_18" object="npc:CH_WC_SeoYeon_0021" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_16" object="npc:CH_SB_BunYang_0025" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_19" object="npc:CH_SB_BunA_0023" progress-mission="reaction-only" type="approach" />
       </mission>
     </mission-step>
-    <transit id="1" zone="zone_SuchunTemple_D">
+    <transit id="5" zone="zone_SuchunTemple_D">
       <destination mission-step-id="1" zone-index="4" />
+      <destination mission-step-id="2" zone-index="4" />
+      <destination mission-step-id="3" zone-index="4" />
     </transit>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1668_3" required-register-value="1">
+        <case mapunit-1="6528_CH_WC_HeoMyung_0001" npc-response="qrsp_1668_6" object="npc:CH_WC_HeoMyung_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1668_26" object="npc:CH_WC_BunYang_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_27" object="npc:CH_WC_BunA_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_28" object="npc:CH_WC_ChinChin_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_29" object="npc:CH_WC_bhikkhu_0002" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_32" object="npc:CH_WC_Monk_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_32" object="npc:CH_WC_Monk_0002" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_36" object="npc:CH_SB_BunA_0023" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_35" object="npc:CH_SB_BunYang_0025" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_37" object="npc:CH_SB_ChinChin_0024" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1668_4" required-register-value="1">
+        <case mapunit-1="6528_CH_WC_CheonDoong_0001" npc-response="qrsp_1668_7" object="npc:CH_WC_CheonDoong_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_Jububsa_Daewoong_Epic9_1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_34" object="npc:CH_WC_Monk_0002" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_41" object="npc:CH_WC_Monk_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1668_5" required-register-value="1">
+        <case mapunit-1="6528_e_button_6528_yongmak_01_Place" object2="zoneenv2:e_button_6528_yongmak_01" progress-mission="reaction-only" type="manipulate" />
+        <case object="zone:zone_Jububsa_Daewoong_Epic9_1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_33" object="npc:CH_WC_Monk_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_38" object="npc:CH_WC_HeoMyung_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_39" object="npc:ch_wc_bhikkhu_0002" progress-mission="reaction-only" type="approach" />
+        <case mapunit-1="5692_Zone_Myungre_epic9_P1" object="zone:Zone_Myungre_epic9_P1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1668_6" required-register-value="1">
+        <case mapunit-1="5692_CH_WC_GunHyang_0001" npc-response="qrsp_1668_8" object="npc:CH_WC_GunHyang_0001" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:5692_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case object="zone:Zone_Myungre_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_23" object="npc:CH_WC_TaeGwang_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_24" object="npc:CH_WC_NamGung_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_25" object="npc:CH_WC_JinSoA_0006" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1668_8" required-register-value="1">
+        <case mapunit-1="5692_CH_WC_CheonDoong_0002" npc-response="qrsp_1668_9" object="npc:CH_WC_CheonDoong_0004" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Myungre_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1668_9" required-register-value="1">
+        <case mapunit-1="5693_CH_WC_DaPaRa_0001" npc-response="qrsp_1668_10" object="npc:CH_WC_DaPaRa_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1668_30" object="npc:CH_WC_Haobang_0066" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_31" object="npc:CH_WC_Haobang_0069" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_42" object="npc:ch_wc_goldlady_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_43" object="npc:ch_wc_donmana_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_44" object="npc:ch_wc_goldman_0002" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_45" object="npc:ch_wc_wangsunghyeong_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_46" object="npc:ch_wc_wangbotok_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1668_10" required-register-value="1">
+        <case mapunit-1="5693_CH_WC_DonMaNa_0001" npc-response="qrsp_1668_11" object="npc:CH_WC_DonMaNa_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Haoamre_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_20" object="npc:ch_wc_wangbotok_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_21" object="npc:ch_wc_wangsunghyeong_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_30" object="npc:CH_WC_Haobang_0066" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_31" object="npc:CH_WC_Haobang_0069" progress-mission="reaction-only" type="approach" />
+        <case object2="zoneenv2:5693_foot_2" progress-mission="reaction-only" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1668_12" required-register-value="3">
+        <case object="npc:CH_WC_YangSu_0001" progress-mission="y" type="npc-bleeding-occured" />
+        <case mapunit-1="5693_CE_WC_MangSik_0001" object="npc:CE_WC_MangSik_0001" progress-mission="y" type="npc-bleeding-occured" />
+        <case mapunit-1="5693_CH_WC_ShinKi_0001" object="npc:CH_WC_ShinKi_0001" progress-mission="y" type="npc-bleeding-occured" />
+        <case npc-response="qrsp_1668_50" object="npc:ch_wc_wangsunghyeong_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_49" object="npc:CH_WC_DonMaNa_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_51" object="npc:ch_wc_wangbotok_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_52" object="npc:ch_wc_goldlady_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="11" />
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1668_13" required-register-value="1" reset-teleport-recycle-time="y">
+        <case mapunit-1="5693_CH_WC_DonMaNa_0001" npc-response="qrsp_1668_12" object="npc:CH_WC_DonMaNa_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Haoamre_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_53" object="npc:ch_wc_wangsunghyeong_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_54" object="npc:ch_wc_wangbotok_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1668_14" required-register-value="1">
+        <case mapunit-1="5693_CH_WC_CheonDoong_0003" npc-response="qrsp_1668_13" object="npc:CH_WC_CheonDoong_0003" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Myungre_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_55" object="npc:ch_wc_wangsunghyeong_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_56" object="npc:ch_wc_wangbotok_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_57" object="npc:ch_wc_goldlady_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_58" object="npc:ch_wc_goldsoldier_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_59" object="npc:CH_WC_JinSoA_0006" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_60" object="npc:CH_WC_NamGung_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1668_15" required-register-value="1">
+        <case looting="q_1668_1_icon" mapunit-1="5692_e_chest_bonfire_01_Place" object2="zoneenv2:e_chest_5692_bonfire_01" progress-mission="y" type="loot" />
+        <case npc-response="qrsp_1668_40" object="npc:CH_WC_CheonDoong_0003" progress-mission="reaction-only" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="14" />
+    </mission-step>
+    <mission-step id="16">
+      <mission id="16" name2="Mission.Name2.1668_16" required-register-value="1" reward-1="1668_final_set1">
+        <case mapunit-1="5693_CH_WC_CheonDoong_0003" npc-response="qrsp_1668_14" object="npc:CH_WC_CheonDoong_0003" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Myungre_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_ChungunTree_D">
+      <destination mission-step-id="1" zone-index="3" />
+    </transit>
+    <transit id="2" zone="zone_Jububsa_Daewoong_D">
+      <destination mission-step-id="3" zone-index="3" />
+      <destination mission-step-id="4" zone-index="3" />
+      <destination mission-step-id="5" zone-index="3" />
+    </transit>
+    <transit id="3" zone="Zone_Myungre">
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="15" zone-index="1" />
+      <destination mission-step-id="16" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+    </transit>
+    <transit id="4" zone="Zone_Haoamre">
+      <destination mission-step-id="9" zone-index="2" />
+      <destination mission-step-id="10" zone-index="2" />
+      <destination mission-step-id="11" zone-index="2" />
+      <destination mission-step-id="12" zone-index="2" />
+      <destination mission-step-id="13" zone-index="2" />
+    </transit>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1668_1" required-register-value="1">
+        <case mapunit-1="6545_CH_SB_SeoYeon_0006" npc-response="qrsp_1668_15" object="npc:CH_WC_SeoYeon_0021" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1668_1" object="npc:CH_SB_BunYang_0025" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_2" object="npc:CH_SB_BunA_0023" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_3" object="npc:CH_SB_ChinChin_0024" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1668_7" required-register-value="1">
+        <case mapunit-1="5692_CH_WC_CheonDoong_0002" npc-response="qrsp_1668_22" object="npc:CH_WC_CheonDoong_0002" progress-mission="y" type="talk" />
+        <case object="zone:Zone_Myungre_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_25" object="npc:CH_WC_JinSoA_0006" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_24" object="npc:CH_WC_NamGung_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_23" object="npc:CH_WC_TaeGwang_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1668_11" required-register-value="1">
+        <case mapunit-1="5693_CH_WC_YangSu_0001" object="npc:CE_WC_Dummy_0116" progress-mission="y" type="approach" />
+        <case object="zone:Zone_Haoamre_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1668_48" object="npc:ch_wc_wangbotok_0001" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1668_47" object="npc:ch_wc_wangsunghyeong_0001" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1745" />
+    </completion>
   </quest>
 </table>

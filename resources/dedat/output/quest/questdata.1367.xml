@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1367.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1367.xml-->
   <quest alias="q_sub_1367" broadcast-category="field" category="normal" content-type="festival" day-of-week="daily" desc="q_1367_sum" grade="7" group2="QG_BuryejinECHN" id="1367" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1367" reset-type="daily" retired="y" save-type="all">
     <acquisition check-tencent-vitality="n" level="16" recommended-level="50">
       <case acquire-quest="y" npc-response="qrsp_1367_1" object="npc:ctzn_jinm_seavillctzn_wangbuja_001" progress-mission="y" type="talk" />

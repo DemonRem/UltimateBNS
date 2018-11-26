@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.698.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.698.xml-->
   <quest alias="q_sub_698" attraction-1="dungeon:Dungeon_BaekCheong_Sulokgoong" attraction-2="dungeon:Dungeon_SulinDongGul" attraction-3="dungeon:Dungeon_GuiMunGuan_Nightmare" attraction-info="dungeon:Dungeon_GuiMunGuan_Nightmare" broadcast-category="field" category="normal" day-of-week="daily" desc="q_698_sum" grade="10" group2="QG_GuiMun" id="698" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.698" reset-type="daily">
     <acquisition level="45" preceding-quest-1="q_epic_1429" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_698_1" object="npc:me_c3_akgyojok_0001" type="talk" />

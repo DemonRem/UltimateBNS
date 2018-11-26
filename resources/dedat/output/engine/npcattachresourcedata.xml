@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="AIData" release-side="client" type="NpcAttachResource" version="0.4">
-  <!--C:/LocalTextSelfDeploy/temp/engine\npcattachresourcedata.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/engine\npcattachresourcedata.xml-->
 	<record alias="Acc_010001_JinM" data-version="2" description="안경1" resource-name="00006943.010001_JinM" />
 	<record alias="Acc_010001_JinF" data-version="2" description="안경1" resource-name="00005602.010001_JinF" />
 	<record alias="Acc_010001_GonM" data-version="2" description="안경1" resource-name="00006948.010001_GonM" />
@@ -1093,6 +1093,16 @@
 	<record alias="040080_LynF" data-version="2" description="귀면극단 가면 린여" resource-name="00021025.040080_LynF" />
 	<record alias="040080_LynM" data-version="2" description="귀면극단 가면 린남" resource-name="00021075.040080_LynM" />
 	<record alias="090120_GonF" data-version="2" description="신비상인용 청화백자 목도리" resource-name="00044284.090120_GonF" />
-	<record alias="GhostMaskMonsterC_L" data-version="2" description="귀면왕 왼손무기" resource-name="00055237.990964_GhostMaskMonsterC_L" />
+	<record alias="GhostMaskMonsterC_L" data-version="2" description="귀면극단 1보스 왼손무기" resource-name="00055362.990964_GhostMaskMonsterC_L" />
 	<record alias="GhostMaskMonsterC_R" data-version="2" description="귀면극단 1보스 오른손무기_본 추가" resource-name="00056178.990965_GhostMaskMonsterC_R" />
+	<record alias="040343_JinM" data-version="2" description="귀면극단 가면_블루_진남" resource-name="00055021.040343_JinM" />
+	<record alias="040343_JinF" data-version="2" description="귀면극단 가면_블루_진여" resource-name="00055031.040343_JinF" />
+	<record alias="040343_GonM" data-version="2" description="귀면극단 가면_블루_곤남" resource-name="00055797.040343_GonM" />
+	<record alias="00056607.Gadget_TouchLight_AutoScale" data-version="2" description="불 붙은 횃불" resource-name="00056607.Gadget_TouchLight_AutoScale" />
+	<record alias="990969_AnthroDeerBase" data-version="2" description="신기수련장 2보스 다리강화" resource-name="00057219.990969_AnthroDeerBase" />
+	<record alias="990967_AnthroDeerBase" data-version="2" description="신기수련장 2보스 큰뿔" resource-name="00057216.990967_AnthroDeerBase" />
+	<record alias="ACC_DemonGoldenBat" data-version="2" description="천명부화장 2보스 날개" resource-name="00057138.990968_DemonGoldenBat" />
+	<record alias="040261_jinM" data-version="2" description="2016 할로윈 가면_진남" resource-name="00042081.040261_jinM" />
+	<record alias="040261_GonM" data-version="2" description="2016 할로윈 가면_곤남" resource-name="00042089.040261_GonM" />	
+	<record alias="040261_JinF" data-version="2" description="2016 할로윈 가면_진녀" resource-name="00042085.040261_JinF" />		
 </table>

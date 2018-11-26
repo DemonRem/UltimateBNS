@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1770.xml-->
+  <quest alias="q_sub_1770" category="normal" desc="q_1770_sum" grade="1" group2="QG_ChunMyungPalace" id="1770" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1770" save-type="all">
+    <acquisition level="1" preceding-quest-1="q_sub_1771" preceding-quest-2="q_sub_1769" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" mapunit-1="6440_CH_WC_Market_0115" npc-response="qrsp_1770_1" object="npc:ch_wc_market_0115" required-item-depot="none" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1770_1" required-register-value="1">
+        <case mapunit-1="6476_MH_WC_OutMarket_0001" mapunit-2="6476_CH_WC_Market_0107_1" object="npc:mh_wc_outmarket_0001" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1770_2" required-register-value="1">
+        <case mapunit-1="6476_CH_WC_Market_0107" npc-response="qrsp_1770_3" object="npc:ch_wc_market_0107" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_Outmarket_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1770_3" required-register-value="1">
+        <case acquire-quest="n" indicator="quest-normal-can-progress" mapunit-1="6476_6476_foot_1_place" object2="zoneenv2:6476_foot_1" progress-mission="y" type="env-entered" />
+        <case mapunit-1="6476_CH_WC_Market_0108" object="zone:Zone_GW_CheonMyungGung_Outmarket_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1770_4" required-register-value="3">
+        <case mapunit-1="6476_MH_WC_OutMarket_0002" object="npc:mh_wc_outmarket_0002" progress-mission="y" type="npc-bleeding-occured" />
+        <case mapunit-1="6476_MH_WC_OutMarket_0002" object="npc:mh_wc_outmarket_0003" progress-mission="y" type="npc-bleeding-occured" />
+        <case mapunit-1="6476_MH_WC_OutMarket_0002" object="npc:mh_wc_outmarket_0004" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="3" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1770_5" required-register-value="1" reward-1="1770_final_set1">
+        <case mapunit-1="6476_CH_WC_Market_0120" npc-response="qrsp_1770_12" object="npc:ch_wc_market_0120" progress-mission="y" type="talk" />
+        <case mapunit-1="6476_CH_WC_Market_0120" object="zone:Zone_GW_CheonMyungGung_Outmarket_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_Outmarket">
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+  </quest>
+</table>

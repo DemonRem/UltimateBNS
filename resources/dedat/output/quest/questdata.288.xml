@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.288.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.288.xml-->
   <quest alias="q_epic_288" broadcast-category="field" category="epic" completed-desc="q_288_completed" completed-list="n" desc="q_288_sum" grade="1" group2="QG_BaeCheongEpic" id="288" invoke-fx-msg="y" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.288" retired="y" save-type="all">
     <mission-step desc="q_288_des_1" id="1">
       <mission id="1" name2="Mission.Name2.288_1" required-register-value="1">

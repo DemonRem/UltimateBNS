@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_as.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_as.xml-->
 	<record alias="ItemSkill_AS_Mine_S1_Lv1_01_E1" effect-1="ItemSkill_AS_Mine_S1_Lv1_01" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_AS_PoisonBreath_S2_Lv1_01_E1" effect-1="ItemSkill_AS_HeartStab_S2_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_AS_HeartStab_S2_Lv1_01_E1" effect-1="Assassin3_Common_SwordGage_Charge2_Signal" skill-result="hit-critical-hit" target="caster" target-state="all" />

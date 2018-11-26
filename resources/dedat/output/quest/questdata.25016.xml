@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25016.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25016.xml-->
   <quest alias="q_sub_25016" broadcast-category="always" category="dungeon" dungeon="Dungeon_MusinTower" grade="10" group2="QG_Musintap" id="25016" max-repeat="1" name2="Quest.Name2.25016" reset-type="none" save-type="nothing">
     <acquisition level="43" preceding-quest-1="q_sub_1381" preceding-quest-check="and" recommended-level="45">
       <case acquire-quest="y" object2="zoneenv2:4900_4909_Potal" type="enter-portal" />

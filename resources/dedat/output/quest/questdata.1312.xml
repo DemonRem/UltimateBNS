@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1312.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1312.xml-->
   <quest alias="q_sub_1312" broadcast-category="field" category="job" desc="q_1312_sum" district-1="jeryoungrim" grade="1" group2="QG_HuekUmmRim" id="1312" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1312" save-type="all" tutorial="y">
     <acquisition job-1="권사" level="10" preceding-quest-1="q_epic_311" preceding-quest-2="q_sub_1311" preceding-quest-check="and" preceding-quest-mission-step-1="2" recommended-level="12" talk-to-self-guide-msg="Msg.Job.quest5">
       <case acquire-quest="y" item="q_1312_Quest_hair_growth_solution_manual_1_icon" msg="q_1312_s" type="talk-to-self" />

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1769.xml-->
+  <quest alias="q_sub_1769" category="normal" desc="q_1769_sum" grade="1" group2="QG_ChunMyungPalace" id="1769" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1769" save-type="all">
+    <acquisition level="1" preceding-quest-1="q_epic_1745" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" mapunit-1="6440_CH_WC_TaewoonHang_0234" npc-response="qrsp_1769_1" object="npc:ch_wc_taewoonhang_0234" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1769_1" required-register-value="1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0235" npc-response="qrsp_1769_2" object="npc:ch_wc_taewoonhang_0235" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1769_2" required-register-value="1">
+        <case looting="q_1769_1_icon" mapunit-1="6440_e_chest_6440_packaged_01" multi-object-1="zoneenv2:e_chest_6440_packaged_03" multi-object-2="zoneenv2:e_chest_6440_packaged_02" multi-object-3="zoneenv2:e_chest_6440_packaged_01" progress-mission="y" type="loot" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1769_3" required-register-value="1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0238" npc-response="qrsp_1769_3" object="npc:ch_wc_taewoonhang_0238" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1769_4" required-register-value="1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0235" npc-response="qrsp_1769_4" object="npc:ch_wc_taewoonhang_0235" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1769_5" required-register-value="1" reward-1="1769_final_set1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0234" npc-response="qrsp_1769_5" object="npc:ch_wc_taewoonhang_0234" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25063.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25063.xml-->
   <quest alias="q_sub_25063" attraction-1="dungeon:Dungeon_Labyrinth" broadcast-category="field" category="attraction" grade="10" group2="QG_Labyrinth" id="25063" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.25063" save-type="nothing">
     <acquisition level="50" preceding-quest-check="and" recommended-level="50" />
     <mission-step id="1">

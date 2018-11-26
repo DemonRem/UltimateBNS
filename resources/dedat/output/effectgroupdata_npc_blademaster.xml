@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc_blademaster.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc_blademaster.xml-->
 	<record alias="MH_BladeMaster_Common_HateDown" effect-1="MH_BladeMaster_Common_HateDown" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="MH_BladeMaster_Batto_batto_E1_01" effect-1="MH_BladeMaster_Batto_batto_damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="MH_BladeMaster_Batto_batto_E1_02" effect-1="MH_BladeMaster_Batto_batto_damage" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />

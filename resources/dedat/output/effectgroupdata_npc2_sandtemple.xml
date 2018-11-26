@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_sandtemple.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_sandtemple.xml-->
 	<record alias="SRF_R0_PirateGhostC_Zslash_E1_01" effect-1="PVE_Common_Down_Left_2000ms" effect-2="Common_ReactToDown_Flag" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
 	<record alias="SRF_R0_PirateGhostD_Countershot_E0_00" effect-1="SRF_R0_PirateGhostD_Counter_Bounce_Counter_stun" skill-result="all" target="first-target" target-state="enemy" />
 	<record alias="SRF_R0_PirateGhostD_Countershot_E1_01" effect-1="ME_ID2_Common_Force_Damage_300" effect-2="Common_stun_Dispel" effect-3="PVE_Common_Knockback_5M_Push" effect-4="Common_ReactToDown_Flag_700ms" skill-result="Hit-Critical-Hit" target="first-target" target-state="enemy" />
@@ -81,12 +81,12 @@
 	<record alias="SRF_B1_Turga_PowerExplosion_E1_01" effect-1="SRF_B1_Turga_Burn" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60066" target-state-second-filter="60056" />
 	<record alias="SRF_B2_Goola_LightningSpear_E1_01" effect-1="SRF_B2_Goola_Sand_dubuff" skill-result="all" target="first-second-target" target-state="enemy" />
 	<record alias="SRF_B2_Goola_Berserk_E1_01" effect-1="ME_ID2_Common_Instantaneous_Death" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60291" />
-	<record alias="SRF_B2_Goola_Berserk_E1_02_Easy_dead" effect-1="ME_ID2_Common_Instantaneous_Death" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60290" />
-	<record alias="SRF_B2_Goola_Berserk_E1_01_Easy" effect-1="SRF_B2_Goola_Berserk_Damage" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60290" />
-	<record alias="SRF_B2_Goola_InhalationBerserk_E1_01" effect-1="ME_ID2_Common_Instantaneous_Death" skill-result="all" target="first-second-target" target-state="enemy" />
-	<record alias="SRF_B2_Goola_InhalationBerserk_E1_01_Easy" effect-1="SRF_B2_Goola_AbsorbBerserk_Damage" skill-result="all" target="first-second-target" target-state="enemy" />
+	<record alias="SRF_B2_Goola_Berserk_E1_02_Easy_dead" effect-1="ME_ID2_Common_Percent_Damage_75" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60290" />
+	<record alias="SRF_B2_Goola_Berserk_E1_01_Easy" effect-1="ME_ID2_Common_Instantaneous_Death" skill-result="all" target="first-second-target" target-state="enemy" />
+	<record alias="SRF_B2_Goola_InhalationBerserk_E1_01" effect-1="ME_ID2_Common_Instantaneous_Death" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60291" />
+	<record alias="SRF_B2_Goola_InhalationBerserk_E1_01_Easy" effect-1="ME_ID2_Common_Percent_Damage_75" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60290" />
 	<record alias="SRF_B2_Goola_Dummy_LightExplosion_E1_01" effect-1="ME_ID2_Common_Instantaneous_Death" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60291" />
-	<record alias="SRF_B2_Goola_Dummy_LightExplosion_E1_01_Easy" effect-1="SRF_B2_Goola_Berserk_Damage" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60290" />
+	<record alias="SRF_B2_Goola_Dummy_LightExplosion_E1_01_Easy" effect-1="ME_ID2_Common_Percent_Damage_75" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60290" />
 	<record alias="SRF_B1_Turga_Smash_E1_01" effect-1="SRF_B1_Turga_Burn" skill-result="all" target="first-second-target" target-state="enemy" target-state-first-filter="60066" target-state-second-filter="60056" />
 	<record alias="SRF_R0_SkullSorcery_None_Area360_BossHeal_E1_01" effect-1="SRF_R0_SkullSorcery_None_Area360_BossHeal" skill-result="all" target="first-target" target-state="all" />
 	<record alias="SRF_R0_SkullSorcery_None_Area360_NpcHeal_E1_02" effect-1="SRF_R0_SkullSorcery_None_Area360_NpcHeal" skill-result="all" target="first-second-target" target-state="friend" />

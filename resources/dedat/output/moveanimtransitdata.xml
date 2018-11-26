@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="moveAnimTransit" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/moveanimtransitdata.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/moveanimtransitdata.xml-->
 	<record after-idle="normal" before-idle="kneel" transit-anim-seq="AA_A_None_Bat_Knee_End" />
 	<record after-idle="normal" before-idle="down" transit-anim-seq="AA_A_None_Bat_Down_End" />
 	<record after-idle="normal" before-idle="front_down" transit-anim-seq="AA_A_None_Bat_Down_Front_End" />

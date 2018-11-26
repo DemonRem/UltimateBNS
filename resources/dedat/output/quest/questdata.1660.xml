@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1660.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1660.xml-->
   <quest alias="q_sub_1660" category="normal" desc="q_1660_sum" grade="1" group2="QG_desperadosisland" id="1660" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1660" save-type="all">
     <acquisition level="50" preceding-quest-1="q_epic_1520" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" item="q_1660_1_icon" msg="q_1660_1" progress-mission="n" type="talk-to-self" />

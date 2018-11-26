@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_eventbadabam.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_eventbadabam.xml-->
 	<record alias="MH_SUP_B2_AssassinBoss_Disturb_PoisonBreath_E1_p_Event" effect-1="MH_SUP_B2_AssassinBoss_Disturb_PoisonBreath_damage_Event" skill-result="parry-perfect-parry-counter" target="second-target" target-state="enemy" />
 	<record alias="MH_SUP_B2_AssassinBoss_Disturb_PoisonBreath_E1_01_Event" effect-1="MH_SUP_B2_AssassinBoss_Disturb_PoisonBreath_damage_Event" effect-2="MH_Common_Bleeding_SUP_Boss_45" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
 	<record alias="MH_SUA_B3_ForceMaster_Deal_magnetic_spread_link_CN_E1_First_Event" effect-1="MH_CH_ForceMasterBoss_Deal_embers_Event_spread_damage" effect-2="MH_CH_ForceMasterBoss_Deal_embers_Event_CN" effect-3="MH_CH_ForceMasterBoss_Deal_embers_Event_CN" effect-4="MH_CH_ForceMasterBoss_Deal_embers_Event_CN" effect-5="MH_CH_ForceMasterBoss_Deal_embers_Event_CN" effect-6="MH_CH_ForceMasterBoss_Deal_embers_Event_CN" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />

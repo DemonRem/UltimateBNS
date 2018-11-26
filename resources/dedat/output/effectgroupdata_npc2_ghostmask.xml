@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_ghostmask.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_ghostmask.xml-->
 	<record alias="CMA_B1_GhostMask_DoubleSwing_E1_01" effect-1="ME_ID2_Common_Melee_Damage_180" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
 	<record alias="CMA_B1_GhostMask_DoubleSwing_E1_p" effect-1="ME_ID2_Common_Melee_Damage_180" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />
 	<record alias="CMA_B1_GhostMask_DoubleSwing_E2_01" effect-1="ME_ID2_Common_Melee_Damage_180" effect-2="MH_Common_None_feedback_KnockbackC" effect-3="Common_ReactToDown_Flag_1000ms" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.272.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.272.xml-->
   <quest alias="q_epic_272" broadcast-category="field" category="epic" completed-desc="q_272_completed" completed-list="n" desc="q_272_sum" grade="1" group2="QG_BaeCheongEpic" id="272" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.272" retired="y" save-type="all">
     <acquisition level="1" recommended-level="47" sort-no="513" />
     <mission-step desc="q_272_des_1" id="1" location-x="-15825.77" location-y="1091.71" map="KangRyuSi" mission-map-type="location">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.284.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.284.xml-->
   <quest alias="q_epic_284" broadcast-category="field" category="epic" completed-desc="q_284_completed" completed-list="n" desc="q_284_sum" grade="1" group2="QG_BaeCheongEpic" id="284" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.284" retired="y" save-type="all">
     <acquisition level="1" recommended-level="50" sort-no="526" />
     <mission-step id="1" location-x="-8937.75" location-y="1683.17" map="BaekChungPaBonSan" mission-map-type="location">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_shooter.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_shooter.xml-->
 	<record alias="Shooter_Common_Dummy_EG" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
 	<record alias="Shooter_Right_shot1_Lv21_E1_01" effect-1="Shooter_Right_shot1_Lv21_Void_Dmg" effect-2="Common_MasterSkill_Heal_Caster_6" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
 	<record alias="Shooter_Right_shot1_Lv21_E1_02" effect-1="Shooter_Right_shot1_Lv21_Void_Dmg" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
@@ -744,7 +744,9 @@
 	<record alias="Shooter_SW_infinite_01" effect-1="Shooter_RecycleTime_Swordmaster" skill-result="all" target="first-second-target" target-state="my-party" target-state-first-filter="7200" />
 	<record alias="Shooter_WL_infinite_01" effect-1="Shooter_RecycleTime_Warlock" effect-2="Shooter_RecycleTime_Warlock2" skill-result="all" target="first-second-target" target-state="my-party" target-state-first-filter="8000" />
 	<record alias="Shooter_SF_infinite_01" effect-1="Shooter_RecycleTime_SoulFighter" skill-result="all" target="first-second-target" target-state="my-party" target-state-first-filter="9000" />
-	<record alias="Shooter_CLASSALL_infinite_01" effect-1="Shooter_Common_Dispel_marking" effect-2="Shooter_Common_Dispel_Modify-Ability-81" effect-3="Shooter_Common_Dispel_Modify-Ability-195" effect-4="Shooter_Common_Dispel_Modify-Ability-237" effect-5="Shooter_Common_Dispel_Modify-Ability-251" effect-6="Shooter_Common_Dispel_Modify-Ability-192" effect-7="Shooter_Common_Dispel_Modify-Ability-263" effect-8="infinite_Immune" skill-result="all" target="first-second-target" target-state="my-party" />
+	<record alias="Shooter_WA_infinite_01" effect-1="Shooter_RecycleTime_Warrior" skill-result="all" target="first-second-target" target-state="my-party" target-state-first-filter="9001" />
+	<record alias="Shooter_CLASSALL_infinite_01" effect-1="Shooter_Common_Dispel_marking" effect-2="Shooter_Common_Dispel_Modify-Ability-81" effect-3="Shooter_Common_Dispel_Modify-Ability-195" effect-4="Shooter_Common_Dispel_Modify-Ability-237" effect-5="Shooter_Common_Dispel_Modify-Ability-251" effect-6="Shooter_Common_Dispel_Modify-Ability-192" effect-7="Shooter_Common_Dispel_Modify-Ability-263" effect-8="Shooter_Common_Dispel_Modify-Ability-207" skill-result="all" target="first-second-target" target-state="my-party" />
+	<record alias="Shooter_CLASSALL_infinite_02" effect-1="infinite_Immune" skill-result="all" target="first-second-target" target-state="my-party" />
 	<record alias="Shooter_MasterSkill_Fire1_E1_01" effect-1="Shooter_MasterSkill_Lv11_Flash" effect-2="Shooter_MasterSkill_Lv11_Stun" effect-3="Shooter_MasterSkill_Lv11_Damage" effect-4="Shooter_AG_flag_Dispel" skill-result="front-Hit-critical-hit" target="first-second-target" target-state="Enemy" />
 	<record alias="Shooter_MasterSkill_Fire1_E1_02" effect-1="Shooter_MasterSkill_Lv11_Damage" skill-result="back-Hit-critical-hit" target="first-second-target" target-state="Enemy" />
 	<record alias="Shooter_MasterSkill_Fire1_E1_03" effect-1="Shooter_MasterSkill_Lv11_Damage" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="Enemy" />
@@ -815,5 +817,5 @@
 	<record alias="Shooter_Pick_Dmg_Lv11_E1_02" effect-1="Shooter_Pick_Lv11_Damage" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
 	<record alias="Shooter_Pick_Dmg_Lv21_E1_01" effect-1="Shooter_Pick_Lv21_Damage" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
 	<record alias="Shooter_Pick_Dmg_Lv21_E1_02" effect-1="Shooter_Pick_Lv21_Damage" skill-result="Parry-Perfect-Parry-Counter" target="first-second-target" target-state="enemy" />
-	<record alias="Shooter_BlueFire_Show1_E1" effect-1="Shooter_BlueFire_Show1" skill-result="Hit-Critical-Hit" target="first-target" target-state="enemy" />
+	<record alias="Shooter_BlueFire_Show1_E1" effect-1="Shooter_BlueFire_Show1" skill-result="all" target="first-target" target-state="enemy" />
 </table>

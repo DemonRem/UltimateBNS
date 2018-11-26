@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_pt.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_pt.xml-->
 	<record alias="ItemSkill_PT_Flame_shot_S1_Lv1_01_E1" effect-1="ItemSkill_PT_Flame_shot_S1_Lv1_01" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_PT_Flame_shot_S1_Lv1_02_E1" effect-1="ItemSkill_PT_Flame_shot_S1_Lv1_02" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_PT_ThreeShoot_S1_Lv2_01_E1" effect-1="ItemSkill_PT_ThreeShoot_S1_Lv2_01" skill-result="hit-critical-hit" target="caster" target-state="all" />
@@ -23,6 +23,8 @@
 	<record alias="ItemSkill_PT_bigong_B2_Lv2_01_DMG_E1" effect-1="ItemSkill_PT_bigong_B2_Lv2_01_DMG" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_PT_bigong_B3_Lv1_01_E1" effect-1="ItemSkill_PT_bigong_B3_Lv1_01" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_PT_bigong_B3_Lv2_01_E1" effect-1="ItemSkill_PT_bigong_B3_Lv2_01" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_bigong_B3_Lv1_02_E1" effect-1="ItemSkill_PT_bigong_B3_Lv1_02" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_PT_bigong_B3_Lv2_02_E1" effect-1="ItemSkill_PT_bigong_B3_Lv2_02" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_PT_Boomshot_S1_PVP_Lv1_01_E1" effect-1="ItemSkill_PT_Boomshot_S1_PVP_Lv1_01" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_PT_Wiredash_S1_PVP_Lv2_01_E1" effect-1="ItemSkill_PT_Wiredash_S1_PVP_Lv2_01" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_PT_Wiredash_S2_PVP_Lv1_01_E1" effect-1="ItemSkill_PT_Wiredash_S2_PVP_Lv1_01" effect-2="ItemSkill_PT_Wiredash_S2_PVP_Lv1_04" skill-result="all" target="caster" target-state="all" />

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1786.xml-->
+  <quest alias="q_epic_1786" category="epic" desc="q_1786_sum" grade="1" group2="QG_HeavenEpic" id="1786" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1786" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="850" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1786_1" required-register-value="1">
+        <case npc-response="qrsp_1786_1" object="npc:MH_WA_SeoYeon_0004" progress-mission="reaction-only" type="approach" />
+        <case object="zone:StartZone_Epic9" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="StartZone_Default">
+      <destination mission-step-id="1" zone-index="10" />
+    </transit>
+  </quest>
+</table>

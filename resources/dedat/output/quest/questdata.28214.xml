@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28214.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.28214.xml-->
 	<quest alias="sq_28214" category="tendency-simple" id="28214" max-repeat="-1" name2="sq_28214_mission_text" save-type="except-completion-and-logout-save">
 		<mission-step id="1">
 			<mission id="1" name2="sq_28214_mission_text" required-attraction="tendency-field:CheonSangBunJi" tendency-id="3" variation-required-condition-value-1="0" variation-required-field-play-point-1="0" variation-required-register-value-1="1" variation-reward-field-play-point-1="121" variation-reward-tendency-score-1="121">

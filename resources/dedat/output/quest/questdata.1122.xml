@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1122.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1122.xml-->
   <quest alias="q_sub_1122" attraction-1="classic-field-zone:PoHwaRan_Classic" attraction-info="dungeon:Dungeon_DongHae_chungkak_A" broadcast-category="always" category="normal" day-of-week="daily" desc="q_1122_sum" district-1="suwal" grade="10" group2="QG_ChungGakEastJiBu" id="1122" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1122" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" level="43" preceding-quest-1="q_sub_1035" preceding-quest-check="and" recommended-level="46">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1122_1" object="npc:ch_donghae_a_0002" type="talk" />

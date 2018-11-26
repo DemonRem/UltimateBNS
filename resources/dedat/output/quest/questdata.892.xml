@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.892.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.892.xml-->
   <quest alias="q_sub_892" attraction-info="cave2:Cave_DeaSaMak_23" broadcast-category="field" category="normal" day-of-week="daily" desc="q_892_sum" district-1="deasamak" grade="8" group2="QG_ToMunJinNorth" id="892" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.892" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" level="22" preceding-quest-1="q_epic_506" preceding-quest-check="and" recommended-level="24">
       <case acquire-quest="y" npc-response="qrsp_892_1" object="npc:ch_shaman_025" type="talk" />

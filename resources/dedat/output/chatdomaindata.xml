@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="ZoneData1" release-side="client" type="chat-domain" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/chatdomaindata.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/chatdomaindata.xml-->
 	<record id="1" name2="chatdomain.startzone" />
 	<record id="2" name2="chatdomain.jeryoung1" />
 	<record id="3" name2="chatdomain.jeryoung2" />

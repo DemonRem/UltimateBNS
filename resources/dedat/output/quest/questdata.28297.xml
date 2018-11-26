@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.28297.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.28297.xml-->
 	<quest alias="sq_28297" category="tendency-simple" id="28297" max-repeat="-1" name2="sq_28297_mission_text" save-type="except-completion-and-logout-save">
 		<mission-step id="1">
 			<mission id="1" name2="sq_28297_mission_text" required-attraction="tendency-field:Tendency_BuYuDo" simple-quest-play-section="our" tendency-id="1" variation-required-condition-type="faction-score" variation-required-condition-value-1="0" variation-required-condition-value-2="50" variation-required-condition-value-3="100" variation-required-field-play-point-1="0" variation-required-register-value-1="7" variation-required-register-value-2="15" variation-required-register-value-3="25" variation-reward-faction-score-1="8" variation-reward-faction-score-2="17" variation-reward-faction-score-3="28" variation-reward-field-play-point-1="48" variation-reward-field-play-point-2="102" variation-reward-field-play-point-3="169" variation-reward-tendency-score-1="48" variation-reward-tendency-score-2="102" variation-reward-tendency-score-3="169">

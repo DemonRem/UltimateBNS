@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1702.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1702.xml-->
   <quest alias="q_epic_1702" category="epic" completed-desc="q_1702_completed" completed-list="y" desc="q_1702_sum" grade="1" group2="QG_Toturial" id="1702" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.1702" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition job-1="격사" level="1" preceding-quest-check="and" recommended-level="1" sort-no="105" />
     <mission-step desc="q_1702_des_1" guide-message="gm_225_2" id="1" location-x="-8378.602" location-y="40751.602" use-auto-navigation="y">

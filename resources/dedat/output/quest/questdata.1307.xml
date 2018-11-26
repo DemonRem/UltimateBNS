@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1307.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1307.xml-->
   <quest alias="q_sub_1307" category="job" desc="q_1307_sum" district-1="jeryoungrim" grade="1" group2="QG_HuekUmmRim" id="1307" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.1307" save-type="all" show-tutorial-tag="n" tutorial="y">
     <mission-step id="1">
       <mission id="1" name2="Mission.Name2.1307_1" required-register-value="1">
@@ -45,7 +45,7 @@
         <case object="zone:zone_HeukUmmRim_Dun_2_p" progress-mission="reaction-only" type="enter-zone" />
       </mission>
     </mission-step>
-    <acquisition level="10" preceding-quest-1="q_sub_1306" preceding-quest-10="q_sub_1710" preceding-quest-2="q_sub_1313" preceding-quest-3="q_sub_1320" preceding-quest-4="q_sub_1327" preceding-quest-5="q_sub_1334" preceding-quest-6="q_sub_1341" preceding-quest-7="q_sub_1349" preceding-quest-8="q_sub_1231" preceding-quest-9="q_sub_350" preceding-quest-check="or" recommended-level="14" />
+    <acquisition level="10" preceding-quest-1="q_sub_1306" preceding-quest-10="q_sub_1710" preceding-quest-11="q_sub_1804" preceding-quest-2="q_sub_1313" preceding-quest-3="q_sub_1320" preceding-quest-4="q_sub_1327" preceding-quest-5="q_sub_1334" preceding-quest-6="q_sub_1341" preceding-quest-7="q_sub_1349" preceding-quest-8="q_sub_1231" preceding-quest-9="q_sub_350" preceding-quest-check="or" recommended-level="14" />
     <mission-step id="8">
       <mission id="8" name2="Mission.Name2.1307_8" required-register-value="1">
         <case indicator-social="q_1307_m8_indi_1" npc-response="qrsp_1307_5" object="npc:ch_merchantcharm_001" progress-mission="n" type="approach" />

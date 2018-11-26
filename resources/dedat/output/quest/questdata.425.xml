@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.425.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.425.xml-->
   <quest alias="q_sub_425" broadcast-category="field" category="normal" content-type="special" desc="q_425_sum" district-1="jeryoungrim" grade="1" group2="QG_KiYoenCliff" id="425" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.425" save-type="all">
     <acquisition level="11" preceding-quest-1="q_epic_311" preceding-quest-check="and" recommended-level="13" talk-to-self-guide-msg="Msg.CH_JR_Dweller_0001_01">
       <case acquire-quest="y" npc-response="qrsp_425_5" object="npc:CH_JR_Dweller_0001" type="talk" />

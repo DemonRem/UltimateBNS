@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1011.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1011.xml-->
   <quest alias="q_sub_1011" broadcast-category="field" category="normal" desc="q_1011_sum" district-1="suwal" grade="1" group2="QG_Delete" id="1011" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1011" reset-type="daily" retired="y" save-type="all">
     <acquisition check-tencent-vitality="n" level="50" preceding-quest-1="q_sub_1009" preceding-quest-check="and" preceding-quest-mission-step-1="1" recommended-level="50" />
     <mission-step id="1">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.296.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.296.xml-->
   <quest alias="q_sub_296" attraction-1="dungeon:Dungeon_BaekCheong_Sulokgoong" category="normal" desc="q_296_sum" grade="10" group2="QG_Sulokgoong" id="296" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.296" retired="n">
     <acquisition level="50" preceding-quest-1="q_epic_1429" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" item="q_296_1_icon" msg="q_296_1" type="talk-to-self" />

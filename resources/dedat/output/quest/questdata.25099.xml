@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25099.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25099.xml-->
   <quest alias="q_sub_25099" attraction-1="cave2:Cave_BaekChung_3" broadcast-category="field" category="attraction" grade="8" group2="QG_SnowMountNorth" id="25099" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.25099" retired="y" save-type="nothing">
   </quest>
   

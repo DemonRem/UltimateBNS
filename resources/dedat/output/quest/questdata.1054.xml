@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1054.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1054.xml-->
   <quest alias="q_sub_1054" attraction-1="classic-field-zone:SnakeScalesVally_Classic" attraction-2="Dungeon:Dungeon_SnakeScalesVally" attraction-info="dungeon:Dungeon_SnakeScalesVally" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1054_sum" grade="10" group2="QG_SnakeValley" id="1054" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1054" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" level="45" preceding-quest-1="q_sub_1044" preceding-quest-2="q_epic_1429" preceding-quest-3="q_epic_293" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1054_1" object="npc:CH_CT_Adventurer_0013" type="talk" />

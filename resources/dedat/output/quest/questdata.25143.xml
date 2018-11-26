@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25143.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25143.xml-->
   <quest alias="q_sub_25143" attraction-1="raid-dungeon:raid_pacheonseongdo" broadcast-category="field" category="attraction" desc="q_25143_sum" grade="22" group2="QG_PaCheonSeongDo" id="25143" map-group-1-1="PaCheonSeongDo" max-repeat="-1" name2="Quest.Name2.25143" save-type="nothing">
     <acquisition level="50" preceding-quest-check="and" recommended-level="50" />
     <mission-step id="1">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25025.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25025.xml-->
   <quest alias="q_sub_25025" broadcast-category="field" category="dungeon" dungeon="Dungeon_LakeDg" grade="9" group2="QG_GmmDalUJukJi" id="25025" max-repeat="1" name2="Quest.Name2.25025" progress-difficulty-type-1="n" progress-difficulty-type-3="n" reset-type="none" save-type="nothing">
     <acquisition level="1" mastery-level="50" preceding-quest-check="and" recommended-level="37">
       <case acquire-quest="y" object2="zoneenv2:3010_LakeDg_3113" type="enter-portal" />

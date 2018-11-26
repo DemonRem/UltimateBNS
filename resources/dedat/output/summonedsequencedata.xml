@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="summoned-sequence" version="0.5">
-  <!--C:/LocalTextSelfDeploy/temp/summonedsequencedata.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/summonedsequencedata.xml-->
  
   <summoned-sequence alias="seq_cat_rookie">
     <melee margin="18">

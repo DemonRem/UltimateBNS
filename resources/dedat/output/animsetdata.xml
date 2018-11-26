@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="animset" version="0.2">
-  <!--C:/LocalTextSelfDeploy/temp/animsetdata.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/animsetdata.xml-->
 	<record animset-path="00006750.BladeMaster_JinM_Animset" id="1000" job="검사" race="건" sex="여" />
 	<record animset-path="00006752.ForceMaster_JinM_Animset" id="1001" job="기공사" race="건" sex="여" />
 	<record animset-path="00006753.Shooter_KunN_Animset" id="1002" job="격사" race="건" sex="여" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.930.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.930.xml-->
   <quest alias="q_epic_930" broadcast-category="field" category="epic" completed-desc="q_930_completed" completed-list="n" desc="q_930_sum" district-1="suwal" grade="1" group2="QG_BaeCheongEpic" id="930" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.930" retired="y" save-type="all">
     <acquisition level="1" preceding-quest-check="and" recommended-level="45" sort-no="429" />
     <mission-step id="1" location-x="-3549.48" location-y="12339.97" map="haenamumaeulicheung" mission-map-type="location">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.355.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.355.xml-->
   <quest alias="q_sub_355" broadcast-category="field" category="normal" day-of-week="daily" desc="q_355_sum" district-1="jeryoungrim" grade="7" group2="QG_WalYoungCemetery" id="355" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.355" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" level="3" preceding-quest-1="q_epic_305" preceding-quest-check="and" recommended-level="6">
       <case acquire-quest="y" completion-count="1" npc-response="qrsp_355_3" object="npc:ch_shaman_021" progress-mission="n" remove-grocery="y" type="talk" />

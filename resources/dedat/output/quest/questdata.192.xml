@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.192.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.192.xml-->
   <quest alias="q_sub_192" broadcast-category="always" category="normal" content-type="production" craft-type="production" district-1="suwal" grade="1" group2="QG_Gathering" id="192" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.192" save-type="all" show-tutorial-tag="y" tutorial="y">
     <acquisition level="11" production-exp="0" production-id="production-type-3" recommended-level="13" reward-1="192_final_set1">
       <case acquire-quest="y" grocery="General_Grocery_ProduceRecipe_0071" item="General_Grocery_ProduceRecipe_0071" msg="q_192_1" required-item-1="General_Grocery_ProduceRecipe_0071" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />

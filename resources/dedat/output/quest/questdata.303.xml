@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.303.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.303.xml-->
   <quest alias="q_epic_303" broadcast-category="field" category="epic" completed-desc="q_303_completed" completed-list="y" desc="q_303_sum" district-1="jeryoungrim" grade="1" group2="QG_JeRyoungRimEpic" id="303" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.303" save-type="all" tutorial="y">
     <acquisition level="1" recommended-level="3" sort-no="203" />
     <mission-step completion-type="and" desc="q_303_des_1" id="1" location-x="-55683.8867" location-y="-52795.8281" map="mangjasup">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-mversion="0.0.0.171" release-side="client" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_forcemaster.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/skill3_contextscriptdata_forcemaster.xml-->
 
 
    <contextscript job="기공사">
@@ -432,7 +432,24 @@
     
     <stance link="inhalation-catch" stance="연기공">
 
+      
+      <layer>
+        <decision>
+          <condition skill="22158" />
+          <result control-mode="classic" skillbar-6="22158" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-6="22158" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
 
+      
+      <layer>
+        <decision>
+          <condition skill="22138" />
+          <result control-mode="classic" skillbar-6="22138" skillbar-ui-effect="event" />
+          <result control-mode="bns" skillbar-6="22138" skillbar-ui-effect="event" />
+        </decision>
+      </layer>
+ 	
       
       <layer>
         <decision>
@@ -578,7 +595,7 @@
           <result control-mode="bns" skillbar-6="22157" skillbar-ui-effect="event" />
         </decision>
       </layer>
-
+  
 
       
       <layer>
@@ -858,8 +875,7 @@
 
 
     <stance stance="연기공">
-
-
+	
       
       <layer>
         <decision>
@@ -888,6 +904,25 @@
         </decision>
       </layer>
 
+      
+      <layer>
+        <decision>
+          <condition skill="22148" />
+          <result control-mode="classic" skillbar-6="22148" skillbar-ui-effect="combo" />
+          <result control-mode="bns" skillbar-6="22148" skillbar-ui-effect="combo" />
+        </decision>
+      </layer>
+
+      
+      <layer>
+        <decision>
+          <condition skill="22128" />
+          <result control-mode="classic" skillbar-6="22128" skillbar-ui-effect="event" />
+          <result control-mode="bns" skillbar-6="22128" skillbar-ui-effect="event" />
+        </decision>
+      </layer>
+ 	  
+	  
       
       <layer>
         <decision>

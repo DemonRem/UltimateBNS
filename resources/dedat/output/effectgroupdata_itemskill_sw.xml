@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_sw.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_sw.xml-->
 	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E1" effect-1="SwordMaster_Logic_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60234" />
 	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E2" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_3" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60098" target-state-second-filter="60091" />
 	<record alias="ItemSkill_SW_vertical_cut_B1_Lv1_01_E3" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_2" skill-result="hit-critical-hit" target="caster" target-state="all" target-state-first-filter="60096" target-state-second-filter="60091" />
@@ -37,4 +37,5 @@
 	<record alias="ItemSkill_SW_TwicePierce_S13_Lv1_01_E1" effect-1="SwordMaster_Sword_TwicePierce_Lv11_WindForce_9s" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SW_Lightning_slash_S14_Lv1_01_E1" effect-1="ItemSkill_SW_Lightning_slash_S14_Lv1_01_E1_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SW_Lightning_slash_S14_Lv1_02_E1" effect-1="ItemSkill_SW_Lightning_slash_S14_Lv1_02_E1_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SW_Chain_Lightning_LB2_Lv1_01" effect-1="ItemSkill_SW_Chain_Lightning_LB2_Lv1_01_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 </table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.362.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.362.xml-->
   <quest alias="q_sub_362" broadcast-category="field" category="normal" desc="q_362_sum" district-1="jeryoungrim" grade="1" group2="QG_Delete" id="362" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.362" retired="y" save-type="all">
     <acquisition level="50" preceding-quest-check="and" recommended-level="50" />
     <mission-step completion-type="and" id="2" location-x="-29620.4746" location-y="-1817.2422" map="huekummrim">

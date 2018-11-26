@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.316.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.316.xml-->
   <quest alias="q_epic_316" broadcast-category="field" category="epic" completed-desc="q_316_completed" completed-list="y" desc="q_316_sum" district-1="jeryoungrim" grade="1" group2="QG_JeRyoungRimEpic" id="316" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.316" save-type="all">
     <acquisition level="1" recommended-level="17" sort-no="221" />
     <mission-step completion-type="and" desc="q_316_des_1" id="1" location-x="-15924.3457" location-y="54271.1016" map="songrimsa">

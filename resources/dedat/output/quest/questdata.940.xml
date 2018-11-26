@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.940.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.940.xml-->
   <quest activated-faction="factionmain2" alias="q_sub_940" category="normal" desc="q_940_sum" grade="1" group2="QG_KiYoenFall" id="940" main-faction="factionmain2" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.940" save-type="all">
     <acquisition faction="factionmain2" level="13" preceding-quest-1="q_epic_494" preceding-quest-check="and" recommended-level="15">
       <case acquire-quest="y" item="q_940_1_icon" msg="q_940_1" type="talk-to-self" />

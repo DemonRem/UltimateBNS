@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc_warlock.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc_warlock.xml-->
 	<record alias="MH_Warlock_Spell_GroundAttack_Lv1_E1_01" effect-1="MH_Warlock_Spell_GroundAttack_Lv1_R1_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
 	<record alias="MH_Warlock_Spell_GroundAttack_Lv1_E2_01" effect-1="MH_Warlock_Spell_GroundAttack_Lv1_R2_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
 	<record alias="MH_Warlock_Spell_GroundAttack_Lv1_E3_01" effect-1="MH_Warlock_Spell_GroundAttack_Lv1_R3_Dmg" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />

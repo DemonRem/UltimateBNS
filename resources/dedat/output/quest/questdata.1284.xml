@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1284.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1284.xml-->
   <quest activated-faction="factionmain2" alias="q_sub_1284" broadcast-category="field" category="normal" day-of-week="sun" desc="q_1284_sum" grade="7" group2="QG_Delete" id="1284" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1284" reset-type="daily" retired="y" save-type="all">
     <acquisition check-tencent-vitality="n" faction="factionmain2" faction-reputation="200" level="41" preceding-quest-1="q_epic_928" preceding-quest-check="and" recommended-level="45">
       <case acquire-quest="y" completion-count="1" completion-count-op="ge" npc-response="qrsp_1284_1" object="npc:ch_honchungyo_0024" type="talk">

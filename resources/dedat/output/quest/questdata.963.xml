@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.963.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.963.xml-->
   <quest alias="q_sub_963" broadcast-category="field" category="normal" day-of-week="none" desc="q_963_sum" grade="1" group2="QG_MoilBong" id="963" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.963" reset-type="none" save-type="all">
     <acquisition check-tencent-vitality="n" level="50" preceding-quest-1="q_sub_962" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" completion-count="0" completion-count-op="ge" npc-response="qrsp_963_1" object="npc:CH_SA_OhBack_0001" type="talk" />

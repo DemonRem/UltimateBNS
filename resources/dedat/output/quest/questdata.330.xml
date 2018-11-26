@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.330.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.330.xml-->
   <quest alias="q_sub_330" broadcast-category="field" category="normal" desc="q_330_sum" district-1="jeryoungrim" grade="1" group="제룡림(망자의 숲)" group2="QG_Delete" id="330" map-group-1-1="jeryoungrim" max-repeat="1" name="착각의 늪" name2="Quest.Name2.330" retired="y" save-type="all">
     <acquisition level="50" preceding-quest-1="q_epic_304" preceding-quest-check="and" recommended-level="50" />
     <mission-step completion-type="and" desc="q_330_des_1" id="1" location-x="-35002.8359" location-y="-50278.1328" map="mangjasup">

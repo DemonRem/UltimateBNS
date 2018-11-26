@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.320.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.320.xml-->
   <quest alias="q_epic_320" category="epic" completed-desc="q_320_completed" completed-list="y" desc="q_320_sum" district-1="jeryoungrim" district-2="deasamak" grade="1" group2="QG_JeRyoungRimEpic" id="320" invoke-fx-msg="y" map-group-1-1="jeryoungrim" map-group-1-2="deasamak" max-repeat="1" name2="Quest.Name2.320" save-type="all">
     <acquisition level="1" recommended-level="20" sort-no="227" />
     <mission-step completion-type="and" desc="q_320_des_1" id="1" location-x="-54125.3164" location-y="-50338.0781" map="mangjasup">

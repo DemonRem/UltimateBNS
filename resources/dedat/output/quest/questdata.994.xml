@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.994.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.994.xml-->
   <quest alias="q_epic_994" broadcast-category="field" category="epic" completed-desc="q_994_completed" completed-list="y" desc="q_994_sum" grade="1" group2="QG_NextbaeCheongEpic2" id="994" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.994" save-type="all">
     <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="542" />
     <mission-step id="1">

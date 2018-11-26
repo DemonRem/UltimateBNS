@@ -1,7 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1232.xml-->
-  <quest alias="q_sub_1232" broadcast-category="field" category="normal" desc="q_1232_sum" grade="1" group2="QG_Delete" id="1232" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.1232" retired="y" save-type="all">
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1232.xml-->
+  <quest alias="q_sub_1232" broadcast-category="field" category="normal" desc="q_1232_sum" grade="1" group2="QG_SaJiSeokRimEast" id="1232" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.1232" retired="y" save-type="all">
+    <acquisition job-1="주술사" level="31" preceding-quest-1="q_epic_526" preceding-quest-check="and" recommended-level="33">
+      <case acquire-quest="y" npc-response="qrsp_1232_1" object="npc:ch_muungwan_0001" type="talk" />
+    </acquisition>
+    <mission-step id="1" location-x="44433.75" location-y="-22213.289" map="haerimchon">
+      <mission id="1" name2="Mission.Name2.1232_1" required-register-value="1">
+        <case mapunit-1="3024_MH_MuUnGwan_0001" npc-response="qrsp_1232_2" object="npc:MH_DS_MuUnGwan_0001" progress-mission="y" type="talk" />
+        <case object="zone:zone_IelDong" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2" location-x="44521.641" location-y="-21759.188" map="haerimchon">
+      <mission id="2" name2="Mission.Name2.1232_2" required-register-value="1" reward-1="1232_final_set1">
+        <case npc-response="qrsp_1232_3" object="npc:ch_muungwan_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="zone_IelDong_SP">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
   </quest>
-  
 </table>

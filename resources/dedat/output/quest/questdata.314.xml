@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.314.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.314.xml-->
   <quest alias="q_epic_314" category="epic" completed-desc="q_314_completed" completed-list="y" desc="q_314_sum" district-1="jeryoungrim" grade="1" group2="QG_JeRyoungRimEpic" id="314" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.314" save-type="all" tutorial="y">
     <acquisition level="1" recommended-level="15" sort-no="218" />
     <mission-step completion-type="and" desc="q_314_des_3" id="3" location-x="24139.4277" location-y="44478.0703" map="suryengol">

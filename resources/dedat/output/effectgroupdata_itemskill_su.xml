@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_su.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_su.xml-->
 	<record alias="ItemSkill_SU_DandelionSeed_S2_Lv1_01_E1" effect-1="ItemSkill_SU_DandelionSeed_Counter_S2_Lv1_01" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_DandelionSeed_S2_Lv1_02_E1" effect-1="ItemSkill_SU_DandelionSeed_Counter_S2_Lv1_02" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SU_Friendship_S1_Lv1_01_E1" effect-1="ItemSkill_SU_Friendship_S1_Lv1_01" skill-result="all" target="caster" target-state="all" />

@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.224.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.224.xml-->
   <quest alias="q_epic_224" category="epic" completed-desc="q_224_completed" completed-list="y" desc="q_224_sum" district-1="startzone" grade="1" group2="QG_Toturial" id="224" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.224" save-type="all" show-tutorial-tag="n" tutorial="y">
-    <acquisition job-1="검사" job-2="권사" job-3="기공사" job-4="역사" job-5="암살자" job-6="귀검사" job-7="주술사" job-8="기권사" job-9="격사" level="1" recommended-level="1" sort-no="104" />
+    <acquisition job-1="검사" job-10="투사" job-2="권사" job-3="기공사" job-4="역사" job-5="암살자" job-6="귀검사" job-7="주술사" job-8="기권사" job-9="격사" level="1" recommended-level="1" sort-no="104" />
     <mission-step completion-type="and" desc="q_224_des_1" enable-navigation="y" guide-message="gm_224_1" id="1" location-x="-8737.976" location-y="37157.859" map="startzone" use-auto-navigation="y">
       <mission id="1" name2="Mission.Name2.224_1" required-register-value="1">
         <case mapunit-1="222_4_CH_HongSukKeun_0001" object2="zoneenv2:1101_foot_6" progress-mission="y" type="env-entered" />
@@ -52,6 +52,7 @@
       <next-quest job-1="주술사" quest="q_epic_1224" />
       <next-quest job-1="기권사" quest="q_epic_328" />
       <next-quest job-1="격사" quest="q_epic_1702" />
+      <next-quest job-1="투사" quest="q_epic_1797" />
     </completion>
     <mission-step completion-type="and" desc="q_224_des_5" enable-navigation="y" guide-message="gm_224_3" id="5">
       <mission id="5" name2="Mission.Name2.224_5" required-register-value="1">

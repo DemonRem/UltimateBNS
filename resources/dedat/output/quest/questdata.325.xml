@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.325.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.325.xml-->
   <quest alias="q_sub_325" broadcast-category="field" category="normal" desc="q_325_sum" district-1="jeryoungrim" grade="1" group="제룡림(대나무 마을)" group2="QG_Delete" id="325" map-group-1-1="jeryoungrim" max-repeat="1" name="자경단이 부른다" name2="Quest.Name2.325" retired="y" save-type="all" show-tutorial-tag="y" tutorial="y">
     <acquisition level="2" preceding-quest-1="q_epic_304" preceding-quest-check="and" preceding-quest-mission-step-1="1" recommended-level="4" />
     <mission-step completion-type="and" id="3">

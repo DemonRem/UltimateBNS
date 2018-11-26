@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_sf.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_sf.xml-->
 	<record alias="ItemSkill_SF_Common_ForceBuff_Lv1_01_E1" effect-1="SoulFighter_Common_Forcepower_Lv1_Flag" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_FinalAttack_BS1_Lv1_01_E1" effect-1="ItemSkill_SF_FinalAttack_BS1_Lv1_01_Recyclereduce" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_LeftCounter_S1_Lv1_01_E1" effect-1="ItemSkill_SF_LeftCounter_S1_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />

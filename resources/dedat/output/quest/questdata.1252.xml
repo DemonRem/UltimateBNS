@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1252.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1252.xml-->
   <quest alias="q_sub_1252" attraction-info="dungeon:Dungeon_DongHae_chungkak_B_mini" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1252_sum" grade="10" group2="QG_DongHae_chungkak_B_mini_50lv" id="1252" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1252" reset-type="daily" save-type="all">
     <acquisition level="50" preceding-quest-1="q_epic_1429" preceding-quest-2="q_epic_293" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" npc-response="qrsp_1252_1" object="npc:CH_WC_ChungGak_0001" type="talk" />

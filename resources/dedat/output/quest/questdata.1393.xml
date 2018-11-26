@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1393.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1393.xml-->
   <quest alias="q_sub_1393" broadcast-category="field" category="normal" day-of-week="none" desc="q_1393_sum" grade="14" group2="QG_Musintap_Simhwa" id="1393" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1393" reset-type="none" retired="n" save-type="all">
     <acquisition level="50" preceding-quest-1="q_sub_1395" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" npc-response="qrsp_1393_1" object="npc:ch_musintower_jukwoon_0003" type="talk" />

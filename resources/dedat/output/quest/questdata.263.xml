@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.263.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.263.xml-->
   <quest alias="q_epic_263" broadcast-category="field" category="epic" completed-desc="q_263_completed" completed-list="n" desc="q_263_sum" grade="1" group2="QG_BaeCheongEpic" id="263" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.263" retired="y" save-type="all">
     <acquisition level="1" recommended-level="46" sort-no="504" />
     <mission-step id="1" location-x="-86402.09" location-y="24659.45" map="YeomSaekChon" mission-map-type="location">

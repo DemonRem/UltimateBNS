@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_sf_w.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_sf_w.xml-->
 	<record alias="ItemSkill_SF_Violently_G1_Lv1_01_E1_Flag" effect-1="ItemSkill_SF_Violently_G1_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_Violently_G1_Lv1_01_E1_Flag_Dispel" effect-1="ItemSkill_SF_Violently_G1_Lv1_01_Flag_Dispel" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_Violently_G1_Lv1_01_E1" effect-1="ItemSkill_SF_Violently_G1_Lv1_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
@@ -162,6 +162,11 @@
 	<record alias="ItemSkill_SF_dragon_force_PW3_Lv3_01_E1" effect-1="Common_MasterSkill_Heal_240" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_dragon_force_PW3_Lv4_01_E1" effect-1="Common_MasterSkill_Heal_480" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_dragon_force_PW3_Lv5_01_E1" effect-1="Common_MasterSkill_Heal_700" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_PW4_Lv1_01_E1" effect-1="Common_MasterSkill_Heal_480" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_PW4_Lv2_01_E1" effect-1="Common_MasterSkill_Heal_480" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_PW4_Lv3_01_E1" effect-1="Common_MasterSkill_Heal_480" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_PW4_Lv4_01_E1" effect-1="Common_MasterSkill_Heal_480" skill-result="hit-critical-hit" target="caster" target-state="all" />
+	<record alias="ItemSkill_SF_PW4_Lv5_01_E1" effect-1="Common_MasterSkill_Heal_480" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_PowerstepPunch_RW4_Lv1_01_E1_Common" effect-1="ItemSkill_SF_PowerstepPunch_RW4_Lv1_Common" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_PowerstepPunch_RW4_Lv1_02_E1_Common" effect-1="ItemSkill_SF_PowerstepPunch_RW4_Lv1_Common2" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_PowerstepPunch_RW4_Lv1_01_E1" effect-1="ItemSkill_SF_PowerstepPunch_RW4_Lv1_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
@@ -209,21 +214,33 @@
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_03_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_04_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_05_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_06_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_07_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_08_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv1_04_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_01_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_02_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_03_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_04_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_05_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_06_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_07_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_08_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv2_04_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_01_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_02_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_03_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_04_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_05_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_06_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_07_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_08_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv3_04_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_01_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_02_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_03_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_04_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_05_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_06_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_07_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_08_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G1_Lv4_04_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G2_Lv1_01_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G2_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G2_Lv1_02_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G2_Lv1_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_SF_EnergyPunch_T2_G2_Lv1_03_E1" effect-1="ItemSkill_SF_EnergyPunch_T2_G2_Lv1_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25006.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25006.xml-->
   <quest alias="q_sub_25006" broadcast-category="sextet" category="dungeon" dungeon="dungeon_donghae_chungkak_a" grade="21" id="25006" max-repeat="1" name2="Quest.Name2.25006" progress-difficulty-type-2="n" progress-difficulty-type-3="n" save-type="nothing">
     <acquisition check-tencent-vitality="n" level="1" preceding-quest-1="q_sub_1035" recommended-level="43">
       <case acquire-quest="y" object="zoneenv:4110_portal_4700" object2="zoneenv2:4110_portal_4700" type="enter-portal" />

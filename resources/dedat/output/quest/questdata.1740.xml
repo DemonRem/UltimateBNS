@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1740.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1740.xml-->
   <quest alias="q_sub_1740" attraction-info="raid-dungeon:raid_NaryuTomb" category="normal" day-of-week="weekly" desc="q_1740_sum" grade="22" group2="QG_TwilightSanctuary" id="1740" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.1740" reset-type="weekly" save-type="all">
     <acquisition level="55" preceding-quest-1="q_sub_1724" preceding-quest-check="and" recommended-level="55">
       <case acquire-quest="y" completion-count="1" completion-count-op="ge" npc-response="qrsp_1740_3" object="npc:ch_sb_seocheon_0091" type="talk" />

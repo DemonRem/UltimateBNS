@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1778.xml-->
+  <quest alias="q_sub_1778" category="normal" desc="q_1778_sum" grade="1" group2="QG_ChunMyungPalace" id="1778" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1778" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" looting="q_1778_1_icon" object2="zoneenv2:e_chest_6462_ceramics_01" type="loot" />
+      <case acquire-quest="y" looting="q_1778_1_icon" object2="zoneenv2:e_chest_6462_ceramics_02" type="loot" />
+      <case acquire-quest="y" looting="q_1778_1_icon" object2="zoneenv2:e_chest_6462_ceramics_03" type="loot" />
+    </acquisition>
+    <mission-step id="1" time-limit-type="none">
+      <mission id="1" name2="Mission.Name2.1778_1" required-register-value="1">
+        <case mapunit-1="6462_CH_WC_MiddleMarket_0005" npc-response="qrsp_1778_1" object="npc:ch_wc_middlemarket_0005" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1778_2" required-register-value="1">
+        <case mapunit-1="6462_CH_WC_MiddleCastle_0368" object="npc:ch_wc_middlecastle_0368" progress-mission="y" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1778_3" required-register-value="1">
+        <case mapunit-1="6462_CH_WC_MiddleCastle_0368" npc-response="qrsp_1778_2" object="npc:ch_wc_middlecastle_0368" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1778_4" required-register-value="1">
+        <case mapunit-1="6462_e_chest_6462_destroy_ceramics_02" object2="zoneenv2:e_chest_6462_destroy_ceramics_02" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1778_5" required-register-value="1">
+        <case mapunit-1="6462_CH_WC_MiddleCastle_0369" npc-response="qrsp_1778_5" object="npc:ch_wc_middlecastle_0369" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1778_6" required-register-value="1" reward-1="1778_final_set1">
+        <case mapunit-1="CH_WC_MiddleMarket_0005" npc-response="qrsp_1778_6" object="npc:ch_wc_middlemarket_0005" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

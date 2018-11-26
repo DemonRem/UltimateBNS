@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="AIData" release-side="client" type="CharacterMeshnVoice" version="0.12">
-  <!--C:/LocalTextSelfDeploy/temp/engine\charactertoolappearance_mesh.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/engine\charactertoolappearance_mesh.xml-->
 	<record alias="Hat" data-version="2" description="제룡림 리뉴얼 낡은 상자 대체" id="1" name="낡은 모자" race="race-none" resource-name="00023219.Hat" sex="sex-none" type-mesh="hair-mesh" />
 	<record alias="AnthroEntmini" data-version="2" description="에픽 8막" id="2" name="그루족 소형 머리1" race="race-none" resource-name="00043726.990234-AnthroEntmini" sex="sex-none" type-mesh="hair-mesh" />
 	<record alias="AnthroEntmini2" data-version="2" description="에픽 8막" id="3" name="그루족 소형 머리2" race="race-none" resource-name="00042883.990216_AnthroEntmini" sex="sex-none" type-mesh="hair-mesh" />
@@ -126,8 +126,12 @@
 	<record alias="040284_GonM" data-version="2" description="서락 전투병 모자 헤어" id="76" name="040284_서락전투병_모자헤어" race="곤" resource-name="00045160.040284_GonM" sex="남" type-mesh="hair-mesh" />
 	<record alias="040283_GonM" data-version="2" description="(서락)(에픽8막)노예상인헤어" id="77" name="040283_노예상인_헤어" race="곤" resource-name="00044908.040283_GonM" sex="남" type-mesh="hair-mesh" />
 	<record alias="GonM_121" data-version="2" description="GonM_121_긴묶은머리" id="78" name="GonM_121" race="곤" resource-name="00051358.GonM_121" sex="남" type-mesh="hair-mesh" />
-  <record alias="GonM_120" data-version="2" description="GonM_120_쉼표머리" id="79" name="GonM_120" race="곤" resource-name="00051760.GonM_120" sex="남" type-mesh="hair-mesh" />
+	<record alias="GonM_120" data-version="2" description="GonM_120_쉼표머리" id="79" name="GonM_120" race="곤" resource-name="00051760.GonM_120" sex="남" type-mesh="hair-mesh" />
+	<record alias="00020912.040087_GonM" data-version="2" description="흑룡교 해골가면 일반" id="80" name="흑룡교 해골가면" race="곤" resource-name="00020912.040087_GonM" sex="남" type-mesh="hair-mesh" />
 	<record alias="040176_GonM" data-version="2" description="" id="81" name="040176_헬로키티모자" race="곤" resource-name="00029820.040176_GonM" sex="남" type-mesh="hair-mesh" />
+	<record alias="GonM_126" data-version="2" description="GonM_126_장우혁" id="82" name="GonM_126_장우혁" race="곤" resource-name="00058053.GonM_126" sex="남" type-mesh="hair-mesh" />
+	<record alias="GonM_125" data-version="2" description="GonM_125_투사" id="83" name="GonM_125_투사" race="곤" resource-name="00057342.GonM_125" sex="남" type-mesh="hair-mesh" />
+	<record alias="040345_GonM" data-version="2" description="040345_GonM_투사기념" id="84" name="040345_GonM_투사기념" race="곤" resource-name="00056345.040345_GonM" sex="남" type-mesh="hair-mesh" />
 	<record alias="GonM_103" data-version="2" description="" id="86" name="GonM_103 울버린헤어" race="곤" resource-name="00034109.GonM_103" sex="남" type-mesh="hair-mesh" />
 	<record alias="GonM_105" data-version="2" description="" id="87" name="GonM_105 드레드헤어" race="곤" resource-name="00036217.GonM_105" sex="남" type-mesh="hair-mesh" />
 	<record alias="040069_GonM_col2" data-version="2" description="" id="88" name="흑룡교 비밀결사대 후드" race="곤" resource-name="00053784.040069_GonM" sex="남" type-mesh="hair-mesh" />
@@ -192,10 +196,13 @@
 	<record alias="040206_LynM" data-version="2" description="" id="58" name="040206_헬로키티헤드셋" race="린" resource-name="00033818.040206_LynM" sex="남" type-mesh="hair-mesh" />
 	<record alias="LynM_115" data-version="2" description="" id="59" name="LynM_115_앞가르마단발" race="린" resource-name="00043656.LynM_115" sex="남" type-mesh="hair-mesh" />
 	<record alias="LynM_121" data-version="2" description="LynM_121_긴묶은머리" id="60" name="LynM_121" race="린" resource-name="00051362.LynM_121" sex="남" type-mesh="hair-mesh" />
-  <record alias="LynM_120" data-version="2" description="LynM_120_쉼표머리" id="61" name="LynM_120" race="린" resource-name="00051764.LynM_120" sex="남" type-mesh="hair-mesh" />
+	<record alias="LynM_120" data-version="2" description="LynM_120_쉼표머리" id="61" name="LynM_120_쉼표" race="린" resource-name="00051764.LynM_120" sex="남" type-mesh="hair-mesh" />
 	<record alias="040224_LynM" data-version="2" description="초록 모자 (서락) " id="62" name="서락주민 A" race="린" resource-name="00043095.040224_LynM" sex="남" type-mesh="hair-mesh" />
 	<record alias="040226_LynM" data-version="2" description="남색 터번 (서락)" id="63" name="서락주민 C" race="린" resource-name="00043083.040226_LynM" sex="남" type-mesh="hair-mesh" />
 	<record alias="040225_LynM" data-version="2" description="아랍식 두건 (서락)" id="64" name="서락주민 B" race="린" resource-name="00043870.040225_LynM" sex="남" type-mesh="hair-mesh" />
+	<record alias="LynM_126" data-version="2" description="LynM_126_장우혁" id="65" name="LynM_126_장우혁" race="린" resource-name="00058049.LynM_126" sex="남" type-mesh="hair-mesh" />
+	<record alias="LynM_125" data-version="2" description="LynM_125_투사" id="66" name="LynM_125_투사" race="린" resource-name="00057392.LynM_125" sex="남" type-mesh="hair-mesh" />
+	<record alias="040345_LynM" data-version="2" description="040345_LynM_투사기념" id="67" name="040345_LynM_투사기념" race="린" resource-name="00056595.040345_LynM" sex="남" type-mesh="hair-mesh" />
 	<record alias="040176_LynM" data-version="2" description="" id="70" name="040176_헬로키티모자" race="린" resource-name="00029799.040176_LynM" sex="남" type-mesh="hair-mesh" />
 	<record alias="LynM_103" data-version="2" description="" id="75" name="LynM_103 울버린헤어" race="린" resource-name="00034112.LynM_103" sex="남" type-mesh="hair-mesh" />
 	<record alias="JinM_001" data-version="2" description="" id="1" name="001" race="진" resource-name="00002621.JinM_001" sex="남" type-mesh="hair-mesh" />
@@ -329,8 +336,13 @@
 	<record alias="040087_JinM_col2" data-version="2" description="에픽9막 붉은 버전" id="-127" name="비밀결사대 해골머리장식" race="진" resource-name="00053781.040087_JinM" sex="남" type-mesh="hair-mesh" />
 	<record alias="040256_JinM" data-version="2" description="" id="-126" name="은광일 헤어" race="진" resource-name="00041817.040256_JinM" sex="남" type-mesh="hair-mesh" />
 	<record alias="JinM_121" data-version="2" description="묶은머리" id="-125" name="JinM_121" race="진" resource-name="00051353.JinM_121" sex="남" type-mesh="hair-mesh" />
-  <record alias="JinM_120" data-version="2" description="JinM_120_쉼표머리" id="-124" name="JinM_120" race="진" resource-name="00051771.JinM_120" sex="남" type-mesh="hair-mesh" />
-	<record alias="JinM_007_Col20" data-version="2" description="JinM_007_Col20" id="-123" name="JinM_007_Col20" race="진" resource-name="00053678.JinM_007" sex="남" type-mesh="hair-mesh" />
+	<record alias="JinM_120" data-version="2" description="JinM_120_쉼표머리" id="-124" name="JinM_120_쉼표" race="진" resource-name="00051771.JinM_120" sex="남" type-mesh="hair-mesh" />
+	<record alias="JinM_007_Col20" data-version="2" description="진남머리 영혼버전" id="-123" name="진남머리 영혼버전" race="진" resource-name="00053678.JinM_007" sex="남" type-mesh="hair-mesh" />
+	<record alias="JinM_125" data-version="2" description="JinM_125_투사" id="-122" name="JinM_125_투사" race="진" resource-name="00057340.JinM_125" sex="남" type-mesh="hair-mesh" />
+	<record alias="00020881.040087_JinM" data-version="2" description="흑룡교 해골가면 일반버전" id="-121" name="흑룡교 해골가면" race="진" resource-name="00020881.040087_JinM" sex="남" type-mesh="hair-mesh" />
+	<record alias="JinM_126" data-version="2" description="JinM_126_장우혁" id="-120" name="JinM_126_장우혁" race="진" resource-name="00058044.JinM_126" sex="남" type-mesh="hair-mesh" />
+	<record alias="JinM_015_Col20" data-version="2" description="진남머리 영혼버전" id="-119" name="진남머리 영혼버전" race="진" resource-name="00057720.JinM_015" sex="남" type-mesh="hair-mesh" />
+	<record alias="040345_JinM" data-version="2" description="040345_JinM_투사기념" id="-118" name="040345_JinM_투사기념" race="진" resource-name="00056346.040345_JinM" sex="남" type-mesh="hair-mesh" />
 	<record alias="KunN_001" data-version="2" description="건종족 헤어 01" id="1" name="001_기본생머리" race="건" resource-name="00003442.KunN_001" sex="여" type-mesh="hair-mesh" />
 	<record alias="KunN_002" data-version="2" description="롤헤어_건" id="2" name="002_롤헤어" race="건" resource-name="00007573.KunN_002" sex="여" type-mesh="hair-mesh" />
 	<record alias="KunN_003" data-version="2" description="진서연 헤어" id="3" name="NPC전용_003_진서연헤어" race="건" resource-name="00008557.KunN_003" sex="여" type-mesh="hair-mesh" />
@@ -409,7 +421,10 @@
 	<record alias="KunN_118" data-version="2" description="" id="76" name="KunN_118_양갈래뱅헤어" race="건" resource-name="00044122.KunN_118" sex="여" type-mesh="hair-mesh" />
 	<record alias="KunN_122" data-version="2" description="KunN_122_히메컷" id="77" name="KunN_122" race="건" resource-name="00051555.KunN_122" sex="여" type-mesh="hair-mesh" />
 	<record alias="040322_KunN" data-version="2" description="040322_KunN_중국4주년" id="78" name="040322_KunN_중국4주년" race="건" resource-name="00052884.040322_KunN" sex="여" type-mesh="hair-mesh" />
-  <record alias="KunN_123" data-version="2" description="KunN_123_양갈래곱슬" id="79" name="KunN_123" race="건" resource-name="00053132.KunN_123" sex="여" type-mesh="hair-mesh" />
+	<record alias="KunN_123" data-version="2" description="KunN_123_양갈래곱슬" id="79" name="KunN_123" race="건" resource-name="00053132.KunN_123" sex="여" type-mesh="hair-mesh" />
+	<record alias="KunN_128" data-version="2" description="KunN_128_단발물결" id="80" name="KunN_128_단발물결" race="건" resource-name="00058136.KunN_128" sex="여" type-mesh="hair-mesh" />
+	<record alias="KunN_127" data-version="2" description="KunN_127_엠마왓슨" id="81" name="KunN_127_엠마왓슨" race="건" resource-name="00057846.KunN_127" sex="여" type-mesh="hair-mesh" />
+	<record alias="040345_KunN" data-version="2" description="040345_KunN_투사기념" id="82" name="040345_KunN_투사기념" race="건" resource-name="00056596.040345_KunN" sex="여" type-mesh="hair-mesh" />
 	<record alias="040176_KunN" data-version="2" description="" id="83" name="040176_헬로키티모자" race="건" resource-name="00029836.040176_KunN" sex="여" type-mesh="hair-mesh" />
 	<record alias="KunN_107" data-version="2" description="남귀비 헤어" id="89" name="귀부인" race="건" resource-name="00034193.KunN_107" sex="여" type-mesh="hair-mesh" />
 	<record alias="KunN_101" data-version="2" description="" id="90" name="KunN_101 북미쇼커트" race="건" resource-name="00034381.KunN_101" sex="여" type-mesh="hair-mesh" />
@@ -489,7 +504,10 @@
 	<record alias="040307_GonF" data-version="2" description="GonF_동진아NPC모자" id="70" name="040307_GonF_동진아NPC모자" race="곤" resource-name="00048309.040307_GonF" sex="여" type-mesh="hair-mesh" />
 	<record alias="GonF_122" data-version="2" description="GonF_122_히메컷" id="71" name="GonF_122" race="곤" resource-name="00051556.GonF_122" sex="여" type-mesh="hair-mesh" />
 	<record alias="040227_GonF" data-version="2" description="암녹색 두건, 금색 장신구 (서락) " id="72" name="서락주민 A" race="곤" resource-name="00043879.040227_GonF" sex="여" type-mesh="hair-mesh" />
-  <record alias="GonF_123" data-version="2" description="GonF_123_양갈래곱슬" id="73" name="GonF_123" race="곤" resource-name="00053119.GonF_123" sex="여" type-mesh="hair-mesh" />
+	<record alias="GonF_123" data-version="2" description="GonF_123_양갈래곱슬" id="73" name="GonF_123_양갈래" race="곤" resource-name="00053119.GonF_123" sex="여" type-mesh="hair-mesh" />
+	<record alias="GonF_128" data-version="2" description="GonF_128_단발물결" id="74" name="GonF_128_단발물결" race="곤" resource-name="00058139.GonF_128" sex="여" type-mesh="hair-mesh" />
+	<record alias="GonF_127" data-version="2" description="GonF_127_엠마왓슨" id="75" name="GonF_127_엠마왓슨" race="곤" resource-name="00057843.GonF_127" sex="여" type-mesh="hair-mesh" />
+	<record alias="040345_GonF" data-version="2" description="040345_GonF_투사기념" id="76" name="040345_GonF_투사기념" race="곤" resource-name="00056593.040345_GonF" sex="여" type-mesh="hair-mesh" />
 	<record alias="040176_GonF" data-version="2" description="" id="80" name="040176_헬로키티모자" race="곤" resource-name="00029817.040176_GonF" sex="여" type-mesh="hair-mesh" />
 	<record alias="GonF_107" data-version="2" description="곤여 남귀비 " id="86" name="귀부인 헤어" race="곤" resource-name="00034189.GonF_107" sex="여" type-mesh="hair-mesh" />
 	<record alias="GonF_100" data-version="2" description="" id="87" name="GonF_100 아만다" race="곤" resource-name="00033991.GonF_100" sex="여" type-mesh="hair-mesh" />
@@ -564,8 +582,12 @@
 	<record alias="LynF_118" data-version="2" description="" id="65" name="LynF_118_양갈래뱅헤어" race="린" resource-name="00044134.LynF_118" sex="여" type-mesh="hair-mesh" />
 	<record alias="Lyn_003_Ghost" data-version="2" description="Lyn_003_호운촌촌장딸_망령버젼" id="66" name="Lyn_003_호운촌촌장딸_망령버젼" race="린" resource-name="00045701.LynF_003" sex="여" type-mesh="hair-mesh" />
 	<record alias="LynF_122" data-version="2" description="LynF_122_히메컷" id="67" name="LynF_122" race="린" resource-name="00051554.LynF_122" sex="여" type-mesh="hair-mesh" />
-  <record alias="LynF_123" data-version="2" description="LynF_123_양갈래곱슬" id="68" name="LynF_123" race="린" resource-name="00053138.LynF_123" sex="여" type-mesh="hair-mesh" />
+	<record alias="LynF_123" data-version="2" description="LynF_123_양갈래곱슬" id="68" name="LynF_123_양갈래" race="린" resource-name="00053138.LynF_123" sex="여" type-mesh="hair-mesh" />
+	<record alias="LynF_127" data-version="2" description="LynF_127_엠마왓슨" id="69" name="LynF_127_엠마왓슨" race="린" resource-name="00057848.LynF_127" sex="여" type-mesh="hair-mesh" />
+	<record alias="LynF_128" data-version="2" description="LynF_128_단발물결" id="70" name="LynF_128_단발물결" race="린" resource-name="00058132.LynF_128" sex="여" type-mesh="hair-mesh" />
+	<record alias="040262_LynF" data-version="2" description="040262_LynF_투사소녀" id="71" name="040262_LynF_투사소녀" race="린" resource-name="00042052.040262_LynF" sex="여" type-mesh="hair-mesh" />
 	<record alias="040176_LynF" data-version="2" description="" id="72" name="040176_헬로키티모자" race="린" resource-name="00029829.040176_LynF" sex="여" type-mesh="hair-mesh" />
+	<record alias="040345_LynF" data-version="2" description="040345_LynF_투사기념" id="73" name="040345_LynF_투사기념" race="린" resource-name="00056594.040345_LynF" sex="여" type-mesh="hair-mesh" />
 	<record alias="LynF_107" data-version="2" description="남귀비 헤어" id="78" name="귀부인" race="린" resource-name="00034195.LynF_107" sex="여" type-mesh="hair-mesh" />
 	<record alias="LynF_100" data-version="2" description="" id="79" name="LynF_100 아만다" race="린" resource-name="00033994.LynF_100" sex="여" type-mesh="hair-mesh" />
 	<record alias="LynF_101" data-version="2" description="" id="80" name="LynF_101 북미쇼커트" race="린" resource-name="00034384.LynF_101" sex="여" type-mesh="hair-mesh" />
@@ -700,7 +722,11 @@
 	<record alias="040182_JinF" data-version="2" description="040182_JinF_대만전용후궁" id="126" name="040182_JinF_대만전용후궁" race="진" resource-name="00030258.040182_JinF" sex="여" type-mesh="hair-mesh" />
 	<record alias="00050614_JinF" data-version="2" description="9막 남소유 머리" id="127" name="9막 남소유 머리" race="진" resource-name="00050614.040315_JinF" sex="여" type-mesh="hair-mesh" />
 	<record alias="00053514_JinF" data-version="2" description="모자 벗은 버전" id="-128" name="최진아 헤어" race="진" resource-name="00053514.JinF_124" sex="여" type-mesh="hair-mesh" />
-  <record alias="JinF_123" data-version="2" description="JinF_123_양갈래곱슬" id="-127" name="JinF_123" race="진" resource-name="00053006.JinF_123" sex="여" type-mesh="hair-mesh" />
+	<record alias="JinF_123" data-version="2" description="JinF_123_양갈래곱슬" id="-127" name="JinF_123" race="진" resource-name="00053006.JinF_123" sex="여" type-mesh="hair-mesh" />
+	<record alias="JinF_127" data-version="2" description="JinF_127_엠마왓슨" id="-126" name="JinF_127_엠마왓슨" race="진" resource-name="00057840.JinF_127" sex="여" type-mesh="hair-mesh" />
+	<record alias="JinF_128" data-version="2" description="JinF_128_단발물결" id="-125" name="JinF_128_단발물결" race="진" resource-name="00057918.JinF_128" sex="여" type-mesh="hair-mesh" />
+	<record alias="00057719.JinF_001" data-version="2" description="만두머리 혼령버전" id="-124" name="만두머리 혼령버전" race="진" resource-name="00057719.JinF_001" sex="여" type-mesh="hair-mesh" />
+	<record alias="040345_JinF" data-version="2" description="040345_JinF_투사기념" id="-123" name="040345_JinF_투사기념" race="진" resource-name="00054907.040345_JinF" sex="여" type-mesh="hair-mesh" />
 	<record alias="050005_GonM" data-version="2" description="" id="1" name="홍석근 귀꼬리" race="곤" resource-name="00010730.050002_GonM" sex="남" type-mesh="tail-mesh" />
 	<record alias="010063_GonM" data-version="2" description="마공 가면A_곤남_col1" id="2" name="마공가면A(곤남)" race="곤" resource-name="00024219.010063_GonM" sex="남" type-mesh="tail-mesh" />
 	<record alias="020001_LynM" data-version="2" description="" id="1" name="20001-린족꼬리1" race="린" resource-name="00004077.020001_LynM" sex="남" type-mesh="tail-mesh" />
@@ -1307,7 +1333,7 @@
 	<record alias="Icemarble" data-version="2" description="소용돌이사원" id="515" name="극한탄" race="race-none" resource-name="00040450.Icemarble" sex="sex-none" type-mesh="body-mesh" />
 	<record alias="DemonSnakeBishop" data-version="2" description="흑룡교 비밀 전당 대주교" id="516" name="베네샤" race="race-none" resource-name="00039099.DemonSnakeBishop" sex="sex-none" type-mesh="body-mesh" />
 	<record alias="DemonKala" data-version="2" description="흑룡교 비밀전당 2네임드" id="517" name="칼리" race="race-none" resource-name="00040624.DemonKala" sex="sex-none" type-mesh="body-mesh" />
-	<record alias="UnbalanceZombie_HeukRyong" data-version="2" description="흑룡교 비밀전당" id="518" name="실패자 원승" race="race-none" resource-name="00040627.UnbalanceZomb_HeukRyong" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="UnbalanceZombie_HeukRyong" data-version="2" description="흑룡교 비밀전당" id="518" name="실패자 원승" race="race-none" resource-name="00040627.UnbalanceZomb_HeukRyong" sex="sex-none" sub-material-name-1="00058497.col2" type-mesh="body-mesh" />
 	<record alias="MechaAdamantineMan" data-version="2" description="적패왕 레이드 압권 배리에이션" id="519" name="적패왕 압권" race="race-none" resource-name="00041298.MechaAdamantineMan" sex="sex-none" type-mesh="body-mesh" />
 	<record alias="JinTaePyeongFace" data-version="2" description="몸통만 있음  퀘스트용" id="520" name="진태평" race="race-none" resource-name="00041272.JinTaePyeongFace" sex="sex-none" type-mesh="body-mesh" />
 	<record alias="SocererBossNPC" data-version="2" description="소용돌이 사원" id="521" name="초마령의 핵" race="race-none" resource-name="00040605.SocererBossNPC" sex="sex-none" type-mesh="body-mesh" />
@@ -1425,10 +1451,21 @@
 	<record alias="TargetNPC" data-version="2" description="거대보스 투명 mesh_20m" id="633" name="거대보스 투명 mesh_20m" race="race-none" resource-name="00052943.TargetNPC" sex="sex-none" type-mesh="body-mesh" />
 	<record alias="TargetNPCB" data-version="2" description="거대보스 투명 mesh_4m" id="634" name="거대보스 투명 mesh_4m" race="race-none" resource-name="00054379.TargetNPCB" sex="sex-none" type-mesh="body-mesh" />
 	<record alias="GigantoDragonTailSmall" data-version="2" description="거대보스꼬리_small" id="635" name="거대보스꼬리_small" race="race-none" resource-name="00054449.GigantoDragonTailSmall" sex="sex-none" type-mesh="body-mesh" />
-  <record alias="TargetNPCS" data-version="2" description="거대보스더미NPCS" id="636" name="거대보스더미NPCS" race="race-none" resource-name="00054755.TargetNPCS" sex="sex-none" type-mesh="body-mesh" />
-  <record alias="TargetNPCM" data-version="2" description="거대보스더미NPCM" id="637" name="거대보스더미NPCM" race="race-none" resource-name="00054756.TargetNPCM" sex="sex-none" type-mesh="body-mesh" />
-  <record alias="AnthroDog" data-version="2" description="신기수련장 1보스" id="641" name="견인" race="race-none" resource-name="00056605.AnthroDog" sex="sex-none" type-mesh="body-mesh" />
-  <record alias="SummonCat_Body_0001" data-version="2" description="" id="1" name="소환수 고양이 몸_0001" race="고양이" resource-name="00014427.Body_0001" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="TargetNPCS" data-version="2" description="거대보스더미NPCS" id="636" name="거대보스더미NPCS" race="race-none" resource-name="00054755.TargetNPCS" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="TargetNPCM" data-version="2" description="거대보스더미NPCM" id="637" name="거대보스더미NPCM" race="race-none" resource-name="00054756.TargetNPCM" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="PekingOperaWarrior" data-version="2" description="귀면극단 보스" id="638" name="귀면왕보스" race="race-none" resource-name="00054977.PekingOperaWarrior" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="GhostMaskRed" data-version="2" description="귀면극단 귀신가면 붉은색" id="639" name="붉은 귀신가면" race="race-none" resource-name="00055725.GhostMaskRed" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="GhostMaskDark" data-version="2" description="귀면왕의 하수인" id="640" name="어두운 귀신가면" race="race-none" resource-name="00055955.GhostMaskDark" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="AnthroDog" data-version="2" description="신기수련장 1보스" id="641" name="견인" race="race-none" resource-name="00056605.AnthroDog" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="DoubleSword" data-version="2" description="" id="642" name="쌍수검사" race="race-none" resource-name="00056603.RedOverLordNew" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="MoonCat" data-version="2" description="신기수련장 3보스" id="643" name="월륜고양이" race="race-none" resource-name="00057174.AnthroCatBase" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="AnthroDeerBase" data-version="2" description="신기수련장 2보스" id="644" name="사슴" race="race-none" resource-name="00057177.AnthroDeerBase" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="DarknessBall" data-version="2" description="천명부화장 1보스 퍼즐" id="645" name="마기구슬" race="race-none" resource-name="00057399.Monster_Etc_DarknessBall_col1" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="DemonGoldenBat_00001" data-version="2" description="천명부화장 2보스" id="646" name="황자섭경" race="race-none" resource-name="00057134.DemonGoldenBat" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="HatcheryEgg" data-version="2" description="천명부화장 네임드 퍼즐npc" id="647" name="마족의 알" race="race-none" resource-name="00057209.NPCEgg" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="00057400.SoundTrap" data-version="2" description="천명부화장 2보스 퍼즐요소" id="648" name="음파덫" race="race-none" resource-name="00057400.Monster_Etc_SoundTrap_col1" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="BeastFlowerS" data-version="2" description="악태후외전 작은꽃" id="649" name="단몽화" race="race-none" resource-name="00059191.BeastFlowerS" sex="sex-none" type-mesh="body-mesh" />
+	<record alias="SummonCat_Body_0001" data-version="2" description="" id="1" name="소환수 고양이 몸_0001" race="고양이" resource-name="00014427.Body_0001" sex="sex-none" type-mesh="body-mesh" />
 	<record alias="00001_GonM" data-version="2" description="" id="1" name="00001-누드 바디" race="곤" resource-name="00002706.00001_GonM" sex="남" type-mesh="body-mesh" />
 	<record alias="60013_GonM" data-version="2" description="마정갑에서 어태치 뗀 버젼" id="2" name="60013-일반의상 46 (마정갑어태치X)" race="곤" resource-name="00009494.60013_GonM" sex="남" type-mesh="body-mesh" />
 	<record alias="11001_GonM" data-version="2" description="" id="3" name="11001-일반의상 26 (마정갑)" race="곤" resource-name="00002884.11001_GonM" sex="남" type-mesh="body-mesh" />
@@ -1487,7 +1524,7 @@
 	<record alias="60005_GonM" data-version="2" description="" id="56" name="60005-일반의상 40" race="곤" resource-name="00008311.60005_GonM" sex="남" type-mesh="body-mesh" />
 	<record alias="50004_GonM" data-version="2" description="" id="57" name="50004-직업검사 하급" race="곤" resource-name="00013386.50004_GonM" sex="남" sub-material-name-1="00013385.col1" sub-material-name-2="00014174.col2" type-mesh="body-mesh" />
 	<record alias="60006_GonM" data-version="2" description="현재 청령촌 주민으로 쓰고 있음" id="58" name="60006-일반의상 41 (청령촌주민)" race="곤" resource-name="00008171.60006_GonM" sex="남" sub-material-name-1="00008170.col1" sub-material-name-2="00009698.col2" sub-material-name-3="00009699.col3" sub-material-name-4="00009718.col4" sub-material-name-5="00009697.col5" sub-material-name-6="00009702.col6" sub-material-name-7="00011535.col8" type-mesh="body-mesh" />
-	<record alias="40015_GonM" data-version="2" description="" id="59" name="40015-경천맹 하급" race="곤" resource-name="00011833.40015_GonM" sex="남" sub-material-name-1="00011832.col1" sub-material-name-2="00014984.col2" sub-material-name-3="00020984.col3" type-mesh="body-mesh" />
+	<record alias="40015_GonM" data-version="2" description="" id="59" name="40015-경천맹 하급" race="곤" resource-name="00011833.40015_GonM" sex="남" sub-material-name-1="00011832.col1" sub-material-name-2="00014984.col2" sub-material-name-3="00020984.col3" sub-material-name-4="00053738.col5" sub-material-name-5="00053263.col4" type-mesh="body-mesh" />
 	<record alias="60007_GonM" data-version="2" description="" id="60" name="60007-일반의상 42" race="곤" resource-name="00007869.60007_GonM" sex="남" sub-material-name-2="00007870.col1" sub-material-name-3="00009018.col2" sub-material-name-4="00009219.col3" type-mesh="body-mesh" />
 	<record alias="60020_GonM" data-version="2" description="" id="61" name="60020-일반의상 50" race="곤" resource-name="00010770.60020_GonM" sex="남" type-mesh="body-mesh" />
 	<record alias="60034_GonM" data-version="2" description="" id="62" name="60034-적면귀" race="곤" resource-name="00012105.60034_GonM" sex="남" type-mesh="body-mesh" />
@@ -1553,7 +1590,7 @@
 	<record alias="65025_GonM" data-version="2" description="" id="122" name="65025_일반의상 9" race="곤" resource-name="00018387.65025_GonM" sex="남" sub-material-name-1="00018386.col1" sub-material-name-2="00018592.col2" type-mesh="body-mesh" />
 	<record alias="60061_GonM" data-version="2" description="" id="123" name="60061_백모북면" race="곤" resource-name="00017755.60061_GonM" sex="남" sub-material-name-1="00017754.col1" sub-material-name-3="00020095.col2" type-mesh="body-mesh" />
 	<record alias="60094_GonM" data-version="2" description="" id="124" name="60094_2012 크리스마스" race="곤" resource-name="00019386.60094_GonM" sex="남" type-mesh="body-mesh" />
-	<record alias="65066_GonM" data-version="2" description="" id="125" name="65066_흑룡교" race="곤" resource-name="00018551.65066_GonM" sex="남" type-mesh="body-mesh" />
+	<record alias="65066_GonM" data-version="2" description="" id="125" name="65066_흑룡교" race="곤" resource-name="00018551.65066_GonM" sex="남" sub-material-name-1="00053246.col3" sub-material-name-2="00018731.col1" sub-material-name-3="00018940.col2" type-mesh="body-mesh" />
 	<record alias="65067_GonM" data-version="2" description="" id="126" name="65067_하오방" race="곤" resource-name="00018168.65067_GonM" sex="남" sub-material-name-1="00021356.col2" type-mesh="body-mesh" />
 	<record alias="60086_GonM" data-version="2" description="" id="127" name="60086_붉은새 [호피]" race="곤" resource-name="00019718.60086_GonM" sex="남" sub-material-name-1="00019717.col1" sub-material-name-2="00019717.col1_Fur" type-mesh="body-mesh" />
 	<record alias="60067_GonM" data-version="2" description="" id="128" name="60067_흑호장" race="곤" resource-name="00015177.60067_GonM" sex="남" sub-material-name-1="00015176.col1" type-mesh="body-mesh" />
@@ -1630,6 +1667,8 @@
 	<record alias="65083_GonM_2" data-version="2" description="운국제복_곤남" id="199" name="운국제복_곤남" race="곤" resource-name="00030549.65083_GonM" sex="남" type-mesh="body-mesh" />
 	<record alias="10150_GonM_2" data-version="2" description="풍국 사신복 곤남" id="200" name="풍국 사신복" race="곤" resource-name="00053374.10150_GonM" sex="남" type-mesh="body-mesh" />
 	<record alias="65074_GonM" data-version="2" description="귀면극단 복장" id="201" name="귀면극단 곤남" race="곤" resource-name="00021564.65074_GonM" sex="남" type-mesh="body-mesh" />
+	<record alias="10167_GonM" data-version="2" description="귀면극단 파란옷" id="202" name="귀면극단_블루" race="곤" resource-name="00055710.10167_GonM" sex="남" type-mesh="body-mesh" />
+	<record alias="10169_GonM" data-version="2" description="10169_GonM_투사" id="203" name="10169_GonM_투사" race="곤" resource-name="00057332.10169_GonM" sex="남" type-mesh="body-mesh" />
 	<record alias="70016_GonM" data-version="2" description="" id="391" name="2014 발렌타인 이벤트의상_곤족" race="곤" resource-name="00026465.70016_GonM" sex="남" type-mesh="body-mesh" />
 	<record alias="00001_LynM" data-version="2" description="" id="1" name="00001-누드 바디" race="린" resource-name="00004247.00001_LynM" sex="남" type-mesh="body-mesh" />
 	<record alias="60013_LynM" data-version="2" description="마정갑에서 어태치 뗀 버젼" id="2" name="60013-일반의상 46 (마정갑어태치X)" race="린" resource-name="00009498.60013_LynM" sex="남" type-mesh="body-mesh" />
@@ -1811,6 +1850,7 @@
 	<record alias="10123_LynM" data-version="2" description="LynM_격사" id="178" name="10123_LynM_격사" race="린" resource-name="00047723.10123_LynM" sex="남" type-mesh="body-mesh" />
 	<record alias="65083_LynM_3" data-version="2" description="운국제복_린남" id="179" name="운국제복_린남" race="린" resource-name="00035619.65083_LynM" sex="남" type-mesh="body-mesh" />
 	<record alias="65074_LynM" data-version="2" description="귀면극단 복장" id="180" name="귀면극단 린남" race="린" resource-name="00021552.65074_LynM" sex="남" type-mesh="body-mesh" />
+	<record alias="10169_LynM" data-version="2" description="10169_LynM_투사" id="181" name="10169_LynM_투사" race="린" resource-name="00057562.10169_LynM" sex="남" type-mesh="body-mesh" />
 	<record alias="70016_LynM" data-version="2" description="" id="393" name="2014 발렌타인 이벤트의상_린족" race="린" resource-name="00026462.70016_LynM" sex="남" type-mesh="body-mesh" />
 	<record alias="00001_JinM" data-version="2" description="" id="1" name="00001-누드 바디" race="진" resource-name="00002701.00001_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="55002_JinM" data-version="2" description="" id="2" name="55002-직업암살자 하급" race="진" resource-name="00004674.55002_JinM" sex="남" type-mesh="body-mesh" />
@@ -1851,7 +1891,7 @@
 	<record alias="40009_JinM" data-version="2" description="" id="37" name="40009-검은충각단 중급" race="진" resource-name="00007947.40009_JinM" sex="남" sub-material-name-1="00007946.col1" sub-material-name-2="00011204.col2" sub-material-name-3="00011463.col3" sub-material-name-4="00011464.col4" sub-material-name-5="00016948.col5" sub-material-name-6="00019566.col6" type-mesh="body-mesh" />
 	<record alias="40010_JinM" data-version="2" description="" id="38" name="40010-제국군 상급" race="진" resource-name="00008027.40010_JinM" sex="남" sub-material-name-1="00008026.col1" sub-material-name-2="00014438.col2" sub-material-name-3="00032030.col3" type-mesh="body-mesh" />
 	<record alias="40011_JinM" data-version="2" description="" id="39" name="40011-경천맹 상급" race="진" resource-name="00008930.40011_JinM" sex="남" sub-material-name-1="00016962.col20" sub-material-name-2="00032180.col3" sub-material-name-3="00008929.col1" sub-material-name-4="00015772.co2" sub-material-name-5="00032251.col21" type-mesh="body-mesh" />
-	<record alias="60018_jinM" data-version="2" description="" id="40" name="60018-일반의상 48" race="진" resource-name="00010900.60018_jinM" sex="남" sub-material-name-1="00010899.col1" sub-material-name-10="00012846.col10" sub-material-name-11="00017534.col14" sub-material-name-12="00014113.Cloth_60018_JinM_col1.col11" sub-material-name-13="00017981.col13" sub-material-name-2="00011650.col2" sub-material-name-3="00011087.Col5" sub-material-name-4="00011227.col8" sub-material-name-5="00012841.col3" sub-material-name-6="00012842.col4" sub-material-name-7="00012843.col6" sub-material-name-8="00012844.col7" sub-material-name-9="00012845.col9" type-mesh="body-mesh" />
+	<record alias="60018_jinM" data-version="2" description="" id="40" name="60018-일반의상 48" race="진" resource-name="00010900.60018_jinM" sex="남" sub-material-name-1="00010899.col1" sub-material-name-10="00012846.col10" sub-material-name-11="00017534.col14" sub-material-name-12="00014113.Cloth_60018_JinM_col1.col11" sub-material-name-13="00017981.col13" sub-material-name-14="00057721.col20" sub-material-name-2="00011650.col2" sub-material-name-3="00011087.Col5" sub-material-name-4="00011227.col8" sub-material-name-5="00012841.col3" sub-material-name-6="00012842.col4" sub-material-name-7="00012843.col6" sub-material-name-8="00012844.col7" sub-material-name-9="00012845.col9" type-mesh="body-mesh" />
 	<record alias="40012_JinM" data-version="2" description="" id="41" name="40012-운국병사 하급" race="진" resource-name="00008101.40012_JinM" sex="남" sub-material-name-1="00008100.col1" sub-material-name-2="00017738.col2" type-mesh="body-mesh" />
 	<record alias="41001_JinM" data-version="2" description="" id="42" name="41001-서브팩션 한의학 약왕원" race="진" resource-name="00008960.41001_JinM" sex="남" sub-material-name-1="00008959.col1" sub-material-name-2="00011196.col2" sub-material-name-3="00011904.col3" sub-material-name-4="00011915.col4" sub-material-name-5="00011916.col5" sub-material-name-6="00011917.col6" sub-material-name-7="00017436.col7" sub-material-name-8="00018409.col8" type-mesh="body-mesh" />
 	<record alias="41002_JinM" data-version="2" description="" id="43" name="41002-서브팩션 태상문" race="진" resource-name="00009365.41002_JinM" sex="남" type-mesh="body-mesh" />
@@ -1896,7 +1936,7 @@
 	<record alias="65028_JinM" data-version="2" description="" id="82" name="65028-일반의상 11 (사용불가)" race="진" resource-name="00012329.65028_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="65030_JinM" data-version="2" description="" id="83" name="65030-용병의상" race="진" resource-name="00011611.65030_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="60009_JinM" data-version="2" description="산적 의상" id="84" name="60009-일반의상 43 (삿갓NPC)" race="진" resource-name="00008946.60009_JinM" sex="남" sub-material-name-1="00008945.col1" sub-material-name-2="00011117.col2" sub-material-name-3="00011118.col3" sub-material-name-4="00011119.col4" sub-material-name-5="00011120.col5" sub-material-name-6="00012708.col6" type-mesh="body-mesh" />
-	<record alias="60010_JinM" data-version="2" description="" id="85" name="60010-제자 의상" race="진" resource-name="00009010.60010_JinM" sex="남" sub-material-name-1="00009009.col1" sub-material-name-2="00010089.col2" type-mesh="body-mesh" />
+	<record alias="60010_JinM" data-version="2" description="" id="85" name="60010-제자 의상" race="진" resource-name="00009010.60010_JinM" sex="남" sub-material-name-1="00009009.col1" sub-material-name-2="00010089.col2" sub-material-name-3="00057723.col20" type-mesh="body-mesh" />
 	<record alias="61001_JinM" data-version="2" description="" id="86" name="61001-일반의상 2 (강한군)" race="진" resource-name="00003064.61001_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="65032_JinM" data-version="2" description="" id="87" name="65032-코트의상" race="진" resource-name="00010753.65032_JinM" sex="남" sub-material-name-1="00010752.col1" sub-material-name-2="00018578.col2" sub-material-name-3="00019571.col3" sub-material-name-4="00019428.col4" type-mesh="body-mesh" />
 	<record alias="65002_JinM" data-version="2" description="" id="88" name="65002-마영강" race="진" resource-name="00008711.65002_JinM" sex="남" type-mesh="body-mesh" />
@@ -1945,7 +1985,7 @@
 	<record alias="60070_JinM" data-version="2" description="" id="131" name="60070_보스보상 뇌신" race="진" resource-name="00017475.60070_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="60071_JinM" data-version="2" description="" id="132" name="60071_보스보상 풍신" race="진" resource-name="00017993.60071_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="60091_JinM" data-version="2" description="" id="133" name="60091_보스보상 군마염" race="진" resource-name="00018952.60091_JinM" sex="남" type-mesh="body-mesh" />
-	<record alias="65066_JinM" data-version="2" description="" id="134" name="65066_흑룡교" race="진" resource-name="00017432.65066_JinM" sex="남" type-mesh="body-mesh" />
+	<record alias="65066_JinM" data-version="2" description="" id="134" name="65066_흑룡교" race="진" resource-name="00017432.65066_JinM" sex="남" sub-material-name-1="00053245.col3" type-mesh="body-mesh" />
 	<record alias="65067_JinM" data-version="2" description="" id="135" name="65067_하오방" race="진" resource-name="00017428.65067_JinM" sex="남" sub-material-name-1="00021355.col2" type-mesh="body-mesh" />
 	<record alias="70001_JinM" data-version="2" description="" id="136" name="70001_문파의상1" race="진" resource-name="00018910.70001_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="60094_JinM" data-version="2" description="" id="137" name="60094_2012 크리스마스" race="진" resource-name="00019473.60094_JinM" sex="남" type-mesh="body-mesh" />
@@ -2034,6 +2074,9 @@
 	<record alias="10150_JinM" data-version="2" description="풍국 사신복 진남" id="220" name="풍국 사신복" race="진" resource-name="00053216.10150_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="65074_JinM" data-version="2" description="귀면극단 복장" id="221" name="귀면극단 진남" race="진" resource-name="00021555.65074_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="10057_JinM" data-version="2" description="흑룡교 비밀전당 보스 청연 " id="222" name="청연의상" race="진" resource-name="00039961.10057_JinM" sex="남" type-mesh="body-mesh" />
+	<record alias="10167_JinM" data-version="2" description="귀면극단 파란옷" id="223" name="귀면극단_블루" race="진" resource-name="00055707.10167_JinM" sex="남" type-mesh="body-mesh" />
+	<record alias="10109_JinM" data-version="2" description="일본/대만 만우절 이벤트용 수와의상" id="224" name="10109-수와의상" race="진" resource-name="00046612.10109_JinM" sex="남" type-mesh="body-mesh" />
+	<record alias="10169_JinM" data-version="2" description="10169_JinM_투사" id="225" name="10169_JinM_투사" race="진" resource-name="00057273.10169_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="70016_JinM" data-version="2" description="" id="395" name="2014 발렌타인 이벤트의상_진족" race="진" resource-name="00026451.70016_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="10068_JinM" data-version="2" description="" id="396" name="은광일 의상" race="진" resource-name="00041812.10068_JinM" sex="남" type-mesh="body-mesh" />
 	<record alias="00001_KunN" data-version="2" description="" id="1" name="00001-누드 바디" race="건" resource-name="00003445.00001_KunN" sex="여" type-mesh="body-mesh" />
@@ -2217,6 +2260,7 @@
 	<record alias="10090_KunN_JuBub" data-version="2" description="주법사 비구니_건" id="179" name="주법사 비구니_건" race="건" resource-name="00048474.10090_KunN" sex="여" type-mesh="body-mesh" />
 	<record alias="65083_KunN_3" data-version="2" description="운국제복_건" id="180" name="운국제복_건" race="건" resource-name="00035625.65083_KunN" sex="여" type-mesh="body-mesh" />
 	<record alias="65074_KunN" data-version="2" description="귀면극단 복장" id="181" name="귀면극단 건여" race="건" resource-name="00021003.65074_KunN" sex="여" type-mesh="body-mesh" />
+	<record alias="10169_KunN" data-version="2" description="10169_KunN_투사" id="182" name="10169_KunN_투사" race="건" resource-name="00057646.10169_KunN" sex="여" type-mesh="body-mesh" />
 	<record alias="70016_KunN" data-version="2" description="" id="390" name="2014 발렌타인 이벤트의상_건족" race="건" resource-name="00025767.70016_KunN" sex="여" type-mesh="body-mesh" />
 	<record alias="60013_GonF" data-version="2" description="마정갑에서 어태치 뗀 버젼" id="1" name="60013-일반의상 46 (마정갑어태치X)" race="곤" resource-name="00009493.60013_GonF" sex="여" type-mesh="body-mesh" />
 	<record alias="00001_GonF" data-version="2" description="" id="2" name="00001-누드 바디" race="곤" resource-name="00002654.00001_GonF" sex="여" type-mesh="body-mesh" />
@@ -2397,6 +2441,7 @@
 	<record alias="65083_GonF_3" data-version="2" description="운국제복_곤녀" id="177" name="운국제복_곤녀" race="곤" resource-name="00035616.65083_GonF" sex="여" type-mesh="body-mesh" />
 	<record alias="10150_GonF" data-version="2" description="풍국 사신복 곤녀" id="178" name="풍국 사신복" race="곤" resource-name="00053222.10150_GonF" sex="여" type-mesh="body-mesh" />
 	<record alias="65074_GonF" data-version="2" description="귀면극단 복장" id="179" name="귀면극단 곤여" race="곤" resource-name="00021561.65074_GonF" sex="여" type-mesh="body-mesh" />
+	<record alias="10169_GonF" data-version="2" description="10169_GonF_투사" id="180" name="10169_GonF_투사" race="곤" resource-name="00057706.10169_GonF" sex="여" type-mesh="body-mesh" />
 	<record alias="70016_GonF" data-version="2" description="" id="392" name="2014 발렌타인 이벤트의상_곤족" race="곤" resource-name="00025766.70016_GonF" sex="여" type-mesh="body-mesh" />
 	<record alias="10002_GonF" data-version="2" description="7막" id="463" name="10002_GonF_충각단장교복(동진아)" race="곤" resource-name="00034174.10002_GonF" sex="여" type-mesh="body-mesh" />
 	<record alias="60013_LynF" data-version="2" description="마정갑에서 어태치 뗀 버젼" id="1" name="60013-일반의상 46 (마정갑어태치X)" race="린" resource-name="00009498.60013_LynM" sex="여" type-mesh="body-mesh" />
@@ -2578,6 +2623,8 @@
 	<record alias="70025_LynF" data-version="2" description="" id="177" name="혼천교 최상급" race="린" resource-name="00043334.70025_LynF" sex="여" type-mesh="body-mesh" />
 	<record alias="70012_LynF" data-version="2" description="" id="178" name="무림맹 최상급" race="린" resource-name="00042075.70012_LynF" sex="여" type-mesh="body-mesh" />
 	<record alias="10123_LynF" data-version="2" description="LynF_격사" id="179" name="10123_LynF_격사" race="린" resource-name="00047727.10123_LynF" sex="여" type-mesh="body-mesh" />
+	<record alias="10077_LynF" data-version="2" description="10077_LynF_투사소녀" id="180" name="10077_LynF_투사소녀" race="린" resource-name="00042629.10077_LynF" sex="여" type-mesh="body-mesh" />
+	<record alias="10169_LynF" data-version="2" description="10169_LynF_투사" id="181" name="10169_LynF_투사" race="린" resource-name="00057711.10169_LynF" sex="여" type-mesh="body-mesh" />
 	<record alias="70016_LynF" data-version="2" description="" id="394" name="2014 발렌타인 이벤트의상_린족" race="린" resource-name="00025762.70016_LynF" sex="여" type-mesh="body-mesh" />
 	<record alias="60013_JinF" data-version="2" description="마정갑에서 어태치 뗀 버젼" id="1" name="60013-일반의상 46 (마정갑어태치X)" race="진" resource-name="00009495.60013_JinF" sex="여" type-mesh="body-mesh" />
 	<record alias="00001_JinF" data-version="2" description="" id="2" name="00001-누드 바디" race="진" resource-name="00002711.00001_JinF" sex="여" type-mesh="body-mesh" />
@@ -2658,7 +2705,7 @@
 	<record alias="54002_JinF" data-version="2" description="" id="77" name="직업소환사-하급-진녀 (사용불가)" race="진" resource-name="00013565.54002_JinF" sex="여" type-mesh="body-mesh" />
 	<record alias="60005_JinF" data-version="2" description="" id="78" name="60005-일반의상 40" race="진" resource-name="00007659.60005_JinF" sex="여" type-mesh="body-mesh" />
 	<record alias="60033_JinF" data-version="2" description="" id="79" name="일반의상 63-진녀" race="진" resource-name="00012952.60033_JinF" sex="여" type-mesh="body-mesh" />
-	<record alias="60006_JinF" data-version="2" description="현재 청령촌 주민으로 쓰고 있음" id="80" name="60006-일반의상 41 (청령촌주민)" race="진" resource-name="00007847.60006_JinF" sex="여" sub-material-name-1="00007846.col1" sub-material-name-2="00009648.col2" sub-material-name-3="00009649.col3" sub-material-name-4="00009716.Col4" sub-material-name-5="00009687.col5" sub-material-name-6="00009696.col6" sub-material-name-7="00010145.col7" sub-material-name-8="00011546.col8" type-mesh="body-mesh" />
+	<record alias="60006_JinF" data-version="2" description="현재 청령촌 주민으로 쓰고 있음" id="80" name="60006-일반의상 41 (청령촌주민)" race="진" resource-name="00007847.60006_JinF" sex="여" sub-material-name-1="00007846.col1" sub-material-name-10="00057724.col21" sub-material-name-2="00009648.col2" sub-material-name-3="00009649.col3" sub-material-name-4="00009716.Col4" sub-material-name-5="00009687.col5" sub-material-name-6="00009696.col6" sub-material-name-7="00010145.col7" sub-material-name-8="00011546.col8" sub-material-name-9="00057722.col20" type-mesh="body-mesh" />
 	<record alias="65045_JinF" data-version="2" description="" id="81" name="오술장포-진녀" race="진" resource-name="00010868.65045_JinF" sex="여" sub-material-name-1="00010867.col1" sub-material-name-2="00019801.col2" type-mesh="body-mesh" />
 	<record alias="60007_JinF" data-version="2" description="" id="82" name="60007-일반의상 42" race="진" resource-name="00008359.60007_JinF" sex="여" sub-material-name-1="00008358.col1" sub-material-name-2="00009651.col2" sub-material-name-3="00009720.col3" type-mesh="body-mesh" />
 	<record alias="60008_JinF" data-version="2" description="" id="83" name="60008-일반의상 1" race="진" resource-name="00008033.60008_JinF" sex="여" type-mesh="body-mesh" />
@@ -2811,11 +2858,11 @@
 	<record alias="65083_JinF_Un" data-version="2" description="운국제복 진녀" id="230" name="운국제복 진녀" race="진" resource-name="00030503.65083_JinF" sex="여" type-mesh="body-mesh" />
 	<record alias="10150_JinF" data-version="2" description="풍국 사신복 진녀" id="231" name="풍국 사신복장" race="진" resource-name="00052975.10150_JinF" sex="여" type-mesh="body-mesh" />
 	<record alias="65074_JinF" data-version="2" description="귀면극단 복장" id="232" name="귀면극단 진여" race="진" resource-name="00021558.65074_JinF" sex="여" type-mesh="body-mesh" />
+	<record alias="10167_JinF" data-version="2" description="귀면극단 파란옷" id="233" name="귀면극단_블루" race="진" resource-name="00055016.10167_JinF" sex="여" type-mesh="body-mesh" />
+	<record alias="10169_JinF" data-version="2" description="10169_JinF_투사진녀" id="234" name="10169_JinF_투사진녀" race="진" resource-name="00054902.10169_JinF" sex="여" type-mesh="body-mesh" />
 	<record alias="70016_JinF" data-version="2" description="" id="396" name="2014 발렌타인 이벤트의상_진족" race="진" resource-name="00025764.70016_JinF" sex="여" type-mesh="body-mesh" />
 	<record alias="10004_Jinf" data-version="2" description="" id="397" name="악태후 의상" race="진" resource-name="00034584.10004_Jinf" sex="여" type-mesh="body-mesh" />
-  <record alias="10109_JinM" data-version="2" description="일본/대만 만우절 이벤트용 수와의상" id="224" name="10109-수와의상" race="진" resource-name="00046612.10109_JinM" sex="남" type-mesh="body-mesh" />
-	<record alias="PekingOperaWarrior" data-version="2" description="귀면극단 보스" id="638" name="귀면왕보스" race="race-none" resource-name="00054977.PekingOperaWarrior" sex="sex-none" type-mesh="body-mesh" />
-  <record alias="050003_JinM" data-version="2" description="" id="1" name="모쿠진 머리 (종족,성별 없음)" race="race-none" resource-name="00010502.050003_JinM" sex="sex-none" type-mesh="accessory-mesh" />
+	<record alias="050003_JinM" data-version="2" description="" id="1" name="모쿠진 머리 (종족,성별 없음)" race="race-none" resource-name="00010502.050003_JinM" sex="sex-none" type-mesh="accessory-mesh" />
 	<record alias="990001_BoneMaskBigA" data-version="2" description="" id="2" name="골면족덩치A 가면1" race="race-none" resource-name="00010283.990001_BoneMaskBigA" sex="sex-none" type-mesh="accessory-mesh" />
 	<record alias="990002_BoneMaskBigA" data-version="2" description="" id="3" name="골면족덩치A 가면2" race="race-none" resource-name="00010284.990002_BoneMaskBigA" sex="sex-none" type-mesh="accessory-mesh" />
 	<record alias="990003_BoneMaskBigA" data-version="2" description="" id="4" name="골면족덩치A 가면3" race="race-none" resource-name="00010285.990003_BoneMaskBigA" sex="sex-none" type-mesh="accessory-mesh" />
@@ -2891,5 +2938,4 @@
 	<record alias="Acc_010006_JinF" data-version="2" description="" id="8" name="안경3" race="진" resource-name="00009188.010006_JinF" sex="여" type-mesh="accessory-mesh" />
 	<record alias="Acc_010007_JinF" data-version="2" description="" id="9" name="안경4" race="진" resource-name="00009194.010007_JinF" sex="여" type-mesh="accessory-mesh" />
 	<record alias="Acc_010008_JinF" data-version="2" description="" id="10" name="안경5" race="진" resource-name="00009195.010008_JinF" sex="여" type-mesh="accessory-mesh" />
-	<record alias="GhostMaskRed" data-version="2" description="귀면극단 귀신가면 붉은색" id="639" name="붉은 귀신가면" race="race-none" resource-name="00055725.GhostMaskRed" sex="sex-none" type-mesh="body-mesh" />
 </table>

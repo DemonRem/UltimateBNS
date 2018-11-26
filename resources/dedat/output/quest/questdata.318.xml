@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.318.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.318.xml-->
   <quest alias="q_epic_318" category="epic" completed-desc="q_318_completed" completed-list="y" desc="q_318_sum" district-1="jeryoungrim" grade="1" group2="QG_JeRyoungRimEpic" id="318" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.318" save-type="all">
     <acquisition level="1" recommended-level="19" sort-no="224" />
     <mission-step completion-type="and" desc="q_318_des_1" id="1" location-x="-32015.55" location-y="59292.92" map="songamdo" mission-map-type="location">

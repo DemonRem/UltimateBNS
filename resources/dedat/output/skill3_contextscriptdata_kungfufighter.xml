@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/skill3_contextscriptdata_kungfufighter.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/skill3_contextscriptdata_kungfufighter.xml-->
  
  
 <contextscript job="권사">
@@ -564,18 +564,18 @@
     </layer>
     <layer>
       <decision>
-        <condition skill="21511" />
-        
-        <result control-mode="classic" skillbar-2="21511" skillbar-ui-effect="combo" />
-        <result control-mode="bns" skillbar-2="21511" skillbar-ui-effect="combo" />
-      </decision>
-    </layer>
-    <layer>
-      <decision>
         <condition skill="21611" />
         
         <result control-mode="classic" skillbar-2="21611" skillbar-ui-effect="combo" />
         <result control-mode="bns" skillbar-2="21611" skillbar-ui-effect="combo" />
+      </decision>
+    </layer>
+    <layer>
+      <decision>
+        <condition skill="21511" />
+        
+        <result control-mode="classic" skillbar-2="21511" skillbar-ui-effect="combo" />
+        <result control-mode="bns" skillbar-2="21511" skillbar-ui-effect="combo" />
       </decision>
     </layer>
     <layer>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25179.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25179.xml-->
   <quest alias="q_sub_25179" attraction-1="dungeon:Dungeon_DongHae_chungkak_AE" category="attraction" content-type="none" desc="q_25179_sum" grade="10" group2="QG_Event" id="25179" map-group-1-1="suwal" max-repeat="-1" name2="Quest.Name2.25179" save-type="nothing">
     <acquisition level="50" recommended-level="50" />
     <mission-step id="1">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1303.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1303.xml-->
   <quest alias="q_sub_1303" broadcast-category="field" category="job" desc="q_1303_sum" district-1="jeryoungrim" grade="1" group2="QG_MangJaSup" id="1303" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1303" save-type="all" show-tutorial-tag="n" tutorial="y">
     <mission-step id="1">
       <mission id="1" name2="Mission.Name2.1303_1" required-register-value="1">

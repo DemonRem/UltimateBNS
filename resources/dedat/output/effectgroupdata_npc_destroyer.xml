@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc_destroyer.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc_destroyer.xml-->
 	<record alias="MH_Destroyer_Destruction_Charge_Q_E1_01" />
 	<record alias="MH_Destroyer_Destruction_Destruction_E1_01" effect-1="MH_Destroyer_Destruction_Destruction_damage" skill-result="Hit-Critical-Hit" target="first-second-target" target-state="enemy" />
 	<record alias="MH_Destroyer_Destruction_Destruction_Lv1_E1_01" effect-1="MH_Destroyer_Destruction_Destruction_Lv1_damage" skill-result="Hit-Critical-Hit" target="first-target" target-state="enemy" />

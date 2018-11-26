@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_classevent.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_classevent.xml-->
 	<record alias="HeroMask_EG_Dispel_BlockMove" effect-1="HeroMask_Dispel_BlockMove_attribute" skill-result="all" target="Caster" target-state="all" />
 	<record alias="ME_JinSeoYeon_None_Smash_E1_01_SoulMask" effect-1="ME_JinSeoYeon_None_Smash_damage_SoulMask" skill-result="Hit-Critical-Hit" target="second-target" target-state="enemy" />
 	<record alias="ME_JinSeoYeon_None_Smash_p_SoulMask" effect-1="ME_JinSeoYeon_None_Smash_damage_SoulMask" skill-result="Parry-Perfect-Parry-Counter" target="second-target" target-state="enemy" />

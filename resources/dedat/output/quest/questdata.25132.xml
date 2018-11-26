@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25132.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25132.xml-->
   <quest alias="q_sub_25132" attraction-1="dungeon:Dungeon_YoungjiRun" broadcast-category="field" category="attraction" desc="q_25132_sum" grade="1" group2="QG_Dungeon_YoungjiRun" id="25132" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.25132" save-type="nothing">
     <acquisition level="16" recommended-level="50" />
     <mission-step id="1">

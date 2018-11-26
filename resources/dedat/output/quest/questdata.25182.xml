@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25182.xml-->
+  <quest alias="q_sub_25182" category="dungeon" dungeon="Dungeon_MemoryCave" grade="10" group2="QG_RoomOfMemory" id="25182" map-group-1-1="SeoRak" max-repeat="1" name2="Quest.Name2.25182" save-type="nothing">
+    <acquisition level="55" name2="Quest.Name2.25182" preceding-quest-1="q_epic_1657" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" object2="zoneenv2:6517_Portal_6581" type="enter-portal" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25182_1" required-register-value="1">
+        <case object2="npc:MH_SB_MaYeongGang_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.25182_2" required-register-value="1">
+        <case object2="npc:MH_SB_DangYeoWeol_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.25182_3" required-register-value="1">
+        <case object2="npc:MH_SB_DoCheonPung_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.25182_4" required-register-value="1">
+        <case object2="npc:MH_SB_HongSukKeun_0001" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <transit id="4" zone="zone_MemoryCave_d4">
+      <destination mission-step-id="4" zone-index="1" />
+    </transit>
+    <transit id="3" zone="zone_MemoryCave_d3">
+      <destination mission-step-id="3" zone-index="1" />
+    </transit>
+    <transit id="2" zone="zone_MemoryCave_d2">
+      <destination mission-step-id="2" zone-index="1" />
+    </transit>
+    <transit id="1" zone="zone_MemoryCave_d1">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+  </quest>
+</table>

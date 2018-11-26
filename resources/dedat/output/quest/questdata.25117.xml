@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25117.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25117.xml-->
   <quest activated-faction="factionmain2" alias="q_sub_25117" attraction-1="jackpot-boss-zone: BloodWindPlain" broadcast-category="field" category="attraction" completed-list="n" desc="q_25117_sum" grade="7" group2="QG_BaramCenter" id="25117" main-faction="factionmain2" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.25117" save-type="nothing">
     <acquisition faction="factionmain2" level="45" recommended-level="50" />
     <mission-step id="1">

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1753.xml-->
+  <quest alias="q_epic_1753" category="epic" completed-desc="q_1753_completed" completed-list="y" desc="q_1753_sum" grade="1" group2="QG_NextWestLandEpic" id="1753" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1753" save-type="all">
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1753_1" required-register-value="1">
+        <case npc-response="qrsp_1753_1" object="npc:ch_wc_choijina_0011" progress-mission="y" type="talk" />
+        <case object="zone:Zone_CheonMyungGung_Jail_center_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:6440_foot_2" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_3" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_4" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_8" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_7" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_6" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case object="zone:Zone_CheonMyungGung_Jail_base_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1753_2" required-register-value="6">
+        <case object2="npc:mh_wc_cheonnoeok_0005" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_cheonnoeok_0006" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_cheonnoeok_0007" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_cheonnoeok_0008" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_cheonnoeok_0009" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1753_3" required-register-value="1">
+        <case mapunit-1="6467_6467_foot_2" mapunit-2="6467_6467_foot_2_alpha" object2="zoneenv2:6467_foot_2" progress-mission="y" type="env-entered" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1753_4" required-register-value="1">
+        <case npc-response="qrsp_1753_2" object="npc:ch_wc_choijina_0011" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1753_5" required-register-value="5">
+        <case object2="npc:mh_wc_cheonnoeok_0017" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_cheonnoeok_0018" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_cheonnoeok_0019" progress-mission="y" type="killed" />
+        <case mapunit-1="6467_MH_WC_CheonNoeOk_0020" mapunit-2="6467_MH_WC_CheonNoeOk_0020_alpha" object2="npc:mh_wc_cheonnoeok_0020" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_cheonnoeok_0016" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1753_6" required-register-value="1">
+        <case looting="q_1753_1_icon" mapunit-1="6467_e_chest_6467_keyPanel_01_Place" mapunit-2="6467_e_chest_6467_keyPanel_01_Place_alpha" object2="zoneenv2:e_chest_6467_keypanel_01" progress-mission="y" type="loot" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1753_7" required-register-value="1">
+        <case object2="zoneenv2:e_gate_6467_JaillGate_02_2" progress-mission="reaction-only" type="manipulate" />
+        <case mapunit-1="6467_e_chest_6467_Lever_03" mapunit-2="6467_e_chest_6467_Lever_03_alpha" object2="zoneenv2:e_chest_6467_Lever_03" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1753_8" required-register-value="1">
+        <case mapunit-1="6467_6467_foot_3" object2="zoneenv2:6467_foot_3" progress-mission="y" type="env-entered" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1753_9" required-register-value="1">
+        <case npc-response="qrsp_1753_3" object="npc:CH_WC_ChoiJinA_0011" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1753_10" required-register-value="1">
+        <case mapunit-1="6467_6467_foot_1" mapunit-2="6467_6467_foot_1_alpha" object2="zoneenv2:6467_foot_1" progress-mission="y" type="env-entered" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1753_11" required-register-value="1">
+        <case mapunit-1="6467_e_chest_6467_Lever_01" mapunit-2="6467_e_chest_6467_Lever_01_alpha" object2="zoneenv2:e_chest_6467_Lever_01" progress-mission="y" type="manipulate" />
+        <case approach-talk="n" npc-response="qrsp_1753_6" object="npc:ch_wc_gunmahye_0014" type="approach" />
+        <case npc-response="qrsp_1753_7" object="npc:ch_wc_jongyoon_0007" type="approach" />
+      </mission>
+      <mission-step-fail />
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1753_12" required-register-value="4">
+        <case object2="npc:mh_wc_cheonnoeok_0023" progress-mission="y" type="killed" />
+        <case object2="npc:mh_wc_cheonnoeok_0024" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="841" />
+    <completion>
+      <next-quest quest="q_epic_1754" />
+    </completion>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1753_13" required-register-value="1">
+        <case npc-response="qrsp_1753_4" object="npc:CH_WC_NamSoYu_0001" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:6470_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_2" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_3" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_4" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_8" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_7" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_6" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case object="zone:Zone_CheonMyungGung_Jail_center_P2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1753_14" required-register-value="1" reward-1="1753_final_set1">
+        <case npc-response="qrsp_1753_5" object="npc:ch_wc_choijina_0012" progress-mission="y" type="talk" />
+        <case object="zone:Zone_CheonMyungGung_Jail_epic9_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:6440_foot_2" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_3" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_4" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_8" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_7" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_6" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case object="zone:Zone_CheonMyungGung_Jail_center_P2" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="2" zone="Zone_CheonMyungGung_Jail_epic9_D">
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="14" zone-index="1" />
+    </transit>
+    <transit id="1" zone="Zone_CheonMyungGung_Jail_center_D">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="13" zone-index="2" />
+      <destination mission-step-id="14" zone-index="2" />
+    </transit>
+    <transit id="3" zone="Zone_CheonMyungGung_Jail_base_D">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+  </quest>
+</table>

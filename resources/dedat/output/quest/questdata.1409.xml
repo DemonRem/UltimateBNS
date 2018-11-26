@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1409.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1409.xml-->
   <quest activated-faction="factionmain2" alias="q_sub_1409" category="normal" day-of-week="daily" desc="q_1409_sum" grade="6" group2="QG_BaramCenter" id="1409" main-faction="factionmain2" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1409" reset-type="daily">
     <acquisition faction="factionmain2" level="45" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" grocery="Quest_Scroll_BackChung_0071" item="Quest_Scroll_BackChung_0071" msg="q_1409_1" required-item-1="Quest_Scroll_BackChung_0071" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />

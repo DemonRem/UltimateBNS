@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.774.xml-->
-  <quest alias="q_sub_774" broadcast-category="field" category="normal" desc="q_774_sum" district-1="deasamak" grade="1" group2="QG_Delete" id="774" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.774" retired="y" save-type="all">
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.774.xml-->
+  <quest alias="q_sub_774" broadcast-category="field" category="normal" desc="q_774_sum" district-1="deasamak" grade="1" group2="QG_SaJiSeokRimEast" id="774" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.774" retired="y" save-type="all">
   </quest>
   
 </table>

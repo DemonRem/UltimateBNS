@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.916.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.916.xml-->
   <quest alias="q_epic_916" category="epic" completed-desc="q_916_completed" completed-list="y" desc="q_916_sum" district-1="suwal" grade="1" group2="QG_SuwalPWEpic" id="916" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.916" save-type="all">
     <acquisition level="1" preceding-quest-check="and" recommended-level="41" sort-no="417" />
     <mission-step id="1" location-x="-42637.66" location-y="5046.36" map="gwidosi" mission-map-type="location">

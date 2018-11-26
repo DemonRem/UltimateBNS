@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1756.xml-->
+  <quest alias="q_epic_1756" category="epic" completed-desc="q_1756_completed" completed-list="y" desc="q_1756_sum" grade="1" group2="QG_NextWestLandEpic" id="1756" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1756" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="844" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1756_1" required-register-value="1">
+        <case mapunit-1="6495_Portal_6471_place" mapunit-2="6480_e_gate_6480_Door_24" object="zone:Zone_GW_CheonMyungGung_NorthGuard_P3" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1756_2" required-register-value="1">
+        <case npc-response="qrsp_1756_3" object="npc:MH_WA_HwangMuCheon_0005" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1756_5" required-register-value="1">
+        <case object="npc:MH_WA_BlackDragon_0023" progress-mission="y" type="npc-bleeding-occured" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1756_6" required-register-value="1">
+        <case npc-response="qrsp_1756_4" object="npc:MH_WA_HwangMuCheon_0005" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_NorthGuard_P3" progress-mission="reaction-only" type="enter-zone" />
+        <case button-text-accept="q_1756_10_ok" button-text-cancel="q_1756_10_no" indicator="quest-epic-can-progress" npc-response="qrsp_1756_10" object="npc:MH_WA_UnKukArmy_0218" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1756_7" required-register-value="1">
+        <case mapunit-1="6495_Zone_GW_CheonMyungGung_InnerDistrict_P1" object="zone:Zone_GW_CheonMyungGung_InnerDistrict_P1" progress-mission="y" type="enter-zone" />
+        <case button-text-accept="q_1756_10_ok" button-text-cancel="q_1756_10_no" indicator="quest-epic-can-progress" npc-response="qrsp_1756_10" object="npc:MH_WA_UnKukArmy_0218" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1756_8" required-register-value="1">
+        <case mapunit-1="6486_ME_WA_Epic9_Dummy_0028" npc-response="qrsp_1756_6" object="npc:ME_WA_Epic9_Dummy_0028" progress-mission="y" type="approach" />
+        <case npc-response="qrsp_1756_6" object="npc:MH_WA_HwangMuCheon_0006" progress-mission="n" type="approach" />
+        <case button-text-accept="q_1756_10_ok" button-text-cancel="q_1756_10_no" indicator="quest-epic-can-progress" npc-response="qrsp_1756_10" object="npc:MH_WA_UnKukArmy_0218" progress-mission="reaction-only" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1756_10" required-register-value="3">
+        <case mapunit-1="6486_ME_WA_UnKukArmy_Obserb" object="npc:ME_WA_UnKukArmy_0069" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6486_ME_WA_UnKukArmy_Obserb" object="npc:ME_WA_UnKukArmy_0068" progress-mission="y" type="npc-manipulate" />
+        <case mapunit-1="6486_ME_WA_UnKukArmy_Obserb" object="npc:ME_WA_UnKukArmy_0067" progress-mission="y" type="npc-manipulate" />
+        <case button-text-accept="q_1756_10_ok" button-text-cancel="q_1756_10_no" indicator="quest-epic-can-progress" npc-response="qrsp_1756_10" object="npc:MH_WA_UnKukArmy_0218" progress-mission="reaction-only" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1756_9" required-register-value="1">
+        <case npc-response="qrsp_1756_5" object="npc:MH_WA_HwangMuCheon_0006" progress-mission="y" type="talk" />
+        <case button-text-accept="q_1756_10_ok" button-text-cancel="q_1756_10_no" indicator="quest-epic-can-progress" npc-response="qrsp_1756_10" object="npc:MH_WA_UnKukArmy_0218" progress-mission="reaction-only" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1757" />
+    </completion>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1756_3" required-register-value="1">
+        <case npc-response="qrsp_1756_7" object="npc:MH_WA_UnKukArmy_0014" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1756_11" required-register-value="1">
+        <case mapunit-1="6486_MH_WA_BlackDragon_Kill_01" object2="npc:MH_WA_BlackDragon_0029" progress-mission="y" type="killed" />
+        <case button-text-accept="q_1756_10_ok" button-text-cancel="q_1756_10_no" indicator="quest-epic-can-progress" npc-response="qrsp_1756_10" object="npc:MH_WA_UnKukArmy_0218" type="talk" />
+        <fixed-reward slot-1="item:Quest_Scroll_Epic9_0004" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1756_4" required-register-value="1">
+        <case acquire-quest="n" mapunit-1="6495_ME_WA_Epic9_Dummy_0034" object="npc:ME_WA_Epic9_Dummy_0034" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1756_12" required-register-value="1">
+        <case grocery="Quest_Scroll_Epic9_0004" item="Quest_Scroll_Epic9_0004" msg="q_1756_9" progress-mission="y" required-item-1="Quest_Scroll_Epic9_0004" required-item-depot="bag" required-item-loss="y" type="talk-to-item" />
+        <completion-loss item-1="Quest_Scroll_Epic9_0004" item-count-1="0" />
+        <case button-text-accept="q_1756_10_ok" button-text-cancel="q_1756_10_no" indicator="quest-epic-can-progress" npc-response="qrsp_1756_10" object="npc:MH_WA_UnKukArmy_0218" progress-mission="reaction-only" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1756_13" required-register-value="1" reward-1="1756_final_set1">
+        <case npc-response="qrsp_1756_8" object="npc:MH_WA_HwangMuCheon_0006" progress-mission="y" type="talk" />
+        <case button-text-accept="q_1756_10_ok" button-text-cancel="q_1756_10_no" indicator="quest-epic-can-progress" npc-response="qrsp_1756_10" object="npc:MH_WA_UnKukArmy_0218" progress-mission="reaction-only" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <transit id="2" zone="Zone_GW_CheonMyungGung_InnerDistrict_D">
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+    </transit>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_NorthGuard">
+      <destination mission-step-id="6" zone-index="3" />
+      <destination mission-step-id="5" zone-index="3" />
+      <destination mission-step-id="4" zone-index="3" />
+      <destination mission-step-id="3" zone-index="3" />
+      <destination mission-step-id="2" zone-index="3" />
+      <destination mission-step-id="1" zone-index="3" />
+    </transit>
+  </quest>
+</table>

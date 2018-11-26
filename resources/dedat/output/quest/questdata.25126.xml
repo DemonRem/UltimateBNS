@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25126.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25126.xml-->
   <quest alias="q_sub_25126" attraction-1="cave2:Cave_none_0226" attraction-2="cave2:Cave_none_0227" attraction-3="field-zone:Richtown" broadcast-category="field" category="attraction" desc="q_25126_sum" grade="10" group2="QG_BaramPungnyeon" id="25126" map-group-1-1="baekchung" max-repeat="-1" name2="Quest.Name2.25126" save-type="nothing">
     <mission-step id="1">
       <mission id="1" name2="Mission.Name2.25126_1" required-register-value="1">

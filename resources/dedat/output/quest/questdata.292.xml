@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.292.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.292.xml-->
   <quest alias="q_sub_292" attraction-info="duel:Duel_Match_1vs1_01" category="normal" content-type="duel" day-of-week="daily" desc="q_292_sum" grade="16" group2="QG_Duel" id="292" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.292" reset-type="daily" save-type="all">
-    <acquisition level="36" preceding-quest-1="q_sub_324" preceding-quest-check="and" recommended-level="36">
+    <acquisition level="45" preceding-quest-1="q_sub_324" preceding-quest-check="and" recommended-level="45">
       <case acquire-quest="y" completion-count="0" indicator="quest-factionboard-repeat-start" npc-response="qrsp_292_2" object="npc:CE_CT_Board_0038" type="talk" />
       <case acquire-quest="y" indicator="quest-factionboard-repeat-start" npc-response="qrsp_292_2" object="npc:CE_CT_Board_0018" type="talk" />
       <case acquire-quest="y" indicator="quest-factionboard-repeat-start" npc-response="qrsp_292_2" object="npc:CE_CT_Board_0019" type="talk" />

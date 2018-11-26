@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1298.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1298.xml-->
   <quest alias="q_sub_1298" attraction-info="raid-dungeon:raid_PaCheonSeongDo" broadcast-category="field" category="normal" day-of-week="weekly" desc="q_1298_sum" grade="22" group2="QG_PaCheonSeongDo" id="1298" map-group-1-1="PaCheonSeongDo" max-repeat="1" name2="Quest.Name2.1298" reset-type="weekly" save-type="all">
     <acquisition level="50" preceding-quest-1="q_sub_1294" preceding-quest-2="q_sub_1372" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" completion-count-op="ge" npc-response="grsp_1298_1" object="npc:CH_WC_HoBeopoe_0032" progress-mission="y" type="talk" />

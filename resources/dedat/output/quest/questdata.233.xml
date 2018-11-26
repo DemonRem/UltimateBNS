@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.233.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.233.xml-->
   <quest alias="q_sub_233" attraction-1="classic-field-zone:SnakeScalesVally_classic" attraction-2="dungeon:dungeon_SnakeScalesVally" attraction-3="classic-field-zone:NoklimdovillageClassic" attraction-4="dungeon:dungeon_TakMaGul" category="normal" content-type="elite-skill" grade="1" group2="QG_Elite" id="233" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.233" retired="y" save-type="all">
   </quest>
   

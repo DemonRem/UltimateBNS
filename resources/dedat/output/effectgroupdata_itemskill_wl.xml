@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_wl.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_wl.xml-->
 	<record alias="ItemSkill_WL_TargetBeam_B1_Lv1_01_E1" effect-1="ItemSkill_WL_TargetBeam_B1_Lv1_01_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" target-state-first-filter="60170" />
 	<record alias="ItemSkill_WL_TraceLevel_B2_Lv1_01_E1" effect-1="ItemSkill_WL_TraceLevel_B2_Lv1_01_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_WL_EventTargetNuke_B3_Lv1_01_E1" effect-1="ItemSkill_WL_EventTargetNuke_B3_Lv1_01_Flag" skill-result="critical-hit" target="caster" target-state="all" />
@@ -13,8 +13,7 @@
 	<record alias="ItemSkill_WL_Command_S2_Lv1_01_E3" effect-1="Warlock_Spell_ghost_bit_Dispel" effect-2="Warlock_Spell_ghost_bit_2" skill-result="all" target="caster" target-state="all" target-state-first-filter="60250" />
 	<record alias="ItemSkill_WL_Command_S2_Lv1_01_E4" effect-1="Warlock_Spell_ghost_bit_1" skill-result="all" target="caster" target-state="all" target-state-first-filter="60253" target-state-second-filter="60255" />
 	<record alias="ItemSkill_WL_Counter_S3_Lv1_01_E1" effect-1="ItemSkill_WL_Counter_S3_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
-	<record alias="ItemSkill_WL_RecallToCaster_S4_Lv1_01_E1" effect-1="ItemSkill_WL_RecallToCaster_S4_Lv1_01_Flag" skill-result="all" target="first-target" target-state="all" />
-	<record alias="ItemSkill_WL_RecallToCaster_S4_Lv1_01_E2" effect-1="ItemSkill_WL_RecallToCaster_S4_Lv1_01_MRT42" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_WL_RecallToCaster_S4_Lv1_01_E1" effect-1="Warlock_Spell_RangeMoveBlock_Lv53_Cast_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_WL_Command_S5_Lv1_01_E1" effect-1="Warlock_Spell_TraceLevel_three_flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_WL_Nuke_S6_Lv1_01_E1" effect-1="ItemSkill_WL_Nuke_S6_Lv1_01_Talisman_show" effect-2="ItemSkill_WL_Nuke_S6_Lv1_01_Talisman" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_WL_TargetBeam_S7_Lv1_01_E1" effect-1="ItemSkill_WL_TargetBeam_S7_Lv1_01_E1_Flag" effect-2="ItemSkill_WL_TargetBeam_S7_Lv1_01_E1_Flag_hid1" skill-result="hit-critical-hit" target="caster" target-state="all" />
@@ -27,4 +26,6 @@
 	<record alias="ItemSkill_WL_GroundAttack_S14_Lv1_01_E1" effect-1="ItemSkill_WL_GroundAttack_S14_Lv1_01_MRT5" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_WL_DarkBlade_Ice_Lv1_01_E1" effect-1="ItemSkill_WL_DarkBlade_Ice_Lv1_01_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_WL_DarkBlade_Dark_Lv1_01_E1" effect-1="ItemSkill_WL_DarkBlade_Dark_Lv1_01_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WL_LB1_Lv1_Dmg_Ice_E1" effect-1="ItemSkill_WL_LB1_Lv1_Dmg_Ice" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_WL_LB1_Lv1_Dmg_dark_E1" effect-1="ItemSkill_WL_LB1_Lv1_Dmg_dark" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 </table>

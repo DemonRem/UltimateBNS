@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.310.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.310.xml-->
   <quest alias="q_epic_310" category="epic" completed-desc="q_310_completed" completed-list="y" desc="q_310_sum" district-1="jeryoungrim" grade="1" group2="QG_JeRyoungRimEpic" id="310" map-group-1-1="jeryoungrim" max-repeat="1" name2="Quest.Name2.310" save-type="all">
     <acquisition level="1" recommended-level="9" sort-no="211" />
     <mission-step id="1" location-x="-31065.23" location-y="-7594.67" map="huekummlim_2202" mission-map-type="location">

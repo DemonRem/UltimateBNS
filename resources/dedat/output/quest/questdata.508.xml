@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.508.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.508.xml-->
   <quest alias="q_epic_508" broadcast-category="field" category="epic" completed-desc="q_508_completed" completed-list="y" desc="q_508_sum" district-1="deasamak" grade="1" group2="QG_DaeSaMakEpic" id="508" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.508" save-type="all">
     <acquisition level="1" recommended-level="25" sort-no="309" />
     <mission-step id="1" location-x="-20097.168" location-y="-74379.6016" map="hwanyoungcho">

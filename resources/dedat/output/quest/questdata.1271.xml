@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1271.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1271.xml-->
   <quest alias="q_sub_1271" attraction-info="cave2:Cave_SuWal_7" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1271_sum" district-1="suwal" grade="9" group2="QG_AngaeForestNorth" id="1271" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1271" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" level="43" preceding-quest-check="and" recommended-level="46">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1271_1" object="npc:CH_KyeongChunMaeng_0030" type="talk" />

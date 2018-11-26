@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.524.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.524.xml-->
   <quest alias="q_epic_524" category="epic" completed-desc="q_524_completed" completed-list="y" desc="q_524_sum" district-1="deasamak" grade="1" group2="QG_DaeSaMakEpic" id="524" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.524" save-type="all">
     <acquisition level="1" recommended-level="32" sort-no="325" />
     <mission-step id="1" location-x="17124.1426" location-y="-31975.7715" map="sajisukrim" mission-map-type="location">

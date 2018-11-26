@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-mversion="0.0.0.1" release-side="client" type="skill-training-sequence" version="0.1">
-  <!--C:/LocalTextSelfDeploy/temp/skilltrainingsequencedata_blademaster.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/skilltrainingsequencedata_blademaster.xml-->
 
   
 
@@ -139,7 +139,7 @@
 
 
   
-  <skill-training-sequence alias="BM_Fire_03_Sub_05_Seq" repeat-count="1">
+  <skill-training-sequence alias="BM_Fire_03_Sub_05_Seq" repeat-count="2">
     <step check-only-cast-skill="y" check-parent-skill="y" sequence-step-type="skill" skill-1="20003" variation-id-1="11" />
     <step effect="BladeMaster_Soul_GuardSoulBlade_LV1_modifydamage" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="20600" variation-id-1="11" />
   </skill-training-sequence>
@@ -181,13 +181,13 @@
   
   <skill-training-sequence alias="BM_Fire_04_Sub_01_Seq" repeat-count="2">
     <step check-only-cast-skill="y" check-parent-skill="y" sequence-step-type="skill" skill-1="20105" variation-id-1="11" />
-    <step result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="skill" skill-1="20106" skill-2="20106" variation-id-1="11" variation-id-2="51" />
+    <step effect="BladeMaster_Sword_blocking_Lv13_Sword_immune_5s" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="20106" skill-2="20106" variation-id-1="13" variation-id-2="53" />
   </skill-training-sequence>
 
   
   <skill-training-sequence alias="BM_Fire_04_Sub_02_Seq" repeat-count="2">
     <step check-only-cast-skill="y" check-parent-skill="y" sequence-step-type="skill" skill-1="20105" variation-id-1="11" />
-    <step effect="BladeMaster_Sword_blocking_Lv14_Sword_immune_3s" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="20106" skill-2="20106" skill-3="20106" skill-4="20106" variation-id-1="12" variation-id-2="13" variation-id-3="52" variation-id-4="53" />
+    <step effect="BladeMaster_Sword_blocking_Lv14_Sword_immune_5s" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="20106" skill-2="20106" variation-id-1="12" variation-id-2="52" />
   </skill-training-sequence>
 
 
@@ -344,7 +344,7 @@
 
 
   
-  <skill-training-sequence alias="BM_Lightning_03_Sub_06_Seq" repeat-count="1">
+  <skill-training-sequence alias="BM_Lightning_03_Sub_06_Seq" repeat-count="2">
     <step check-only-cast-skill="y" check-parent-skill="y" sequence-step-type="skill" skill-1="20003" variation-id-1="21" />
     <step effect="BladeMaster_Soul_GuardSoulBlade_LV1_modifydamage" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="20600" variation-id-1="21" />
   </skill-training-sequence>
@@ -382,16 +382,16 @@
     <step check-only-cast-skill="y" command-action-input-offset="500" next-step-interval="500" sequence-step-type="skill" skill-1="20233" variation-id-1="21" />
   </skill-training-sequence>
 
-  
+    
   <skill-training-sequence alias="BM_Lightning_04_Sub_02_Seq" repeat-count="2">
     <step check-only-cast-skill="y" check-parent-skill="y" sequence-step-type="skill" skill-1="20105" variation-id-1="21" />
-    <step result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="skill" skill-1="20106" skill-2="20106" variation-id-1="21" variation-id-2="61" />
+    <step effect="BladeMaster_Sword_blocking_Lv13_Sword_immune_5s" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="20106" skill-2="20106" variation-id-1="23" variation-id-2="63" />
   </skill-training-sequence>
 
   
   <skill-training-sequence alias="BM_Lightning_04_Sub_03_Seq" repeat-count="2">
     <step check-only-cast-skill="y" check-parent-skill="y" sequence-step-type="skill" skill-1="20105" variation-id-1="21" />
-    <step effect="BladeMaster_Sword_blocking_Lv14_Sword_immune_3s" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="20106" skill-2="20106" skill-3="20106" skill-4="20106" variation-id-1="22" variation-id-2="23" variation-id-3="62" variation-id-4="63" />
+    <step effect="BladeMaster_Sword_blocking_Lv14_Sword_immune_5s" result-1="miss" result-count="1" result-event-type-1="attacked" sequence-step-type="effect" skill-1="20106" skill-2="20106" variation-id-1="22" variation-id-2="62" />
   </skill-training-sequence>
 
 

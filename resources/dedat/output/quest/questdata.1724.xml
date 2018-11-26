@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1724.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1724.xml-->
   <quest alias="q_sub_1724" category="normal" content-type="side-episode" desc="q_1724_sum" group2="QG_Taecheon" id="1724" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1724" save-type="all">
     <acquisition level="55" preceding-quest-1="q_sub_1723" preceding-quest-check="and" recommended-level="55">
       <case acquire-quest="y" npc-response="qrsp_1724_1" object="npc:ch_wc_saminyoung_sideepic3_0008" type="talk" />

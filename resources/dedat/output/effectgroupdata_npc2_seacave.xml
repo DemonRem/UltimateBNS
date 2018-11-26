@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_npc2_seacave.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_npc2_seacave.xml-->
 	<record alias="SRC_B2_HammerHead_Bite_E1_01" effect-1="ME_ID2_Common_Melee_Damage_160" effect-2="SRC_B2_HammerHead_Bite_inhalation" skill-result="All" target="first-target" target-state="Enemy" />
 	<record alias="SRC_B2_HammerHead_Bite_E1_02" effect-1="MH_common_CasterSkillBlock" skill-result="All" target="Caster" target-state="All" target-state-first-filter="60022" />
 	<record alias="SRC_B2_HammerHead_Bite_E2_01" effect-1="ME_ID2_Common_Melee_Damage_160" effect-2="SRC_B2_HammerHead_Bite_unlink" effect-3="MH_Common_None_Recall_to_Caster" effect-4="MH_Common_None_feedback_KnockbackD" effect-5="Common_ReactToDown_Flag_700ms" skill-result="All" target="first-target" target-state="Enemy" />

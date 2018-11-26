@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1556.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1556.xml-->
   <quest alias="q_sub_1556" attraction-info="dungeon:Dungeon_SandTemple" category="normal" desc="q_1556_sum" grade="1" group2="QG_SandTemple" id="1556" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1556" reset-by-acquire-time="none" save-type="all">
     <acquisition level="55" preceding-quest-1="q_epic_1657" preceding-quest-check="and" recommended-level="55">
       <case acquire-quest="y" item="q_1556_1_icon" msg="q_1556_1" type="talk-to-self" />

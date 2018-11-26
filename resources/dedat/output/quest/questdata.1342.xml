@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1342.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1342.xml-->
   <quest alias="q_sub_1342" category="job" desc="q_1342_sum" district-1="jeryoungrim" grade="1" group2="QG_NokMyungCHN" id="1342" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1342" save-type="all" show-tutorial-tag="n" tutorial="n">
     <acquisition job-1="job-none" level="14" preceding-quest-1="q_sub_1307" preceding-quest-check="and" recommended-level="14">
       <case acquire-quest="y" item="q_1342_Quest_hair_growth_solution_manual_1_icon" msg="q_1342_s" type="talk-to-self" />

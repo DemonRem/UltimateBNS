@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_forcemaster.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_forcemaster.xml-->
 	<record alias="ForceMaster_Common_Sp_Charge1" effect-1="ForceMaster_Common_2ndGage_Charge1" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ForceMaster_Common_Sp_Charge2" effect-1="ForceMaster_Common_2ndGage_Charge2" skill-result="hit-critical-hit" target="caster" target-state="all" />
 	<record alias="ForceMaster_Deal_common_goodforce_fire" effect-1="ForceMaster_Deal_common_FireBit_1" skill-result="critical-hit" target="caster" target-state="all" target-state-first-filter="60097" />
@@ -242,8 +242,12 @@
 	<record alias="ForceMaster_Deal_fire_ball_Lv1_e1_02" effect-1="ForceMaster_Deal_fire_ball_Lv12_damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
 	<record alias="ForceMaster_Deal_fire_ball_Lv1_e2_01" effect-1="ForceMaster_Deal_fire_ball_Lv14_hid_damage" effect-2="ForceMaster_Deal_fire_ball_burn" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
 	<record alias="ForceMaster_Deal_fire_ball_Lv1_e2_02" effect-1="ForceMaster_Deal_fire_ball_Lv14_hid_damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
-	<record alias="ForceMaster_Deal_fire_ball_Lv21_e1_01" effect-1="ForceMaster_Deal_fire_ball_Lv21_damage" effect-2="ForceMaster_Deal_fire_ball_burn" effect-3="ForceMaster_Deal_embers_explosion" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
-	<record alias="ForceMaster_Deal_fire_ball_Lv21_e1_02" effect-1="ForceMaster_Deal_fire_ball_Lv21_damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
+	<record alias="ForceMaster_Deal_fire_ball_Lv21_e1_01" effect-1="ForceMaster_Deal_fire_ball_Lv2_damage" effect-2="ForceMaster_Deal_fire_ball_burn" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
+	<record alias="ForceMaster_Deal_fire_ball_Lv21_e1_02" effect-1="ForceMaster_Deal_fire_ball_Lv2_damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
+	<record alias="ForceMaster_Deal_fire_ball_LvH21_e1_01" effect-1="ForceMaster_Deal_fire_ball_LvH21_damage" effect-2="ForceMaster_Deal_fire_ball_burn" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
+	<record alias="ForceMaster_Deal_fire_ball_LvH21_e1_02" effect-1="ForceMaster_Deal_fire_ball_LvH21_damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
+	<record alias="ForceMaster_Deal_fire_ball_Lv2_e1_01" effect-1="ForceMaster_Deal_fire_ball_Lv21_damage" effect-2="ForceMaster_Deal_fire_ball_burn" effect-3="ForceMaster_Deal_embers_explosion" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
+	<record alias="ForceMaster_Deal_fire_ball_Lv2_e1_02" effect-1="ForceMaster_Deal_fire_ball_Lv21_damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
 	<record alias="ForceMaster_Deal_fire_ball_Lv7_e1_01" effect-1="ForceMaster_Deal_common_Logic_Flag" skill-result="hit-critical-hit" target="first-target" target-state="enemy" target-state-first-filter="40038" />
 	<record alias="ForceMaster_Deal_fire_ball_Lv7_e1_02" effect-1="ForceMaster_Deal_common_Logic_Flag" skill-result="hit-critical-hit" target="first-target" target-state="enemy" target-state-first-filter="40055" />
 	<record alias="ForceMaster_Deal_fire_ball_Lv7_e1_03" effect-1="ForceMaster_Deal_fire_ball_Lv21_damage" effect-2="ForceMaster_Deal_fire_ball_burn" effect-3="ForceMaster_Deal_embers_explosion" skill-result="hit-critical-hit" target="first-target" target-state="enemy" target-state-first-filter="60091" />
@@ -606,8 +610,12 @@
 	<record alias="ForceMaster_Deal_frost_Ground_Lv2_e1_02" effect-1="ForceMaster_Deal_frost_Ground_Lv31_ground_damage" skill-result="parry-perfect-parry-counter" target="first-second-target" target-state="enemy" />
 	<record alias="ForceMaster_Deal_frost_Ground_Lv2_e1_03" effect-1="ForceMaster_Deal_frost_Ground_Lv31_ground_flag" skill-result="all" target="first-second-target" target-state="enemy" />
 	<record alias="ForceMaster_Deal_freeze_burst_Lv1_e1_01" effect-1="ForceMaster_Deal_freeze_burst_fastfreezing" skill-result="hit-critical-hit" target="second-target" target-state="enemy" />
-	<record alias="ForceMaster_Deal_freeze_burst_Lv12_e1_01" effect-1="ForceMaster_Deal_freeze_burst_Lv22_sp" effect-2="ForceMaster_Deal_freeze_burst_fastfreezing_frostbite" skill-result="hit-critical-hit" target="second-target" target-state="enemy" />
-	<record alias="ForceMaster_Deal_freeze_burst_Lv12_e2_01" effect-1="ForceMaster_Deal_freeze_burst_fastfreezing_frostbite" skill-result="hit-critical-hit" target="second-target" target-state="enemy" />
+	<record alias="ForceMaster_Deal_freeze_burst_Lv12_e1_01" effect-1="ForceMaster_Deal_freeze_burst_Lv22_sp" effect-2="ForceMaster_Deal_freeze_burst_fastfreezing_frostbite" skill-result="hit-critical-hit" target="second-target" target-state="enemy" target-state-first-filter="60205" target-state-second-filter="60052" />
+	<record alias="ForceMaster_Deal_freeze_burst_Lv12_e1_02" effect-1="ForceMaster_Deal_freeze_burst_Lv22_sp" effect-2="ForceMaster_Deal_freeze_burst_fastfreezing_frostbite" skill-result="hit-critical-hit" target="second-target" target-state="enemy" target-state-first-filter="60317" target-state-second-filter="60271" />
+	<record alias="ForceMaster_Deal_freeze_burst_Lv12_e1_03" effect-1="ForceMaster_Deal_freeze_burst_Lv22_sp" effect-2="ForceMaster_Deal_freeze_burst_fastfreezing_frostbite" skill-result="hit-critical-hit" target="second-target" target-state="enemy" target-state-first-filter="60316" target-state-second-filter="60051" />
+	<record alias="ForceMaster_Deal_freeze_burst_Lv12_e2_01" effect-1="ForceMaster_Deal_freeze_burst_fastfreezing_frostbite" skill-result="hit-critical-hit" target="second-target" target-state="enemy" target-state-first-filter="60205" target-state-second-filter="60052" />
+	<record alias="ForceMaster_Deal_freeze_burst_Lv12_e2_02" effect-1="ForceMaster_Deal_freeze_burst_fastfreezing_frostbite" skill-result="hit-critical-hit" target="second-target" target-state="enemy" target-state-first-filter="60317" target-state-second-filter="60271" />
+	<record alias="ForceMaster_Deal_freeze_burst_Lv12_e2_03" effect-1="ForceMaster_Deal_freeze_burst_fastfreezing_frostbite" skill-result="hit-critical-hit" target="second-target" target-state="enemy" target-state-first-filter="60316" target-state-second-filter="60051" />
 	<record alias="ForceMaster_Deal_energy_wall_Lv11_e1_01" skill-result="all" target="caster" target-state="all" />
 	<record alias="ForceMaster_Deal_ice_break_splinter_Lv12_e1_01" effect-1="ForceMaster_Deal_ice_break_splinter_Lv1_damage" skill-result="hit-critical-hit" target="second-target" target-state="enemy" target-state-first-filter="60233" />
 	<record alias="ForceMaster_Deal_ice_break_splinter_Lv12_e1_02" effect-1="ForceMaster_Deal_ice_break_splinter_Lv1_damage_add" skill-result="hit-critical-hit" target="second-target" target-state="enemy" target-state-first-filter="60232" />

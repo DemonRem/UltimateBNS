@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1726.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1726.xml-->
   <quest alias="q_sub_1726" attraction-info="party-battle-field-zone:PartyBattle_Galaxy" category="normal" content-type="party-battle" desc="q_1726_sum" grade="17" group2="QG_PartyBattleField" id="1726" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1726" save-type="all">
     <mission-step desc="q_1726_des_1" id="1">
       <mission id="1" name2="Mission.Name2.1726_1" required-register-value="1">

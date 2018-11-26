@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1772.xml-->
+  <quest alias="q_sub_1772" category="normal" desc="q_1772_sum" grade="1" group2="QG_ChunMyungPalace" id="1772" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1772" save-type="all">
+    <acquisition level="1" preceding-quest-1="q_sub_1773" preceding-quest-2="q_sub_1770" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" mapunit-1="6440_CH_WC_TaewoonHang_0239" npc-response="qrsp_1772_1" object="npc:ch_wc_taewoonhang_0239" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1772_1" required-register-value="1">
+        <case mapunit-1="6196_e_chest_6196_board_01" object2="zoneenv2:e_chest_6196_board_01" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1772_2" required-register-value="1">
+        <case mapunit-1="6196_CH_WC_Shipbuilding_0021" npc-response="qrsp_1772_2" object="npc:ch_wc_shipbuilding_0021" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1772_3" required-register-value="1">
+        <case mapunit-1="6195_e_chest_6195_board_01" object2="zoneenv2:e_chest_6195_board_01" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1772_4" required-register-value="1">
+        <case mapunit-1="6195_CH_WC_Market_0114" npc-response="qrsp_1772_3" object="npc:ch_wc_market_0114" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1772_5" required-register-value="1">
+        <case mapunit-1="6440_e_chest_6440_board_03" object2="zoneenv2:e_chest_6440_board_03" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6440_e_chest_6440_board_02" object2="zoneenv2:e_chest_6440_board_02" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6440_e_chest_6440_board_01" object2="zoneenv2:e_chest_6440_board_01" progress-mission="y" type="manipulate" />
+        <case mapunit-1="6440_e_chest_6440_board_04" object2="zoneenv2:e_chest_6440_board_04" progress-mission="y" type="manipulate" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1772_6" required-register-value="1" reward-1="1772_final_set1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0239" npc-response="qrsp_1772_4" object="npc:ch_wc_taewoonhang_0239" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

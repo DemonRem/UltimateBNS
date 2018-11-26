@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <config major-version="1" minor-version="1" module="release" release-module="LocalizationData" release-side="client">
-  <!--C:/LocalTextSelfDeploy/temp/release.config2.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/release.config2.xml-->
 
   <option name="lobby-gate-address" value="172.18.0.245" />
   <option name="lobby-gate-port" value="10900" />
-  <option name="np-program-id" value="302" />
-  <option name="np-gamecode" value="bns" />
+  <option name="np-program-id" value="1824" />
+  <option name="np-gamecode" value="bnsotc" />
   <option name="np-address" value="172.19.66.203" />
   <option name="np-port" value="6600" />
 
@@ -13,8 +13,8 @@
   <option name="use-engine-data-share" value="false" />
   <option name="client-configration-sub-directory-name" value="" />
 
-  <option name="np-bns-server-app-id" value="D5099619-B2F2-26EB-8DDA-DD084E83DB1B" />
-  <option name="np-bns-client-app-id" value="B0D42105-0CB6-BC9F-3CB2-BE28A0662340" />
+  <option name="np-bns-server-app-id" value="AABE059A-FBC3-4638-93F0-759E246A2828" />
+  <option name="np-bns-client-app-id" value="F3C54F85-657E-44C7-9E8C-1C1A8E4D023F" />
   <option name="np-bns-client-app-group-id" value="78" />
   <option name="np-in-game-web-app-id" value="A00E2088-4CDE-94E9-3937-A45E7D4776E9" />
 
@@ -23,8 +23,8 @@
   <option name="info-gate-address-2" value="" />
   <option name="info-gate-port-2" value="0" />
 
-  <option name="np-bns-gm-client-app-id" value="B0D42105-0CB6-BC9F-3CB2-BE28A0662340" />
-  <option name="np-bns-gm-client-app-id-2" value="B0D42105-0CB6-BC9F-3CB2-BE28A0662340" />
+  <option name="np-bns-gm-client-app-id" value="F3C54F85-657E-44C7-9E8C-1C1A8E4D023F" />
+  <option name="np-bns-gm-client-app-id-2" value="F3C54F85-657E-44C7-9E8C-1C1A8E4D023F" />
 
   <option name="lobby-gate-address-2" value="" />
   <option name="lobby-gate-port-2" value="0" />
@@ -43,6 +43,9 @@
   <option name="ncwest-external-charge-url-2" value="https://qa.purchase.ncsoft.com/ncoin/popupNCoin" />
 
   <group name="in-game-web">
+    <option name="use-sso-test" value="false" />
+    <option name="use-sso-test-login-check-url" value="http://mlogin.plaync.com" />
+
     <option name="use-url-prefix" value="false" />
     <option name="url-prefix" value="" />
 
@@ -56,8 +59,8 @@
     <option name="goods-store-second-url-2" value="" />
     <option name="goods-store-second-home-urn-2" value="" />
 
-    <option name="session-url" value="http://qa.login.bladeandsoul.com" />
-    <option name="session-url-2" value="https://qa.login.bladeandsoul.com" />
+    <option name="session-url" value="http://sb-login.bladeandsoul.com" />
+    <option name="session-url-2" value="http://sb-login.bladeandsoul.com" />
 
     <option name="market-url" value="http://qa.na-bnsmarket.ncsoft.com" />
     <option name="market-home-urn" value="/bns/bidder/home.web" />
@@ -100,6 +103,11 @@
     <option name="goods-store-charge-home-urn" value="" />
     <option name="goods-store-charge-url-2" value="" />
     <option name="goods-store-charge-home-urn-2" value="" />
+		<option name="ingame-notice-url" value="http://igc.qa.bladeandsoul.com" />
+		<option name="ingame-notice-home-urn" value="/na/client/f1/" />
+		<option name="ingame-notice-url-2" value="http://igc.qa.bladeandsoul.com" />
+		<option name="ingame-notice-home-urn-2" value="/eu/client/f1/" />
+		<option name="ingame-notice-user-agent" value="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.104 Safari/537.36 BnsIngameBrowser" />
   </group>
 
   <group name="tencent">
@@ -127,8 +135,8 @@
     </group>
   </group>
 
-  <option name="np-gm-program-id" value="302" /> 
-  <option name="np-gm-program-id-2" value="302" />
+  <option name="np-gm-program-id" value="1824" /> 
+  <option name="np-gm-program-id-2" value="1824" />
 
   <group name="debug">
     <option name="show-debug-message" value="n" />

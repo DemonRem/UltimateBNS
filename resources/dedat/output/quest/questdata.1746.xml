@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1746.xml-->
+  <quest alias="q_epic_1746" category="epic" completed-desc="q_1746_completed" completed-list="y" desc="q_1746_sum" grade="1" group2="QG_NextWestLandEpic" id="1746" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1746" save-type="all">
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1746_1" required-register-value="1">
+        <case mapunit-1="6194_zone_ChaeUnHang_North_dock_Epic9_p1" object="zone:zone_ChaeUnHang_North_dock_Epic9_p1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1746_2" required-register-value="1">
+        <case mapunit-1="6194_CH_WC_PungGroup_0005" npc-response="qrsp_1746_1" object="npc:CH_WC_PungGroup_0005" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1746_12" object="npc:CH_WC_BunA_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_11" object="npc:CH_WC_BunYang_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_13" object="npc:CH_WC_SeoYeon_0004" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1746_3" required-register-value="1">
+        <case mapunit-1="6194_CH_WC_CheonMyungCaptin_0001" npc-response="qrsp_1746_2" object="npc:CH_WC_CheonMyungCaptin_0001" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1746_13" object="npc:CH_WC_SeoYeon_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_11" object="npc:CH_WC_BunYang_0004" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_12" object="npc:CH_WC_BunA_0004" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1746_4" required-register-value="1">
+        <case mapunit-1="6442_CH_WC_aide_0001" npc-response="qrsp_1746_3" object="npc:CH_WC_aide_0001" progress-mission="y" required-item-depot="none" type="talk" />
+        <case object2="zoneenv2:6442_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case npc-response="qrsp_1746_18" object="npc:CH_WC_CheonMyungCaptin_0002" progress-mission="n" type="approach" />
+        <case object2="zoneenv2:6442_foot_4" progress-mission="reaction-only" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1746_5" required-register-value="1">
+        <case mapunit-1="6445_6445_foot_2" object2="zoneenv2:6445_foot_2" progress-mission="y" type="env-entered" />
+        <case object2="zoneenv2:6445_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6442_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6442_foot_4" progress-mission="reaction-only" type="env-entered" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1746_6" required-register-value="1">
+        <case mapunit-1="6445_CH_WC_SeoYeon_0006" npc-response="qrsp_1746_4" object="npc:CH_WC_SeoYeon_0016" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1746_17" object="npc:CH_WC_ChinChin_0015" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_16" object="npc:CH_WC_BunA_0015" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1746_7" required-register-value="1">
+        <case mapunit-1="6445_6445_foot_3" object2="zoneenv2:6445_foot_3" progress-mission="y" type="env-entered" />
+        <case npc-response="qrsp_1746_15" object="npc:ch_wc_bunyang_0014" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_16" object="npc:CH_WC_BunA_0015" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_17" object="npc:CH_WC_ChinChin_0015" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_27" object="npc:ch_wc_punggroup_0023" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_28" object="npc:ch_wc_punggroup_0024" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_29" object="npc:ch_wc_punggroup_0022" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_30" object="npc:ch_wc_punggroup_0021" progress-mission="reaction-only" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="6" />
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1746_8" required-register-value="1">
+        <case mapunit-1="6445_CH_WC_UnKukArmy_0041" npc-response="qrsp_1746_5" object="npc:CH_WC_UnKukArmy_0041" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1746_17" object="npc:CH_WC_ChinChin_0015" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_16" object="npc:CH_WC_BunA_0015" progress-mission="reaction-only" type="approach" />
+        <case approach-talk="n" npc-response="qrsp_1746_15" object="npc:ch_wc_bunyang_0014" progress-mission="reaction-only" type="approach" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1746_9" required-register-value="1">
+        <case mapunit-1="6445_CH_WC_AkTaeHoo_0001" npc-response="qrsp_1746_6" object="npc:CH_WC_AkTaeHoo_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1746_31" object="npc:ch_wc_bunyang_0015" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_32" object="npc:CH_WC_BunA_0016" progress-mission="reaction-only" type="approach" />
+        <case npc-response="qrsp_1746_33" object="npc:CH_WC_ChinChin_0016" progress-mission="reaction-only" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1746_10" required-register-value="1">
+        <case mapunit-1="6445_CH_WC_Ryu_0002" npc-response="qrsp_1746_7" object="npc:CH_WC_Ryu_0002" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1746_11" required-register-value="1">
+        <case mapunit-1="6445_CH_WC_AkTaeHoo_0001" object="npc:CH_WC_Ryu_0002" progress-mission="y" type="npc-bleeding-occured" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1746_13" required-register-value="1">
+        <case mapunit-1="6445_CH_WC_AkTaeHoo_0001" npc-response="qrsp_1746_10" object="npc:CH_WC_AkTaeHoo_0001" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1746_14" required-register-value="1">
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="6445_CH_WC_aide_0002" npc-response="qrsp_1746_8" object="npc:CH_WC_aide_0002" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1746_15" required-register-value="1">
+        <case mapunit-1="6445_6445_foot_4" object2="zoneenv2:6445_foot_4" progress-mission="y" type="env-entered" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="834" />
+    <completion>
+      <next-quest quest="q_epic_1747" />
+    </completion>
+    <transit id="1" zone="zone_ChaeUnHang_North_dock">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+    </transit>
+    <transit id="2" zone="Zone_GW_CheonMyungGung_SpecialDock">
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="15" zone-index="1" />
+      <destination mission-step-id="16" zone-index="1" />
+    </transit>
+    <transit id="3" zone="Zone_GW_CheonMyungGung_BanquetHall">
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="15" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="16" zone-index="1" />
+    </transit>
+    <mission-step id="16">
+      <mission id="16" name2="Mission.Name2.1746_16" required-register-value="1" reward-1="1746_final_set1">
+        <case mapunit-1="6445_CH_WC_SeoYeon_0007" npc-response="qrsp_1746_9" object="npc:CH_WC_SeoYeon_0007" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1746_12" required-register-value="1">
+        <case mapunit-1="6445_CH_WC_AkTaeHoo_0001" npc-response="qrsp_1746_14" object="npc:CH_WC_Ryu_0002" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BanquetHall_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_SpecialDock_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

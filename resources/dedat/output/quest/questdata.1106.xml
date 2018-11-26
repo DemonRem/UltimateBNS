@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1106.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1106.xml-->
   <quest activated-faction="factionmain2" alias="q_sub_1106" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1106_sum" district-1="suwal" grade="1" group2="QG_SouthCoast" id="1106" main-faction="factionmain2" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1106" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" faction="factionmain2" faction-level="2" level="37" preceding-quest-1="q_epic_909" preceding-quest-check="and" recommended-level="39">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1106_1" object="npc:ch_honchungyo_0029" type="talk">

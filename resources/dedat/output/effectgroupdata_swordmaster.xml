@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_swordmaster.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_swordmaster.xml-->
 	<record alias="SwordMaster_Common_Dummy_EG" skill-result="Hit-Critical-Hit" target="caster" target-state="all" />
 	<record alias="SwordMaster_Common_WindBit_3" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_3" skill-result="all" target="caster" target-state="all" target-state-first-filter="60098" target-state-second-filter="60102" />
 	<record alias="SwordMaster_Common_WindBit_2" effect-1="SwordMaster_common_WindBit_Dispel" effect-2="SwordMaster_common_WindBit_2" skill-result="all" target="caster" target-state="all" target-state-first-filter="60096" target-state-second-filter="60102" />
@@ -80,8 +80,9 @@
 	<record alias="SwordMaster_Sword_frontkick_Lv11_E1_01" effect-1="SwordMaster_Sword_frontkick_Lv11_damage" effect-2="SwordMaster_Sword_frontkick_Lv11_swoon" effect-3="Common_ReactToDown_Flag" skill-result="hit-critical-hit" target="first-target" target-state="enemy" target-state-first-filter="40055" />
 	<record alias="SwordMaster_Sword_frontkick_Lv11_E1_02" effect-1="SwordMaster_Sword_frontkick_Lv11_down" effect-2="Common_ReactToDown_Flag" skill-result="hit-critical-hit" target="first-target" target-state="enemy" target-state-first-filter="40063" />
 	<record alias="SwordMaster_Sword_frontkick_Lv11_E1_03" effect-1="SwordMaster_Sword_frontkick_Lv11_damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
-	<record alias="SwordMaster_Sword_flying_swallow_sword_Lv11_E1_01" effect-1="SwordMaster_Sword_flying_swallow_sword_Lv11_Down" effect-2="Common_ReactToDown_Flag" effect-3="Common_Reduce_HealPower" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
-	<record alias="SwordMaster_Sword_flying_swallow_sword_Lv11_E1_02" effect-1="SwordMaster_Sword_flying_swallow_sword_Lv11_Damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
+	<record alias="SwordMaster_Sword_flying_swallow_sword_Lv11_E1_01" effect-1="Common_down_Dispel" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" target-state-first-filter="60282" />
+	<record alias="SwordMaster_Sword_flying_swallow_sword_Lv11_E1_02" effect-1="SwordMaster_Sword_flying_swallow_sword_Lv11_Down" effect-2="Common_ReactToDown_Flag" effect-3="Common_Reduce_HealPower" skill-result="Hit-Critical-Hit" target="first-target" target-state="Enemy" />
+	<record alias="SwordMaster_Sword_flying_swallow_sword_Lv11_E1_03" effect-1="SwordMaster_Sword_flying_swallow_sword_Lv11_Damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="Enemy" />
 	<record alias="SwordMaster_Sword_Force_pound_catch_Lv11_E1_01" effect-1="SwordMaster_Common_Catch_Unlink" effect-2="SwordMaster_Sword_Force_pound_Lv11_frontdown" effect-3="Common_ReactToDown_Flag" skill-result="hit-critical-hit" target="first-target" target-state="enemy" />
 	<record alias="SwordMaster_Sword_Force_pound_catch_Lv11_E1_02" effect-1="SwordMaster_Common_Catch_Unlink" effect-2="SwordMaster_Sword_Force_pound_Lv11_Damage" skill-result="parry-perfect-parry-counter" target="first-target" target-state="enemy" />
 	<record alias="SwordMaster_Sword_legslash_Lv11_E1_01" effect-1="SwordMaster_Sword_legslash_Lv11_Damage" skill-result="Hit-Critical-Hit" target="second-target" target-state="Enemy" />

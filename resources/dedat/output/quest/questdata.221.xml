@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.221.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.221.xml-->
   <quest alias="q_epic_221" category="epic" completed-desc="q_221_completed" completed-list="y" desc="q_221_sum" district-1="startzone" grade="1" group2="QG_Toturial" id="221" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.221" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition level="1" recommended-level="1" sort-no="101" />
     <mission-step completion-type="and" desc="q_221_des_1" enable-navigation="y" guide-message="gm_221_1" id="1" location-x="-11253.597" location-y="38325.828" map="startzone">

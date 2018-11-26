@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1415.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1415.xml-->
   <quest alias="q_sub_1415" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1415_sum" grade="6" group2="QG_BaramCenter" id="1415" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.1415" reset-type="daily">
     <acquisition level="45" recommended-level="50">
       <case acquire-quest="y" indicator="quest-board-start" npc-response="qrsp_1415_1" object="npc:ce_sa_bff_wind_board_0001" type="talk" />

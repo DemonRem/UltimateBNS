@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25051.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25051.xml-->
   <quest alias="q_sub_25051" category="dungeon" dungeon="Dungeon_PaCheon_blacksmith" grade="10" group2="QG_PaCheonSeongDo" id="25051" map-group-1-1="PaCheonSeongDo" max-repeat="1" name2="Quest.Name2.25051" progress-difficulty-type-2="n" progress-difficulty-type-3="n" reset-type="none" save-type="nothing">
     <acquisition check-tencent-vitality="n" level="50" preceding-quest-1="q_sub_1294" preceding-quest-check="or" recommended-level="50">
       <case acquire-quest="y" object2="zoneenv2:4440_Portal_4441" type="enter-portal" />

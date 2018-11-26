@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.666.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.666.xml-->
   <quest activated-faction="factionmain2" alias="q_sub_666" category="normal" desc="q_666_sum" district-1="deasamak" grade="1" group2="QG_ToMunJinNorth" id="666" main-faction="factionmain2" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.666" save-type="all">
     <acquisition faction="factionmain2" level="22" preceding-quest-1="q_epic_506" preceding-quest-check="and" recommended-level="24">
       <case acquire-quest="y" item="q_666_Quest_hair_growth_solution_manual_1_icon" msg="q_666_1" type="talk-to-self" />

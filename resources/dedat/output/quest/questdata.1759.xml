@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1759.xml-->
+  <quest alias="q_epic_1759" category="epic" completed-desc="q_1759_completed" completed-list="y" desc="q_1759_sum" grade="1" group2="QG_NextWestLandEpic" id="1759" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1759" save-type="all">
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="847" />
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1759_2" required-register-value="1">
+        <case object="zone:Zone_GW_CheonMyungGung_NorthDistrict_P4" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="6482_ME_WA_Epic9_Dummy_0011" mapunit-2="6490_ME_WA_Epic9_Dummy_0011_in" object="npc:ME_WA_Epic9_Dummy_0011" progress-mission="y" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1759_3" required-register-value="1">
+        <case mapunit-1="6482_ME_WA_Epic9_Dummy_0019" object="npc:ME_WA_Epic9_Dummy_0019" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1759_4" required-register-value="2">
+        <case mapunit-1="6482_MH_WA_UnKukArmy_kill_01" object2="npc:MH_WA_UnKukArmy_0117" progress-mission="y" type="killed" />
+        <case mapunit-1="6482_MH_WA_UnKukArmy_kill_01" object2="npc:MH_WA_UnKukArmy_0116" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1759_5" required-register-value="1">
+        <tutorial-case mapunit-1="6482_e_AirDash_yongmak_01" object2="zoneenv2:e_AirDash_6482_yongmak_01_a" progress-mission="y" type="airdash" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1759_6" required-register-value="1">
+        <case npc-response="qrsp_1759_2" object="npc:MH_WA_JongYoon_0002" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="1" />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1759_7" required-register-value="1">
+        <case mapunit-1="6491_Zone_GW_CheonMyungGung_MilitaryCamp" mapunit-2="6491_Zone_GW_CheonMyungGung_MilitaryCamp_out" object="zone:Zone_GW_CheonMyungGung_MilitaryCamp_P4" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1759_8" required-register-value="15">
+        <case mapunit-1="6491_MH_WA_ImperatorArmy_Kill_01" mapunit-2="6491_MH_WA_ImperatorArmy_kill_03" mapunit-3="6491_MH_WA_ImperatorArmy_kill_04" object2="npc:MH_WA_BlackDragon_0064" progress-mission="y" type="killed" />
+        <case mapunit-1="6491_MH_WA_ImperatorArmy_Kill_03" mapunit-2="6491_MH_WA_ImperatorArmy_kill_04" mapunit-3="6491_MH_WA_ImperatorArmy_kill_01" object2="npc:MH_WA_BlackDragon_0063" progress-mission="y" type="killed" />
+        <case mapunit-1="6491_MH_WA_ImperatorArmy_Kill_04" mapunit-2="6491_MH_WA_ImperatorArmy_kill_03" mapunit-3="6491_MH_WA_ImperatorArmy_kill_01" object2="npc:MH_WA_BlackDragon_0062" progress-mission="y" type="killed" />
+        <case mapunit-1="6491_MH_WA_ImperatorArmy_Kill_01" mapunit-2="6491_MH_WA_ImperatorArmy_kill_03" mapunit-3="6491_MH_WA_ImperatorArmy_kill_04" object2="npc:MH_WA_BlackDragon_0061" progress-mission="y" type="killed" />
+        <case mapunit-1="6491_MH_WA_ImperatorArmy_kill_03" mapunit-2="6491_MH_WA_ImperatorArmy_kill_01" mapunit-3="6491_MH_WA_ImperatorArmy_kill_04" object2="npc:MH_WA_BlackDragon_0065" progress-mission="y" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="7" />
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1759_9" required-register-value="1">
+        <case looting="q_1759_1_icon" object2="npc:MH_WA_BlackDragon_0060" progress-mission="y" type="loot" />
+      </mission>
+      <mission-step-fail rollback-step-id="7" />
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1759_10" required-register-value="1">
+        <case mapunit-1="6491_e_gate_6491_Door_7" object2="zoneenv2:e_gate_6491_01_1" progress-mission="y" type="manipulate" />
+      </mission>
+      <mission-step-fail rollback-step-id="7" />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1759_11" required-register-value="1">
+        <case mapunit-1="6491_Zone_GW_CheonMyungGung_Hideout" object="zone:Zone_GW_CheonMyungGung_Hideout_3" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1759_13" required-register-value="1" show-kill-mapunit="n">
+        <case mapunit-1="6492_MH_WA_ChinChin_0001" npc-response="qrsp_1759_3" object="npc:MH_WA_ChinChin_0001" progress-mission="y" type="approach" />
+      </mission>
+      <mission-step-fail rollback-step-id="11" />
+    </mission-step>
+    <completion>
+      <next-quest quest="q_epic_1760" />
+    </completion>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1759_12" required-register-value="1">
+        <case npc-response="qrsp_1759_1" object="npc:MH_WA_CheonJinGwon_0001" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="11" />
+    </mission-step>
+    <mission-step id="14">
+      <mission id="14" name2="Mission.Name2.1759_14" required-register-value="1">
+        <case npc-response="qrsp_1759_4" object="npc:MH_WA_CheonJinGwon_0001" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="11" />
+    </mission-step>
+    <transit id="4" zone="Zone_GW_CheonMyungGung_Hideout_D1">
+      <destination mission-step-id="14" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="11" zone-index="1" />
+    </transit>
+    <transit id="3" zone="Zone_GW_CheonMyungGung_MilitaryCamp_D1">
+      <destination mission-step-id="10" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+    </transit>
+    <transit id="2" zone="Zone_GW_CheonMyungGung_NorthDistrict">
+      <destination mission-step-id="6" zone-index="4" />
+      <destination mission-step-id="5" zone-index="4" />
+      <destination mission-step-id="4" zone-index="4" />
+      <destination mission-step-id="3" zone-index="4" />
+      <destination mission-step-id="2" zone-index="4" />
+    </transit>
+    <mission-step id="15">
+      <mission id="15" name2="Mission.Name2.1759_15" required-register-value="1">
+        <case mapunit-1="6485_MH_WA_BlackDragon_0059" npc-response="qrsp_1759_6" object="npc:MH_WA_BlackDragon_0059" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1759_1" required-register-value="1">
+        <case npc-response="qrsp_1758_12" object="npc:MH_WA_UnKukArmy_0071" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_GeneralWOO_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_GeneralWOO_D">
+      <destination mission-step-id="1" zone-index="1" />
+    </transit>
+    <mission-step id="16">
+      <mission id="16" name2="Mission.Name2.1759_16" required-register-value="1" reward-1="1759_final_set1">
+        <case mapunit-1="6494_MH_WA_HwangMuCheon_0013" npc-response="qrsp_1759_7" object="npc:MH_WA_HwangMuCheon_0013" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_Altar_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case button-text-accept="q_1759_7_ok" button-text-cancel="q_1759_7_no" indicator="quest-epic-can-progress" npc-response="qrsp_1759_8" object="npc:MH_WA_BlackDragon_0059" progress-mission="reaction-only" type="talk" />
+      </mission>
+    </mission-step>
+    <transit id="5" zone="Zone_GW_CheonMyungGung_Altar_D">
+      <destination mission-step-id="16" zone-index="1" />
+    </transit>
+  </quest>
+</table>

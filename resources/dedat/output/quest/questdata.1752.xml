@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1752.xml-->
+  <quest alias="q_epic_1752" category="epic" completed-desc="q_1752_completed" completed-list="y" desc="q_1752_sum" grade="1" group2="QG_NextWestLandEpic" id="1752" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1752" save-type="all">
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1752_1" required-register-value="1">
+        <case mapunit-1="6472_Zone_GW_CheonMyungGung_NorthGuard_P1" object="zone:Zone_GW_CheonMyungGung_NorthGuard_P1" progress-mission="y" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1752_2" required-register-value="1">
+        <case npc-response="qrsp_1752_1" object="npc:ch_wc_ryu_0009" progress-mission="y" type="talk" />
+        <case object2="zoneenv2:6472_foot_1" progress-mission="reaction-only" type="env-entered" />
+        <case npc-response="qrsp_1752_10" object="npc:CH_WC_BunYang_0012" type="approach" />
+        <case npc-response="qrsp_1752_11" object="npc:CH_WC_BunA_0012" type="approach" />
+        <case npc-response="qrsp_1752_12" object="npc:CH_WC_ChinChin_0012" type="approach" />
+        <case npc-response="qrsp_1752_13" object="npc:CH_WC_SeoYeon_0013" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1752_3" required-register-value="1">
+        <case object="zone:Zone_GW_CheonMyungGung_NorthGuard_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1752_9" object="npc:CH_WC_ChinChin_0013" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BlackDragonChamber_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case npc-response="qrsp_1752_15" object="CH_WC_BunYang_0013" type="approach" />
+        <case npc-response="qrsp_1752_14" object="npc:CH_WC_Ryu_0010" type="approach" />
+        <case npc-response="qrsp_1752_16" object="npc:CH_WC_BunA_0013" type="approach" />
+        <case npc-response="qrsp_1752_17" object="npc:CH_WC_SeoYeon_0014" type="approach" />
+      </mission>
+    </mission-step>
+    <mission-step id="4">
+      <mission id="4" name2="Mission.Name2.1752_4" required-register-value="1">
+        <case object2="zoneenv2:6475_foot_2" progress-mission="reaction-only" type="env-entered" />
+        <case object="zone:Zone_GW_CheonMyungGung_NorthGuard_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case mapunit-1="6475_6475_foot_4" object="zone:Zone_GW_CheonMyungGung_BlackDragonChamber_P1" progress-mission="y" type="convoy-arrived" />
+        <case object2="npc:mh_wc_blackdragonboss_0001" progress-mission="reaction-only" type="killed" />
+        <case object2="zoneenv2:6475_foot_4" progress-mission="reaction-only" type="env-entered" />
+        <case object2="npc:me_wc_blackdragonboss_0002" progress-mission="reaction-only" type="killed" />
+      </mission>
+      <mission-step-fail rollback-step-id="3">
+        <case convoy="epic_1752_con_1" object="zone:Zone_GW_CheonMyungGung_BlackDragonChamber_P1" progress-mission="reaction-only" type="convoy-failed" />
+      </mission-step-fail>
+    </mission-step>
+    <mission-step id="5">
+      <mission id="5" name2="Mission.Name2.1752_5" required-register-value="1">
+        <case npc-response="qrsp_1752_2 " object="npc:ch_wc_ryu_0010" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BlackDragonChamber_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_NorthGuard_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="6">
+      <mission id="6" name2="Mission.Name2.1752_6" required-register-value="1">
+        <case mapunit-1="6475_6475_foot_6" object2="zoneenv2:6475_foot_6" progress-mission="y" type="env-entered" />
+      </mission>
+      <mission-step-fail rollback-step-id="5" />
+    </mission-step>
+    <mission-step id="7">
+      <mission id="7" name2="Mission.Name2.1752_7" required-register-value="1">
+        <case npc-response="qrsp_1752_3" object="npc:ch_wc_ryu_0010" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BlackDragonChamber_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_NorthGuard_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="9">
+      <mission id="9" name2="Mission.Name2.1752_9" required-register-value="1">
+        <case mapunit-1="6475_e_chest_6475_BigStone_01_1" object2="zoneenv2:e_chest_6475_BigStone_01_1" progress-mission="y" type="manipulate" />
+        <case object="zone:Zone_GW_CheonMyungGung_BlackDragonChamber_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_NorthGuard_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="10">
+      <mission id="10" name2="Mission.Name2.1752_10" required-register-value="1">
+        <case npc-response="qrsp_1752_4" object="npc:ch_wc_gunmahye_0012" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_NorthGuard_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_BlackDragonChamber_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="13">
+      <mission id="13" name2="Mission.Name2.1752_13" required-register-value="1" reward-1="1752_final_set1">
+        <case npc-response="qrsp_1752_5" object="npc:ch_wc_gunmahye_0013" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="11" />
+    </mission-step>
+    <acquisition level="1" preceding-quest-check="and" recommended-level="55" sort-no="840" />
+    <completion>
+      <next-quest quest="q_epic_1753" />
+    </completion>
+    <transit id="1" zone="Zone_GW_CheonMyungGung_NorthGuard">
+      <destination mission-step-id="1" zone-index="1" />
+      <destination mission-step-id="2" zone-index="1" />
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+    </transit>
+    <transit id="2" zone="Zone_GW_CheonMyungGung_BlackDragonChamber">
+      <destination mission-step-id="3" zone-index="1" />
+      <destination mission-step-id="4" zone-index="1" />
+      <destination mission-step-id="5" zone-index="1" />
+      <destination mission-step-id="6" zone-index="1" />
+      <destination mission-step-id="7" zone-index="1" />
+      <destination mission-step-id="8" zone-index="1" />
+      <destination mission-step-id="9" zone-index="1" />
+      <destination mission-step-id="10" zone-index="1" />
+    </transit>
+    <transit id="3" zone="Zone_CheonMyungGung_Jail_base_D">
+      <destination mission-step-id="11" zone-index="1" />
+      <destination mission-step-id="12" zone-index="1" />
+      <destination mission-step-id="13" zone-index="1" />
+    </transit>
+    <mission-step id="8">
+      <mission id="8" name2="Mission.Name2.1752_8" required-register-value="1">
+        <case npc-response="qrsp_1752_8" object="npc:CH_WC_BunYang_0013" progress-mission="y" type="talk" />
+        <case object="zone:Zone_GW_CheonMyungGung_BlackDragonChamber_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object="zone:Zone_GW_CheonMyungGung_NorthGuard_P1" progress-mission="reaction-only" type="enter-zone" />
+      </mission>
+    </mission-step>
+    <mission-step id="12">
+      <mission id="12" name2="Mission.Name2.1752_12" required-register-value="1">
+        <case npc-response="qrsp_1752_6" object="npc:ch_wc_choijina_0010" progress-mission="y" type="talk" />
+      </mission>
+      <mission-step-fail rollback-step-id="11" />
+    </mission-step>
+    <mission-step id="11">
+      <mission id="11" name2="Mission.Name2.1752_11" required-register-value="1">
+        <case mapunit-1="6465_6465_foot_1" object2="zoneenv2:6465_foot_1" progress-mission="y" type="env-entered" />
+        <case object="zone:Zone_CheonMyungGung_Jail_base_P1" progress-mission="reaction-only" type="enter-zone" />
+        <case object2="zoneenv2:6440_foot_2" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_3" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_4" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6440_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_5" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_8" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_7" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_6" progress-mission="reaction-only" type="env-entered" />
+        <case object2="zoneenv2:6471_foot_1" progress-mission="reaction-only" type="env-entered" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

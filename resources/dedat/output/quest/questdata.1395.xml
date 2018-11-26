@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1395.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1395.xml-->
   <quest alias="q_sub_1395" attraction-info="dungeon:Dungeon_MusinTower_SimHwa" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1395_sum" grade="14" group2="QG_Musintap_Simhwa" id="1395" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1395" reset-type="daily" save-type="all">
     <acquisition level="50" preceding-quest-1="q_sub_1391" preceding-quest-check="and" recommended-level="50">
       <case acquire-quest="y" npc-response="qrsp_1395_1" object="npc:ch_musintower_jukwoon_0003" type="talk" />

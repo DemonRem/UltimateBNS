@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1108.xml-->
-  <quest alias="q_sub_1108" attraction-info="cave2:Cave_SuWal_22" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1108_sum" district-1="suwal" grade="8" group2="QG_Farmland" id="1108" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1108" reset-type="daily" save-type="all">
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1108.xml-->
+  <quest alias="q_sub_1108" attraction-info="cave2:Cave_SuWal_22" broadcast-category="field" category="normal" day-of-week="daily" desc="q_1108_sum" district-1="suwal" grade="8" group2="QG_Farmland" id="1108" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.1108" reset-type="daily" retired="y" save-type="all">
     <acquisition check-tencent-vitality="n" level="37" preceding-quest-1="q_epic_910" preceding-quest-check="and" preceding-quest-mission-step-1="2" recommended-level="39">
       <case acquire-quest="y" completion-count="1" completion-count-op="lt" npc-response="qrsp_1108_1" object="npc:ch_pigfarm_0024" type="talk" />
       <case acquire-quest="y" completion-count="1" npc-response="qrsp_1108_5" object="npc:ch_pigfarm_0024" type="talk" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.227.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.227.xml-->
   <quest alias="q_epic_227" category="epic" completed-desc="q_227_completed" completed-list="y" desc="q_227_sum" district-1="startzone" grade="1" group2="QG_Toturial" id="227" map-group-1-1="startzone" max-repeat="1" name2="Quest.Name2.227" save-type="all" show-tutorial-tag="n" tutorial="y">
     <acquisition level="1" recommended-level="1" sort-no="107" />
     <mission-step completion-type="and" desc="q_227_des_2" enable-navigation="y" id="2" location-x="-8378.602" location-y="40751.602" map="startzone">
@@ -24,6 +24,7 @@
         <case mapunit-1="227_1_CH_YungMook_0001" object2="zoneenv2:1109_foot_2" progress-mission="y" type="env-entered" />
         <case mapunit-1="227_1_CH_YungMook_0001" object2="zoneenv2:1111_foot_2" progress-mission="y" type="env-entered" />
         <case mapunit-1="227_1_CH_YungMook_0001" object2="zoneenv2:1112_foot_2" progress-mission="y" type="env-entered" />
+        <case mapunit-1="227_1_CH_YungMook_0001" object2="zoneenv2:1113_foot_2" progress-mission="y" type="env-entered" />
       </mission>
     </mission-step>
     <mission-step completion-type="and" desc="q_227_des_4" enable-navigation="y" guide-message="gm_227_6" id="4" location-x="-21523.76" location-y="44144.25" map="startzone_dun" mission-map-type="location" use-auto-navigation="y">

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.905.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.905.xml-->
   <quest alias="q_epic_905" category="epic" completed-desc="q_905_completed" completed-list="y" desc="q_905_sum" district-1="suwal" grade="1" group2="QG_SuwalPWEpic" id="905" map-group-1-1="suwal" max-repeat="1" name2="Quest.Name2.905" save-type="all">
     <acquisition level="1" preceding-quest-check="and" recommended-level="38" sort-no="405" />
     <mission-step id="1" location-x="9249.97" location-y="-2354.48" map="neukdaegureung" mission-map-type="location">

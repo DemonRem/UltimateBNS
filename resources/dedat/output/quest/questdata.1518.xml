@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.1518.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1518.xml-->
   <quest alias="q_epic_1518" category="epic" completed-desc="q_1518_completed" completed-list="y" desc="q_1518_sum" grade="1" group2="QG_NextbaeCheongEpic3" id="1518" map-group-1-1="Geonwon" max-repeat="1" name2="Quest.Name2.1518" save-type="all">
     <acquisition level="1" preceding-quest-check="and" recommended-level="50" sort-no="808" />
     <completion>
@@ -99,7 +99,7 @@
     </mission-step>
     <mission-step id="12">
       <mission id="13" name2="Mission.Name2.1518_13" required-register-value="1" reward-1="1518_final_set1">
-        <case mapunit-1="Guide_BuYuHamDae" mapunit-10="Guide_BuYuHamDae_2" mapunit-2="Guide_OngSeong" npc-response="qrsp_1518_4" object="npc:ch_sb_cheolmugoe_0003" progress-mission="y" type="talk" />
+        <case npc-response="qrsp_1518_4" object="npc:ch_sb_cheolmugoe_0003" progress-mission="y" type="talk" />
         <case npc-response="qrsp_1518_11" object="npc:CH_SB_ChungGak_0015" progress-mission="reaction-only" type="approach" />
         <case npc-response="qrsp_1518_10" object="npc:CH_SB_DokGoGeom_0004" progress-mission="reaction-only" type="approach" />
         <case object2="zoneenv2:6162_foot_2" progress-mission="reaction-only" type="env-entered" />

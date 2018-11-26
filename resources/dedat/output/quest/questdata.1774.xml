@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.1774.xml-->
+  <quest alias="q_sub_1774" category="normal" desc="q_1774_sum" grade="1" group2="QG_ChunMyungPalace" id="1774" map-group-1-1="anywhere" max-repeat="1" name2="Quest.Name2.1774" save-type="all">
+    <acquisition level="1" preceding-quest-1="q_epic_1781" preceding-quest-check="and" recommended-level="55">
+      <case acquire-quest="y" mapunit-1="6440_CH_WC_TaewoonHang_0241" npc-response="qrsp_1774_1" object="npc:ch_wc_taewoonhang_0241" type="talk" />
+    </acquisition>
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.1774_1" required-register-value="1" reset-teleport-recycle-time="y">
+        <case mapunit-1="6462_CH_WC_MiddleMarket_0001" npc-response="qrsp_1774_2" object="npc:ch_wc_middlemarket_0001" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" name2="Mission.Name2.1774_2" required-register-value="1">
+        <case mapunit-1="6462_CH_WC_MiddleCastle_0366" npc-response="qrsp_1774_3" object="npc:ch_wc_middlecastle_0366" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+    <mission-step id="3">
+      <mission id="3" name2="Mission.Name2.1774_3" required-register-value="1" reward-1="1774_final_set1">
+        <case mapunit-1="6440_CH_WC_TaewoonHang_0241" npc-response="qrsp_1774_4" object="npc:ch_wc_taewoonhang_0241" progress-mission="y" type="talk" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.420.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.420.xml-->
   <quest alias="q_sub_420" broadcast-category="field" category="normal" desc="q_420_sum" district-1="jeryoungrim" grade="1" group="제룡림(흑음림)" group2="QG_Delete" id="420" map-group-1-1="jeryoungrim" max-repeat="1" name="그와 그녀의 취미" name2="Quest.Name2.420" retired="y" save-type="all">
     <acquisition level="50" preceding-quest-1="q_epic_311" preceding-quest-check="and" recommended-level="50" />
     <mission-step completion-type="and" id="1" location-x="-7439.127" location-y="3837.729" map="KyeIeHan_Dun">

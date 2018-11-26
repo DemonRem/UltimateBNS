@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.537.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.537.xml-->
   <quest alias="q_epic_537" broadcast-category="field" category="epic" completed-desc="q_537_completed" completed-list="y" desc="q_537_sum" district-1="deasamak" grade="1" group2="QG_DaeSaMakEpic" id="537" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.537" save-type="all">
     <acquisition level="1" recommended-level="36" sort-no="340" />
     <mission-step id="3" location-x="30969.6875" location-y="13798.8066" map="musinreung" mission-map-type="location">

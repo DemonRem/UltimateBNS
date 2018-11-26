@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25198.xml-->
+  <quest alias="q_sub_25198" attraction-1="raid-dungeon:raid_naryuannex_01" attraction-info="raid-dungeon:raid_NaryuAnnex_01" category="attraction" grade="22" group2="QG_BeginningChamber" id="25198" map-group-1-1="SeoRak" max-repeat="-1" name2="Quest.Name2.25198" save-type="nothing">
+    <acquisition level="55" recommended-level="55" />
+    <mission-step id="1">
+      <mission id="1" name2="Mission.Name2.25198_1" required-register-value="1">
+        <case object2="npc:ME_WB_AncientMechaMonk_0002" progress-mission="y" type="killed" />
+      </mission>
+    </mission-step>
+    <mission-step id="2">
+      <mission id="2" required-register-value="1" reward-1="25198_final_set1">
+        <case item="q_25198_1_icon" msg="q_25198_1" progress-mission="y" type="talk-to-self" />
+      </mission>
+    </mission-step>
+  </quest>
+</table>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.840.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.840.xml-->
   <quest alias="q_sub_840" attraction-info="cave2:Cave_BaekChung_5" broadcast-category="field" category="normal" day-of-week="daily" desc="q_840_sum" grade="9" group2="QG_SnowMountSouth" id="840" map-group-1-1="baekchung" max-repeat="1" name2="Quest.Name2.840" reset-type="daily" save-type="all">
     <acquisition check-tencent-vitality="n" level="45" preceding-quest-1="q_epic_1443" preceding-quest-2="q_sub_839" preceding-quest-check="and" recommended-level="49">
       <case acquire-quest="y" completion-count="1" indicator="quest-board-start" npc-response="qrsp_840_6" object="npc:CE_CT_Board_0030" type="talk" />

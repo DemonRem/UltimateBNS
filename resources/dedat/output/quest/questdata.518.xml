@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.518.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.518.xml-->
   <quest alias="q_epic_518" category="epic" completed-desc="q_518_completed" completed-list="y" desc="q_518_sum" district-1="deasamak" grade="1" group2="QG_DaeSaMakEpic" id="518" map-group-1-1="deasamak" max-repeat="1" name2="Quest.Name2.518" save-type="all">
     <acquisition level="1" recommended-level="29" sort-no="319" />
     <mission-step id="1" location-x="-16199.9824" location-y="3903.229" map="toemungekjan_3085" mission-map-type="location">

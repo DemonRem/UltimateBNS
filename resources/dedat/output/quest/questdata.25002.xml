@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<table release-module="QuestData" release-side="client" type="quest" version="1.275">
-  <!--C:/LocalTextSelfDeploy/temp/quest\questdata.25002.xml-->
+<table release-module="QuestData" release-side="client" type="quest" version="1.281">
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/quest\questdata.25002.xml-->
   <quest alias="q_sub_25002" broadcast-category="solo-quartet" category="dungeon" dungeon="dungeon_heasangmudom" grade="10" id="25002" max-repeat="1" name2="Quest.Name2.25002" progress-difficulty-type-1="n" progress-difficulty-type-3="n" save-type="nothing">
     <acquisition check-tencent-vitality="n" level="1" mastery-level="50" recommended-level="36">
       <case acquire-quest="y" object="zoneenv:3030_oseakamdo_3064" object2="zoneenv2:3030_oseakamdo_3064" type="enter-portal" />

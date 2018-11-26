@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <table release-module="CombatData" release-side="client" type="effect-group" version="0.3">
-  <!--C:/LocalTextSelfDeploy/temp/effectgroupdata_itemskill_fm_w.xml-->
+  <!--E:/Build/Tools/BnsUpdater/OTC_QA/qa/bin/temp/effectgroupdata_itemskill_fm_w.xml-->
 	<record alias="ItemSkill_FM_fire_blast_RW2_Lv1_01_E2" effect-1="ItemSkill_FM_fire_blast_RW2_Lv1_01_E2_Buff" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_FM_cold_IceBlast_RW2_Lv1_01_E2" effect-1="ItemSkill_FM_cold_IceBlast_RW2_Lv1_02_E2_Buff" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_FM_fire_blast_RW2_Lv1_01_E1" effect-1="ItemSkill_FM_fire_blast_RW2_Lv1_01_Dmg" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
@@ -96,6 +96,16 @@
 	<record alias="ItemSkill_FM_magnetic_catch_PW3_Lv4_02_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_FM_magnetic_catch_PW3_Lv5_01_E1" effect-1="Common_MasterSkill_Heal_400" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_FM_magnetic_catch_PW3_Lv5_02_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_FM_PW4_Lv1_01_E1" effect-1="Common_MasterSkill_Heal_400" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_FM_PW4_Lv1_02_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_FM_PW4_Lv2_01_E1" effect-1="Common_MasterSkill_Heal_400" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_FM_PW4_Lv2_02_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_FM_PW4_Lv3_01_E1" effect-1="Common_MasterSkill_Heal_400" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_FM_PW4_Lv3_02_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_FM_PW4_Lv4_01_E1" effect-1="Common_MasterSkill_Heal_400" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_FM_PW4_Lv4_02_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
+	<record alias="ItemSkill_FM_PW4_Lv5_01_E1" effect-1="Common_MasterSkill_Heal_400" skill-result="all" target="caster" target-state="all" />
+	<record alias="ItemSkill_FM_PW4_Lv5_02_E1" effect-1="Common_MasterSkill_Heal_Caster_400" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_FM_energy_bit_missile_T2_G1_Lv1_01_E1" effect-1="ItemSkill_FM_energy_bit_missile_T2_G1_Lv1_01_Flag" skill-result="all" target="caster" target-state="all" />
 	<record alias="ItemSkill_FM_energy_bit_missile_T2_G1_Lv1_02_E1" effect-1="ItemSkill_FM_energy_bit_missile_T2_G1_Lv1_02_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
 	<record alias="ItemSkill_FM_energy_bit_missile_T2_G1_Lv1_03_E1" effect-1="ItemSkill_FM_energy_bit_missile_T2_G1_Lv1_03_Damage" skill-result="hit-critical-hit" target="first-second-target" target-state="enemy" />
