@@ -7,16 +7,16 @@
   },
   "dependencies": {
     "cheerio": "^0.15.0",
-    "express": "^4.1.1",
+    "express": "^4.16.4",
     "grunt": "^0.4.5",
     "grunt-contrib-compress": "^0.9.1",
     "isnumeric": "0.0.10",
     "logfile-grunt": "^0.1.5",
-    "moment": "^2.6.0",
-    "request": "^2.34.0",
-    "serve-favicon": "^2.0.0",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0",
     "stack-trace": "0.0.9",
-    "underscore": "^1.6.0",
+    "underscore": "^1.9.1",
     "xml2js": "^0.4.2"
   }
 }

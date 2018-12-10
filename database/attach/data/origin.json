@@ -1,30 +1,30 @@
 {
   "KunN": {
-    "id": "KunN_018_col1",
+    "id": "040024_KunN_col1",
     "data": {
-      "skeleton": "00011029",
-      "texture": "00011027",
-      "material": "00011028",
-      "col1Material": "00011028",
+      "skeleton": "00013027",
+      "texture": "00013025",
+      "material": "00013026",
+      "col1Material": "00013026",
       "col": "col1",
-      "core": "KunN_018",
-      "code": "018",
+      "core": "040024_KunN",
+      "code": "040024",
       "race": "KunN",
-      "pic": null
+      "pic": "Attach_040024_All.png"
     }
   },
   "JinF": {
-    "id": "040022_JinF_col1",
+    "id": "010010_JinF_col1",
     "data": {
-      "skeleton": "00012184",
+      "skeleton": "00012186",
       "texture": "00012182",
       "material": "00019135",
-      "col1Material": "00012183",
+      "col1Material": "00019135",
       "col": "col1",
-      "core": "040022_JinF",
-      "code": "040022",
+      "core": "010010_JinF",
+      "code": "010010",
       "race": "JinF",
-      "pic": "Attach_040022_All.png"
+      "pic": null
     }
   },
   "Lyn": {

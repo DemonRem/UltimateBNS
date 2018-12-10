@@ -14,31 +14,31 @@
     }
   },
   "JinF": {
-    "id": "60046_JinF_col1",
+    "id": "60048_JinF_col1",
     "data": {
-      "skeleton": "00012176",
-      "texture": "00012174",
-      "material": "00012175",
-      "col1Material": "00012175",
+      "skeleton": "00012517",
+      "texture": "00012516",
+      "material": "00012515",
+      "col1Material": "00012515",
       "col": "col1",
-      "core": "60046_JinF",
-      "code": "60046",
+      "core": "60048_JinF",
+      "code": "60048",
       "race": "JinF",
-      "pic": "costume_60046_col1_all.png"
+      "pic": "costume_60048_JinM_col1.png"
     }
   },
   "Lyn": {
-    "id": "60133_LynF_col1",
+    "id": "10173_LynF_col1",
     "data": {
-      "skeleton": "00032868",
-      "texture": "00032870",
-      "material": "00032869",
-      "col1Material": "00032869",
+      "skeleton": "00056046",
+      "texture": "00056047",
+      "material": "00056048",
+      "col1Material": "00056048",
       "col": "col1",
-      "core": "60133_LynF",
-      "code": "60133",
+      "core": "10173_LynF",
+      "code": "10173",
       "race": "LynF",
-      "pic": "Costume_60133_JinF_col1.png"
+      "pic": null
     }
   },
   "GonF": {
